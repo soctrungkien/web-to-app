@@ -96,6 +96,7 @@ private val pluginsTitle: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插件"
         AppLanguage.ENGLISH -> "Plugins"
+        AppLanguage.VIETNAMESE -> "Plugin"
         AppLanguage.ARABIC -> "الإضافات"
         AppLanguage.PORTUGUESE -> "Plugins"
         AppLanguage.SPANISH -> "Plugins"
@@ -110,6 +111,7 @@ private val activeOnPage: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此页面运行中"
         AppLanguage.ENGLISH -> "Active on this page"
+        AppLanguage.VIETNAMESE -> "Đang hoạt động trên trang này"
         AppLanguage.ARABIC -> "نشط على هذه الصفحة"
         AppLanguage.PORTUGUESE -> "Ativo nesta página"
         AppLanguage.SPANISH -> "Activo en esta página"
@@ -124,6 +126,7 @@ private val inactiveOnPage: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面不匹配"
         AppLanguage.ENGLISH -> "Does not match this page"
+        AppLanguage.VIETNAMESE -> "Không khớp với trang này"
         AppLanguage.ARABIC -> "لا يطابق هذه الصفحة"
         AppLanguage.PORTUGUESE -> "Não corresponde a esta página"
         AppLanguage.SPANISH -> "No coincide con esta página"
@@ -138,6 +141,7 @@ private val closeLabel: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭"
         AppLanguage.ENGLISH -> "Close"
+        AppLanguage.VIETNAMESE -> "Đóng"
         AppLanguage.ARABIC -> "إغلاق"
         AppLanguage.PORTUGUESE -> "Fechar"
         AppLanguage.SPANISH -> "Cerrar"
@@ -152,6 +156,7 @@ private val noPluginsInstalled: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有已启用的插件"
         AppLanguage.ENGLISH -> "No enabled plugins"
+        AppLanguage.VIETNAMESE -> "Không có plugin nhúng"
         AppLanguage.ARABIC -> "لا توجد إضافات مفعّلة"
         AppLanguage.PORTUGUESE -> "Nenhum plugin ativo"
         AppLanguage.SPANISH -> "No hay plugins activos"
@@ -166,6 +171,7 @@ private val pluginsUnsupportedByKernel: String
     @Composable get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "这个内核不能运行插件，请改用系统 WebView"
         AppLanguage.ENGLISH -> "This kernel can't run plugins. Use System WebView"
+        AppLanguage.VIETNAMESE -> "Kernel này không thể chạy các plugin. Hãy sử dụng System WebView."
         AppLanguage.ARABIC -> "هذا المحرك لا يشغّل الإضافات. استخدم WebView النظام"
         AppLanguage.PORTUGUESE -> "Este núcleo não executa plugins. Use o WebView do sistema"
         AppLanguage.SPANISH -> "Este núcleo no ejecuta plugins. Usa el WebView del sistema"

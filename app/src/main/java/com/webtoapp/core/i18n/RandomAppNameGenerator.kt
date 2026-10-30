@@ -138,6 +138,7 @@ object RandomAppNameGenerator {
         return when (Strings.currentLanguage.value) {
             AppLanguage.CHINESE -> generateChinese()
             AppLanguage.ENGLISH -> generateEnglish()
+            AppLanguage.VIETNAMESE -> generateEnglish()
             AppLanguage.ARABIC -> generateArabic()
             AppLanguage.PORTUGUESE -> generateEnglish()
             AppLanguage.SPANISH -> generateEnglish()
@@ -153,6 +154,7 @@ object RandomAppNameGenerator {
         return when (language) {
             AppLanguage.CHINESE -> generateChinese()
             AppLanguage.ENGLISH -> generateEnglish()
+            AppLanguage.VIETNAMESE -> generateEnglish()
             AppLanguage.ARABIC -> generateArabic()
             AppLanguage.PORTUGUESE -> generateEnglish()
             AppLanguage.SPANISH -> generateEnglish()

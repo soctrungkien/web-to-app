@@ -2178,6 +2178,7 @@ class WebViewManager(
             when (Strings.lang) {
                 com.webtoapp.core.i18n.AppLanguage.CHINESE -> "插件通知"
                 com.webtoapp.core.i18n.AppLanguage.ENGLISH -> "Plugin notifications"
+                com.webtoapp.core.i18n.AppLanguage.VIETNAMESE -> "Thông báo plugin"
                 com.webtoapp.core.i18n.AppLanguage.ARABIC -> "إشعارات الإضافات"
                 com.webtoapp.core.i18n.AppLanguage.PORTUGUESE -> "Notificações de plugins"
                 com.webtoapp.core.i18n.AppLanguage.SPANISH -> "Notificaciones de plugins"

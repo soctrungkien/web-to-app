@@ -14,6 +14,7 @@ object PreviewHtmlSupport {
     fun htmlLang(): String = when (Strings.currentLanguage.value) {
         AppLanguage.CHINESE -> "zh"
         AppLanguage.ENGLISH -> "en"
+        AppLanguage.VIETNAMESE -> "vi"
         AppLanguage.ARABIC -> "ar"
         AppLanguage.PORTUGUESE -> "pt"
         AppLanguage.SPANISH -> "es"

@@ -8,6 +8,7 @@ object StringsB {
     val apkAnalysisTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 组成分析"
         AppLanguage.ENGLISH -> "APK Analysis"
+        AppLanguage.VIETNAMESE -> "Phân tích APK"
         AppLanguage.ARABIC -> "تحليل حزمة APK"
         AppLanguage.PORTUGUESE -> "Análise do APK"
         AppLanguage.SPANISH -> "Análisis del APK"
@@ -21,6 +22,7 @@ object StringsB {
     val buildSummaryAppSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "体积"
         AppLanguage.ENGLISH -> "Size"
+        AppLanguage.VIETNAMESE -> "Kích cỡ"
         AppLanguage.ARABIC -> "الحجم"
         AppLanguage.PORTUGUESE -> "Tamanho"
         AppLanguage.SPANISH -> "Tamaño"
@@ -34,6 +36,7 @@ object StringsB {
     val buildSummaryVersion: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本号"
         AppLanguage.ENGLISH -> "Version"
+        AppLanguage.VIETNAMESE -> "Phiên bản"
         AppLanguage.ARABIC -> "الإصدار"
         AppLanguage.PORTUGUESE -> "Versão"
         AppLanguage.SPANISH -> "Versión"
@@ -60,6 +63,7 @@ object StringsB {
     val buildSummarySignature: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "签名"
         AppLanguage.ENGLISH -> "Signature"
+        AppLanguage.VIETNAMESE -> "Chữ ký"
         AppLanguage.ARABIC -> "التوقيع"
         AppLanguage.PORTUGUESE -> "Assinatura"
         AppLanguage.SPANISH -> "Firma"
@@ -73,6 +77,7 @@ object StringsB {
     val buildSummaryLocation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装包目录"
         AppLanguage.ENGLISH -> "APK Location"
+        AppLanguage.VIETNAMESE -> "Vị trí APK"
         AppLanguage.ARABIC -> "موقع APK"
         AppLanguage.PORTUGUESE -> "Local do APK"
         AppLanguage.SPANISH -> "Ubicación del APK"
@@ -86,6 +91,7 @@ object StringsB {
     val buildSummaryOpenWith: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享"
         AppLanguage.ENGLISH -> "Share"
+        AppLanguage.VIETNAMESE -> "Chia sẻ"
         AppLanguage.ARABIC -> "مشاركة"
         AppLanguage.PORTUGUESE -> "Compartilhar"
         AppLanguage.SPANISH -> "Compartir"
@@ -99,6 +105,7 @@ object StringsB {
     val buildSummaryCopyPath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制路径"
         AppLanguage.ENGLISH -> "Copy path"
+        AppLanguage.VIETNAMESE -> "Sao chép đường dẫn"
         AppLanguage.ARABIC -> "نسخ المسار"
         AppLanguage.PORTUGUESE -> "Copiar caminho"
         AppLanguage.SPANISH -> "Copiar ruta"
@@ -112,6 +119,7 @@ object StringsB {
     val saveAsScheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存为方案"
         AppLanguage.ENGLISH -> "Save as Scheme"
+        AppLanguage.VIETNAMESE -> "Lưu dưới dạng lược đồ"
         AppLanguage.ARABIC -> "حفظ كمخطط"
         AppLanguage.PORTUGUESE -> "Salvar como Esquema"
         AppLanguage.SPANISH -> "Guardar como Esquema"
@@ -125,6 +133,7 @@ object StringsB {
     val clearAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Limpiar"
@@ -138,6 +147,7 @@ object StringsB {
     val selectModules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择模块"
         AppLanguage.ENGLISH -> "Select Modules"
+        AppLanguage.VIETNAMESE -> "Chọn mô-đun"
         AppLanguage.ARABIC -> "اختيار الوحدات"
         AppLanguage.PORTUGUESE -> "Selecionar Módulos"
         AppLanguage.SPANISH -> "Seleccionar Módulos"
@@ -151,6 +161,7 @@ object StringsB {
     val selectExtensionModules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择扩展模块"
         AppLanguage.ENGLISH -> "Select Extension Modules"
+        AppLanguage.VIETNAMESE -> "Chọn mô-đun mở rộng"
         AppLanguage.ARABIC -> "اختيار الوحدات الإضافية"
         AppLanguage.PORTUGUESE -> "Selecionar Módulos de Extensão"
         AppLanguage.SPANISH -> "Seleccionar Módulos de Extensión"
@@ -164,6 +175,7 @@ object StringsB {
     val doneWithCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成 (%d)"
         AppLanguage.ENGLISH -> "Done (%d)"
+        AppLanguage.VIETNAMESE -> "Đã xong (%d)"
         AppLanguage.ARABIC -> "تم (%d)"
         AppLanguage.PORTUGUESE -> "Concluído (%d)"
         AppLanguage.SPANISH -> "Listo (%d)"
@@ -177,6 +189,7 @@ object StringsB {
     val searchModulesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索名称或描述..."
         AppLanguage.ENGLISH -> "Search name or description..."
+        AppLanguage.VIETNAMESE -> "Tìm kiếm tên hoặc mô tả..."
         AppLanguage.ARABIC -> "البحث عن الاسم أو الوصف..."
         AppLanguage.PORTUGUESE -> "Pesquisar nome ou descrição..."
         AppLanguage.SPANISH -> "Buscar nombre o descripción..."
@@ -190,6 +203,7 @@ object StringsB {
     val testModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "测试模块"
         AppLanguage.ENGLISH -> "Test Module"
+        AppLanguage.VIETNAMESE -> "Mô-đun thử nghiệm"
         AppLanguage.ARABIC -> "اختبار الوحدة"
         AppLanguage.PORTUGUESE -> "Testar Módulo"
         AppLanguage.SPANISH -> "Probar Módulo"
@@ -203,6 +217,7 @@ object StringsB {
     val addThisModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加此模块"
         AppLanguage.ENGLISH -> "Add This Module"
+        AppLanguage.VIETNAMESE -> "Thêm mô-đun này"
         AppLanguage.ARABIC -> "إضافة هذه الوحدة"
         AppLanguage.PORTUGUESE -> "Adicionar Este Módulo"
         AppLanguage.SPANISH -> "Añadir Este Módulo"
@@ -216,6 +231,7 @@ object StringsB {
     val moduleSchemes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模块方案"
         AppLanguage.ENGLISH -> "Module Schemes"
+        AppLanguage.VIETNAMESE -> "Sơ đồ mô-đun"
         AppLanguage.ARABIC -> "مخططات الوحدات"
         AppLanguage.PORTUGUESE -> "Esquemas de Módulos"
         AppLanguage.SPANISH -> "Esquemas de Módulos"
@@ -229,6 +245,7 @@ object StringsB {
     val saveAsSchemeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为方案"
         AppLanguage.ENGLISH -> "Save as Scheme"
+        AppLanguage.VIETNAMESE -> "Lưu dưới dạng lược đồ"
         AppLanguage.ARABIC -> "حفظ كمخطط"
         AppLanguage.PORTUGUESE -> "Salvar como Esquema"
         AppLanguage.SPANISH -> "Guardar como Esquema"
@@ -242,6 +259,7 @@ object StringsB {
     val schemeName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "方案名称"
         AppLanguage.ENGLISH -> "Scheme Name"
+        AppLanguage.VIETNAMESE -> "Tên chương trình"
         AppLanguage.ARABIC -> "اسم المخطط"
         AppLanguage.PORTUGUESE -> "Nome do Esquema"
         AppLanguage.SPANISH -> "Nombre del Esquema"
@@ -255,6 +273,7 @@ object StringsB {
     val inputSchemeName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入方案名称"
         AppLanguage.ENGLISH -> "Enter scheme name"
+        AppLanguage.VIETNAMESE -> "Nhập tên sơ đồ"
         AppLanguage.ARABIC -> "أدخل اسم المخطط"
         AppLanguage.PORTUGUESE -> "Digite o nome do esquema"
         AppLanguage.SPANISH -> "Ingrese el nombre del esquema"
@@ -268,6 +287,7 @@ object StringsB {
     val selectIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Select icon"
         AppLanguage.ENGLISH -> "Select Icon"
+        AppLanguage.VIETNAMESE -> "Chọn biểu tượng"
         AppLanguage.ARABIC -> "اختيار أيقونة"
         AppLanguage.PORTUGUESE -> "Selecionar Ícone"
         AppLanguage.SPANISH -> "Seleccionar Icono"
@@ -281,6 +301,7 @@ object StringsB {
     val exportData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出数据"
         AppLanguage.ENGLISH -> "Export Data"
+        AppLanguage.VIETNAMESE -> "Xuất dữ liệu"
         AppLanguage.ARABIC -> "تصدير البيانات"
         AppLanguage.PORTUGUESE -> "Exportar Dados"
         AppLanguage.SPANISH -> "Exportar Datos"
@@ -294,6 +315,7 @@ object StringsB {
     val importData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入数据"
         AppLanguage.ENGLISH -> "Import Data"
+        AppLanguage.VIETNAMESE -> "Nhập dữ liệu"
         AppLanguage.ARABIC -> "استيراد البيانات"
         AppLanguage.PORTUGUESE -> "Importar Dados"
         AppLanguage.SPANISH -> "Importar Datos"
@@ -307,6 +329,7 @@ object StringsB {
     val launchTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动时间"
         AppLanguage.ENGLISH -> "Launch Time"
+        AppLanguage.VIETNAMESE -> "Thời gian ra mắt"
         AppLanguage.ARABIC -> "وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Hora de Inicialização"
         AppLanguage.SPANISH -> "Hora de Inicio"
@@ -320,6 +343,7 @@ object StringsB {
     val selectLaunchTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择启动时间"
         AppLanguage.ENGLISH -> "Select Launch Time"
+        AppLanguage.VIETNAMESE -> "Chọn thời gian khởi chạy"
         AppLanguage.ARABIC -> "اختيار وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Selecionar Hora de Inicialização"
         AppLanguage.SPANISH -> "Seleccionar Hora de Inicio"
@@ -333,6 +357,7 @@ object StringsB {
     val refresh: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "刷新"
         AppLanguage.ENGLISH -> "Refresh"
+        AppLanguage.VIETNAMESE -> "Làm cho khỏe lại"
         AppLanguage.ARABIC -> "تحديث"
         AppLanguage.PORTUGUESE -> "Atualizar"
         AppLanguage.SPANISH -> "Actualizar"
@@ -346,6 +371,7 @@ object StringsB {
     val goBack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后退"
         AppLanguage.ENGLISH -> "Back"
+        AppLanguage.VIETNAMESE -> "Mặt sau"
         AppLanguage.ARABIC -> "رجوع"
         AppLanguage.PORTUGUESE -> "Voltar"
         AppLanguage.SPANISH -> "Atrás"
@@ -359,6 +385,7 @@ object StringsB {
     val goForward: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "前进"
         AppLanguage.ENGLISH -> "Forward"
+        AppLanguage.VIETNAMESE -> "Phía trước"
         AppLanguage.ARABIC -> "إلى الأمام"
         AppLanguage.PORTUGUESE -> "Avançar"
         AppLanguage.SPANISH -> "Adelante"
@@ -374,6 +401,7 @@ object StringsB {
     val moduleNameRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模块名称 *"
         AppLanguage.ENGLISH -> "Module Name *"
+        AppLanguage.VIETNAMESE -> "Tên mô-đun *"
         AppLanguage.ARABIC -> "اسم الوحدة *"
         AppLanguage.PORTUGUESE -> "Nome do Módulo *"
         AppLanguage.SPANISH -> "Nombre del Módulo *"
@@ -387,6 +415,7 @@ object StringsB {
     val inputModuleName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入模块名称"
         AppLanguage.ENGLISH -> "Enter module name"
+        AppLanguage.VIETNAMESE -> "Nhập tên mô-đun"
         AppLanguage.ARABIC -> "أدخل اسم الوحدة"
         AppLanguage.PORTUGUESE -> "Digite o nome do módulo"
         AppLanguage.SPANISH -> "Ingrese el nombre del módulo"
@@ -400,6 +429,7 @@ object StringsB {
     val editModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑模块"
         AppLanguage.ENGLISH -> "Edit Module"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa mô-đun"
         AppLanguage.ARABIC -> "تعديل الوحدة"
         AppLanguage.PORTUGUESE -> "Editar Módulo"
         AppLanguage.SPANISH -> "Editar Módulo"
@@ -413,6 +443,7 @@ object StringsB {
     val useTemplate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用模板"
         AppLanguage.ENGLISH -> "Use Template"
+        AppLanguage.VIETNAMESE -> "Sử dụng mẫu"
         AppLanguage.ARABIC -> "استخدام القالب"
         AppLanguage.PORTUGUESE -> "Usar Modelo"
         AppLanguage.SPANISH -> "Usar Plantilla"
@@ -426,6 +457,7 @@ object StringsB {
     val basicInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "基本信息"
         AppLanguage.ENGLISH -> "Basic Info"
+        AppLanguage.VIETNAMESE -> "Thông tin cơ bản"
         AppLanguage.ARABIC -> "المعلومات الأساسية"
         AppLanguage.PORTUGUESE -> "Informações Básicas"
         AppLanguage.SPANISH -> "Información Básica"
@@ -439,6 +471,7 @@ object StringsB {
     val code: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码"
         AppLanguage.ENGLISH -> "Code"
+        AppLanguage.VIETNAMESE -> "Mã số"
         AppLanguage.ARABIC -> "الكود"
         AppLanguage.PORTUGUESE -> "Código"
         AppLanguage.SPANISH -> "Código"
@@ -452,6 +485,7 @@ object StringsB {
     val advancedSettings: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高级设置"
         AppLanguage.ENGLISH -> "Advanced Settings"
+        AppLanguage.VIETNAMESE -> "Cài đặt nâng cao"
         AppLanguage.ARABIC -> "الإعدادات المتقدمة"
         AppLanguage.PORTUGUESE -> "Configurações Avançadas"
         AppLanguage.SPANISH -> "Configuración Avanzada"
@@ -465,6 +499,7 @@ object StringsB {
     val configTemplates: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "配置模板"
         AppLanguage.ENGLISH -> "Config Templates"
+        AppLanguage.VIETNAMESE -> "Mẫu cấu hình"
         AppLanguage.ARABIC -> "قوالب الإعداد"
         AppLanguage.PORTUGUESE -> "Modelos de Configuração"
         AppLanguage.SPANISH -> "Plantillas de Configuración"
@@ -478,6 +513,7 @@ object StringsB {
     val configTemplatesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把当前通用配置保存为模板，创建或编辑任何应用时一键套用"
         AppLanguage.ENGLISH -> "Save the current common config as a template and apply it to any app in one tap"
+        AppLanguage.VIETNAMESE -> "Lưu cấu hình chung hiện tại làm mẫu và áp dụng nó cho bất kỳ ứng dụng nào chỉ bằng một cú chạm"
         AppLanguage.ARABIC -> "احفظ الإعداد العام الحالي كقالب وطبّقه على أي تطبيق بلمسة واحدة"
         AppLanguage.PORTUGUESE -> "Salve a configuração comum atual como modelo e aplique-a a qualquer app com um toque"
         AppLanguage.SPANISH -> "Guarde la configuración común actual como plantilla y aplíquela a cualquier app con un toque"
@@ -491,6 +527,7 @@ object StringsB {
     val templateSaveAs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为模板"
         AppLanguage.ENGLISH -> "Save as template"
+        AppLanguage.VIETNAMESE -> "Lưu dưới dạng mẫu"
         AppLanguage.ARABIC -> "حفظ كقالب"
         AppLanguage.PORTUGUESE -> "Salvar como modelo"
         AppLanguage.SPANISH -> "Guardar como plantilla"
@@ -504,6 +541,7 @@ object StringsB {
     val templateNameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模板名称"
         AppLanguage.ENGLISH -> "Template name"
+        AppLanguage.VIETNAMESE -> "Tên mẫu"
         AppLanguage.ARABIC -> "اسم القالب"
         AppLanguage.PORTUGUESE -> "Nome do modelo"
         AppLanguage.SPANISH -> "Nombre de la plantilla"
@@ -517,6 +555,7 @@ object StringsB {
     val templateApplyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击模板名称，将其套用到当前应用（整体替换通用配置）："
         AppLanguage.ENGLISH -> "Tap a template name to apply it to the current app (replaces the whole common config):"
+        AppLanguage.VIETNAMESE -> "Nhấn vào tên mẫu để áp dụng nó cho ứng dụng hiện tại (thay thế toàn bộ cấu hình chung):"
         AppLanguage.ARABIC -> "اضغط على اسم القالب لتطبيقه على التطبيق الحالي (يستبدل الإعداد العام بالكامل):"
         AppLanguage.PORTUGUESE -> "Toque no nome de um modelo para aplicá-lo ao app atual (substitui toda a configuração comum):"
         AppLanguage.SPANISH -> "Toque el nombre de una plantilla para aplicarla a la app actual (reemplaza toda la configuración común):"
@@ -530,6 +569,7 @@ object StringsB {
     val templateManage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "管理模板"
         AppLanguage.ENGLISH -> "Manage templates"
+        AppLanguage.VIETNAMESE -> "Quản lý mẫu"
         AppLanguage.ARABIC -> "إدارة القوالب"
         AppLanguage.PORTUGUESE -> "Gerenciar modelos"
         AppLanguage.SPANISH -> "Gestionar plantillas"
@@ -543,6 +583,7 @@ object StringsB {
     val templateRename: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重命名模板"
         AppLanguage.ENGLISH -> "Rename template"
+        AppLanguage.VIETNAMESE -> "Đổi tên mẫu"
         AppLanguage.ARABIC -> "إعادة تسمية القالب"
         AppLanguage.PORTUGUESE -> "Renomear modelo"
         AppLanguage.SPANISH -> "Renombrar plantilla"
@@ -556,6 +597,7 @@ object StringsB {
     val templateEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无模板"
         AppLanguage.ENGLISH -> "No templates yet"
+        AppLanguage.VIETNAMESE -> "Chưa có mẫu nào"
         AppLanguage.ARABIC -> "لا توجد قوالب بعد"
         AppLanguage.PORTUGUESE -> "Ainda não há modelos"
         AppLanguage.SPANISH -> "Aún no hay plantillas"
@@ -569,6 +611,7 @@ object StringsB {
     val templateOverwriteHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "同名模板已存在，保存将覆盖它"
         AppLanguage.ENGLISH -> "A template with this name exists; saving will overwrite it"
+        AppLanguage.VIETNAMESE -> "Đã tồn tại một bản mẫu có tên này; việc lưu sẽ ghi đè lên nó"
         AppLanguage.ARABIC -> "يوجد قالب بهذا الاسم؛ الحفظ سيستبدله"
         AppLanguage.PORTUGUESE -> "Já existe um modelo com este nome; salvar o substituirá"
         AppLanguage.SPANISH -> "Ya existe una plantilla con este nombre; guardar la sobrescribirá"
@@ -582,6 +625,7 @@ object StringsB {
     fun templateApplied(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已套用模板「$name」"
         AppLanguage.ENGLISH -> "Applied template \"$name\""
+        AppLanguage.VIETNAMESE -> "Mẫu được áp dụng \"$name\""
         AppLanguage.ARABIC -> "تم تطبيق القالب \"$name\""
         AppLanguage.PORTUGUESE -> "Modelo \"$name\" aplicado"
         AppLanguage.SPANISH -> "Plantilla \"$name\" aplicada"
@@ -595,6 +639,7 @@ object StringsB {
     fun templateSaved(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "模板「$name」已保存"
         AppLanguage.ENGLISH -> "Template \"$name\" saved"
+        AppLanguage.VIETNAMESE -> "Đã lưu mẫu \"$name\""
         AppLanguage.ARABIC -> "تم حفظ القالب \"$name\""
         AppLanguage.PORTUGUESE -> "Modelo \"$name\" salvo"
         AppLanguage.SPANISH -> "Plantilla \"$name\" guardada"
@@ -608,6 +653,7 @@ object StringsB {
     val templateExportCurrent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出当前配置"
         AppLanguage.ENGLISH -> "Export current config"
+        AppLanguage.VIETNAMESE -> "Xuất cấu hình hiện tại"
         AppLanguage.ARABIC -> "تصدير الإعداد الحالي"
         AppLanguage.PORTUGUESE -> "Exportar configuração atual"
         AppLanguage.SPANISH -> "Exportar configuración actual"
@@ -621,6 +667,7 @@ object StringsB {
     val templateImport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入配置"
         AppLanguage.ENGLISH -> "Import config"
+        AppLanguage.VIETNAMESE -> "Nhập cấu hình"
         AppLanguage.ARABIC -> "استيراد إعداد"
         AppLanguage.PORTUGUESE -> "Importar configuração"
         AppLanguage.SPANISH -> "Importar configuración"
@@ -634,6 +681,7 @@ object StringsB {
     val templateExport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出"
         AppLanguage.ENGLISH -> "Export"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu"
         AppLanguage.ARABIC -> "تصدير"
         AppLanguage.PORTUGUESE -> "Exportar"
         AppLanguage.SPANISH -> "Exportar"
@@ -647,6 +695,7 @@ object StringsB {
     val templateExported: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "配置已导出"
         AppLanguage.ENGLISH -> "Config exported"
+        AppLanguage.VIETNAMESE -> "Đã xuất cấu hình"
         AppLanguage.ARABIC -> "تم تصدير الإعداد"
         AppLanguage.PORTUGUESE -> "Configuração exportada"
         AppLanguage.SPANISH -> "Configuración exportada"
@@ -660,6 +709,7 @@ object StringsB {
     val templateExportFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出配置失败"
         AppLanguage.ENGLISH -> "Could not export the config"
+        AppLanguage.VIETNAMESE -> "Không thể xuất cấu hình"
         AppLanguage.ARABIC -> "تعذر تصدير الإعداد"
         AppLanguage.PORTUGUESE -> "Não foi possível exportar a configuração"
         AppLanguage.SPANISH -> "No se pudo exportar la configuración"
@@ -673,6 +723,7 @@ object StringsB {
     val templateImportFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法读取这份配置"
         AppLanguage.ENGLISH -> "Could not read this config"
+        AppLanguage.VIETNAMESE -> "Không thể đọc cấu hình này"
         AppLanguage.ARABIC -> "تعذر قراءة هذا الإعداد"
         AppLanguage.PORTUGUESE -> "Não foi possível ler esta configuração"
         AppLanguage.SPANISH -> "No se pudo leer esta configuración"
@@ -686,6 +737,7 @@ object StringsB {
     fun templateImported(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已导入并套用「$name」"
         AppLanguage.ENGLISH -> "Imported and applied \"$name\""
+        AppLanguage.VIETNAMESE -> "Đã nhập và áp dụng \"$name\""
         AppLanguage.ARABIC -> "تم استيراد \"$name\" وتطبيقه"
         AppLanguage.PORTUGUESE -> "\"$name\" importado e aplicado"
         AppLanguage.SPANISH -> "\"$name\" importada y aplicada"
@@ -699,6 +751,7 @@ object StringsB {
     val sectionWebEngine: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "引擎与显示"
         AppLanguage.ENGLISH -> "Engine & Display"
+        AppLanguage.VIETNAMESE -> "Động cơ & Màn hình"
         AppLanguage.ARABIC -> "المحرك والعرض"
         AppLanguage.PORTUGUESE -> "Motor & Exibição"
         AppLanguage.SPANISH -> "Motor & Visualización"
@@ -712,6 +765,7 @@ object StringsB {
     val sectionNavigation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导航与交互"
         AppLanguage.ENGLISH -> "Navigation & Interaction"
+        AppLanguage.VIETNAMESE -> "Điều hướng & Tương tác"
         AppLanguage.ARABIC -> "التنقل والتفاعل"
         AppLanguage.PORTUGUESE -> "Navegação & Interação"
         AppLanguage.SPANISH -> "Navegación & Interacción"
@@ -725,6 +779,7 @@ object StringsB {
     val sectionOfflinePerformance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络与离线"
         AppLanguage.ENGLISH -> "Network & Offline"
+        AppLanguage.VIETNAMESE -> "Mạng & Ngoại tuyến"
         AppLanguage.ARABIC -> "الشبكة وعدم الاتصال"
         AppLanguage.PORTUGUESE -> "Rede & Offline"
         AppLanguage.SPANISH -> "Red & Sin Conexión"
@@ -738,6 +793,7 @@ object StringsB {
     val sectionDeveloper: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发者工具"
         AppLanguage.ENGLISH -> "Developer"
+        AppLanguage.VIETNAMESE -> "Nhà phát triển"
         AppLanguage.ARABIC -> "المطور"
         AppLanguage.PORTUGUESE -> "Desenvolvedor"
         AppLanguage.SPANISH -> "Desarrollador"
@@ -751,6 +807,7 @@ object StringsB {
     val sectionBrowserIdentity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览器身份"
         AppLanguage.ENGLISH -> "Browser Identity"
+        AppLanguage.VIETNAMESE -> "Nhận dạng trình duyệt"
         AppLanguage.ARABIC -> "هوية المتصفح"
         AppLanguage.PORTUGUESE -> "Identidade do Navegador"
         AppLanguage.SPANISH -> "Identidad del navegador"
@@ -764,6 +821,7 @@ object StringsB {
     val sectionOfflineCache: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "离线与缓存"
         AppLanguage.ENGLISH -> "Offline & Cache"
+        AppLanguage.VIETNAMESE -> "Ngoại tuyến & Bộ nhớ đệm"
         AppLanguage.ARABIC -> "عدم الاتصال والتخزين المؤقت"
         AppLanguage.PORTUGUESE -> "Offline e Cache"
         AppLanguage.SPANISH -> "Sin conexión y caché"
@@ -777,6 +835,7 @@ object StringsB {
     val sectionNetworkAccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络接入"
         AppLanguage.ENGLISH -> "Network Access"
+        AppLanguage.VIETNAMESE -> "Truy cập mạng"
         AppLanguage.ARABIC -> "الوصول إلى الشبكة"
         AppLanguage.PORTUGUESE -> "Acesso à Rede"
         AppLanguage.SPANISH -> "Acceso a la red"
@@ -790,6 +849,7 @@ object StringsB {
     val selectCategory: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择分类"
         AppLanguage.ENGLISH -> "Select Category"
+        AppLanguage.VIETNAMESE -> "Chọn danh mục"
         AppLanguage.ARABIC -> "اختيار الفئة"
         AppLanguage.PORTUGUESE -> "Selecionar Categoria"
         AppLanguage.SPANISH -> "Seleccionar Categoría"
@@ -803,6 +863,7 @@ object StringsB {
     val runTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "执行时机"
         AppLanguage.ENGLISH -> "Run Time"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy"
         AppLanguage.ARABIC -> "وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Momento de Execução"
         AppLanguage.SPANISH -> "Momento de Ejecución"
@@ -816,6 +877,7 @@ object StringsB {
     val requiredPermissions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "所需权限"
         AppLanguage.ENGLISH -> "Required Permissions"
+        AppLanguage.VIETNAMESE -> "Quyền cần thiết"
         AppLanguage.ARABIC -> "الأذونات المطلوبة"
         AppLanguage.PORTUGUESE -> "Permissões Necessárias"
         AppLanguage.SPANISH -> "Permisos Requeridos"
@@ -829,6 +891,7 @@ object StringsB {
     val sensitive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "敏感"
         AppLanguage.ENGLISH -> "Sensitive"
+        AppLanguage.VIETNAMESE -> "Nhạy cảm"
         AppLanguage.ARABIC -> "حساس"
         AppLanguage.PORTUGUESE -> "Sensível"
         AppLanguage.SPANISH -> "Sensible"
@@ -842,6 +905,7 @@ object StringsB {
     val confirm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "OK"
         AppLanguage.ENGLISH -> "Confirm"
+        AppLanguage.VIETNAMESE -> "Xác nhận"
         AppLanguage.ARABIC -> "تأكيد"
         AppLanguage.PORTUGUESE -> "Confirmar"
         AppLanguage.SPANISH -> "Confirmar"
@@ -855,6 +919,7 @@ object StringsB {
     val category: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分类"
         AppLanguage.ENGLISH -> "Category"
+        AppLanguage.VIETNAMESE -> "Loại"
         AppLanguage.ARABIC -> "الفئة"
         AppLanguage.PORTUGUESE -> "Categoria"
         AppLanguage.SPANISH -> "Categoría"
@@ -868,6 +933,7 @@ object StringsB {
     val moduleInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模块信息"
         AppLanguage.ENGLISH -> "Module Info"
+        AppLanguage.VIETNAMESE -> "Thông tin mô-đun"
         AppLanguage.ARABIC -> "معلومات الوحدة"
         AppLanguage.PORTUGUESE -> "Informações do Módulo"
         AppLanguage.SPANISH -> "Información del Módulo"
@@ -881,6 +947,7 @@ object StringsB {
     val codeSnippets: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码块"
         AppLanguage.ENGLISH -> "Code Snippets"
+        AppLanguage.VIETNAMESE -> "Đoạn mã"
         AppLanguage.ARABIC -> "مقتطفات الكود"
         AppLanguage.PORTUGUESE -> "Trechos de Código"
         AppLanguage.SPANISH -> "Fragmentos de Código"
@@ -894,6 +961,7 @@ object StringsB {
     val availableFunctions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可用函数"
         AppLanguage.ENGLISH -> "Available Functions"
+        AppLanguage.VIETNAMESE -> "Chức năng có sẵn"
         AppLanguage.ARABIC -> "الدوال المتاحة"
         AppLanguage.PORTUGUESE -> "Funções Disponíveis"
         AppLanguage.SPANISH -> "Funciones Disponibles"
@@ -907,6 +975,7 @@ object StringsB {
     val cssTips: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 提示"
         AppLanguage.ENGLISH -> "CSS Tips"
+        AppLanguage.VIETNAMESE -> "Mẹo CSS"
         AppLanguage.ARABIC -> "نصائح CSS"
         AppLanguage.PORTUGUESE -> "Dicas de CSS"
         AppLanguage.SPANISH -> "Consejos CSS"
@@ -920,6 +989,7 @@ object StringsB {
     val jsFunctionsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "• getConfig(key, defaultValue) - 获取用户配置\n• __MODULE_INFO__ - 模块信息对象\n• __MODULE_CONFIG__ - 配置值对象"
         AppLanguage.ENGLISH -> "• getConfig(key, defaultValue) - Get user config\n• __MODULE_INFO__ - Module info object\n• __MODULE_CONFIG__ - Config values object"
+        AppLanguage.VIETNAMESE -> "• getConfig(key, defaultValue) - Lấy cấu hình người dùng\n• __MODULE_INFO__ - Đối tượng thông tin mô-đun\n• __MODULE_CONFIG__ - Đối tượng giá trị cấu hình"
         AppLanguage.ARABIC -> "• getConfig(key, defaultValue) - الحصول على تكوين المستخدم\n• __MODULE_INFO__ - كائن معلومات الوحدة\n• __MODULE_CONFIG__ - كائن قيم التكوين"
         AppLanguage.PORTUGUESE -> "• getConfig(key, defaultValue) - Obter configuração do usuário\n• __MODULE_INFO__ - Objeto de informações do módulo\n• __MODULE_CONFIG__ - Objeto de valores de configuração"
         AppLanguage.SPANISH -> "• getConfig(key, defaultValue) - Obtener configuración del usuario\n• __MODULE_INFO__ - Objeto de información del módulo\n• __MODULE_CONFIG__ - Objeto de valores de configuración"
@@ -933,6 +1003,7 @@ object StringsB {
     val cssHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "• CSS 会自动注入到页面 <head>\n• 使用 !important 确保样式生效"
         AppLanguage.ENGLISH -> "• CSS will be auto-injected into page <head>\n• Use !important to ensure styles take effect"
+        AppLanguage.VIETNAMESE -> "• CSS sẽ được tự động chèn vào trang <head>\n• Sử dụng !important để đảm bảo các kiểu có hiệu lực"
         AppLanguage.ARABIC -> "• سيتم حقن CSS تلقائيًا في <head> الصفحة\n• استخدم !important لضمان تطبيق الأنماط"
         AppLanguage.PORTUGUESE -> "• CSS será auto-injetado no <head> da página\n• Use !important para garantir que os estilos funcionem"
         AppLanguage.SPANISH -> "• CSS se auto-inyectará en el <head> de la página\n• Usa !important para asegurar que los estilos surtan efecto"
@@ -946,6 +1017,7 @@ object StringsB {
     val noSpecialPermissions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无特殊权限"
         AppLanguage.ENGLISH -> "No special permissions"
+        AppLanguage.VIETNAMESE -> "Không có quyền đặc biệt"
         AppLanguage.ARABIC -> "لا توجد أذونات خاصة"
         AppLanguage.PORTUGUESE -> "Sem permissões especiais"
         AppLanguage.SPANISH -> "Sin permisos especiales"
@@ -959,6 +1031,7 @@ object StringsB {
     val urlMatchRules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "URL match rules"
         AppLanguage.ENGLISH -> "URL Match Rules"
+        AppLanguage.VIETNAMESE -> "Quy tắc so khớp URL"
         AppLanguage.ARABIC -> "قواعد مطابقة URL"
         AppLanguage.PORTUGUESE -> "Regras de Correspondência de URL"
         AppLanguage.SPANISH -> "Reglas de Coincidencia de URL"
@@ -972,6 +1045,7 @@ object StringsB {
     val matchAllWebsites: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "匹配所有网站"
         AppLanguage.ENGLISH -> "Match all websites"
+        AppLanguage.VIETNAMESE -> "Phù hợp với tất cả các trang web"
         AppLanguage.ARABIC -> "مطابقة جميع المواقع"
         AppLanguage.PORTUGUESE -> "Corresponder a todos os sites"
         AppLanguage.SPANISH -> "Coincidir con todos los sitios"
@@ -985,6 +1059,7 @@ object StringsB {
     val rulesCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 条规则"
         AppLanguage.ENGLISH -> "%d rules"
+        AppLanguage.VIETNAMESE -> "Quy tắc %d"
         AppLanguage.ARABIC -> "%d قواعد"
         AppLanguage.PORTUGUESE -> "%d regras"
         AppLanguage.SPANISH -> "%d reglas"
@@ -998,6 +1073,7 @@ object StringsB {
     val userConfigItems: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户配置项"
         AppLanguage.ENGLISH -> "User Config Items"
+        AppLanguage.VIETNAMESE -> "Mục cấu hình người dùng"
         AppLanguage.ARABIC -> "عناصر تكوين المستخدم"
         AppLanguage.PORTUGUESE -> "Itens de Configuração do Usuário"
         AppLanguage.SPANISH -> "Elementos de Configuración del Usuario"
@@ -1011,6 +1087,7 @@ object StringsB {
     val noConfigItems: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无可配置项"
         AppLanguage.ENGLISH -> "No config items"
+        AppLanguage.VIETNAMESE -> "Không có mục cấu hình"
         AppLanguage.ARABIC -> "لا توجد عناصر تكوين"
         AppLanguage.PORTUGUESE -> "Sem itens de configuração"
         AppLanguage.SPANISH -> "Sin elementos de configuración"
@@ -1024,6 +1101,7 @@ object StringsB {
     val configItemsCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个配置项"
         AppLanguage.ENGLISH -> "%d config items"
+        AppLanguage.VIETNAMESE -> "Các mục cấu hình %d"
         AppLanguage.ARABIC -> "%d عناصر تكوين"
         AppLanguage.PORTUGUESE -> "%d itens de configuração"
         AppLanguage.SPANISH -> "%d elementos de configuración"
@@ -1037,6 +1115,7 @@ object StringsB {
     val developerGuide: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发指南"
         AppLanguage.ENGLISH -> "Developer Guide"
+        AppLanguage.VIETNAMESE -> "Hướng dẫn dành cho nhà phát triển"
         AppLanguage.ARABIC -> "دليل المطور"
         AppLanguage.PORTUGUESE -> "Guia do Desenvolvedor"
         AppLanguage.SPANISH -> "Guía del Desarrollador"
@@ -1050,6 +1129,7 @@ object StringsB {
     val developerGuideContent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "• URL 匹配：留空则在所有网站生效\n• 配置项：让用户自定义模块行为\n• 权限声明：告知用户模块需要的能力\n• 执行时机：控制代码何时运行"
         AppLanguage.ENGLISH -> "• URL Match: Leave empty to apply on all websites\n• Config Items: Let users customize module behavior\n• Permissions: Inform users of required capabilities\n• Run Time: Control when code runs"
+        AppLanguage.VIETNAMESE -> "• So khớp URL: Để trống để áp dụng trên tất cả các trang web\n• Mục cấu hình: Cho phép người dùng tùy chỉnh hoạt động của mô-đun\n• Quyền: Thông báo cho người dùng về các khả năng cần thiết\n• Thời gian chạy: Kiểm soát thời điểm mã chạy"
         AppLanguage.ARABIC -> "• مطابقة URL: اتركه فارغًا للتطبيق على جميع المواقع\n• عناصر التكوين: السماح للمستخدمين بتخصيص سلوك الوحدة\n• الأذونات: إعلام المستخدمين بالقدرات المطلوبة\n• وقت التشغيل: التحكم في وقت تشغيل الكود"
         AppLanguage.PORTUGUESE -> "• Correspondência de URL: deixe vazio para aplicar em todos os sites\n• Itens de Config: permite que usuários personalizem o comportamento do módulo\n• Permissões: informa aos usuários as capacidades necessárias\n• Momento de Execução: controla quando o código é executado"
         AppLanguage.SPANISH -> "• Coincidencia de URL: dejar vacío para aplicar en todos los sitios\n• Elementos de Config: permite a los usuarios personalizar el comportamiento del módulo\n• Permisos: informa a los usuarios de las capacidades requeridas\n• Momento de Ejecución: controla cuándo se ejecuta el código"
@@ -1063,6 +1143,7 @@ object StringsB {
     val regex: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正则"
         AppLanguage.ENGLISH -> "Regex"
+        AppLanguage.VIETNAMESE -> "Biểu thức chính quy"
         AppLanguage.ARABIC -> "تعبير نمطي"
         AppLanguage.PORTUGUESE -> "Regex"
         AppLanguage.SPANISH -> "Regex"
@@ -1076,6 +1157,7 @@ object StringsB {
     val exclude: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排除"
         AppLanguage.ENGLISH -> "Exclude"
+        AppLanguage.VIETNAMESE -> "Loại trừ"
         AppLanguage.ARABIC -> "استبعاد"
         AppLanguage.PORTUGUESE -> "Excluir"
         AppLanguage.SPANISH -> "Excluir"
@@ -1089,6 +1171,7 @@ object StringsB {
     val include: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包含"
         AppLanguage.ENGLISH -> "Include"
+        AppLanguage.VIETNAMESE -> "Bao gồm"
         AppLanguage.ARABIC -> "تضمين"
         AppLanguage.PORTUGUESE -> "Incluir"
         AppLanguage.SPANISH -> "Incluir"
@@ -1102,6 +1185,7 @@ object StringsB {
     val description: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "描述"
         AppLanguage.ENGLISH -> "Description"
+        AppLanguage.VIETNAMESE -> "Sự miêu tả"
         AppLanguage.ARABIC -> "الوصف"
         AppLanguage.PORTUGUESE -> "Descrição"
         AppLanguage.SPANISH -> "Descripción"
@@ -1115,6 +1199,7 @@ object StringsB {
     val briefModuleDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "简要描述模块功能"
         AppLanguage.ENGLISH -> "Brief description of module function"
+        AppLanguage.VIETNAMESE -> "Mô tả ngắn gọn về chức năng mô-đun"
         AppLanguage.ARABIC -> "وصف موجز لوظيفة الوحدة"
         AppLanguage.PORTUGUESE -> "Breve descrição da função do módulo"
         AppLanguage.SPANISH -> "Breve descripción de la función del módulo"
@@ -1128,6 +1213,7 @@ object StringsB {
     val tags: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标签"
         AppLanguage.ENGLISH -> "Tags"
+        AppLanguage.VIETNAMESE -> "Thẻ"
         AppLanguage.ARABIC -> "العلامات"
         AppLanguage.PORTUGUESE -> "Etiquetas"
         AppLanguage.SPANISH -> "Etiquetas"
@@ -1141,6 +1227,7 @@ object StringsB {
     val tagsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用逗号分隔，如：广告, 屏蔽, 工具"
         AppLanguage.ENGLISH -> "Comma separated, e.g.: ads, block, tools"
+        AppLanguage.VIETNAMESE -> "Được phân tách bằng dấu phẩy, ví dụ: quảng cáo, chặn, công cụ"
         AppLanguage.ARABIC -> "مفصولة بفواصل، مثال: إعلانات، حظر، أدوات"
         AppLanguage.PORTUGUESE -> "Separados por vírgula, ex.: ads, block, tools"
         AppLanguage.SPANISH -> "Separados por comas, ej.: ads, block, tools"
@@ -1154,6 +1241,7 @@ object StringsB {
     val author: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "作者"
         AppLanguage.ENGLISH -> "Author"
+        AppLanguage.VIETNAMESE -> "Tác giả"
         AppLanguage.ARABIC -> "المؤلف"
         AppLanguage.PORTUGUESE -> "Autor"
         AppLanguage.SPANISH -> "Autor"
@@ -1167,6 +1255,7 @@ object StringsB {
     val yourName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "你的名字"
         AppLanguage.ENGLISH -> "Your name"
+        AppLanguage.VIETNAMESE -> "Tên của bạn"
         AppLanguage.ARABIC -> "اسمك"
         AppLanguage.PORTUGUESE -> "Seu nome"
         AppLanguage.SPANISH -> "Tu nombre"
@@ -1180,6 +1269,7 @@ object StringsB {
     val keyNameRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "键名 *"
         AppLanguage.ENGLISH -> "Key Name *"
+        AppLanguage.VIETNAMESE -> "Tên khóa *"
         AppLanguage.ARABIC -> "اسم المفتاح *"
         AppLanguage.PORTUGUESE -> "Nome da Chave *"
         AppLanguage.SPANISH -> "Nombre de Clave *"
@@ -1193,6 +1283,7 @@ object StringsB {
     val displayNameRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示名称 *"
         AppLanguage.ENGLISH -> "Display Name *"
+        AppLanguage.VIETNAMESE -> "Tên hiển thị *"
         AppLanguage.ARABIC -> "اسم العرض *"
         AppLanguage.PORTUGUESE -> "Nome de Exibição *"
         AppLanguage.SPANISH -> "Nombre para Mostrar *"
@@ -1206,6 +1297,7 @@ object StringsB {
     val provider: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "供应商"
         AppLanguage.ENGLISH -> "Provider"
+        AppLanguage.VIETNAMESE -> "nhà cung cấp"
         AppLanguage.ARABIC -> "المزود"
         AppLanguage.PORTUGUESE -> "Fornecedor"
         AppLanguage.SPANISH -> "Proveedor"
@@ -1219,6 +1311,7 @@ object StringsB {
     val modelId: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型 ID"
         AppLanguage.ENGLISH -> "Model ID"
+        AppLanguage.VIETNAMESE -> "Mã mẫu"
         AppLanguage.ARABIC -> "معرف النموذج"
         AppLanguage.PORTUGUESE -> "ID do Modelo"
         AppLanguage.SPANISH -> "ID del Modelo"
@@ -1232,6 +1325,7 @@ object StringsB {
     val aliasOptional: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "别名（可选）"
         AppLanguage.ENGLISH -> "Alias (optional)"
+        AppLanguage.VIETNAMESE -> "Bí danh (tùy chọn)"
         AppLanguage.ARABIC -> "الاسم المستعار (اختياري)"
         AppLanguage.PORTUGUESE -> "Alias (opcional)"
         AppLanguage.SPANISH -> "Alias (opcional)"
@@ -1245,6 +1339,7 @@ object StringsB {
     val alias: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "别名"
         AppLanguage.ENGLISH -> "Alias"
+        AppLanguage.VIETNAMESE -> "Bí danh"
         AppLanguage.ARABIC -> "الاسم المستعار"
         AppLanguage.PORTUGUESE -> "Apelido"
         AppLanguage.SPANISH -> "Alias"
@@ -1258,6 +1353,7 @@ object StringsB {
     val activationCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "激活码"
         AppLanguage.ENGLISH -> "Activation Code"
+        AppLanguage.VIETNAMESE -> "Mã kích hoạt"
         AppLanguage.ARABIC -> "رمز التفعيل"
         AppLanguage.PORTUGUESE -> "Código de Ativação"
         AppLanguage.SPANISH -> "Código de Activación"
@@ -1271,6 +1367,7 @@ object StringsB {
     val customPackageName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义包名"
         AppLanguage.ENGLISH -> "Custom Package Name"
+        AppLanguage.VIETNAMESE -> "Tên gói tùy chỉnh"
         AppLanguage.ARABIC -> "اسم الحزمة المخصص"
         AppLanguage.PORTUGUESE -> "Nome de Pacote Personalizado"
         AppLanguage.SPANISH -> "Nombre de Paquete Personalizado"
@@ -1284,6 +1381,7 @@ object StringsB {
     val packageNameInvalidFormat: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "格式错误，应为小写字母开头，如：com.w2a.app"
         AppLanguage.ENGLISH -> "Invalid format, should start with lowercase letter, e.g.: com.w2a.app"
+        AppLanguage.VIETNAMESE -> "Định dạng không hợp lệ, phải bắt đầu bằng chữ cái viết thường, ví dụ: com.w2a.app"
         AppLanguage.ARABIC -> "تنسيق غير صالح، يجب أن يبدأ بحرف صغير، مثال: com.w2a.app"
         AppLanguage.PORTUGUESE -> "Formato inválido, deve começar com letra minúscula, ex.: com.w2a.app"
         AppLanguage.SPANISH -> "Formato inválido, debe comenzar con letra minúscula, ej.: com.w2a.app"
@@ -1297,6 +1395,7 @@ object StringsB {
     val packageNameHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "留空自动生成，如：com.example.myapp"
         AppLanguage.ENGLISH -> "Leave empty for auto-generation, e.g.: com.example.myapp"
+        AppLanguage.VIETNAMESE -> "Để trống để tạo tự động, ví dụ: com.example.myapp"
         AppLanguage.ARABIC -> "اتركه فارغًا للإنشاء التلقائي، مثال: com.example.myapp"
         AppLanguage.PORTUGUESE -> "Deixe vazio para geração automática, ex.: com.example.myapp"
         AppLanguage.SPANISH -> "Dejar vacío para autogenerar, ej.: com.example.myapp"
@@ -1323,6 +1422,7 @@ object StringsB {
     val versionName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本名"
         AppLanguage.ENGLISH -> "Version Name"
+        AppLanguage.VIETNAMESE -> "Tên phiên bản"
         AppLanguage.ARABIC -> "اسم الإصدار"
         AppLanguage.PORTUGUESE -> "Nome da Versão"
         AppLanguage.SPANISH -> "Nombre de Versión"
@@ -1349,6 +1449,7 @@ object StringsB {
     val versionCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本号"
         AppLanguage.ENGLISH -> "Version Code"
+        AppLanguage.VIETNAMESE -> "Mã phiên bản"
         AppLanguage.ARABIC -> "رقم الإصدار"
         AppLanguage.PORTUGUESE -> "Código da Versão"
         AppLanguage.SPANISH -> "Código de Versión"
@@ -1374,6 +1475,7 @@ object StringsB {
     val saepPolicyTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "静态 SAEP 策略"
         AppLanguage.ENGLISH -> "Static SAEP policy"
+        AppLanguage.VIETNAMESE -> "Chính sách SAEP tĩnh"
         AppLanguage.ARABIC -> "سياسة SAEP ثابتة"
         AppLanguage.PORTUGUESE -> "Política SAEP estática"
         AppLanguage.SPANISH -> "Política SAEP estática"
@@ -1387,6 +1489,7 @@ object StringsB {
     val saepPolicyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可选：声明无额外限制。不授予权限，也不保证智能体支持。默认关闭：省略元数据，并非拒绝访问。"
         AppLanguage.ENGLISH -> "Optional: declares no additional restrictions. Does not grant permissions or guarantee agent support. Off by default: omits metadata, not a denial of access."
+        AppLanguage.VIETNAMESE -> "Tùy chọn: tuyên bố không có hạn chế bổ sung. Không cấp quyền hoặc đảm bảo hỗ trợ đại lý. Tắt theo mặc định: bỏ qua siêu dữ liệu, không từ chối quyền truy cập."
         AppLanguage.ARABIC -> "اختياري: يعلن عدم وجود قيود إضافية. لا يمنح أذونات ولا يضمن دعم الوكلاء. معطل افتراضيًا: تُحذف البيانات الوصفية، وليس رفضًا للوصول."
         AppLanguage.PORTUGUESE -> "Opcional: declara que não há restrições adicionais. Não concede permissões nem garante suporte de agentes. Desativado por padrão: omite metadados, não nega acesso."
         AppLanguage.SPANISH -> "Opcional: declara que no hay restricciones adicionales. No otorga permisos ni garantiza compatibilidad con agentes. Desactivado por defecto: omite metadatos, no deniega el acceso."
@@ -1400,6 +1503,7 @@ object StringsB {
     val autoVersionBump: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动提升版本号"
         AppLanguage.ENGLISH -> "Auto-bump version"
+        AppLanguage.VIETNAMESE -> "Phiên bản tự động va chạm"
         AppLanguage.ARABIC -> "رفع الإصدار تلقائيًا"
         AppLanguage.PORTUGUESE -> "Elevar versão automaticamente"
         AppLanguage.SPANISH -> "Elevar versión automáticamente"
@@ -1413,6 +1517,7 @@ object StringsB {
     val autoVersionBumpHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备已安装同包名且版本号更高的应用时，自动提升构建版本号以便覆盖安装。关闭后始终使用上方填写的版本。"
         AppLanguage.ENGLISH -> "When this package is already installed with a higher versionCode, raises the build's version so it can install. Turn off to always keep the version above."
+        AppLanguage.VIETNAMESE -> "Khi gói này đã được cài đặt với Mã phiên bản cao hơn, hãy nâng phiên bản của bản dựng lên để có thể cài đặt. Tắt đi để luôn giữ phiên bản trên."
         AppLanguage.ARABIC -> "عندما تكون هذه الحزمة مثبتة برقم إصدار أعلى، يتم رفع إصدار البناء ليتمكن من التثبيت. أوقفه لاستخدام الإصدار المحدد أعلاه دائمًا."
         AppLanguage.PORTUGUESE -> "Quando este pacote já está instalado com um versionCode maior, eleva a versão do build para poder instalar. Desative para sempre manter a versão acima."
         AppLanguage.SPANISH -> "Cuando este paquete ya está instalado con un versionCode mayor, eleva la versión del build para poder instalarla. Desactívalo para mantener siempre la versión de arriba."
@@ -1426,6 +1531,7 @@ object StringsB {
     val selectTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择主题"
         AppLanguage.ENGLISH -> "Select Theme"
+        AppLanguage.VIETNAMESE -> "Chọn chủ đề"
         AppLanguage.ARABIC -> "اختيار السمة"
         AppLanguage.PORTUGUESE -> "Selecionar Tema"
         AppLanguage.SPANISH -> "Seleccionar Tema"
@@ -1439,6 +1545,7 @@ object StringsB {
     val translateTargetLanguage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译目标语言"
         AppLanguage.ENGLISH -> "Translation Target Language"
+        AppLanguage.VIETNAMESE -> "Ngôn ngữ đích dịch"
         AppLanguage.ARABIC -> "لغة الترجمة المستهدفة"
         AppLanguage.PORTUGUESE -> "Idioma Alvo da Tradução"
         AppLanguage.SPANISH -> "Idioma Objetivo de Traducción"
@@ -1452,6 +1559,7 @@ object StringsB {
     val adBlockRuleHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如：ads.example.com"
         AppLanguage.ENGLISH -> "e.g.: ads.example.com"
+        AppLanguage.VIETNAMESE -> "ví dụ: ads.example.com"
         AppLanguage.ARABIC -> "مثال: ads.example.com"
         AppLanguage.PORTUGUESE -> "ex.: ads.example.com"
         AppLanguage.SPANISH -> "ej.: ads.example.com"
@@ -1465,6 +1573,7 @@ object StringsB {
     val customBlockRules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义拦截规则（可选）"
         AppLanguage.ENGLISH -> "Custom Block Rules (optional)"
+        AppLanguage.VIETNAMESE -> "Quy tắc chặn tùy chỉnh (tùy chọn)"
         AppLanguage.ARABIC -> "قواعد الحظر المخصصة (اختياري)"
         AppLanguage.PORTUGUESE -> "Regras de Bloqueio Personalizadas (opcional)"
         AppLanguage.SPANISH -> "Reglas de Bloqueo Personalizadas (opcional)"
@@ -1478,6 +1587,7 @@ object StringsB {
     val adBlockNoRules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尚未添加自定义规则。内置社区过滤规则仍然生效。"
         AppLanguage.ENGLISH -> "No custom rules added yet. Built-in community filter lists still apply."
+        AppLanguage.VIETNAMESE -> "Chưa có quy tắc tùy chỉnh nào được thêm vào. Danh sách bộ lọc cộng đồng tích hợp vẫn được áp dụng."
         AppLanguage.ARABIC -> "لم تتم إضافة قواعد مخصصة بعد. قوائم التصفية المجتمعية المدمجة لا تزال سارية."
         AppLanguage.PORTUGUESE -> "Nenhuma regra personalizada adicionada ainda. As listas de filtro da comunidade integradas ainda se aplicam."
         AppLanguage.SPANISH -> "Aún no se han añadido reglas personalizadas. Las listas de filtro de la comunidad integradas siguen aplicándose."
@@ -1491,6 +1601,7 @@ object StringsB {
     val adBlockSubscriptionsLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "订阅规则源"
         AppLanguage.ENGLISH -> "Filter List Subscriptions"
+        AppLanguage.VIETNAMESE -> "Danh sách bộ lọc Đăng ký"
         AppLanguage.ARABIC -> "اشتراكات قوائم التصفية"
         AppLanguage.PORTUGUESE -> "Assinaturas de Listas de Filtro"
         AppLanguage.SPANISH -> "Suscripciones de Listas de Filtros"
@@ -1504,6 +1615,7 @@ object StringsB {
     val adBlockSubscriptionsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "勾选后将下载并编译社区维护的过滤规则,烘焙进生成的 APK"
         AppLanguage.ENGLISH -> "Selected lists are downloaded and compiled into the generated APK"
+        AppLanguage.VIETNAMESE -> "Danh sách đã chọn được tải xuống và biên soạn vào APK đã tạo"
         AppLanguage.ARABIC -> "يتم تنزيل القوائم المحددة وتجميعها في ملف APK الذي تم إنشاؤه"
         AppLanguage.PORTUGUESE -> "As listas selecionadas são baixadas e compiladas no APK gerado"
         AppLanguage.SPANISH -> "Las listas seleccionadas se descargan y compilan en el APK generado"
@@ -1517,6 +1629,7 @@ object StringsB {
     val adBlockSelectSubscriptions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择过滤规则源"
         AppLanguage.ENGLISH -> "Select Filter Lists"
+        AppLanguage.VIETNAMESE -> "Chọn danh sách bộ lọc"
         AppLanguage.ARABIC -> "اختر قوائم التصفية"
         AppLanguage.PORTUGUESE -> "Selecionar Listas de Filtro"
         AppLanguage.SPANISH -> "Seleccionar Listas de Filtros"
@@ -1530,6 +1643,7 @@ object StringsB {
     val adBlockSubscriptions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤规则源"
         AppLanguage.ENGLISH -> "Filter Lists"
+        AppLanguage.VIETNAMESE -> "Danh sách lọc"
         AppLanguage.ARABIC -> "قوائم التصفية"
         AppLanguage.PORTUGUESE -> "Listas de Filtro"
         AppLanguage.SPANISH -> "Listas de Filtros"
@@ -1543,6 +1657,7 @@ object StringsB {
     val adBlockNoDownloadedSourcesShort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未下载"
         AppLanguage.ENGLISH -> "Not downloaded"
+        AppLanguage.VIETNAMESE -> "Chưa tải xuống"
         AppLanguage.ARABIC -> "غير محمّل"
         AppLanguage.PORTUGUESE -> "Não baixado"
         AppLanguage.SPANISH -> "No descargado"
@@ -1556,6 +1671,7 @@ object StringsB {
     val adBlockNoSubscriptionSelected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未选择规则源"
         AppLanguage.ENGLISH -> "No filter list selected"
+        AppLanguage.VIETNAMESE -> "Không có danh sách bộ lọc nào được chọn"
         AppLanguage.ARABIC -> "لم يتم اختيار قائمة تصفية"
         AppLanguage.PORTUGUESE -> "Nenhuma lista de filtro selecionada"
         AppLanguage.SPANISH -> "Ninguna lista de filtros seleccionada"
@@ -1569,6 +1685,7 @@ object StringsB {
     val adBlockEnabledSourcesLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已启用规则源"
         AppLanguage.ENGLISH -> "Enabled filter lists"
+        AppLanguage.VIETNAMESE -> "Danh sách bộ lọc đã bật"
         AppLanguage.ARABIC -> "قوائم التصفية المفعّلة"
         AppLanguage.PORTUGUESE -> "Listas de filtro ativadas"
         AppLanguage.SPANISH -> "Listas de filtros activadas"
@@ -1582,6 +1699,7 @@ object StringsB {
     val adBlockAddMoreSources: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加更多规则源"
         AppLanguage.ENGLISH -> "Add more filter lists"
+        AppLanguage.VIETNAMESE -> "Thêm nhiều danh sách bộ lọc"
         AppLanguage.ARABIC -> "إضافة المزيد من قوائم التصفية"
         AppLanguage.PORTUGUESE -> "Adicionar mais listas de filtro"
         AppLanguage.SPANISH -> "Añadir más listas de filtros"
@@ -1595,6 +1713,7 @@ object StringsB {
     val adBlockManageSubscriptions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "管理过滤规则源（%d）"
         AppLanguage.ENGLISH -> "Manage Filter Lists (%d)"
+        AppLanguage.VIETNAMESE -> "Quản lý danh sách bộ lọc (%d)"
         AppLanguage.ARABIC -> "إدارة قوائم التصفية (%d)"
         AppLanguage.PORTUGUESE -> "Gerenciar Listas de Filtro (%d)"
         AppLanguage.SPANISH -> "Administrar Listas de Filtros (%d)"
@@ -1608,6 +1727,7 @@ object StringsB {
     val adBlockSubscriptionsCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个订阅源"
         AppLanguage.ENGLISH -> "%d subscriptions"
+        AppLanguage.VIETNAMESE -> "đăng ký %d"
         AppLanguage.ARABIC -> "%d اشتراكات"
         AppLanguage.PORTUGUESE -> "%d assinaturas"
         AppLanguage.SPANISH -> "%d suscripciones"
@@ -1621,6 +1741,7 @@ object StringsB {
     val adBlockInactive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未启用——选择规则源或添加自定义规则即可开启"
         AppLanguage.ENGLISH -> "Inactive — select filter lists or add custom rules to enable"
+        AppLanguage.VIETNAMESE -> "Không hoạt động — chọn danh sách bộ lọc hoặc thêm quy tắc tùy chỉnh để bật"
         AppLanguage.ARABIC -> "غير نشط — اختر قوائم التصفية أو أضف قواعد مخصصة للتفعيل"
         AppLanguage.PORTUGUESE -> "Inativo — selecione listas de filtro ou adicione regras personalizadas para ativar"
         AppLanguage.SPANISH -> "Inactivo — selecciona listas de filtros o añade reglas personalizadas para activar"
@@ -1634,6 +1755,7 @@ object StringsB {
     val adBlockNoDownloadedSources: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无已下载的规则源，请先在 Hosts 广告拦截页面下载"
         AppLanguage.ENGLISH -> "No downloaded filter lists. Please download some in the Hosts Ad Block page first."
+        AppLanguage.VIETNAMESE -> "Không có danh sách bộ lọc được tải xuống. Trước tiên hãy tải xuống một số phần trong trang Khối quảng cáo trên máy chủ."
         AppLanguage.ARABIC -> "لا توجد قوائم تصفية محمّلة. يرجى تحميل بعضها أولاً من صفحة حظر إعلانات Hosts."
         AppLanguage.PORTUGUESE -> "Nenhuma lista de filtro baixada. Baixe algumas na página Hosts Ad Block primeiro."
         AppLanguage.SPANISH -> "Sin listas de filtros descargadas. Descarga algunas en la página Hosts Ad Block primero."
@@ -1647,6 +1769,7 @@ object StringsB {
     val done: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Done"
         AppLanguage.ENGLISH -> "Done"
+        AppLanguage.VIETNAMESE -> "Xong"
         AppLanguage.ARABIC -> "تم"
         AppLanguage.PORTUGUESE -> "Concluído"
         AppLanguage.SPANISH -> "Listo"
@@ -1660,6 +1783,7 @@ object StringsB {
     val edit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Edit"
         AppLanguage.ENGLISH -> "Edit"
+        AppLanguage.VIETNAMESE -> "Biên tập"
         AppLanguage.ARABIC -> "تعديل"
         AppLanguage.PORTUGUESE -> "Editar"
         AppLanguage.SPANISH -> "Editar"
@@ -1673,6 +1797,7 @@ object StringsB {
     val loading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Loading"
         AppLanguage.ENGLISH -> "Loading"
+        AppLanguage.VIETNAMESE -> "Đang tải"
         AppLanguage.ARABIC -> "جاري التحميل..."
         AppLanguage.PORTUGUESE -> "Carregando"
         AppLanguage.SPANISH -> "Cargando"
@@ -1686,6 +1811,7 @@ object StringsB {
     val unknownError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未知错误"
         AppLanguage.ENGLISH -> "Unknown error"
+        AppLanguage.VIETNAMESE -> "Lỗi không xác định"
         AppLanguage.ARABIC -> "خطأ غير معروف"
         AppLanguage.PORTUGUESE -> "Erro desconhecido"
         AppLanguage.SPANISH -> "Error desconocido"
@@ -1699,6 +1825,7 @@ object StringsB {
     val domStorageSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM存储"
         AppLanguage.ENGLISH -> "DOM Storage"
+        AppLanguage.VIETNAMESE -> "Bộ nhớ DOM"
         AppLanguage.ARABIC -> "تخزين DOM"
         AppLanguage.PORTUGUESE -> "Armazenamento DOM"
         AppLanguage.SPANISH -> "Almacenamiento DOM"
@@ -1712,6 +1839,7 @@ object StringsB {
     val domStorageSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页使用 localStorage / sessionStorage 保存页面状态"
         AppLanguage.ENGLISH -> "Allow pages to use localStorage / sessionStorage for page state"
+        AppLanguage.VIETNAMESE -> "Cho phép các trang sử dụng localStorage/sessionStorage cho trạng thái trang"
         AppLanguage.ARABIC -> "السماح للصفحات باستخدام localStorage / sessionStorage لحفظ حالة الصفحة"
         AppLanguage.PORTUGUESE -> "Permitir páginas usar localStorage / sessionStorage para estado da página"
         AppLanguage.SPANISH -> "Permitir a las páginas usar localStorage / sessionStorage para el estado de la página"
@@ -1725,6 +1853,7 @@ object StringsB {
     val zoomSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缩放功能"
         AppLanguage.ENGLISH -> "Zoom"
+        AppLanguage.VIETNAMESE -> "Phóng"
         AppLanguage.ARABIC -> "التكبير/التصغير"
         AppLanguage.PORTUGUESE -> "Zoom"
         AppLanguage.SPANISH -> "Zoom"
@@ -1738,6 +1867,7 @@ object StringsB {
     val zoomSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许用户缩放页面"
         AppLanguage.ENGLISH -> "Allow user to zoom page"
+        AppLanguage.VIETNAMESE -> "Cho phép người dùng phóng to trang"
         AppLanguage.ARABIC -> "السماح للمستخدم بتكبير/تصغير الصفحة"
         AppLanguage.PORTUGUESE -> "Permitir usuário aplicar zoom na página"
         AppLanguage.SPANISH -> "Permitir al usuario hacer zoom en la página"
@@ -1751,6 +1881,7 @@ object StringsB {
     val swipeRefreshSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下拉刷新"
         AppLanguage.ENGLISH -> "Swipe Refresh"
+        AppLanguage.VIETNAMESE -> "Vuốt làm mới"
         AppLanguage.ARABIC -> "السحب للتحديث"
         AppLanguage.PORTUGUESE -> "Atualizar por Deslizar"
         AppLanguage.SPANISH -> "Deslizar para Actualizar"
@@ -1764,6 +1895,7 @@ object StringsB {
     val swipeRefreshSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许下拉刷新页面"
         AppLanguage.ENGLISH -> "Allow swipe down to refresh"
+        AppLanguage.VIETNAMESE -> "Cho phép vuốt xuống để làm mới"
         AppLanguage.ARABIC -> "السماح بالسحب لأسفل للتحديث"
         AppLanguage.PORTUGUESE -> "Permitir deslizar para baixo para atualizar"
         AppLanguage.SPANISH -> "Permitir deslizar hacia abajo para actualizar"
@@ -1777,6 +1909,7 @@ object StringsB {
     val overscrollEffectSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "越界回弹"
         AppLanguage.ENGLISH -> "Edge overscroll"
+        AppLanguage.VIETNAMESE -> "Cuộn quá mức cạnh"
         AppLanguage.ARABIC -> "التمرير خارج الحافة"
         AppLanguage.PORTUGUESE -> "Rolagem além da borda"
         AppLanguage.SPANISH -> "Desplazamiento más allá del borde"
@@ -1790,6 +1923,7 @@ object StringsB {
     val overscrollEffectSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚到页面边缘时显示系统的拉伸回弹。关闭后停在边缘，固定顶栏不会被拉开。"
         AppLanguage.ENGLISH -> "Shows the system stretch when the page scrolls past its edge. Turn off to stop at the edge so fixed headers are not stretched."
+        AppLanguage.VIETNAMESE -> "Hiển thị độ giãn của hệ thống khi trang cuộn qua cạnh của nó. Tắt để dừng ở cạnh để các tiêu đề cố định không bị kéo dài."
         AppLanguage.ARABIC -> "يعرض تمدد النظام عند التمرير خارج حافة الصفحة. أوقفه ليتوقف المحتوى عند الحافة دون تمديد الشريط الثابت."
         AppLanguage.PORTUGUESE -> "Mostra o esticamento do sistema quando a página passa da borda. Desative para parar na borda e não esticar cabeçalhos fixos."
         AppLanguage.SPANISH -> "Muestra el estiramiento del sistema cuando la página pasa del borde. Desactívalo para detenerse en el borde y no estirar las cabeceras fijas."
@@ -1803,6 +1937,7 @@ object StringsB {
     val swipeRefreshZoneLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触发区域"
         AppLanguage.ENGLISH -> "Trigger area"
+        AppLanguage.VIETNAMESE -> "Khu vực kích hoạt"
         AppLanguage.ARABIC -> "منطقة التشغيل"
         AppLanguage.PORTUGUESE -> "Área de disparo"
         AppLanguage.SPANISH -> "Área de activación"
@@ -1816,6 +1951,7 @@ object StringsB {
     val swipeRefreshZoneTopEdge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仅顶部边缘（经典）"
         AppLanguage.ENGLISH -> "Top edge only (classic)"
+        AppLanguage.VIETNAMESE -> "Chỉ cạnh trên (cổ điển)"
         AppLanguage.ARABIC -> "الحافة العلوية فقط (كلاسيكي)"
         AppLanguage.PORTUGUESE -> "Somente a borda superior (clássico)"
         AppLanguage.SPANISH -> "Solo el borde superior (clásico)"
@@ -1829,6 +1965,7 @@ object StringsB {
     val swipeRefreshZoneAnywhere: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面顶部时任意位置"
         AppLanguage.ENGLISH -> "Anywhere while at page top"
+        AppLanguage.VIETNAMESE -> "Ở mọi nơi khi ở đầu trang"
         AppLanguage.ARABIC -> "أي مكان عند أعلى الصفحة"
         AppLanguage.PORTUGUESE -> "Qualquer lugar no topo da página"
         AppLanguage.SPANISH -> "Cualquier lugar en la parte superior de la página"
@@ -1842,6 +1979,7 @@ object StringsB {
     val autoRefreshSettingLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动刷新"
         AppLanguage.ENGLISH -> "Auto Refresh"
+        AppLanguage.VIETNAMESE -> "Tự động làm mới"
         AppLanguage.ARABIC -> "التحديث التلقائي"
         AppLanguage.PORTUGUESE -> "Atualização Automática"
         AppLanguage.SPANISH -> "Actualización Automática"
@@ -1855,6 +1993,7 @@ object StringsB {
     val autoRefreshSettingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "定时自动刷新网页"
         AppLanguage.ENGLISH -> "Periodically reload the page"
+        AppLanguage.VIETNAMESE -> "Định kỳ tải lại trang"
         AppLanguage.ARABIC -> "إعادة تحميل الصفحة دورياً"
         AppLanguage.PORTUGUESE -> "Recarregar a página periodicamente"
         AppLanguage.SPANISH -> "Recargar la página periódicamente"
@@ -1868,6 +2007,7 @@ object StringsB {
     val autoRefreshIntervalLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "刷新间隔"
         AppLanguage.ENGLISH -> "Refresh Interval"
+        AppLanguage.VIETNAMESE -> "Khoảng thời gian làm mới"
         AppLanguage.ARABIC -> "فترة التحديث"
         AppLanguage.PORTUGUESE -> "Intervalo de Atualização"
         AppLanguage.SPANISH -> "Intervalo de Actualización"
@@ -1896,6 +2036,7 @@ object StringsB {
     val autoRefreshShowCountdownLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示倒计时"
         AppLanguage.ENGLISH -> "Show Countdown"
+        AppLanguage.VIETNAMESE -> "Hiển thị đếm ngược"
         AppLanguage.ARABIC -> "إظهار العد التنازلي"
         AppLanguage.PORTUGUESE -> "Mostrar Contagem Regressiva"
         AppLanguage.SPANISH -> "Mostrar Cuenta Regresiva"
@@ -1909,6 +2050,7 @@ object StringsB {
     val autoRefreshShowCountdownDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右上角显示剩余秒数，点击可暂停本轮"
         AppLanguage.ENGLISH -> "Show remaining seconds in the corner, tap to skip this round"
+        AppLanguage.VIETNAMESE -> "Hiển thị số giây còn lại ở góc, nhấn để bỏ qua vòng này"
         AppLanguage.ARABIC -> "إظهار الثواني المتبقية في الزاوية، انقر لتخطي هذه الجولة"
         AppLanguage.PORTUGUESE -> "Mostrar segundos restantes no canto, toque para pular esta rodada"
         AppLanguage.SPANISH -> "Mostrar segundos restantes en la esquina, toca para omitir esta ronda"
@@ -1922,6 +2064,7 @@ object StringsB {
     val fullscreenVideoSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全屏视频"
         AppLanguage.ENGLISH -> "Fullscreen Video"
+        AppLanguage.VIETNAMESE -> "Video toàn màn hình"
         AppLanguage.ARABIC -> "فيديو ملء الشاشة"
         AppLanguage.PORTUGUESE -> "Vídeo em Tela Cheia"
         AppLanguage.SPANISH -> "Video en Pantalla Completa"
@@ -1935,6 +2078,7 @@ object StringsB {
     val fullscreenVideoSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许视频全屏播放"
         AppLanguage.ENGLISH -> "Allow video fullscreen playback"
+        AppLanguage.VIETNAMESE -> "Cho phép phát lại video toàn màn hình"
         AppLanguage.ARABIC -> "السماح بتشغيل الفيديو بملء الشاشة"
         AppLanguage.PORTUGUESE -> "Permitir reprodução de vídeo em tela cheia"
         AppLanguage.SPANISH -> "Permitir reproducción de video en pantalla completa"
@@ -1948,6 +2092,7 @@ object StringsB {
     val externalLinksSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "外部链接"
         AppLanguage.ENGLISH -> "External Links"
+        AppLanguage.VIETNAMESE -> "Liên kết ngoài"
         AppLanguage.ARABIC -> "الروابط الخارجية"
         AppLanguage.PORTUGUESE -> "Links Externos"
         AppLanguage.SPANISH -> "Enlaces Externos"
@@ -1961,6 +2106,7 @@ object StringsB {
     val externalLinksSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在浏览器中打开外部链接"
         AppLanguage.ENGLISH -> "Open external links in browser"
+        AppLanguage.VIETNAMESE -> "Mở các liên kết bên ngoài trong trình duyệt"
         AppLanguage.ARABIC -> "فتح الروابط الخارجية في المتصفح"
         AppLanguage.PORTUGUESE -> "Abrir links externos no navegador"
         AppLanguage.SPANISH -> "Abrir enlaces externos en el navegador"
@@ -1974,6 +2120,7 @@ object StringsB {
     val crossOriginIsolationSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SharedArrayBuffer / FFmpeg"
         AppLanguage.ENGLISH -> "SharedArrayBuffer / FFmpeg"
+        AppLanguage.VIETNAMESE -> "SharedArrayBuffer/FFmpeg"
         AppLanguage.ARABIC -> "SharedArrayBuffer / FFmpeg"
         AppLanguage.PORTUGUESE -> "SharedArrayBuffer / FFmpeg"
         AppLanguage.SPANISH -> "SharedArrayBuffer / FFmpeg"
@@ -1987,6 +2134,7 @@ object StringsB {
     val crossOriginIsolationSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启用跨域隔离 (COOP/COEP)，支持 FFmpeg.wasm 等库"
         AppLanguage.ENGLISH -> "Enable cross-origin isolation (COOP/COEP), supports FFmpeg.wasm and similar libraries"
+        AppLanguage.VIETNAMESE -> "Kích hoạt tính năng cách ly nhiều nguồn gốc (COOP/COEP), hỗ trợ FFmpeg.wasm và các thư viện tương tự"
         AppLanguage.ARABIC -> "تمكين العزل عبر الأصل (COOP/COEP)، يدعم FFmpeg.wasm والمكتبات المماثلة"
         AppLanguage.PORTUGUESE -> "Ativar isolamento entre origens (COOP/COEP), suporta FFmpeg.wasm e bibliotecas similares"
         AppLanguage.SPANISH -> "Habilitar aislamiento entre orígenes (COOP/COEP), soporta FFmpeg.wasm y bibliotecas similares"
@@ -2000,6 +2148,7 @@ object StringsB {
     val viewportModeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视口适配模式"
         AppLanguage.ENGLISH -> "Viewport Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ khung nhìn"
         AppLanguage.ARABIC -> "وضع منفذ العرض"
         AppLanguage.PORTUGUESE -> "Modo de Viewport"
         AppLanguage.SPANISH -> "Modo de Viewport"
@@ -2013,6 +2162,7 @@ object StringsB {
     val viewportModeDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解决 Unity/Canvas 游戏显示放大、UI 被裁切的问题"
         AppLanguage.ENGLISH -> "Fix Unity/Canvas games displaying zoomed in with UI clipped"
+        AppLanguage.VIETNAMESE -> "Sửa lỗi trò chơi Unity/Canvas hiển thị được phóng to với giao diện người dùng bị cắt bớt"
         AppLanguage.ARABIC -> "إصلاح عرض ألعاب Unity/Canvas المكبرة مع قص واجهة المستخدم"
         AppLanguage.PORTUGUESE -> "Corrige jogos Unity/Canvas exibidos ampliados com UI recortada"
         AppLanguage.SPANISH -> "Corrige juegos Unity/Canvas mostrados ampliados con UI recortada"
@@ -2026,6 +2176,7 @@ object StringsB {
     val viewportModeDefault: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标准模式（适合大多数网页）"
         AppLanguage.ENGLISH -> "Standard (for most websites)"
+        AppLanguage.VIETNAMESE -> "Tiêu chuẩn (đối với hầu hết các trang web)"
         AppLanguage.ARABIC -> "قياسي (لمعظم المواقع)"
         AppLanguage.PORTUGUESE -> "Padrão (para a maioria dos sites)"
         AppLanguage.SPANISH -> "Estándar (para la mayoría de los sitios)"
@@ -2039,6 +2190,7 @@ object StringsB {
     val viewportModeFitScreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "适配屏幕（Unity/Canvas 游戏推荐）"
         AppLanguage.ENGLISH -> "Fit Screen (recommended for Unity/Canvas games)"
+        AppLanguage.VIETNAMESE -> "Fit Screen (được khuyến nghị cho các trò chơi Unity/Canvas)"
         AppLanguage.ARABIC -> "ملاءمة الشاشة (لألعاب Unity/Canvas)"
         AppLanguage.PORTUGUESE -> "Ajustar à Tela (recomendado para jogos Unity/Canvas)"
         AppLanguage.SPANISH -> "Ajustar a la Pantalla (recomendado para juegos Unity/Canvas)"
@@ -2052,6 +2204,7 @@ object StringsB {
     val viewportModeDesktop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "桌面视口（980px 宽度）"
         AppLanguage.ENGLISH -> "Desktop Viewport (980px width)"
+        AppLanguage.VIETNAMESE -> "Chế độ xem máy tính để bàn (chiều rộng 980px)"
         AppLanguage.ARABIC -> "منفذ سطح المكتب (عرض 980 بكسل)"
         AppLanguage.PORTUGUESE -> "Viewport de Desktop (largura 980px)"
         AppLanguage.SPANISH -> "Viewport de Escritorio (ancho 980px)"
@@ -2065,6 +2218,7 @@ object StringsB {
     val viewportModeCustom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义视口"
         AppLanguage.ENGLISH -> "Custom Viewport"
+        AppLanguage.VIETNAMESE -> "Chế độ xem tùy chỉnh"
         AppLanguage.ARABIC -> "منفذ العرض المخصص"
         AppLanguage.PORTUGUESE -> "Viewport Personalizado"
         AppLanguage.SPANISH -> "Viewport Personalizado"
@@ -2078,6 +2232,7 @@ object StringsB {
     val viewportCustomWidth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视口宽度"
         AppLanguage.ENGLISH -> "Viewport Width"
+        AppLanguage.VIETNAMESE -> "Chiều rộng khung nhìn"
         AppLanguage.ARABIC -> "عرض منفذ العرض"
         AppLanguage.PORTUGUESE -> "Largura do Viewport"
         AppLanguage.SPANISH -> "Ancho del Viewport"
@@ -2091,6 +2246,7 @@ object StringsB {
     val viewportCustomWidthHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入视口宽度（320-3840 像素）"
         AppLanguage.ENGLISH -> "Enter viewport width (320-3840 px)"
+        AppLanguage.VIETNAMESE -> "Nhập chiều rộng khung nhìn (320-3840 px)"
         AppLanguage.ARABIC -> "أدخل عرض منفذ العرض (320-3840 بكسل)"
         AppLanguage.PORTUGUESE -> "Insira a largura do viewport (320-3840 px)"
         AppLanguage.SPANISH -> "Ingrese el ancho del viewport (320-3840 px)"
@@ -2104,6 +2260,7 @@ object StringsB {
     val viewportCustomWidthPresets: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预设宽度"
         AppLanguage.ENGLISH -> "Preset Widths"
+        AppLanguage.VIETNAMESE -> "Chiều rộng đặt trước"
         AppLanguage.ARABIC -> "عرض محدد مسبقاً"
         AppLanguage.PORTUGUESE -> "Larguras Predefinidas"
         AppLanguage.SPANISH -> "Anchos Predefinidos"
@@ -2119,6 +2276,7 @@ object StringsB {
     val advancedOptions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高级选项"
         AppLanguage.ENGLISH -> "Advanced Options"
+        AppLanguage.VIETNAMESE -> "Tùy chọn nâng cao"
         AppLanguage.ARABIC -> "خيارات متقدمة"
         AppLanguage.PORTUGUESE -> "Opções Avançadas"
         AppLanguage.SPANISH -> "Opciones Avanzadas"
@@ -2132,6 +2290,7 @@ object StringsB {
     val expand: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "展开"
         AppLanguage.ENGLISH -> "Expand"
+        AppLanguage.VIETNAMESE -> "Mở rộng"
         AppLanguage.ARABIC -> "توسيع"
         AppLanguage.PORTUGUESE -> "Expandir"
         AppLanguage.SPANISH -> "Expandir"
@@ -2145,6 +2304,7 @@ object StringsB {
     val collapse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收起"
         AppLanguage.ENGLISH -> "Collapse"
+        AppLanguage.VIETNAMESE -> "Sụp đổ"
         AppLanguage.ARABIC -> "طي"
         AppLanguage.PORTUGUESE -> "Recolher"
         AppLanguage.SPANISH -> "Contraer"
@@ -2158,6 +2318,7 @@ object StringsB {
     val expandAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "展开全部"
         AppLanguage.ENGLISH -> "Expand All"
+        AppLanguage.VIETNAMESE -> "Mở rộng tất cả"
         AppLanguage.ARABIC -> "توسيع الكل"
         AppLanguage.PORTUGUESE -> "Expandir Tudo"
         AppLanguage.SPANISH -> "Expandir Todo"
@@ -2171,6 +2332,7 @@ object StringsB {
     val depClearDone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已清除"
         AppLanguage.ENGLISH -> "Cleared"
+        AppLanguage.VIETNAMESE -> "Đã xóa"
         AppLanguage.ARABIC -> "تم المسح"
         AppLanguage.PORTUGUESE -> "Limpo"
         AppLanguage.SPANISH -> "Borrado"
@@ -2184,6 +2346,7 @@ object StringsB {
     val maximum: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最高"
         AppLanguage.ENGLISH -> "Maximum"
+        AppLanguage.VIETNAMESE -> "Tối đa"
         AppLanguage.ARABIC -> "الأقصى"
         AppLanguage.PORTUGUESE -> "Máximo"
         AppLanguage.SPANISH -> "Máximo"
@@ -2197,6 +2360,7 @@ object StringsB {
     val canvasProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Canvas 防护"
         AppLanguage.ENGLISH -> "Canvas Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ vải"
         AppLanguage.ARABIC -> "حماية Canvas"
         AppLanguage.PORTUGUESE -> "Proteção de Canvas"
         AppLanguage.SPANISH -> "Protección de Canvas"
@@ -2211,6 +2375,7 @@ object StringsB {
     val webglProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebGL 防护"
         AppLanguage.ENGLISH -> "WebGL Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ WebGL"
         AppLanguage.ARABIC -> "حماية WebGL"
         AppLanguage.PORTUGUESE -> "Proteção de WebGL"
         AppLanguage.SPANISH -> "Protección de WebGL"
@@ -2225,6 +2390,7 @@ object StringsB {
     val audioProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Audio 防护"
         AppLanguage.ENGLISH -> "Audio Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ âm thanh"
         AppLanguage.ARABIC -> "حماية الصوت"
         AppLanguage.PORTUGUESE -> "Proteção de Áudio"
         AppLanguage.SPANISH -> "Protección de Audio"
@@ -2239,6 +2405,7 @@ object StringsB {
     val webrtcProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebRTC 防泄漏"
         AppLanguage.ENGLISH -> "WebRTC Leak Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ rò rỉ WebRTC"
         AppLanguage.ARABIC -> "حماية تسرب WebRTC"
         AppLanguage.PORTUGUESE -> "Proteção contra Vazamento WebRTC"
         AppLanguage.SPANISH -> "Protección contra Fuga WebRTC"
@@ -2257,6 +2424,7 @@ object StringsB {
     val randomFingerprint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Random fingerprint"
         AppLanguage.ENGLISH -> "Random Fingerprint"
+        AppLanguage.VIETNAMESE -> "Dấu vân tay ngẫu nhiên"
         AppLanguage.ARABIC -> "بصمة عشوائية"
         AppLanguage.PORTUGUESE -> "Impressão Digital Aleatória"
         AppLanguage.SPANISH -> "Huella Digital Aleatoria"
@@ -2271,6 +2439,7 @@ object StringsB {
     val fontProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字体防护"
         AppLanguage.ENGLISH -> "Font Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ phông chữ"
         AppLanguage.ARABIC -> "حماية الخطوط"
         AppLanguage.PORTUGUESE -> "Proteção de Fontes"
         AppLanguage.SPANISH -> "Protección de Fuentes"
@@ -2287,6 +2456,7 @@ object StringsB {
     val timezoneSpoofing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "时区伪装"
         AppLanguage.ENGLISH -> "Timezone Spoofing"
+        AppLanguage.VIETNAMESE -> "Giả mạo múi giờ"
         AppLanguage.ARABIC -> "تزييف المنطقة الزمنية"
         AppLanguage.PORTUGUESE -> "Falsificação de Fuso Horário"
         AppLanguage.SPANISH -> "Falsificación de Zona Horaria"
@@ -2301,6 +2471,7 @@ object StringsB {
     val languageSpoofing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "语言伪装"
         AppLanguage.ENGLISH -> "Language Spoofing"
+        AppLanguage.VIETNAMESE -> "Giả mạo ngôn ngữ"
         AppLanguage.ARABIC -> "تزييف اللغة"
         AppLanguage.PORTUGUESE -> "Falsificação de Idioma"
         AppLanguage.SPANISH -> "Falsificación de Idioma"
@@ -2315,6 +2486,7 @@ object StringsB {
     val resolutionSpoofing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分辨率伪装"
         AppLanguage.ENGLISH -> "Resolution Spoofing"
+        AppLanguage.VIETNAMESE -> "Giả mạo độ phân giải"
         AppLanguage.ARABIC -> "تزييف الدقة"
         AppLanguage.PORTUGUESE -> "Falsificação de Resolução"
         AppLanguage.SPANISH -> "Falsificación de Resolución"
@@ -2329,6 +2501,7 @@ object StringsB {
     val regenerateOnLaunch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每次启动重新生成"
         AppLanguage.ENGLISH -> "Regenerate on Launch"
+        AppLanguage.VIETNAMESE -> "Tái tạo khi khởi chạy"
         AppLanguage.ARABIC -> "إعادة الإنشاء عند التشغيل"
         AppLanguage.PORTUGUESE -> "Regenerar ao Iniciar"
         AppLanguage.SPANISH -> "Regenerar al Iniciar"
@@ -2343,6 +2516,7 @@ object StringsB {
     val environmentSpoofing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "环境伪装"
         AppLanguage.ENGLISH -> "Environment Spoofing"
+        AppLanguage.VIETNAMESE -> "Giả mạo môi trường"
         AppLanguage.ARABIC -> "انتحال البيئة"
         AppLanguage.PORTUGUESE -> "Falsificação de Ambiente"
         AppLanguage.SPANISH -> "Falsificación de Entorno"
@@ -2356,6 +2530,7 @@ object StringsB {
     val followFingerprint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跟随指纹"
         AppLanguage.ENGLISH -> "Follow fingerprint"
+        AppLanguage.VIETNAMESE -> "Theo dấu vân tay"
         AppLanguage.ARABIC -> "اتباع البصمة"
         AppLanguage.PORTUGUESE -> "Seguir impressão digital"
         AppLanguage.SPANISH -> "Seguir huella"
@@ -2369,6 +2544,7 @@ object StringsB {
     val isolationOff: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭"
         AppLanguage.ENGLISH -> "Off"
+        AppLanguage.VIETNAMESE -> "Tắt"
         AppLanguage.ARABIC -> "إيقاف"
         AppLanguage.PORTUGUESE -> "Desativado"
         AppLanguage.SPANISH -> "Desactivado"
@@ -2382,6 +2558,7 @@ object StringsB {
     val customOption: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义"
         AppLanguage.ENGLISH -> "Custom"
+        AppLanguage.VIETNAMESE -> "Phong tục"
         AppLanguage.ARABIC -> "مخصص"
         AppLanguage.PORTUGUESE -> "Personalizado"
         AppLanguage.SPANISH -> "Personalizado"
@@ -2395,6 +2572,7 @@ object StringsB {
     val customCombination: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义组合"
         AppLanguage.ENGLISH -> "Custom mix"
+        AppLanguage.VIETNAMESE -> "Kết hợp tùy chỉnh"
         AppLanguage.ARABIC -> "مزيج مخصص"
         AppLanguage.PORTUGUESE -> "Combinação personalizada"
         AppLanguage.SPANISH -> "Combinación personalizada"
@@ -2408,6 +2586,7 @@ object StringsB {
     val regenerateFingerprint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "换一组"
         AppLanguage.ENGLISH -> "Shuffle"
+        AppLanguage.VIETNAMESE -> "Trộn bài"
         AppLanguage.ARABIC -> "تبديل"
         AppLanguage.PORTUGUESE -> "Trocar"
         AppLanguage.SPANISH -> "Cambiar"
@@ -2421,6 +2600,7 @@ object StringsB {
     val languageTagLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "语言标签"
         AppLanguage.ENGLISH -> "Language tag"
+        AppLanguage.VIETNAMESE -> "Thẻ ngôn ngữ"
         AppLanguage.ARABIC -> "وسم اللغة"
         AppLanguage.PORTUGUESE -> "Tag de idioma"
         AppLanguage.SPANISH -> "Etiqueta de idioma"
@@ -2434,6 +2614,7 @@ object StringsB {
     val timezoneIdLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "时区 ID（IANA）"
         AppLanguage.ENGLISH -> "Timezone ID (IANA)"
+        AppLanguage.VIETNAMESE -> "ID múi giờ (IANA)"
         AppLanguage.ARABIC -> "معرّف المنطقة الزمنية (IANA)"
         AppLanguage.PORTUGUESE -> "ID de fuso horário (IANA)"
         AppLanguage.SPANISH -> "ID de zona horaria (IANA)"
@@ -2447,6 +2628,7 @@ object StringsB {
     val widthLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "宽"
         AppLanguage.ENGLISH -> "Width"
+        AppLanguage.VIETNAMESE -> "Chiều rộng"
         AppLanguage.ARABIC -> "العرض"
         AppLanguage.PORTUGUESE -> "Largura"
         AppLanguage.SPANISH -> "Ancho"
@@ -2460,6 +2642,7 @@ object StringsB {
     val heightLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高"
         AppLanguage.ENGLISH -> "Height"
+        AppLanguage.VIETNAMESE -> "Chiều cao"
         AppLanguage.ARABIC -> "الارتفاع"
         AppLanguage.PORTUGUESE -> "Altura"
         AppLanguage.SPANISH -> "Alto"
@@ -2473,6 +2656,7 @@ object StringsB {
     val invalidValue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无效值"
         AppLanguage.ENGLISH -> "Invalid value"
+        AppLanguage.VIETNAMESE -> "Giá trị không hợp lệ"
         AppLanguage.ARABIC -> "قيمة غير صالحة"
         AppLanguage.PORTUGUESE -> "Valor inválido"
         AppLanguage.SPANISH -> "Valor no válido"
@@ -2486,6 +2670,7 @@ object StringsB {
     val isoLevelBasicSummary: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "指纹随机化 · Canvas 噪音 · WebRTC 屏蔽"
         AppLanguage.ENGLISH -> "Random fingerprint · Canvas noise · WebRTC shielding"
+        AppLanguage.VIETNAMESE -> "Dấu vân tay ngẫu nhiên · Tiếng ồn canvas · Che chắn WebRTC"
         AppLanguage.ARABIC -> "بصمة عشوائية · ضجيج Canvas · حجب WebRTC"
         AppLanguage.PORTUGUESE -> "Impressão aleatória · Ruído de Canvas · Bloqueio de WebRTC"
         AppLanguage.SPANISH -> "Huella aleatoria · Ruido de Canvas · Bloqueo de WebRTC"
@@ -2499,6 +2684,7 @@ object StringsB {
     val isoLevelStandardSummary: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完整指纹防护 · 不改变语言/时区/分辨率"
         AppLanguage.ENGLISH -> "Full fingerprint protection · keeps your locale/timezone/screen"
+        AppLanguage.VIETNAMESE -> "Bảo vệ toàn bộ dấu vân tay · giữ ngôn ngữ/múi giờ/màn hình của bạn"
         AppLanguage.ARABIC -> "حماية كاملة للبصمة · دون تغيير اللغة/المنطقة/الدقة"
         AppLanguage.PORTUGUESE -> "Proteção completa · mantém idioma/fuso/resolução"
         AppLanguage.SPANISH -> "Protección completa · conserva idioma/zona/resolución"
@@ -2512,6 +2698,7 @@ object StringsB {
     val isoLevelMaximumSummary: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部防护 + 语言/时区/分辨率伪装 + 每次启动换指纹"
         AppLanguage.ENGLISH -> "All protections + locale/timezone/screen spoofing + new identity every launch"
+        AppLanguage.VIETNAMESE -> "Tất cả các biện pháp bảo vệ + giả mạo ngôn ngữ/múi giờ/màn hình + danh tính mới mỗi lần ra mắt"
         AppLanguage.ARABIC -> "كل الحمايات + انتحال اللغة/المنطقة/الدقة + هوية جديدة كل تشغيل"
         AppLanguage.PORTUGUESE -> "Todas as proteções + falsificação de idioma/fuso/resolução + nova identidade a cada início"
         AppLanguage.SPANISH -> "Todas las protecciones + falsificación de idioma/zona/resolución + nueva identidad cada inicio"
@@ -2526,6 +2713,7 @@ object StringsB {
     val pbkdf2Iterations: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PBKDF2 迭代"
         AppLanguage.ENGLISH -> "PBKDF2 Iterations"
+        AppLanguage.VIETNAMESE -> "Lặp lại PBKDF2"
         AppLanguage.ARABIC -> "تكرارات PBKDF2"
         AppLanguage.PORTUGUESE -> "Iterações PBKDF2"
         AppLanguage.SPANISH -> "Iteraciones PBKDF2"
@@ -2539,6 +2727,7 @@ object StringsB {
     val frameworkLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "框架"
         AppLanguage.ENGLISH -> "Framework"
+        AppLanguage.VIETNAMESE -> "Khung"
         AppLanguage.ARABIC -> "إطار العمل"
         AppLanguage.PORTUGUESE -> "Framework"
         AppLanguage.SPANISH -> "Framework"
@@ -2552,6 +2741,7 @@ object StringsB {
     val versionLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本"
         AppLanguage.ENGLISH -> "Version"
+        AppLanguage.VIETNAMESE -> "Phiên bản"
         AppLanguage.ARABIC -> "الإصدار"
         AppLanguage.PORTUGUESE -> "Versão"
         AppLanguage.SPANISH -> "Versión"
@@ -2565,6 +2755,7 @@ object StringsB {
     val packageManagerLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包管理器"
         AppLanguage.ENGLISH -> "Package Manager"
+        AppLanguage.VIETNAMESE -> "Trình quản lý gói"
         AppLanguage.ARABIC -> "مدير الحزم"
         AppLanguage.PORTUGUESE -> "Gerenciador de Pacotes"
         AppLanguage.SPANISH -> "Gestor de Paquetes"
@@ -2578,6 +2769,7 @@ object StringsB {
     val dependencyCountLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "依赖数量"
         AppLanguage.ENGLISH -> "Dependency Count"
+        AppLanguage.VIETNAMESE -> "Số lượng phụ thuộc"
         AppLanguage.ARABIC -> "عدد التبعيات"
         AppLanguage.PORTUGUESE -> "Contagem de Dependências"
         AppLanguage.SPANISH -> "Conteo de Dependencias"
@@ -2591,6 +2783,7 @@ object StringsB {
     val outputDirLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输出目录"
         AppLanguage.ENGLISH -> "Output Directory"
+        AppLanguage.VIETNAMESE -> "Thư mục đầu ra"
         AppLanguage.ARABIC -> "دليل الإخراج"
         AppLanguage.PORTUGUESE -> "Diretório de Saída"
         AppLanguage.SPANISH -> "Directorio de Salida"
@@ -2617,6 +2810,7 @@ object StringsB {
     val urlPattern: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "URL 模式"
         AppLanguage.ENGLISH -> "URL Pattern"
+        AppLanguage.VIETNAMESE -> "Mẫu URL"
         AppLanguage.ARABIC -> "نمط URL"
         AppLanguage.PORTUGUESE -> "Padrão de URL"
         AppLanguage.SPANISH -> "Patrón de URL"
@@ -2630,6 +2824,7 @@ object StringsB {
     val regexExpression: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正则表达式"
         AppLanguage.ENGLISH -> "Regular Expression"
+        AppLanguage.VIETNAMESE -> "Biểu thức chính quy"
         AppLanguage.ARABIC -> "تعبير نمطي"
         AppLanguage.PORTUGUESE -> "Expressão Regular"
         AppLanguage.SPANISH -> "Expresión Regular"
@@ -2643,6 +2838,7 @@ object StringsB {
     val excludeRule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排除规则"
         AppLanguage.ENGLISH -> "Exclude Rule"
+        AppLanguage.VIETNAMESE -> "Quy tắc loại trừ"
         AppLanguage.ARABIC -> "قاعدة الاستبعاد"
         AppLanguage.PORTUGUESE -> "Regra de Exclusão"
         AppLanguage.SPANISH -> "Regla de Exclusión"
@@ -2656,6 +2852,7 @@ object StringsB {
     val noConfigItemsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无配置项\n添加配置项让用户可以自定义模块行为"
         AppLanguage.ENGLISH -> "No config items yet\nAdd config items to let users customize module behavior"
+        AppLanguage.VIETNAMESE -> "Chưa có mục cấu hình nào\nThêm các mục cấu hình để cho phép người dùng tùy chỉnh hoạt động của mô-đun"
         AppLanguage.ARABIC -> "لا توجد عناصر تكوين بعد\nأضف عناصر تكوين للسماح للمستخدمين بتخصيص سلوك الوحدة"
         AppLanguage.PORTUGUESE -> "Sem itens de configuração ainda\nAdicione itens para permitir que usuários personalizem o comportamento do módulo"
         AppLanguage.SPANISH -> "Sin elementos de configuración aún\nAgregue elementos para permitir a los usuarios personalizar el comportamiento del módulo"
@@ -2669,6 +2866,7 @@ object StringsB {
     val addConfigItem: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加配置项"
         AppLanguage.ENGLISH -> "Add Config Item"
+        AppLanguage.VIETNAMESE -> "Thêm mục cấu hình"
         AppLanguage.ARABIC -> "إضافة عنصر تكوين"
         AppLanguage.PORTUGUESE -> "Adicionar Item de Configuração"
         AppLanguage.SPANISH -> "Agregar Elemento de Configuración"
@@ -2682,6 +2880,7 @@ object StringsB {
     val keyNamePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如: fontSize"
         AppLanguage.ENGLISH -> "e.g. fontSize"
+        AppLanguage.VIETNAMESE -> "ví dụ. cỡ chữ"
         AppLanguage.ARABIC -> "مثال: fontSize"
         AppLanguage.PORTUGUESE -> "ex.: fontSize"
         AppLanguage.SPANISH -> "ej.: fontSize"
@@ -2695,6 +2894,7 @@ object StringsB {
     val displayNamePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如: 字体大小"
         AppLanguage.ENGLISH -> "e.g. Font Size"
+        AppLanguage.VIETNAMESE -> "ví dụ. Cỡ chữ"
         AppLanguage.ARABIC -> "مثال: حجم الخط"
         AppLanguage.PORTUGUESE -> "ex.: Tamanho da Fonte"
         AppLanguage.SPANISH -> "ej.: Tamaño de Fuente"
@@ -2708,6 +2908,7 @@ object StringsB {
     val explanationLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "说明"
         AppLanguage.ENGLISH -> "Description"
+        AppLanguage.VIETNAMESE -> "Sự miêu tả"
         AppLanguage.ARABIC -> "الوصف"
         AppLanguage.PORTUGUESE -> "Descrição"
         AppLanguage.SPANISH -> "Descripción"
@@ -2721,6 +2922,7 @@ object StringsB {
     val configExplanationPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "配置项的说明文字"
         AppLanguage.ENGLISH -> "Description text for the config item"
+        AppLanguage.VIETNAMESE -> "Văn bản mô tả cho mục cấu hình"
         AppLanguage.ARABIC -> "نص وصف عنصر التكوين"
         AppLanguage.PORTUGUESE -> "Texto descritivo do item de configuração"
         AppLanguage.SPANISH -> "Texto descriptivo del elemento de configuración"
@@ -2734,6 +2936,7 @@ object StringsB {
     val typeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "类型"
         AppLanguage.ENGLISH -> "Type"
+        AppLanguage.VIETNAMESE -> "Kiểu"
         AppLanguage.ARABIC -> "النوع"
         AppLanguage.PORTUGUESE -> "Tipo"
         AppLanguage.SPANISH -> "Tipo"
@@ -2747,6 +2950,7 @@ object StringsB {
     val defaultValueLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认值"
         AppLanguage.ENGLISH -> "Default Value"
+        AppLanguage.VIETNAMESE -> "Giá trị mặc định"
         AppLanguage.ARABIC -> "القيمة الافتراضية"
         AppLanguage.PORTUGUESE -> "Valor Padrão"
         AppLanguage.SPANISH -> "Valor Predeterminado"
@@ -2760,6 +2964,7 @@ object StringsB {
     val requiredField: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "必填项"
         AppLanguage.ENGLISH -> "Required"
+        AppLanguage.VIETNAMESE -> "Yêu cầu"
         AppLanguage.ARABIC -> "مطلوب"
         AppLanguage.PORTUGUESE -> "Obrigatório"
         AppLanguage.SPANISH -> "Obligatorio"
@@ -2773,6 +2978,7 @@ object StringsB {
     val selectTemplate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择模板"
         AppLanguage.ENGLISH -> "Select Template"
+        AppLanguage.VIETNAMESE -> "Chọn mẫu"
         AppLanguage.ARABIC -> "اختر قالب"
         AppLanguage.PORTUGUESE -> "Selecionar Modelo"
         AppLanguage.SPANISH -> "Seleccionar Plantilla"
@@ -2786,6 +2992,7 @@ object StringsB {
     val jsCodePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "// 在这里编写 JavaScript 代码\nconsole.log('Hello from module!');"
         AppLanguage.ENGLISH -> "// Write JavaScript code here\nconsole.log('Hello from module!');"
+        AppLanguage.VIETNAMESE -> "// Viết mã JavaScript ở đây\nconsole.log('Xin chào từ mô-đun!');"
         AppLanguage.ARABIC -> "// اكتب كود JavaScript هنا\nconsole.log('Hello from module!');"
         AppLanguage.PORTUGUESE -> "// Escreva código JavaScript aqui\nconsole.log('Hello from module!');"
         AppLanguage.SPANISH -> "// Escriba código JavaScript aquí\nconsole.log('Hello from module!');"
@@ -2799,6 +3006,7 @@ object StringsB {
     val cssCodePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "/* 在这里编写 CSS 样式 */\n.ad-banner {\n   display: none !important;\n}"
         AppLanguage.ENGLISH -> "/* Write CSS styles here */\n.ad-banner {\n   display: none !important;\n}"
+        AppLanguage.VIETNAMESE -> "/*Viết các kiểu CSS tại đây */\n.ad-banner {\n   hiển thị: không !quan trọng;\n}"
         AppLanguage.ARABIC -> "/* اكتب أنماط CSS هنا */\n.ad-banner {\n   display: none !important;\n}"
         AppLanguage.PORTUGUESE -> "/* Escreva estilos CSS aqui */\n.ad-banner {\n   display: none !important;\n}"
         AppLanguage.SPANISH -> "/* Escriba estilos CSS aquí */\n.ad-banner {\n   display: none !important;\n}"
@@ -2812,6 +3020,7 @@ object StringsB {
     val authorAvatar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "作者头像"
         AppLanguage.ENGLISH -> "Author Avatar"
+        AppLanguage.VIETNAMESE -> "Avatar tác giả"
         AppLanguage.ARABIC -> "صورة المؤلف"
         AppLanguage.PORTUGUESE -> "Avatar do Autor"
         AppLanguage.SPANISH -> "Avatar del Autor"
@@ -2825,6 +3034,7 @@ object StringsB {
     val selectBgm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择背景音乐"
         AppLanguage.ENGLISH -> "Select Background Music"
+        AppLanguage.VIETNAMESE -> "Chọn nhạc nền"
         AppLanguage.ARABIC -> "اختيار موسيقى الخلفية"
         AppLanguage.PORTUGUESE -> "Selecionar Música de Fundo"
         AppLanguage.SPANISH -> "Seleccionar Música de Fondo"
@@ -2838,6 +3048,7 @@ object StringsB {
     val selectedMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选音乐"
         AppLanguage.ENGLISH -> "Selected Music"
+        AppLanguage.VIETNAMESE -> "Nhạc đã chọn"
         AppLanguage.ARABIC -> "الموسيقى المحددة"
         AppLanguage.PORTUGUESE -> "Música Selecionada"
         AppLanguage.SPANISH -> "Música Seleccionada"
@@ -2851,6 +3062,7 @@ object StringsB {
     val availableMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可用音乐"
         AppLanguage.ENGLISH -> "Available Music"
+        AppLanguage.VIETNAMESE -> "Âm nhạc có sẵn"
         AppLanguage.ARABIC -> "الموسيقى المتاحة"
         AppLanguage.PORTUGUESE -> "Música Disponível"
         AppLanguage.SPANISH -> "Música Disponible"
@@ -2864,6 +3076,7 @@ object StringsB {
     val uploadMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上传音乐"
         AppLanguage.ENGLISH -> "Upload Music"
+        AppLanguage.VIETNAMESE -> "Tải nhạc lên"
         AppLanguage.ARABIC -> "رفع موسيقى"
         AppLanguage.PORTUGUESE -> "Carregar Música"
         AppLanguage.SPANISH -> "Subir Música"
@@ -2877,6 +3090,7 @@ object StringsB {
     val clickArrowToReorder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击箭头调整顺序"
         AppLanguage.ENGLISH -> "Click arrows to reorder"
+        AppLanguage.VIETNAMESE -> "Bấm vào mũi tên để sắp xếp lại"
         AppLanguage.ARABIC -> "انقر على الأسهم لإعادة الترتيب"
         AppLanguage.PORTUGUESE -> "Clique nas setas para reordenar"
         AppLanguage.SPANISH -> "Haga clic en las flechas para reordenar"
@@ -2890,6 +3104,7 @@ object StringsB {
     val noMusicAvailable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无音乐"
         AppLanguage.ENGLISH -> "No music available"
+        AppLanguage.VIETNAMESE -> "Không có nhạc"
         AppLanguage.ARABIC -> "لا توجد موسيقى متاحة"
         AppLanguage.PORTUGUESE -> "Sem música disponível"
         AppLanguage.SPANISH -> "Sin música disponible"
@@ -2903,6 +3118,7 @@ object StringsB {
     val bgmEmptyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上传本地音频，或在线搜索下载"
         AppLanguage.ENGLISH -> "Upload local audio, or search online"
+        AppLanguage.VIETNAMESE -> "Tải lên âm thanh cục bộ hoặc tìm kiếm trực tuyến"
         AppLanguage.ARABIC -> "ارفع ملفًا صوتيًا محليًا أو ابحث عبر الإنترنت"
         AppLanguage.PORTUGUESE -> "Envie áudio local ou pesquise online"
         AppLanguage.SPANISH -> "Sube audio local o busca en línea"
@@ -2916,6 +3132,7 @@ object StringsB {
     val noMusicWithTag: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有此标签的音乐"
         AppLanguage.ENGLISH -> "No music with this tag"
+        AppLanguage.VIETNAMESE -> "Không có âm nhạc với thẻ này"
         AppLanguage.ARABIC -> "لا توجد موسيقى بهذه العلامة"
         AppLanguage.PORTUGUESE -> "Sem música com esta tag"
         AppLanguage.SPANISH -> "Sin música con esta etiqueta"
@@ -2929,6 +3146,7 @@ object StringsB {
     val playMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "播放模式"
         AppLanguage.ENGLISH -> "Play Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ chơi"
         AppLanguage.ARABIC -> "وضع التشغيل"
         AppLanguage.PORTUGUESE -> "Modo de Reprodução"
         AppLanguage.SPANISH -> "Modo de Reproducción"
@@ -2942,6 +3160,7 @@ object StringsB {
     val loopMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "循环"
         AppLanguage.ENGLISH -> "Loop"
+        AppLanguage.VIETNAMESE -> "Vòng lặp"
         AppLanguage.ARABIC -> "تكرار"
         AppLanguage.PORTUGUESE -> "Repetir"
         AppLanguage.SPANISH -> "Bucle"
@@ -2955,6 +3174,7 @@ object StringsB {
     val sequentialMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "顺序"
         AppLanguage.ENGLISH -> "Sequential"
+        AppLanguage.VIETNAMESE -> "tuần tự"
         AppLanguage.ARABIC -> "تسلسلي"
         AppLanguage.PORTUGUESE -> "Sequencial"
         AppLanguage.SPANISH -> "Secuencial"
@@ -2968,6 +3188,7 @@ object StringsB {
     val shuffleMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "随机"
         AppLanguage.ENGLISH -> "Shuffle"
+        AppLanguage.VIETNAMESE -> "Trộn bài"
         AppLanguage.ARABIC -> "عشوائي"
         AppLanguage.PORTUGUESE -> "Aleatório"
         AppLanguage.SPANISH -> "Aleatorio"
@@ -2981,6 +3202,7 @@ object StringsB {
     val volume: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音量"
         AppLanguage.ENGLISH -> "Volume"
+        AppLanguage.VIETNAMESE -> "Âm lượng"
         AppLanguage.ARABIC -> "مستوى الصوت"
         AppLanguage.PORTUGUESE -> "Volume"
         AppLanguage.SPANISH -> "Volumen"
@@ -2994,6 +3216,7 @@ object StringsB {
     val showLyrics: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示歌词"
         AppLanguage.ENGLISH -> "Show Lyrics"
+        AppLanguage.VIETNAMESE -> "Hiển thị lời bài hát"
         AppLanguage.ARABIC -> "عرض كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "Mostrar Letras"
         AppLanguage.SPANISH -> "Mostrar Letras"
@@ -3007,6 +3230,7 @@ object StringsB {
     val bgmFloatingPlayer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮播放器"
         AppLanguage.ENGLISH -> "Floating player"
+        AppLanguage.VIETNAMESE -> "Máy nghe nhạc nổi"
         AppLanguage.ARABIC -> "مشغل عائم"
         AppLanguage.PORTUGUESE -> "Reprodutor flutuante"
         AppLanguage.SPANISH -> "Reproductor flotante"
@@ -3020,6 +3244,7 @@ object StringsB {
     val bgmFloatingPlayerHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "平时是一颗浮在网页上的小球，点开才出现切歌和关闭。拖动会吸到左右边缘，几秒不用会自己收回去。关闭只停音乐，小球还在。"
         AppLanguage.ENGLISH -> "A ball above the page. Tap it for previous, next, and close. Drag snaps it to either edge, and it folds away after a few seconds. Close stops the music and leaves the ball."
+        AppLanguage.VIETNAMESE -> "Một quả bóng phía trên trang. Nhấn vào nó để xem trước, tiếp theo và đóng. Kéo sẽ gắn nó vào một trong hai cạnh và nó sẽ gập lại sau vài giây. Đóng dừng nhạc và để lại quả bóng."
         AppLanguage.ARABIC -> "كرة فوق الصفحة. انقرها للسابق والتالي والإغلاق. اسحبها فتلتصق بأحد الجانبين، ثم تنطوي بعد ثوانٍ. الإغلاق يوقف الموسيقى ويبقي الكرة."
         AppLanguage.PORTUGUESE -> "Uma bola sobre a página. Toque para anterior, próxima e fechar. Arrastar gruda na borda e ela se recolhe sozinha. Fechar para a música e deixa a bola."
         AppLanguage.SPANISH -> "Una bola sobre la página. Tócala para anterior, siguiente y cerrar. Al arrastrarla se pega al borde y se pliega sola. Cerrar detiene la música y deja la bola."
@@ -3033,6 +3258,7 @@ object StringsB {
     val bgmNotificationPlayer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通知栏播放器"
         AppLanguage.ENGLISH -> "Notification player"
+        AppLanguage.VIETNAMESE -> "Trình phát thông báo"
         AppLanguage.ARABIC -> "مشغل الإشعار"
         AppLanguage.PORTUGUESE -> "Reprodutor na notificação"
         AppLanguage.SPANISH -> "Reproductor en la notificación"
@@ -3046,6 +3272,7 @@ object StringsB {
     val bgmNotificationPlayerHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在通知栏和锁屏上使用系统媒体控件，可以暂停、切歌和拖动进度。"
         AppLanguage.ENGLISH -> "System media controls in the notification shade and on the lock screen: pause, skip, and scrub."
+        AppLanguage.VIETNAMESE -> "Điều khiển phương tiện hệ thống trong ngăn thông báo và trên màn hình khóa: tạm dừng, bỏ qua và xóa."
         AppLanguage.ARABIC -> "عناصر تحكم الوسائط في لوحة الإشعارات وشاشة القفل: إيقاف مؤقت وتخطٍ وسحب التقدم."
         AppLanguage.PORTUGUESE -> "Controles de mídia do sistema na barra de notificações e na tela de bloqueio: pausar, trocar e arrastar o progresso."
         AppLanguage.SPANISH -> "Controles de medios del sistema en las notificaciones y en la pantalla de bloqueo: pausa, cambio de pista y progreso."
@@ -3059,6 +3286,7 @@ object StringsB {
     val bgmPrevious: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上一首"
         AppLanguage.ENGLISH -> "Previous"
+        AppLanguage.VIETNAMESE -> "Trước"
         AppLanguage.ARABIC -> "السابق"
         AppLanguage.PORTUGUESE -> "Anterior"
         AppLanguage.SPANISH -> "Anterior"
@@ -3072,6 +3300,7 @@ object StringsB {
     val bgmNext: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下一首"
         AppLanguage.ENGLISH -> "Next"
+        AppLanguage.VIETNAMESE -> "Kế tiếp"
         AppLanguage.ARABIC -> "التالي"
         AppLanguage.PORTUGUESE -> "Próxima"
         AppLanguage.SPANISH -> "Siguiente"
@@ -3085,6 +3314,7 @@ object StringsB {
     val bgmNotificationChannel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "背景音乐"
         AppLanguage.ENGLISH -> "Background music"
+        AppLanguage.VIETNAMESE -> "Nhạc nền"
         AppLanguage.ARABIC -> "موسيقى الخلفية"
         AppLanguage.PORTUGUESE -> "Música de fundo"
         AppLanguage.SPANISH -> "Música de fondo"
@@ -3098,6 +3328,7 @@ object StringsB {
     val allTag: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部"
         AppLanguage.ENGLISH -> "All"
+        AppLanguage.VIETNAMESE -> "Tất cả"
         AppLanguage.ARABIC -> "الكل"
         AppLanguage.PORTUGUESE -> "Todos"
         AppLanguage.SPANISH -> "Todos"
@@ -3111,6 +3342,7 @@ object StringsB {
     val lyricsSaved: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[OK] 歌词已保存"
         AppLanguage.ENGLISH -> "[OK] Lyrics saved"
+        AppLanguage.VIETNAMESE -> "[OK] Đã lưu lời bài hát"
         AppLanguage.ARABIC -> "[OK] تم حفظ كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "[OK] Letras salvas"
         AppLanguage.SPANISH -> "[OK] Letras guardadas"
@@ -3124,6 +3356,7 @@ object StringsB {
     val lines: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "行"
         AppLanguage.ENGLISH -> "lines"
+        AppLanguage.VIETNAMESE -> "dòng"
         AppLanguage.ARABIC -> "سطر"
         AppLanguage.PORTUGUESE -> "linhas"
         AppLanguage.SPANISH -> "líneas"
@@ -3137,6 +3370,7 @@ object StringsB {
     val previewLyrics: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预览歌词"
         AppLanguage.ENGLISH -> "Preview Lyrics"
+        AppLanguage.VIETNAMESE -> "Xem trước lời bài hát"
         AppLanguage.ARABIC -> "معاينة كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "Pré-visualizar Letras"
         AppLanguage.SPANISH -> "Vista Previa de Letras"
@@ -3151,6 +3385,7 @@ object StringsB {
     val aiGenerateLyrics: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI生成歌词"
         AppLanguage.ENGLISH -> "AI Generate Lyrics"
+        AppLanguage.VIETNAMESE -> "AI tạo lời bài hát"
         AppLanguage.ARABIC -> "إنشاء كلمات بالذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Gerar Letras com IA"
         AppLanguage.SPANISH -> "Generar Letras con IA"
@@ -3164,6 +3399,7 @@ object StringsB {
     val editTags: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑标签"
         AppLanguage.ENGLISH -> "Edit Tags"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa thẻ"
         AppLanguage.ARABIC -> "تعديل العلامات"
         AppLanguage.PORTUGUESE -> "Editar Tags"
         AppLanguage.SPANISH -> "Editar Etiquetas"
@@ -3177,6 +3413,7 @@ object StringsB {
     val stop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "停止"
         AppLanguage.ENGLISH -> "Stop"
+        AppLanguage.VIETNAMESE -> "Dừng lại"
         AppLanguage.ARABIC -> "إيقاف"
         AppLanguage.PORTUGUESE -> "Parar"
         AppLanguage.SPANISH -> "Detener"
@@ -3190,6 +3427,7 @@ object StringsB {
     val moveUp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上移"
         AppLanguage.ENGLISH -> "Move Up"
+        AppLanguage.VIETNAMESE -> "Di chuyển lên"
         AppLanguage.ARABIC -> "نقل لأعلى"
         AppLanguage.PORTUGUESE -> "Mover para Cima"
         AppLanguage.SPANISH -> "Mover Arriba"
@@ -3203,6 +3441,7 @@ object StringsB {
     val moveDown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下移"
         AppLanguage.ENGLISH -> "Move Down"
+        AppLanguage.VIETNAMESE -> "Di chuyển xuống"
         AppLanguage.ARABIC -> "نقل لأسفل"
         AppLanguage.PORTUGUESE -> "Mover para Baixo"
         AppLanguage.SPANISH -> "Mover Abajo"
@@ -3216,6 +3455,7 @@ object StringsB {
     val presetMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预置音乐"
         AppLanguage.ENGLISH -> "Preset Music"
+        AppLanguage.VIETNAMESE -> "Nhạc cài sẵn"
         AppLanguage.ARABIC -> "موسيقى مسبقة"
         AppLanguage.PORTUGUESE -> "Música Predefinida"
         AppLanguage.SPANISH -> "Música Predefinida"
@@ -3229,6 +3469,7 @@ object StringsB {
     val userUploaded: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户上传"
         AppLanguage.ENGLISH -> "User Uploaded"
+        AppLanguage.VIETNAMESE -> "Người dùng đã tải lên"
         AppLanguage.ARABIC -> "رفع المستخدم"
         AppLanguage.PORTUGUESE -> "Carregado pelo Usuário"
         AppLanguage.SPANISH -> "Subido por el Usuario"
@@ -3242,6 +3483,7 @@ object StringsB {
     val uploadMusicTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上传音乐"
         AppLanguage.ENGLISH -> "Upload Music"
+        AppLanguage.VIETNAMESE -> "Tải nhạc lên"
         AppLanguage.ARABIC -> "رفع موسيقى"
         AppLanguage.PORTUGUESE -> "Carregar Música"
         AppLanguage.SPANISH -> "Subir Música"
@@ -3255,6 +3497,7 @@ object StringsB {
     val musicName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音乐名称"
         AppLanguage.ENGLISH -> "Music Name"
+        AppLanguage.VIETNAMESE -> "Tên nhạc"
         AppLanguage.ARABIC -> "اسم الموسيقى"
         AppLanguage.PORTUGUESE -> "Nome da Música"
         AppLanguage.SPANISH -> "Nombre de la Música"
@@ -3268,6 +3511,7 @@ object StringsB {
     val selectMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择音乐"
         AppLanguage.ENGLISH -> "Select Music"
+        AppLanguage.VIETNAMESE -> "Chọn nhạc"
         AppLanguage.ARABIC -> "اختيار موسيقى"
         AppLanguage.PORTUGUESE -> "Selecionar Música"
         AppLanguage.SPANISH -> "Seleccionar Música"
@@ -3281,6 +3525,7 @@ object StringsB {
     val selectCoverOptional: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择封面(可选)"
         AppLanguage.ENGLISH -> "Select Cover (Optional)"
+        AppLanguage.VIETNAMESE -> "Chọn Bìa (Tùy chọn)"
         AppLanguage.ARABIC -> "اختيار غلاف (اختياري)"
         AppLanguage.PORTUGUESE -> "Selecionar Capa (Opcional)"
         AppLanguage.SPANISH -> "Seleccionar Portada (Opcional)"
@@ -3294,6 +3539,7 @@ object StringsB {
     val coverTip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提示: 封面图片用于在选择界面展示"
         AppLanguage.ENGLISH -> "Tip: Cover image is displayed in the selection interface"
+        AppLanguage.VIETNAMESE -> "Mẹo: Ảnh bìa hiển thị trong giao diện lựa chọn"
         AppLanguage.ARABIC -> "تلميح: يتم عرض صورة الغلاف في واجهة الاختيار"
         AppLanguage.PORTUGUESE -> "Dica: A imagem de capa é exibida na interface de seleção"
         AppLanguage.SPANISH -> "Consejo: La imagen de portada se muestra en la interfaz de selección"
@@ -3307,6 +3553,7 @@ object StringsB {
     val upload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上传"
         AppLanguage.ENGLISH -> "Upload"
+        AppLanguage.VIETNAMESE -> "Tải lên"
         AppLanguage.ARABIC -> "رفع"
         AppLanguage.PORTUGUESE -> "Carregar"
         AppLanguage.SPANISH -> "Subir"
@@ -3320,6 +3567,7 @@ object StringsB {
     val editTagsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑标签"
         AppLanguage.ENGLISH -> "Edit Tags"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa thẻ"
         AppLanguage.ARABIC -> "تعديل العلامات"
         AppLanguage.PORTUGUESE -> "Editar Tags"
         AppLanguage.SPANISH -> "Editar Etiquetas"
@@ -3333,6 +3581,7 @@ object StringsB {
     val selectTagsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择适合的标签(可多选)"
         AppLanguage.ENGLISH -> "Select suitable tags (multiple selection)"
+        AppLanguage.VIETNAMESE -> "Chọn thẻ phù hợp (nhiều lựa chọn)"
         AppLanguage.ARABIC -> "اختر العلامات المناسبة (اختيار متعدد)"
         AppLanguage.PORTUGUESE -> "Selecione tags adequadas (seleção múltipla)"
         AppLanguage.SPANISH -> "Seleccione etiquetas adecuadas (selección múltiple)"
@@ -3346,6 +3595,7 @@ object StringsB {
     val selectLyricsTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择字幕主题"
         AppLanguage.ENGLISH -> "Select Lyrics Theme"
+        AppLanguage.VIETNAMESE -> "Chọn chủ đề lời bài hát"
         AppLanguage.ARABIC -> "اختيار سمة كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "Selecionar Tema de Letras"
         AppLanguage.SPANISH -> "Seleccionar Tema de Letras"
@@ -3359,6 +3609,7 @@ object StringsB {
     val selectLyricsThemeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择歌词显示的视觉风格"
         AppLanguage.ENGLISH -> "Select visual style for lyrics display"
+        AppLanguage.VIETNAMESE -> "Chọn kiểu trực quan để hiển thị lời bài hát"
         AppLanguage.ARABIC -> "اختر النمط المرئي لعرض كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "Selecione o estilo visual para exibição das letras"
         AppLanguage.SPANISH -> "Seleccione el estilo visual para la visualización de letras"
@@ -3372,6 +3623,7 @@ object StringsB {
     val sampleLyricsText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "示例歌词文本"
         AppLanguage.ENGLISH -> "Sample Lyrics Text"
+        AppLanguage.VIETNAMESE -> "Văn bản lời bài hát mẫu"
         AppLanguage.ARABIC -> "نص كلمات نموذجي"
         AppLanguage.PORTUGUESE -> "Texto de Letras de Exemplo"
         AppLanguage.SPANISH -> "Texto de Letras de Ejemplo"
@@ -3385,6 +3637,7 @@ object StringsB {
     val lyricsPreview: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词预览"
         AppLanguage.ENGLISH -> "Lyrics Preview"
+        AppLanguage.VIETNAMESE -> "Xem trước lời bài hát"
         AppLanguage.ARABIC -> "معاينة كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "Pré-visualização de Letras"
         AppLanguage.SPANISH -> "Vista Previa de Letras"
@@ -3398,6 +3651,7 @@ object StringsB {
     val lyricsUpdated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[OK] 歌词已更新"
         AppLanguage.ENGLISH -> "[OK] Lyrics updated"
+        AppLanguage.VIETNAMESE -> "[OK] Đã cập nhật lời bài hát"
         AppLanguage.ARABIC -> "[OK] تم تحديث كلمات الأغنية"
         AppLanguage.PORTUGUESE -> "[OK] Letras atualizadas"
         AppLanguage.SPANISH -> "[OK] Letras actualizadas"
@@ -3411,6 +3665,7 @@ object StringsB {
     val backward10s: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后退10秒"
         AppLanguage.ENGLISH -> "Rewind 10s"
+        AppLanguage.VIETNAMESE -> "Tua lại 10 giây"
         AppLanguage.ARABIC -> "ترجيع 10 ثوانٍ"
         AppLanguage.PORTUGUESE -> "Retroceder 10s"
         AppLanguage.SPANISH -> "Retroceder 10s"
@@ -3424,6 +3679,7 @@ object StringsB {
     val forward10s: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "前进10秒"
         AppLanguage.ENGLISH -> "Forward 10s"
+        AppLanguage.VIETNAMESE -> "Chuyển tiếp 10 giây"
         AppLanguage.ARABIC -> "تقديم 10 ثوانٍ"
         AppLanguage.PORTUGUESE -> "Avançar 10s"
         AppLanguage.SPANISH -> "Avanzar 10s"
@@ -3437,6 +3693,7 @@ object StringsB {
     val selectAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全选"
         AppLanguage.ENGLISH -> "Select All"
+        AppLanguage.VIETNAMESE -> "Chọn tất cả"
         AppLanguage.ARABIC -> "تحديد الكل"
         AppLanguage.PORTUGUESE -> "Selecionar Tudo"
         AppLanguage.SPANISH -> "Seleccionar Todo"
@@ -3450,6 +3707,7 @@ object StringsB {
     val deselectAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消全选"
         AppLanguage.ENGLISH -> "Deselect All"
+        AppLanguage.VIETNAMESE -> "Bỏ chọn tất cả"
         AppLanguage.ARABIC -> "إلغاء تحديد الكل"
         AppLanguage.PORTUGUESE -> "Desselecionar Tudo"
         AppLanguage.SPANISH -> "Deseleccionar Todo"
@@ -3463,6 +3721,7 @@ object StringsB {
     val noSearchResult: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有匹配的结果"
         AppLanguage.ENGLISH -> "No matching results"
+        AppLanguage.VIETNAMESE -> "Không có kết quả phù hợp"
         AppLanguage.ARABIC -> "لا توجد نتائج مطابقة"
         AppLanguage.PORTUGUESE -> "Sem resultados correspondentes"
         AppLanguage.SPANISH -> "Sin resultados coincidentes"
@@ -3476,6 +3735,7 @@ object StringsB {
     val popupBlockerSetting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "弹窗拦截"
         AppLanguage.ENGLISH -> "Popup Blocker"
+        AppLanguage.VIETNAMESE -> "Trình chặn cửa sổ bật lên"
         AppLanguage.ARABIC -> "حظر النوافذ المنبثقة"
         AppLanguage.PORTUGUESE -> "Bloqueador de Pop-up"
         AppLanguage.SPANISH -> "Bloqueador de Pop-up"
@@ -3489,6 +3749,7 @@ object StringsB {
     val popupBlockerSettingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截广告弹窗。如果网站按钮/菜单/搜索无法点击，请关闭此选项"
         AppLanguage.ENGLISH -> "Block ad popups. If website buttons/menus/search don't work, disable this option"
+        AppLanguage.VIETNAMESE -> "Chặn quảng cáo bật lên. Nếu các nút/menu/tìm kiếm trên trang web không hoạt động, hãy tắt tùy chọn này"
         AppLanguage.ARABIC -> "حظر النوافذ المنبثقة الإعلانية. إذا لم تعمل أزرار/قوائم/بحث الموقع، قم بتعطيل هذا الخيار"
         AppLanguage.PORTUGUESE -> "Bloqueia pop-ups de anúncios. Se botões/menus/pesquisa do site não funcionarem, desative esta opção"
         AppLanguage.SPANISH -> "Bloquea pop-ups de anuncios. Si los botones/menús/búsqueda del sitio no funcionan, desactive esta opción"
@@ -3502,6 +3763,7 @@ object StringsB {
     val fixI18nStringAdaptation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修复多语言字符串适配问题"
         AppLanguage.ENGLISH -> "Fixed multi-language string adaptation issues"
+        AppLanguage.VIETNAMESE -> "Đã khắc phục sự cố thích ứng chuỗi đa ngôn ngữ"
         AppLanguage.ARABIC -> "إصلاح مشاكل تكييف السلاسل متعددة اللغات"
         AppLanguage.PORTUGUESE -> "Corrigidos problemas de adaptação de strings multilíngues"
         AppLanguage.SPANISH -> "Corregidos problemas de adaptación de cadenas multilingües"
@@ -3515,6 +3777,7 @@ object StringsB {
     val supportAndroid6: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "支持Android 6.0系统"
         AppLanguage.ENGLISH -> "Support Android 6.0 system"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ hệ thống Android 6.0"
         AppLanguage.ARABIC -> "دعم نظام Android 6.0"
         AppLanguage.PORTUGUESE -> "Suporta sistema Android 6.0"
         AppLanguage.SPANISH -> "Soporta sistema Android 6.0"
@@ -3528,6 +3791,7 @@ object StringsB {
     val aiIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI图标"
         AppLanguage.ENGLISH -> "AI Icon"
+        AppLanguage.VIETNAMESE -> "Biểu tượng AI"
         AppLanguage.ARABIC -> "أيقونة AI"
         AppLanguage.PORTUGUESE -> "Ícone de IA"
         AppLanguage.SPANISH -> "Icono de IA"
@@ -3541,6 +3805,7 @@ object StringsB {
     val icon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图标"
         AppLanguage.ENGLISH -> "Icon"
+        AppLanguage.VIETNAMESE -> "Biểu tượng"
         AppLanguage.ARABIC -> "أيقونة"
         AppLanguage.PORTUGUESE -> "Ícone"
         AppLanguage.SPANISH -> "Icono"
@@ -3554,6 +3819,7 @@ object StringsB {
     val availableFor: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可用于"
         AppLanguage.ENGLISH -> "Available for"
+        AppLanguage.VIETNAMESE -> "Có sẵn cho"
         AppLanguage.ARABIC -> "متاح لـ"
         AppLanguage.PORTUGUESE -> "Disponível para"
         AppLanguage.SPANISH -> "Disponible para"
@@ -3567,6 +3833,7 @@ object StringsB {
     val materialDesign3UI: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Material Design 3 界面"
         AppLanguage.ENGLISH -> "Material Design 3 UI"
+        AppLanguage.VIETNAMESE -> "Giao diện người dùng thiết kế vật liệu 3"
         AppLanguage.ARABIC -> "واجهة Material Design 3"
         AppLanguage.PORTUGUESE -> "Interface Material Design 3"
         AppLanguage.SPANISH -> "Interfaz Material Design 3"
@@ -3580,6 +3847,7 @@ object StringsB {
     val savedToGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%s已保存到相册"
         AppLanguage.ENGLISH -> "%s saved to gallery"
+        AppLanguage.VIETNAMESE -> "%s đã lưu vào thư viện"
         AppLanguage.ARABIC -> "تم حفظ %s في المعرض"
         AppLanguage.PORTUGUESE -> "%s salvo na galeria"
         AppLanguage.SPANISH -> "%s guardado en la galería"
@@ -3593,6 +3861,7 @@ object StringsB {
     val hotTag: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "热门"
         AppLanguage.ENGLISH -> "Hot"
+        AppLanguage.VIETNAMESE -> "Nóng"
         AppLanguage.ARABIC -> "شائع"
         AppLanguage.PORTUGUESE -> "Popular"
         AppLanguage.SPANISH -> "Popular"
@@ -3606,6 +3875,7 @@ object StringsB {
     val insertCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插入代码"
         AppLanguage.ENGLISH -> "Insert Code"
+        AppLanguage.VIETNAMESE -> "Chèn mã"
         AppLanguage.ARABIC -> "إدراج الكود"
         AppLanguage.PORTUGUESE -> "Inserir Código"
         AppLanguage.SPANISH -> "Insertar Código"
@@ -3619,6 +3889,7 @@ object StringsB {
     val browseAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览全部"
         AppLanguage.ENGLISH -> "Browse All"
+        AppLanguage.VIETNAMESE -> "Duyệt tất cả"
         AppLanguage.ARABIC -> "تصفح الكل"
         AppLanguage.PORTUGUESE -> "Navegar por Tudo"
         AppLanguage.SPANISH -> "Explorar Todo"
@@ -3632,6 +3903,7 @@ object StringsB {
     val pleaseActivateApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请先激活应用"
         AppLanguage.ENGLISH -> "Please activate the app first"
+        AppLanguage.VIETNAMESE -> "Vui lòng kích hoạt ứng dụng trước"
         AppLanguage.ARABIC -> "يرجى تفعيل التطبيق أولاً"
         AppLanguage.PORTUGUESE -> "Por favor, ative o app primeiro"
         AppLanguage.SPANISH -> "Por favor, active el app primero"
@@ -3645,6 +3917,7 @@ object StringsB {
     val enterActivationCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入激活码"
         AppLanguage.ENGLISH -> "Enter Activation Code"
+        AppLanguage.VIETNAMESE -> "Nhập mã kích hoạt"
         AppLanguage.ARABIC -> "أدخل رمز التفعيل"
         AppLanguage.PORTUGUESE -> "Digite o Código de Ativação"
         AppLanguage.SPANISH -> "Ingrese el Código de Activación"
@@ -3658,6 +3931,7 @@ object StringsB {
     val enterCodeToContinue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请输入激活码以继续使用"
         AppLanguage.ENGLISH -> "Please enter activation code to continue"
+        AppLanguage.VIETNAMESE -> "Vui lòng nhập mã kích hoạt để tiếp tục"
         AppLanguage.ARABIC -> "يرجى إدخال رمز التفعيل للمتابعة"
         AppLanguage.PORTUGUESE -> "Por favor, digite o código de ativação para continuar"
         AppLanguage.SPANISH -> "Por favor, ingrese el código de activación para continuar"
@@ -3671,6 +3945,7 @@ object StringsB {
     val themeAurora: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "极光梦境"
         AppLanguage.ENGLISH -> "Aurora Dreams"
+        AppLanguage.VIETNAMESE -> "Giấc mơ cực quang"
         AppLanguage.ARABIC -> "أحلام الشفق القطبي"
         AppLanguage.PORTUGUESE -> "Sonhos de Aurora"
         AppLanguage.SPANISH -> "Sueños de Aurora"
@@ -3684,6 +3959,7 @@ object StringsB {
     val themeCyberpunk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "赛博霓虹"
         AppLanguage.ENGLISH -> "Cyber Neon"
+        AppLanguage.VIETNAMESE -> "Mạng Neon"
         AppLanguage.ARABIC -> "نيون سايبر"
         AppLanguage.PORTUGUESE -> "Neon Cyber"
         AppLanguage.SPANISH -> "Neón Cyber"
@@ -3697,6 +3973,7 @@ object StringsB {
     val themeSakura: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "樱花物语"
         AppLanguage.ENGLISH -> "Sakura Story"
+        AppLanguage.VIETNAMESE -> "Câu Chuyện Sakura"
         AppLanguage.ARABIC -> "قصة الساكورا"
         AppLanguage.PORTUGUESE -> "História de Sakura"
         AppLanguage.SPANISH -> "Historia de Sakura"
@@ -3710,6 +3987,7 @@ object StringsB {
     val themeOcean: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深海幽蓝"
         AppLanguage.ENGLISH -> "Deep Ocean Blue"
+        AppLanguage.VIETNAMESE -> "Đại dương xanh thẳm"
         AppLanguage.ARABIC -> "أزرق المحيط العميق"
         AppLanguage.PORTUGUESE -> "Azul Oceano Profundo"
         AppLanguage.SPANISH -> "Azul Océano Profundo"
@@ -3723,6 +4001,7 @@ object StringsB {
     val themeForest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "森林晨曦"
         AppLanguage.ENGLISH -> "Forest Dawn"
+        AppLanguage.VIETNAMESE -> "Bình minh rừng"
         AppLanguage.ARABIC -> "فجر الغابة"
         AppLanguage.PORTUGUESE -> "Amanhecer na Floresta"
         AppLanguage.SPANISH -> "Amanecer en el Bosque"
@@ -3736,6 +4015,7 @@ object StringsB {
     val themeGalaxy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "星空银河"
         AppLanguage.ENGLISH -> "Galaxy Stars"
+        AppLanguage.VIETNAMESE -> "Sao Thiên Hà"
         AppLanguage.ARABIC -> "نجوم المجرة"
         AppLanguage.PORTUGUESE -> "Estrelas da Galáxia"
         AppLanguage.SPANISH -> "Estrellas de la Galaxia"
@@ -3749,6 +4029,7 @@ object StringsB {
     val themeVolcano: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "熔岩之心"
         AppLanguage.ENGLISH -> "Lava Heart"
+        AppLanguage.VIETNAMESE -> "Trái tim dung nham"
         AppLanguage.ARABIC -> "قلب الحمم"
         AppLanguage.PORTUGUESE -> "Coração de Lava"
         AppLanguage.SPANISH -> "Corazón de Lava"
@@ -3762,6 +4043,7 @@ object StringsB {
     val themeFrost: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "冰晶之境"
         AppLanguage.ENGLISH -> "Frost Crystal"
+        AppLanguage.VIETNAMESE -> "Pha lê băng giá"
         AppLanguage.ARABIC -> "بلورة الصقيع"
         AppLanguage.PORTUGUESE -> "Cristal de Gelo"
         AppLanguage.SPANISH -> "Cristal de Escarcha"
@@ -3775,6 +4057,7 @@ object StringsB {
     val themeSunset: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "紫金黄昏"
         AppLanguage.ENGLISH -> "Purple Gold Sunset"
+        AppLanguage.VIETNAMESE -> "Hoàng hôn vàng tím"
         AppLanguage.ARABIC -> "غروب ذهبي بنفسجي"
         AppLanguage.PORTUGUESE -> "Pôr do Sol Dourado Roxo"
         AppLanguage.SPANISH -> "Atardecer Dorado Púrpura"
@@ -3788,6 +4071,7 @@ object StringsB {
     val themeMinimal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "极简主义"
         AppLanguage.ENGLISH -> "Minimalism"
+        AppLanguage.VIETNAMESE -> "Chủ nghĩa tối giản"
         AppLanguage.ARABIC -> "البساطة"
         AppLanguage.PORTUGUESE -> "Minimalismo"
         AppLanguage.SPANISH -> "Minimalismo"
@@ -3814,6 +4098,7 @@ object StringsB {
     val themeLavender: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "薰衣草田"
         AppLanguage.ENGLISH -> "Lavender Field"
+        AppLanguage.VIETNAMESE -> "Cánh đồng hoa oải hương"
         AppLanguage.ARABIC -> "حقل اللافندر"
         AppLanguage.PORTUGUESE -> "Campo de Lavanda"
         AppLanguage.SPANISH -> "Campo de Lavanda"
@@ -3827,6 +4112,7 @@ object StringsB {
     val themeKimiNoNawa: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "你的名字"
         AppLanguage.ENGLISH -> "Your Name"
+        AppLanguage.VIETNAMESE -> "Tên của bạn"
         AppLanguage.ARABIC -> "اسمك"
         AppLanguage.PORTUGUESE -> "Seu Nome"
         AppLanguage.SPANISH -> "Tu Nombre"
@@ -3840,6 +4126,7 @@ object StringsB {
     val themeKimiNoNawaDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "黄昏天空的彗星轨迹，新海诚式的浪漫黄昏"
         AppLanguage.ENGLISH -> "Comet trails across twilight sky, Shinkai-style romantic dusk"
+        AppLanguage.VIETNAMESE -> "Sao chổi lướt qua bầu trời chạng vạng, hoàng hôn lãng mạn theo phong cách Shinkai"
         AppLanguage.ARABIC -> "آثار المذنب عبر سماء الشفق، غسق رومانسي بأسلوب شينكاي"
         AppLanguage.PORTUGUESE -> "Trilhas de cometa pelo céu do crepúsculo, entardecer romântico estilo Shinkai"
         AppLanguage.SPANISH -> "Estelas de cometa a través del cielo del crepúsculo, anochecer romántico estilo Shinkai"
@@ -3853,6 +4140,7 @@ object StringsB {
     val uiConfig: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "UI 配置"
         AppLanguage.ENGLISH -> "UI Config"
+        AppLanguage.VIETNAMESE -> "Cấu hình giao diện người dùng"
         AppLanguage.ARABIC -> "تكوين الواجهة"
         AppLanguage.PORTUGUESE -> "Configuração de UI"
         AppLanguage.SPANISH -> "Configuración de IU"
@@ -3866,6 +4154,7 @@ object StringsB {
     val settingsThemeColor: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主题色"
         AppLanguage.ENGLISH -> "Theme color"
+        AppLanguage.VIETNAMESE -> "Màu chủ đề"
         AppLanguage.ARABIC -> "لون السمة"
         AppLanguage.PORTUGUESE -> "Cor do tema"
         AppLanguage.SPANISH -> "Color del tema"
@@ -3879,6 +4168,7 @@ object StringsB {
     val settingsThemeColorDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为界面选择一组强调色"
         AppLanguage.ENGLISH -> "Pick an accent palette for the interface"
+        AppLanguage.VIETNAMESE -> "Chọn bảng màu nhấn cho giao diện"
         AppLanguage.ARABIC -> "اختر لوحة ألوان مميزة للواجهة"
         AppLanguage.PORTUGUESE -> "Escolha uma paleta de destaque para a interface"
         AppLanguage.SPANISH -> "Elige una paleta de acento para la interfaz"
@@ -3892,6 +4182,7 @@ object StringsB {
     val settingsDarkMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深色模式"
         AppLanguage.ENGLISH -> "Dark mode"
+        AppLanguage.VIETNAMESE -> "Chế độ tối"
         AppLanguage.ARABIC -> "الوضع الداكن"
         AppLanguage.PORTUGUESE -> "Modo escuro"
         AppLanguage.SPANISH -> "Modo oscuro"
@@ -3905,6 +4196,7 @@ object StringsB {
     val settingsAnimation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动画"
         AppLanguage.ENGLISH -> "Animations"
+        AppLanguage.VIETNAMESE -> "Hoạt hình"
         AppLanguage.ARABIC -> "الحركات"
         AppLanguage.PORTUGUESE -> "Animações"
         AppLanguage.SPANISH -> "Animaciones"
@@ -3918,6 +4210,7 @@ object StringsB {
     val animEnableAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启用动画"
         AppLanguage.ENGLISH -> "Enable animations"
+        AppLanguage.VIETNAMESE -> "Bật hoạt ảnh"
         AppLanguage.ARABIC -> "تفعيل الحركات"
         AppLanguage.PORTUGUESE -> "Ativar animações"
         AppLanguage.SPANISH -> "Activar animaciones"
@@ -3931,6 +4224,7 @@ object StringsB {
     val animParticles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "粒子效果"
         AppLanguage.ENGLISH -> "Particle effects"
+        AppLanguage.VIETNAMESE -> "Hiệu ứng hạt"
         AppLanguage.ARABIC -> "تأثيرات الجسيمات"
         AppLanguage.PORTUGUESE -> "Efeitos de partículas"
         AppLanguage.SPANISH -> "Efectos de partículas"
@@ -3944,6 +4238,7 @@ object StringsB {
     val animHaptics: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触觉反馈"
         AppLanguage.ENGLISH -> "Haptic feedback"
+        AppLanguage.VIETNAMESE -> "Phản hồi xúc giác"
         AppLanguage.ARABIC -> "الاستجابة اللمسية"
         AppLanguage.PORTUGUESE -> "Resposta tátil"
         AppLanguage.SPANISH -> "Respuesta háptica"
@@ -3957,6 +4252,7 @@ object StringsB {
     val animSound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音效"
         AppLanguage.ENGLISH -> "Sound effects"
+        AppLanguage.VIETNAMESE -> "Hiệu ứng âm thanh"
         AppLanguage.ARABIC -> "المؤثرات الصوتية"
         AppLanguage.PORTUGUESE -> "Efeitos sonoros"
         AppLanguage.SPANISH -> "Efectos de sonido"
@@ -3970,6 +4266,7 @@ object StringsB {
     val animSpeedTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动画速度"
         AppLanguage.ENGLISH -> "Animation speed"
+        AppLanguage.VIETNAMESE -> "Tốc độ hoạt ảnh"
         AppLanguage.ARABIC -> "سرعة الحركة"
         AppLanguage.PORTUGUESE -> "Velocidade da animação"
         AppLanguage.SPANISH -> "Velocidad de animación"
@@ -3983,6 +4280,7 @@ object StringsB {
     val accentDefault: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认黑白"
         AppLanguage.ENGLISH -> "Default"
+        AppLanguage.VIETNAMESE -> "Mặc định"
         AppLanguage.ARABIC -> "افتراضي"
         AppLanguage.PORTUGUESE -> "Padrão"
         AppLanguage.SPANISH -> "Predeterminado"
@@ -3996,6 +4294,7 @@ object StringsB {
     val accentDynamic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跟随壁纸"
         AppLanguage.ENGLISH -> "Wallpaper"
+        AppLanguage.VIETNAMESE -> "Hình nền"
         AppLanguage.ARABIC -> "من الخلفية"
         AppLanguage.PORTUGUESE -> "Do papel de parede"
         AppLanguage.SPANISH -> "Del fondo"
@@ -4009,6 +4308,7 @@ object StringsB {
     val accentCharcoalPink: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "甜酷粉"
         AppLanguage.ENGLISH -> "Sweet pink"
+        AppLanguage.VIETNAMESE -> "Màu hồng ngọt ngào"
         AppLanguage.ARABIC -> "وردي جريء"
         AppLanguage.PORTUGUESE -> "Rosa ousado"
         AppLanguage.SPANISH -> "Rosa audaz"
@@ -4022,6 +4322,7 @@ object StringsB {
     val accentRoyalPurple: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "帝王紫"
         AppLanguage.ENGLISH -> "Royal purple"
+        AppLanguage.VIETNAMESE -> "Màu tím hoàng gia"
         AppLanguage.ARABIC -> "بنفسجي ملكي"
         AppLanguage.PORTUGUESE -> "Roxo real"
         AppLanguage.SPANISH -> "Púrpura real"
@@ -4035,6 +4336,7 @@ object StringsB {
     val accentDeepSea: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深海蓝"
         AppLanguage.ENGLISH -> "Deep sea"
+        AppLanguage.VIETNAMESE -> "Biển sâu"
         AppLanguage.ARABIC -> "أزرق أعماق البحر"
         AppLanguage.PORTUGUESE -> "Azul profundo"
         AppLanguage.SPANISH -> "Azul marino"
@@ -4048,6 +4350,7 @@ object StringsB {
     val accentIvyViolet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "藤紫青柠"
         AppLanguage.ENGLISH -> "Ivy violet"
+        AppLanguage.VIETNAMESE -> "cây thường xuân tím"
         AppLanguage.ARABIC -> "لبلاب بنفسجي"
         AppLanguage.PORTUGUESE -> "Violeta hera"
         AppLanguage.SPANISH -> "Violeta hiedra"
@@ -4061,6 +4364,7 @@ object StringsB {
     val accentSakuraForest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "樱花墨绿"
         AppLanguage.ENGLISH -> "Sakura ink"
+        AppLanguage.VIETNAMESE -> "Mực hoa anh đào"
         AppLanguage.ARABIC -> "ساكورا داكن"
         AppLanguage.PORTUGUESE -> "Sakura escura"
         AppLanguage.SPANISH -> "Sakura oscura"
@@ -4074,6 +4378,7 @@ object StringsB {
     val accentInkAqua: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "捣蓝清水"
         AppLanguage.ENGLISH -> "Ink aqua"
+        AppLanguage.VIETNAMESE -> "Mực thủy"
         AppLanguage.ARABIC -> "أزرق حبري"
         AppLanguage.PORTUGUESE -> "Azul tinta"
         AppLanguage.SPANISH -> "Azul tinta"
@@ -4087,6 +4392,7 @@ object StringsB {
     val accentSunsetHaze: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "落日橙"
         AppLanguage.ENGLISH -> "Sunset haze"
+        AppLanguage.VIETNAMESE -> "Hoàng hôn mù mịt"
         AppLanguage.ARABIC -> "برتقالي الغروب"
         AppLanguage.PORTUGUESE -> "Laranja poente"
         AppLanguage.SPANISH -> "Naranja atardecer"
@@ -4100,6 +4406,7 @@ object StringsB {
     val accentCamellia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "茶花红"
         AppLanguage.ENGLISH -> "Camellia"
+        AppLanguage.VIETNAMESE -> "hoa trà"
         AppLanguage.ARABIC -> "أحمر الكاميليا"
         AppLanguage.PORTUGUESE -> "Vermelho camélia"
         AppLanguage.SPANISH -> "Rojo camelia"
@@ -4113,6 +4420,7 @@ object StringsB {
     val accentFrostCyan: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "冰晶蓝青"
         AppLanguage.ENGLISH -> "Frost cyan"
+        AppLanguage.VIETNAMESE -> "Màu lục lam băng giá"
         AppLanguage.ARABIC -> "أزرق جليدي"
         AppLanguage.PORTUGUESE -> "Ciano glacial"
         AppLanguage.SPANISH -> "Cian glacial"
@@ -4139,6 +4447,7 @@ object StringsB {
     val settingsInterface: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "界面"
         AppLanguage.ENGLISH -> "Interface"
+        AppLanguage.VIETNAMESE -> "Giao diện"
         AppLanguage.ARABIC -> "الواجهة"
         AppLanguage.PORTUGUESE -> "Interface"
         AppLanguage.SPANISH -> "Interfaz"
@@ -4152,6 +4461,7 @@ object StringsB {
     val fontSizeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字体大小"
         AppLanguage.ENGLISH -> "Font size"
+        AppLanguage.VIETNAMESE -> "Cỡ chữ"
         AppLanguage.ARABIC -> "حجم الخط"
         AppLanguage.PORTUGUESE -> "Tamanho da fonte"
         AppLanguage.SPANISH -> "Tamaño de fuente"
@@ -4165,6 +4475,7 @@ object StringsB {
     val fontSizeSmall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "偏小"
         AppLanguage.ENGLISH -> "Small"
+        AppLanguage.VIETNAMESE -> "Bé nhỏ"
         AppLanguage.ARABIC -> "صغير"
         AppLanguage.PORTUGUESE -> "Pequena"
         AppLanguage.SPANISH -> "Pequeña"
@@ -4178,6 +4489,7 @@ object StringsB {
     val fontSizeStandard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标准"
         AppLanguage.ENGLISH -> "Standard"
+        AppLanguage.VIETNAMESE -> "Tiêu chuẩn"
         AppLanguage.ARABIC -> "قياسي"
         AppLanguage.PORTUGUESE -> "Padrão"
         AppLanguage.SPANISH -> "Estándar"
@@ -4191,6 +4503,7 @@ object StringsB {
     val fontSizeLarge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "偏大"
         AppLanguage.ENGLISH -> "Large"
+        AppLanguage.VIETNAMESE -> "Lớn"
         AppLanguage.ARABIC -> "كبير"
         AppLanguage.PORTUGUESE -> "Grande"
         AppLanguage.SPANISH -> "Grande"
@@ -4204,6 +4517,7 @@ object StringsB {
     val fontSizeXLarge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "特大"
         AppLanguage.ENGLISH -> "Extra large"
+        AppLanguage.VIETNAMESE -> "Cực lớn"
         AppLanguage.ARABIC -> "كبير جداً"
         AppLanguage.PORTUGUESE -> "Extra grande"
         AppLanguage.SPANISH -> "Extra grande"
@@ -4217,6 +4531,7 @@ object StringsB {
     val cornerStyleTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "圆角风格"
         AppLanguage.ENGLISH -> "Corner style"
+        AppLanguage.VIETNAMESE -> "Kiểu góc"
         AppLanguage.ARABIC -> "نمط الزوايا"
         AppLanguage.PORTUGUESE -> "Estilo dos cantos"
         AppLanguage.SPANISH -> "Estilo de esquinas"
@@ -4230,6 +4545,7 @@ object StringsB {
     val cornerSharp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "硬朗"
         AppLanguage.ENGLISH -> "Sharp"
+        AppLanguage.VIETNAMESE -> "Sắc"
         AppLanguage.ARABIC -> "حاد"
         AppLanguage.PORTUGUESE -> "Reto"
         AppLanguage.SPANISH -> "Definido"
@@ -4243,6 +4559,7 @@ object StringsB {
     val cornerStandard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标准"
         AppLanguage.ENGLISH -> "Standard"
+        AppLanguage.VIETNAMESE -> "Tiêu chuẩn"
         AppLanguage.ARABIC -> "قياسي"
         AppLanguage.PORTUGUESE -> "Padrão"
         AppLanguage.SPANISH -> "Estándar"
@@ -4256,6 +4573,7 @@ object StringsB {
     val cornerRounded: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "圆润"
         AppLanguage.ENGLISH -> "Rounded"
+        AppLanguage.VIETNAMESE -> "làm tròn"
         AppLanguage.ARABIC -> "مستدير"
         AppLanguage.PORTUGUESE -> "Arredondado"
         AppLanguage.SPANISH -> "Redondeado"
@@ -4269,6 +4587,7 @@ object StringsB {
     val animSmooth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "丝滑流畅"
         AppLanguage.ENGLISH -> "Smooth"
+        AppLanguage.VIETNAMESE -> "Trơn tru"
         AppLanguage.ARABIC -> "سلس"
         AppLanguage.PORTUGUESE -> "Suave"
         AppLanguage.SPANISH -> "Suave"
@@ -4282,6 +4601,7 @@ object StringsB {
     val animBouncy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "弹性活力"
         AppLanguage.ENGLISH -> "Bouncy"
+        AppLanguage.VIETNAMESE -> "nảy"
         AppLanguage.ARABIC -> "مرن"
         AppLanguage.PORTUGUESE -> "Saltitante"
         AppLanguage.SPANISH -> "Rebotante"
@@ -4295,6 +4615,7 @@ object StringsB {
     val animSnappy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "干脆利落"
         AppLanguage.ENGLISH -> "Snappy"
+        AppLanguage.VIETNAMESE -> "nhanh nhẹn"
         AppLanguage.ARABIC -> "سريع"
         AppLanguage.PORTUGUESE -> "Rápido"
         AppLanguage.SPANISH -> "Rápido"
@@ -4308,6 +4629,7 @@ object StringsB {
     val animElegant: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优雅缓慢"
         AppLanguage.ENGLISH -> "Elegant"
+        AppLanguage.VIETNAMESE -> "Thanh lịch"
         AppLanguage.ARABIC -> "أنيق"
         AppLanguage.PORTUGUESE -> "Elegante"
         AppLanguage.SPANISH -> "Elegante"
@@ -4321,6 +4643,7 @@ object StringsB {
     val animPlayful: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "俏皮跳跃"
         AppLanguage.ENGLISH -> "Playful"
+        AppLanguage.VIETNAMESE -> "Vui tươi"
         AppLanguage.ARABIC -> "مرح"
         AppLanguage.PORTUGUESE -> "Brincalhão"
         AppLanguage.SPANISH -> "Juguetón"
@@ -4334,6 +4657,7 @@ object StringsB {
     val animDramatic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "戏剧张力"
         AppLanguage.ENGLISH -> "Dramatic"
+        AppLanguage.VIETNAMESE -> "Kịch"
         AppLanguage.ARABIC -> "درامي"
         AppLanguage.PORTUGUESE -> "Dramático"
         AppLanguage.SPANISH -> "Dramático"
@@ -4347,6 +4671,7 @@ object StringsB {
     val interRipple: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "水波涟漪"
         AppLanguage.ENGLISH -> "Ripple"
+        AppLanguage.VIETNAMESE -> "gợn sóng"
         AppLanguage.ARABIC -> "تموج"
         AppLanguage.PORTUGUESE -> "Ondulação"
         AppLanguage.SPANISH -> "Onda"
@@ -4360,6 +4685,7 @@ object StringsB {
     val interGlow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "光晕扩散"
         AppLanguage.ENGLISH -> "Glow"
+        AppLanguage.VIETNAMESE -> "Ánh sáng"
         AppLanguage.ARABIC -> "توهج"
         AppLanguage.PORTUGUESE -> "Brilho"
         AppLanguage.SPANISH -> "Resplandor"
@@ -4373,6 +4699,7 @@ object StringsB {
     val interScale: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缩放脉冲"
         AppLanguage.ENGLISH -> "Scale"
+        AppLanguage.VIETNAMESE -> "Tỉ lệ"
         AppLanguage.ARABIC -> "تكبير"
         AppLanguage.PORTUGUESE -> "Escala"
         AppLanguage.SPANISH -> "Escala"
@@ -4386,6 +4713,7 @@ object StringsB {
     val interShake: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "微震反馈"
         AppLanguage.ENGLISH -> "Shake"
+        AppLanguage.VIETNAMESE -> "Lắc"
         AppLanguage.ARABIC -> "اهتزاز"
         AppLanguage.PORTUGUESE -> "Tremer"
         AppLanguage.SPANISH -> "Sacudir"
@@ -4399,6 +4727,7 @@ object StringsB {
     val interMorph: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "形态变换"
         AppLanguage.ENGLISH -> "Morph"
+        AppLanguage.VIETNAMESE -> "Biến hình"
         AppLanguage.ARABIC -> "تحول"
         AppLanguage.PORTUGUESE -> "Transformar"
         AppLanguage.SPANISH -> "Transformar"
@@ -4412,6 +4741,7 @@ object StringsB {
     val interParticle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "粒子迸发"
         AppLanguage.ENGLISH -> "Particle"
+        AppLanguage.VIETNAMESE -> "hạt"
         AppLanguage.ARABIC -> "جسيمات"
         AppLanguage.PORTUGUESE -> "Partícula"
         AppLanguage.SPANISH -> "Partícula"
@@ -4425,6 +4755,7 @@ object StringsB {
     val catContentFilter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容过滤"
         AppLanguage.ENGLISH -> "Content Filter"
+        AppLanguage.VIETNAMESE -> "Bộ lọc nội dung"
         AppLanguage.ARABIC -> "تصفية المحتوى"
         AppLanguage.PORTUGUESE -> "Filtro de Conteúdo"
         AppLanguage.SPANISH -> "Filtro de Contenido"
@@ -4437,6 +4768,7 @@ object StringsB {
     val catContentFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏蔽元素、广告过滤、内容隐藏"
         AppLanguage.ENGLISH -> "Block elements, ad filtering, content hiding"
+        AppLanguage.VIETNAMESE -> "Chặn các phần tử, lọc quảng cáo, ẩn nội dung"
         AppLanguage.ARABIC -> "حظر العناصر، تصفية الإعلانات، إخفاء المحتوى"
         AppLanguage.PORTUGUESE -> "Bloquear elementos, filtrar anúncios, ocultar conteúdo"
         AppLanguage.SPANISH -> "Bloquear elementos, filtrado de anuncios, ocultar contenido"
@@ -4449,6 +4781,7 @@ object StringsB {
     val catContentEnhance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容增强"
         AppLanguage.ENGLISH -> "Content Enhance"
+        AppLanguage.VIETNAMESE -> "Nâng cao nội dung"
         AppLanguage.ARABIC -> "تحسين المحتوى"
         AppLanguage.PORTUGUESE -> "Aprimoramento de Conteúdo"
         AppLanguage.SPANISH -> "Mejora de Contenido"
@@ -4461,6 +4794,7 @@ object StringsB {
     val catContentEnhanceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容优化、排版美化、阅读增强"
         AppLanguage.ENGLISH -> "Content optimization, typography beautification, reading enhancement"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa nội dung, làm đẹp kiểu chữ, nâng cao khả năng đọc"
         AppLanguage.ARABIC -> "تحسين المحتوى، تجميل التخطيط، تحسين القراءة"
         AppLanguage.PORTUGUESE -> "Otimização de conteúdo, embelezamento tipográfico, melhoria de leitura"
         AppLanguage.SPANISH -> "Optimización de contenido, embellecimiento tipográfico, mejora de lectura"
@@ -4473,6 +4807,7 @@ object StringsB {
     val catStyleModifier: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式修改"
         AppLanguage.ENGLISH -> "Style Modifier"
+        AppLanguage.VIETNAMESE -> "Công cụ sửa đổi kiểu"
         AppLanguage.ARABIC -> "معدل الأنماط"
         AppLanguage.PORTUGUESE -> "Modificador de Estilo"
         AppLanguage.SPANISH -> "Modificador de Estilo"
@@ -4485,6 +4820,7 @@ object StringsB {
     val catStyleModifierDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义CSS、主题美化、界面调整"
         AppLanguage.ENGLISH -> "Custom CSS, theme beautification, interface adjustment"
+        AppLanguage.VIETNAMESE -> "CSS tùy chỉnh, làm đẹp chủ đề, điều chỉnh giao diện"
         AppLanguage.ARABIC -> "CSS مخصص، تجميل السمة، تعديل الواجهة"
         AppLanguage.PORTUGUESE -> "CSS personalizado, embelezamento de tema, ajuste de interface"
         AppLanguage.SPANISH -> "CSS personalizado, embellecimiento de tema, ajuste de interfaz"
@@ -4497,6 +4833,7 @@ object StringsB {
     val catTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主题美化"
         AppLanguage.ENGLISH -> "Theme"
+        AppLanguage.VIETNAMESE -> "chủ đề"
         AppLanguage.ARABIC -> "السمة"
         AppLanguage.PORTUGUESE -> "Tema"
         AppLanguage.SPANISH -> "Tema"
@@ -4509,6 +4846,7 @@ object StringsB {
     val catThemeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深色模式、配色方案、字体替换"
         AppLanguage.ENGLISH -> "Dark mode, color schemes, font replacement"
+        AppLanguage.VIETNAMESE -> "Chế độ tối, phối màu, thay thế phông chữ"
         AppLanguage.ARABIC -> "الوضع الداكن، مخططات الألوان، استبدال الخط"
         AppLanguage.PORTUGUESE -> "Modo escuro, esquemas de cores, substituição de fonte"
         AppLanguage.SPANISH -> "Modo oscuro, esquemas de color, reemplazo de fuentes"
@@ -4521,6 +4859,7 @@ object StringsB {
     val catFunctionEnhance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "功能增强"
         AppLanguage.ENGLISH -> "Function Enhance"
+        AppLanguage.VIETNAMESE -> "Tăng cường chức năng"
         AppLanguage.ARABIC -> "تحسين الوظائف"
         AppLanguage.PORTUGUESE -> "Aprimoramento de Funções"
         AppLanguage.SPANISH -> "Mejora de Funciones"
@@ -4533,6 +4872,7 @@ object StringsB {
     val catFunctionEnhanceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动化操作、快捷功能、效率工具"
         AppLanguage.ENGLISH -> "Automation, shortcuts, efficiency tools"
+        AppLanguage.VIETNAMESE -> "Tự động hóa, phím tắt, công cụ hiệu quả"
         AppLanguage.ARABIC -> "الأتمتة، الاختصارات، أدوات الكفاءة"
         AppLanguage.PORTUGUESE -> "Automação, atalhos, ferramentas de eficiência"
         AppLanguage.SPANISH -> "Automatización, atajos, herramientas de eficiencia"
@@ -4545,6 +4885,7 @@ object StringsB {
     val catAutomation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动化"
         AppLanguage.ENGLISH -> "Automation"
+        AppLanguage.VIETNAMESE -> "Tự động hóa"
         AppLanguage.ARABIC -> "الأتمتة"
         AppLanguage.PORTUGUESE -> "Automação"
         AppLanguage.SPANISH -> "Automatización"
@@ -4557,6 +4898,7 @@ object StringsB {
     val catAutomationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动点击、自动填表、定时任务"
         AppLanguage.ENGLISH -> "Auto click, auto fill, scheduled tasks"
+        AppLanguage.VIETNAMESE -> "Tự động nhấp chuột, tự động điền, nhiệm vụ theo lịch trình"
         AppLanguage.ARABIC -> "النقر التلقائي، الملء التلقائي، المهام المجدولة"
         AppLanguage.PORTUGUESE -> "Clique automático, preenchimento automático, tarefas agendadas"
         AppLanguage.SPANISH -> "Clic automático, autocompletar, tareas programadas"
@@ -4569,6 +4911,7 @@ object StringsB {
     val catNavigation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导航辅助"
         AppLanguage.ENGLISH -> "Navigation"
+        AppLanguage.VIETNAMESE -> "Điều hướng"
         AppLanguage.ARABIC -> "المساعدة في التنقل"
         AppLanguage.PORTUGUESE -> "Navegação"
         AppLanguage.SPANISH -> "Navegación"
@@ -4581,6 +4924,7 @@ object StringsB {
     val catNavigationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回顶部、快速跳转、页面导航"
         AppLanguage.ENGLISH -> "Back to top, quick jump, page navigation"
+        AppLanguage.VIETNAMESE -> "Quay lại đầu trang, nhảy nhanh, điều hướng trang"
         AppLanguage.ARABIC -> "العودة للأعلى، القفز السريع، التنقل بين الصفحات"
         AppLanguage.PORTUGUESE -> "Voltar ao topo, salto rápido, navegação de página"
         AppLanguage.SPANISH -> "Volver arriba, salto rápido, navegación de página"
@@ -4593,6 +4937,7 @@ object StringsB {
     val catDataExtract: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据提取"
         AppLanguage.ENGLISH -> "Data Extract"
+        AppLanguage.VIETNAMESE -> "Trích xuất dữ liệu"
         AppLanguage.ARABIC -> "استخراج البيانات"
         AppLanguage.PORTUGUESE -> "Extração de Dados"
         AppLanguage.SPANISH -> "Extracción de Datos"
@@ -4605,6 +4950,7 @@ object StringsB {
     val catDataExtractDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容抓取、数据导出、信息收集"
         AppLanguage.ENGLISH -> "Content scraping, data export, info collection"
+        AppLanguage.VIETNAMESE -> "Quét nội dung, xuất dữ liệu, thu thập thông tin"
         AppLanguage.ARABIC -> "استخراج المحتوى، تصدير البيانات، جمع المعلومات"
         AppLanguage.PORTUGUESE -> "Coleta de conteúdo, exportação de dados, coleta de informações"
         AppLanguage.SPANISH -> "Extracción de contenido, exportación de datos, recopilación de información"
@@ -4617,6 +4963,7 @@ object StringsB {
     val catDataSave: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据保存"
         AppLanguage.ENGLISH -> "Data Save"
+        AppLanguage.VIETNAMESE -> "Lưu dữ liệu"
         AppLanguage.ARABIC -> "حفظ البيانات"
         AppLanguage.PORTUGUESE -> "Salvamento de Dados"
         AppLanguage.SPANISH -> "Guardado de Datos"
@@ -4629,6 +4976,7 @@ object StringsB {
     val catDataSaveDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面保存、截图、内容导出"
         AppLanguage.ENGLISH -> "Page save, screenshot, content export"
+        AppLanguage.VIETNAMESE -> "Lưu trang, ảnh chụp màn hình, xuất nội dung"
         AppLanguage.ARABIC -> "حفظ الصفحة، لقطة الشاشة، تصدير المحتوى"
         AppLanguage.PORTUGUESE -> "Salvar página, captura de tela, exportação de conteúdo"
         AppLanguage.SPANISH -> "Guardar página, captura de pantalla, exportación de contenido"
@@ -4641,6 +4989,7 @@ object StringsB {
     val catInteraction: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "交互增强"
         AppLanguage.ENGLISH -> "Interaction"
+        AppLanguage.VIETNAMESE -> "Sự tương tác"
         AppLanguage.ARABIC -> "تحسين التفاعل"
         AppLanguage.PORTUGUESE -> "Interação"
         AppLanguage.SPANISH -> "Interacción"
@@ -4653,6 +5002,7 @@ object StringsB {
     val catInteractionDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手势操作、快捷键、自动填表"
         AppLanguage.ENGLISH -> "Gestures, shortcuts, auto fill"
+        AppLanguage.VIETNAMESE -> "Cử chỉ, phím tắt, tự động điền"
         AppLanguage.ARABIC -> "الإيماءات، الاختصارات، الملء التلقائي"
         AppLanguage.PORTUGUESE -> "Gestos, atalhos, preenchimento automático"
         AppLanguage.SPANISH -> "Gestos, atajos, autocompletar"
@@ -4665,6 +5015,7 @@ object StringsB {
     val catAccessibility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无障碍"
         AppLanguage.ENGLISH -> "Accessibility"
+        AppLanguage.VIETNAMESE -> "Khả năng tiếp cận"
         AppLanguage.ARABIC -> "إمكانية الوصول"
         AppLanguage.PORTUGUESE -> "Acessibilidade"
         AppLanguage.SPANISH -> "Accesibilidad"
@@ -4677,6 +5028,7 @@ object StringsB {
     val catAccessibilityDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "辅助阅读、语音朗读、高对比度"
         AppLanguage.ENGLISH -> "Assistive reading, text-to-speech, high contrast"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ đọc, chuyển văn bản thành giọng nói, độ tương phản cao"
         AppLanguage.ARABIC -> "القراءة المساعدة، تحويل النص إلى كلام، التباين العالي"
         AppLanguage.PORTUGUESE -> "Leitura assistiva, texto-para-voz, alto contraste"
         AppLanguage.SPANISH -> "Lectura asistida, texto-a-voz, alto contraste"
@@ -4689,6 +5041,7 @@ object StringsB {
     val catMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体处理"
         AppLanguage.ENGLISH -> "Media"
+        AppLanguage.VIETNAMESE -> "Phương tiện truyền thông"
         AppLanguage.ARABIC -> "معالجة الوسائط"
         AppLanguage.PORTUGUESE -> "Mídia"
         AppLanguage.SPANISH -> "Multimedia"
@@ -4701,6 +5054,7 @@ object StringsB {
     val catMediaDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频增强、图片处理、音频控制"
         AppLanguage.ENGLISH -> "Video enhance, image processing, audio control"
+        AppLanguage.VIETNAMESE -> "Tăng cường video, xử lý hình ảnh, điều khiển âm thanh"
         AppLanguage.ARABIC -> "تحسين الفيديو، معالجة الصور، التحكم في الصوت"
         AppLanguage.PORTUGUESE -> "Aprimoramento de vídeo, processamento de imagem, controle de áudio"
         AppLanguage.SPANISH -> "Mejora de video, procesamiento de imágenes, control de audio"
@@ -4713,6 +5067,7 @@ object StringsB {
     val catVideo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频增强"
         AppLanguage.ENGLISH -> "Video"
+        AppLanguage.VIETNAMESE -> "Băng hình"
         AppLanguage.ARABIC -> "تحسين الفيديو"
         AppLanguage.PORTUGUESE -> "Vídeo"
         AppLanguage.SPANISH -> "Vídeo"
@@ -4725,6 +5080,7 @@ object StringsB {
     val catVideoDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "倍速播放、画中画、视频下载"
         AppLanguage.ENGLISH -> "Speed control, PiP, video download"
+        AppLanguage.VIETNAMESE -> "Kiểm soát tốc độ, PiP, tải video"
         AppLanguage.ARABIC -> "التحكم في السرعة، صورة في صورة، تنزيل الفيديو"
         AppLanguage.PORTUGUESE -> "Controle de velocidade, PiP, download de vídeo"
         AppLanguage.SPANISH -> "Control de velocidad, PiP, descarga de video"
@@ -4737,6 +5093,7 @@ object StringsB {
     val catImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片处理"
         AppLanguage.ENGLISH -> "Image"
+        AppLanguage.VIETNAMESE -> "Hình ảnh"
         AppLanguage.ARABIC -> "معالجة الصور"
         AppLanguage.PORTUGUESE -> "Imagem"
         AppLanguage.SPANISH -> "Imagen"
@@ -4749,6 +5106,7 @@ object StringsB {
     val catImageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片放大、批量下载、懒加载"
         AppLanguage.ENGLISH -> "Image zoom, batch download, lazy load"
+        AppLanguage.VIETNAMESE -> "Thu phóng hình ảnh, tải xuống hàng loạt, tải lười biếng"
         AppLanguage.ARABIC -> "تكبير الصور، التنزيل الدفعي، التحميل الكسول"
         AppLanguage.PORTUGUESE -> "Zoom de imagem, download em lote, carregamento lento"
         AppLanguage.SPANISH -> "Zoom de imagen, descarga por lotes, carga diferida"
@@ -4761,6 +5119,7 @@ object StringsB {
     val catAudio: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音频控制"
         AppLanguage.ENGLISH -> "Audio"
+        AppLanguage.VIETNAMESE -> "Âm thanh"
         AppLanguage.ARABIC -> "التحكم في الصوت"
         AppLanguage.PORTUGUESE -> "Áudio"
         AppLanguage.SPANISH -> "Audio"
@@ -4773,6 +5132,7 @@ object StringsB {
     val catAudioDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音量控制、音频提取、播放增强"
         AppLanguage.ENGLISH -> "Volume control, audio extract, playback enhance"
+        AppLanguage.VIETNAMESE -> "Điều khiển âm lượng, trích xuất âm thanh, tăng cường phát lại"
         AppLanguage.ARABIC -> "التحكم في الصوت، استخراج الصوت، تحسين التشغيل"
         AppLanguage.PORTUGUESE -> "Controle de volume, extração de áudio, aprimoramento de reprodução"
         AppLanguage.SPANISH -> "Control de volumen, extracción de audio, mejora de reproducción"
@@ -4785,6 +5145,7 @@ object StringsB {
     val catSecurity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安全隐私"
         AppLanguage.ENGLISH -> "Security"
+        AppLanguage.VIETNAMESE -> "Bảo vệ"
         AppLanguage.ARABIC -> "الأمان والخصوصية"
         AppLanguage.PORTUGUESE -> "Segurança"
         AppLanguage.SPANISH -> "Seguridad"
@@ -4797,6 +5158,7 @@ object StringsB {
     val catSecurityDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐私保护、指纹防护、追踪拦截"
         AppLanguage.ENGLISH -> "Privacy protection, fingerprint defense, tracking block"
+        AppLanguage.VIETNAMESE -> "Bảo vệ quyền riêng tư, bảo vệ dấu vân tay, chặn theo dõi"
         AppLanguage.ARABIC -> "حماية الخصوصية، الدفاع عن البصمات، حظر التتبع"
         AppLanguage.PORTUGUESE -> "Proteção de privacidade, defesa de impressão digital, bloqueio de rastreamento"
         AppLanguage.SPANISH -> "Protección de privacidad, defensa de huella, bloqueo de rastreo"
@@ -4809,6 +5171,7 @@ object StringsB {
     val catAntiTracking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "反追踪"
         AppLanguage.ENGLISH -> "Anti-Tracking"
+        AppLanguage.VIETNAMESE -> "Chống theo dõi"
         AppLanguage.ARABIC -> "مكافحة التتبع"
         AppLanguage.PORTUGUESE -> "Antirrastreamento"
         AppLanguage.SPANISH -> "Antirastreo"
@@ -4821,6 +5184,7 @@ object StringsB {
     val catAntiTrackingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止追踪、Cookie管理、隐私模式"
         AppLanguage.ENGLISH -> "Block tracking, cookie management, privacy mode"
+        AppLanguage.VIETNAMESE -> "Chặn theo dõi, quản lý cookie, chế độ riêng tư"
         AppLanguage.ARABIC -> "حظر التتبع، إدارة الكوكيز، وضع الخصوصية"
         AppLanguage.PORTUGUESE -> "Bloquear rastreamento, gestão de cookies, modo de privacidade"
         AppLanguage.SPANISH -> "Bloquear rastreo, gestión de cookies, modo privacidad"
@@ -4833,6 +5197,7 @@ object StringsB {
     val catSocial: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "社交增强"
         AppLanguage.ENGLISH -> "Social"
+        AppLanguage.VIETNAMESE -> "Xã hội"
         AppLanguage.ARABIC -> "تحسين التواصل الاجتماعي"
         AppLanguage.PORTUGUESE -> "Social"
         AppLanguage.SPANISH -> "Social"
@@ -4845,6 +5210,7 @@ object StringsB {
     val catSocialDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "评论过滤、社交优化、消息增强"
         AppLanguage.ENGLISH -> "Comment filter, social optimization, message enhance"
+        AppLanguage.VIETNAMESE -> "Bộ lọc bình luận, tối ưu hóa mạng xã hội, nâng cao tin nhắn"
         AppLanguage.ARABIC -> "تصفية التعليقات، تحسين التواصل، تحسين الرسائل"
         AppLanguage.PORTUGUESE -> "Filtro de comentários, otimização social, aprimoramento de mensagens"
         AppLanguage.SPANISH -> "Filtro de comentarios, optimización social, mejora de mensajes"
@@ -4857,6 +5223,7 @@ object StringsB {
     val catShopping: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "购物助手"
         AppLanguage.ENGLISH -> "Shopping"
+        AppLanguage.VIETNAMESE -> "Mua sắm"
         AppLanguage.ARABIC -> "مساعد التسوق"
         AppLanguage.PORTUGUESE -> "Compras"
         AppLanguage.SPANISH -> "Compras"
@@ -4869,6 +5236,7 @@ object StringsB {
     val catShoppingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "比价工具、优惠提醒、历史价格"
         AppLanguage.ENGLISH -> "Price compare, deal alerts, price history"
+        AppLanguage.VIETNAMESE -> "So sánh giá, cảnh báo giao dịch, lịch sử giá"
         AppLanguage.ARABIC -> "مقارنة الأسعار، تنبيهات العروض، سجل الأسعار"
         AppLanguage.PORTUGUESE -> "Comparar preços, alertas de ofertas, histórico de preços"
         AppLanguage.SPANISH -> "Comparar precios, alertas de ofertas, historial de precios"
@@ -4881,6 +5249,7 @@ object StringsB {
     val catReading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阅读模式"
         AppLanguage.ENGLISH -> "Reading"
+        AppLanguage.VIETNAMESE -> "Đọc"
         AppLanguage.ARABIC -> "وضع القراءة"
         AppLanguage.PORTUGUESE -> "Leitura"
         AppLanguage.SPANISH -> "Lectura"
@@ -4893,6 +5262,7 @@ object StringsB {
     val catReadingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正文提取、排版优化、护眼模式"
         AppLanguage.ENGLISH -> "Content extract, typography, eye care mode"
+        AppLanguage.VIETNAMESE -> "Trích xuất nội dung, kiểu chữ, chế độ chăm sóc mắt"
         AppLanguage.ARABIC -> "استخراج المحتوى، التخطيط، وضع حماية العين"
         AppLanguage.PORTUGUESE -> "Extração de conteúdo, tipografia, modo de proteção ocular"
         AppLanguage.SPANISH -> "Extracción de contenido, tipografía, modo de protección ocular"
@@ -4905,6 +5275,7 @@ object StringsB {
     val catTranslate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译工具"
         AppLanguage.ENGLISH -> "Translate"
+        AppLanguage.VIETNAMESE -> "Dịch"
         AppLanguage.ARABIC -> "أدوات الترجمة"
         AppLanguage.PORTUGUESE -> "Tradução"
         AppLanguage.SPANISH -> "Traducción"
@@ -4917,6 +5288,7 @@ object StringsB {
     val catTranslateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "划词翻译、全文翻译、多语言"
         AppLanguage.ENGLISH -> "Selection translate, full page translate, multi-language"
+        AppLanguage.VIETNAMESE -> "Dịch chọn lọc, dịch toàn trang, đa ngôn ngữ"
         AppLanguage.ARABIC -> "ترجمة التحديد، ترجمة الصفحة الكاملة، متعدد اللغات"
         AppLanguage.PORTUGUESE -> "Tradução de seleção, tradução de página inteira, multi-idioma"
         AppLanguage.SPANISH -> "Traducción de selección, página completa, multi-idioma"
@@ -4929,6 +5301,7 @@ object StringsB {
     val catDeveloper: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发调试"
         AppLanguage.ENGLISH -> "Developer"
+        AppLanguage.VIETNAMESE -> "Nhà phát triển"
         AppLanguage.ARABIC -> "أدوات المطور"
         AppLanguage.PORTUGUESE -> "Desenvolvedor"
         AppLanguage.SPANISH -> "Desarrollador"
@@ -4941,6 +5314,7 @@ object StringsB {
     val catDeveloperDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调试工具、性能监控、日志输出"
         AppLanguage.ENGLISH -> "Debug tools, performance monitor, log output"
+        AppLanguage.VIETNAMESE -> "Công cụ gỡ lỗi, giám sát hiệu suất, đầu ra nhật ký"
         AppLanguage.ARABIC -> "أدوات التصحيح، مراقبة الأداء، إخراج السجل"
         AppLanguage.PORTUGUESE -> "Ferramentas de depuração, monitor de desempenho, saída de log"
         AppLanguage.SPANISH -> "Herramientas de depuración, monitor de rendimiento, salida de registro"
@@ -4953,6 +5327,7 @@ object StringsB {
     val catOther: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "其他"
         AppLanguage.ENGLISH -> "Other"
+        AppLanguage.VIETNAMESE -> "Khác"
         AppLanguage.ARABIC -> "أخرى"
         AppLanguage.PORTUGUESE -> "Outros"
         AppLanguage.SPANISH -> "Otros"
@@ -4965,6 +5340,7 @@ object StringsB {
     val catOtherDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未分类的扩展模块"
         AppLanguage.ENGLISH -> "Uncategorized extension modules"
+        AppLanguage.VIETNAMESE -> "Các mô-đun mở rộng chưa được phân loại"
         AppLanguage.ARABIC -> "وحدات إضافية غير مصنفة"
         AppLanguage.PORTUGUESE -> "Módulos de extensão não categorizados"
         AppLanguage.SPANISH -> "Módulos de extensión sin categorizar"
@@ -4978,6 +5354,7 @@ object StringsB {
     val runTimeDocStart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面开始"
         AppLanguage.ENGLISH -> "Document Start"
+        AppLanguage.VIETNAMESE -> "Bắt đầu tài liệu"
         AppLanguage.ARABIC -> "بداية المستند"
         AppLanguage.PORTUGUESE -> "Início do Documento"
         AppLanguage.SPANISH -> "Inicio del Documento"
@@ -4990,6 +5367,7 @@ object StringsB {
     val runTimeDocStartDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 未就绪时执行，适合拦截请求和早期修改"
         AppLanguage.ENGLISH -> "Execute before DOM ready, suitable for request interception and early modifications"
+        AppLanguage.VIETNAMESE -> "Thực thi trước khi DOM sẵn sàng, phù hợp để chặn yêu cầu và sửa đổi sớm"
         AppLanguage.ARABIC -> "التنفيذ قبل جاهزية DOM، مناسب لاعتراض الطلبات والتعديلات المبكرة"
         AppLanguage.PORTUGUESE -> "Executar antes do DOM pronto, adequado para interceptação de requisições e modificações precoces"
         AppLanguage.SPANISH -> "Ejecutar antes del DOM listo, adecuado para intercepción de solicitudes y modificaciones tempranas"
@@ -5002,6 +5380,7 @@ object StringsB {
     val runTimeDocEnd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 就绪"
         AppLanguage.ENGLISH -> "DOM Ready"
+        AppLanguage.VIETNAMESE -> "DOM đã sẵn sàng"
         AppLanguage.ARABIC -> "جاهزية DOM"
         AppLanguage.PORTUGUESE -> "DOM Pronto"
         AppLanguage.SPANISH -> "DOM Listo"
@@ -5014,6 +5393,7 @@ object StringsB {
     val runTimeDocEndDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 加载完成后执行（推荐），适合大多数场景"
         AppLanguage.ENGLISH -> "Execute after DOM loaded (recommended), suitable for most scenarios"
+        AppLanguage.VIETNAMESE -> "Thực thi sau khi tải DOM (được khuyến nghị), phù hợp với hầu hết các tình huống"
         AppLanguage.ARABIC -> "التنفيذ بعد تحميل DOM (موصى به)، مناسب لمعظم السيناريوهات"
         AppLanguage.PORTUGUESE -> "Executar após DOM carregado (recomendado), adequado para a maioria dos cenários"
         AppLanguage.SPANISH -> "Ejecutar tras DOM cargado (recomendado), adecuado para la mayoría de escenarios"
@@ -5026,6 +5406,7 @@ object StringsB {
     val runTimeDocIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面空闲"
         AppLanguage.ENGLISH -> "Page Idle"
+        AppLanguage.VIETNAMESE -> "Trang không hoạt động"
         AppLanguage.ARABIC -> "صفحة خاملة"
         AppLanguage.PORTUGUESE -> "Página Ociosa"
         AppLanguage.SPANISH -> "Página Inactiva"
@@ -5038,6 +5419,7 @@ object StringsB {
     val runTimeDocIdleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面完全加载后执行，适合后处理和性能优化"
         AppLanguage.ENGLISH -> "Execute after page fully loaded, suitable for post-processing and performance optimization"
+        AppLanguage.VIETNAMESE -> "Thực thi sau khi trang được tải đầy đủ, thích hợp cho việc xử lý hậu kỳ và tối ưu hóa hiệu suất"
         AppLanguage.ARABIC -> "التنفيذ بعد تحميل الصفحة بالكامل، مناسب للمعالجة اللاحقة وتحسين الأداء"
         AppLanguage.PORTUGUESE -> "Executar após página totalmente carregada, adequado para pós-processamento e otimização de desempenho"
         AppLanguage.SPANISH -> "Ejecutar tras página completamente cargada, adecuado para posprocesamiento y optimización de rendimiento"
@@ -5050,6 +5432,7 @@ object StringsB {
     val runTimeContextMenu: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单"
         AppLanguage.ENGLISH -> "Context Menu"
+        AppLanguage.VIETNAMESE -> "Trình đơn ngữ cảnh"
         AppLanguage.ARABIC -> "قائمة السياق"
         AppLanguage.PORTUGUESE -> "Menu de Contexto"
         AppLanguage.SPANISH -> "Menú Contextual"
@@ -5062,6 +5445,7 @@ object StringsB {
     val runTimeContextMenuDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单打开时执行"
         AppLanguage.ENGLISH -> "Execute when context menu opens"
+        AppLanguage.VIETNAMESE -> "Thực thi khi menu ngữ cảnh mở ra"
         AppLanguage.ARABIC -> "التنفيذ عند فتح قائمة السياق"
         AppLanguage.PORTUGUESE -> "Executar quando o menu de contexto abre"
         AppLanguage.SPANISH -> "Ejecutar cuando se abre el menú contextual"
@@ -5074,6 +5458,7 @@ object StringsB {
     val runTimeBeforeUnload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面关闭前"
         AppLanguage.ENGLISH -> "Before Unload"
+        AppLanguage.VIETNAMESE -> "Trước khi dỡ hàng"
         AppLanguage.ARABIC -> "قبل إغلاق الصفحة"
         AppLanguage.PORTUGUESE -> "Antes de Descarregar"
         AppLanguage.SPANISH -> "Antes de Descargar"
@@ -5086,6 +5471,7 @@ object StringsB {
     val runTimeBeforeUnloadDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面即将关闭时执行，适合保存数据"
         AppLanguage.ENGLISH -> "Execute before page closes, suitable for saving data"
+        AppLanguage.VIETNAMESE -> "Thực thi trước khi đóng trang, phù hợp để lưu dữ liệu"
         AppLanguage.ARABIC -> "التنفيذ قبل إغلاق الصفحة، مناسب لحفظ البيانات"
         AppLanguage.PORTUGUESE -> "Executar antes da página fechar, adequado para salvar dados"
         AppLanguage.SPANISH -> "Ejecutar antes de que cierre la página, adecuado para guardar datos"
@@ -5099,6 +5485,7 @@ object StringsB {
     val colorRed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "红色"
         AppLanguage.ENGLISH -> "Red"
+        AppLanguage.VIETNAMESE -> "Màu đỏ"
         AppLanguage.ARABIC -> "أحمر"
         AppLanguage.PORTUGUESE -> "Vermelho"
         AppLanguage.SPANISH -> "Rojo"
@@ -5112,6 +5499,7 @@ object StringsB {
     val colorPink: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "粉色"
         AppLanguage.ENGLISH -> "Pink"
+        AppLanguage.VIETNAMESE -> "Hồng"
         AppLanguage.ARABIC -> "وردي"
         AppLanguage.PORTUGUESE -> "Rosa"
         AppLanguage.SPANISH -> "Rosa"
@@ -5125,6 +5513,7 @@ object StringsB {
     val colorPurple: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "紫色"
         AppLanguage.ENGLISH -> "Purple"
+        AppLanguage.VIETNAMESE -> "Màu tím"
         AppLanguage.ARABIC -> "بنفسجي"
         AppLanguage.PORTUGUESE -> "Roxo"
         AppLanguage.SPANISH -> "Púrpura"
@@ -5138,6 +5527,7 @@ object StringsB {
     val colorDeepPurple: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深紫"
         AppLanguage.ENGLISH -> "Deep Purple"
+        AppLanguage.VIETNAMESE -> "Màu tím đậm"
         AppLanguage.ARABIC -> "بنفسجي داكن"
         AppLanguage.PORTUGUESE -> "Roxo Escuro"
         AppLanguage.SPANISH -> "Púrpura Oscuro"
@@ -5151,6 +5541,7 @@ object StringsB {
     val colorIndigo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "靛蓝"
         AppLanguage.ENGLISH -> "Indigo"
+        AppLanguage.VIETNAMESE -> "màu chàm"
         AppLanguage.ARABIC -> "نيلي"
         AppLanguage.PORTUGUESE -> "Índigo"
         AppLanguage.SPANISH -> "Índigo"
@@ -5164,6 +5555,7 @@ object StringsB {
     val colorBlue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "蓝色"
         AppLanguage.ENGLISH -> "Blue"
+        AppLanguage.VIETNAMESE -> "Màu xanh da trời"
         AppLanguage.ARABIC -> "أزرق"
         AppLanguage.PORTUGUESE -> "Azul"
         AppLanguage.SPANISH -> "Azul"
@@ -5177,6 +5569,7 @@ object StringsB {
     val colorLightBlue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浅蓝"
         AppLanguage.ENGLISH -> "Light Blue"
+        AppLanguage.VIETNAMESE -> "Xanh nhạt"
         AppLanguage.ARABIC -> "أزرق فاتح"
         AppLanguage.PORTUGUESE -> "Azul Claro"
         AppLanguage.SPANISH -> "Azul Claro"
@@ -5190,6 +5583,7 @@ object StringsB {
     val colorCyan: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "青色"
         AppLanguage.ENGLISH -> "Cyan"
+        AppLanguage.VIETNAMESE -> "lục lam"
         AppLanguage.ARABIC -> "سماوي"
         AppLanguage.PORTUGUESE -> "Ciano"
         AppLanguage.SPANISH -> "Cian"
@@ -5203,6 +5597,7 @@ object StringsB {
     val colorTeal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "蓝绿"
         AppLanguage.ENGLISH -> "Teal"
+        AppLanguage.VIETNAMESE -> "màu xanh mòng két"
         AppLanguage.ARABIC -> "أزرق مخضر"
         AppLanguage.PORTUGUESE -> "Verde-Azulado"
         AppLanguage.SPANISH -> "Verde Azulado"
@@ -5216,6 +5611,7 @@ object StringsB {
     val colorGreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "绿色"
         AppLanguage.ENGLISH -> "Green"
+        AppLanguage.VIETNAMESE -> "Màu xanh lá"
         AppLanguage.ARABIC -> "أخضر"
         AppLanguage.PORTUGUESE -> "Verde"
         AppLanguage.SPANISH -> "Verde"
@@ -5229,6 +5625,7 @@ object StringsB {
     val colorLightGreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浅绿"
         AppLanguage.ENGLISH -> "Light Green"
+        AppLanguage.VIETNAMESE -> "Xanh nhạt"
         AppLanguage.ARABIC -> "أخضر فاتح"
         AppLanguage.PORTUGUESE -> "Verde Claro"
         AppLanguage.SPANISH -> "Verde Claro"
@@ -5242,6 +5639,7 @@ object StringsB {
     val colorLime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "黄绿"
         AppLanguage.ENGLISH -> "Lime"
+        AppLanguage.VIETNAMESE -> "Chanh xanh"
         AppLanguage.ARABIC -> "ليموني"
         AppLanguage.PORTUGUESE -> "Limão"
         AppLanguage.SPANISH -> "Lima"
@@ -5255,6 +5653,7 @@ object StringsB {
     val colorYellow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "黄色"
         AppLanguage.ENGLISH -> "Yellow"
+        AppLanguage.VIETNAMESE -> "Màu vàng"
         AppLanguage.ARABIC -> "أصفر"
         AppLanguage.PORTUGUESE -> "Amarelo"
         AppLanguage.SPANISH -> "Amarillo"
@@ -5268,6 +5667,7 @@ object StringsB {
     val colorAmber: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "琥珀"
         AppLanguage.ENGLISH -> "Amber"
+        AppLanguage.VIETNAMESE -> "Hổ phách"
         AppLanguage.ARABIC -> "كهرماني"
         AppLanguage.PORTUGUESE -> "Âmbar"
         AppLanguage.SPANISH -> "Ámbar"
@@ -5281,6 +5681,7 @@ object StringsB {
     val colorOrange: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "橙色"
         AppLanguage.ENGLISH -> "Orange"
+        AppLanguage.VIETNAMESE -> "Quả cam"
         AppLanguage.ARABIC -> "برتقالي"
         AppLanguage.PORTUGUESE -> "Laranja"
         AppLanguage.SPANISH -> "Naranja"
@@ -5294,6 +5695,7 @@ object StringsB {
     val colorDeepOrange: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深橙"
         AppLanguage.ENGLISH -> "Deep Orange"
+        AppLanguage.VIETNAMESE -> "Màu cam đậm"
         AppLanguage.ARABIC -> "برتقالي داكن"
         AppLanguage.PORTUGUESE -> "Laranja Escuro"
         AppLanguage.SPANISH -> "Naranja Oscuro"
@@ -5307,6 +5709,7 @@ object StringsB {
     val colorBrown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "棕色"
         AppLanguage.ENGLISH -> "Brown"
+        AppLanguage.VIETNAMESE -> "Màu nâu"
         AppLanguage.ARABIC -> "بني"
         AppLanguage.PORTUGUESE -> "Marrom"
         AppLanguage.SPANISH -> "Marrón"
@@ -5320,6 +5723,7 @@ object StringsB {
     val colorGrey: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "灰色"
         AppLanguage.ENGLISH -> "Grey"
+        AppLanguage.VIETNAMESE -> "Xám"
         AppLanguage.ARABIC -> "رمادي"
         AppLanguage.PORTUGUESE -> "Cinza"
         AppLanguage.SPANISH -> "Gris"
@@ -5333,6 +5737,7 @@ object StringsB {
     val colorBlueGrey: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "蓝灰"
         AppLanguage.ENGLISH -> "Blue Grey"
+        AppLanguage.VIETNAMESE -> "Màu xanh xám"
         AppLanguage.ARABIC -> "رمادي مزرق"
         AppLanguage.PORTUGUESE -> "Cinza-Azulado"
         AppLanguage.SPANISH -> "Gris Azulado"
@@ -5346,6 +5751,7 @@ object StringsB {
     val colorBlack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "黑色"
         AppLanguage.ENGLISH -> "Black"
+        AppLanguage.VIETNAMESE -> "Đen"
         AppLanguage.ARABIC -> "أسود"
         AppLanguage.PORTUGUESE -> "Preto"
         AppLanguage.SPANISH -> "Negro"
@@ -5359,6 +5765,7 @@ object StringsB {
     val colorWhite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "白色"
         AppLanguage.ENGLISH -> "White"
+        AppLanguage.VIETNAMESE -> "Trắng"
         AppLanguage.ARABIC -> "أبيض"
         AppLanguage.PORTUGUESE -> "Branco"
         AppLanguage.SPANISH -> "Blanco"
@@ -5372,6 +5779,7 @@ object StringsB {
     val colorDarkTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深色主题"
         AppLanguage.ENGLISH -> "Dark Theme"
+        AppLanguage.VIETNAMESE -> "Chủ đề tối"
         AppLanguage.ARABIC -> "سمة داكنة"
         AppLanguage.PORTUGUESE -> "Tema Escuro"
         AppLanguage.SPANISH -> "Tema Oscuro"
@@ -5385,6 +5793,7 @@ object StringsB {
     val colorLightTheme: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浅色主题"
         AppLanguage.ENGLISH -> "Light Theme"
+        AppLanguage.VIETNAMESE -> "Chủ đề nhẹ nhàng"
         AppLanguage.ARABIC -> "سمة فاتحة"
         AppLanguage.PORTUGUESE -> "Tema Claro"
         AppLanguage.SPANISH -> "Tema Claro"
@@ -5398,6 +5807,7 @@ object StringsB {
     val colorTransparent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "透明"
         AppLanguage.ENGLISH -> "Transparent"
+        AppLanguage.VIETNAMESE -> "Minh bạch"
         AppLanguage.ARABIC -> "شفاف"
         AppLanguage.PORTUGUESE -> "Transparente"
         AppLanguage.SPANISH -> "Transparente"
@@ -5411,6 +5821,7 @@ object StringsB {
     val colorSelected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选择"
         AppLanguage.ENGLISH -> "Selected"
+        AppLanguage.VIETNAMESE -> "Đã chọn"
         AppLanguage.ARABIC -> "محدد"
         AppLanguage.PORTUGUESE -> "Selecionado"
         AppLanguage.SPANISH -> "Seleccionado"
@@ -5424,6 +5835,7 @@ object StringsB {
     val selectedCount2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选 %d 个"
         AppLanguage.ENGLISH -> "%d selected"
+        AppLanguage.VIETNAMESE -> "Đã chọn %d"
         AppLanguage.ARABIC -> "تم اختيار %d"
         AppLanguage.PORTUGUESE -> "%d selecionado(s)"
         AppLanguage.SPANISH -> "%d seleccionado(s)"
@@ -5437,6 +5849,7 @@ object StringsB {
     val selectedModulesCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选择 %d 个模块"
         AppLanguage.ENGLISH -> "%d modules selected"
+        AppLanguage.VIETNAMESE -> "Đã chọn mô-đun %d"
         AppLanguage.ARABIC -> "تم اختيار %d وحدات"
         AppLanguage.PORTUGUESE -> "%d módulos selecionados"
         AppLanguage.SPANISH -> "%d módulos seleccionados"
@@ -5450,6 +5863,7 @@ object StringsB {
     val extensionEmptyTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尚未选择任何模块"
         AppLanguage.ENGLISH -> "No modules selected yet"
+        AppLanguage.VIETNAMESE -> "Chưa có mô-đun nào được chọn"
         AppLanguage.ARABIC -> "لم يتم اختيار أي وحدات بعد"
         AppLanguage.PORTUGUESE -> "Nenhum módulo selecionado ainda"
         AppLanguage.SPANISH -> "Aún no se han seleccionado módulos"
@@ -5463,6 +5877,7 @@ object StringsB {
     val extensionEmptyDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从模块库挑选功能，或一键应用方案以快速开始。"
         AppLanguage.ENGLISH -> "Pick modules from the library, or apply a scheme to get started fast."
+        AppLanguage.VIETNAMESE -> "Chọn các mô-đun từ thư viện hoặc áp dụng sơ đồ để bắt đầu nhanh chóng."
         AppLanguage.ARABIC -> "اختر الوحدات من المكتبة، أو طبّق مخططًا للبدء بسرعة."
         AppLanguage.PORTUGUESE -> "Escolha módulos da biblioteca, ou aplique um esquema para começar rápido."
         AppLanguage.SPANISH -> "Elige módulos de la biblioteca, o aplica un esquema para empezar rápido."
@@ -5476,6 +5891,7 @@ object StringsB {
     val extensionAddMoreModules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加模块"
         AppLanguage.ENGLISH -> "Add modules"
+        AppLanguage.VIETNAMESE -> "Thêm mô-đun"
         AppLanguage.ARABIC -> "إضافة وحدات"
         AppLanguage.PORTUGUESE -> "Adicionar módulos"
         AppLanguage.SPANISH -> "Añadir módulos"
@@ -5489,6 +5905,7 @@ object StringsB {
     val extensionEnabledModulesLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已启用模块"
         AppLanguage.ENGLISH -> "Enabled modules"
+        AppLanguage.VIETNAMESE -> "Các mô-đun đã bật"
         AppLanguage.ARABIC -> "الوحدات المُمكَّنة"
         AppLanguage.PORTUGUESE -> "Módulos ativados"
         AppLanguage.SPANISH -> "Módulos activados"
@@ -5502,6 +5919,7 @@ object StringsB {
     val extensionModuleNoneSelectedSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尚未选择模块"
         AppLanguage.ENGLISH -> "No modules selected"
+        AppLanguage.VIETNAMESE -> "Không có mô-đun nào được chọn"
         AppLanguage.ARABIC -> "لم يتم اختيار أي وحدات"
         AppLanguage.PORTUGUESE -> "Nenhum módulo selecionado"
         AppLanguage.SPANISH -> "Ningún módulo seleccionado"
@@ -5515,6 +5933,7 @@ object StringsB {
     val removeModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Remove"
         AppLanguage.ENGLISH -> "Remove"
+        AppLanguage.VIETNAMESE -> "Di dời"
         AppLanguage.ARABIC -> "إزالة"
         AppLanguage.PORTUGUESE -> "Remover"
         AppLanguage.SPANISH -> "Quitar"
@@ -5528,6 +5947,7 @@ object StringsB {
     val noMatchingModules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有找到匹配的模块"
         AppLanguage.ENGLISH -> "No matching modules found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy mô-đun phù hợp"
         AppLanguage.ARABIC -> "لم يتم العثور على وحدات مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum módulo correspondente encontrado"
         AppLanguage.SPANISH -> "No se encontraron módulos coincidentes"
@@ -5541,6 +5961,7 @@ object StringsB {
     val builtInModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内置模块"
         AppLanguage.ENGLISH -> "Built-in Module"
+        AppLanguage.VIETNAMESE -> "Mô-đun tích hợp"
         AppLanguage.ARABIC -> "وحدة مدمجة"
         AppLanguage.PORTUGUESE -> "Módulo Integrado"
         AppLanguage.SPANISH -> "Módulo Integrado"
@@ -5554,6 +5975,7 @@ object StringsB {
     val configurableItems: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可配置项 (%d)"
         AppLanguage.ENGLISH -> "Configurable Items (%d)"
+        AppLanguage.VIETNAMESE -> "Các mục có thể định cấu hình (%d)"
         AppLanguage.ARABIC -> "عناصر قابلة للتكوين (%d)"
         AppLanguage.PORTUGUESE -> "Itens Configuráveis (%d)"
         AppLanguage.SPANISH -> "Elementos Configurables (%d)"
@@ -5567,6 +5989,7 @@ object StringsB {
     val mediaContent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体内容"
         AppLanguage.ENGLISH -> "Media Content"
+        AppLanguage.VIETNAMESE -> "Nội dung truyền thông"
         AppLanguage.ARABIC -> "محتوى الوسائط"
         AppLanguage.PORTUGUESE -> "Conteúdo de Mídia"
         AppLanguage.SPANISH -> "Contenido Multimedia"
@@ -5580,6 +6003,7 @@ object StringsB {
     val statusBarBackground: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "状态栏背景"
         AppLanguage.ENGLISH -> "Status Bar Background"
+        AppLanguage.VIETNAMESE -> "Nền thanh trạng thái"
         AppLanguage.ARABIC -> "خلفية شريط الحالة"
         AppLanguage.PORTUGUESE -> "Fundo da Barra de Status"
         AppLanguage.SPANISH -> "Fondo de Barra de Estado"
@@ -5593,6 +6017,7 @@ object StringsB {
     val appNeedsActivation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用需要激活"
         AppLanguage.ENGLISH -> "App needs activation"
+        AppLanguage.VIETNAMESE -> "Ứng dụng cần kích hoạt"
         AppLanguage.ARABIC -> "التطبيق يحتاج إلى تفعيل"
         AppLanguage.PORTUGUESE -> "App precisa de ativação"
         AppLanguage.SPANISH -> "La app necesita activación"
@@ -5606,6 +6031,7 @@ object StringsB {
     val skip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跳过"
         AppLanguage.ENGLISH -> "Skip"
+        AppLanguage.VIETNAMESE -> "Nhảy"
         AppLanguage.ARABIC -> "تخطي"
         AppLanguage.PORTUGUESE -> "Pular"
         AppLanguage.SPANISH -> "Saltar"
@@ -5619,6 +6045,7 @@ object StringsB {
     val codeBlockLibraryTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码块库"
         AppLanguage.ENGLISH -> "Code Block Library"
+        AppLanguage.VIETNAMESE -> "Thư viện khối mã"
         AppLanguage.ARABIC -> "مكتبة كتل الكود"
         AppLanguage.PORTUGUESE -> "Biblioteca de Blocos de Código"
         AppLanguage.SPANISH -> "Biblioteca de Bloques de Código"
@@ -5632,6 +6059,7 @@ object StringsB {
     val searchCodeBlocksPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索代码块..."
         AppLanguage.ENGLISH -> "Search code blocks..."
+        AppLanguage.VIETNAMESE -> "Tìm kiếm khối mã..."
         AppLanguage.ARABIC -> "البحث عن كتل الكود..."
         AppLanguage.PORTUGUESE -> "Pesquisar blocos de código..."
         AppLanguage.SPANISH -> "Buscar bloques de código..."
@@ -5645,6 +6073,7 @@ object StringsB {
     val categoriesAndBlocks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 分类 · %d 代码块"
         AppLanguage.ENGLISH -> "%d categories · %d code blocks"
+        AppLanguage.VIETNAMESE -> "Danh mục %d · Khối mã %d"
         AppLanguage.ARABIC -> "%d فئات · %d كتل كود"
         AppLanguage.PORTUGUESE -> "%d categorias · %d blocos de código"
         AppLanguage.SPANISH -> "%d categorías · %d bloques de código"
@@ -5658,6 +6087,7 @@ object StringsB {
     val foundResults: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "找到 %d 个结果"
         AppLanguage.ENGLISH -> "Found %d results"
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy kết quả %d"
         AppLanguage.ARABIC -> "تم العثور على %d نتائج"
         AppLanguage.PORTUGUESE -> "%d resultados encontrados"
         AppLanguage.SPANISH -> "%d resultados encontrados"
@@ -5671,6 +6101,7 @@ object StringsB {
     val noMatchingCodeBlocks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有找到匹配的代码块"
         AppLanguage.ENGLISH -> "No matching code blocks found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy khối mã phù hợp"
         AppLanguage.ARABIC -> "لم يتم العثور على كتل كود مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum bloco de código correspondente encontrado"
         AppLanguage.SPANISH -> "No se encontraron bloques de código coincidentes"
@@ -5684,6 +6115,7 @@ object StringsB {
     val insert: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插入"
         AppLanguage.ENGLISH -> "Insert"
+        AppLanguage.VIETNAMESE -> "Chèn"
         AppLanguage.ARABIC -> "إدراج"
         AppLanguage.PORTUGUESE -> "Inserir"
         AppLanguage.SPANISH -> "Insertar"
@@ -5697,6 +6129,7 @@ object StringsB {
     val quickInsertCodeSnippets: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快速插入常用代码片段"
         AppLanguage.ENGLISH -> "Quick insert common code snippets"
+        AppLanguage.VIETNAMESE -> "Chèn nhanh các đoạn mã phổ biến"
         AppLanguage.ARABIC -> "إدراج سريع لمقتطفات الكود الشائعة"
         AppLanguage.PORTUGUESE -> "Inserção rápida de snippets de código comuns"
         AppLanguage.SPANISH -> "Inserción rápida de snippets de código comunes"
@@ -5710,6 +6143,7 @@ object StringsB {
     val codeBlocksCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个代码块"
         AppLanguage.ENGLISH -> "%d code blocks"
+        AppLanguage.VIETNAMESE -> "Khối mã %d"
         AppLanguage.ARABIC -> "%d كتل كود"
         AppLanguage.PORTUGUESE -> "%d blocos de código"
         AppLanguage.SPANISH -> "%d bloques de código"
@@ -5723,6 +6157,7 @@ object StringsB {
     val totalLinesCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "共 %d 行歌词"
         AppLanguage.ENGLISH -> "%d lines of lyrics"
+        AppLanguage.VIETNAMESE -> "%d dòng lời bài hát"
         AppLanguage.ARABIC -> "%d سطر من الكلمات"
         AppLanguage.PORTUGUESE -> "%d linhas de letras"
         AppLanguage.SPANISH -> "%d líneas de letras"
@@ -5736,6 +6171,7 @@ object StringsB {
     val willTestModulesFormat: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将测试 %d 个模块"
         AppLanguage.ENGLISH -> "Will test %d modules"
+        AppLanguage.VIETNAMESE -> "Sẽ kiểm tra các mô-đun %d"
         AppLanguage.ARABIC -> "سيتم اختبار %d وحدات"
         AppLanguage.PORTUGUESE -> "Testará %d módulos"
         AppLanguage.SPANISH -> "Se probarán %d módulos"
@@ -5749,6 +6185,7 @@ object StringsB {
     val selectTestPageTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择测试页面"
         AppLanguage.ENGLISH -> "Select Test Page"
+        AppLanguage.VIETNAMESE -> "Chọn trang thử nghiệm"
         AppLanguage.ARABIC -> "اختيار صفحة الاختبار"
         AppLanguage.PORTUGUESE -> "Selecionar Página de Teste"
         AppLanguage.SPANISH -> "Seleccionar Página de Prueba"
@@ -5762,6 +6199,7 @@ object StringsB {
     val startTestBtn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始测试"
         AppLanguage.ENGLISH -> "Start Test"
+        AppLanguage.VIETNAMESE -> "Bắt đầu kiểm tra"
         AppLanguage.ARABIC -> "بدء الاختبار"
         AppLanguage.PORTUGUESE -> "Iniciar Teste"
         AppLanguage.SPANISH -> "Iniciar Prueba"
@@ -5775,6 +6213,7 @@ object StringsB {
     val testPageHintText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "测试页面会加载选中的模块，你可以观察模块的实际效果"
         AppLanguage.ENGLISH -> "Test page will load selected modules, you can observe actual effects"
+        AppLanguage.VIETNAMESE -> "Trang thử nghiệm sẽ tải các mô-đun đã chọn, bạn có thể quan sát hiệu ứng thực tế"
         AppLanguage.ARABIC -> "ستقوم صفحة الاختبار بتحميل الوحدات المحددة، يمكنك ملاحظة التأثيرات الفعلية"
         AppLanguage.PORTUGUESE -> "A página de teste carregará os módulos selecionados, você pode observar os efeitos reais"
         AppLanguage.SPANISH -> "La página de prueba cargará los módulos seleccionados, puedes observar los efectos reales"
@@ -5788,6 +6227,7 @@ object StringsB {
     val builtInSchemes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内置方案"
         AppLanguage.ENGLISH -> "Built-in Schemes"
+        AppLanguage.VIETNAMESE -> "Đề án tích hợp"
         AppLanguage.ARABIC -> "مخططات مدمجة"
         AppLanguage.PORTUGUESE -> "Esquemas Integrados"
         AppLanguage.SPANISH -> "Esquemas Integrados"
@@ -5801,6 +6241,7 @@ object StringsB {
     val mySchemes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "我的方案"
         AppLanguage.ENGLISH -> "My Schemes"
+        AppLanguage.VIETNAMESE -> "Đề án của tôi"
         AppLanguage.ARABIC -> "مخططاتي"
         AppLanguage.PORTUGUESE -> "Meus Esquemas"
         AppLanguage.SPANISH -> "Mis Esquemas"
@@ -5814,6 +6255,7 @@ object StringsB {
     val applied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已应用"
         AppLanguage.ENGLISH -> "Applied"
+        AppLanguage.VIETNAMESE -> "Đã áp dụng"
         AppLanguage.ARABIC -> "مطبق"
         AppLanguage.PORTUGUESE -> "Aplicado"
         AppLanguage.SPANISH -> "Aplicado"
@@ -5827,6 +6269,7 @@ object StringsB {
     val schemeNameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "方案名称"
         AppLanguage.ENGLISH -> "Scheme Name"
+        AppLanguage.VIETNAMESE -> "Tên chương trình"
         AppLanguage.ARABIC -> "اسم المخطط"
         AppLanguage.PORTUGUESE -> "Nome do Esquema"
         AppLanguage.SPANISH -> "Nombre del Esquema"
@@ -5840,6 +6283,7 @@ object StringsB {
     val enterSchemeNameHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入方案名称"
         AppLanguage.ENGLISH -> "Enter scheme name"
+        AppLanguage.VIETNAMESE -> "Nhập tên sơ đồ"
         AppLanguage.ARABIC -> "أدخل اسم المخطط"
         AppLanguage.PORTUGUESE -> "Digite o nome do esquema"
         AppLanguage.SPANISH -> "Introduce el nombre del esquema"
@@ -5853,6 +6297,7 @@ object StringsB {
     val descriptionOptionalLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "描述（可选）"
         AppLanguage.ENGLISH -> "Description (Optional)"
+        AppLanguage.VIETNAMESE -> "Mô tả (Tùy chọn)"
         AppLanguage.ARABIC -> "الوصف (اختياري)"
         AppLanguage.PORTUGUESE -> "Descrição (Opcional)"
         AppLanguage.SPANISH -> "Descripción (Opcional)"
@@ -5866,6 +6311,7 @@ object StringsB {
     val optionalLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可选"
         AppLanguage.ENGLISH -> "Optional"
+        AppLanguage.VIETNAMESE -> "Không bắt buộc"
         AppLanguage.ARABIC -> "اختياري"
         AppLanguage.PORTUGUESE -> "Opcional"
         AppLanguage.SPANISH -> "Opcional"
@@ -5879,6 +6325,7 @@ object StringsB {
     val briefDescribeSchemeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "简要描述方案用途"
         AppLanguage.ENGLISH -> "Briefly describe scheme purpose"
+        AppLanguage.VIETNAMESE -> "Mô tả ngắn gọn mục đích của kế hoạch"
         AppLanguage.ARABIC -> "وصف موجز لغرض المخطط"
         AppLanguage.PORTUGUESE -> "Descreva brevemente a finalidade do esquema"
         AppLanguage.SPANISH -> "Describe brevemente el propósito del esquema"
@@ -5892,6 +6339,7 @@ object StringsB {
     val willSaveModules: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将保存 %d 个模块到此方案"
         AppLanguage.ENGLISH -> "Will save %d modules to this scheme"
+        AppLanguage.VIETNAMESE -> "Sẽ lưu các mô-đun %d vào lược đồ này"
         AppLanguage.ARABIC -> "سيتم حفظ %d وحدات في هذا المخطط"
         AppLanguage.PORTUGUESE -> "Salvaremos %d módulos neste esquema"
         AppLanguage.SPANISH -> "Se guardarán %d módulos en este esquema"
@@ -5905,6 +6353,7 @@ object StringsB {
     val selectIconTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Select icon"
         AppLanguage.ENGLISH -> "Select Icon"
+        AppLanguage.VIETNAMESE -> "Chọn biểu tượng"
         AppLanguage.ARABIC -> "اختيار أيقونة"
         AppLanguage.PORTUGUESE -> "Selecionar Ícone"
         AppLanguage.SPANISH -> "Seleccionar Icono"
@@ -5918,6 +6367,7 @@ object StringsB {
     val previewLrcHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预览生成的 LRC 效果，确认无误后保存"
         AppLanguage.ENGLISH -> "Preview generated LRC effect, save after confirmation"
+        AppLanguage.VIETNAMESE -> "Xem trước hiệu ứng LRC được tạo, lưu sau khi xác nhận"
         AppLanguage.ARABIC -> "معاينة تأثير LRC المُنشأ، احفظ بعد التأكيد"
         AppLanguage.PORTUGUESE -> "Pré-visualize o efeito LRC gerado, salve após confirmar"
         AppLanguage.SPANISH -> "Previsualiza el efecto LRC generado, guarda tras confirmar"
@@ -5931,6 +6381,7 @@ object StringsB {
     val featureIconGeneration: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图标生成"
         AppLanguage.ENGLISH -> "Icon Generation"
+        AppLanguage.VIETNAMESE -> "Tạo biểu tượng"
         AppLanguage.ARABIC -> "إنشاء الأيقونات"
         AppLanguage.PORTUGUESE -> "Geração de Ícones"
         AppLanguage.SPANISH -> "Generación de Iconos"
@@ -5944,6 +6395,7 @@ object StringsB {
     val featureModuleDevelopment: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模块开发"
         AppLanguage.ENGLISH -> "Module Development"
+        AppLanguage.VIETNAMESE -> "Phát triển mô-đun"
         AppLanguage.ARABIC -> "تطوير الوحدات"
         AppLanguage.PORTUGUESE -> "Desenvolvimento de Módulos"
         AppLanguage.SPANISH -> "Desarrollo de Módulos"
@@ -5957,6 +6409,7 @@ object StringsB {
     val featureLrcGeneration: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词生成"
         AppLanguage.ENGLISH -> "LRC Generation"
+        AppLanguage.VIETNAMESE -> "Thế hệ LRC"
         AppLanguage.ARABIC -> "إنشاء كلمات الأغاني"
         AppLanguage.PORTUGUESE -> "Geração de LRC"
         AppLanguage.SPANISH -> "Generación de LRC"
@@ -5970,6 +6423,7 @@ object StringsB {
     val featureTranslation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译"
         AppLanguage.ENGLISH -> "Translation"
+        AppLanguage.VIETNAMESE -> "Dịch thuật"
         AppLanguage.ARABIC -> "ترجمة"
         AppLanguage.PORTUGUESE -> "Tradução"
         AppLanguage.SPANISH -> "Traducción"
@@ -5983,6 +6437,7 @@ object StringsB {
     val featureGeneralChat: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通用对话"
         AppLanguage.ENGLISH -> "General Chat"
+        AppLanguage.VIETNAMESE -> "Trò chuyện chung"
         AppLanguage.ARABIC -> "محادثة عامة"
         AppLanguage.PORTUGUESE -> "Chat Geral"
         AppLanguage.SPANISH -> "Chat General"
@@ -5996,6 +6451,7 @@ object StringsB {
     val coding: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编程"
         AppLanguage.ENGLISH -> "Coding"
+        AppLanguage.VIETNAMESE -> "Mã hóa"
         AppLanguage.ARABIC -> "البرمجة"
         AppLanguage.PORTUGUESE -> "Programação"
         AppLanguage.SPANISH -> "Programación"
@@ -6009,6 +6465,7 @@ object StringsB {
     val agentDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 AI 直接构建网页、模块、应用 — 在手机上"
         AppLanguage.ENGLISH -> "Build pages, modules, and apps with AI — directly on your phone"
+        AppLanguage.VIETNAMESE -> "Xây dựng trang, mô-đun và ứng dụng bằng AI — trực tiếp trên điện thoại của bạn"
         AppLanguage.ARABIC -> "بناء الصفحات والوحدات والتطبيقات باستخدام الذكاء الاصطناعي — مباشرة على هاتفك"
         AppLanguage.PORTUGUESE -> "Construa páginas, módulos e apps com IA — direto no seu telefone"
         AppLanguage.SPANISH -> "Crea páginas, módulos y apps con IA — directamente en tu teléfono"
@@ -6022,6 +6479,7 @@ object StringsB {
     val agentImageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在 Agent 会话中生成、查看、迭代图像"
         AppLanguage.ENGLISH -> "Generate, view, and iterate on images during Agent sessions"
+        AppLanguage.VIETNAMESE -> "Tạo, xem và lặp lại hình ảnh trong các phiên Đại lý"
         AppLanguage.ARABIC -> "إنشاء الصور وعرضها وتحسينها في جلسات Agent"
         AppLanguage.PORTUGUESE -> "Gere, visualize e itere imagens durante sessões do Agent"
         AppLanguage.SPANISH -> "Genera, visualiza e itera imágenes durante sesiones de Agent"
@@ -6035,6 +6493,7 @@ object StringsB {
     val iconGenerationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 AI 生成应用图标"
         AppLanguage.ENGLISH -> "Generate app icons using AI"
+        AppLanguage.VIETNAMESE -> "Tạo biểu tượng ứng dụng bằng AI"
         AppLanguage.ARABIC -> "إنشاء أيقونات التطبيق باستخدام الذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Gerar ícones de app usando IA"
         AppLanguage.SPANISH -> "Generar iconos de app con IA"
@@ -6048,6 +6507,7 @@ object StringsB {
     val moduleDevelopmentDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI Agent 辅助开发扩展模块"
         AppLanguage.ENGLISH -> "AI Agent assisted extension module development"
+        AppLanguage.VIETNAMESE -> "Phát triển mô-đun mở rộng được AI Agent hỗ trợ"
         AppLanguage.ARABIC -> "تطوير وحدات الإضافة بمساعدة وكيل الذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Desenvolvimento de módulos de extensão assistido por AI Agent"
         AppLanguage.SPANISH -> "Desarrollo de módulos de extensión asistido por AI Agent"
@@ -6061,6 +6521,7 @@ object StringsB {
     val agentTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Agent"
         AppLanguage.ENGLISH -> "Agent"
+        AppLanguage.VIETNAMESE -> "Đại lý"
         AppLanguage.ARABIC -> "Agent"
         AppLanguage.PORTUGUESE -> "Agent"
         AppLanguage.SPANISH -> "Agent"
@@ -6073,6 +6534,7 @@ object StringsB {
     val agentNewSession: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新建会话"
         AppLanguage.ENGLISH -> "New session"
+        AppLanguage.VIETNAMESE -> "Phiên mới"
         AppLanguage.ARABIC -> "جلسة جديدة"
         AppLanguage.PORTUGUESE -> "Nova sessão"
         AppLanguage.SPANISH -> "Nueva sesión"
@@ -6085,6 +6547,7 @@ object StringsB {
     val agentTabSessions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话"
         AppLanguage.ENGLISH -> "Sessions"
+        AppLanguage.VIETNAMESE -> "Phiên"
         AppLanguage.ARABIC -> "الجلسات"
         AppLanguage.PORTUGUESE -> "Sessões"
         AppLanguage.SPANISH -> "Sesiones"
@@ -6097,6 +6560,7 @@ object StringsB {
     val agentTabFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
         AppLanguage.ENGLISH -> "Files"
+        AppLanguage.VIETNAMESE -> "Tập tin"
         AppLanguage.ARABIC -> "الملفات"
         AppLanguage.PORTUGUESE -> "Arquivos"
         AppLanguage.SPANISH -> "Archivos"
@@ -6109,6 +6573,7 @@ object StringsB {
     val agentDrawerSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索…"
         AppLanguage.ENGLISH -> "Search…"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm…"
         AppLanguage.ARABIC -> "بحث…"
         AppLanguage.PORTUGUESE -> "Pesquisar…"
         AppLanguage.SPANISH -> "Buscar…"
@@ -6121,6 +6586,7 @@ object StringsB {
     val agentComposerHintIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "描述你想做的，输入 / 触发命令"
         AppLanguage.ENGLISH -> "Describe what to build. Type / for commands."
+        AppLanguage.VIETNAMESE -> "Mô tả những gì cần xây dựng. Nhập / cho các lệnh."
         AppLanguage.ARABIC -> "صف ما تريد بناءه، أدخل / للأوامر"
         AppLanguage.PORTUGUESE -> "Descreva o que construir. Digite / para comandos."
         AppLanguage.SPANISH -> "Describe qué construir. Escribe / para comandos."
@@ -6133,6 +6599,7 @@ object StringsB {
     val agentComposerHintWorking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 工作中…"
         AppLanguage.ENGLISH -> "AI is working…"
+        AppLanguage.VIETNAMESE -> "AI đang hoạt động…"
         AppLanguage.ARABIC -> "الذكاء الاصطناعي يعمل…"
         AppLanguage.PORTUGUESE -> "IA trabalhando…"
         AppLanguage.SPANISH -> "IA trabajando…"
@@ -6145,6 +6612,7 @@ object StringsB {
     val agentAttachTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加附件"
         AppLanguage.ENGLISH -> "Attach"
+        AppLanguage.VIETNAMESE -> "Gắn"
         AppLanguage.ARABIC -> "إرفاق"
         AppLanguage.PORTUGUESE -> "Anexar"
         AppLanguage.SPANISH -> "Adjuntar"
@@ -6157,6 +6625,7 @@ object StringsB {
     val agentAttachImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片"
         AppLanguage.ENGLISH -> "Image"
+        AppLanguage.VIETNAMESE -> "Hình ảnh"
         AppLanguage.ARABIC -> "صورة"
         AppLanguage.PORTUGUESE -> "Imagem"
         AppLanguage.SPANISH -> "Imagen"
@@ -6169,6 +6638,7 @@ object StringsB {
     val agentAttachFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
         AppLanguage.ENGLISH -> "File"
+        AppLanguage.VIETNAMESE -> "Tài liệu"
         AppLanguage.ARABIC -> "ملف"
         AppLanguage.PORTUGUESE -> "Arquivo"
         AppLanguage.SPANISH -> "Archivo"
@@ -6181,6 +6651,7 @@ object StringsB {
     val agentAttachFolder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件夹"
         AppLanguage.ENGLISH -> "Folder"
+        AppLanguage.VIETNAMESE -> "Thư mục"
         AppLanguage.ARABIC -> "مجلد"
         AppLanguage.PORTUGUESE -> "Pasta"
         AppLanguage.SPANISH -> "Carpeta"
@@ -6193,6 +6664,7 @@ object StringsB {
     val agentAttachImporting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在导入附件…"
         AppLanguage.ENGLISH -> "Importing attachment…"
+        AppLanguage.VIETNAMESE -> "Đang nhập tệp đính kèm…"
         AppLanguage.ARABIC -> "جارٍ استيراد المرفق…"
         AppLanguage.PORTUGUESE -> "Importando anexo…"
         AppLanguage.SPANISH -> "Importando adjunto…"
@@ -6205,6 +6677,7 @@ object StringsB {
     val agentAttachFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "附件导入失败（文件过大或存储空间不足）"
         AppLanguage.ENGLISH -> "Attachment import failed (file too large or storage full)"
+        AppLanguage.VIETNAMESE -> "Nhập tệp đính kèm không thành công (tệp quá lớn hoặc bộ nhớ đầy)"
         AppLanguage.ARABIC -> "فشل استيراد المرفق (الملف كبير جدًا أو التخزين ممتلئ)"
         AppLanguage.PORTUGUESE -> "Falha ao importar anexo (arquivo muito grande ou armazenamento cheio)"
         AppLanguage.SPANISH -> "Error al importar el adjunto (archivo demasiado grande o almacenamiento lleno)"
@@ -6217,6 +6690,7 @@ object StringsB {
     val agentContextChipLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上下文"
         AppLanguage.ENGLISH -> "Context"
+        AppLanguage.VIETNAMESE -> "Bối cảnh"
         AppLanguage.ARABIC -> "السياق"
         AppLanguage.PORTUGUESE -> "Contexto"
         AppLanguage.SPANISH -> "Contexto"
@@ -6229,6 +6703,7 @@ object StringsB {
     val agentContextPickerTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择上下文"
         AppLanguage.ENGLISH -> "Select context"
+        AppLanguage.VIETNAMESE -> "Chọn bối cảnh"
         AppLanguage.ARABIC -> "اختيار السياق"
         AppLanguage.PORTUGUESE -> "Selecionar contexto"
         AppLanguage.SPANISH -> "Seleccionar contexto"
@@ -6241,6 +6716,7 @@ object StringsB {
     val agentContextAppsHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用"
         AppLanguage.ENGLISH -> "Apps"
+        AppLanguage.VIETNAMESE -> "Ứng dụng"
         AppLanguage.ARABIC -> "التطبيقات"
         AppLanguage.PORTUGUESE -> "Apps"
         AppLanguage.SPANISH -> "Apps"
@@ -6253,6 +6729,7 @@ object StringsB {
     val agentContextModulesHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "扩展模块"
         AppLanguage.ENGLISH -> "Modules"
+        AppLanguage.VIETNAMESE -> "Mô-đun"
         AppLanguage.ARABIC -> "الوحدات"
         AppLanguage.PORTUGUESE -> "Módulos"
         AppLanguage.SPANISH -> "Módulos"
@@ -6265,6 +6742,7 @@ object StringsB {
     val agentContextEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有应用或模块。"
         AppLanguage.ENGLISH -> "No apps or modules yet."
+        AppLanguage.VIETNAMESE -> "Chưa có ứng dụng hoặc mô-đun nào."
         AppLanguage.ARABIC -> "لا توجد تطبيقات أو وحدات بعد."
         AppLanguage.PORTUGUESE -> "Nenhum app ou módulo ainda."
         AppLanguage.SPANISH -> "Aún no hay apps ni módulos."
@@ -6277,6 +6755,7 @@ object StringsB {
     val agentContextPickerDone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成"
         AppLanguage.ENGLISH -> "Done"
+        AppLanguage.VIETNAMESE -> "Xong"
         AppLanguage.ARABIC -> "تم"
         AppLanguage.PORTUGUESE -> "Concluído"
         AppLanguage.SPANISH -> "Listo"
@@ -6289,6 +6768,7 @@ object StringsB {
     val agentContextAllCategories: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部"
         AppLanguage.ENGLISH -> "All"
+        AppLanguage.VIETNAMESE -> "Tất cả"
         AppLanguage.ARABIC -> "الكل"
         AppLanguage.PORTUGUESE -> "Todos"
         AppLanguage.SPANISH -> "Todos"
@@ -6301,6 +6781,7 @@ object StringsB {
     val agentSaveAsApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为应用"
         AppLanguage.ENGLISH -> "Save as app"
+        AppLanguage.VIETNAMESE -> "Lưu dưới dạng ứng dụng"
         AppLanguage.ARABIC -> "حفظ كتطبيق"
         AppLanguage.PORTUGUESE -> "Salvar como app"
         AppLanguage.SPANISH -> "Guardar como app"
@@ -6313,6 +6794,7 @@ object StringsB {
     val agentSaveAsAppTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存到我的应用"
         AppLanguage.ENGLISH -> "Save to My Apps"
+        AppLanguage.VIETNAMESE -> "Lưu vào Ứng dụng của tôi"
         AppLanguage.ARABIC -> "حفظ في تطبيقاتي"
         AppLanguage.PORTUGUESE -> "Salvar em Meus Apps"
         AppLanguage.SPANISH -> "Guardar en Mis Apps"
@@ -6325,6 +6807,7 @@ object StringsB {
     val agentSaveAsAppDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把当前会话生成的项目添加到主屏的应用列表"
         AppLanguage.ENGLISH -> "Add this session's project to your home apps list"
+        AppLanguage.VIETNAMESE -> "Thêm dự án của phiên này vào danh sách ứng dụng gia đình của bạn"
         AppLanguage.ARABIC -> "أضف مشروع هذه الجلسة إلى قائمة التطبيقات في الشاشة الرئيسية"
         AppLanguage.PORTUGUESE -> "Adicione o projeto desta sessão à sua lista de apps iniciais"
         AppLanguage.SPANISH -> "Añade el proyecto de esta sesión a tu lista de apps de inicio"
@@ -6337,6 +6820,7 @@ object StringsB {
     val agentSaveAsAppNameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用名称"
         AppLanguage.ENGLISH -> "App name"
+        AppLanguage.VIETNAMESE -> "Tên ứng dụng"
         AppLanguage.ARABIC -> "اسم التطبيق"
         AppLanguage.PORTUGUESE -> "Nome do app"
         AppLanguage.SPANISH -> "Nombre de la app"
@@ -6349,6 +6833,7 @@ object StringsB {
     val agentSaveAsAppPickIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择图标（可选）"
         AppLanguage.ENGLISH -> "Choose icon (optional)"
+        AppLanguage.VIETNAMESE -> "Chọn biểu tượng (tùy chọn)"
         AppLanguage.ARABIC -> "اختر أيقونة (اختياري)"
         AppLanguage.PORTUGUESE -> "Escolher ícone (opcional)"
         AppLanguage.SPANISH -> "Elegir icono (opcional)"
@@ -6361,6 +6846,7 @@ object StringsB {
     val agentSaveAsAppChangeIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更换"
         AppLanguage.ENGLISH -> "Change"
+        AppLanguage.VIETNAMESE -> "Thay đổi"
         AppLanguage.ARABIC -> "تغيير"
         AppLanguage.PORTUGUESE -> "Alterar"
         AppLanguage.SPANISH -> "Cambiar"
@@ -6373,6 +6859,7 @@ object StringsB {
     val agentSaveAsAppConfirm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存"
         AppLanguage.ENGLISH -> "Save"
+        AppLanguage.VIETNAMESE -> "Cứu"
         AppLanguage.ARABIC -> "حفظ"
         AppLanguage.PORTUGUESE -> "Salvar"
         AppLanguage.SPANISH -> "Guardar"
@@ -6385,6 +6872,7 @@ object StringsB {
     val agentSaveAsAppSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到我的应用：%s"
         AppLanguage.ENGLISH -> "Saved to My Apps: %s"
+        AppLanguage.VIETNAMESE -> "Đã lưu vào Ứng dụng của tôi: %s"
         AppLanguage.ARABIC -> "تم الحفظ في تطبيقاتي: %s"
         AppLanguage.PORTUGUESE -> "Salvo em Meus Apps: %s"
         AppLanguage.SPANISH -> "Guardado en Mis Apps: %s"
@@ -6397,6 +6885,7 @@ object StringsB {
     val agentSaveAsAppFailure: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存失败：%s"
         AppLanguage.ENGLISH -> "Save failed: %s"
+        AppLanguage.VIETNAMESE -> "Lưu không thành công: %s"
         AppLanguage.ARABIC -> "فشل الحفظ: %s"
         AppLanguage.PORTUGUESE -> "Falha ao salvar: %s"
         AppLanguage.SPANISH -> "Error al guardar: %s"
@@ -6409,6 +6898,7 @@ object StringsB {
     val agentSaveAsModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存为模块"
         AppLanguage.ENGLISH -> "Save as module"
+        AppLanguage.VIETNAMESE -> "Lưu dưới dạng mô-đun"
         AppLanguage.ARABIC -> "حفظ كوحدة"
         AppLanguage.PORTUGUESE -> "Salvar como módulo"
         AppLanguage.SPANISH -> "Guardar como módulo"
@@ -6421,6 +6911,7 @@ object StringsB {
     val agentSaveAsModuleSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到扩展模块：%s"
         AppLanguage.ENGLISH -> "Saved to Extension Modules: %s"
+        AppLanguage.VIETNAMESE -> "Đã lưu vào Mô-đun mở rộng: %s"
         AppLanguage.ARABIC -> "تم الحفظ في وحدات الإضافة: %s"
         AppLanguage.PORTUGUESE -> "Salvo em Módulos de Extensão: %s"
         AppLanguage.SPANISH -> "Guardado en Módulos de Extensión: %s"
@@ -6433,6 +6924,7 @@ object StringsB {
     val agentSaveAsModuleSuccessMany: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存到扩展模块：%s 等 %d+1 个"
         AppLanguage.ENGLISH -> "Saved to Extension Modules: %s + %d more"
+        AppLanguage.VIETNAMESE -> "Đã lưu vào Mô-đun mở rộng: %s + %d thêm"
         AppLanguage.ARABIC -> "تم الحفظ في وحدات الإضافة: %s + %d أخرى"
         AppLanguage.PORTUGUESE -> "Salvo em Módulos de Extensão: %s + %d mais"
         AppLanguage.SPANISH -> "Guardado en Módulos de Extensión: %s + %d más"
@@ -6445,6 +6937,7 @@ object StringsB {
     val agentSaveAsModuleFailure: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存模块失败：%s"
         AppLanguage.ENGLISH -> "Save module failed: %s"
+        AppLanguage.VIETNAMESE -> "Lưu mô-đun không thành công: %s"
         AppLanguage.ARABIC -> "فشل حفظ الوحدة: %s"
         AppLanguage.PORTUGUESE -> "Falha ao salvar módulo: %s"
         AppLanguage.SPANISH -> "Error al guardar módulo: %s"
@@ -6457,6 +6950,7 @@ object StringsB {
     val agentSaveNoArtifacts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话里没找到可以保存的内容"
         AppLanguage.ENGLISH -> "Nothing in this session is ready to save"
+        AppLanguage.VIETNAMESE -> "Không có gì trong phiên này sẵn sàng để lưu"
         AppLanguage.ARABIC -> "لا يوجد شيء في هذه الجلسة جاهز للحفظ"
         AppLanguage.PORTUGUESE -> "Nada nesta sessão está pronto para salvar"
         AppLanguage.SPANISH -> "Nada en esta sesión está listo para guardar"
@@ -6469,6 +6963,7 @@ object StringsB {
     val agentSaveDialogChooseLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择要保存的项目"
         AppLanguage.ENGLISH -> "Choose what to save"
+        AppLanguage.VIETNAMESE -> "Chọn nội dung cần lưu"
         AppLanguage.ARABIC -> "اختر ما تريد حفظه"
         AppLanguage.PORTUGUESE -> "Escolha o que salvar"
         AppLanguage.SPANISH -> "Elige qué guardar"
@@ -6481,6 +6976,7 @@ object StringsB {
     val agentSaveDialogTargetApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "我的应用"
         AppLanguage.ENGLISH -> "My Apps"
+        AppLanguage.VIETNAMESE -> "Ứng dụng của tôi"
         AppLanguage.ARABIC -> "تطبيقاتي"
         AppLanguage.PORTUGUESE -> "Meus aplicativos"
         AppLanguage.SPANISH -> "Mis aplicaciones"
@@ -6493,6 +6989,7 @@ object StringsB {
     val agentSaveDialogTargetModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "扩展模块"
         AppLanguage.ENGLISH -> "Extension Modules"
+        AppLanguage.VIETNAMESE -> "Mô-đun mở rộng"
         AppLanguage.ARABIC -> "وحدات الإضافة"
         AppLanguage.PORTUGUESE -> "Módulos de extensão"
         AppLanguage.SPANISH -> "Módulos de extensión"
@@ -6505,6 +7002,7 @@ object StringsB {
     val agentSaveArtifactSuffix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个文件 · %s"
         AppLanguage.ENGLISH -> "%d files · %s"
+        AppLanguage.VIETNAMESE -> "Các tệp %d · %s"
         AppLanguage.ARABIC -> "%d ملفات · %s"
         AppLanguage.PORTUGUESE -> "%d arquivos · %s"
         AppLanguage.SPANISH -> "%d archivos · %s"
@@ -6529,6 +7027,7 @@ object StringsB {
     val agentKindReact: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "React"
         AppLanguage.ENGLISH -> "React"
+        AppLanguage.VIETNAMESE -> "Phản ứng"
         AppLanguage.ARABIC -> "React"
         AppLanguage.PORTUGUESE -> "React"
         AppLanguage.SPANISH -> "React"
@@ -6589,6 +7088,7 @@ object StringsB {
     val agentKindGo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go"
         AppLanguage.ENGLISH -> "Go"
+        AppLanguage.VIETNAMESE -> "Đi"
         AppLanguage.ARABIC -> "Go"
         AppLanguage.PORTUGUESE -> "Go"
         AppLanguage.SPANISH -> "Go"
@@ -6601,6 +7101,7 @@ object StringsB {
     val agentKindMultiWeb: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "多站点"
         AppLanguage.ENGLISH -> "Multi-Web"
+        AppLanguage.VIETNAMESE -> "Đa Web"
         AppLanguage.ARABIC -> "متعدد المواقع"
         AppLanguage.PORTUGUESE -> "Multi-Web"
         AppLanguage.SPANISH -> "Multi-Web"
@@ -6613,6 +7114,7 @@ object StringsB {
     val agentKindGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图库"
         AppLanguage.ENGLISH -> "Gallery"
+        AppLanguage.VIETNAMESE -> "Phòng trưng bày"
         AppLanguage.ARABIC -> "معرض"
         AppLanguage.PORTUGUESE -> "Galeria"
         AppLanguage.SPANISH -> "Galería"
@@ -6625,6 +7127,7 @@ object StringsB {
     val agentKindJsModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JS 模块"
         AppLanguage.ENGLISH -> "JS Module"
+        AppLanguage.VIETNAMESE -> "Mô-đun JS"
         AppLanguage.ARABIC -> "وحدة JS"
         AppLanguage.PORTUGUESE -> "Módulo JS"
         AppLanguage.SPANISH -> "Módulo JS"
@@ -6637,6 +7140,7 @@ object StringsB {
     val agentKindStyleModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式模块"
         AppLanguage.ENGLISH -> "Style Module"
+        AppLanguage.VIETNAMESE -> "Mô-đun kiểu"
         AppLanguage.ARABIC -> "وحدة نمط"
         AppLanguage.PORTUGUESE -> "Módulo de estilo"
         AppLanguage.SPANISH -> "Módulo de estilo"
@@ -6649,6 +7153,7 @@ object StringsB {
     val agentKindUserScript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户脚本"
         AppLanguage.ENGLISH -> "Userscript"
+        AppLanguage.VIETNAMESE -> "Bản mô tả người dùng"
         AppLanguage.ARABIC -> "نص مستخدم"
         AppLanguage.PORTUGUESE -> "Userscript"
         AppLanguage.SPANISH -> "Userscript"
@@ -6661,6 +7166,7 @@ object StringsB {
     val agentKindChromeExtension: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Chrome 扩展"
         AppLanguage.ENGLISH -> "Chrome Extension"
+        AppLanguage.VIETNAMESE -> "Tiện ích mở rộng của Chrome"
         AppLanguage.ARABIC -> "إضافة Chrome"
         AppLanguage.PORTUGUESE -> "Extensão do Chrome"
         AppLanguage.SPANISH -> "Extensión de Chrome"
@@ -6674,6 +7180,7 @@ object StringsB {
     val agentAutoModeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动"
         AppLanguage.ENGLISH -> "Auto"
+        AppLanguage.VIETNAMESE -> "Tự động"
         AppLanguage.ARABIC -> "تلقائي"
         AppLanguage.PORTUGUESE -> "Automático"
         AppLanguage.SPANISH -> "Automático"
@@ -6686,6 +7193,7 @@ object StringsB {
     val agentManualModeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手动"
         AppLanguage.ENGLISH -> "Manual"
+        AppLanguage.VIETNAMESE -> "Thủ công"
         AppLanguage.ARABIC -> "يدوي"
         AppLanguage.PORTUGUESE -> "Manual"
         AppLanguage.SPANISH -> "Manual"
@@ -6699,6 +7207,7 @@ object StringsB {
     val agentSlashChipLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "命令"
         AppLanguage.ENGLISH -> "Commands"
+        AppLanguage.VIETNAMESE -> "Lệnh"
         AppLanguage.ARABIC -> "الأوامر"
         AppLanguage.PORTUGUESE -> "Comandos"
         AppLanguage.SPANISH -> "Comandos"
@@ -6711,6 +7220,7 @@ object StringsB {
     val agentChangesReviewHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个改动"
         AppLanguage.ENGLISH -> "%d changes"
+        AppLanguage.VIETNAMESE -> "%d thay đổi"
         AppLanguage.ARABIC -> "%d تغييرات"
         AppLanguage.PORTUGUESE -> "%d alterações"
         AppLanguage.SPANISH -> "%d cambios"
@@ -6723,6 +7233,7 @@ object StringsB {
     val agentChangesReviewUndoAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部撤销"
         AppLanguage.ENGLISH -> "Undo all"
+        AppLanguage.VIETNAMESE -> "Hoàn tác tất cả"
         AppLanguage.ARABIC -> "تراجع عن الكل"
         AppLanguage.PORTUGUESE -> "Desfazer tudo"
         AppLanguage.SPANISH -> "Deshacer todo"
@@ -6735,6 +7246,7 @@ object StringsB {
     val agentChangesReviewClear: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Limpiar"
@@ -6747,6 +7259,7 @@ object StringsB {
     val agentChangesReviewUndoOne: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "撤销"
         AppLanguage.ENGLISH -> "Undo"
+        AppLanguage.VIETNAMESE -> "Hoàn tác"
         AppLanguage.ARABIC -> "تراجع"
         AppLanguage.PORTUGUESE -> "Desfazer"
         AppLanguage.SPANISH -> "Deshacer"
@@ -6759,6 +7272,7 @@ object StringsB {
     val agentChangesReviewExpand: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "展开"
         AppLanguage.ENGLISH -> "Expand"
+        AppLanguage.VIETNAMESE -> "Mở rộng"
         AppLanguage.ARABIC -> "توسيع"
         AppLanguage.PORTUGUESE -> "Expandir"
         AppLanguage.SPANISH -> "Expandir"
@@ -6771,6 +7285,7 @@ object StringsB {
     val agentChangesReviewCollapse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "折叠"
         AppLanguage.ENGLISH -> "Collapse"
+        AppLanguage.VIETNAMESE -> "Sụp đổ"
         AppLanguage.ARABIC -> "طي"
         AppLanguage.PORTUGUESE -> "Recolher"
         AppLanguage.SPANISH -> "Contraer"
@@ -6783,6 +7298,7 @@ object StringsB {
     val agentChangesUndoneToast: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已撤销 %d 个改动"
         AppLanguage.ENGLISH -> "Undid %d changes"
+        AppLanguage.VIETNAMESE -> "Đã hoàn tác các thay đổi %d"
         AppLanguage.ARABIC -> "تم التراجع عن %d تغييرات"
         AppLanguage.PORTUGUESE -> "%d alterações desfeitas"
         AppLanguage.SPANISH -> "%d cambios deshechos"
@@ -6795,6 +7311,7 @@ object StringsB {
     val agentAppChangesHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个应用变更"
         AppLanguage.ENGLISH -> "%d app changes"
+        AppLanguage.VIETNAMESE -> "Thay đổi ứng dụng %d"
         AppLanguage.ARABIC -> "%d تغييرات على التطبيقات"
         AppLanguage.PORTUGUESE -> "%d alterações em apps"
         AppLanguage.SPANISH -> "%d cambios de apps"
@@ -6807,6 +7324,7 @@ object StringsB {
     val agentAppChangesKindCreate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新建"
         AppLanguage.ENGLISH -> "Created"
+        AppLanguage.VIETNAMESE -> "Tạo"
         AppLanguage.ARABIC -> "إنشاء"
         AppLanguage.PORTUGUESE -> "Criado"
         AppLanguage.SPANISH -> "Creado"
@@ -6819,6 +7337,7 @@ object StringsB {
     val agentAppChangesKindUpdate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更新"
         AppLanguage.ENGLISH -> "Updated"
+        AppLanguage.VIETNAMESE -> "Đã cập nhật"
         AppLanguage.ARABIC -> "تحديث"
         AppLanguage.PORTUGUESE -> "Atualizado"
         AppLanguage.SPANISH -> "Actualizado"
@@ -6831,6 +7350,7 @@ object StringsB {
     val agentAppChangesOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开应用"
         AppLanguage.ENGLISH -> "Open app"
+        AppLanguage.VIETNAMESE -> "Mở ứng dụng"
         AppLanguage.ARABIC -> "فتح التطبيق"
         AppLanguage.PORTUGUESE -> "Abrir app"
         AppLanguage.SPANISH -> "Abrir app"
@@ -6843,6 +7363,7 @@ object StringsB {
     val agentAppChangesFields: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "变更字段：%s"
         AppLanguage.ENGLISH -> "Fields: %s"
+        AppLanguage.VIETNAMESE -> "Các trường: %s"
         AppLanguage.ARABIC -> "الحقول: %s"
         AppLanguage.PORTUGUESE -> "Campos: %s"
         AppLanguage.SPANISH -> "Campos: %s"
@@ -6855,6 +7376,7 @@ object StringsB {
     val agentPlanModeBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Plan 模式"
         AppLanguage.ENGLISH -> "Plan Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ kế hoạch"
         AppLanguage.ARABIC -> "وضع التخطيط"
         AppLanguage.PORTUGUESE -> "Modo Plan"
         AppLanguage.SPANISH -> "Modo Plan"
@@ -6867,6 +7389,7 @@ object StringsB {
     val agentPlanModeNoPath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未指定"
         AppLanguage.ENGLISH -> "(no path)"
+        AppLanguage.VIETNAMESE -> "(không có đường dẫn)"
         AppLanguage.ARABIC -> "(لا يوجد مسار)"
         AppLanguage.PORTUGUESE -> "(sem caminho)"
         AppLanguage.SPANISH -> "(sin ruta)"
@@ -6879,6 +7402,7 @@ object StringsB {
     val agentPlanModeExitTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "退出 Plan 模式"
         AppLanguage.ENGLISH -> "Exit plan mode"
+        AppLanguage.VIETNAMESE -> "Thoát khỏi chế độ kế hoạch"
         AppLanguage.ARABIC -> "الخروج من وضع التخطيط"
         AppLanguage.PORTUGUESE -> "Sair do modo Plan"
         AppLanguage.SPANISH -> "Salir del modo Plan"
@@ -6891,6 +7415,7 @@ object StringsB {
     val agentOpenDrawer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开侧边栏"
         AppLanguage.ENGLISH -> "Open drawer"
+        AppLanguage.VIETNAMESE -> "Mở ngăn kéo"
         AppLanguage.ARABIC -> "فتح اللوحة الجانبية"
         AppLanguage.PORTUGUESE -> "Abrir painel"
         AppLanguage.SPANISH -> "Abrir panel"
@@ -6903,6 +7428,7 @@ object StringsB {
     val agentHomeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建点什么"
         AppLanguage.ENGLISH -> "Build something"
+        AppLanguage.VIETNAMESE -> "Xây dựng một cái gì đó"
         AppLanguage.ARABIC -> "ابنِ شيئًا"
         AppLanguage.PORTUGUESE -> "Construa algo"
         AppLanguage.SPANISH -> "Construye algo"
@@ -6915,6 +7441,7 @@ object StringsB {
     val agentHomeSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "直接在下方输入即可开始，不必先新建会话"
         AppLanguage.ENGLISH -> "Type below to start right away — no need to create a session first"
+        AppLanguage.VIETNAMESE -> "Nhập bên dưới để bắt đầu ngay - không cần tạo phiên trước"
         AppLanguage.ARABIC -> "اكتب أدناه للبدء مباشرة — لا حاجة لإنشاء جلسة أولاً"
         AppLanguage.PORTUGUESE -> "Digite abaixo para começar — sem precisar criar sessão antes"
         AppLanguage.SPANISH -> "Escribe abajo para empezar — no hace falta crear sesión primero"
@@ -6927,6 +7454,7 @@ object StringsB {
     val agentHomeRecentTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近的会话"
         AppLanguage.ENGLISH -> "Recent sessions"
+        AppLanguage.VIETNAMESE -> "Phiên gần đây"
         AppLanguage.ARABIC -> "الجلسات الأخيرة"
         AppLanguage.PORTUGUESE -> "Sessões recentes"
         AppLanguage.SPANISH -> "Sesiones recientes"
@@ -6939,6 +7467,7 @@ object StringsB {
     val agentHomeRecentSeeAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看全部"
         AppLanguage.ENGLISH -> "See all"
+        AppLanguage.VIETNAMESE -> "Xem tất cả"
         AppLanguage.ARABIC -> "عرض الكل"
         AppLanguage.PORTUGUESE -> "Ver tudo"
         AppLanguage.SPANISH -> "Ver todo"
@@ -6951,6 +7480,7 @@ object StringsB {
     val agentHomeUntitledSession: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未命名会话"
         AppLanguage.ENGLISH -> "Untitled session"
+        AppLanguage.VIETNAMESE -> "Phiên không có tiêu đề"
         AppLanguage.ARABIC -> "جلسة بدون عنوان"
         AppLanguage.PORTUGUESE -> "Sessão sem título"
         AppLanguage.SPANISH -> "Sesión sin título"
@@ -6963,6 +7493,7 @@ object StringsB {
     val agentHomeStartersTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "试试这些"
         AppLanguage.ENGLISH -> "Try these"
+        AppLanguage.VIETNAMESE -> "Hãy thử những thứ này"
         AppLanguage.ARABIC -> "جرّب هذه"
         AppLanguage.PORTUGUESE -> "Experimente estes"
         AppLanguage.SPANISH -> "Prueba estos"
@@ -6975,6 +7506,7 @@ object StringsB {
     val agentStarterPrompt1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "做一个简洁的待办清单网页应用"
         AppLanguage.ENGLISH -> "Build a clean todo list web app"
+        AppLanguage.VIETNAMESE -> "Xây dựng một ứng dụng web danh sách việc cần làm rõ ràng"
         AppLanguage.ARABIC -> "أنشئ تطبيق قائمة مهام ويب أنيق"
         AppLanguage.PORTUGUESE -> "Crie um app web limpo de lista de tarefas"
         AppLanguage.SPANISH -> "Crea una app web limpia de lista de tareas"
@@ -6987,6 +7519,7 @@ object StringsB {
     val agentStarterPrompt2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "做一个带暗色模式的个人作品集主页"
         AppLanguage.ENGLISH -> "Make a personal portfolio homepage with dark mode"
+        AppLanguage.VIETNAMESE -> "Tạo trang chủ danh mục đầu tư cá nhân với chế độ tối"
         AppLanguage.ARABIC -> "اصنع صفحة محفظة شخصية مع الوضع الداكن"
         AppLanguage.PORTUGUESE -> "Faça uma homepage de portfólio com modo escuro"
         AppLanguage.SPANISH -> "Haz una homepage de portafolio con modo oscuro"
@@ -6999,6 +7532,7 @@ object StringsB {
     val agentStarterPrompt3: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把这段需求变成可预览的 HTML 页面"
         AppLanguage.ENGLISH -> "Turn this idea into a previewable HTML page"
+        AppLanguage.VIETNAMESE -> "Biến ý tưởng này thành một trang HTML có thể xem trước"
         AppLanguage.ARABIC -> "حوّل هذه الفكرة إلى صفحة HTML قابلة للمعاينة"
         AppLanguage.PORTUGUESE -> "Transforme esta ideia em uma página HTML pré-visualizável"
         AppLanguage.SPANISH -> "Convierte esta idea en una página HTML previsualizable"
@@ -7011,6 +7545,7 @@ object StringsB {
     val agentStarterPrompt4: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "帮我搭建一个移动端优先的落地页"
         AppLanguage.ENGLISH -> "Help me scaffold a mobile-first landing page"
+        AppLanguage.VIETNAMESE -> "Giúp tôi xây dựng trang đích đầu tiên trên thiết bị di động"
         AppLanguage.ARABIC -> "ساعدني في بناء صفحة هبوط مخصصة للجوال"
         AppLanguage.PORTUGUESE -> "Ajude-me a montar uma landing page mobile-first"
         AppLanguage.SPANISH -> "Ayúdame a armar una landing page mobile-first"
@@ -7023,6 +7558,7 @@ object StringsB {
     val agentPreviewToolbarPrefix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预览 · %s"
         AppLanguage.ENGLISH -> "Preview · %s"
+        AppLanguage.VIETNAMESE -> "Xem trước · %s"
         AppLanguage.ARABIC -> "معاينة · %s"
         AppLanguage.PORTUGUESE -> "Pré-visualização · %s"
         AppLanguage.SPANISH -> "Vista previa · %s"
@@ -7035,6 +7571,7 @@ object StringsB {
     val agentPreviewNoFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "（未选择文件）"
         AppLanguage.ENGLISH -> "(no file)"
+        AppLanguage.VIETNAMESE -> "(không có tập tin)"
         AppLanguage.ARABIC -> "(لا يوجد ملف)"
         AppLanguage.PORTUGUESE -> "(sem arquivo)"
         AppLanguage.SPANISH -> "(sin archivo)"
@@ -7048,6 +7585,7 @@ object StringsB {
     val agentPreviewSwitchHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "切换预览文件"
         AppLanguage.ENGLISH -> "Switch preview file"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi tập tin xem trước"
         AppLanguage.ARABIC -> "تبديل ملف المعاينة"
         AppLanguage.PORTUGUESE -> "Trocar arquivo de pré-visualização"
         AppLanguage.SPANISH -> "Cambiar archivo de vista previa"
@@ -7061,6 +7599,7 @@ object StringsB {
     val agentPreviewSwitchEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本次会话还没有 HTML / 图片可以预览"
         AppLanguage.ENGLISH -> "No HTML / image files in this session yet"
+        AppLanguage.VIETNAMESE -> "Chưa có tệp HTML/hình ảnh nào trong phiên này"
         AppLanguage.ARABIC -> "لا توجد ملفات HTML / صور في هذه الجلسة بعد"
         AppLanguage.PORTUGUESE -> "Ainda não há arquivos HTML / imagens nesta sessão"
         AppLanguage.SPANISH -> "Aún no hay archivos HTML / imágenes en esta sesión"
@@ -7074,6 +7613,7 @@ object StringsB {
     val agentPreviewSwitchTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "切换文件"
         AppLanguage.ENGLISH -> "Switch file"
+        AppLanguage.VIETNAMESE -> "Chuyển tập tin"
         AppLanguage.ARABIC -> "تبديل الملف"
         AppLanguage.PORTUGUESE -> "Trocar arquivo"
         AppLanguage.SPANISH -> "Cambiar archivo"
@@ -7086,6 +7626,7 @@ object StringsB {
     val agentPreviewErrorsCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 错误"
         AppLanguage.ENGLISH -> "%d err"
+        AppLanguage.VIETNAMESE -> "%d bị lỗi"
         AppLanguage.ARABIC -> "%d خطأ"
         AppLanguage.PORTUGUESE -> "%d erros"
         AppLanguage.SPANISH -> "%d errores"
@@ -7098,6 +7639,7 @@ object StringsB {
     val agentPreviewWarningsCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 警告"
         AppLanguage.ENGLISH -> "%d warn"
+        AppLanguage.VIETNAMESE -> "%d cảnh báo"
         AppLanguage.ARABIC -> "%d تحذير"
         AppLanguage.PORTUGUESE -> "%d avisos"
         AppLanguage.SPANISH -> "%d aviso"
@@ -7110,6 +7652,7 @@ object StringsB {
     val agentPreviewRefresh: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "刷新"
         AppLanguage.ENGLISH -> "Refresh"
+        AppLanguage.VIETNAMESE -> "Làm cho khỏe lại"
         AppLanguage.ARABIC -> "تحديث"
         AppLanguage.PORTUGUESE -> "Atualizar"
         AppLanguage.SPANISH -> "Actualizar"
@@ -7122,6 +7665,7 @@ object StringsB {
     val agentSessionPin: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "置顶"
         AppLanguage.ENGLISH -> "Pin"
+        AppLanguage.VIETNAMESE -> "Ghim"
         AppLanguage.ARABIC -> "تثبيت"
         AppLanguage.PORTUGUESE -> "Fixar"
         AppLanguage.SPANISH -> "Fijar"
@@ -7134,6 +7678,7 @@ object StringsB {
     val agentSessionUnpin: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消置顶"
         AppLanguage.ENGLISH -> "Unpin"
+        AppLanguage.VIETNAMESE -> "Bỏ ghim"
         AppLanguage.ARABIC -> "إلغاء التثبيت"
         AppLanguage.PORTUGUESE -> "Desafixar"
         AppLanguage.SPANISH -> "Desfijar"
@@ -7146,6 +7691,7 @@ object StringsB {
     val agentDrawerPinned: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "置顶"
         AppLanguage.ENGLISH -> "Pinned"
+        AppLanguage.VIETNAMESE -> "Đã ghim"
         AppLanguage.ARABIC -> "مثبتة"
         AppLanguage.PORTUGUESE -> "Fixadas"
         AppLanguage.SPANISH -> "Fijadas"
@@ -7158,6 +7704,7 @@ object StringsB {
     val agentSessionDelete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除"
         AppLanguage.ENGLISH -> "Delete"
+        AppLanguage.VIETNAMESE -> "Xóa bỏ"
         AppLanguage.ARABIC -> "حذف"
         AppLanguage.PORTUGUESE -> "Excluir"
         AppLanguage.SPANISH -> "Eliminar"
@@ -7170,6 +7717,7 @@ object StringsB {
     val agentSessionMessagesShort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 条"
         AppLanguage.ENGLISH -> "%d msgs"
+        AppLanguage.VIETNAMESE -> "Tin nhắn %d"
         AppLanguage.ARABIC -> "%d رسالة"
         AppLanguage.PORTUGUESE -> "%d msgs"
         AppLanguage.SPANISH -> "%d mens."
@@ -7182,6 +7730,7 @@ object StringsB {
     val agentToolDenied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "工具被拒绝：%s"
         AppLanguage.ENGLISH -> "Tool denied: %s"
+        AppLanguage.VIETNAMESE -> "Công cụ bị từ chối: %s"
         AppLanguage.ARABIC -> "تم رفض الأداة: %s"
         AppLanguage.PORTUGUESE -> "Ferramenta negada: %s"
         AppLanguage.SPANISH -> "Herramienta denegada: %s"
@@ -7194,6 +7743,7 @@ object StringsB {
     val agentErrorPrefix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[错误] %s"
         AppLanguage.ENGLISH -> "[Error] %s"
+        AppLanguage.VIETNAMESE -> "[Lỗi] %s"
         AppLanguage.ARABIC -> "[خطأ] %s"
         AppLanguage.PORTUGUESE -> "[Erro] %s"
         AppLanguage.SPANISH -> "[Error] %s"
@@ -7207,6 +7757,7 @@ object StringsB {
     val agentEmptyResponseHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型这一轮没有返回内容。可能是网络抖动或限流，重试一次试试。"
         AppLanguage.ENGLISH -> "The model returned an empty turn. This usually means a network hiccup or rate-limit — try resending."
+        AppLanguage.VIETNAMESE -> "Người mẫu quay lại một lượt trống. Điều này thường có nghĩa là mạng bị trục trặc hoặc bị giới hạn tốc độ — hãy thử gửi lại."
         AppLanguage.ARABIC -> "أعاد النموذج جولة فارغة. يحدث هذا عادةً بسبب الشبكة أو حد المعدل — حاول إعادة الإرسال."
         AppLanguage.PORTUGUESE -> "O modelo retornou um turno vazio. Geralmente significa falha de rede ou limite de taxa — tente reenviar."
         AppLanguage.SPANISH -> "El modelo devolvió un turno vacío. Normalmente significa un problema de red o límite de tasa — intenta reenviar."
@@ -7219,6 +7770,7 @@ object StringsB {
     val agentSlashHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "命令"
         AppLanguage.ENGLISH -> "Commands"
+        AppLanguage.VIETNAMESE -> "Lệnh"
         AppLanguage.ARABIC -> "الأوامر"
         AppLanguage.PORTUGUESE -> "Comandos"
         AppLanguage.SPANISH -> "Comandos"
@@ -7231,6 +7783,7 @@ object StringsB {
     val agentMentionHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目文件"
         AppLanguage.ENGLISH -> "Project files"
+        AppLanguage.VIETNAMESE -> "Tệp dự án"
         AppLanguage.ARABIC -> "ملفات المشروع"
         AppLanguage.PORTUGUESE -> "Arquivos do projeto"
         AppLanguage.SPANISH -> "Archivos del proyecto"
@@ -7243,6 +7796,7 @@ object StringsB {
     val agentMentionEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有匹配的文件"
         AppLanguage.ENGLISH -> "No matching files"
+        AppLanguage.VIETNAMESE -> "Không có tập tin phù hợp"
         AppLanguage.ARABIC -> "لا توجد ملفات مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum arquivo correspondente"
         AppLanguage.SPANISH -> "Sin archivos coincidentes"
@@ -7255,6 +7809,7 @@ object StringsB {
     val agentPreviewEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目里还没有可预览的页面"
         AppLanguage.ENGLISH -> "Nothing to preview yet"
+        AppLanguage.VIETNAMESE -> "Chưa có gì để xem trước"
         AppLanguage.ARABIC -> "لا يوجد شيء للمعاينة بعد"
         AppLanguage.PORTUGUESE -> "Nada para pré-visualizar ainda"
         AppLanguage.SPANISH -> "Nada que previsualizar aún"
@@ -7267,6 +7822,7 @@ object StringsB {
     val agentPreviewTabIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无预览"
         AppLanguage.ENGLISH -> "Preview"
+        AppLanguage.VIETNAMESE -> "Xem trước"
         AppLanguage.ARABIC -> "معاينة"
         AppLanguage.PORTUGUESE -> "Pré-visualização"
         AppLanguage.SPANISH -> "Vista previa"
@@ -7279,6 +7835,7 @@ object StringsB {
     val agentPhaseToolRunning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "执行工具…"
         AppLanguage.ENGLISH -> "Running tool…"
+        AppLanguage.VIETNAMESE -> "Công cụ chạy…"
         AppLanguage.ARABIC -> "تشغيل الأداة…"
         AppLanguage.PORTUGUESE -> "Executando ferramenta…"
         AppLanguage.SPANISH -> "Ejecutando herramienta…"
@@ -7291,6 +7848,7 @@ object StringsB {
     val agentPhaseThinking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "思考中…"
         AppLanguage.ENGLISH -> "Thinking…"
+        AppLanguage.VIETNAMESE -> "Đang suy nghĩ…"
         AppLanguage.ARABIC -> "تفكير…"
         AppLanguage.PORTUGUESE -> "Pensando…"
         AppLanguage.SPANISH -> "Pensando…"
@@ -7303,6 +7861,7 @@ object StringsB {
     val agentThinkingHeaderLive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "思考中"
         AppLanguage.ENGLISH -> "Thinking"
+        AppLanguage.VIETNAMESE -> "suy nghĩ"
         AppLanguage.ARABIC -> "يفكر"
         AppLanguage.PORTUGUESE -> "Pensando"
         AppLanguage.SPANISH -> "Pensando"
@@ -7315,6 +7874,7 @@ object StringsB {
     val agentThinkingDoneSeconds: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已思考 %.1fs"
         AppLanguage.ENGLISH -> "Thought for %.1fs"
+        AppLanguage.VIETNAMESE -> "Suy nghĩ dành cho %.1f"
         AppLanguage.ARABIC -> "فكر لمدة %.1f ث"
         AppLanguage.PORTUGUESE -> "Pensou por %.1fs"
         AppLanguage.SPANISH -> "Pensó durante %.1fs"
@@ -7327,6 +7887,7 @@ object StringsB {
     val agentThinkingTapToExpand: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击展开"
         AppLanguage.ENGLISH -> "Tap to expand"
+        AppLanguage.VIETNAMESE -> "Nhấn để mở rộng"
         AppLanguage.ARABIC -> "اضغط للتوسيع"
         AppLanguage.PORTUGUESE -> "Toque para expandir"
         AppLanguage.SPANISH -> "Toca para expandir"
@@ -7339,6 +7900,7 @@ object StringsB {
     val agentThinkingTapToCollapse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击收起"
         AppLanguage.ENGLISH -> "Tap to collapse"
+        AppLanguage.VIETNAMESE -> "Nhấn để thu gọn"
         AppLanguage.ARABIC -> "اضغط للطي"
         AppLanguage.PORTUGUESE -> "Toque para recolher"
         AppLanguage.SPANISH -> "Toca para contraer"
@@ -7351,6 +7913,7 @@ object StringsB {
     val agentMessageActionCopy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制"
         AppLanguage.ENGLISH -> "Copy"
+        AppLanguage.VIETNAMESE -> "Sao chép"
         AppLanguage.ARABIC -> "نسخ"
         AppLanguage.PORTUGUESE -> "Copiar"
         AppLanguage.SPANISH -> "Copiar"
@@ -7363,6 +7926,7 @@ object StringsB {
     val agentMessageActionCopyOutput: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制输出"
         AppLanguage.ENGLISH -> "Copy output"
+        AppLanguage.VIETNAMESE -> "Sao chép đầu ra"
         AppLanguage.ARABIC -> "نسخ المخرجات"
         AppLanguage.PORTUGUESE -> "Copiar saída"
         AppLanguage.SPANISH -> "Copiar salida"
@@ -7375,6 +7939,7 @@ object StringsB {
     val agentMessageActionCopyAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制全部(含思考与工具)"
         AppLanguage.ENGLISH -> "Copy all (with thinking & tools)"
+        AppLanguage.VIETNAMESE -> "Sao chép tất cả (có tư duy & công cụ)"
         AppLanguage.ARABIC -> "نسخ الكل (مع التفكير والأدوات)"
         AppLanguage.PORTUGUESE -> "Copiar tudo (com raciocínio e ferramentas)"
         AppLanguage.SPANISH -> "Copiar todo (con razonamiento y herramientas)"
@@ -7387,6 +7952,7 @@ object StringsB {
     val agentMessageActionEdit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑并重发"
         AppLanguage.ENGLISH -> "Edit & resend"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa và gửi lại"
         AppLanguage.ARABIC -> "تعديل وإعادة الإرسال"
         AppLanguage.PORTUGUESE -> "Editar e reenviar"
         AppLanguage.SPANISH -> "Editar y reenviar"
@@ -7399,6 +7965,7 @@ object StringsB {
     val agentMessageActionRegenerate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重新生成"
         AppLanguage.ENGLISH -> "Regenerate"
+        AppLanguage.VIETNAMESE -> "tái sinh"
         AppLanguage.ARABIC -> "إعادة إنشاء"
         AppLanguage.PORTUGUESE -> "Regenerar"
         AppLanguage.SPANISH -> "Regenerar"
@@ -7411,6 +7978,7 @@ object StringsB {
     val agentMessageActionDelete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除以下对话"
         AppLanguage.ENGLISH -> "Delete from here"
+        AppLanguage.VIETNAMESE -> "Xóa từ đây"
         AppLanguage.ARABIC -> "حذف من هنا"
         AppLanguage.PORTUGUESE -> "Excluir a partir daqui"
         AppLanguage.SPANISH -> "Eliminar desde aquí"
@@ -7423,6 +7991,7 @@ object StringsB {
     val agentMessageCopied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已复制"
         AppLanguage.ENGLISH -> "Copied"
+        AppLanguage.VIETNAMESE -> "Đã sao chép"
         AppLanguage.ARABIC -> "تم النسخ"
         AppLanguage.PORTUGUESE -> "Copiado"
         AppLanguage.SPANISH -> "Copiado"
@@ -7435,6 +8004,7 @@ object StringsB {
     val agentJumpToLatest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跳到最新"
         AppLanguage.ENGLISH -> "Jump to latest"
+        AppLanguage.VIETNAMESE -> "Chuyển đến mới nhất"
         AppLanguage.ARABIC -> "اقفز إلى الأحدث"
         AppLanguage.PORTUGUESE -> "Ir para o mais recente"
         AppLanguage.SPANISH -> "Ir al más reciente"
@@ -7447,6 +8017,7 @@ object StringsB {
     val agentEditingHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑后将替换之后的对话"
         AppLanguage.ENGLISH -> "Editing — later messages will be replaced"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa - tin nhắn sau này sẽ được thay thế"
         AppLanguage.ARABIC -> "التعديل — سيتم استبدال الرسائل اللاحقة"
         AppLanguage.PORTUGUESE -> "Editando — mensagens posteriores serão substituídas"
         AppLanguage.SPANISH -> "Editando — los mensajes posteriores serán reemplazados"
@@ -7459,6 +8030,7 @@ object StringsB {
     val agentEditingCancel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消编辑"
         AppLanguage.ENGLISH -> "Cancel edit"
+        AppLanguage.VIETNAMESE -> "Hủy chỉnh sửa"
         AppLanguage.ARABIC -> "إلغاء التعديل"
         AppLanguage.PORTUGUESE -> "Cancelar edição"
         AppLanguage.SPANISH -> "Cancelar edición"
@@ -7471,6 +8043,7 @@ object StringsB {
     val agentNewSessionAlreadyEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前已是空会话"
         AppLanguage.ENGLISH -> "Already in an empty session"
+        AppLanguage.VIETNAMESE -> "Đã ở trong một phiên trống"
         AppLanguage.ARABIC -> "أنت بالفعل في جلسة فارغة"
         AppLanguage.PORTUGUESE -> "Já está em uma sessão vazia"
         AppLanguage.SPANISH -> "Ya estás en una sesión vacía"
@@ -7483,6 +8056,7 @@ object StringsB {
     val agentPreviewOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "实时预览"
         AppLanguage.ENGLISH -> "Live preview"
+        AppLanguage.VIETNAMESE -> "Xem trước trực tiếp"
         AppLanguage.ARABIC -> "معاينة مباشرة"
         AppLanguage.PORTUGUESE -> "Pré-visualização ao vivo"
         AppLanguage.SPANISH -> "Vista previa en vivo"
@@ -7495,6 +8069,7 @@ object StringsB {
     val agentPreviewClose: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭预览"
         AppLanguage.ENGLISH -> "Close preview"
+        AppLanguage.VIETNAMESE -> "Đóng bản xem trước"
         AppLanguage.ARABIC -> "إغلاق المعاينة"
         AppLanguage.PORTUGUESE -> "Fechar pré-visualização"
         AppLanguage.SPANISH -> "Cerrar vista previa"
@@ -7507,6 +8082,7 @@ object StringsB {
     val agentToolArgsLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "参数"
         AppLanguage.ENGLISH -> "Arguments"
+        AppLanguage.VIETNAMESE -> "Đối số"
         AppLanguage.ARABIC -> "المعطيات"
         AppLanguage.PORTUGUESE -> "Argumentos"
         AppLanguage.SPANISH -> "Argumentos"
@@ -7519,6 +8095,7 @@ object StringsB {
     val agentToolResultLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "结果"
         AppLanguage.ENGLISH -> "Result"
+        AppLanguage.VIETNAMESE -> "Kết quả"
         AppLanguage.ARABIC -> "النتيجة"
         AppLanguage.PORTUGUESE -> "Resultado"
         AppLanguage.SPANISH -> "Resultado"
@@ -7531,6 +8108,7 @@ object StringsB {
     val agentToolStreaming: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "实时输出"
         AppLanguage.ENGLISH -> "Streaming"
+        AppLanguage.VIETNAMESE -> "Truyền phát"
         AppLanguage.ARABIC -> "بث مباشر"
         AppLanguage.PORTUGUESE -> "Transmitindo"
         AppLanguage.SPANISH -> "Transmitiendo"
@@ -7543,6 +8121,7 @@ object StringsB {
     val agentCodeCopy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制代码"
         AppLanguage.ENGLISH -> "Copy code"
+        AppLanguage.VIETNAMESE -> "Sao chép mã"
         AppLanguage.ARABIC -> "نسخ الكود"
         AppLanguage.PORTUGUESE -> "Copiar código"
         AppLanguage.SPANISH -> "Copiar código"
@@ -7555,6 +8134,7 @@ object StringsB {
     val agentTodoListHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "任务清单"
         AppLanguage.ENGLISH -> "Checklist"
+        AppLanguage.VIETNAMESE -> "Danh sách kiểm tra"
         AppLanguage.ARABIC -> "قائمة المهام"
         AppLanguage.PORTUGUESE -> "Lista de verificação"
         AppLanguage.SPANISH -> "Lista de verificación"
@@ -7567,6 +8147,7 @@ object StringsB {
     val agentNoOutput: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "(无输出)"
         AppLanguage.ENGLISH -> "(no output)"
+        AppLanguage.VIETNAMESE -> "(không có đầu ra)"
         AppLanguage.ARABIC -> "(لا يوجد ناتج)"
         AppLanguage.PORTUGUESE -> "(sem saída)"
         AppLanguage.SPANISH -> "(sin salida)"
@@ -7579,6 +8160,7 @@ object StringsB {
     val agentEmptyResponse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型返回了空响应（无文本、未调用工具）。若持续出现，请检查接口地址与模型名称是否匹配。"
         AppLanguage.ENGLISH -> "The model returned an empty response (no text, no tool calls). If this persists, check that the endpoint and model name match."
+        AppLanguage.VIETNAMESE -> "Mô hình trả về một phản hồi trống (không có văn bản, không có lệnh gọi công cụ). Nếu điều này vẫn tiếp diễn, hãy kiểm tra xem điểm cuối và tên model có khớp không."
         AppLanguage.ARABIC -> "أعاد النموذج استجابة فارغة (لا نص ولا استدعاءات أدوات). إذا تكرر ذلك، تحقق من تطابق نقطة النهاية واسم النموذج."
         AppLanguage.PORTUGUESE -> "O modelo retornou uma resposta vazia (sem texto e sem chamadas de ferramentas). Se persistir, verifique se o endpoint e o nome do modelo correspondem."
         AppLanguage.SPANISH -> "El modelo devolvió una respuesta vacía (sin texto ni llamadas a herramientas). Si persiste, comprueba que el endpoint y el nombre del modelo coincidan."
@@ -7591,6 +8173,7 @@ object StringsB {
     val agentAbortedHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[已中断]"
         AppLanguage.ENGLISH -> "[Interrupted]"
+        AppLanguage.VIETNAMESE -> "[Bị gián đoạn]"
         AppLanguage.ARABIC -> "[تمت المقاطعة]"
         AppLanguage.PORTUGUESE -> "[Interrompido]"
         AppLanguage.SPANISH -> "[Interrumpido]"
@@ -7603,6 +8186,7 @@ object StringsB {
     val agentMissingTextModel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请先在 AI 设置中配置一个可编程模型"
         AppLanguage.ENGLISH -> "Configure a coding model in AI settings first"
+        AppLanguage.VIETNAMESE -> "Trước tiên hãy định cấu hình mô hình mã hóa trong cài đặt AI"
         AppLanguage.ARABIC -> "قم بإعداد نموذج برمجة في إعدادات الذكاء الاصطناعي أولاً"
         AppLanguage.PORTUGUESE -> "Configure um modelo de codificação nas configurações de IA primeiro"
         AppLanguage.SPANISH -> "Configura un modelo de codificación en la configuración de IA primero"
@@ -7615,6 +8199,7 @@ object StringsB {
     val agentMissingApiKey: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "找不到所选模型的 API Key"
         AppLanguage.ENGLISH -> "API key for the selected model is missing"
+        AppLanguage.VIETNAMESE -> "Thiếu khóa API cho mô hình đã chọn"
         AppLanguage.ARABIC -> "مفتاح API للنموذج المحدد مفقود"
         AppLanguage.PORTUGUESE -> "A chave de API para o modelo selecionado está faltando"
         AppLanguage.SPANISH -> "Falta la clave de API para el modelo seleccionado"
@@ -7627,6 +8212,7 @@ object StringsB {
     val agentModelSwitched: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已切换到模型：%s"
         AppLanguage.ENGLISH -> "Switched to model: %s"
+        AppLanguage.VIETNAMESE -> "Đã chuyển sang model: %s"
         AppLanguage.ARABIC -> "تم التبديل إلى النموذج: %s"
         AppLanguage.PORTUGUESE -> "Modelo trocado para: %s"
         AppLanguage.SPANISH -> "Modelo cambiado a: %s"
@@ -7639,6 +8225,7 @@ object StringsB {
     val agentModelPickerTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择模型"
         AppLanguage.ENGLISH -> "Select model"
+        AppLanguage.VIETNAMESE -> "Chọn mô hình"
         AppLanguage.ARABIC -> "اختر النموذج"
         AppLanguage.PORTUGUESE -> "Selecionar modelo"
         AppLanguage.SPANISH -> "Seleccionar modelo"
@@ -7651,6 +8238,7 @@ object StringsB {
     val agentModelChipLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型"
         AppLanguage.ENGLISH -> "Model"
+        AppLanguage.VIETNAMESE -> "Người mẫu"
         AppLanguage.ARABIC -> "النموذج"
         AppLanguage.PORTUGUESE -> "Modelo"
         AppLanguage.SPANISH -> "Modelo"
@@ -7663,6 +8251,7 @@ object StringsB {
     val agentModelSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索模型…"
         AppLanguage.ENGLISH -> "Search models…"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm mô hình…"
         AppLanguage.ARABIC -> "البحث في النماذج…"
         AppLanguage.PORTUGUESE -> "Pesquisar modelos…"
         AppLanguage.SPANISH -> "Buscar modelos…"
@@ -7675,6 +8264,7 @@ object StringsB {
     val agentModelPickerProviders: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "供应商"
         AppLanguage.ENGLISH -> "Providers"
+        AppLanguage.VIETNAMESE -> "Nhà cung cấp"
         AppLanguage.ARABIC -> "المزوّدون"
         AppLanguage.PORTUGUESE -> "Provedores"
         AppLanguage.SPANISH -> "Proveedores"
@@ -7687,6 +8277,7 @@ object StringsB {
     val agentModelPickerModels: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型"
         AppLanguage.ENGLISH -> "Models"
+        AppLanguage.VIETNAMESE -> "Người mẫu"
         AppLanguage.ARABIC -> "النماذج"
         AppLanguage.PORTUGUESE -> "Modelos"
         AppLanguage.SPANISH -> "Modelos"
@@ -7699,6 +8290,7 @@ object StringsB {
     val agentServiceNotConnected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 服务未连接"
         AppLanguage.ENGLISH -> "AI service is not connected"
+        AppLanguage.VIETNAMESE -> "Dịch vụ AI chưa được kết nối"
         AppLanguage.ARABIC -> "خدمة الذكاء الاصطناعي غير متصلة"
         AppLanguage.PORTUGUESE -> "Serviço de IA não está conectado"
         AppLanguage.SPANISH -> "El servicio de IA no está conectado"
@@ -7711,6 +8303,7 @@ object StringsB {
     val agentTurnDoneToolCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成（%d 次工具调用）"
         AppLanguage.ENGLISH -> "Done (%d tool call(s))"
+        AppLanguage.VIETNAMESE -> "Đã hoàn tất ((các) lệnh gọi công cụ %d)"
         AppLanguage.ARABIC -> "تم (%d استدعاء أداة)"
         AppLanguage.PORTUGUESE -> "Concluído (%d chamada(s) de ferramenta)"
         AppLanguage.SPANISH -> "Hecho (%d llamada(s) a herramienta)"
@@ -7723,6 +8316,7 @@ object StringsB {
     val agentPlanEntered: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已进入 Plan 模式"
         AppLanguage.ENGLISH -> "Entered plan mode"
+        AppLanguage.VIETNAMESE -> "Đã vào chế độ kế hoạch"
         AppLanguage.ARABIC -> "تم الدخول إلى وضع التخطيط"
         AppLanguage.PORTUGUESE -> "Entrou no modo Plan"
         AppLanguage.SPANISH -> "Entró al modo Plan"
@@ -7735,6 +8329,7 @@ object StringsB {
     val agentPlanAlreadyActive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已经在 Plan 模式"
         AppLanguage.ENGLISH -> "Already in plan mode"
+        AppLanguage.VIETNAMESE -> "Đã ở chế độ kế hoạch"
         AppLanguage.ARABIC -> "أنت بالفعل في وضع التخطيط"
         AppLanguage.PORTUGUESE -> "Já está no modo Plan"
         AppLanguage.SPANISH -> "Ya estás en modo Plan"
@@ -7747,6 +8342,7 @@ object StringsB {
     val agentPlanSubmitted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Plan 已提交（%s）"
         AppLanguage.ENGLISH -> "Plan submitted (%s)"
+        AppLanguage.VIETNAMESE -> "Đã gửi kế hoạch (%s)"
         AppLanguage.ARABIC -> "تم تقديم الخطة (%s)"
         AppLanguage.PORTUGUESE -> "Plano enviado (%s)"
         AppLanguage.SPANISH -> "Plan enviado (%s)"
@@ -7759,6 +8355,7 @@ object StringsB {
     val agentPlanEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Plan 文件还是空的，先写完再退出"
         AppLanguage.ENGLISH -> "Plan file is empty — write the plan before exiting"
+        AppLanguage.VIETNAMESE -> "Tệp kế hoạch trống - hãy viết kế hoạch trước khi thoát"
         AppLanguage.ARABIC -> "ملف الخطة فارغ — اكتب الخطة قبل الخروج"
         AppLanguage.PORTUGUESE -> "O arquivo do plano está vazio — escreva o plano antes de sair"
         AppLanguage.SPANISH -> "El archivo del plan está vacío — escribe el plan antes de salir"
@@ -7771,6 +8368,7 @@ object StringsB {
     val agentPlanAwaitingReview: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Plan 已提交，等待审批"
         AppLanguage.ENGLISH -> "Plan submitted for review"
+        AppLanguage.VIETNAMESE -> "Kế hoạch được gửi để xem xét"
         AppLanguage.ARABIC -> "تم تقديم الخطة للمراجعة"
         AppLanguage.PORTUGUESE -> "Plano enviado para revisão"
         AppLanguage.SPANISH -> "Plan enviado para revisión"
@@ -7783,6 +8381,7 @@ object StringsB {
     val agentPlanApprove: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "批准并开始实现"
         AppLanguage.ENGLISH -> "Approve"
+        AppLanguage.VIETNAMESE -> "Chấp thuận"
         AppLanguage.ARABIC -> "موافقة"
         AppLanguage.PORTUGUESE -> "Aprovar"
         AppLanguage.SPANISH -> "Aprobar"
@@ -7795,6 +8394,7 @@ object StringsB {
     val agentPlanRequestRevisions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要修改"
         AppLanguage.ENGLISH -> "Request revisions"
+        AppLanguage.VIETNAMESE -> "Yêu cầu sửa đổi"
         AppLanguage.ARABIC -> "طلب تعديلات"
         AppLanguage.PORTUGUESE -> "Solicitar revisões"
         AppLanguage.SPANISH -> "Solicitar revisiones"
@@ -7807,6 +8407,7 @@ object StringsB {
     val agentCompacting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩中…"
         AppLanguage.ENGLISH -> "Compacting…"
+        AppLanguage.VIETNAMESE -> "Đang nén…"
         AppLanguage.ARABIC -> "جارٍ الضغط…"
         AppLanguage.PORTUGUESE -> "Compactando…"
         AppLanguage.SPANISH -> "Compactando…"
@@ -7819,6 +8420,7 @@ object StringsB {
     val agentCompactedManual: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "对话已压缩（%d -> %d 条）"
         AppLanguage.ENGLISH -> "Compacted conversation (%d -> %d messages)"
+        AppLanguage.VIETNAMESE -> "Cuộc trò chuyện được thu gọn (tin nhắn %d -> %d)"
         AppLanguage.ARABIC -> "تم ضغط المحادثة (%d -> %d رسالة)"
         AppLanguage.PORTUGUESE -> "Conversa compactada (%d -> %d mensagens)"
         AppLanguage.SPANISH -> "Conversación compactada (%d -> %d mensajes)"
@@ -7831,6 +8433,7 @@ object StringsB {
     val agentCompactedAuto: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已自动压缩历史对话"
         AppLanguage.ENGLISH -> "Auto-compacted older messages"
+        AppLanguage.VIETNAMESE -> "Tự động nén các tin nhắn cũ hơn"
         AppLanguage.ARABIC -> "تم ضغط الرسائل القديمة تلقائيًا"
         AppLanguage.PORTUGUESE -> "Mensagens antigas compactadas automaticamente"
         AppLanguage.SPANISH -> "Mensajes antiguos compactados automáticamente"
@@ -7843,6 +8446,7 @@ object StringsB {
     val agentCompactSkipped: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未压缩：%s"
         AppLanguage.ENGLISH -> "Compact skipped: %s"
+        AppLanguage.VIETNAMESE -> "Đã bỏ qua thu gọn: %s"
         AppLanguage.ARABIC -> "تم تخطي الضغط: %s"
         AppLanguage.PORTUGUESE -> "Compactação ignorada: %s"
         AppLanguage.SPANISH -> "Compactación omitida: %s"
@@ -7856,6 +8460,7 @@ object StringsB {
     val agentContextOverflowCompacting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上下文超限，正在压缩历史并重试…"
         AppLanguage.ENGLISH -> "Context limit reached — compacting history and retrying…"
+        AppLanguage.VIETNAMESE -> "Đã đạt đến giới hạn ngữ cảnh — đang nén lịch sử và đang thử lại…"
         AppLanguage.ARABIC -> "تم بلوغ حد السياق — جارٍ ضغط السجل وإعادة المحاولة…"
         AppLanguage.PORTUGUESE -> "Limite de contexto atingido — compactando histórico e tentando de novo…"
         AppLanguage.SPANISH -> "Límite de contexto alcanzado — compactando historial y reintentando…"
@@ -7869,6 +8474,7 @@ object StringsB {
     val agentContextCapacity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上下文容量"
         AppLanguage.ENGLISH -> "Context Capacity"
+        AppLanguage.VIETNAMESE -> "Dung lượng bối cảnh"
         AppLanguage.ARABIC -> "سعة السياق"
         AppLanguage.PORTUGUESE -> "Capacidade de contexto"
         AppLanguage.SPANISH -> "Capacidad de contexto"
@@ -7882,6 +8488,7 @@ object StringsB {
     val agentContextCapacityHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型支持的最大上下文 token 数（留空使用默认值 %d）"
         AppLanguage.ENGLISH -> "Max context tokens the model supports (leave empty for default %d)"
+        AppLanguage.VIETNAMESE -> "Mã thông báo ngữ cảnh tối đa mà mô hình hỗ trợ (để trống cho %d mặc định)"
         AppLanguage.ARABIC -> "الحد الأقصى لرموز السياق التي يدعمها النموذج (اتركه فارغًا للافتراضي %d)"
         AppLanguage.PORTUGUESE -> "Máximo de tokens de contexto que o modelo suporta (deixe vazio para padrão %d)"
         AppLanguage.SPANISH -> "Máximo de tokens de contexto que soporta el modelo (dejar vacío para predeterminado %d)"
@@ -7895,6 +8502,7 @@ object StringsB {
     val agentCompactNow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩上下文"
         AppLanguage.ENGLISH -> "Compact Context"
+        AppLanguage.VIETNAMESE -> "Bối cảnh nhỏ gọn"
         AppLanguage.ARABIC -> "ضغط السياق"
         AppLanguage.PORTUGUESE -> "Compactar contexto"
         AppLanguage.SPANISH -> "Compactar contexto"
@@ -7908,6 +8516,7 @@ object StringsB {
     val agentPermissionRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 想运行工具"
         AppLanguage.ENGLISH -> "AI wants to run a tool"
+        AppLanguage.VIETNAMESE -> "AI muốn chạy một công cụ"
         AppLanguage.ARABIC -> "يريد الذكاء الاصطناعي تشغيل أداة"
         AppLanguage.PORTUGUESE -> "A IA quer executar uma ferramenta"
         AppLanguage.SPANISH -> "La IA quiere ejecutar una herramienta"
@@ -7920,6 +8529,7 @@ object StringsB {
     val agentPermissionAlways: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "总是允许"
         AppLanguage.ENGLISH -> "Always allow"
+        AppLanguage.VIETNAMESE -> "Luôn cho phép"
         AppLanguage.ARABIC -> "السماح دائمًا"
         AppLanguage.PORTUGUESE -> "Sempre permitir"
         AppLanguage.SPANISH -> "Permitir siempre"
@@ -7932,6 +8542,7 @@ object StringsB {
     val agentPermissionAllow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许"
         AppLanguage.ENGLISH -> "Allow"
+        AppLanguage.VIETNAMESE -> "Cho phép"
         AppLanguage.ARABIC -> "السماح"
         AppLanguage.PORTUGUESE -> "Permitir"
         AppLanguage.SPANISH -> "Permitir"
@@ -7944,6 +8555,7 @@ object StringsB {
     val agentPermissionDeny: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拒绝"
         AppLanguage.ENGLISH -> "Deny"
+        AppLanguage.VIETNAMESE -> "Từ chối"
         AppLanguage.ARABIC -> "رفض"
         AppLanguage.PORTUGUESE -> "Negar"
         AppLanguage.SPANISH -> "Denegar"
@@ -7956,6 +8568,7 @@ object StringsB {
     val agentChoiceTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 需要你来选择"
         AppLanguage.ENGLISH -> "AI needs your input"
+        AppLanguage.VIETNAMESE -> "AI cần ý kiến ​​đóng góp của bạn"
         AppLanguage.ARABIC -> "يحتاج الذكاء الاصطناعي إلى مدخلاتك"
         AppLanguage.PORTUGUESE -> "A IA precisa de sua entrada"
         AppLanguage.SPANISH -> "La IA necesita tu entrada"
@@ -7968,6 +8581,7 @@ object StringsB {
     val agentChoiceOtherHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "其他…（自由输入）"
         AppLanguage.ENGLISH -> "Other (free text)…"
+        AppLanguage.VIETNAMESE -> "Khác (văn bản miễn phí)…"
         AppLanguage.ARABIC -> "أخرى (نص حر)…"
         AppLanguage.PORTUGUESE -> "Outro (texto livre)…"
         AppLanguage.SPANISH -> "Otro (texto libre)…"
@@ -7980,6 +8594,7 @@ object StringsB {
     val agentActionSubmit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提交"
         AppLanguage.ENGLISH -> "Submit"
+        AppLanguage.VIETNAMESE -> "Nộp"
         AppLanguage.ARABIC -> "إرسال"
         AppLanguage.PORTUGUESE -> "Enviar"
         AppLanguage.SPANISH -> "Enviar"
@@ -7992,6 +8607,7 @@ object StringsB {
     val agentActionCancel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消"
         AppLanguage.ENGLISH -> "Cancel"
+        AppLanguage.VIETNAMESE -> "Hủy bỏ"
         AppLanguage.ARABIC -> "إلغاء"
         AppLanguage.PORTUGUESE -> "Cancelar"
         AppLanguage.SPANISH -> "Cancelar"
@@ -8004,6 +8620,7 @@ object StringsB {
     val agentSendTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送"
         AppLanguage.ENGLISH -> "Send"
+        AppLanguage.VIETNAMESE -> "Gửi"
         AppLanguage.ARABIC -> "إرسال"
         AppLanguage.PORTUGUESE -> "Enviar"
         AppLanguage.SPANISH -> "Enviar"
@@ -8016,6 +8633,7 @@ object StringsB {
     val agentStopTooltip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "停止"
         AppLanguage.ENGLISH -> "Stop"
+        AppLanguage.VIETNAMESE -> "Dừng lại"
         AppLanguage.ARABIC -> "إيقاف"
         AppLanguage.PORTUGUESE -> "Parar"
         AppLanguage.SPANISH -> "Detener"
@@ -8028,6 +8646,7 @@ object StringsB {
     val agentSlashClose: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭"
         AppLanguage.ENGLISH -> "Close"
+        AppLanguage.VIETNAMESE -> "Đóng"
         AppLanguage.ARABIC -> "إغلاق"
         AppLanguage.PORTUGUESE -> "Fechar"
         AppLanguage.SPANISH -> "Cerrar"
@@ -8040,6 +8659,7 @@ object StringsB {
     val agentEmptySessions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无会话"
         AppLanguage.ENGLISH -> "No sessions yet"
+        AppLanguage.VIETNAMESE -> "Chưa có phiên nào"
         AppLanguage.ARABIC -> "لا توجد جلسات بعد"
         AppLanguage.PORTUGUESE -> "Nenhuma sessão ainda"
         AppLanguage.SPANISH -> "Sin sesiones aún"
@@ -8052,6 +8672,7 @@ object StringsB {
     val agentEmptySessionsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新建一个会话开始"
         AppLanguage.ENGLISH -> "Create a new session to begin"
+        AppLanguage.VIETNAMESE -> "Tạo một phiên mới để bắt đầu"
         AppLanguage.ARABIC -> "أنشئ جلسة جديدة للبدء"
         AppLanguage.PORTUGUESE -> "Crie uma nova sessão para começar"
         AppLanguage.SPANISH -> "Crea una nueva sesión para comenzar"
@@ -8064,6 +8685,7 @@ object StringsB {
     val agentEmptyFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目还没有文件"
         AppLanguage.ENGLISH -> "No files yet"
+        AppLanguage.VIETNAMESE -> "Chưa có tập tin nào"
         AppLanguage.ARABIC -> "لا توجد ملفات بعد"
         AppLanguage.PORTUGUESE -> "Nenhum arquivo ainda"
         AppLanguage.SPANISH -> "Sin archivos aún"
@@ -8076,6 +8698,7 @@ object StringsB {
     val agentEmptyFilesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "和 AI 聊天后会自动出现"
         AppLanguage.ENGLISH -> "Files appear after talking with the AI"
+        AppLanguage.VIETNAMESE -> "Các tập tin xuất hiện sau khi nói chuyện với AI"
         AppLanguage.ARABIC -> "تظهر الملفات بعد التحدث مع الذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Os arquivos aparecem após conversar com a IA"
         AppLanguage.SPANISH -> "Los archivos aparecen después de hablar con la IA"
@@ -8088,6 +8711,7 @@ object StringsB {
     val agentBuiltApks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建产物"
         AppLanguage.ENGLISH -> "Build Artifacts"
+        AppLanguage.VIETNAMESE -> "Xây dựng hiện vật"
         AppLanguage.ARABIC -> "مخرجات البناء"
         AppLanguage.PORTUGUESE -> "Artefatos de Build"
         AppLanguage.SPANISH -> "Artefactos de compilación"
@@ -8100,6 +8724,7 @@ object StringsB {
     val agentApkInstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装"
         AppLanguage.ENGLISH -> "Install"
+        AppLanguage.VIETNAMESE -> "Cài đặt"
         AppLanguage.ARABIC -> "تثبيت"
         AppLanguage.PORTUGUESE -> "Instalar"
         AppLanguage.SPANISH -> "Instalar"
@@ -8112,6 +8737,7 @@ object StringsB {
     val agentApkShare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享"
         AppLanguage.ENGLISH -> "Share"
+        AppLanguage.VIETNAMESE -> "Chia sẻ"
         AppLanguage.ARABIC -> "مشاركة"
         AppLanguage.PORTUGUESE -> "Compartilhar"
         AppLanguage.SPANISH -> "Compartir"
@@ -8124,6 +8750,7 @@ object StringsB {
     val agentApkPackage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包名"
         AppLanguage.ENGLISH -> "Package"
+        AppLanguage.VIETNAMESE -> "Bưu kiện"
         AppLanguage.ARABIC -> "الحزمة"
         AppLanguage.PORTUGUESE -> "Pacote"
         AppLanguage.SPANISH -> "Paquete"
@@ -8136,6 +8763,7 @@ object StringsB {
     val agentApkVersion: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本"
         AppLanguage.ENGLISH -> "Version"
+        AppLanguage.VIETNAMESE -> "Phiên bản"
         AppLanguage.ARABIC -> "الإصدار"
         AppLanguage.PORTUGUESE -> "Versão"
         AppLanguage.SPANISH -> "Versión"
@@ -8148,6 +8776,7 @@ object StringsB {
     val agentApkBuildMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建模式"
         AppLanguage.ENGLISH -> "Build mode"
+        AppLanguage.VIETNAMESE -> "Chế độ xây dựng"
         AppLanguage.ARABIC -> "وضع البناء"
         AppLanguage.PORTUGUESE -> "Modo de build"
         AppLanguage.SPANISH -> "Modo de compilación"
@@ -8160,6 +8789,7 @@ object StringsB {
     val agentApkSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "大小"
         AppLanguage.ENGLISH -> "Size"
+        AppLanguage.VIETNAMESE -> "Kích cỡ"
         AppLanguage.ARABIC -> "الحجم"
         AppLanguage.PORTUGUESE -> "Tamanho"
         AppLanguage.SPANISH -> "Tamaño"
@@ -8172,6 +8802,7 @@ object StringsB {
     val agentNotifIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Agent 已就绪"
         AppLanguage.ENGLISH -> "Agent ready"
+        AppLanguage.VIETNAMESE -> "Đại lý đã sẵn sàng"
         AppLanguage.ARABIC -> "Agent جاهز"
         AppLanguage.PORTUGUESE -> "Agent pronto"
         AppLanguage.SPANISH -> "Agent listo"
@@ -8184,6 +8815,7 @@ object StringsB {
     val agentNotifRunning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Agent 进行中…"
         AppLanguage.ENGLISH -> "Agent in progress…"
+        AppLanguage.VIETNAMESE -> "Đại lý đang được tiến hành…"
         AppLanguage.ARABIC -> "Agent قيد التنفيذ…"
         AppLanguage.PORTUGUESE -> "Agent em andamento…"
         AppLanguage.SPANISH -> "Agent en progreso…"
@@ -8196,6 +8828,7 @@ object StringsB {
     val agentOutputTruncated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本轮输出达到模型单次最大长度,内容可能被截断。让 AI 继续以补全剩余部分。"
         AppLanguage.ENGLISH -> "This turn hit the model's max output length, so the content may be truncated. Ask the AI to continue to finish the rest."
+        AppLanguage.VIETNAMESE -> "Lần lượt này đạt đến độ dài đầu ra tối đa của mô hình, do đó nội dung có thể bị cắt bớt. Yêu cầu AI tiếp tục hoàn thành phần còn lại."
         AppLanguage.ARABIC -> "بلغ هذا الرد الحد الأقصى لطول مخرجات النموذج، لذا قد يكون المحتوى مقتطعًا. اطلب من الذكاء الاصطناعي المتابعة لإكمال الباقي."
         AppLanguage.PORTUGUESE -> "Este turno atingiu o comprimento máximo de saída do modelo, então o conteúdo pode estar truncado. Peça à IA para continuar e completar o restante."
         AppLanguage.SPANISH -> "Este turno alcanzó la longitud máxima de salida del modelo, por lo que el contenido puede estar truncado. Pide a la IA que continúe para terminar el resto."
@@ -8209,6 +8842,7 @@ object StringsB {
     val agentContinuing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输出达到长度限制，正在自动续写…"
         AppLanguage.ENGLISH -> "Output hit length limit, auto-continuing…"
+        AppLanguage.VIETNAMESE -> "Giới hạn độ dài lượt truy cập đầu ra, tự động tiếp tục…"
         AppLanguage.ARABIC -> "بلغ الإخراج حد الطول، يتابع تلقائيًا…"
         AppLanguage.PORTUGUESE -> "Saída atingiu o limite de comprimento, continuando automaticamente…"
         AppLanguage.SPANISH -> "La salida alcanzó el límite de longitud, continuando automáticamente…"
@@ -8261,6 +8895,7 @@ object StringsB {
     val agentNoReadyApiKey: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "这组密钥现在都不可用"
         AppLanguage.ENGLISH -> "None of the API keys for this model can be used right now"
+        AppLanguage.VIETNAMESE -> "Hiện tại không thể sử dụng khóa API nào cho mô hình này"
         AppLanguage.ARABIC -> "لا يمكن استخدام أي مفتاح API لهذا النموذج الآن"
         AppLanguage.PORTUGUESE -> "Nenhuma chave de API deste modelo pode ser usada agora"
         AppLanguage.SPANISH -> "Ninguna clave de API de este modelo se puede usar ahora"
@@ -8274,6 +8909,7 @@ object StringsB {
     val agentFileSaved: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已保存 %s"
         AppLanguage.ENGLISH -> "Saved %s"
+        AppLanguage.VIETNAMESE -> "Đã lưu %s"
         AppLanguage.ARABIC -> "تم حفظ %s"
         AppLanguage.PORTUGUESE -> "%s salvo"
         AppLanguage.SPANISH -> "%s guardado"
@@ -8286,6 +8922,7 @@ object StringsB {
     val agentFileOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开"
         AppLanguage.ENGLISH -> "Open"
+        AppLanguage.VIETNAMESE -> "Mở"
         AppLanguage.ARABIC -> "فتح"
         AppLanguage.PORTUGUESE -> "Abrir"
         AppLanguage.SPANISH -> "Abrir"
@@ -8298,6 +8935,7 @@ object StringsB {
     val agentFileCopyPath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制路径"
         AppLanguage.ENGLISH -> "Copy path"
+        AppLanguage.VIETNAMESE -> "Sao chép đường dẫn"
         AppLanguage.ARABIC -> "نسخ المسار"
         AppLanguage.PORTUGUESE -> "Copiar caminho"
         AppLanguage.SPANISH -> "Copiar ruta"
@@ -8310,6 +8948,7 @@ object StringsB {
     val agentPathCopied: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "路径已复制"
         AppLanguage.ENGLISH -> "Path copied"
+        AppLanguage.VIETNAMESE -> "Đã sao chép đường dẫn"
         AppLanguage.ARABIC -> "تم نسخ المسار"
         AppLanguage.PORTUGUESE -> "Caminho copiado"
         AppLanguage.SPANISH -> "Ruta copiada"
@@ -8322,6 +8961,7 @@ object StringsB {
     val agentFileOpenWith: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开方式…"
         AppLanguage.ENGLISH -> "Open with…"
+        AppLanguage.VIETNAMESE -> "Mở bằng…"
         AppLanguage.ARABIC -> "فتح باستخدام…"
         AppLanguage.PORTUGUESE -> "Abrir com…"
         AppLanguage.SPANISH -> "Abrir con…"
@@ -8334,6 +8974,7 @@ object StringsB {
     val agentFileNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件不存在"
         AppLanguage.ENGLISH -> "File not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tập tin"
         AppLanguage.ARABIC -> "الملف غير موجود"
         AppLanguage.PORTUGUESE -> "Arquivo não encontrado"
         AppLanguage.SPANISH -> "Archivo no encontrado"
@@ -8346,6 +8987,7 @@ object StringsB {
     val agentFileOpenFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法打开此文件"
         AppLanguage.ENGLISH -> "Cannot open this file"
+        AppLanguage.VIETNAMESE -> "Không thể mở tập tin này"
         AppLanguage.ARABIC -> "تعذر فتح هذا الملف"
         AppLanguage.PORTUGUESE -> "Não é possível abrir este arquivo"
         AppLanguage.SPANISH -> "No se puede abrir este archivo"
@@ -8358,6 +9000,7 @@ object StringsB {
     val agentFileBinaryPreview: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "二进制文件（%s），无文本预览"
         AppLanguage.ENGLISH -> "Binary file (%s) — no text preview"
+        AppLanguage.VIETNAMESE -> "Tệp nhị phân (%s) - không có bản xem trước văn bản"
         AppLanguage.ARABIC -> "ملف ثنائي (%s) — لا معاينة نصية"
         AppLanguage.PORTUGUESE -> "Arquivo binário (%s) — sem pré-visualização de texto"
         AppLanguage.SPANISH -> "Archivo binario (%s) — sin vista previa de texto"
@@ -8371,6 +9014,7 @@ object StringsB {
     val lrcGenerationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI 生成 LRC 歌词文件"
         AppLanguage.ENGLISH -> "AI-generated LRC lyrics files"
+        AppLanguage.VIETNAMESE -> "Tệp lời bài hát LRC do AI tạo"
         AppLanguage.ARABIC -> "ملفات كلمات LRC المُنشأة بالذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Arquivos de letras LRC gerados por IA"
         AppLanguage.SPANISH -> "Archivos de letras LRC generados por IA"
@@ -8384,6 +9028,7 @@ object StringsB {
     val translationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页内容翻译"
         AppLanguage.ENGLISH -> "Web content translation"
+        AppLanguage.VIETNAMESE -> "Dịch nội dung trang web"
         AppLanguage.ARABIC -> "ترجمة محتوى الويب"
         AppLanguage.PORTUGUESE -> "Tradução de conteúdo web"
         AppLanguage.SPANISH -> "Traducción de contenido web"
@@ -8397,6 +9042,7 @@ object StringsB {
     val generalChatDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通用 AI 对话功能"
         AppLanguage.ENGLISH -> "General AI chat functionality"
+        AppLanguage.VIETNAMESE -> "Chức năng trò chuyện AI chung"
         AppLanguage.ARABIC -> "وظيفة الدردشة العامة بالذكاء الاصطناعي"
         AppLanguage.PORTUGUESE -> "Funcionalidade geral de chat por IA"
         AppLanguage.SPANISH -> "Funcionalidad general de chat por IA"
@@ -8410,6 +9056,7 @@ object StringsB {
     val dataBackupTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据备份"
         AppLanguage.ENGLISH -> "Data Backup"
+        AppLanguage.VIETNAMESE -> "Sao lưu dữ liệu"
         AppLanguage.ARABIC -> "نسخ البيانات احتياطيًا"
         AppLanguage.PORTUGUESE -> "Backup de dados"
         AppLanguage.SPANISH -> "Copia de seguridad de datos"
@@ -8423,6 +9070,7 @@ object StringsB {
     val dataBackupDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出或导入所有应用数据，包括配置、图标、启动画面、BGM等资源文件"
         AppLanguage.ENGLISH -> "Export or import all app data including config, icons, splash screens, BGM and other resources"
+        AppLanguage.VIETNAMESE -> "Xuất hoặc nhập tất cả dữ liệu ứng dụng bao gồm cấu hình, biểu tượng, màn hình giật gân, nhạc nền và các tài nguyên khác"
         AppLanguage.ARABIC -> "تصدير أو استيراد جميع بيانات التطبيق"
         AppLanguage.PORTUGUESE -> "Exportar ou importar todos os dados do app, incluindo config, ícones, telas splash, BGM e outros recursos"
         AppLanguage.SPANISH -> "Exportar o importar todos los datos de la app, incluyendo config, iconos, pantallas de inicio, BGM y otros recursos"
@@ -8436,6 +9084,7 @@ object StringsB {
     val dataBackupNote: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入数据会添加新应用，不会覆盖现有数据。建议在更新应用前先导出备份。"
         AppLanguage.ENGLISH -> "Importing data adds new apps without overwriting existing data. It's recommended to export backup before updating."
+        AppLanguage.VIETNAMESE -> "Nhập dữ liệu sẽ thêm ứng dụng mới mà không ghi đè dữ liệu hiện có. Bạn nên xuất bản sao lưu trước khi cập nhật."
         AppLanguage.ARABIC -> "استيراد البيانات يضيف تطبيقات جديدة دون الكتابة فوق البيانات الموجودة."
         AppLanguage.PORTUGUESE -> "Importar dados adiciona novos apps sem sobrescrever os existentes. Recomenda-se exportar o backup antes de atualizar."
         AppLanguage.SPANISH -> "Importar datos añade nuevas apps sin sobrescribir las existentes. Se recomienda exportar la copia de seguridad antes de actualizar."
@@ -8449,6 +9098,7 @@ object StringsB {
     val legalDisclaimer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "法律声明与免责条款"
         AppLanguage.ENGLISH -> "Legal Disclaimer"
+        AppLanguage.VIETNAMESE -> "Tuyên bố từ chối trách nhiệm pháp lý"
         AppLanguage.ARABIC -> "إخلاء المسؤولية القانونية"
         AppLanguage.PORTUGUESE -> "Aviso legal"
         AppLanguage.SPANISH -> "Aviso legal"
@@ -8461,6 +9111,7 @@ object StringsB {
     val tplElementHider: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "元素隐藏器"
         AppLanguage.ENGLISH -> "Element Hider"
+        AppLanguage.VIETNAMESE -> "Trình ẩn phần tử"
         AppLanguage.ARABIC -> "إخفاء العناصر"
         AppLanguage.PORTUGUESE -> "Ocultador de elementos"
         AppLanguage.SPANISH -> "Ocultador de elementos"
@@ -8473,6 +9124,7 @@ object StringsB {
     val tplElementHiderDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通过 CSS 选择器隐藏页面元素，支持多种隐藏方式"
         AppLanguage.ENGLISH -> "Hide page elements via CSS selector, supports multiple hiding methods"
+        AppLanguage.VIETNAMESE -> "Ẩn các thành phần trang thông qua bộ chọn CSS, hỗ trợ nhiều phương pháp ẩn"
         AppLanguage.ARABIC -> "إخفاء عناصر الصفحة عبر محدد CSS"
         AppLanguage.PORTUGUESE -> "Oculta elementos da página via seletor CSS, suporta vários métodos de ocultação"
         AppLanguage.SPANISH -> "Oculta elementos de la página vía selector CSS, admite múltiples métodos de ocultación"
@@ -8485,6 +9137,7 @@ object StringsB {
     val tplAdBlocker: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告拦截增强"
         AppLanguage.ENGLISH -> "Ad Blocker Pro"
+        AppLanguage.VIETNAMESE -> "Trình chặn quảng cáo chuyên nghiệp"
         AppLanguage.ARABIC -> "مانع الإعلانات المتقدم"
         AppLanguage.PORTUGUESE -> "Bloqueador de anúncios Pro"
         AppLanguage.SPANISH -> "Bloqueador de anuncios Pro"
@@ -8497,6 +9150,7 @@ object StringsB {
     val tplAdBlockerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强力广告过滤，屏蔽常见广告元素、弹窗和追踪脚本"
         AppLanguage.ENGLISH -> "Powerful ad filter, blocks common ad elements, popups and tracking scripts"
+        AppLanguage.VIETNAMESE -> "Bộ lọc quảng cáo mạnh mẽ, chặn các phần tử quảng cáo phổ biến, cửa sổ bật lên và tập lệnh theo dõi"
         AppLanguage.ARABIC -> "فلتر إعلانات قوي، يحظر عناصر الإعلانات والنوافذ المنبثقة"
         AppLanguage.PORTUGUESE -> "Filtro de anúncios poderoso, bloqueia elementos comuns de anúncios, pop-ups e scripts de rastreamento"
         AppLanguage.SPANISH -> "Filtro de anuncios potente, bloquea elementos comunes de anuncios, ventanas emergentes y scripts de rastreo"
@@ -8509,6 +9163,7 @@ object StringsB {
     val tplPopupBlocker: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "弹窗拦截器"
         AppLanguage.ENGLISH -> "Popup Blocker"
+        AppLanguage.VIETNAMESE -> "Trình chặn cửa sổ bật lên"
         AppLanguage.ARABIC -> "مانع النوافذ المنبثقة"
         AppLanguage.PORTUGUESE -> "Bloqueador de pop-ups"
         AppLanguage.SPANISH -> "Bloqueador de ventanas emergentes"
@@ -8521,6 +9176,7 @@ object StringsB {
     val tplPopupBlockerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动关闭烦人的弹窗、对话框和通知请求"
         AppLanguage.ENGLISH -> "Auto close annoying popups, dialogs and notification requests"
+        AppLanguage.VIETNAMESE -> "Tự động đóng các cửa sổ bật lên, hộp thoại và yêu cầu thông báo gây phiền nhiễu"
         AppLanguage.ARABIC -> "إغلاق تلقائي للنوافذ المنبثقة المزعجة"
         AppLanguage.PORTUGUESE -> "Fecha automaticamente pop-ups irritantes, diálogos e solicitações de notificação"
         AppLanguage.SPANISH -> "Cierra automáticamente ventanas emergentes molestas, diálogos y solicitudes de notificación"
@@ -8533,6 +9189,7 @@ object StringsB {
     val tplCookieBanner: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Cookie横幅移除"
         AppLanguage.ENGLISH -> "Cookie Banner Remover"
+        AppLanguage.VIETNAMESE -> "Xóa biểu ngữ cookie"
         AppLanguage.ARABIC -> "إزالة لافتة ملفات تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Removedor de banner de cookies"
         AppLanguage.SPANISH -> "Eliminador de banners de cookies"
@@ -8545,6 +9202,7 @@ object StringsB {
     val tplCookieBannerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动移除Cookie同意横幅和GDPR提示"
         AppLanguage.ENGLISH -> "Auto remove cookie consent banners and GDPR notices"
+        AppLanguage.VIETNAMESE -> "Tự động xóa biểu ngữ chấp thuận cookie và thông báo GDPR"
         AppLanguage.ARABIC -> "إزالة تلقائية للافتات الموافقة على ملفات تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Remove automaticamente banners de consentimento de cookies e avisos de GDPR"
         AppLanguage.SPANISH -> "Elimina automáticamente banners de consentimiento de cookies y avisos del GDPR"
@@ -8557,6 +9215,7 @@ object StringsB {
     val tplCssInjector: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS样式注入"
         AppLanguage.ENGLISH -> "CSS Style Injector"
+        AppLanguage.VIETNAMESE -> "Bộ phun kiểu CSS"
         AppLanguage.ARABIC -> "حقن أنماط CSS"
         AppLanguage.PORTUGUESE -> "Injetor de estilos CSS"
         AppLanguage.SPANISH -> "Inyector de estilos CSS"
@@ -8569,6 +9228,7 @@ object StringsB {
     val tplCssInjectorDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "向页面注入自定义CSS样式"
         AppLanguage.ENGLISH -> "Inject custom CSS styles into page"
+        AppLanguage.VIETNAMESE -> "Chèn các kiểu CSS tùy chỉnh vào trang"
         AppLanguage.ARABIC -> "حقن أنماط CSS مخصصة في الصفحة"
         AppLanguage.PORTUGUESE -> "Injeta estilos CSS personalizados na página"
         AppLanguage.SPANISH -> "Inyecta estilos CSS personalizados en la página"
@@ -8581,6 +9241,7 @@ object StringsB {
     val tplDarkMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强制深色模式"
         AppLanguage.ENGLISH -> "Force Dark Mode"
+        AppLanguage.VIETNAMESE -> "Buộc chế độ tối"
         AppLanguage.ARABIC -> "فرض الوضع الداكن"
         AppLanguage.PORTUGUESE -> "Forçar modo escuro"
         AppLanguage.SPANISH -> "Forzar modo oscuro"
@@ -8593,6 +9254,7 @@ object StringsB {
     val tplDarkModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为任意网页强制启用深色模式"
         AppLanguage.ENGLISH -> "Force enable dark mode for any webpage"
+        AppLanguage.VIETNAMESE -> "Buộc bật chế độ tối cho bất kỳ trang web nào"
         AppLanguage.ARABIC -> "فرض تمكين الوضع الداكن لأي صفحة ويب"
         AppLanguage.PORTUGUESE -> "Força a ativação do modo escuro para qualquer página web"
         AppLanguage.SPANISH -> "Fuerza la activación del modo oscuro para cualquier página web"
@@ -8605,6 +9267,7 @@ object StringsB {
     val tplFontChanger: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字体替换器"
         AppLanguage.ENGLISH -> "Font Changer"
+        AppLanguage.VIETNAMESE -> "Thay đổi phông chữ"
         AppLanguage.ARABIC -> "مغير الخط"
         AppLanguage.PORTUGUESE -> "Trocador de fontes"
         AppLanguage.SPANISH -> "Cambiador de fuentes"
@@ -8617,6 +9280,7 @@ object StringsB {
     val tplFontChangerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换网页字体为指定字体"
         AppLanguage.ENGLISH -> "Replace webpage fonts with specified font"
+        AppLanguage.VIETNAMESE -> "Thay thế phông chữ trang web bằng phông chữ được chỉ định"
         AppLanguage.ARABIC -> "استبدال خطوط صفحة الويب بالخط المحدد"
         AppLanguage.PORTUGUESE -> "Substitui as fontes da página web pela fonte especificada"
         AppLanguage.SPANISH -> "Reemplaza las fuentes de la página web por la fuente especificada"
@@ -8629,6 +9293,7 @@ object StringsB {
     val snippetNative: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "原生能力"
         AppLanguage.ENGLISH -> "Native Features"
+        AppLanguage.VIETNAMESE -> "Tính năng gốc"
         AppLanguage.ARABIC -> "الميزات الأصلية"
         AppLanguage.PORTUGUESE -> "Recursos nativos"
         AppLanguage.SPANISH -> "Funciones nativas"
@@ -8641,6 +9306,7 @@ object StringsB {
     val snippetNativeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调用原生能力，如分享、震动、剪贴板等"
         AppLanguage.ENGLISH -> "Call native capabilities like share, vibrate, clipboard, etc."
+        AppLanguage.VIETNAMESE -> "Gọi các khả năng gốc như chia sẻ, rung, clipboard, v.v."
         AppLanguage.ARABIC -> "استدعاء القدرات الأصلية مثل المشاركة والاهتزاز والحافظة وما إلى ذلك"
         AppLanguage.PORTUGUESE -> "Chama recursos nativos como compartilhar, vibrar, área de transferência, etc."
         AppLanguage.SPANISH -> "Llama a funciones nativas como compartir, vibrar, portapapeles, etc."
@@ -8653,6 +9319,7 @@ object StringsB {
     val snippetShowToast: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示 Toast 提示"
         AppLanguage.ENGLISH -> "Show Toast Message"
+        AppLanguage.VIETNAMESE -> "Hiển thị tin nhắn bánh mì nướng"
         AppLanguage.ARABIC -> "عرض رسالة Toast"
         AppLanguage.PORTUGUESE -> "Exibir mensagem Toast"
         AppLanguage.SPANISH -> "Mostrar mensaje Toast"
@@ -8665,6 +9332,7 @@ object StringsB {
     val snippetShowToastDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示原生 Toast 消息提示"
         AppLanguage.ENGLISH -> "Show native Toast message"
+        AppLanguage.VIETNAMESE -> "Hiển thị thông báo Toast gốc"
         AppLanguage.ARABIC -> "عرض رسالة Toast الأصلية"
         AppLanguage.PORTUGUESE -> "Exibir mensagem Toast nativa"
         AppLanguage.SPANISH -> "Mostrar mensaje Toast nativo"
@@ -8677,6 +9345,7 @@ object StringsB {
     val snippetVibrate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "震动反馈"
         AppLanguage.ENGLISH -> "Vibration Feedback"
+        AppLanguage.VIETNAMESE -> "Phản hồi rung"
         AppLanguage.ARABIC -> "استجابة الاهتزاز"
         AppLanguage.PORTUGUESE -> "Feedback de vibração"
         AppLanguage.SPANISH -> "Respuesta de vibración"
@@ -8689,6 +9358,7 @@ object StringsB {
     val snippetVibrateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触发手机震动"
         AppLanguage.ENGLISH -> "Trigger phone vibration"
+        AppLanguage.VIETNAMESE -> "Kích hoạt rung điện thoại"
         AppLanguage.ARABIC -> "تشغيل اهتزاز الهاتف"
         AppLanguage.PORTUGUESE -> "Acionar vibração do telefone"
         AppLanguage.SPANISH -> "Activar vibración del teléfono"
@@ -8701,6 +9371,7 @@ object StringsB {
     val snippetCopyToClipboard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制到剪贴板"
         AppLanguage.ENGLISH -> "Copy to Clipboard"
+        AppLanguage.VIETNAMESE -> "Sao chép vào Clipboard"
         AppLanguage.ARABIC -> "نسخ إلى الحافظة"
         AppLanguage.PORTUGUESE -> "Copiar para a área de transferência"
         AppLanguage.SPANISH -> "Copiar al portapapeles"
@@ -8713,6 +9384,7 @@ object StringsB {
     val snippetCopyToClipboardDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文本到系统剪贴板"
         AppLanguage.ENGLISH -> "Copy text to system clipboard"
+        AppLanguage.VIETNAMESE -> "Sao chép văn bản vào bảng tạm hệ thống"
         AppLanguage.ARABIC -> "نسخ النص إلى حافظة النظام"
         AppLanguage.PORTUGUESE -> "Copiar texto para a área de transferência do sistema"
         AppLanguage.SPANISH -> "Copiar texto al portapapeles del sistema"
@@ -8725,6 +9397,7 @@ object StringsB {
     val snippetSaveVideoToGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存视频到相册"
         AppLanguage.ENGLISH -> "Save Video to Gallery"
+        AppLanguage.VIETNAMESE -> "Lưu video vào thư viện"
         AppLanguage.ARABIC -> "حفظ الفيديو في المعرض"
         AppLanguage.PORTUGUESE -> "Salvar vídeo na galeria"
         AppLanguage.SPANISH -> "Guardar video en la galería"
@@ -8737,6 +9410,7 @@ object StringsB {
     val snippetSaveVideoToGalleryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将视频保存到手机相册"
         AppLanguage.ENGLISH -> "Save video to phone gallery"
+        AppLanguage.VIETNAMESE -> "Lưu video vào thư viện điện thoại"
         AppLanguage.ARABIC -> "حفظ الفيديو في معرض الهاتف"
         AppLanguage.PORTUGUESE -> "Salvar vídeo na galeria do telefone"
         AppLanguage.SPANISH -> "Guardar video en la galería del teléfono"
@@ -8749,6 +9423,7 @@ object StringsB {
     val snippetOpenInBrowser: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用浏览器打开链接"
         AppLanguage.ENGLISH -> "Open Link in Browser"
+        AppLanguage.VIETNAMESE -> "Mở liên kết trong trình duyệt"
         AppLanguage.ARABIC -> "فتح الرابط في المتصفح"
         AppLanguage.PORTUGUESE -> "Abrir link no navegador"
         AppLanguage.SPANISH -> "Abrir enlace en el navegador"
@@ -8761,6 +9436,7 @@ object StringsB {
     val snippetOpenInBrowserDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用系统浏览器打开外部链接"
         AppLanguage.ENGLISH -> "Open external link with system browser"
+        AppLanguage.VIETNAMESE -> "Mở liên kết ngoài bằng trình duyệt hệ thống"
         AppLanguage.ARABIC -> "فتح الرابط الخارجي باستخدام متصفح النظام"
         AppLanguage.PORTUGUESE -> "Abrir link externo com o navegador do sistema"
         AppLanguage.SPANISH -> "Abrir enlace externo con el navegador del sistema"
@@ -8773,6 +9449,7 @@ object StringsB {
     val snippetDeviceInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取设备信息"
         AppLanguage.ENGLISH -> "Get Device Info"
+        AppLanguage.VIETNAMESE -> "Nhận thông tin thiết bị"
         AppLanguage.ARABIC -> "الحصول على معلومات الجهاز"
         AppLanguage.PORTUGUESE -> "Obter informações do dispositivo"
         AppLanguage.SPANISH -> "Obtener información del dispositivo"
@@ -8785,6 +9462,7 @@ object StringsB {
     val snippetDeviceInfoDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取手机设备和应用信息"
         AppLanguage.ENGLISH -> "Get phone device and app info"
+        AppLanguage.VIETNAMESE -> "Nhận thông tin về thiết bị và ứng dụng điện thoại"
         AppLanguage.ARABIC -> "الحصول على معلومات الجهاز والتطبيق"
         AppLanguage.PORTUGUESE -> "Obter informações do dispositivo e do app"
         AppLanguage.SPANISH -> "Obtener información del dispositivo y de la app"
@@ -8797,6 +9475,7 @@ object StringsB {
     val snippetNetworkStatus: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检查网络状态"
         AppLanguage.ENGLISH -> "Check Network Status"
+        AppLanguage.VIETNAMESE -> "Kiểm tra trạng thái mạng"
         AppLanguage.ARABIC -> "التحقق من حالة الشبكة"
         AppLanguage.PORTUGUESE -> "Verificar status da rede"
         AppLanguage.SPANISH -> "Comprobar estado de la red"
@@ -8809,6 +9488,7 @@ object StringsB {
     val snippetNetworkStatusDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检查网络连接状态和类型"
         AppLanguage.ENGLISH -> "Check network connection status and type"
+        AppLanguage.VIETNAMESE -> "Kiểm tra trạng thái và loại kết nối mạng"
         AppLanguage.ARABIC -> "التحقق من حالة ونوع اتصال الشبكة"
         AppLanguage.PORTUGUESE -> "Verificar status e tipo de conexão de rede"
         AppLanguage.SPANISH -> "Comprobar estado y tipo de conexión de red"
@@ -8821,6 +9501,7 @@ object StringsB {
     val snippetSaveFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存文件"
         AppLanguage.ENGLISH -> "Save File"
+        AppLanguage.VIETNAMESE -> "Lưu tập tin"
         AppLanguage.ARABIC -> "حفظ الملف"
         AppLanguage.PORTUGUESE -> "Salvar arquivo"
         AppLanguage.SPANISH -> "Guardar archivo"
@@ -8833,6 +9514,7 @@ object StringsB {
     val snippetSaveFileDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将内容保存为文件"
         AppLanguage.ENGLISH -> "Save content as file"
+        AppLanguage.VIETNAMESE -> "Lưu nội dung dưới dạng tập tin"
         AppLanguage.ARABIC -> "حفظ المحتوى كملف"
         AppLanguage.PORTUGUESE -> "Salvar conteúdo como arquivo"
         AppLanguage.SPANISH -> "Guardar contenido como archivo"
@@ -8845,6 +9527,7 @@ object StringsB {
     val snippetImageDownloadBtn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片下载按钮"
         AppLanguage.ENGLISH -> "Image Download Button"
+        AppLanguage.VIETNAMESE -> "Nút tải xuống hình ảnh"
         AppLanguage.ARABIC -> "زر تنزيل الصورة"
         AppLanguage.PORTUGUESE -> "Botão de download de imagem"
         AppLanguage.SPANISH -> "Botón de descarga de imagen"
@@ -8857,6 +9540,7 @@ object StringsB {
     val snippetImageDownloadBtnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为图片添加悬浮下载按钮"
         AppLanguage.ENGLISH -> "Add floating download button to images"
+        AppLanguage.VIETNAMESE -> "Thêm nút tải xuống nổi vào hình ảnh"
         AppLanguage.ARABIC -> "إضافة زر تنزيل عائم للصور"
         AppLanguage.PORTUGUESE -> "Adicionar botão de download flutuante às imagens"
         AppLanguage.SPANISH -> "Añadir botón de descarga flotante a las imágenes"
@@ -8869,6 +9553,7 @@ object StringsB {
     val snippetDom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 操作"
         AppLanguage.ENGLISH -> "DOM Operations"
+        AppLanguage.VIETNAMESE -> "Hoạt động DOM"
         AppLanguage.ARABIC -> "عمليات DOM"
         AppLanguage.PORTUGUESE -> "Operações DOM"
         AppLanguage.SPANISH -> "Operaciones DOM"
@@ -8881,6 +9566,7 @@ object StringsB {
     val snippetDomDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面元素的查询、修改、创建和删除"
         AppLanguage.ENGLISH -> "Query, modify, create and delete page elements"
+        AppLanguage.VIETNAMESE -> "Truy vấn, sửa đổi, tạo và xóa các thành phần trang"
         AppLanguage.ARABIC -> "استعلام وتعديل وإنشاء وحذف عناصر الصفحة"
         AppLanguage.PORTUGUESE -> "Consultar, modificar, criar e excluir elementos da página"
         AppLanguage.SPANISH -> "Consultar, modificar, crear y eliminar elementos de la página"
@@ -8893,6 +9579,7 @@ object StringsB {
     val snippetStyle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "样式操作"
         AppLanguage.ENGLISH -> "Style Operations"
+        AppLanguage.VIETNAMESE -> "Hoạt động phong cách"
         AppLanguage.ARABIC -> "عمليات الأنماط"
         AppLanguage.PORTUGUESE -> "Operações de estilo"
         AppLanguage.SPANISH -> "Operaciones de estilo"
@@ -8905,6 +9592,7 @@ object StringsB {
     val snippetStyleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 样式的注入、修改和动态控制"
         AppLanguage.ENGLISH -> "CSS style injection, modification and dynamic control"
+        AppLanguage.VIETNAMESE -> "Chèn, sửa đổi và điều khiển động kiểu CSS"
         AppLanguage.ARABIC -> "حقن وتعديل وتحكم ديناميكي في أنماط CSS"
         AppLanguage.PORTUGUESE -> "Injeção, modificação e controle dinâmico de estilos CSS"
         AppLanguage.SPANISH -> "Inyección, modificación y control dinámico de estilos CSS"
@@ -8917,6 +9605,7 @@ object StringsB {
     val snippetEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "事件处理"
         AppLanguage.ENGLISH -> "Event Handling"
+        AppLanguage.VIETNAMESE -> "Xử lý sự kiện"
         AppLanguage.ARABIC -> "معالجة الأحداث"
         AppLanguage.PORTUGUESE -> "Tratamento de eventos"
         AppLanguage.SPANISH -> "Gestión de eventos"
@@ -8929,6 +9618,7 @@ object StringsB {
     val snippetEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击、滚动、键盘等事件的监听和处理"
         AppLanguage.ENGLISH -> "Listen and handle click, scroll, keyboard events"
+        AppLanguage.VIETNAMESE -> "Nghe và xử lý các sự kiện nhấp chuột, cuộn, bàn phím"
         AppLanguage.ARABIC -> "الاستماع ومعالجة أحداث النقر والتمرير ولوحة المفاتيح"
         AppLanguage.PORTUGUESE -> "Ouvir e tratar eventos de clique, rolagem e teclado"
         AppLanguage.SPANISH -> "Escuchar y gestionar eventos de clic, desplazamiento y teclado"
@@ -8941,6 +9631,7 @@ object StringsB {
     val snippetStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本地存储"
         AppLanguage.ENGLISH -> "Local Storage"
+        AppLanguage.VIETNAMESE -> "Bộ nhớ cục bộ"
         AppLanguage.ARABIC -> "التخزين المحلي"
         AppLanguage.PORTUGUESE -> "Armazenamento local"
         AppLanguage.SPANISH -> "Almacenamiento local"
@@ -8953,6 +9644,7 @@ object StringsB {
     val snippetStorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据的本地存储和读取"
         AppLanguage.ENGLISH -> "Local data storage and retrieval"
+        AppLanguage.VIETNAMESE -> "Lưu trữ và truy xuất dữ liệu cục bộ"
         AppLanguage.ARABIC -> "تخزين واسترجاع البيانات المحلية"
         AppLanguage.PORTUGUESE -> "Armazenamento e recuperação local de dados"
         AppLanguage.SPANISH -> "Almacenamiento y recuperación local de datos"
@@ -8965,6 +9657,7 @@ object StringsB {
     val snippetNetwork: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络请求"
         AppLanguage.ENGLISH -> "Network Requests"
+        AppLanguage.VIETNAMESE -> "Yêu cầu mạng"
         AppLanguage.ARABIC -> "طلبات الشبكة"
         AppLanguage.PORTUGUESE -> "Requisições de rede"
         AppLanguage.SPANISH -> "Solicitudes de red"
@@ -8977,6 +9670,7 @@ object StringsB {
     val snippetNetworkDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发起网络请求和处理响应"
         AppLanguage.ENGLISH -> "Make network requests and handle responses"
+        AppLanguage.VIETNAMESE -> "Thực hiện các yêu cầu mạng và xử lý phản hồi"
         AppLanguage.ARABIC -> "إجراء طلبات الشبكة ومعالجة الاستجابات"
         AppLanguage.PORTUGUESE -> "Fazer requisições de rede e tratar respostas"
         AppLanguage.SPANISH -> "Realizar solicitudes de red y gestionar respuestas"
@@ -8989,6 +9683,7 @@ object StringsB {
     val snippetUi: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "UI 增强"
         AppLanguage.ENGLISH -> "UI Enhancement"
+        AppLanguage.VIETNAMESE -> "Cải tiến giao diện người dùng"
         AppLanguage.ARABIC -> "تحسين واجهة المستخدم"
         AppLanguage.PORTUGUESE -> "Aprimoramento de UI"
         AppLanguage.SPANISH -> "Mejora de UI"
@@ -9001,6 +9696,7 @@ object StringsB {
     val snippetUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮按钮、弹窗、通知等 UI 组件"
         AppLanguage.ENGLISH -> "Floating buttons, popups, notifications and other UI components"
+        AppLanguage.VIETNAMESE -> "Nút nổi, cửa sổ bật lên, thông báo và các thành phần giao diện người dùng khác"
         AppLanguage.ARABIC -> "أزرار عائمة، نوافذ منبثقة، إشعارات ومكونات واجهة أخرى"
         AppLanguage.PORTUGUESE -> "Botões flutuantes, pop-ups, notificações e outros componentes de UI"
         AppLanguage.SPANISH -> "Botones flotantes, pop-ups, notificaciones y otros componentes de UI"
@@ -9013,6 +9709,7 @@ object StringsB {
     val snippetWidget: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮组件"
         AppLanguage.ENGLISH -> "Floating Widgets"
+        AppLanguage.VIETNAMESE -> "Widget nổi"
         AppLanguage.ARABIC -> "أدوات عائمة"
         AppLanguage.PORTUGUESE -> "Widgets flutuantes"
         AppLanguage.SPANISH -> "Widgets flotantes"
@@ -9025,6 +9722,7 @@ object StringsB {
     val snippetWidgetDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮面板、工具栏、侧边栏等"
         AppLanguage.ENGLISH -> "Floating panels, toolbars, sidebars"
+        AppLanguage.VIETNAMESE -> "Bảng nổi, thanh công cụ, thanh bên"
         AppLanguage.ARABIC -> "لوحات عائمة، أشرطة أدوات، أشرطة جانبية"
         AppLanguage.PORTUGUESE -> "Painéis flutuantes, barras de ferramentas, barras laterais"
         AppLanguage.SPANISH -> "Paneles flotantes, barras de herramientas, barras laterales"
@@ -9037,6 +9735,7 @@ object StringsB {
     val snippetNotification: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通知系统"
         AppLanguage.ENGLISH -> "Notification System"
+        AppLanguage.VIETNAMESE -> "Hệ thống thông báo"
         AppLanguage.ARABIC -> "نظام الإشعارات"
         AppLanguage.PORTUGUESE -> "Sistema de notificações"
         AppLanguage.SPANISH -> "Sistema de notificaciones"
@@ -9049,6 +9748,7 @@ object StringsB {
     val snippetNotificationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "各种通知和提醒功能"
         AppLanguage.ENGLISH -> "Various notification and alert features"
+        AppLanguage.VIETNAMESE -> "Các tính năng thông báo và cảnh báo khác nhau"
         AppLanguage.ARABIC -> "ميزات الإشعارات والتنبيهات المختلفة"
         AppLanguage.PORTUGUESE -> "Vários recursos de notificação e alerta"
         AppLanguage.SPANISH -> "Varias funciones de notificación y alerta"
@@ -9061,6 +9761,7 @@ object StringsB {
     val snippetScroll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动操作"
         AppLanguage.ENGLISH -> "Scroll Operations"
+        AppLanguage.VIETNAMESE -> "Thao tác cuộn"
         AppLanguage.ARABIC -> "عمليات التمرير"
         AppLanguage.PORTUGUESE -> "Operações de rolagem"
         AppLanguage.SPANISH -> "Operaciones de desplazamiento"
@@ -9073,6 +9774,7 @@ object StringsB {
     val snippetScrollDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面滚动控制和自动滚动"
         AppLanguage.ENGLISH -> "Page scroll control and auto-scroll"
+        AppLanguage.VIETNAMESE -> "Kiểm soát cuộn trang và tự động cuộn"
         AppLanguage.ARABIC -> "التحكم في تمرير الصفحة والتمرير التلقائي"
         AppLanguage.PORTUGUESE -> "Controle de rolagem de página e rolagem automática"
         AppLanguage.SPANISH -> "Control de desplazamiento de página y desplazamiento automático"
@@ -9086,6 +9788,7 @@ object StringsB {
     val snippetQuerySingle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查询单个元素"
         AppLanguage.ENGLISH -> "Query Single Element"
+        AppLanguage.VIETNAMESE -> "Truy vấn phần tử đơn"
         AppLanguage.ARABIC -> "استعلام عنصر واحد"
         AppLanguage.PORTUGUESE -> "Consultar elemento único"
         AppLanguage.SPANISH -> "Consultar elemento único"
@@ -9098,6 +9801,7 @@ object StringsB {
     val snippetQuerySingleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 CSS 选择器查询单个元素"
         AppLanguage.ENGLISH -> "Query single element using CSS selector"
+        AppLanguage.VIETNAMESE -> "Truy vấn một phần tử bằng bộ chọn CSS"
         AppLanguage.ARABIC -> "استعلام عنصر واحد باستخدام محدد CSS"
         AppLanguage.PORTUGUESE -> "Consultar elemento único usando seletor CSS"
         AppLanguage.SPANISH -> "Consultar elemento único usando selector CSS"
@@ -9110,6 +9814,7 @@ object StringsB {
     val snippetQueryAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查询所有元素"
         AppLanguage.ENGLISH -> "Query All Elements"
+        AppLanguage.VIETNAMESE -> "Truy vấn tất cả các phần tử"
         AppLanguage.ARABIC -> "استعلام جميع العناصر"
         AppLanguage.PORTUGUESE -> "Consultar todos os elementos"
         AppLanguage.SPANISH -> "Consultar todos los elementos"
@@ -9122,6 +9827,7 @@ object StringsB {
     val snippetQueryAllDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 CSS 选择器查询所有匹配元素"
         AppLanguage.ENGLISH -> "Query all matching elements using CSS selector"
+        AppLanguage.VIETNAMESE -> "Truy vấn tất cả các phần tử phù hợp bằng bộ chọn CSS"
         AppLanguage.ARABIC -> "استعلام جميع العناصر المطابقة باستخدام محدد CSS"
         AppLanguage.PORTUGUESE -> "Consultar todos os elementos correspondentes usando seletor CSS"
         AppLanguage.SPANISH -> "Consultar todos los elementos coincidentes usando selector CSS"
@@ -9134,6 +9840,7 @@ object StringsB {
     val snippetHideElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏元素"
         AppLanguage.ENGLISH -> "Hide Element"
+        AppLanguage.VIETNAMESE -> "Ẩn phần tử"
         AppLanguage.ARABIC -> "إخفاء العنصر"
         AppLanguage.PORTUGUESE -> "Ocultar elemento"
         AppLanguage.SPANISH -> "Ocultar elemento"
@@ -9146,6 +9853,7 @@ object StringsB {
     val snippetHideElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏指定的页面元素"
         AppLanguage.ENGLISH -> "Hide specified page element"
+        AppLanguage.VIETNAMESE -> "Ẩn phần tử trang được chỉ định"
         AppLanguage.ARABIC -> "إخفاء عنصر الصفحة المحدد"
         AppLanguage.PORTUGUESE -> "Ocultar elemento de página especificado"
         AppLanguage.SPANISH -> "Ocultar elemento de página especificado"
@@ -9158,6 +9866,7 @@ object StringsB {
     val snippetRemoveElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除元素"
         AppLanguage.ENGLISH -> "Remove Element"
+        AppLanguage.VIETNAMESE -> "Xóa phần tử"
         AppLanguage.ARABIC -> "إزالة العنصر"
         AppLanguage.PORTUGUESE -> "Remover elemento"
         AppLanguage.SPANISH -> "Eliminar elemento"
@@ -9170,6 +9879,7 @@ object StringsB {
     val snippetRemoveElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从页面中删除指定元素"
         AppLanguage.ENGLISH -> "Remove specified element from page"
+        AppLanguage.VIETNAMESE -> "Xóa phần tử được chỉ định khỏi trang"
         AppLanguage.ARABIC -> "إزالة العنصر المحدد من الصفحة"
         AppLanguage.PORTUGUESE -> "Remover elemento especificado da página"
         AppLanguage.SPANISH -> "Eliminar elemento especificado de la página"
@@ -9182,6 +9892,7 @@ object StringsB {
     val snippetCreateElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建元素"
         AppLanguage.ENGLISH -> "Create Element"
+        AppLanguage.VIETNAMESE -> "Tạo phần tử"
         AppLanguage.ARABIC -> "إنشاء عنصر"
         AppLanguage.PORTUGUESE -> "Criar elemento"
         AppLanguage.SPANISH -> "Crear elemento"
@@ -9194,6 +9905,7 @@ object StringsB {
     val snippetCreateElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建并添加新元素到页面"
         AppLanguage.ENGLISH -> "Create and add new element to page"
+        AppLanguage.VIETNAMESE -> "Tạo và thêm phần tử mới vào trang"
         AppLanguage.ARABIC -> "إنشاء وإضافة عنصر جديد إلى الصفحة"
         AppLanguage.PORTUGUESE -> "Criar e adicionar novo elemento à página"
         AppLanguage.SPANISH -> "Crear y añadir nuevo elemento a la página"
@@ -9206,6 +9918,7 @@ object StringsB {
     val snippetModifyText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改文本内容"
         AppLanguage.ENGLISH -> "Modify Text Content"
+        AppLanguage.VIETNAMESE -> "Sửa đổi nội dung văn bản"
         AppLanguage.ARABIC -> "تعديل محتوى النص"
         AppLanguage.PORTUGUESE -> "Modificar conteúdo de texto"
         AppLanguage.SPANISH -> "Modificar contenido de texto"
@@ -9218,6 +9931,7 @@ object StringsB {
     val snippetModifyTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改元素的文本内容"
         AppLanguage.ENGLISH -> "Modify element's text content"
+        AppLanguage.VIETNAMESE -> "Sửa đổi nội dung văn bản của phần tử"
         AppLanguage.ARABIC -> "تعديل محتوى نص العنصر"
         AppLanguage.PORTUGUESE -> "Modificar conteúdo de texto do elemento"
         AppLanguage.SPANISH -> "Modificar contenido de texto del elemento"
@@ -9230,6 +9944,7 @@ object StringsB {
     val snippetModifyAttr: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改属性"
         AppLanguage.ENGLISH -> "Modify Attribute"
+        AppLanguage.VIETNAMESE -> "Sửa đổi thuộc tính"
         AppLanguage.ARABIC -> "تعديل السمة"
         AppLanguage.PORTUGUESE -> "Modificar atributo"
         AppLanguage.SPANISH -> "Modificar atributo"
@@ -9242,6 +9957,7 @@ object StringsB {
     val snippetModifyAttrDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改元素的属性值"
         AppLanguage.ENGLISH -> "Modify element's attribute value"
+        AppLanguage.VIETNAMESE -> "Sửa đổi giá trị thuộc tính của phần tử"
         AppLanguage.ARABIC -> "تعديل قيمة سمة العنصر"
         AppLanguage.PORTUGUESE -> "Modificar valor do atributo do elemento"
         AppLanguage.SPANISH -> "Modificar valor del atributo del elemento"
@@ -9254,6 +9970,7 @@ object StringsB {
     val snippetInsertBefore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在元素前插入"
         AppLanguage.ENGLISH -> "Insert Before Element"
+        AppLanguage.VIETNAMESE -> "Chèn trước phần tử"
         AppLanguage.ARABIC -> "إدراج قبل العنصر"
         AppLanguage.PORTUGUESE -> "Inserir antes do elemento"
         AppLanguage.SPANISH -> "Insertar antes del elemento"
@@ -9266,6 +9983,7 @@ object StringsB {
     val snippetInsertBeforeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在指定元素前插入新元素"
         AppLanguage.ENGLISH -> "Insert new element before specified element"
+        AppLanguage.VIETNAMESE -> "Chèn phần tử mới trước phần tử được chỉ định"
         AppLanguage.ARABIC -> "إدراج عنصر جديد قبل العنصر المحدد"
         AppLanguage.PORTUGUESE -> "Inserir novo elemento antes do elemento especificado"
         AppLanguage.SPANISH -> "Insertar nuevo elemento antes del elemento especificado"
@@ -9278,6 +9996,7 @@ object StringsB {
     val snippetInsertAfter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在元素后插入"
         AppLanguage.ENGLISH -> "Insert After Element"
+        AppLanguage.VIETNAMESE -> "Chèn sau phần tử"
         AppLanguage.ARABIC -> "إدراج بعد العنصر"
         AppLanguage.PORTUGUESE -> "Inserir depois do elemento"
         AppLanguage.SPANISH -> "Insertar después del elemento"
@@ -9290,6 +10009,7 @@ object StringsB {
     val snippetInsertAfterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在指定元素后插入新元素"
         AppLanguage.ENGLISH -> "Insert new element after specified element"
+        AppLanguage.VIETNAMESE -> "Chèn phần tử mới sau phần tử được chỉ định"
         AppLanguage.ARABIC -> "إدراج عنصر جديد بعد العنصر المحدد"
         AppLanguage.PORTUGUESE -> "Inserir novo elemento depois do elemento especificado"
         AppLanguage.SPANISH -> "Insertar nuevo elemento después del elemento especificado"
@@ -9302,6 +10022,7 @@ object StringsB {
     val snippetCloneElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "克隆元素"
         AppLanguage.ENGLISH -> "Clone Element"
+        AppLanguage.VIETNAMESE -> "Phần tử nhân bản"
         AppLanguage.ARABIC -> "استنساخ العنصر"
         AppLanguage.PORTUGUESE -> "Clonar elemento"
         AppLanguage.SPANISH -> "Clonar elemento"
@@ -9314,6 +10035,7 @@ object StringsB {
     val snippetCloneElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "克隆一个元素及其子元素"
         AppLanguage.ENGLISH -> "Clone an element and its children"
+        AppLanguage.VIETNAMESE -> "Sao chép một phần tử và các phần tử con của nó"
         AppLanguage.ARABIC -> "استنساخ عنصر وعناصره الفرعية"
         AppLanguage.PORTUGUESE -> "Clonar um elemento e seus filhos"
         AppLanguage.SPANISH -> "Clonar un elemento y sus hijos"
@@ -9326,6 +10048,7 @@ object StringsB {
     val snippetWrapElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包裹元素"
         AppLanguage.ENGLISH -> "Wrap Element"
+        AppLanguage.VIETNAMESE -> "Phần tử bọc"
         AppLanguage.ARABIC -> "لف العنصر"
         AppLanguage.PORTUGUESE -> "Envolver elemento"
         AppLanguage.SPANISH -> "Envolver elemento"
@@ -9338,6 +10061,7 @@ object StringsB {
     val snippetWrapElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用新元素包裹现有元素"
         AppLanguage.ENGLISH -> "Wrap existing element with new element"
+        AppLanguage.VIETNAMESE -> "Bao bọc phần tử hiện có bằng phần tử mới"
         AppLanguage.ARABIC -> "لف العنصر الموجود بعنصر جديد"
         AppLanguage.PORTUGUESE -> "Envolver elemento existente com novo elemento"
         AppLanguage.SPANISH -> "Envolver elemento existente con nuevo elemento"
@@ -9350,6 +10074,7 @@ object StringsB {
     val snippetReplaceElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换元素"
         AppLanguage.ENGLISH -> "Replace Element"
+        AppLanguage.VIETNAMESE -> "Thay thế phần tử"
         AppLanguage.ARABIC -> "استبدال العنصر"
         AppLanguage.PORTUGUESE -> "Substituir elemento"
         AppLanguage.SPANISH -> "Reemplazar elemento"
@@ -9362,6 +10087,7 @@ object StringsB {
     val snippetReplaceElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用新元素替换现有元素"
         AppLanguage.ENGLISH -> "Replace existing element with new element"
+        AppLanguage.VIETNAMESE -> "Thay thế phần tử hiện có bằng phần tử mới"
         AppLanguage.ARABIC -> "استبدال العنصر الموجود بعنصر جديد"
         AppLanguage.PORTUGUESE -> "Substituir elemento existente por novo elemento"
         AppLanguage.SPANISH -> "Reemplazar elemento existente con nuevo elemento"
@@ -9374,6 +10100,7 @@ object StringsB {
     val snippetData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据处理"
         AppLanguage.ENGLISH -> "Data Processing"
+        AppLanguage.VIETNAMESE -> "Xử lý dữ liệu"
         AppLanguage.ARABIC -> "معالجة البيانات"
         AppLanguage.PORTUGUESE -> "Processamento de dados"
         AppLanguage.SPANISH -> "Procesamiento de datos"
@@ -9386,6 +10113,7 @@ object StringsB {
     val snippetDataDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据提取、转换、导出等操作"
         AppLanguage.ENGLISH -> "Data extraction, transformation, export operations"
+        AppLanguage.VIETNAMESE -> "Hoạt động trích xuất, chuyển đổi, xuất dữ liệu"
         AppLanguage.ARABIC -> "استخراج البيانات وتحويلها وتصديرها"
         AppLanguage.PORTUGUESE -> "Operações de extração, transformação e exportação de dados"
         AppLanguage.SPANISH -> "Operaciones de extracción, transformación y exportación de datos"
@@ -9398,6 +10126,7 @@ object StringsB {
     val snippetSaveImageToGallery: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存图片到相册"
         AppLanguage.ENGLISH -> "Save Image to Gallery"
+        AppLanguage.VIETNAMESE -> "Lưu hình ảnh vào thư viện"
         AppLanguage.ARABIC -> "حفظ الصورة في المعرض"
         AppLanguage.PORTUGUESE -> "Salvar imagem na galeria"
         AppLanguage.SPANISH -> "Guardar imagen en la galería"
@@ -9410,6 +10139,7 @@ object StringsB {
     val snippetSaveImageToGalleryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将图片保存到手机相册"
         AppLanguage.ENGLISH -> "Save image to phone gallery"
+        AppLanguage.VIETNAMESE -> "Lưu hình ảnh vào thư viện điện thoại"
         AppLanguage.ARABIC -> "حفظ الصورة في معرض الهاتف"
         AppLanguage.PORTUGUESE -> "Salvar imagem na galeria do telefone"
         AppLanguage.SPANISH -> "Guardar imagen en la galería del teléfono"
@@ -9422,6 +10152,7 @@ object StringsB {
     val snippetShareContent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享内容"
         AppLanguage.ENGLISH -> "Share Content"
+        AppLanguage.VIETNAMESE -> "Chia sẻ nội dung"
         AppLanguage.ARABIC -> "مشاركة المحتوى"
         AppLanguage.PORTUGUESE -> "Compartilhar conteúdo"
         AppLanguage.SPANISH -> "Compartir contenido"
@@ -9434,6 +10165,7 @@ object StringsB {
     val snippetShareContentDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调用系统分享功能"
         AppLanguage.ENGLISH -> "Call system share function"
+        AppLanguage.VIETNAMESE -> "Chức năng chia sẻ hệ thống cuộc gọi"
         AppLanguage.ARABIC -> "استدعاء وظيفة المشاركة في النظام"
         AppLanguage.PORTUGUESE -> "Chamar função de compartilhamento do sistema"
         AppLanguage.SPANISH -> "Llamar función de compartir del sistema"
@@ -9446,6 +10178,7 @@ object StringsB {
     val snippetInjectCss: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入 CSS 样式"
         AppLanguage.ENGLISH -> "Inject CSS Styles"
+        AppLanguage.VIETNAMESE -> "Chèn kiểu CSS"
         AppLanguage.ARABIC -> "حقن أنماط CSS"
         AppLanguage.PORTUGUESE -> "Injetar estilos CSS"
         AppLanguage.SPANISH -> "Inyectar estilos CSS"
@@ -9458,6 +10191,7 @@ object StringsB {
     val snippetInjectCssDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "向页面注入自定义 CSS"
         AppLanguage.ENGLISH -> "Inject custom CSS into page"
+        AppLanguage.VIETNAMESE -> "Chèn CSS tùy chỉnh vào trang"
         AppLanguage.ARABIC -> "حقن CSS مخصص في الصفحة"
         AppLanguage.PORTUGUESE -> "Injetar CSS personalizado na página"
         AppLanguage.SPANISH -> "Inyectar CSS personalizado en la página"
@@ -9470,6 +10204,7 @@ object StringsB {
     val snippetModifyInline: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修改内联样式"
         AppLanguage.ENGLISH -> "Modify Inline Style"
+        AppLanguage.VIETNAMESE -> "Sửa đổi kiểu nội tuyến"
         AppLanguage.ARABIC -> "تعديل النمط المضمن"
         AppLanguage.PORTUGUESE -> "Modificar estilo inline"
         AppLanguage.SPANISH -> "Modificar estilo inline"
@@ -9482,6 +10217,7 @@ object StringsB {
     val snippetModifyInlineDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "直接修改元素的内联样式"
         AppLanguage.ENGLISH -> "Directly modify element's inline style"
+        AppLanguage.VIETNAMESE -> "Trực tiếp sửa đổi kiểu nội tuyến của phần tử"
         AppLanguage.ARABIC -> "تعديل النمط المضمن للعنصر مباشرة"
         AppLanguage.PORTUGUESE -> "Modificar diretamente o estilo inline do elemento"
         AppLanguage.SPANISH -> "Modificar directamente el estilo inline del elemento"
@@ -9494,6 +10230,7 @@ object StringsB {
     val snippetAddClass: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加/移除类名"
         AppLanguage.ENGLISH -> "Add/Remove Class"
+        AppLanguage.VIETNAMESE -> "Thêm/Xóa lớp"
         AppLanguage.ARABIC -> "إضافة/إزالة الفئة"
         AppLanguage.PORTUGUESE -> "Adicionar/Remover classe"
         AppLanguage.SPANISH -> "Añadir/Eliminar clase"
@@ -9506,6 +10243,7 @@ object StringsB {
     val snippetAddClassDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "操作元素的 CSS 类"
         AppLanguage.ENGLISH -> "Manipulate element's CSS classes"
+        AppLanguage.VIETNAMESE -> "Thao tác các lớp CSS của phần tử"
         AppLanguage.ARABIC -> "التعامل مع فئات CSS للعنصر"
         AppLanguage.PORTUGUESE -> "Manipular classes CSS do elemento"
         AppLanguage.SPANISH -> "Manipular clases CSS del elemento"
@@ -9518,6 +10256,7 @@ object StringsB {
     val snippetDarkMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深色模式"
         AppLanguage.ENGLISH -> "Dark Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ tối"
         AppLanguage.ARABIC -> "الوضع الداكن"
         AppLanguage.PORTUGUESE -> "Modo escuro"
         AppLanguage.SPANISH -> "Modo oscuro"
@@ -9530,6 +10269,7 @@ object StringsB {
     val snippetDarkModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为页面启用深色模式"
         AppLanguage.ENGLISH -> "Enable dark mode for page"
+        AppLanguage.VIETNAMESE -> "Bật chế độ tối cho trang"
         AppLanguage.ARABIC -> "تمكين الوضع الداكن للصفحة"
         AppLanguage.PORTUGUESE -> "Ativar modo escuro para a página"
         AppLanguage.SPANISH -> "Activar modo oscuro para la página"
@@ -9542,6 +10282,7 @@ object StringsB {
     val snippetSepiaMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "护眼模式（暖色）"
         AppLanguage.ENGLISH -> "Eye Protection Mode (Warm)"
+        AppLanguage.VIETNAMESE -> "Chế độ bảo vệ mắt (Ấm)"
         AppLanguage.ARABIC -> "وضع حماية العين (دافئ)"
         AppLanguage.PORTUGUESE -> "Modo de proteção dos olhos (Quente)"
         AppLanguage.SPANISH -> "Modo de protección ocular (Cálido)"
@@ -9554,6 +10295,7 @@ object StringsB {
     val snippetSepiaModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为页面添加暖色滤镜"
         AppLanguage.ENGLISH -> "Add warm color filter to page"
+        AppLanguage.VIETNAMESE -> "Thêm bộ lọc màu ấm vào trang"
         AppLanguage.ARABIC -> "إضافة فلتر لون دافئ للصفحة"
         AppLanguage.PORTUGUESE -> "Adicionar filtro de cor quente à página"
         AppLanguage.SPANISH -> "Añadir filtro de color cálido a la página"
@@ -9566,6 +10308,7 @@ object StringsB {
     val snippetGrayscale: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "灰度模式"
         AppLanguage.ENGLISH -> "Grayscale Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ thang độ xám"
         AppLanguage.ARABIC -> "وضع التدرج الرمادي"
         AppLanguage.PORTUGUESE -> "Modo em tons de cinza"
         AppLanguage.SPANISH -> "Modo escala de grises"
@@ -9578,6 +10321,7 @@ object StringsB {
     val snippetGrayscaleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将页面转为灰度显示"
         AppLanguage.ENGLISH -> "Convert page to grayscale"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi trang sang thang độ xám"
         AppLanguage.ARABIC -> "تحويل الصفحة إلى تدرج رمادي"
         AppLanguage.PORTUGUESE -> "Converter página em tons de cinza"
         AppLanguage.SPANISH -> "Convertir página a escala de grises"
@@ -9590,6 +10334,7 @@ object StringsB {
     val snippetCustomFont: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义字体"
         AppLanguage.ENGLISH -> "Custom Font"
+        AppLanguage.VIETNAMESE -> "Phông chữ tùy chỉnh"
         AppLanguage.ARABIC -> "خط مخصص"
         AppLanguage.PORTUGUESE -> "Fonte personalizada"
         AppLanguage.SPANISH -> "Fuente personalizada"
@@ -9602,6 +10347,7 @@ object StringsB {
     val snippetCustomFontDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换页面字体"
         AppLanguage.ENGLISH -> "Replace page font"
+        AppLanguage.VIETNAMESE -> "Thay thế phông chữ trang"
         AppLanguage.ARABIC -> "استبدال خط الصفحة"
         AppLanguage.PORTUGUESE -> "Substituir fonte da página"
         AppLanguage.SPANISH -> "Reemplazar fuente de la página"
@@ -9614,6 +10360,7 @@ object StringsB {
     val snippetFontSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调整字体大小"
         AppLanguage.ENGLISH -> "Adjust Font Size"
+        AppLanguage.VIETNAMESE -> "Điều chỉnh cỡ chữ"
         AppLanguage.ARABIC -> "ضبط حجم الخط"
         AppLanguage.PORTUGUESE -> "Ajustar tamanho da fonte"
         AppLanguage.SPANISH -> "Ajustar tamaño de fuente"
@@ -9626,6 +10373,7 @@ object StringsB {
     val snippetFontSizeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "统一调整页面字体大小"
         AppLanguage.ENGLISH -> "Uniformly adjust page font size"
+        AppLanguage.VIETNAMESE -> "Điều chỉnh thống nhất kích thước phông chữ trang"
         AppLanguage.ARABIC -> "ضبط حجم خط الصفحة بشكل موحد"
         AppLanguage.PORTUGUESE -> "Ajustar uniformemente o tamanho da fonte da página"
         AppLanguage.SPANISH -> "Ajustar uniformemente el tamaño de fuente de la página"
@@ -9638,6 +10386,7 @@ object StringsB {
     val snippetHideScrollbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏滚动条"
         AppLanguage.ENGLISH -> "Hide Scrollbar"
+        AppLanguage.VIETNAMESE -> "Ẩn thanh cuộn"
         AppLanguage.ARABIC -> "إخفاء شريط التمرير"
         AppLanguage.PORTUGUESE -> "Ocultar barra de rolagem"
         AppLanguage.SPANISH -> "Ocultar barra de desplazamiento"
@@ -9650,6 +10399,7 @@ object StringsB {
     val snippetHideScrollbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏页面滚动条但保留滚动功能"
         AppLanguage.ENGLISH -> "Hide scrollbar but keep scroll function"
+        AppLanguage.VIETNAMESE -> "Ẩn thanh cuộn nhưng vẫn giữ chức năng cuộn"
         AppLanguage.ARABIC -> "إخفاء شريط التمرير مع الاحتفاظ بوظيفة التمرير"
         AppLanguage.PORTUGUESE -> "Ocultar barra de rolagem mas manter função de rolagem"
         AppLanguage.SPANISH -> "Ocultar barra de desplazamiento pero mantener la función de desplazamiento"
@@ -9662,6 +10412,7 @@ object StringsB {
     val snippetHighlightLinks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高亮链接"
         AppLanguage.ENGLISH -> "Highlight Links"
+        AppLanguage.VIETNAMESE -> "Làm nổi bật các liên kết"
         AppLanguage.ARABIC -> "تمييز الروابط"
         AppLanguage.PORTUGUESE -> "Destacar links"
         AppLanguage.SPANISH -> "Resaltar enlaces"
@@ -9674,6 +10425,7 @@ object StringsB {
     val snippetHighlightLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高亮显示页面所有链接"
         AppLanguage.ENGLISH -> "Highlight all links on page"
+        AppLanguage.VIETNAMESE -> "Đánh dấu tất cả các liên kết trên trang"
         AppLanguage.ARABIC -> "تمييز جميع الروابط في الصفحة"
         AppLanguage.PORTUGUESE -> "Destacar todos os links na página"
         AppLanguage.SPANISH -> "Resaltar todos los enlaces en la página"
@@ -9686,6 +10438,7 @@ object StringsB {
     val snippetMaxWidth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "限制内容宽度"
         AppLanguage.ENGLISH -> "Limit Content Width"
+        AppLanguage.VIETNAMESE -> "Giới hạn chiều rộng nội dung"
         AppLanguage.ARABIC -> "تحديد عرض المحتوى"
         AppLanguage.PORTUGUESE -> "Limitar largura do conteúdo"
         AppLanguage.SPANISH -> "Limitar ancho del contenido"
@@ -9698,6 +10451,7 @@ object StringsB {
     val snippetMaxWidthDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "限制页面内容最大宽度，提升阅读体验"
         AppLanguage.ENGLISH -> "Limit max content width for better reading"
+        AppLanguage.VIETNAMESE -> "Giới hạn độ rộng nội dung tối đa để đọc tốt hơn"
         AppLanguage.ARABIC -> "تحديد أقصى عرض للمحتوى لقراءة أفضل"
         AppLanguage.PORTUGUESE -> "Limitar largura máxima do conteúdo para melhor leitura"
         AppLanguage.SPANISH -> "Limitar ancho máximo del contenido para mejor lectura"
@@ -9710,6 +10464,7 @@ object StringsB {
     val snippetLineHeight: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "调整行高"
         AppLanguage.ENGLISH -> "Adjust Line Height"
+        AppLanguage.VIETNAMESE -> "Điều chỉnh chiều cao dòng"
         AppLanguage.ARABIC -> "ضبط ارتفاع السطر"
         AppLanguage.PORTUGUESE -> "Ajustar altura da linha"
         AppLanguage.SPANISH -> "Ajustar altura de línea"
@@ -9722,6 +10477,7 @@ object StringsB {
     val snippetLineHeightDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "增加行高提升阅读舒适度"
         AppLanguage.ENGLISH -> "Increase line height for reading comfort"
+        AppLanguage.VIETNAMESE -> "Tăng chiều cao dòng để đọc thoải mái"
         AppLanguage.ARABIC -> "زيادة ارتفاع السطر لراحة القراءة"
         AppLanguage.PORTUGUESE -> "Aumentar altura da linha para conforto de leitura"
         AppLanguage.SPANISH -> "Aumentar altura de línea para comodidad de lectura"
@@ -9735,6 +10491,7 @@ object StringsB {
     val snippetClickEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击事件"
         AppLanguage.ENGLISH -> "Click Event"
+        AppLanguage.VIETNAMESE -> "Nhấp vào sự kiện"
         AppLanguage.ARABIC -> "حدث النقر"
         AppLanguage.PORTUGUESE -> "Evento de clique"
         AppLanguage.SPANISH -> "Evento de clic"
@@ -9747,6 +10504,7 @@ object StringsB {
     val snippetClickEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听元素点击事件"
         AppLanguage.ENGLISH -> "Listen for element click events"
+        AppLanguage.VIETNAMESE -> "Lắng nghe các sự kiện nhấp chuột vào phần tử"
         AppLanguage.ARABIC -> "الاستماع لأحداث نقر العناصر"
         AppLanguage.PORTUGUESE -> "Ouvir eventos de clique do elemento"
         AppLanguage.SPANISH -> "Escuchar eventos de clic del elemento"
@@ -9759,6 +10517,7 @@ object StringsB {
     val snippetKeyboardEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "键盘事件"
         AppLanguage.ENGLISH -> "Keyboard Event"
+        AppLanguage.VIETNAMESE -> "Sự kiện bàn phím"
         AppLanguage.ARABIC -> "حدث لوحة المفاتيح"
         AppLanguage.PORTUGUESE -> "Evento de teclado"
         AppLanguage.SPANISH -> "Evento de teclado"
@@ -9771,6 +10530,7 @@ object StringsB {
     val snippetKeyboardEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听键盘按键"
         AppLanguage.ENGLISH -> "Listen for keyboard keys"
+        AppLanguage.VIETNAMESE -> "Nghe các phím bàn phím"
         AppLanguage.ARABIC -> "الاستماع لمفاتيح لوحة المفاتيح"
         AppLanguage.PORTUGUESE -> "Ouvir teclas do teclado"
         AppLanguage.SPANISH -> "Escuchar teclas del teclado"
@@ -9783,6 +10543,7 @@ object StringsB {
     val snippetScrollEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动事件"
         AppLanguage.ENGLISH -> "Scroll Event"
+        AppLanguage.VIETNAMESE -> "Sự kiện cuộn"
         AppLanguage.ARABIC -> "حدث التمرير"
         AppLanguage.PORTUGUESE -> "Evento de rolagem"
         AppLanguage.SPANISH -> "Evento de desplazamiento"
@@ -9795,6 +10556,7 @@ object StringsB {
     val snippetScrollEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听页面滚动"
         AppLanguage.ENGLISH -> "Listen for page scroll"
+        AppLanguage.VIETNAMESE -> "Nghe cuộn trang"
         AppLanguage.ARABIC -> "الاستماع لتمرير الصفحة"
         AppLanguage.PORTUGUESE -> "Ouvir rolagem da página"
         AppLanguage.SPANISH -> "Escuchar desplazamiento de la página"
@@ -9807,6 +10569,7 @@ object StringsB {
     val snippetMutationEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 变化监听"
         AppLanguage.ENGLISH -> "DOM Mutation Observer"
+        AppLanguage.VIETNAMESE -> "Trình quan sát đột biến DOM"
         AppLanguage.ARABIC -> "مراقب تغييرات DOM"
         AppLanguage.PORTUGUESE -> "Observador de mutação DOM"
         AppLanguage.SPANISH -> "Observador de mutación DOM"
@@ -9819,6 +10582,7 @@ object StringsB {
     val snippetMutationEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听 DOM 结构变化，适合处理动态加载内容"
         AppLanguage.ENGLISH -> "Observe DOM changes, suitable for dynamic content"
+        AppLanguage.VIETNAMESE -> "Quan sát các thay đổi của DOM, phù hợp với nội dung động"
         AppLanguage.ARABIC -> "مراقبة تغييرات DOM، مناسب للمحتوى الديناميكي"
         AppLanguage.PORTUGUESE -> "Observar mudanças do DOM, adequado para conteúdo dinâmico"
         AppLanguage.SPANISH -> "Observar cambios del DOM, adecuado para contenido dinámico"
@@ -9831,6 +10595,7 @@ object StringsB {
     val snippetResizeEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "窗口大小变化"
         AppLanguage.ENGLISH -> "Window Resize"
+        AppLanguage.VIETNAMESE -> "Thay đổi kích thước cửa sổ"
         AppLanguage.ARABIC -> "تغيير حجم النافذة"
         AppLanguage.PORTUGUESE -> "Redimensionamento de janela"
         AppLanguage.SPANISH -> "Redimensionamiento de ventana"
@@ -9843,6 +10608,7 @@ object StringsB {
     val snippetResizeEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听窗口大小变化"
         AppLanguage.ENGLISH -> "Listen for window resize"
+        AppLanguage.VIETNAMESE -> "Nghe thay đổi kích thước cửa sổ"
         AppLanguage.ARABIC -> "الاستماع لتغيير حجم النافذة"
         AppLanguage.PORTUGUESE -> "Ouvir redimensionamento de janela"
         AppLanguage.SPANISH -> "Escuchar redimensionamiento de ventana"
@@ -9855,6 +10621,7 @@ object StringsB {
     val snippetCopyEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制事件"
         AppLanguage.ENGLISH -> "Copy Event"
+        AppLanguage.VIETNAMESE -> "Sao chép sự kiện"
         AppLanguage.ARABIC -> "حدث النسخ"
         AppLanguage.PORTUGUESE -> "Evento de cópia"
         AppLanguage.SPANISH -> "Evento de copia"
@@ -9867,6 +10634,7 @@ object StringsB {
     val snippetCopyEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听或拦截复制操作"
         AppLanguage.ENGLISH -> "Listen or intercept copy operation"
+        AppLanguage.VIETNAMESE -> "Nghe hoặc chặn hoạt động sao chép"
         AppLanguage.ARABIC -> "الاستماع أو اعتراض عملية النسخ"
         AppLanguage.PORTUGUESE -> "Ouvir ou interceptar operação de cópia"
         AppLanguage.SPANISH -> "Escuchar o interceptar operación de copia"
@@ -9879,6 +10647,7 @@ object StringsB {
     val snippetContextMenu: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "右键菜单"
         AppLanguage.ENGLISH -> "Context Menu"
+        AppLanguage.VIETNAMESE -> "Trình đơn ngữ cảnh"
         AppLanguage.ARABIC -> "قائمة السياق"
         AppLanguage.PORTUGUESE -> "Menu de contexto"
         AppLanguage.SPANISH -> "Menú contextual"
@@ -9891,6 +10660,7 @@ object StringsB {
     val snippetContextMenuDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义或禁用右键菜单"
         AppLanguage.ENGLISH -> "Customize or disable context menu"
+        AppLanguage.VIETNAMESE -> "Tùy chỉnh hoặc tắt menu ngữ cảnh"
         AppLanguage.ARABIC -> "تخصيص أو تعطيل قائمة السياق"
         AppLanguage.PORTUGUESE -> "Personalizar ou desativar menu de contexto"
         AppLanguage.SPANISH -> "Personalizar o desactivar menú contextual"
@@ -9903,6 +10673,7 @@ object StringsB {
     val snippetVisibility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面可见性变化"
         AppLanguage.ENGLISH -> "Page Visibility Change"
+        AppLanguage.VIETNAMESE -> "Thay đổi hiển thị trang"
         AppLanguage.ARABIC -> "تغيير رؤية الصفحة"
         AppLanguage.PORTUGUESE -> "Mudança de visibilidade da página"
         AppLanguage.SPANISH -> "Cambio de visibilidad de página"
@@ -9915,6 +10686,7 @@ object StringsB {
     val snippetVisibilityDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听页面切换到后台/前台"
         AppLanguage.ENGLISH -> "Listen for page background/foreground switch"
+        AppLanguage.VIETNAMESE -> "Nghe chuyển đổi nền/tiền cảnh của trang"
         AppLanguage.ARABIC -> "الاستماع لتبديل الصفحة للخلفية/المقدمة"
         AppLanguage.PORTUGUESE -> "Ouvir alternação de página entre segundo plano/primeiro plano"
         AppLanguage.SPANISH -> "Escuchar alternancia de página entre segundo plano/primer plano"
@@ -9927,6 +10699,7 @@ object StringsB {
     val snippetBeforeUnload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面关闭前"
         AppLanguage.ENGLISH -> "Before Page Unload"
+        AppLanguage.VIETNAMESE -> "Trước khi dỡ trang"
         AppLanguage.ARABIC -> "قبل إغلاق الصفحة"
         AppLanguage.PORTUGUESE -> "Antes de descarregar a página"
         AppLanguage.SPANISH -> "Antes de descargar la página"
@@ -9939,6 +10712,7 @@ object StringsB {
     val snippetBeforeUnloadDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面关闭前执行操作"
         AppLanguage.ENGLISH -> "Execute operations before page closes"
+        AppLanguage.VIETNAMESE -> "Thực hiện các thao tác trước khi đóng trang"
         AppLanguage.ARABIC -> "تنفيذ العمليات قبل إغلاق الصفحة"
         AppLanguage.PORTUGUESE -> "Executar operações antes de fechar a página"
         AppLanguage.SPANISH -> "Ejecutar operaciones antes de cerrar la página"
@@ -9951,6 +10725,7 @@ object StringsB {
     val snippetTouchEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触摸事件"
         AppLanguage.ENGLISH -> "Touch Event"
+        AppLanguage.VIETNAMESE -> "Sự kiện chạm"
         AppLanguage.ARABIC -> "حدث اللمس"
         AppLanguage.PORTUGUESE -> "Evento de toque"
         AppLanguage.SPANISH -> "Evento táctil"
@@ -9963,6 +10738,7 @@ object StringsB {
     val snippetTouchEventDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听触摸操作"
         AppLanguage.ENGLISH -> "Listen for touch operations"
+        AppLanguage.VIETNAMESE -> "Nghe các thao tác chạm"
         AppLanguage.ARABIC -> "الاستماع لعمليات اللمس"
         AppLanguage.PORTUGUESE -> "Ouvir operações de toque"
         AppLanguage.SPANISH -> "Escuchar operaciones táctiles"
@@ -9975,6 +10751,7 @@ object StringsB {
     val snippetLongPress: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "长按事件"
         AppLanguage.ENGLISH -> "Long Press Event"
+        AppLanguage.VIETNAMESE -> "Sự kiện báo chí dài"
         AppLanguage.ARABIC -> "حدث الضغط المطول"
         AppLanguage.PORTUGUESE -> "Evento de pressionar longo"
         AppLanguage.SPANISH -> "Evento de pulsación larga"
@@ -9987,6 +10764,7 @@ object StringsB {
     val snippetLongPressDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "监听长按操作"
         AppLanguage.ENGLISH -> "Listen for long press operations"
+        AppLanguage.VIETNAMESE -> "Nghe các thao tác nhấn và giữ"
         AppLanguage.ARABIC -> "الاستماع لعمليات الضغط المطول"
         AppLanguage.PORTUGUESE -> "Ouvir operações de pressionar longo"
         AppLanguage.SPANISH -> "Escuchar operaciones de pulsación larga"
@@ -10000,6 +10778,7 @@ object StringsB {
     val snippetLocalSet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存到本地存储"
         AppLanguage.ENGLISH -> "Save to Local Storage"
+        AppLanguage.VIETNAMESE -> "Lưu vào bộ nhớ cục bộ"
         AppLanguage.ARABIC -> "حفظ في التخزين المحلي"
         AppLanguage.PORTUGUESE -> "Salvar no armazenamento local"
         AppLanguage.SPANISH -> "Guardar en almacenamiento local"
@@ -10012,6 +10791,7 @@ object StringsB {
     val snippetLocalSetDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据保存到 localStorage"
         AppLanguage.ENGLISH -> "Save data to localStorage"
+        AppLanguage.VIETNAMESE -> "Lưu dữ liệu vào localStorage"
         AppLanguage.ARABIC -> "حفظ البيانات في localStorage"
         AppLanguage.PORTUGUESE -> "Salvar dados no localStorage"
         AppLanguage.SPANISH -> "Guardar datos en localStorage"
@@ -10024,6 +10804,7 @@ object StringsB {
     val snippetLocalGet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从本地存储读取"
         AppLanguage.ENGLISH -> "Read from Local Storage"
+        AppLanguage.VIETNAMESE -> "Đọc từ bộ nhớ cục bộ"
         AppLanguage.ARABIC -> "قراءة من التخزين المحلي"
         AppLanguage.PORTUGUESE -> "Ler do armazenamento local"
         AppLanguage.SPANISH -> "Leer de almacenamiento local"
@@ -10036,6 +10817,7 @@ object StringsB {
     val snippetLocalGetDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从 localStorage 读取数据"
         AppLanguage.ENGLISH -> "Read data from localStorage"
+        AppLanguage.VIETNAMESE -> "Đọc dữ liệu từ localStorage"
         AppLanguage.ARABIC -> "قراءة البيانات من localStorage"
         AppLanguage.PORTUGUESE -> "Ler dados do localStorage"
         AppLanguage.SPANISH -> "Leer datos de localStorage"
@@ -10048,6 +10830,7 @@ object StringsB {
     val snippetSessionStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话存储"
         AppLanguage.ENGLISH -> "Session Storage"
+        AppLanguage.VIETNAMESE -> "Lưu trữ phiên"
         AppLanguage.ARABIC -> "تخزين الجلسة"
         AppLanguage.PORTUGUESE -> "Armazenamento de sessão"
         AppLanguage.SPANISH -> "Almacenamiento de sesión"
@@ -10060,6 +10843,7 @@ object StringsB {
     val snippetSessionStorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 sessionStorage 临时存储"
         AppLanguage.ENGLISH -> "Use sessionStorage for temporary storage"
+        AppLanguage.VIETNAMESE -> "Sử dụng sessionStorage để lưu trữ tạm thời"
         AppLanguage.ARABIC -> "استخدام sessionStorage للتخزين المؤقت"
         AppLanguage.PORTUGUESE -> "Usar sessionStorage para armazenamento temporário"
         AppLanguage.SPANISH -> "Usar sessionStorage para almacenamiento temporal"
@@ -10072,6 +10856,7 @@ object StringsB {
     val snippetSetCookie: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设置 Cookie"
         AppLanguage.ENGLISH -> "Set Cookie"
+        AppLanguage.VIETNAMESE -> "Đặt cookie"
         AppLanguage.ARABIC -> "تعيين ملف تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Definir Cookie"
         AppLanguage.SPANISH -> "Establecer Cookie"
@@ -10084,6 +10869,7 @@ object StringsB {
     val snippetSetCookieDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设置浏览器 Cookie"
         AppLanguage.ENGLISH -> "Set browser Cookie"
+        AppLanguage.VIETNAMESE -> "Đặt Cookie trình duyệt"
         AppLanguage.ARABIC -> "تعيين ملف تعريف ارتباط المتصفح"
         AppLanguage.PORTUGUESE -> "Definir Cookie do navegador"
         AppLanguage.SPANISH -> "Establecer Cookie del navegador"
@@ -10096,6 +10882,7 @@ object StringsB {
     val snippetGetCookie: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取 Cookie"
         AppLanguage.ENGLISH -> "Get Cookie"
+        AppLanguage.VIETNAMESE -> "Nhận cookie"
         AppLanguage.ARABIC -> "قراءة ملف تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Obter Cookie"
         AppLanguage.SPANISH -> "Obtener Cookie"
@@ -10108,6 +10895,7 @@ object StringsB {
     val snippetGetCookieDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取浏览器 Cookie"
         AppLanguage.ENGLISH -> "Read browser Cookie"
+        AppLanguage.VIETNAMESE -> "Đọc cookie trình duyệt"
         AppLanguage.ARABIC -> "قراءة ملف تعريف ارتباط المتصفح"
         AppLanguage.PORTUGUESE -> "Ler Cookie do navegador"
         AppLanguage.SPANISH -> "Leer Cookie del navegador"
@@ -10120,6 +10908,7 @@ object StringsB {
     val snippetDeleteCookie: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除 Cookie"
         AppLanguage.ENGLISH -> "Delete Cookie"
+        AppLanguage.VIETNAMESE -> "Xóa cookie"
         AppLanguage.ARABIC -> "حذف ملف تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Excluir Cookie"
         AppLanguage.SPANISH -> "Eliminar Cookie"
@@ -10132,6 +10921,7 @@ object StringsB {
     val snippetDeleteCookieDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除指定 Cookie"
         AppLanguage.ENGLISH -> "Delete specified Cookie"
+        AppLanguage.VIETNAMESE -> "Xóa Cookie đã chỉ định"
         AppLanguage.ARABIC -> "حذف ملف تعريف الارتباط المحدد"
         AppLanguage.PORTUGUESE -> "Excluir Cookie especificado"
         AppLanguage.SPANISH -> "Eliminar Cookie especificado"
@@ -10144,6 +10934,7 @@ object StringsB {
     val snippetIndexedDB: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "IndexedDB 存储"
         AppLanguage.ENGLISH -> "IndexedDB Storage"
+        AppLanguage.VIETNAMESE -> "Lưu trữ IndexedDB"
         AppLanguage.ARABIC -> "تخزين IndexedDB"
         AppLanguage.PORTUGUESE -> "Armazenamento IndexedDB"
         AppLanguage.SPANISH -> "Almacenamiento IndexedDB"
@@ -10156,6 +10947,7 @@ object StringsB {
     val snippetIndexedDBDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 IndexedDB 存储大量数据"
         AppLanguage.ENGLISH -> "Use IndexedDB for large data storage"
+        AppLanguage.VIETNAMESE -> "Sử dụng IndexedDB để lưu trữ dữ liệu lớn"
         AppLanguage.ARABIC -> "استخدام IndexedDB لتخزين كميات كبيرة من البيانات"
         AppLanguage.PORTUGUESE -> "Usar IndexedDB para armazenamento de grandes volumes de dados"
         AppLanguage.SPANISH -> "Usar IndexedDB para almacenamiento de grandes cantidades de datos"
@@ -10169,6 +10961,7 @@ object StringsB {
     val snippetGetRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "GET 请求"
         AppLanguage.ENGLISH -> "GET Request"
+        AppLanguage.VIETNAMESE -> "NHẬN yêu cầu"
         AppLanguage.ARABIC -> "طلب GET"
         AppLanguage.PORTUGUESE -> "Requisição GET"
         AppLanguage.SPANISH -> "Solicitud GET"
@@ -10181,6 +10974,7 @@ object StringsB {
     val snippetGetRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送 GET 请求获取数据"
         AppLanguage.ENGLISH -> "Send GET request to fetch data"
+        AppLanguage.VIETNAMESE -> "Gửi yêu cầu GET để lấy dữ liệu"
         AppLanguage.ARABIC -> "إرسال طلب GET لجلب البيانات"
         AppLanguage.PORTUGUESE -> "Enviar requisição GET para buscar dados"
         AppLanguage.SPANISH -> "Enviar solicitud GET para obtener datos"
@@ -10193,6 +10987,7 @@ object StringsB {
     val snippetPostRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "POST 请求"
         AppLanguage.ENGLISH -> "POST Request"
+        AppLanguage.VIETNAMESE -> "ĐĂNG Yêu cầu"
         AppLanguage.ARABIC -> "طلب POST"
         AppLanguage.PORTUGUESE -> "Requisição POST"
         AppLanguage.SPANISH -> "Solicitud POST"
@@ -10205,6 +11000,7 @@ object StringsB {
     val snippetPostRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送 POST 请求提交数据"
         AppLanguage.ENGLISH -> "Send POST request to submit data"
+        AppLanguage.VIETNAMESE -> "Gửi yêu cầu POST để gửi dữ liệu"
         AppLanguage.ARABIC -> "إرسال طلب POST لإرسال البيانات"
         AppLanguage.PORTUGUESE -> "Enviar requisição POST para enviar dados"
         AppLanguage.SPANISH -> "Enviar solicitud POST para enviar datos"
@@ -10217,6 +11013,7 @@ object StringsB {
     val snippetTimeoutRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "带超时的请求"
         AppLanguage.ENGLISH -> "Request with Timeout"
+        AppLanguage.VIETNAMESE -> "Yêu cầu có thời gian chờ"
         AppLanguage.ARABIC -> "طلب مع مهلة"
         AppLanguage.PORTUGUESE -> "Requisição com tempo limite"
         AppLanguage.SPANISH -> "Solicitud con tiempo de espera"
@@ -10229,6 +11026,7 @@ object StringsB {
     val snippetTimeoutRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设置请求超时时间"
         AppLanguage.ENGLISH -> "Set request timeout"
+        AppLanguage.VIETNAMESE -> "Đặt thời gian chờ yêu cầu"
         AppLanguage.ARABIC -> "تعيين مهلة الطلب"
         AppLanguage.PORTUGUESE -> "Definir tempo limite da requisição"
         AppLanguage.SPANISH -> "Establecer tiempo de espera de la solicitud"
@@ -10241,6 +11039,7 @@ object StringsB {
     val snippetRetryRequest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求重试"
         AppLanguage.ENGLISH -> "Request Retry"
+        AppLanguage.VIETNAMESE -> "Yêu cầu thử lại"
         AppLanguage.ARABIC -> "إعادة محاولة الطلب"
         AppLanguage.PORTUGUESE -> "Re-tentar requisição"
         AppLanguage.SPANISH -> "Reintentar solicitud"
@@ -10253,6 +11052,7 @@ object StringsB {
     val snippetRetryRequestDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "失败后自动重试"
         AppLanguage.ENGLISH -> "Auto retry on failure"
+        AppLanguage.VIETNAMESE -> "Tự động thử lại khi thất bại"
         AppLanguage.ARABIC -> "إعادة المحاولة تلقائياً عند الفشل"
         AppLanguage.PORTUGUESE -> "Re-tentar automaticamente em caso de falha"
         AppLanguage.SPANISH -> "Reintentar automáticamente en caso de fallo"
@@ -10265,6 +11065,7 @@ object StringsB {
     val snippetDownloadFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载文件"
         AppLanguage.ENGLISH -> "Download File"
+        AppLanguage.VIETNAMESE -> "Tải tập tin xuống"
         AppLanguage.ARABIC -> "تنزيل الملف"
         AppLanguage.PORTUGUESE -> "Baixar arquivo"
         AppLanguage.SPANISH -> "Descargar archivo"
@@ -10277,6 +11078,7 @@ object StringsB {
     val snippetDownloadFileDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载文件到本地"
         AppLanguage.ENGLISH -> "Download file to local"
+        AppLanguage.VIETNAMESE -> "Tải tập tin về máy cục bộ"
         AppLanguage.ARABIC -> "تنزيل الملف محلياً"
         AppLanguage.PORTUGUESE -> "Baixar arquivo para o local"
         AppLanguage.SPANISH -> "Descargar archivo a local"
@@ -10289,6 +11091,7 @@ object StringsB {
     val snippetJsonp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSONP 请求"
         AppLanguage.ENGLISH -> "JSONP Request"
+        AppLanguage.VIETNAMESE -> "Yêu cầu JSONP"
         AppLanguage.ARABIC -> "طلب JSONP"
         AppLanguage.PORTUGUESE -> "Requisição JSONP"
         AppLanguage.SPANISH -> "Solicitud JSONP"
@@ -10301,6 +11104,7 @@ object StringsB {
     val snippetJsonpDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跨域 JSONP 请求"
         AppLanguage.ENGLISH -> "Cross-domain JSONP request"
+        AppLanguage.VIETNAMESE -> "Yêu cầu JSONP tên miền chéo"
         AppLanguage.ARABIC -> "طلب JSONP عبر النطاقات"
         AppLanguage.PORTUGUESE -> "Requisição JSONP entre domínios"
         AppLanguage.SPANISH -> "Solicitud JSONP entre dominios"
@@ -10314,6 +11118,7 @@ object StringsB {
     val snippetExtractTable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取表格数据"
         AppLanguage.ENGLISH -> "Extract Table Data"
+        AppLanguage.VIETNAMESE -> "Trích xuất dữ liệu bảng"
         AppLanguage.ARABIC -> "استخراج بيانات الجدول"
         AppLanguage.PORTUGUESE -> "Extrair dados de tabela"
         AppLanguage.SPANISH -> "Extraer datos de tabla"
@@ -10326,6 +11131,7 @@ object StringsB {
     val snippetExtractTableDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将 HTML 表格转换为 JSON"
         AppLanguage.ENGLISH -> "Convert HTML table to JSON"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi bảng HTML thành JSON"
         AppLanguage.ARABIC -> "تحويل جدول HTML إلى JSON"
         AppLanguage.PORTUGUESE -> "Converter tabela HTML em JSON"
         AppLanguage.SPANISH -> "Convertir tabla HTML a JSON"
@@ -10338,6 +11144,7 @@ object StringsB {
     val snippetExtractLinks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取所有链接"
         AppLanguage.ENGLISH -> "Extract All Links"
+        AppLanguage.VIETNAMESE -> "Trích xuất tất cả các liên kết"
         AppLanguage.ARABIC -> "استخراج جميع الروابط"
         AppLanguage.PORTUGUESE -> "Extrair todos os links"
         AppLanguage.SPANISH -> "Extraer todos los enlaces"
@@ -10350,6 +11157,7 @@ object StringsB {
     val snippetExtractLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取页面所有链接"
         AppLanguage.ENGLISH -> "Extract all links from page"
+        AppLanguage.VIETNAMESE -> "Trích xuất tất cả các liên kết từ trang"
         AppLanguage.ARABIC -> "استخراج جميع الروابط من الصفحة"
         AppLanguage.PORTUGUESE -> "Extrair todos os links da página"
         AppLanguage.SPANISH -> "Extraer todos los enlaces de la página"
@@ -10362,6 +11170,7 @@ object StringsB {
     val snippetExtractImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取所有图片"
         AppLanguage.ENGLISH -> "Extract All Images"
+        AppLanguage.VIETNAMESE -> "Trích xuất tất cả hình ảnh"
         AppLanguage.ARABIC -> "استخراج جميع الصور"
         AppLanguage.PORTUGUESE -> "Extrair todas as imagens"
         AppLanguage.SPANISH -> "Extraer todas las imágenes"
@@ -10374,6 +11183,7 @@ object StringsB {
     val snippetExtractImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取页面所有图片地址"
         AppLanguage.ENGLISH -> "Extract all image URLs from page"
+        AppLanguage.VIETNAMESE -> "Trích xuất tất cả URL hình ảnh từ trang"
         AppLanguage.ARABIC -> "استخراج جميع عناوين الصور من الصفحة"
         AppLanguage.PORTUGUESE -> "Extrair todas as URLs de imagens da página"
         AppLanguage.SPANISH -> "Extraer todas las URLs de imágenes de la página"
@@ -10386,6 +11196,7 @@ object StringsB {
     val snippetExportJson: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出为 JSON"
         AppLanguage.ENGLISH -> "Export as JSON"
+        AppLanguage.VIETNAMESE -> "Xuất dưới dạng JSON"
         AppLanguage.ARABIC -> "تصدير كـ JSON"
         AppLanguage.PORTUGUESE -> "Exportar como JSON"
         AppLanguage.SPANISH -> "Exportar como JSON"
@@ -10398,6 +11209,7 @@ object StringsB {
     val snippetExportJsonDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据导出为 JSON 文件"
         AppLanguage.ENGLISH -> "Export data as JSON file"
+        AppLanguage.VIETNAMESE -> "Xuất dữ liệu dưới dạng tệp JSON"
         AppLanguage.ARABIC -> "تصدير البيانات كملف JSON"
         AppLanguage.PORTUGUESE -> "Exportar dados como arquivo JSON"
         AppLanguage.SPANISH -> "Exportar datos como archivo JSON"
@@ -10410,6 +11222,7 @@ object StringsB {
     val snippetExportCsv: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出为 CSV"
         AppLanguage.ENGLISH -> "Export as CSV"
+        AppLanguage.VIETNAMESE -> "Xuất dưới dạng CSV"
         AppLanguage.ARABIC -> "تصدير كـ CSV"
         AppLanguage.PORTUGUESE -> "Exportar como CSV"
         AppLanguage.SPANISH -> "Exportar como CSV"
@@ -10422,6 +11235,7 @@ object StringsB {
     val snippetExportCsvDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将数据导出为 CSV 文件"
         AppLanguage.ENGLISH -> "Export data as CSV file"
+        AppLanguage.VIETNAMESE -> "Xuất dữ liệu dưới dạng tệp CSV"
         AppLanguage.ARABIC -> "تصدير البيانات كملف CSV"
         AppLanguage.PORTUGUESE -> "Exportar dados como arquivo CSV"
         AppLanguage.SPANISH -> "Exportar datos como archivo CSV"
@@ -10434,6 +11248,7 @@ object StringsB {
     val snippetParseUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解析 URL 参数"
         AppLanguage.ENGLISH -> "Parse URL Parameters"
+        AppLanguage.VIETNAMESE -> "Phân tích tham số URL"
         AppLanguage.ARABIC -> "تحليل معلمات URL"
         AppLanguage.PORTUGUESE -> "Analisar parâmetros de URL"
         AppLanguage.SPANISH -> "Analizar parámetros de URL"
@@ -10446,6 +11261,7 @@ object StringsB {
     val snippetParseUrlDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解析 URL 查询参数"
         AppLanguage.ENGLISH -> "Parse URL query parameters"
+        AppLanguage.VIETNAMESE -> "Phân tích các tham số truy vấn URL"
         AppLanguage.ARABIC -> "تحليل معلمات استعلام URL"
         AppLanguage.PORTUGUESE -> "Analisar parâmetros de consulta da URL"
         AppLanguage.SPANISH -> "Analizar parámetros de consulta de URL"
@@ -10458,6 +11274,7 @@ object StringsB {
     val snippetBuildUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建 URL"
         AppLanguage.ENGLISH -> "Build URL"
+        AppLanguage.VIETNAMESE -> "Xây dựng URL"
         AppLanguage.ARABIC -> "بناء URL"
         AppLanguage.PORTUGUESE -> "Construir URL"
         AppLanguage.SPANISH -> "Construir URL"
@@ -10470,6 +11287,7 @@ object StringsB {
     val snippetBuildUrlDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建带参数的 URL"
         AppLanguage.ENGLISH -> "Build URL with parameters"
+        AppLanguage.VIETNAMESE -> "Xây dựng URL với các tham số"
         AppLanguage.ARABIC -> "بناء URL مع المعلمات"
         AppLanguage.PORTUGUESE -> "Construir URL com parâmetros"
         AppLanguage.SPANISH -> "Construir URL con parámetros"
@@ -10482,6 +11300,7 @@ object StringsB {
     val snippetFloatingButton: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮按钮"
         AppLanguage.ENGLISH -> "Floating Button"
+        AppLanguage.VIETNAMESE -> "Nút nổi"
         AppLanguage.ARABIC -> "زر عائم"
         AppLanguage.PORTUGUESE -> "Botão Flutuante"
         AppLanguage.SPANISH -> "Botón Flotante"
@@ -10494,6 +11313,7 @@ object StringsB {
     val snippetFloatingButtonDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个悬浮操作按钮"
         AppLanguage.ENGLISH -> "Create a floating action button"
+        AppLanguage.VIETNAMESE -> "Tạo nút hành động nổi"
         AppLanguage.ARABIC -> "إنشاء زر إجراء عائم"
         AppLanguage.PORTUGUESE -> "Criar um botão de ação flutuante"
         AppLanguage.SPANISH -> "Crear un botón de acción flotante"
@@ -10506,6 +11326,7 @@ object StringsB {
     val snippetToastUi: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Toast 提示"
         AppLanguage.ENGLISH -> "Toast Message"
+        AppLanguage.VIETNAMESE -> "Tin nhắn bánh mì nướng"
         AppLanguage.ARABIC -> "رسالة Toast"
         AppLanguage.PORTUGUESE -> "Mensagem Toast"
         AppLanguage.SPANISH -> "Mensaje Toast"
@@ -10518,6 +11339,7 @@ object StringsB {
     val snippetToastUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示短暂的提示消息"
         AppLanguage.ENGLISH -> "Show brief toast message"
+        AppLanguage.VIETNAMESE -> "Hiển thị thông báo chúc mừng ngắn gọn"
         AppLanguage.ARABIC -> "عرض رسالة Toast قصيرة"
         AppLanguage.PORTUGUESE -> "Exibir mensagem Toast breve"
         AppLanguage.SPANISH -> "Mostrar mensaje Toast breve"
@@ -10530,6 +11352,7 @@ object StringsB {
     val snippetModal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模态弹窗"
         AppLanguage.ENGLISH -> "Modal Dialog"
+        AppLanguage.VIETNAMESE -> "Hộp thoại phương thức"
         AppLanguage.ARABIC -> "نافذة حوار نموذجية"
         AppLanguage.PORTUGUESE -> "Caixa de Diálogo Modal"
         AppLanguage.SPANISH -> "Diálogo Modal"
@@ -10542,6 +11365,7 @@ object StringsB {
     val snippetModalDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建模态对话框"
         AppLanguage.ENGLISH -> "Create modal dialog"
+        AppLanguage.VIETNAMESE -> "Tạo hộp thoại phương thức"
         AppLanguage.ARABIC -> "إنشاء نافذة حوار نموذجية"
         AppLanguage.PORTUGUESE -> "Criar caixa de diálogo modal"
         AppLanguage.SPANISH -> "Crear diálogo modal"
@@ -10554,6 +11378,7 @@ object StringsB {
     val snippetProgressBar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阅读进度条"
         AppLanguage.ENGLISH -> "Reading Progress Bar"
+        AppLanguage.VIETNAMESE -> "Thanh tiến trình đọc"
         AppLanguage.ARABIC -> "شريط تقدم القراءة"
         AppLanguage.PORTUGUESE -> "Barra de Progresso de Leitura"
         AppLanguage.SPANISH -> "Barra de Progreso de Lectura"
@@ -10566,6 +11391,7 @@ object StringsB {
     val snippetProgressBarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示页面阅读进度"
         AppLanguage.ENGLISH -> "Show page reading progress"
+        AppLanguage.VIETNAMESE -> "Hiển thị tiến trình đọc trang"
         AppLanguage.ARABIC -> "عرض تقدم قراءة الصفحة"
         AppLanguage.PORTUGUESE -> "Exibir progresso de leitura da página"
         AppLanguage.SPANISH -> "Mostrar progreso de lectura de la página"
@@ -10578,6 +11404,7 @@ object StringsB {
     val snippetLoading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载动画"
         AppLanguage.ENGLISH -> "Loading Animation"
+        AppLanguage.VIETNAMESE -> "Đang tải hoạt ảnh"
         AppLanguage.ARABIC -> "رسوم متحركة للتحميل"
         AppLanguage.PORTUGUESE -> "Animação de Carregamento"
         AppLanguage.SPANISH -> "Animación de Carga"
@@ -10590,6 +11417,7 @@ object StringsB {
     val snippetLoadingDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示加载中动画"
         AppLanguage.ENGLISH -> "Show loading animation"
+        AppLanguage.VIETNAMESE -> "Hiển thị hoạt ảnh đang tải"
         AppLanguage.ARABIC -> "عرض رسوم التحميل المتحركة"
         AppLanguage.PORTUGUESE -> "Exibir animação de carregamento"
         AppLanguage.SPANISH -> "Mostrar animación de carga"
@@ -10602,6 +11430,7 @@ object StringsB {
     val snippetSnackbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Snackbar 通知"
         AppLanguage.ENGLISH -> "Snackbar Notification"
+        AppLanguage.VIETNAMESE -> "Thông báo thanh đồ ăn nhẹ"
         AppLanguage.ARABIC -> "إشعار Snackbar"
         AppLanguage.PORTUGUESE -> "Notificação Snackbar"
         AppLanguage.SPANISH -> "Notificación Snackbar"
@@ -10614,6 +11443,7 @@ object StringsB {
     val snippetSnackbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "底部滑出通知"
         AppLanguage.ENGLISH -> "Bottom slide-out notification"
+        AppLanguage.VIETNAMESE -> "Thông báo trượt ra phía dưới"
         AppLanguage.ARABIC -> "إشعار منزلق من الأسفل"
         AppLanguage.PORTUGUESE -> "Notificação deslizante inferior"
         AppLanguage.SPANISH -> "Notificación deslizante inferior"
@@ -10627,6 +11457,7 @@ object StringsB {
     val snippetToolbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮工具栏"
         AppLanguage.ENGLISH -> "Floating Toolbar"
+        AppLanguage.VIETNAMESE -> "Thanh công cụ nổi"
         AppLanguage.ARABIC -> "شريط أدوات عائم"
         AppLanguage.PORTUGUESE -> "Barra de Ferramentas Flutuante"
         AppLanguage.SPANISH -> "Barra de Herramientas Flotante"
@@ -10639,6 +11470,7 @@ object StringsB {
     val snippetToolbarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建可拖动的悬浮工具栏"
         AppLanguage.ENGLISH -> "Create draggable floating toolbar"
+        AppLanguage.VIETNAMESE -> "Tạo thanh công cụ nổi có thể kéo được"
         AppLanguage.ARABIC -> "إنشاء شريط أدوات عائم قابل للسحب"
         AppLanguage.PORTUGUESE -> "Criar barra de ferramentas flutuante arrastável"
         AppLanguage.SPANISH -> "Crear barra de herramientas flotante arrastrable"
@@ -10651,6 +11483,7 @@ object StringsB {
     val snippetSidebar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "侧边栏面板"
         AppLanguage.ENGLISH -> "Sidebar Panel"
+        AppLanguage.VIETNAMESE -> "Bảng điều khiển bên"
         AppLanguage.ARABIC -> "لوحة الشريط الجانبي"
         AppLanguage.PORTUGUESE -> "Painel da Barra Lateral"
         AppLanguage.SPANISH -> "Panel de Barra Lateral"
@@ -10663,6 +11496,7 @@ object StringsB {
     val snippetSidebarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建可展开的侧边栏"
         AppLanguage.ENGLISH -> "Create expandable sidebar"
+        AppLanguage.VIETNAMESE -> "Tạo thanh bên có thể mở rộng"
         AppLanguage.ARABIC -> "إنشاء شريط جانبي قابل للتوسيع"
         AppLanguage.PORTUGUESE -> "Criar barra lateral expansível"
         AppLanguage.SPANISH -> "Crear barra lateral expandible"
@@ -10675,6 +11509,7 @@ object StringsB {
     val snippetDraggable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可拖动元素"
         AppLanguage.ENGLISH -> "Draggable Element"
+        AppLanguage.VIETNAMESE -> "Phần tử có thể kéo được"
         AppLanguage.ARABIC -> "عنصر قابل للسحب"
         AppLanguage.PORTUGUESE -> "Elemento Arrastável"
         AppLanguage.SPANISH -> "Elemento Arrastrable"
@@ -10687,6 +11522,7 @@ object StringsB {
     val snippetDraggableDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使元素可拖动"
         AppLanguage.ENGLISH -> "Make element draggable"
+        AppLanguage.VIETNAMESE -> "Làm cho phần tử có thể kéo được"
         AppLanguage.ARABIC -> "جعل العنصر قابلاً للسحب"
         AppLanguage.PORTUGUESE -> "Tornar elemento arrastável"
         AppLanguage.SPANISH -> "Hacer elemento arrastrable"
@@ -10699,6 +11535,7 @@ object StringsB {
     val snippetMiniPlayer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "迷你播放器"
         AppLanguage.ENGLISH -> "Mini Player"
+        AppLanguage.VIETNAMESE -> "Máy nghe nhạc mini"
         AppLanguage.ARABIC -> "مشغل صغير"
         AppLanguage.PORTUGUESE -> "Miniplayer"
         AppLanguage.SPANISH -> "Minirreproductor"
@@ -10711,6 +11548,7 @@ object StringsB {
     val snippetMiniPlayerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建悬浮迷你播放器"
         AppLanguage.ENGLISH -> "Create floating mini player"
+        AppLanguage.VIETNAMESE -> "Tạo trình phát mini nổi"
         AppLanguage.ARABIC -> "إنشاء مشغل صغير عائم"
         AppLanguage.PORTUGUESE -> "Criar mini player flutuante"
         AppLanguage.SPANISH -> "Crear mini player flotante"
@@ -10724,6 +11562,7 @@ object StringsB {
     val snippetBrowserNotif: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览器通知"
         AppLanguage.ENGLISH -> "Browser Notification"
+        AppLanguage.VIETNAMESE -> "Thông báo trình duyệt"
         AppLanguage.ARABIC -> "إشعار المتصفح"
         AppLanguage.PORTUGUESE -> "Notificação do Navegador"
         AppLanguage.SPANISH -> "Notificación del Navegador"
@@ -10736,6 +11575,7 @@ object StringsB {
     val snippetBrowserNotifDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送浏览器原生通知"
         AppLanguage.ENGLISH -> "Send browser native notification"
+        AppLanguage.VIETNAMESE -> "Gửi thông báo gốc của trình duyệt"
         AppLanguage.ARABIC -> "إرسال إشعار المتصفح الأصلي"
         AppLanguage.PORTUGUESE -> "Enviar notificação nativa do navegador"
         AppLanguage.SPANISH -> "Enviar notificación nativa del navegador"
@@ -10748,6 +11588,7 @@ object StringsB {
     val snippetBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "角标提醒"
         AppLanguage.ENGLISH -> "Badge Notification"
+        AppLanguage.VIETNAMESE -> "Thông báo huy hiệu"
         AppLanguage.ARABIC -> "إشعار الشارة"
         AppLanguage.PORTUGUESE -> "Notificação em Distintivo"
         AppLanguage.SPANISH -> "Notificación de Insignia"
@@ -10760,6 +11601,7 @@ object StringsB {
     val snippetBadgeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在元素上显示数字角标"
         AppLanguage.ENGLISH -> "Show number badge on element"
+        AppLanguage.VIETNAMESE -> "Hiển thị huy hiệu số trên phần tử"
         AppLanguage.ARABIC -> "عرض شارة رقمية على العنصر"
         AppLanguage.PORTUGUESE -> "Exibir distintivo numérico no elemento"
         AppLanguage.SPANISH -> "Mostrar insignia numérica en el elemento"
@@ -10772,6 +11614,7 @@ object StringsB {
     val snippetBanner: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "顶部横幅提醒"
         AppLanguage.ENGLISH -> "Top Banner Alert"
+        AppLanguage.VIETNAMESE -> "Cảnh báo biểu ngữ hàng đầu"
         AppLanguage.ARABIC -> "تنبيه اللافتة العلوية"
         AppLanguage.PORTUGUESE -> "Alerta de Banner Superior"
         AppLanguage.SPANISH -> "Alerta de Banner Superior"
@@ -10784,6 +11627,7 @@ object StringsB {
     val snippetBannerDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示顶部横幅通知"
         AppLanguage.ENGLISH -> "Show top banner notification"
+        AppLanguage.VIETNAMESE -> "Hiển thị thông báo biểu ngữ hàng đầu"
         AppLanguage.ARABIC -> "عرض إشعار اللافتة العلوية"
         AppLanguage.PORTUGUESE -> "Exibir notificação de banner superior"
         AppLanguage.SPANISH -> "Mostrar notificación de banner superior"
@@ -10796,6 +11640,7 @@ object StringsB {
     val snippetScrollToTop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到顶部"
         AppLanguage.ENGLISH -> "Scroll to Top"
+        AppLanguage.VIETNAMESE -> "Cuộn lên trên cùng"
         AppLanguage.ARABIC -> "التمرير إلى الأعلى"
         AppLanguage.PORTUGUESE -> "Rolar para o Topo"
         AppLanguage.SPANISH -> "Desplazar al Principio"
@@ -10808,6 +11653,7 @@ object StringsB {
     val snippetScrollToTopDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "平滑滚动到页面顶部"
         AppLanguage.ENGLISH -> "Smooth scroll to page top"
+        AppLanguage.VIETNAMESE -> "Cuộn mượt mà lên đầu trang"
         AppLanguage.ARABIC -> "التمرير السلس إلى أعلى الصفحة"
         AppLanguage.PORTUGUESE -> "Rolar suavemente para o topo da página"
         AppLanguage.SPANISH -> "Desplazamiento suave al principio de la página"
@@ -10820,6 +11666,7 @@ object StringsB {
     val snippetScrollToBottom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到底部"
         AppLanguage.ENGLISH -> "Scroll to Bottom"
+        AppLanguage.VIETNAMESE -> "Cuộn xuống dưới cùng"
         AppLanguage.ARABIC -> "التمرير إلى الأسفل"
         AppLanguage.PORTUGUESE -> "Rolar para o Rodapé"
         AppLanguage.SPANISH -> "Desplazar al Final"
@@ -10832,6 +11679,7 @@ object StringsB {
     val snippetScrollToBottomDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "平滑滚动到页面底部"
         AppLanguage.ENGLISH -> "Smooth scroll to page bottom"
+        AppLanguage.VIETNAMESE -> "Cuộn mượt mà xuống cuối trang"
         AppLanguage.ARABIC -> "التمرير السلس إلى أسفل الصفحة"
         AppLanguage.PORTUGUESE -> "Rolar suavemente para o rodapé da página"
         AppLanguage.SPANISH -> "Desplazamiento suave al final de la página"
@@ -10844,6 +11692,7 @@ object StringsB {
     val snippetScrollToElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到元素"
         AppLanguage.ENGLISH -> "Scroll to Element"
+        AppLanguage.VIETNAMESE -> "Di chuyển đến phần tử"
         AppLanguage.ARABIC -> "التمرير إلى العنصر"
         AppLanguage.PORTUGUESE -> "Rolar até o Elemento"
         AppLanguage.SPANISH -> "Desplazar al Elemento"
@@ -10856,6 +11705,7 @@ object StringsB {
     val snippetScrollToElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到指定元素位置"
         AppLanguage.ENGLISH -> "Scroll to specified element position"
+        AppLanguage.VIETNAMESE -> "Di chuyển đến vị trí phần tử được chỉ định"
         AppLanguage.ARABIC -> "التمرير إلى موضع العنصر المحدد"
         AppLanguage.PORTUGUESE -> "Rolar até a posição do elemento especificado"
         AppLanguage.SPANISH -> "Desplazar a la posición del elemento especificado"
@@ -10868,6 +11718,7 @@ object StringsB {
     val snippetAutoScroll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动滚动"
         AppLanguage.ENGLISH -> "Auto Scroll"
+        AppLanguage.VIETNAMESE -> "Tự động cuộn"
         AppLanguage.ARABIC -> "التمرير التلقائي"
         AppLanguage.PORTUGUESE -> "Rolagem Automática"
         AppLanguage.SPANISH -> "Desplazamiento Automático"
@@ -10880,6 +11731,7 @@ object StringsB {
     val snippetAutoScrollDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动滚动页面"
         AppLanguage.ENGLISH -> "Auto scroll page"
+        AppLanguage.VIETNAMESE -> "Trang cuộn tự động"
         AppLanguage.ARABIC -> "التمرير التلقائي للصفحة"
         AppLanguage.PORTUGUESE -> "Rolar a página automaticamente"
         AppLanguage.SPANISH -> "Desplazar la página automáticamente"
@@ -10892,6 +11744,7 @@ object StringsB {
     val snippetBackToTopBtn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回顶部按钮"
         AppLanguage.ENGLISH -> "Back to Top Button"
+        AppLanguage.VIETNAMESE -> "Nút quay lại đầu trang"
         AppLanguage.ARABIC -> "زر العودة للأعلى"
         AppLanguage.PORTUGUESE -> "Botão Voltar ao Topo"
         AppLanguage.SPANISH -> "Botón Volver al Principio"
@@ -10904,6 +11757,7 @@ object StringsB {
     val snippetBackToTopBtnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加返回顶部悬浮按钮"
         AppLanguage.ENGLISH -> "Add floating back to top button"
+        AppLanguage.VIETNAMESE -> "Thêm nút quay lại đầu trang nổi"
         AppLanguage.ARABIC -> "إضافة زر عائم للعودة للأعلى"
         AppLanguage.PORTUGUESE -> "Adicionar botão flutuante voltar ao topo"
         AppLanguage.SPANISH -> "Añadir botón flotante volver al principio"
@@ -10916,6 +11770,7 @@ object StringsB {
     val snippetInfiniteScroll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无限滚动加载"
         AppLanguage.ENGLISH -> "Infinite Scroll Load"
+        AppLanguage.VIETNAMESE -> "Tải cuộn vô hạn"
         AppLanguage.ARABIC -> "تحميل التمرير اللانهائي"
         AppLanguage.PORTUGUESE -> "Carregamento de Rolagem Infinita"
         AppLanguage.SPANISH -> "Carga de Desplazamiento Infinito"
@@ -10928,6 +11783,7 @@ object StringsB {
     val snippetInfiniteScrollDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动到底部时自动加载更多"
         AppLanguage.ENGLISH -> "Auto load more when scrolling to bottom"
+        AppLanguage.VIETNAMESE -> "Tự động tải thêm khi cuộn xuống dưới cùng"
         AppLanguage.ARABIC -> "تحميل المزيد تلقائياً عند التمرير للأسفل"
         AppLanguage.PORTUGUESE -> "Carregar mais automaticamente ao rolar até o rodapé"
         AppLanguage.SPANISH -> "Cargar más automáticamente al desplazar al final"
@@ -10940,6 +11796,7 @@ object StringsB {
     val snippetScrollReveal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动显示动画"
         AppLanguage.ENGLISH -> "Scroll Reveal Animation"
+        AppLanguage.VIETNAMESE -> "Cuộn tiết lộ hoạt ảnh"
         AppLanguage.ARABIC -> "رسوم متحركة للكشف عند التمرير"
         AppLanguage.PORTUGUESE -> "Animação de Revelação ao Rolar"
         AppLanguage.SPANISH -> "Animación de Revelación al Desplazar"
@@ -10952,6 +11809,7 @@ object StringsB {
     val snippetScrollRevealDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "元素滚动到视口时显示动画"
         AppLanguage.ENGLISH -> "Animate elements when scrolled into viewport"
+        AppLanguage.VIETNAMESE -> "Tạo hiệu ứng cho các phần tử khi cuộn vào khung nhìn"
         AppLanguage.ARABIC -> "تحريك العناصر عند التمرير إلى منفذ العرض"
         AppLanguage.PORTUGUESE -> "Animar elementos ao rolar para a viewport"
         AppLanguage.SPANISH -> "Animar elementos al desplazarlos hacia la ventana"
@@ -10964,6 +11822,7 @@ object StringsB {
     val snippetScrollSpy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动监听导航"
         AppLanguage.ENGLISH -> "Scroll Spy Navigation"
+        AppLanguage.VIETNAMESE -> "Cuộn điều hướng gián điệp"
         AppLanguage.ARABIC -> "مراقبة التمرير للتنقل"
         AppLanguage.PORTUGUESE -> "Navegação por Espionagem de Rolagem"
         AppLanguage.SPANISH -> "Navegación de Espía de Desplazamiento"
@@ -10976,6 +11835,7 @@ object StringsB {
     val snippetScrollSpyDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "根据滚动位置高亮导航项"
         AppLanguage.ENGLISH -> "Highlight nav items based on scroll position"
+        AppLanguage.VIETNAMESE -> "Đánh dấu các mục điều hướng dựa trên vị trí cuộn"
         AppLanguage.ARABIC -> "تمييز عناصر التنقل بناءً على موضع التمرير"
         AppLanguage.PORTUGUESE -> "Destacar itens de navegação com base na posição de rolagem"
         AppLanguage.SPANISH -> "Resaltar elementos de navegación según la posición de desplazamiento"
@@ -10989,6 +11849,7 @@ object StringsB {
     val snippetForm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "表单操作"
         AppLanguage.ENGLISH -> "Form Operations"
+        AppLanguage.VIETNAMESE -> "Hoạt động biểu mẫu"
         AppLanguage.ARABIC -> "عمليات النموذج"
         AppLanguage.PORTUGUESE -> "Operações de Formulário"
         AppLanguage.SPANISH -> "Operaciones de Formulario"
@@ -11001,6 +11862,7 @@ object StringsB {
     val snippetFormDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "表单填充、验证、提交等操作"
         AppLanguage.ENGLISH -> "Form filling, validation, submission operations"
+        AppLanguage.VIETNAMESE -> "Các thao tác điền, xác thực, gửi biểu mẫu"
         AppLanguage.ARABIC -> "عمليات ملء النموذج والتحقق والإرسال"
         AppLanguage.PORTUGUESE -> "Operações de preenchimento, validação e envio de formulário"
         AppLanguage.SPANISH -> "Operaciones de relleno, validación y envío de formulario"
@@ -11013,6 +11875,7 @@ object StringsB {
     val snippetAutoFill: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动填充表单"
         AppLanguage.ENGLISH -> "Auto Fill Form"
+        AppLanguage.VIETNAMESE -> "Tự động điền biểu mẫu"
         AppLanguage.ARABIC -> "ملء النموذج تلقائياً"
         AppLanguage.PORTUGUESE -> "Preencher Formulário Automaticamente"
         AppLanguage.SPANISH -> "Autocompletar Formulario"
@@ -11025,6 +11888,7 @@ object StringsB {
     val snippetAutoFillDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动填充表单字段"
         AppLanguage.ENGLISH -> "Auto fill form fields"
+        AppLanguage.VIETNAMESE -> "Tự động điền các trường biểu mẫu"
         AppLanguage.ARABIC -> "ملء حقول النموذج تلقائياً"
         AppLanguage.PORTUGUESE -> "Preencher campos do formulário automaticamente"
         AppLanguage.SPANISH -> "Autocompletar campos del formulario"
@@ -11037,6 +11901,7 @@ object StringsB {
     val snippetGetFormData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取表单数据"
         AppLanguage.ENGLISH -> "Get Form Data"
+        AppLanguage.VIETNAMESE -> "Nhận dữ liệu biểu mẫu"
         AppLanguage.ARABIC -> "الحصول على بيانات النموذج"
         AppLanguage.PORTUGUESE -> "Obter Dados do Formulário"
         AppLanguage.SPANISH -> "Obtener Datos del Formulario"
@@ -11049,6 +11914,7 @@ object StringsB {
     val snippetGetFormDataDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取表单所有字段值"
         AppLanguage.ENGLISH -> "Get all form field values"
+        AppLanguage.VIETNAMESE -> "Nhận tất cả các giá trị trường biểu mẫu"
         AppLanguage.ARABIC -> "الحصول على جميع قيم حقول النموذج"
         AppLanguage.PORTUGUESE -> "Obter valores de todos os campos do formulário"
         AppLanguage.SPANISH -> "Obtener valores de todos los campos del formulario"
@@ -11061,6 +11927,7 @@ object StringsB {
     val snippetFormValidate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "表单验证"
         AppLanguage.ENGLISH -> "Form Validation"
+        AppLanguage.VIETNAMESE -> "Xác thực mẫu"
         AppLanguage.ARABIC -> "التحقق من النموذج"
         AppLanguage.PORTUGUESE -> "Validação de Formulário"
         AppLanguage.SPANISH -> "Validación de Formulario"
@@ -11073,6 +11940,7 @@ object StringsB {
     val snippetFormValidateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "验证表单字段"
         AppLanguage.ENGLISH -> "Validate form fields"
+        AppLanguage.VIETNAMESE -> "Xác thực các trường biểu mẫu"
         AppLanguage.ARABIC -> "التحقق من حقول النموذج"
         AppLanguage.PORTUGUESE -> "Validar campos do formulário"
         AppLanguage.SPANISH -> "Validar campos del formulario"
@@ -11085,6 +11953,7 @@ object StringsB {
     val snippetFormIntercept: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截表单提交"
         AppLanguage.ENGLISH -> "Intercept Form Submit"
+        AppLanguage.VIETNAMESE -> "Gửi biểu mẫu chặn"
         AppLanguage.ARABIC -> "اعتراض إرسال النموذج"
         AppLanguage.PORTUGUESE -> "Interceptar Envio de Formulário"
         AppLanguage.SPANISH -> "Interceptar Envío de Formulario"
@@ -11097,6 +11966,7 @@ object StringsB {
     val snippetFormInterceptDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截并处理表单提交"
         AppLanguage.ENGLISH -> "Intercept and handle form submission"
+        AppLanguage.VIETNAMESE -> "Chặn và xử lý việc gửi biểu mẫu"
         AppLanguage.ARABIC -> "اعتراض ومعالجة إرسال النموذج"
         AppLanguage.PORTUGUESE -> "Interceptar e tratar o envio do formulário"
         AppLanguage.SPANISH -> "Interceptar y manejar el envío del formulario"
@@ -11109,6 +11979,7 @@ object StringsB {
     val snippetFormClear: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空表单"
         AppLanguage.ENGLISH -> "Clear Form"
+        AppLanguage.VIETNAMESE -> "Xóa biểu mẫu"
         AppLanguage.ARABIC -> "مسح النموذج"
         AppLanguage.PORTUGUESE -> "Limpar Formulário"
         AppLanguage.SPANISH -> "Limpiar Formulario"
@@ -11121,6 +11992,7 @@ object StringsB {
     val snippetFormClearDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空表单所有字段"
         AppLanguage.ENGLISH -> "Clear all form fields"
+        AppLanguage.VIETNAMESE -> "Xóa tất cả các trường biểu mẫu"
         AppLanguage.ARABIC -> "مسح جميع حقول النموذج"
         AppLanguage.PORTUGUESE -> "Limpar todos os campos do formulário"
         AppLanguage.SPANISH -> "Limpiar todos los campos del formulario"
@@ -11133,6 +12005,7 @@ object StringsB {
     val snippetPasswordToggle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码显示切换"
         AppLanguage.ENGLISH -> "Password Toggle"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi mật khẩu"
         AppLanguage.ARABIC -> "تبديل عرض كلمة المرور"
         AppLanguage.PORTUGUESE -> "Alternar Senha"
         AppLanguage.SPANISH -> "Alternar Contraseña"
@@ -11145,6 +12018,7 @@ object StringsB {
     val snippetPasswordToggleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "切换密码显示/隐藏"
         AppLanguage.ENGLISH -> "Toggle password show/hide"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi hiển thị/ẩn mật khẩu"
         AppLanguage.ARABIC -> "تبديل إظهار/إخفاء كلمة المرور"
         AppLanguage.PORTUGUESE -> "Alternar exibição/ocultação da senha"
         AppLanguage.SPANISH -> "Alternar mostrar/ocultar contraseña"
@@ -11158,6 +12032,7 @@ object StringsB {
     val snippetMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体操作"
         AppLanguage.ENGLISH -> "Media Operations"
+        AppLanguage.VIETNAMESE -> "Hoạt động truyền thông"
         AppLanguage.ARABIC -> "عمليات الوسائط"
         AppLanguage.PORTUGUESE -> "Operações de Mídia"
         AppLanguage.SPANISH -> "Operaciones de Medios"
@@ -11170,6 +12045,7 @@ object StringsB {
     val snippetMediaDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频、音频、图片等媒体控制"
         AppLanguage.ENGLISH -> "Video, audio, image media control"
+        AppLanguage.VIETNAMESE -> "Điều khiển phương tiện video, âm thanh, hình ảnh"
         AppLanguage.ARABIC -> "التحكم في وسائط الفيديو والصوت والصور"
         AppLanguage.PORTUGUESE -> "Controle de mídia de vídeo, áudio e imagem"
         AppLanguage.SPANISH -> "Control de medios de video, audio e imagen"
@@ -11182,6 +12058,7 @@ object StringsB {
     val snippetVideoSpeed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频倍速控制"
         AppLanguage.ENGLISH -> "Video Speed Control"
+        AppLanguage.VIETNAMESE -> "Kiểm soát tốc độ video"
         AppLanguage.ARABIC -> "التحكم في سرعة الفيديو"
         AppLanguage.PORTUGUESE -> "Controle de Velocidade do Vídeo"
         AppLanguage.SPANISH -> "Control de Velocidad de Video"
@@ -11194,6 +12071,7 @@ object StringsB {
     val snippetVideoSpeedDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制视频播放速度"
         AppLanguage.ENGLISH -> "Control video playback speed"
+        AppLanguage.VIETNAMESE -> "Kiểm soát tốc độ phát lại video"
         AppLanguage.ARABIC -> "التحكم في سرعة تشغيل الفيديو"
         AppLanguage.PORTUGUESE -> "Controlar a velocidade de reprodução do vídeo"
         AppLanguage.SPANISH -> "Controlar la velocidad de reproducción de video"
@@ -11206,6 +12084,7 @@ object StringsB {
     val snippetPiP: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "画中画模式"
         AppLanguage.ENGLISH -> "Picture in Picture"
+        AppLanguage.VIETNAMESE -> "Hình trong Hình"
         AppLanguage.ARABIC -> "صورة في صورة"
         AppLanguage.PORTUGUESE -> "Picture-in-Picture"
         AppLanguage.SPANISH -> "Picture-in-Picture"
@@ -11218,6 +12097,7 @@ object StringsB {
     val snippetPiPDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启用视频画中画"
         AppLanguage.ENGLISH -> "Enable video picture-in-picture"
+        AppLanguage.VIETNAMESE -> "Bật chế độ hình ảnh trong video"
         AppLanguage.ARABIC -> "تمكين صورة داخل صورة للفيديو"
         AppLanguage.PORTUGUESE -> "Ativar picture-in-picture de vídeo"
         AppLanguage.SPANISH -> "Habilitar picture-in-picture de video"
@@ -11230,6 +12110,7 @@ object StringsB {
     val snippetVideoScreenshot: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频截图"
         AppLanguage.ENGLISH -> "Video Screenshot"
+        AppLanguage.VIETNAMESE -> "Ảnh chụp màn hình video"
         AppLanguage.ARABIC -> "لقطة شاشة الفيديو"
         AppLanguage.PORTUGUESE -> "Captura de Tela de Vídeo"
         AppLanguage.SPANISH -> "Captura de Pantalla de Video"
@@ -11242,6 +12123,7 @@ object StringsB {
     val snippetVideoScreenshotDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "截取视频当前帧"
         AppLanguage.ENGLISH -> "Capture current video frame"
+        AppLanguage.VIETNAMESE -> "Chụp khung hình video hiện tại"
         AppLanguage.ARABIC -> "التقاط الإطار الحالي للفيديو"
         AppLanguage.PORTUGUESE -> "Capturar o quadro atual do vídeo"
         AppLanguage.SPANISH -> "Capturar el fotograma actual del video"
@@ -11254,6 +12136,7 @@ object StringsB {
     val snippetImageZoom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片放大查看"
         AppLanguage.ENGLISH -> "Image Zoom View"
+        AppLanguage.VIETNAMESE -> "Chế độ xem thu phóng hình ảnh"
         AppLanguage.ARABIC -> "عرض الصورة مكبرة"
         AppLanguage.PORTUGUESE -> "Visualização de Zoom de Imagem"
         AppLanguage.SPANISH -> "Vista de Zoom de Imagen"
@@ -11266,6 +12149,7 @@ object StringsB {
     val snippetImageZoomDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击图片放大显示"
         AppLanguage.ENGLISH -> "Click image to zoom"
+        AppLanguage.VIETNAMESE -> "Bấm vào hình ảnh để phóng to"
         AppLanguage.ARABIC -> "انقر على الصورة للتكبير"
         AppLanguage.PORTUGUESE -> "Clique na imagem para ampliar"
         AppLanguage.SPANISH -> "Haga clic en la imagen para ampliar"
@@ -11278,6 +12162,7 @@ object StringsB {
     val snippetDownloadImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "批量下载图片"
         AppLanguage.ENGLISH -> "Batch Download Images"
+        AppLanguage.VIETNAMESE -> "Tải xuống hàng loạt hình ảnh"
         AppLanguage.ARABIC -> "تنزيل الصور دفعة واحدة"
         AppLanguage.PORTUGUESE -> "Download em Lote de Imagens"
         AppLanguage.SPANISH -> "Descarga Masiva de Imágenes"
@@ -11290,6 +12175,7 @@ object StringsB {
     val snippetDownloadImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载页面所有图片"
         AppLanguage.ENGLISH -> "Download all images from page"
+        AppLanguage.VIETNAMESE -> "Tải xuống tất cả hình ảnh từ trang"
         AppLanguage.ARABIC -> "تنزيل جميع الصور من الصفحة"
         AppLanguage.PORTUGUESE -> "Baixar todas as imagens da página"
         AppLanguage.SPANISH -> "Descargar todas las imágenes de la página"
@@ -11302,6 +12188,7 @@ object StringsB {
     val snippetAudioControl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音频控制"
         AppLanguage.ENGLISH -> "Audio Control"
+        AppLanguage.VIETNAMESE -> "Kiểm soát âm thanh"
         AppLanguage.ARABIC -> "التحكم في الصوت"
         AppLanguage.PORTUGUESE -> "Controle de Áudio"
         AppLanguage.SPANISH -> "Control de Audio"
@@ -11314,6 +12201,7 @@ object StringsB {
     val snippetAudioControlDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制页面音频播放"
         AppLanguage.ENGLISH -> "Control page audio playback"
+        AppLanguage.VIETNAMESE -> "Kiểm soát phát lại âm thanh trang"
         AppLanguage.ARABIC -> "التحكم في تشغيل صوت الصفحة"
         AppLanguage.PORTUGUESE -> "Controlar a reprodução de áudio da página"
         AppLanguage.SPANISH -> "Controlar la reproducción de audio de la página"
@@ -11326,6 +12214,7 @@ object StringsB {
     val snippetLazyLoad: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片懒加载"
         AppLanguage.ENGLISH -> "Image Lazy Load"
+        AppLanguage.VIETNAMESE -> "Tải hình ảnh lười biếng"
         AppLanguage.ARABIC -> "التحميل الكسول للصور"
         AppLanguage.PORTUGUESE -> "Carregamento Preguiçoso de Imagens"
         AppLanguage.SPANISH -> "Carga Diferida de Imágenes"
@@ -11338,6 +12227,7 @@ object StringsB {
     val snippetLazyLoadDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "实现图片懒加载"
         AppLanguage.ENGLISH -> "Implement image lazy loading"
+        AppLanguage.VIETNAMESE -> "Thực hiện tải hình ảnh chậm"
         AppLanguage.ARABIC -> "تنفيذ التحميل الكسول للصور"
         AppLanguage.PORTUGUESE -> "Implementar carregamento preguiçoso de imagens"
         AppLanguage.SPANISH -> "Implementar carga diferida de imágenes"
@@ -11350,6 +12240,7 @@ object StringsB {
     val snippetFullscreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全屏控制"
         AppLanguage.ENGLISH -> "Fullscreen Control"
+        AppLanguage.VIETNAMESE -> "Kiểm soát toàn màn hình"
         AppLanguage.ARABIC -> "التحكم في ملء الشاشة"
         AppLanguage.PORTUGUESE -> "Controle de Tela Cheia"
         AppLanguage.SPANISH -> "Control de Pantalla Completa"
@@ -11362,6 +12253,7 @@ object StringsB {
     val snippetFullscreenDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "控制元素全屏显示"
         AppLanguage.ENGLISH -> "Control element fullscreen display"
+        AppLanguage.VIETNAMESE -> "Hiển thị toàn màn hình phần tử điều khiển"
         AppLanguage.ARABIC -> "التحكم في عرض العنصر بملء الشاشة"
         AppLanguage.PORTUGUESE -> "Controlar exibição em tela cheia do elemento"
         AppLanguage.SPANISH -> "Controlar visualización en pantalla completa del elemento"
@@ -11375,6 +12267,7 @@ object StringsB {
     val snippetEnhance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面增强"
         AppLanguage.ENGLISH -> "Page Enhancement"
+        AppLanguage.VIETNAMESE -> "Cải tiến trang"
         AppLanguage.ARABIC -> "تحسين الصفحة"
         AppLanguage.PORTUGUESE -> "Aprimoramento de Página"
         AppLanguage.SPANISH -> "Mejora de Página"
@@ -11387,6 +12280,7 @@ object StringsB {
     val snippetEnhanceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面功能增强和优化"
         AppLanguage.ENGLISH -> "Page feature enhancement and optimization"
+        AppLanguage.VIETNAMESE -> "Cải thiện và tối ưu hóa tính năng trang"
         AppLanguage.ARABIC -> "تحسين وتعزيز ميزات الصفحة"
         AppLanguage.PORTUGUESE -> "Aprimoramento e otimização de recursos da página"
         AppLanguage.SPANISH -> "Mejora y optimización de características de la página"
@@ -11399,6 +12293,7 @@ object StringsB {
     val snippetReadingMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阅读模式"
         AppLanguage.ENGLISH -> "Reading Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ đọc"
         AppLanguage.ARABIC -> "وضع القراءة"
         AppLanguage.PORTUGUESE -> "Modo de Leitura"
         AppLanguage.SPANISH -> "Modo de Lectura"
@@ -11411,6 +12306,7 @@ object StringsB {
     val snippetReadingModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取正文，简化页面"
         AppLanguage.ENGLISH -> "Extract content, simplify page"
+        AppLanguage.VIETNAMESE -> "Trích xuất nội dung, đơn giản hóa trang"
         AppLanguage.ARABIC -> "استخراج المحتوى وتبسيط الصفحة"
         AppLanguage.PORTUGUESE -> "Extrair conteúdo, simplificar página"
         AppLanguage.SPANISH -> "Extraer contenido, simplificar página"
@@ -11423,6 +12319,7 @@ object StringsB {
     val snippetCopyUnlock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解除复制限制"
         AppLanguage.ENGLISH -> "Unlock Copy Restriction"
+        AppLanguage.VIETNAMESE -> "Mở khóa hạn chế sao chép"
         AppLanguage.ARABIC -> "إلغاء قيود النسخ"
         AppLanguage.PORTUGUESE -> "Desbloquear Restrição de Cópia"
         AppLanguage.SPANISH -> "Desbloquear Restricción de Copia"
@@ -11435,6 +12332,7 @@ object StringsB {
     val snippetCopyUnlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除网页复制保护"
         AppLanguage.ENGLISH -> "Remove webpage copy protection"
+        AppLanguage.VIETNAMESE -> "Loại bỏ bảo vệ bản sao trang web"
         AppLanguage.ARABIC -> "إزالة حماية نسخ صفحة الويب"
         AppLanguage.PORTUGUESE -> "Remover proteção de cópia da página web"
         AppLanguage.SPANISH -> "Eliminar protección de copia de la página web"
@@ -11447,6 +12345,7 @@ object StringsB {
     val snippetPrintFriendly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印优化"
         AppLanguage.ENGLISH -> "Print Friendly"
+        AppLanguage.VIETNAMESE -> "In thân thiện"
         AppLanguage.ARABIC -> "تحسين الطباعة"
         AppLanguage.PORTUGUESE -> "Otimizado para Impressão"
         AppLanguage.SPANISH -> "Optimizado para Impresión"
@@ -11459,6 +12358,7 @@ object StringsB {
     val snippetPrintFriendlyDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化页面打印效果"
         AppLanguage.ENGLISH -> "Optimize page print output"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa đầu ra in trang"
         AppLanguage.ARABIC -> "تحسين إخراج طباعة الصفحة"
         AppLanguage.PORTUGUESE -> "Otimizar saída de impressão da página"
         AppLanguage.SPANISH -> "Optimizar salida de impresión de la página"
@@ -11471,6 +12371,7 @@ object StringsB {
     val snippetTextToSpeech: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文字转语音"
         AppLanguage.ENGLISH -> "Text to Speech"
+        AppLanguage.VIETNAMESE -> "Chuyển văn bản thành giọng nói"
         AppLanguage.ARABIC -> "النص إلى كلام"
         AppLanguage.PORTUGUESE -> "Texto para Fala"
         AppLanguage.SPANISH -> "Texto a Voz"
@@ -11483,6 +12384,7 @@ object StringsB {
     val snippetTextToSpeechDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "朗读选中文字"
         AppLanguage.ENGLISH -> "Read selected text aloud"
+        AppLanguage.VIETNAMESE -> "Đọc to văn bản đã chọn"
         AppLanguage.ARABIC -> "قراءة النص المحدد بصوت عالٍ"
         AppLanguage.PORTUGUESE -> "Ler texto selecionado em voz alta"
         AppLanguage.SPANISH -> "Leer texto seleccionado en voz alta"
@@ -11495,6 +12397,7 @@ object StringsB {
     val snippetWordCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "字数统计"
         AppLanguage.ENGLISH -> "Word Count"
+        AppLanguage.VIETNAMESE -> "Đếm từ"
         AppLanguage.ARABIC -> "عدد الكلمات"
         AppLanguage.PORTUGUESE -> "Contagem de Palavras"
         AppLanguage.SPANISH -> "Conteo de Palabras"
@@ -11507,6 +12410,7 @@ object StringsB {
     val snippetWordCountDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "统计页面文字数量"
         AppLanguage.ENGLISH -> "Count page text quantity"
+        AppLanguage.VIETNAMESE -> "Đếm số lượng văn bản trang"
         AppLanguage.ARABIC -> "إحصاء كمية نص الصفحة"
         AppLanguage.PORTUGUESE -> "Contar quantidade de texto da página"
         AppLanguage.SPANISH -> "Contar cantidad de texto de la página"
@@ -11519,6 +12423,7 @@ object StringsB {
     val snippetHighlightSearch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页内搜索高亮"
         AppLanguage.ENGLISH -> "In-page Search Highlight"
+        AppLanguage.VIETNAMESE -> "Đánh dấu tìm kiếm trong trang"
         AppLanguage.ARABIC -> "تمييز البحث في الصفحة"
         AppLanguage.PORTUGUESE -> "Destaque de Busca na Página"
         AppLanguage.SPANISH -> "Resaltado de Búsqueda en Página"
@@ -11531,6 +12436,7 @@ object StringsB {
     val snippetHighlightSearchDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索并高亮关键词"
         AppLanguage.ENGLISH -> "Search and highlight keywords"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm và đánh dấu từ khóa"
         AppLanguage.ARABIC -> "البحث وتمييز الكلمات المفتاحية"
         AppLanguage.PORTUGUESE -> "Buscar e destacar palavras-chave"
         AppLanguage.SPANISH -> "Buscar y resaltar palabras clave"
@@ -11543,6 +12449,7 @@ object StringsB {
     val snippetHideAds: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏常见广告"
         AppLanguage.ENGLISH -> "Hide Common Ads"
+        AppLanguage.VIETNAMESE -> "Ẩn quảng cáo phổ biến"
         AppLanguage.ARABIC -> "إخفاء الإعلانات الشائعة"
         AppLanguage.PORTUGUESE -> "Ocultar Anúncios Comuns"
         AppLanguage.SPANISH -> "Ocultar Anuncios Comunes"
@@ -11555,6 +12462,7 @@ object StringsB {
     val snippetHideAdsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏常见的广告元素"
         AppLanguage.ENGLISH -> "Hide common ad elements"
+        AppLanguage.VIETNAMESE -> "Ẩn các phần tử quảng cáo phổ biến"
         AppLanguage.ARABIC -> "إخفاء عناصر الإعلانات الشائعة"
         AppLanguage.PORTUGUESE -> "Ocultar elementos de anúncios comuns"
         AppLanguage.SPANISH -> "Ocultar elementos de anuncios comunes"
@@ -11568,6 +12476,7 @@ object StringsB {
     val snippetFilter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容过滤"
         AppLanguage.ENGLISH -> "Content Filter"
+        AppLanguage.VIETNAMESE -> "Bộ lọc nội dung"
         AppLanguage.ARABIC -> "تصفية المحتوى"
         AppLanguage.PORTUGUESE -> "Filtro de Conteúdo"
         AppLanguage.SPANISH -> "Filtro de Contenido"
@@ -11580,6 +12489,7 @@ object StringsB {
     val snippetFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤和筛选页面内容"
         AppLanguage.ENGLISH -> "Filter and screen page content"
+        AppLanguage.VIETNAMESE -> "Lọc và sàng lọc nội dung trang"
         AppLanguage.ARABIC -> "تصفية وفحص محتوى الصفحة"
         AppLanguage.PORTUGUESE -> "Filtrar e triar conteúdo da página"
         AppLanguage.SPANISH -> "Filtrar y clasificar contenido de la página"
@@ -11592,6 +12502,7 @@ object StringsB {
     val snippetKeywordFilter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关键词过滤"
         AppLanguage.ENGLISH -> "Keyword Filter"
+        AppLanguage.VIETNAMESE -> "Bộ lọc từ khóa"
         AppLanguage.ARABIC -> "تصفية الكلمات المفتاحية"
         AppLanguage.PORTUGUESE -> "Filtro de Palavras-chave"
         AppLanguage.SPANISH -> "Filtro de Palabras Clave"
@@ -11604,6 +12515,7 @@ object StringsB {
     val snippetKeywordFilterDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏包含特定关键词的元素"
         AppLanguage.ENGLISH -> "Hide elements containing specific keywords"
+        AppLanguage.VIETNAMESE -> "Ẩn các phần tử chứa từ khóa cụ thể"
         AppLanguage.ARABIC -> "إخفاء العناصر التي تحتوي على كلمات مفتاحية معينة"
         AppLanguage.PORTUGUESE -> "Ocultar elementos com palavras-chave específicas"
         AppLanguage.SPANISH -> "Ocultar elementos con palabras clave específicas"
@@ -11616,6 +12528,7 @@ object StringsB {
     val snippetRemoveEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除空元素"
         AppLanguage.ENGLISH -> "Remove Empty Elements"
+        AppLanguage.VIETNAMESE -> "Xóa các phần tử trống"
         AppLanguage.ARABIC -> "إزالة العناصر الفارغة"
         AppLanguage.PORTUGUESE -> "Remover Elementos Vazios"
         AppLanguage.SPANISH -> "Eliminar Elementos Vacíos"
@@ -11628,6 +12541,7 @@ object StringsB {
     val snippetRemoveEmptyDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除页面中的空元素"
         AppLanguage.ENGLISH -> "Remove empty elements from page"
+        AppLanguage.VIETNAMESE -> "Xóa các phần tử trống khỏi trang"
         AppLanguage.ARABIC -> "إزالة العناصر الفارغة من الصفحة"
         AppLanguage.PORTUGUESE -> "Remover elementos vazios da página"
         AppLanguage.SPANISH -> "Eliminar elementos vacíos de la página"
@@ -11640,6 +12554,7 @@ object StringsB {
     val snippetFilterComments: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤评论"
         AppLanguage.ENGLISH -> "Filter Comments"
+        AppLanguage.VIETNAMESE -> "Lọc bình luận"
         AppLanguage.ARABIC -> "تصفية التعليقات"
         AppLanguage.PORTUGUESE -> "Filtrar Comentários"
         AppLanguage.SPANISH -> "Filtrar Comentarios"
@@ -11652,6 +12567,7 @@ object StringsB {
     val snippetFilterCommentsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "根据条件过滤评论"
         AppLanguage.ENGLISH -> "Filter comments by conditions"
+        AppLanguage.VIETNAMESE -> "Lọc bình luận theo điều kiện"
         AppLanguage.ARABIC -> "تصفية التعليقات حسب الشروط"
         AppLanguage.PORTUGUESE -> "Filtrar comentários por condições"
         AppLanguage.SPANISH -> "Filtrar comentarios por condiciones"
@@ -11664,6 +12580,7 @@ object StringsB {
     val snippetFilterSmallImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "过滤小图片"
         AppLanguage.ENGLISH -> "Filter Small Images"
+        AppLanguage.VIETNAMESE -> "Lọc hình ảnh nhỏ"
         AppLanguage.ARABIC -> "تصفية الصور الصغيرة"
         AppLanguage.PORTUGUESE -> "Filtrar Imagens Pequenas"
         AppLanguage.SPANISH -> "Filtrar Imágenes Pequeñas"
@@ -11676,6 +12593,7 @@ object StringsB {
     val snippetFilterSmallImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐藏尺寸过小的图片"
         AppLanguage.ENGLISH -> "Hide images with small dimensions"
+        AppLanguage.VIETNAMESE -> "Ẩn hình ảnh có kích thước nhỏ"
         AppLanguage.ARABIC -> "إخفاء الصور ذات الأبعاد الصغيرة"
         AppLanguage.PORTUGUESE -> "Ocultar imagens com dimensões pequenas"
         AppLanguage.SPANISH -> "Ocultar imágenes con dimensiones pequeñas"
@@ -11689,6 +12607,7 @@ object StringsB {
     val snippetAdBlock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告拦截"
         AppLanguage.ENGLISH -> "Ad Blocker"
+        AppLanguage.VIETNAMESE -> "Trình chặn quảng cáo"
         AppLanguage.ARABIC -> "حظر الإعلانات"
         AppLanguage.PORTUGUESE -> "Bloqueador de Anúncios"
         AppLanguage.SPANISH -> "Bloqueador de Anuncios"
@@ -11701,6 +12620,7 @@ object StringsB {
     val snippetAdBlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏蔽广告和弹窗"
         AppLanguage.ENGLISH -> "Block ads and popups"
+        AppLanguage.VIETNAMESE -> "Chặn quảng cáo và cửa sổ bật lên"
         AppLanguage.ARABIC -> "حظر الإعلانات والنوافذ المنبثقة"
         AppLanguage.PORTUGUESE -> "Bloquear anúncios e pop-ups"
         AppLanguage.SPANISH -> "Bloquear anuncios y ventanas emergentes"
@@ -11713,6 +12633,7 @@ object StringsB {
     val snippetBlockPopup: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止弹窗"
         AppLanguage.ENGLISH -> "Block Popups"
+        AppLanguage.VIETNAMESE -> "Chặn cửa sổ bật lên"
         AppLanguage.ARABIC -> "حظر النوافذ المنبثقة"
         AppLanguage.PORTUGUESE -> "Bloquear Pop-ups"
         AppLanguage.SPANISH -> "Bloquear Ventanas Emergentes"
@@ -11725,6 +12646,7 @@ object StringsB {
     val snippetBlockPopupDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阻止弹窗和新窗口"
         AppLanguage.ENGLISH -> "Block popups and new windows"
+        AppLanguage.VIETNAMESE -> "Chặn cửa sổ bật lên và cửa sổ mới"
         AppLanguage.ARABIC -> "حظر النوافذ المنبثقة والنوافذ الجديدة"
         AppLanguage.PORTUGUESE -> "Bloquear pop-ups e novas janelas"
         AppLanguage.SPANISH -> "Bloquear ventanas emergentes y nuevas ventanas"
@@ -11737,6 +12659,7 @@ object StringsB {
     val snippetRemoveOverlay: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除遮罩层"
         AppLanguage.ENGLISH -> "Remove Overlay"
+        AppLanguage.VIETNAMESE -> "Xóa lớp phủ"
         AppLanguage.ARABIC -> "إزالة طبقة التغطية"
         AppLanguage.PORTUGUESE -> "Remover Camada de Sobreposição"
         AppLanguage.SPANISH -> "Eliminar Capa de Superposición"
@@ -11749,6 +12672,7 @@ object StringsB {
     val snippetRemoveOverlayDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除阻止阅读的遮罩"
         AppLanguage.ENGLISH -> "Remove overlays blocking reading"
+        AppLanguage.VIETNAMESE -> "Xóa lớp phủ chặn việc đọc"
         AppLanguage.ARABIC -> "إزالة طبقات التغطية التي تحجب القراءة"
         AppLanguage.PORTUGUESE -> "Remover sobreposições que bloqueiam a leitura"
         AppLanguage.SPANISH -> "Eliminar superposiciones que bloquean la lectura"
@@ -11761,6 +12685,7 @@ object StringsB {
     val snippetCssAdBlock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 广告屏蔽"
         AppLanguage.ENGLISH -> "CSS Ad Blocker"
+        AppLanguage.VIETNAMESE -> "Trình chặn quảng cáo CSS"
         AppLanguage.ARABIC -> "حظر الإعلانات بـ CSS"
         AppLanguage.PORTUGUESE -> "Bloqueador de Anúncios por CSS"
         AppLanguage.SPANISH -> "Bloqueador de Anuncios por CSS"
@@ -11773,6 +12698,7 @@ object StringsB {
     val snippetCssAdBlockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 CSS 隐藏广告"
         AppLanguage.ENGLISH -> "Use CSS to hide ads"
+        AppLanguage.VIETNAMESE -> "Sử dụng CSS để ẩn quảng cáo"
         AppLanguage.ARABIC -> "استخدام CSS لإخفاء الإعلانات"
         AppLanguage.PORTUGUESE -> "Usar CSS para ocultar anúncios"
         AppLanguage.SPANISH -> "Usar CSS para ocultar anuncios"
@@ -11785,6 +12711,7 @@ object StringsB {
     val snippetAntiAdblock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "反反广告检测"
         AppLanguage.ENGLISH -> "Anti-Adblock Detection"
+        AppLanguage.VIETNAMESE -> "Phát hiện chống chặn quảng cáo"
         AppLanguage.ARABIC -> "مكافحة كشف حظر الإعلانات"
         AppLanguage.PORTUGUESE -> "Anti-Detecção de Bloqueio"
         AppLanguage.SPANISH -> "Anti-Detección de Bloqueo"
@@ -11797,6 +12724,7 @@ object StringsB {
     val snippetAntiAdblockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "绕过广告拦截检测"
         AppLanguage.ENGLISH -> "Bypass ad blocker detection"
+        AppLanguage.VIETNAMESE -> "Bỏ qua phát hiện trình chặn quảng cáo"
         AppLanguage.ARABIC -> "تجاوز كشف حظر الإعلانات"
         AppLanguage.PORTUGUESE -> "Contornar detecção de bloqueio de anúncios"
         AppLanguage.SPANISH -> "Eludir detección de bloqueo de anuncios"
@@ -11810,6 +12738,7 @@ object StringsB {
     val snippetUtility: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "工具函数"
         AppLanguage.ENGLISH -> "Utility Functions"
+        AppLanguage.VIETNAMESE -> "Chức năng tiện ích"
         AppLanguage.ARABIC -> "دوال مساعدة"
         AppLanguage.PORTUGUESE -> "Funções Utilitárias"
         AppLanguage.SPANISH -> "Funciones Utilitarias"
@@ -11822,6 +12751,7 @@ object StringsB {
     val snippetUtilityDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "常用的工具函数和辅助方法"
         AppLanguage.ENGLISH -> "Common utility functions and helper methods"
+        AppLanguage.VIETNAMESE -> "Các hàm tiện ích phổ biến và các phương thức trợ giúp"
         AppLanguage.ARABIC -> "دوال مساعدة شائعة وطرق مساندة"
         AppLanguage.PORTUGUESE -> "Funções utilitárias comuns e métodos auxiliares"
         AppLanguage.SPANISH -> "Funciones utilitarias comunes y métodos auxiliares"
@@ -11834,6 +12764,7 @@ object StringsB {
     val snippetDebounce: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "防抖函数"
         AppLanguage.ENGLISH -> "Debounce Function"
+        AppLanguage.VIETNAMESE -> "Chức năng gỡ lỗi"
         AppLanguage.ARABIC -> "دالة منع الارتداد"
         AppLanguage.PORTUGUESE -> "Função de Debounce"
         AppLanguage.SPANISH -> "Función de Debounce"
@@ -11846,6 +12777,7 @@ object StringsB {
     val snippetDebounceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "限制函数执行频率（延迟执行）"
         AppLanguage.ENGLISH -> "Limit function execution frequency (delayed)"
+        AppLanguage.VIETNAMESE -> "Tần suất thực hiện hàm giới hạn (bị trễ)"
         AppLanguage.ARABIC -> "تحديد تردد تنفيذ الدالة (مؤجل)"
         AppLanguage.PORTUGUESE -> "Limitar frequência de execução (atrasada)"
         AppLanguage.SPANISH -> "Limitar frecuencia de ejecución (retrasada)"
@@ -11858,6 +12790,7 @@ object StringsB {
     val snippetThrottle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "节流函数"
         AppLanguage.ENGLISH -> "Throttle Function"
+        AppLanguage.VIETNAMESE -> "Chức năng ga"
         AppLanguage.ARABIC -> "دالة الخنق"
         AppLanguage.PORTUGUESE -> "Função de Throttle"
         AppLanguage.SPANISH -> "Función de Throttle"
@@ -11870,6 +12803,7 @@ object StringsB {
     val snippetThrottleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "限制函数执行频率（固定间隔）"
         AppLanguage.ENGLISH -> "Limit function execution frequency (fixed interval)"
+        AppLanguage.VIETNAMESE -> "Tần suất thực hiện hàm giới hạn (khoảng thời gian cố định)"
         AppLanguage.ARABIC -> "تحديد تردد تنفيذ الدالة (فاصل ثابت)"
         AppLanguage.PORTUGUESE -> "Limitar frequência de execução (intervalo fixo)"
         AppLanguage.SPANISH -> "Limitar frecuencia de ejecución (intervalo fijo)"
@@ -11882,6 +12816,7 @@ object StringsB {
     val snippetWaitElement: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "等待元素出现"
         AppLanguage.ENGLISH -> "Wait for Element"
+        AppLanguage.VIETNAMESE -> "Chờ phần tử"
         AppLanguage.ARABIC -> "انتظار ظهور العنصر"
         AppLanguage.PORTUGUESE -> "Aguardar Elemento"
         AppLanguage.SPANISH -> "Esperar Elemento"
@@ -11894,6 +12829,7 @@ object StringsB {
     val snippetWaitElementDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "等待指定元素出现在页面中"
         AppLanguage.ENGLISH -> "Wait for specified element to appear"
+        AppLanguage.VIETNAMESE -> "Đợi phần tử được chỉ định xuất hiện"
         AppLanguage.ARABIC -> "انتظار ظهور العنصر المحدد"
         AppLanguage.PORTUGUESE -> "Aguardar elemento especificado aparecer"
         AppLanguage.SPANISH -> "Esperar que aparezca el elemento especificado"
@@ -11906,6 +12842,7 @@ object StringsB {
     val snippetCopyText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文本"
         AppLanguage.ENGLISH -> "Copy Text"
+        AppLanguage.VIETNAMESE -> "Sao chép văn bản"
         AppLanguage.ARABIC -> "نسخ النص"
         AppLanguage.PORTUGUESE -> "Copiar Texto"
         AppLanguage.SPANISH -> "Copiar Texto"
@@ -11918,6 +12855,7 @@ object StringsB {
     val snippetCopyTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文本到剪贴板"
         AppLanguage.ENGLISH -> "Copy text to clipboard"
+        AppLanguage.VIETNAMESE -> "Sao chép văn bản vào clipboard"
         AppLanguage.ARABIC -> "نسخ النص إلى الحافظة"
         AppLanguage.PORTUGUESE -> "Copiar texto para a área de transferência"
         AppLanguage.SPANISH -> "Copiar texto al portapapeles"
@@ -11930,6 +12868,7 @@ object StringsB {
     val snippetFormatDate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "格式化日期"
         AppLanguage.ENGLISH -> "Format Date"
+        AppLanguage.VIETNAMESE -> "Định dạng ngày"
         AppLanguage.ARABIC -> "تنسيق التاريخ"
         AppLanguage.PORTUGUESE -> "Formatar Data"
         AppLanguage.SPANISH -> "Formatear Fecha"
@@ -11942,6 +12881,7 @@ object StringsB {
     val snippetFormatDateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将日期格式化为指定格式"
         AppLanguage.ENGLISH -> "Format date to specified format"
+        AppLanguage.VIETNAMESE -> "Định dạng ngày theo định dạng được chỉ định"
         AppLanguage.ARABIC -> "تنسيق التاريخ بالشكل المحدد"
         AppLanguage.PORTUGUESE -> "Formatar data para o formato especificado"
         AppLanguage.SPANISH -> "Formatear fecha al formato especificado"
@@ -11954,6 +12894,7 @@ object StringsB {
     val snippetRandomString: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "生成随机字符串"
         AppLanguage.ENGLISH -> "Generate Random String"
+        AppLanguage.VIETNAMESE -> "Tạo chuỗi ngẫu nhiên"
         AppLanguage.ARABIC -> "إنشاء سلسلة عشوائية"
         AppLanguage.PORTUGUESE -> "Gerar String Aleatória"
         AppLanguage.SPANISH -> "Generar Cadena Aleatoria"
@@ -11966,6 +12907,7 @@ object StringsB {
     val snippetRandomStringDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "生成指定长度的随机字符串"
         AppLanguage.ENGLISH -> "Generate random string of specified length"
+        AppLanguage.VIETNAMESE -> "Tạo chuỗi ngẫu nhiên có độ dài được chỉ định"
         AppLanguage.ARABIC -> "إنشاء سلسلة عشوائية بطول محدد"
         AppLanguage.PORTUGUESE -> "Gerar string aleatória de comprimento especificado"
         AppLanguage.SPANISH -> "Generar cadena aleatoria de longitud especificada"
@@ -11978,6 +12920,7 @@ object StringsB {
     val snippetSleep: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "延迟执行"
         AppLanguage.ENGLISH -> "Sleep/Delay"
+        AppLanguage.VIETNAMESE -> "Ngủ/Trì hoãn"
         AppLanguage.ARABIC -> "تأخير التنفيذ"
         AppLanguage.PORTUGUESE -> "Suspender/Atrasar"
         AppLanguage.SPANISH -> "Suspender/Retrasar"
@@ -11990,6 +12933,7 @@ object StringsB {
     val snippetSleepDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "异步延迟指定时间"
         AppLanguage.ENGLISH -> "Async delay for specified time"
+        AppLanguage.VIETNAMESE -> "Độ trễ không đồng bộ trong thời gian được chỉ định"
         AppLanguage.ARABIC -> "تأخير غير متزامن لوقت محدد"
         AppLanguage.PORTUGUESE -> "Atraso assíncrono por tempo especificado"
         AppLanguage.SPANISH -> "Retraso asíncrono por tiempo especificado"
@@ -12002,6 +12946,7 @@ object StringsB {
     val snippetRetry: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重试函数"
         AppLanguage.ENGLISH -> "Retry Function"
+        AppLanguage.VIETNAMESE -> "Thử lại chức năng"
         AppLanguage.ARABIC -> "دالة إعادة المحاولة"
         AppLanguage.PORTUGUESE -> "Função de Retentativa"
         AppLanguage.SPANISH -> "Función de Reintento"
@@ -12014,6 +12959,7 @@ object StringsB {
     val snippetRetryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "失败后自动重试"
         AppLanguage.ENGLISH -> "Auto retry on failure"
+        AppLanguage.VIETNAMESE -> "Tự động thử lại khi thất bại"
         AppLanguage.ARABIC -> "إعادة المحاولة تلقائياً عند الفشل"
         AppLanguage.PORTUGUESE -> "Retentar automaticamente em caso de falha"
         AppLanguage.SPANISH -> "Reintentar automáticamente en caso de fallo"
@@ -12027,6 +12973,7 @@ object StringsB {
     val snippetText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文本处理"
         AppLanguage.ENGLISH -> "Text Processing"
+        AppLanguage.VIETNAMESE -> "Xử lý văn bản"
         AppLanguage.ARABIC -> "معالجة النص"
         AppLanguage.PORTUGUESE -> "Processamento de Texto"
         AppLanguage.SPANISH -> "Procesamiento de Texto"
@@ -12039,6 +12986,7 @@ object StringsB {
     val snippetTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文本提取、转换、处理"
         AppLanguage.ENGLISH -> "Text extraction, conversion, processing"
+        AppLanguage.VIETNAMESE -> "Trích xuất, chuyển đổi, xử lý văn bản"
         AppLanguage.ARABIC -> "استخراج النص وتحويله ومعالجته"
         AppLanguage.PORTUGUESE -> "Extração, conversão e processamento de texto"
         AppLanguage.SPANISH -> "Extracción, conversión y procesamiento de texto"
@@ -12051,6 +12999,7 @@ object StringsB {
     val snippetExtractArticle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提取文章正文"
         AppLanguage.ENGLISH -> "Extract Article Content"
+        AppLanguage.VIETNAMESE -> "Trích xuất nội dung bài viết"
         AppLanguage.ARABIC -> "استخراج محتوى المقال"
         AppLanguage.PORTUGUESE -> "Extrair Conteúdo do Artigo"
         AppLanguage.SPANISH -> "Extraer Contenido del Artículo"
@@ -12063,6 +13012,7 @@ object StringsB {
     val snippetExtractArticleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "智能提取页面正文内容"
         AppLanguage.ENGLISH -> "Intelligently extract page content"
+        AppLanguage.VIETNAMESE -> "Trích xuất nội dung trang một cách thông minh"
         AppLanguage.ARABIC -> "استخراج محتوى الصفحة بذكاء"
         AppLanguage.PORTUGUESE -> "Extrair inteligentemente o conteúdo da página"
         AppLanguage.SPANISH -> "Extraer inteligentemente el contenido de la página"
@@ -12075,6 +13025,7 @@ object StringsB {
     val snippetReplaceText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "批量替换文本"
         AppLanguage.ENGLISH -> "Batch Replace Text"
+        AppLanguage.VIETNAMESE -> "Văn bản thay thế hàng loạt"
         AppLanguage.ARABIC -> "استبدال النص دفعة واحدة"
         AppLanguage.PORTUGUESE -> "Substituir Texto em Lote"
         AppLanguage.SPANISH -> "Reemplazo Masivo de Texto"
@@ -12087,6 +13038,7 @@ object StringsB {
     val snippetReplaceTextDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换页面中的文本"
         AppLanguage.ENGLISH -> "Replace text in page"
+        AppLanguage.VIETNAMESE -> "Thay thế văn bản trong trang"
         AppLanguage.ARABIC -> "استبدال النص في الصفحة"
         AppLanguage.PORTUGUESE -> "Substituir texto na página"
         AppLanguage.SPANISH -> "Reemplazar texto en la página"
@@ -12099,6 +13051,7 @@ object StringsB {
     val snippetTranslateSelection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选中文字翻译"
         AppLanguage.ENGLISH -> "Translate Selection"
+        AppLanguage.VIETNAMESE -> "Dịch lựa chọn"
         AppLanguage.ARABIC -> "ترجمة النص المحدد"
         AppLanguage.PORTUGUESE -> "Traduzir Seleção"
         AppLanguage.SPANISH -> "Traducir Selección"
@@ -12111,6 +13064,7 @@ object StringsB {
     val snippetTranslateSelectionDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选中文字后显示翻译"
         AppLanguage.ENGLISH -> "Show translation for selected text"
+        AppLanguage.VIETNAMESE -> "Hiển thị bản dịch cho văn bản đã chọn"
         AppLanguage.ARABIC -> "عرض الترجمة للنص المحدد"
         AppLanguage.PORTUGUESE -> "Exibir tradução do texto selecionado"
         AppLanguage.SPANISH -> "Mostrar traducción del texto seleccionado"
@@ -12123,6 +13077,7 @@ object StringsB {
     val snippetHtmlToMarkdown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 转 Markdown"
         AppLanguage.ENGLISH -> "HTML to Markdown"
+        AppLanguage.VIETNAMESE -> "HTML để đánh dấu"
         AppLanguage.ARABIC -> "تحويل HTML إلى Markdown"
         AppLanguage.PORTUGUESE -> "HTML para Markdown"
         AppLanguage.SPANISH -> "HTML a Markdown"
@@ -12135,6 +13090,7 @@ object StringsB {
     val snippetHtmlToMarkdownDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将 HTML 转换为 Markdown"
         AppLanguage.ENGLISH -> "Convert HTML to Markdown"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi HTML sang Markdown"
         AppLanguage.ARABIC -> "تحويل HTML إلى Markdown"
         AppLanguage.PORTUGUESE -> "Converter HTML para Markdown"
         AppLanguage.SPANISH -> "Convertir HTML a Markdown"
@@ -12148,6 +13104,7 @@ object StringsB {
     val snippetIntercept: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求拦截"
         AppLanguage.ENGLISH -> "Request Intercept"
+        AppLanguage.VIETNAMESE -> "Yêu cầu chặn"
         AppLanguage.ARABIC -> "اعتراض الطلبات"
         AppLanguage.PORTUGUESE -> "Interceptação de Requisição"
         AppLanguage.SPANISH -> "Intercepción de Solicitud"
@@ -12160,6 +13117,7 @@ object StringsB {
     val snippetInterceptDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截和修改网络请求"
         AppLanguage.ENGLISH -> "Intercept and modify network requests"
+        AppLanguage.VIETNAMESE -> "Chặn và sửa đổi các yêu cầu mạng"
         AppLanguage.ARABIC -> "اعتراض وتعديل طلبات الشبكة"
         AppLanguage.PORTUGUESE -> "Interceptar e modificar requisições de rede"
         AppLanguage.SPANISH -> "Interceptar y modificar solicitudes de red"
@@ -12172,6 +13130,7 @@ object StringsB {
     val snippetInterceptFetch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截 Fetch 请求"
         AppLanguage.ENGLISH -> "Intercept Fetch Request"
+        AppLanguage.VIETNAMESE -> "Chặn yêu cầu tìm nạp"
         AppLanguage.ARABIC -> "اعتراض طلب Fetch"
         AppLanguage.PORTUGUESE -> "Interceptar Requisição Fetch"
         AppLanguage.SPANISH -> "Interceptar Solicitud Fetch"
@@ -12184,6 +13143,7 @@ object StringsB {
     val snippetInterceptFetchDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截和修改 fetch 请求"
         AppLanguage.ENGLISH -> "Intercept and modify fetch requests"
+        AppLanguage.VIETNAMESE -> "Chặn và sửa đổi các yêu cầu tìm nạp"
         AppLanguage.ARABIC -> "اعتراض وتعديل طلبات fetch"
         AppLanguage.PORTUGUESE -> "Interceptar e modificar requisições fetch"
         AppLanguage.SPANISH -> "Interceptar y modificar solicitudes fetch"
@@ -12196,6 +13156,7 @@ object StringsB {
     val snippetInterceptXhr: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截 XHR 请求"
         AppLanguage.ENGLISH -> "Intercept XHR Request"
+        AppLanguage.VIETNAMESE -> "Chặn yêu cầu XHR"
         AppLanguage.ARABIC -> "اعتراض طلب XHR"
         AppLanguage.PORTUGUESE -> "Interceptar Requisição XHR"
         AppLanguage.SPANISH -> "Interceptar Solicitud XHR"
@@ -12208,6 +13169,7 @@ object StringsB {
     val snippetInterceptXhrDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截 XMLHttpRequest 请求"
         AppLanguage.ENGLISH -> "Intercept XMLHttpRequest requests"
+        AppLanguage.VIETNAMESE -> "Chặn các yêu cầu XMLHttpRequest"
         AppLanguage.ARABIC -> "اعتراض طلبات XMLHttpRequest"
         AppLanguage.PORTUGUESE -> "Interceptar requisições XMLHttpRequest"
         AppLanguage.SPANISH -> "Interceptar solicitudes XMLHttpRequest"
@@ -12220,6 +13182,7 @@ object StringsB {
     val snippetInterceptWebSocket: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截 WebSocket"
         AppLanguage.ENGLISH -> "Intercept WebSocket"
+        AppLanguage.VIETNAMESE -> "Chặn WebSocket"
         AppLanguage.ARABIC -> "اعتراض WebSocket"
         AppLanguage.PORTUGUESE -> "Interceptar WebSocket"
         AppLanguage.SPANISH -> "Interceptar WebSocket"

@@ -21,6 +21,7 @@ enum class AppLanguage(
 ) {
     CHINESE("zh", "Chinese", "中文", Locale.CHINESE),
     ENGLISH("en", "English", "English", Locale.ENGLISH),
+    VIETNAMESE("vi", "Vietnamese", "Tiếng Việt", Locale("vi")),
     ARABIC("ar", "Arabic", "العربية", Locale("ar"), isRtl = true),
     PORTUGUESE("pt", "Portuguese", "Português", Locale("pt")),
     SPANISH("es", "Spanish", "Español", Locale("es")),
@@ -65,6 +66,7 @@ class LanguageManager(private val context: Context) {
         val systemLocale = Locale.getDefault()
         return when (systemLocale.language) {
             "zh" -> "zh"
+            "vi" -> "vi"
             "ar" -> "ar"
             "pt" -> "pt"
             "es" -> "es"

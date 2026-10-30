@@ -8,6 +8,7 @@ object StringsE {
     val communityExtStoreTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插件市场"
         AppLanguage.ENGLISH -> "Plugin Market"
+        AppLanguage.VIETNAMESE -> "Thị trường plugin"
         AppLanguage.ARABIC -> "سوق الإضافات"
         AppLanguage.PORTUGUESE -> "Mercado de Plugins"
         AppLanguage.SPANISH -> "Mercado de Plugins"
@@ -20,6 +21,7 @@ object StringsE {
     val browserExtTab: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览器扩展"
         AppLanguage.ENGLISH -> "Browser Extensions"
+        AppLanguage.VIETNAMESE -> "Tiện ích mở rộng trình duyệt"
         AppLanguage.ARABIC -> "إضافات المتصفح"
         AppLanguage.PORTUGUESE -> "Extensões do Navegador"
         AppLanguage.SPANISH -> "Extensiones del Navegador"
@@ -32,6 +34,7 @@ object StringsE {
     val browserExtStoreInstallByIdHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "或粘贴 Chrome 网上应用店链接 / 扩展 ID 安装"
         AppLanguage.ENGLISH -> "Or paste a Chrome Web Store link / extension ID to install"
+        AppLanguage.VIETNAMESE -> "Hoặc dán ID tiện ích/liên kết của Cửa hàng Chrome trực tuyến để cài đặt"
         AppLanguage.ARABIC -> "أو الصق رابط متجر Chrome / معرف الإضافة للتثبيت"
         AppLanguage.PORTUGUESE -> "Ou cole um link da Chrome Web Store / ID da extensão para instalar"
         AppLanguage.SPANISH -> "O pega un enlace de Chrome Web Store / ID de extensión para instalar"
@@ -44,6 +47,7 @@ object StringsE {
     val cwsSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索 Chrome 网上应用店"
         AppLanguage.ENGLISH -> "Search the Chrome Web Store"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm Cửa hàng Chrome trực tuyến"
         AppLanguage.ARABIC -> "ابحث في متجر إضافات Chrome"
         AppLanguage.PORTUGUESE -> "Pesquisar na Chrome Web Store"
         AppLanguage.SPANISH -> "Buscar en la Chrome Web Store"
@@ -56,6 +60,7 @@ object StringsE {
     val cwsSearching: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在搜索 Chrome 网上应用店…"
         AppLanguage.ENGLISH -> "Searching the Chrome Web Store…"
+        AppLanguage.VIETNAMESE -> "Đang tìm kiếm trong Cửa hàng Chrome trực tuyến…"
         AppLanguage.ARABIC -> "جارٍ البحث في متجر إضافات Chrome…"
         AppLanguage.PORTUGUESE -> "Pesquisando na Chrome Web Store…"
         AppLanguage.SPANISH -> "Buscando en la Chrome Web Store…"
@@ -68,6 +73,7 @@ object StringsE {
     val cwsNoResults: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有找到相关扩展"
         AppLanguage.ENGLISH -> "No extensions found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tiện ích mở rộng nào"
         AppLanguage.ARABIC -> "لم يتم العثور على إضافات"
         AppLanguage.PORTUGUESE -> "Nenhuma extensão encontrada"
         AppLanguage.SPANISH -> "No se encontraron extensiones"
@@ -80,6 +86,7 @@ object StringsE {
     val cwsSearchFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "商店搜索暂不可用，可粘贴扩展 ID 直装"
         AppLanguage.ENGLISH -> "Store search is unavailable. Paste an extension ID to install directly"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm cửa hàng không có sẵn. Dán ID tiện ích mở rộng để cài đặt trực tiếp"
         AppLanguage.ARABIC -> "بحث المتجر غير متاح. الصق معرف إضافة للتثبيت المباشر"
         AppLanguage.PORTUGUESE -> "A pesquisa da loja está indisponível. Cole um ID de extensão para instalar diretamente"
         AppLanguage.SPANISH -> "La búsqueda de la tienda no está disponible. Pega un ID de extensión para instalar directamente"
@@ -92,6 +99,7 @@ object StringsE {
     val cwsSearchIntro: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入关键词搜索 Chrome 网上应用店（需要可访问 Google 的网络）"
         AppLanguage.ENGLISH -> "Type a keyword to search the Chrome Web Store (requires a network that can reach Google)"
+        AppLanguage.VIETNAMESE -> "Nhập từ khóa để tìm kiếm Cửa hàng Chrome trực tuyến (yêu cầu mạng có thể truy cập Google)"
         AppLanguage.ARABIC -> "اكتب كلمة رئيسية للبحث في متجر إضافات Chrome (يتطلب شبكة قادرة على الوصول إلى Google)"
         AppLanguage.PORTUGUESE -> "Digite uma palavra-chave para pesquisar na Chrome Web Store (requer uma rede que possa acessar o Google)"
         AppLanguage.SPANISH -> "Escribe una palabra clave para buscar en la Chrome Web Store (requiere una red que pueda acceder a Google)"
@@ -105,6 +113,7 @@ object StringsE {
     val cwsBrowseIntro: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览精选扩展，或搜索 Chrome 网上应用店（搜索需可访问 Google）"
         AppLanguage.ENGLISH -> "Browse featured extensions, or search the Chrome Web Store (search needs Google access)"
+        AppLanguage.VIETNAMESE -> "Duyệt qua các tiện ích mở rộng nổi bật hoặc tìm kiếm Cửa hàng Chrome trực tuyến (tìm kiếm cần có quyền truy cập của Google)"
         AppLanguage.ARABIC -> "تصفّح الإضافات المميزة أو ابحث في متجر Chrome (البحث يتطلب الوصول إلى Google)"
         AppLanguage.PORTUGUESE -> "Navegue pelas extensões em destaque ou pesquise na Chrome Web Store (a pesquisa precisa de acesso ao Google)"
         AppLanguage.SPANISH -> "Explora extensiones destacadas o busca en la Chrome Web Store (la búsqueda necesita acceso a Google)"
@@ -118,6 +127,7 @@ object StringsE {
     val cwsFeaturedTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "精选扩展"
         AppLanguage.ENGLISH -> "Featured"
+        AppLanguage.VIETNAMESE -> "Nổi bật"
         AppLanguage.ARABIC -> "مميزة"
         AppLanguage.PORTUGUESE -> "Em destaque"
         AppLanguage.SPANISH -> "Destacadas"
@@ -131,6 +141,7 @@ object StringsE {
     val cwsCategoryFeatured: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "精选"
         AppLanguage.ENGLISH -> "Featured"
+        AppLanguage.VIETNAMESE -> "Nổi bật"
         AppLanguage.ARABIC -> "مميزة"
         AppLanguage.PORTUGUESE -> "Destaques"
         AppLanguage.SPANISH -> "Destacadas"
@@ -144,6 +155,7 @@ object StringsE {
     val cwsCategoryAdBlocking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告拦截"
         AppLanguage.ENGLISH -> "Ad blocking"
+        AppLanguage.VIETNAMESE -> "Chặn quảng cáo"
         AppLanguage.ARABIC -> "حظر الإعلانات"
         AppLanguage.PORTUGUESE -> "Bloqueio de anúncios"
         AppLanguage.SPANISH -> "Bloqueo de anuncios"
@@ -157,6 +169,7 @@ object StringsE {
     val cwsCategoryPrivacy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐私"
         AppLanguage.ENGLISH -> "Privacy"
+        AppLanguage.VIETNAMESE -> "Sự riêng tư"
         AppLanguage.ARABIC -> "الخصوصية"
         AppLanguage.PORTUGUESE -> "Privacidade"
         AppLanguage.SPANISH -> "Privacidad"
@@ -183,6 +196,7 @@ object StringsE {
     val cwsCategoryProductivity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "效率"
         AppLanguage.ENGLISH -> "Productivity"
+        AppLanguage.VIETNAMESE -> "Năng suất"
         AppLanguage.ARABIC -> "الإنتاجية"
         AppLanguage.PORTUGUESE -> "Produtividade"
         AppLanguage.SPANISH -> "Productividad"
@@ -196,6 +210,7 @@ object StringsE {
     val cwsCategoryDeveloper: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发者"
         AppLanguage.ENGLISH -> "Developer"
+        AppLanguage.VIETNAMESE -> "Nhà phát triển"
         AppLanguage.ARABIC -> "المطوّرون"
         AppLanguage.PORTUGUESE -> "Desenvolvedor"
         AppLanguage.SPANISH -> "Desarrollador"
@@ -209,6 +224,7 @@ object StringsE {
     val cwsCategoryStyling: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "外观"
         AppLanguage.ENGLISH -> "Styling"
+        AppLanguage.VIETNAMESE -> "tạo kiểu"
         AppLanguage.ARABIC -> "المظهر"
         AppLanguage.PORTUGUESE -> "Estilo"
         AppLanguage.SPANISH -> "Estilo"
@@ -222,6 +238,7 @@ object StringsE {
     val cwsSortLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排序"
         AppLanguage.ENGLISH -> "Sort"
+        AppLanguage.VIETNAMESE -> "Loại"
         AppLanguage.ARABIC -> "الترتيب"
         AppLanguage.PORTUGUESE -> "Ordenar"
         AppLanguage.SPANISH -> "Ordenar"
@@ -248,6 +265,7 @@ object StringsE {
     val noGreasyForkScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无 GreasyFork 脚本"
         AppLanguage.ENGLISH -> "No GreasyFork scripts yet"
+        AppLanguage.VIETNAMESE -> "Chưa có tập lệnh GreasyFork nào"
         AppLanguage.ARABIC -> "لا توجد سكربتات GreasyFork بعد"
         AppLanguage.PORTUGUESE -> "Ainda não há scripts do GreasyFork"
         AppLanguage.SPANISH -> "Aún no hay scripts de GreasyFork"
@@ -261,6 +279,7 @@ object StringsE {
     val greasyForkEmptyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从扩展商店浏览安装，或导入 .user.js 文件"
         AppLanguage.ENGLISH -> "Browse the store to install, or import a .user.js file"
+        AppLanguage.VIETNAMESE -> "Duyệt qua cửa hàng để cài đặt hoặc nhập tệp .user.js"
         AppLanguage.ARABIC -> "تصفح المتجر للتثبيت أو استورد ملف .user.js"
         AppLanguage.PORTUGUESE -> "Navegue pela loja para instalar ou importe um arquivo .user.js"
         AppLanguage.SPANISH -> "Explora la tienda para instalar o importa un archivo .user.js"
@@ -274,6 +293,7 @@ object StringsE {
     val browseGreasyFork: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "逛逛 GreasyFork"
         AppLanguage.ENGLISH -> "Browse GreasyFork"
+        AppLanguage.VIETNAMESE -> "Duyệt qua GreasyFork"
         AppLanguage.ARABIC -> "تصفح GreasyFork"
         AppLanguage.PORTUGUESE -> "Explorar GreasyFork"
         AppLanguage.SPANISH -> "Explorar GreasyFork"
@@ -287,6 +307,7 @@ object StringsE {
     val gfSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索 GreasyFork 脚本"
         AppLanguage.ENGLISH -> "Search GreasyFork scripts"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm tập lệnh GreasyFork"
         AppLanguage.ARABIC -> "ابحث في سكربتات GreasyFork"
         AppLanguage.PORTUGUESE -> "Pesquisar scripts GreasyFork"
         AppLanguage.SPANISH -> "Buscar scripts GreasyFork"
@@ -299,6 +320,7 @@ object StringsE {
     val gfSearching: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在搜索 GreasyFork…"
         AppLanguage.ENGLISH -> "Searching GreasyFork…"
+        AppLanguage.VIETNAMESE -> "Đang tìm kiếm GreasyFork…"
         AppLanguage.ARABIC -> "جارٍ البحث في GreasyFork…"
         AppLanguage.PORTUGUESE -> "Pesquisando GreasyFork…"
         AppLanguage.SPANISH -> "Buscando en GreasyFork…"
@@ -311,6 +333,7 @@ object StringsE {
     val gfNoResults: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有找到匹配的脚本"
         AppLanguage.ENGLISH -> "No matching scripts found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tập lệnh phù hợp"
         AppLanguage.ARABIC -> "لم يتم العثور على سكربتات مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum script correspondente encontrado"
         AppLanguage.SPANISH -> "No se encontraron scripts coincidentes"
@@ -323,6 +346,7 @@ object StringsE {
     val gfSearchFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索 GreasyFork 失败"
         AppLanguage.ENGLISH -> "GreasyFork search failed"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm GreasyFork không thành công"
         AppLanguage.ARABIC -> "فشل البحث في GreasyFork"
         AppLanguage.PORTUGUESE -> "Falha na pesquisa do GreasyFork"
         AppLanguage.SPANISH -> "Error en la búsqueda de GreasyFork"
@@ -335,6 +359,7 @@ object StringsE {
     val gfSearchIntro: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从 GreasyFork 社区搜索并安装用户脚本。输入关键词开始搜索。"
         AppLanguage.ENGLISH -> "Search and install user scripts from the GreasyFork community. Type a keyword to start."
+        AppLanguage.VIETNAMESE -> "Tìm kiếm và cài đặt tập lệnh người dùng từ cộng đồng GreasyFork. Nhập từ khóa để bắt đầu."
         AppLanguage.ARABIC -> "ابحث وثبّت سكربتات المستخدم من مجتمع GreasyFork. اكتب كلمة رئيسية للبدء."
         AppLanguage.PORTUGUESE -> "Pesquise e instale scripts de usuário da comunidade GreasyFork. Digite uma palavra-chave para começar."
         AppLanguage.SPANISH -> "Busca e instala scripts de usuario de la comunidad GreasyFork. Escribe una palabra clave para empezar."
@@ -347,6 +372,7 @@ object StringsE {
     val gfBrowseIntro: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览热门用户脚本，或搜索 GreasyFork 社区（需可访问 greasyfork.org）"
         AppLanguage.ENGLISH -> "Browse popular user scripts, or search the GreasyFork community (requires access to greasyfork.org)"
+        AppLanguage.VIETNAMESE -> "Duyệt qua các tập lệnh người dùng phổ biến hoặc tìm kiếm cộng đồng GreasyFork (yêu cầu quyền truy cập vào butterfork.org)"
         AppLanguage.ARABIC -> "تصفّح سكربتات المستخدم الشائعة، أو ابحث في مجتمع GreasyFork (يتطلب الوصول إلى greasyfork.org)"
         AppLanguage.PORTUGUESE -> "Navegue por scripts populares ou pesquise na comunidade GreasyFork (requer acesso a greasyfork.org)"
         AppLanguage.SPANISH -> "Explora scripts populares o busca en la comunidad GreasyFork (requiere acceso a greasyfork.org)"
@@ -359,6 +385,7 @@ object StringsE {
     val gfHotTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "热门脚本"
         AppLanguage.ENGLISH -> "Popular scripts"
+        AppLanguage.VIETNAMESE -> "Kịch bản phổ biến"
         AppLanguage.ARABIC -> "السكربتات الشائعة"
         AppLanguage.PORTUGUESE -> "Scripts populares"
         AppLanguage.SPANISH -> "Scripts populares"
@@ -371,6 +398,7 @@ object StringsE {
     val gfCategoryHot: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "热门"
         AppLanguage.ENGLISH -> "Popular"
+        AppLanguage.VIETNAMESE -> "Phổ biến"
         AppLanguage.ARABIC -> "شائع"
         AppLanguage.PORTUGUESE -> "Populares"
         AppLanguage.SPANISH -> "Popular"
@@ -383,6 +411,7 @@ object StringsE {
     val gfSortLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排序"
         AppLanguage.ENGLISH -> "Sort"
+        AppLanguage.VIETNAMESE -> "Loại"
         AppLanguage.ARABIC -> "ترتيب"
         AppLanguage.PORTUGUESE -> "Ordenar"
         AppLanguage.SPANISH -> "Ordenar"
@@ -395,6 +424,7 @@ object StringsE {
     val gfSortDaily: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "今日安装"
         AppLanguage.ENGLISH -> "Daily installs"
+        AppLanguage.VIETNAMESE -> "Số lượt cài đặt hàng ngày"
         AppLanguage.ARABIC -> "تثبيتات اليوم"
         AppLanguage.PORTUGUESE -> "Instalações diárias"
         AppLanguage.SPANISH -> "Instalaciones diarias"
@@ -407,6 +437,7 @@ object StringsE {
     val gfSortTotal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "总安装量"
         AppLanguage.ENGLISH -> "Total installs"
+        AppLanguage.VIETNAMESE -> "Tổng số lượt cài đặt"
         AppLanguage.ARABIC -> "إجمالي التثبيتات"
         AppLanguage.PORTUGUESE -> "Instalações totais"
         AppLanguage.SPANISH -> "Instalaciones totales"
@@ -419,6 +450,7 @@ object StringsE {
     val gfSortScore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "社区评分"
         AppLanguage.ENGLISH -> "Fan score"
+        AppLanguage.VIETNAMESE -> "Điểm của người hâm mộ"
         AppLanguage.ARABIC -> "نقاط المعجبين"
         AppLanguage.PORTUGUESE -> "Pontuação de fãs"
         AppLanguage.SPANISH -> "Puntuación de fans"
@@ -431,6 +463,7 @@ object StringsE {
     val gfSortRatings: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "好评数"
         AppLanguage.ENGLISH -> "Ratings"
+        AppLanguage.VIETNAMESE -> "Xếp hạng"
         AppLanguage.ARABIC -> "التقييمات"
         AppLanguage.PORTUGUESE -> "Avaliações"
         AppLanguage.SPANISH -> "Valoraciones"
@@ -443,6 +476,7 @@ object StringsE {
     val gfSortUpdated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近更新"
         AppLanguage.ENGLISH -> "Recently updated"
+        AppLanguage.VIETNAMESE -> "Đã cập nhật gần đây"
         AppLanguage.ARABIC -> "تحديث مؤخرًا"
         AppLanguage.PORTUGUESE -> "Atualizado recentemente"
         AppLanguage.SPANISH -> "Actualizado recientemente"
@@ -455,6 +489,7 @@ object StringsE {
     val gfInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装失败"
         AppLanguage.ENGLISH -> "Install failed"
+        AppLanguage.VIETNAMESE -> "Cài đặt không thành công"
         AppLanguage.ARABIC -> "فشل التثبيت"
         AppLanguage.PORTUGUESE -> "Falha na instalação"
         AppLanguage.SPANISH -> "Error de instalación"
@@ -467,6 +502,7 @@ object StringsE {
     val gfEmptyTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无 GreasyFork 脚本"
         AppLanguage.ENGLISH -> "No GreasyFork scripts"
+        AppLanguage.VIETNAMESE -> "Không có tập lệnh GreasyFork"
         AppLanguage.ARABIC -> "لا توجد سكربتات GreasyFork"
         AppLanguage.PORTUGUESE -> "Sem scripts GreasyFork"
         AppLanguage.SPANISH -> "Sin scripts GreasyFork"
@@ -479,6 +515,7 @@ object StringsE {
     val gfFromUserScriptsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从 GreasyFork 搜索"
         AppLanguage.ENGLISH -> "Search GreasyFork"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm GreasyFork"
         AppLanguage.ARABIC -> "ابحث في GreasyFork"
         AppLanguage.PORTUGUESE -> "Pesquisar GreasyFork"
         AppLanguage.SPANISH -> "Buscar en GreasyFork"
@@ -491,6 +528,7 @@ object StringsE {
     val gfFromUserScriptsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从社区脚本库搜索并安装用户脚本"
         AppLanguage.ENGLISH -> "Search and install user scripts from the community"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm và cài đặt tập lệnh người dùng từ cộng đồng"
         AppLanguage.ARABIC -> "ابحث وثبّت سكربتات المستخدم من المجتمع"
         AppLanguage.PORTUGUESE -> "Pesquise e instale scripts de usuário da comunidade"
         AppLanguage.SPANISH -> "Busca e instala scripts de usuario de la comunidad"
@@ -504,6 +542,7 @@ object StringsE {
     val cwsSortDefault: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认"
         AppLanguage.ENGLISH -> "Default"
+        AppLanguage.VIETNAMESE -> "Mặc định"
         AppLanguage.ARABIC -> "افتراضي"
         AppLanguage.PORTUGUESE -> "Padrão"
         AppLanguage.SPANISH -> "Predeterminado"
@@ -517,6 +556,7 @@ object StringsE {
     val cwsSortRating: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "评分"
         AppLanguage.ENGLISH -> "Rating"
+        AppLanguage.VIETNAMESE -> "Đánh giá"
         AppLanguage.ARABIC -> "التقييم"
         AppLanguage.PORTUGUESE -> "Avaliação"
         AppLanguage.SPANISH -> "Valoración"
@@ -530,6 +570,7 @@ object StringsE {
     val cwsSortReviews: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "评论数"
         AppLanguage.ENGLISH -> "Reviews"
+        AppLanguage.VIETNAMESE -> "Đánh giá"
         AppLanguage.ARABIC -> "المراجعات"
         AppLanguage.PORTUGUESE -> "Avaliações"
         AppLanguage.SPANISH -> "Reseñas"
@@ -543,6 +584,7 @@ object StringsE {
     val cwsSortDownloads: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载量"
         AppLanguage.ENGLISH -> "Users"
+        AppLanguage.VIETNAMESE -> "Người dùng"
         AppLanguage.ARABIC -> "المستخدمون"
         AppLanguage.PORTUGUESE -> "Utilizadores"
         AppLanguage.SPANISH -> "Usuarios"
@@ -556,6 +598,7 @@ object StringsE {
     val cwsDlModule: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在下载扩展"
         AppLanguage.ENGLISH -> "Downloading extension"
+        AppLanguage.VIETNAMESE -> "Đang tải xuống tiện ích mở rộng"
         AppLanguage.ARABIC -> "جارٍ تنزيل الإضافة"
         AppLanguage.PORTUGUESE -> "Baixando extensão"
         AppLanguage.SPANISH -> "Descargando extensión"
@@ -568,6 +611,7 @@ object StringsE {
     val cwsDlIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在下载图标"
         AppLanguage.ENGLISH -> "Downloading icon"
+        AppLanguage.VIETNAMESE -> "Biểu tượng tải xuống"
         AppLanguage.ARABIC -> "جارٍ تنزيل الأيقونة"
         AppLanguage.PORTUGUESE -> "Baixando ícone"
         AppLanguage.SPANISH -> "Descargando icono"
@@ -580,6 +624,7 @@ object StringsE {
     val cwsDlTags: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在生成特征标签"
         AppLanguage.ENGLISH -> "Generating feature tags"
+        AppLanguage.VIETNAMESE -> "Tạo thẻ tính năng"
         AppLanguage.ARABIC -> "جارٍ إنشاء العلامات"
         AppLanguage.PORTUGUESE -> "Gerando etiquetas de recursos"
         AppLanguage.SPANISH -> "Generando etiquetas de funciones"
@@ -592,6 +637,7 @@ object StringsE {
     val cwsAdBlockTip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要广告拦截？试试内置广告过滤（hosts 规则 + 20 个过滤列表），无需安装扩展"
         AppLanguage.ENGLISH -> "Need ad blocking? Try the built-in ad blocker (hosts rules + 20 filter lists) instead of an extension"
+        AppLanguage.VIETNAMESE -> "Cần chặn quảng cáo? Hãy dùng thử trình chặn quảng cáo tích hợp (quy tắc máy chủ + 20 danh sách bộ lọc) thay vì tiện ích mở rộng"
         AppLanguage.ARABIC -> "تحتاج إلى حظر الإعلانات؟ جرّب مانع الإعلانات المدمج (قواعد hosts + 20 قائمة تصفية) بدلاً من الإضافة"
         AppLanguage.PORTUGUESE -> "Precisa bloquear anúncios? Experimente o bloqueador de anúncios integrado (regras hosts + 20 listas de filtros) em vez de uma extensão"
         AppLanguage.SPANISH -> "¿Necesitas bloquear anuncios? Prueba el bloqueador integrado (reglas hosts + 20 listas de filtros) en lugar de una extensión"
@@ -604,6 +650,7 @@ object StringsE {
     val cwsTagAdBlocking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告拦截"
         AppLanguage.ENGLISH -> "Ad Blocking"
+        AppLanguage.VIETNAMESE -> "Chặn quảng cáo"
         AppLanguage.ARABIC -> "حظر الإعلانات"
         AppLanguage.PORTUGUESE -> "Bloqueio de Anúncios"
         AppLanguage.SPANISH -> "Bloqueo de Anuncios"
@@ -616,6 +663,7 @@ object StringsE {
     val cwsTagTranslate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "翻译"
         AppLanguage.ENGLISH -> "Translate"
+        AppLanguage.VIETNAMESE -> "Dịch"
         AppLanguage.ARABIC -> "ترجمة"
         AppLanguage.PORTUGUESE -> "Traduzir"
         AppLanguage.SPANISH -> "Traducir"
@@ -628,6 +676,7 @@ object StringsE {
     val cwsTagDarkMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暗色模式"
         AppLanguage.ENGLISH -> "Dark Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ tối"
         AppLanguage.ARABIC -> "الوضع الداكن"
         AppLanguage.PORTUGUESE -> "Modo Escuro"
         AppLanguage.SPANISH -> "Modo Oscuro"
@@ -640,6 +689,7 @@ object StringsE {
     val cwsTagDownloader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载工具"
         AppLanguage.ENGLISH -> "Downloader"
+        AppLanguage.VIETNAMESE -> "Trình tải xuống"
         AppLanguage.ARABIC -> "أداة تنزيل"
         AppLanguage.PORTUGUESE -> "Baixador"
         AppLanguage.SPANISH -> "Descargador"
@@ -652,6 +702,7 @@ object StringsE {
     val cwsTagScreenshot: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "截图录屏"
         AppLanguage.ENGLISH -> "Screenshot"
+        AppLanguage.VIETNAMESE -> "Ảnh chụp màn hình"
         AppLanguage.ARABIC -> "لقطة شاشة"
         AppLanguage.PORTUGUESE -> "Captura de Tela"
         AppLanguage.SPANISH -> "Captura de Pantalla"
@@ -664,6 +715,7 @@ object StringsE {
     val cwsTagPassword: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码管理"
         AppLanguage.ENGLISH -> "Password"
+        AppLanguage.VIETNAMESE -> "Mật khẩu"
         AppLanguage.ARABIC -> "كلمات المرور"
         AppLanguage.PORTUGUESE -> "Senha"
         AppLanguage.SPANISH -> "Contraseña"
@@ -688,6 +740,7 @@ object StringsE {
     val cwsTagNotes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "笔记"
         AppLanguage.ENGLISH -> "Notes"
+        AppLanguage.VIETNAMESE -> "Ghi chú"
         AppLanguage.ARABIC -> "ملاحظات"
         AppLanguage.PORTUGUESE -> "Notas"
         AppLanguage.SPANISH -> "Notas"
@@ -700,6 +753,7 @@ object StringsE {
     val cwsTagTabManager: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标签管理"
         AppLanguage.ENGLISH -> "Tab Manager"
+        AppLanguage.VIETNAMESE -> "Trình quản lý tab"
         AppLanguage.ARABIC -> "إدارة التبويبات"
         AppLanguage.PORTUGUESE -> "Gerenciador de Abas"
         AppLanguage.SPANISH -> "Gestor de Pestañas"
@@ -712,6 +766,7 @@ object StringsE {
     val cwsTagDeveloper: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发工具"
         AppLanguage.ENGLISH -> "Developer"
+        AppLanguage.VIETNAMESE -> "Nhà phát triển"
         AppLanguage.ARABIC -> "أدوات مطور"
         AppLanguage.PORTUGUESE -> "Desenvolvedor"
         AppLanguage.SPANISH -> "Desarrollador"
@@ -724,6 +779,7 @@ object StringsE {
     val cwsTagColorTool: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取色配色"
         AppLanguage.ENGLISH -> "Color Tool"
+        AppLanguage.VIETNAMESE -> "Công cụ màu"
         AppLanguage.ARABIC -> "أداة الألوان"
         AppLanguage.PORTUGUESE -> "Ferramenta de Cor"
         AppLanguage.SPANISH -> "Herramienta de Color"
@@ -736,6 +792,7 @@ object StringsE {
     val cwsTagReading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "阅读增强"
         AppLanguage.ENGLISH -> "Reading"
+        AppLanguage.VIETNAMESE -> "Đọc"
         AppLanguage.ARABIC -> "قراءة"
         AppLanguage.PORTUGUESE -> "Leitura"
         AppLanguage.SPANISH -> "Lectura"
@@ -748,6 +805,7 @@ object StringsE {
     val cwsTagVideoTool: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频工具"
         AppLanguage.ENGLISH -> "Video Tool"
+        AppLanguage.VIETNAMESE -> "Công cụ Video"
         AppLanguage.ARABIC -> "أداة فيديو"
         AppLanguage.PORTUGUESE -> "Ferramenta de Vídeo"
         AppLanguage.SPANISH -> "Herramienta de Vídeo"
@@ -760,6 +818,7 @@ object StringsE {
     val cwsTagPrivacy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "隐私防护"
         AppLanguage.ENGLISH -> "Privacy"
+        AppLanguage.VIETNAMESE -> "Sự riêng tư"
         AppLanguage.ARABIC -> "الخصوصية"
         AppLanguage.PORTUGUESE -> "Privacidade"
         AppLanguage.SPANISH -> "Privacidad"
@@ -772,6 +831,7 @@ object StringsE {
     val cwsTagWriting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写作校对"
         AppLanguage.ENGLISH -> "Writing"
+        AppLanguage.VIETNAMESE -> "Viết"
         AppLanguage.ARABIC -> "كتابة"
         AppLanguage.PORTUGUESE -> "Escrita"
         AppLanguage.SPANISH -> "Escritura"
@@ -784,6 +844,7 @@ object StringsE {
     val cwsTagStyling: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "美化主题"
         AppLanguage.ENGLISH -> "Styling"
+        AppLanguage.VIETNAMESE -> "tạo kiểu"
         AppLanguage.ARABIC -> "تنسيق"
         AppLanguage.PORTUGUESE -> "Estilização"
         AppLanguage.SPANISH -> "Estilismo"
@@ -796,6 +857,7 @@ object StringsE {
     val cwsTagMail: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "邮件"
         AppLanguage.ENGLISH -> "Mail"
+        AppLanguage.VIETNAMESE -> "Thư"
         AppLanguage.ARABIC -> "بريد"
         AppLanguage.PORTUGUESE -> "E-mail"
         AppLanguage.SPANISH -> "Correo"
@@ -808,6 +870,7 @@ object StringsE {
     val cwsTagShortcuts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快捷操作"
         AppLanguage.ENGLISH -> "Shortcuts"
+        AppLanguage.VIETNAMESE -> "Phím tắt"
         AppLanguage.ARABIC -> "اختصارات"
         AppLanguage.PORTUGUESE -> "Atalhos"
         AppLanguage.SPANISH -> "Atajos"
@@ -820,6 +883,7 @@ object StringsE {
     val importChromeExtensionHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "支持 .crx/.zip，当前仅导入带 content_scripts 的扩展"
         AppLanguage.ENGLISH -> "Supports .crx/.zip. Currently imports extensions with content_scripts only"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ .crx/.zip. Hiện chỉ nhập các tiện ích mở rộng có content_scripts"
         AppLanguage.ARABIC -> "يدعم .crx/.zip. يستورد حالياً الإضافات التي تحتوي على content_scripts فقط"
         AppLanguage.PORTUGUESE -> "Suporta .crx/.zip. Atualmente importa apenas extensões com content_scripts"
         AppLanguage.SPANISH -> "Soporta .crx/.zip. Actualmente importa solo extensiones con content_scripts"
@@ -832,6 +896,7 @@ object StringsE {
     val installUserScript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装油猴脚本"
         AppLanguage.ENGLISH -> "Install Userscript"
+        AppLanguage.VIETNAMESE -> "Cài đặt bản mô tả người dùng"
         AppLanguage.ARABIC -> "تثبيت سكريبت المستخدم"
         AppLanguage.PORTUGUESE -> "Instalar Userscript"
         AppLanguage.SPANISH -> "Instalar Userscript"
@@ -844,6 +909,7 @@ object StringsE {
     val installChromeExtension: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装 Chrome 扩展"
         AppLanguage.ENGLISH -> "Install Chrome Extension"
+        AppLanguage.VIETNAMESE -> "Cài đặt tiện ích mở rộng của Chrome"
         AppLanguage.ARABIC -> "تثبيت إضافة Chrome"
         AppLanguage.PORTUGUESE -> "Instalar Extensão do Chrome"
         AppLanguage.SPANISH -> "Instalar Extensión de Chrome"
@@ -856,6 +922,7 @@ object StringsE {
     val importJsPackage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入 JS 扩展包"
         AppLanguage.ENGLISH -> "Import JS Package"
+        AppLanguage.VIETNAMESE -> "Nhập gói JS"
         AppLanguage.ARABIC -> "استيراد حزمة JS"
         AppLanguage.PORTUGUESE -> "Importar Pacote JS"
         AppLanguage.SPANISH -> "Importar Paquete JS"
@@ -868,6 +935,7 @@ object StringsE {
     val importJsPackageHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "支持包含多个 JS/CSS 文件的 ZIP 包"
         AppLanguage.ENGLISH -> "Supports ZIP with multiple JS/CSS files"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ ZIP với nhiều tệp JS/CSS"
         AppLanguage.ARABIC -> "يدعم ملفات ZIP تحتوي على ملفات JS/CSS متعددة"
         AppLanguage.PORTUGUESE -> "Suporta ZIP com vários arquivos JS/CSS"
         AppLanguage.SPANISH -> "Soporta ZIP con múltiples archivos JS/CSS"
@@ -880,6 +948,7 @@ object StringsE {
     val installJsPackage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装 JS 扩展包"
         AppLanguage.ENGLISH -> "Install JS Package"
+        AppLanguage.VIETNAMESE -> "Cài đặt gói JS"
         AppLanguage.ARABIC -> "تثبيت حزمة JS"
         AppLanguage.PORTUGUESE -> "Instalar Pacote JS"
         AppLanguage.SPANISH -> "Instalar Paquete JS"
@@ -892,6 +961,7 @@ object StringsE {
     val filesDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "个文件"
         AppLanguage.ENGLISH -> "files detected"
+        AppLanguage.VIETNAMESE -> "tập tin được phát hiện"
         AppLanguage.ARABIC -> "ملفات مكتشفة"
         AppLanguage.PORTUGUESE -> "arquivos detectados"
         AppLanguage.SPANISH -> "archivos detectados"
@@ -904,6 +974,7 @@ object StringsE {
     val totalSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "总大小"
         AppLanguage.ENGLISH -> "total"
+        AppLanguage.VIETNAMESE -> "tổng cộng"
         AppLanguage.ARABIC -> "الحجم الإجمالي"
         AppLanguage.PORTUGUESE -> "total"
         AppLanguage.SPANISH -> "total"
@@ -916,6 +987,7 @@ object StringsE {
     val extensionName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "扩展名称"
         AppLanguage.ENGLISH -> "Extension Name"
+        AppLanguage.VIETNAMESE -> "Tên tiện ích mở rộng"
         AppLanguage.ARABIC -> "اسم الإضافة"
         AppLanguage.PORTUGUESE -> "Nome da Extensão"
         AppLanguage.SPANISH -> "Nombre de la Extensión"
@@ -928,6 +1000,7 @@ object StringsE {
     val install: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装"
         AppLanguage.ENGLISH -> "Install"
+        AppLanguage.VIETNAMESE -> "Cài đặt"
         AppLanguage.ARABIC -> "تثبيت"
         AppLanguage.PORTUGUESE -> "Instalar"
         AppLanguage.SPANISH -> "Instalar"
@@ -940,6 +1013,7 @@ object StringsE {
     val launchInstalledApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动"
         AppLanguage.ENGLISH -> "Launch"
+        AppLanguage.VIETNAMESE -> "Phóng"
         AppLanguage.ARABIC -> "تشغيل"
         AppLanguage.PORTUGUESE -> "Abrir"
         AppLanguage.SPANISH -> "Abrir"
@@ -952,6 +1026,7 @@ object StringsE {
     val launchInstalledAppFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法启动该应用，请确认它已安装且有桌面图标"
         AppLanguage.ENGLISH -> "Could not launch the app. Check that it is installed and has a launcher icon."
+        AppLanguage.VIETNAMESE -> "Không thể khởi chạy ứng dụng. Kiểm tra xem nó đã được cài đặt chưa và có biểu tượng trình khởi chạy."
         AppLanguage.ARABIC -> "تعذر تشغيل التطبيق. تأكد من أنه مثبت وله أيقونة في الشاشة الرئيسية."
         AppLanguage.PORTUGUESE -> "Não foi possível abrir o aplicativo. Verifique se ele está instalado e tem um ícone."
         AppLanguage.SPANISH -> "No se pudo abrir la aplicación. Comprueba que esté instalada y tenga un icono."
@@ -964,6 +1039,7 @@ object StringsE {
     val matchingSites: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "匹配网站"
         AppLanguage.ENGLISH -> "Matching sites"
+        AppLanguage.VIETNAMESE -> "Trang web phù hợp"
         AppLanguage.ARABIC -> "المواقع المطابقة"
         AppLanguage.PORTUGUESE -> "Sites correspondentes"
         AppLanguage.SPANISH -> "Sitios coincidentes"
@@ -976,6 +1052,7 @@ object StringsE {
     val requiredApis: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "所需 API"
         AppLanguage.ENGLISH -> "Required APIs"
+        AppLanguage.VIETNAMESE -> "API bắt buộc"
         AppLanguage.ARABIC -> "واجهات برمجة مطلوبة"
         AppLanguage.PORTUGUESE -> "APIs necessárias"
         AppLanguage.SPANISH -> "APIs requeridas"
@@ -988,6 +1065,7 @@ object StringsE {
     val contentScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容脚本"
         AppLanguage.ENGLISH -> "content scripts"
+        AppLanguage.VIETNAMESE -> "kịch bản nội dung"
         AppLanguage.ARABIC -> "سكريبتات المحتوى"
         AppLanguage.PORTUGUESE -> "scripts de conteúdo"
         AppLanguage.SPANISH -> "scripts de contenido"
@@ -1000,6 +1078,7 @@ object StringsE {
     val unsupportedApis: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "不支持的 API"
         AppLanguage.ENGLISH -> "Unsupported APIs"
+        AppLanguage.VIETNAMESE -> "API không được hỗ trợ"
         AppLanguage.ARABIC -> "واجهات غير مدعومة"
         AppLanguage.PORTUGUESE -> "APIs não suportadas"
         AppLanguage.SPANISH -> "APIs no compatibles"
@@ -1012,6 +1091,7 @@ object StringsE {
     val multiFileStorageHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "多文件独立存储，保留原始文件结构"
         AppLanguage.ENGLISH -> "Multi-file storage, preserving original structure"
+        AppLanguage.VIETNAMESE -> "Lưu trữ nhiều tập tin, giữ nguyên cấu trúc ban đầu"
         AppLanguage.ARABIC -> "تخزين متعدد الملفات، الحفاظ على الهيكل الأصلي"
         AppLanguage.PORTUGUESE -> "Armazenamento de múltiplos arquivos, preservando a estrutura original"
         AppLanguage.SPANISH -> "Almacenamiento de múltiples archivos, preservando la estructura original"
@@ -1024,6 +1104,7 @@ object StringsE {
     val includedFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包含的文件"
         AppLanguage.ENGLISH -> "Included files"
+        AppLanguage.VIETNAMESE -> "Các tập tin đi kèm"
         AppLanguage.ARABIC -> "الملفات المضمنة"
         AppLanguage.PORTUGUESE -> "Arquivos incluídos"
         AppLanguage.SPANISH -> "Archivos incluidos"
@@ -1037,6 +1118,7 @@ object StringsE {
     val optimizeCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码优化"
         AppLanguage.ENGLISH -> "Code Optimization"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa mã"
         AppLanguage.ARABIC -> "تحسين الكود"
         AppLanguage.PORTUGUESE -> "Otimização de Código"
         AppLanguage.SPANISH -> "Optimización de Código"
@@ -1049,6 +1131,7 @@ object StringsE {
     val optimizeCodeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用构建工具压缩 JS/CSS、编译 TypeScript，减小应用体积"
         AppLanguage.ENGLISH -> "Minify JS/CSS, compile TypeScript to reduce app size"
+        AppLanguage.VIETNAMESE -> "Giảm thiểu JS/CSS, biên dịch TypeScript để giảm kích thước ứng dụng"
         AppLanguage.ARABIC -> "ضغط JS/CSS وتجميع TypeScript لتقليل حجم التطبيق"
         AppLanguage.PORTUGUESE -> "Minificar JS/CSS, compilar TypeScript para reduzir o tamanho do app"
         AppLanguage.SPANISH -> "Minificar JS/CSS, compilar TypeScript para reducir el tamaño de la app"
@@ -1061,6 +1144,7 @@ object StringsE {
     val optimizeJsSkippedNoEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未安装 esbuild 运行时，JS 压缩已跳过（避免压坏代码）；仅压缩 CSS/图片"
         AppLanguage.ENGLISH -> "esbuild runtime not installed; JS minification skipped (avoids corrupting code), only CSS/images are optimized"
+        AppLanguage.VIETNAMESE -> "thời gian chạy esbuild chưa được cài đặt; Bỏ qua việc rút gọn JS (tránh làm hỏng mã), chỉ CSS/hình ảnh được tối ưu hóa"
         AppLanguage.ARABIC -> "وقت تشغيل esbuild غير مثبت؛ تم تخطّي ضغط JS (لتجنّب إفساد الكود)، ويتم تحسين CSS/الصور فقط"
         AppLanguage.PORTUGUESE -> "Runtime do esbuild não instalado; minificação de JS ignorada (evita corromper o código), apenas CSS/imagens são otimizados"
         AppLanguage.SPANISH -> "Runtime de esbuild no instalado; minificación de JS omitida (evita corromper el código), solo se optimizan CSS/imágenes"
@@ -1073,6 +1157,7 @@ object StringsE {
     val optimizing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化中..."
         AppLanguage.ENGLISH -> "Optimizing..."
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa..."
         AppLanguage.ARABIC -> "جارٍ التحسين..."
         AppLanguage.PORTUGUESE -> "Otimizando..."
         AppLanguage.SPANISH -> "Optimizando..."
@@ -1085,6 +1170,7 @@ object StringsE {
     val optimizeComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化完成"
         AppLanguage.ENGLISH -> "Optimization complete"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa hoàn tất"
         AppLanguage.ARABIC -> "اكتمل التحسين"
         AppLanguage.PORTUGUESE -> "Otimização concluída"
         AppLanguage.SPANISH -> "Optimización completa"
@@ -1097,6 +1183,7 @@ object StringsE {
     val optimizeResultJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JS 文件压缩: %d 个"
         AppLanguage.ENGLISH -> "JS files minified: %d"
+        AppLanguage.VIETNAMESE -> "Các tệp JS được rút gọn: %d"
         AppLanguage.ARABIC -> "ملفات JS مضغوطة: %d"
         AppLanguage.PORTUGUESE -> "Arquivos JS minificados: %d"
         AppLanguage.SPANISH -> "Archivos JS minificados: %d"
@@ -1109,6 +1196,7 @@ object StringsE {
     val optimizeResultCss: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 文件压缩: %d 个"
         AppLanguage.ENGLISH -> "CSS files minified: %d"
+        AppLanguage.VIETNAMESE -> "Các tệp CSS được rút gọn: %d"
         AppLanguage.ARABIC -> "ملفات CSS مضغوطة: %d"
         AppLanguage.PORTUGUESE -> "Arquivos CSS minificados: %d"
         AppLanguage.SPANISH -> "Archivos CSS minificados: %d"
@@ -1121,6 +1209,7 @@ object StringsE {
     val optimizeResultTs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "TypeScript 编译: %d 个"
         AppLanguage.ENGLISH -> "TypeScript compiled: %d"
+        AppLanguage.VIETNAMESE -> "TypeScript được biên dịch: %d"
         AppLanguage.ARABIC -> "ملفات TypeScript مجمعة: %d"
         AppLanguage.PORTUGUESE -> "TypeScript compilado: %d"
         AppLanguage.SPANISH -> "TypeScript compilado: %d"
@@ -1133,6 +1222,7 @@ object StringsE {
     val optimizeResultSaved: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "节省空间: %s"
         AppLanguage.ENGLISH -> "Space saved: %s"
+        AppLanguage.VIETNAMESE -> "Dung lượng đã lưu: %s"
         AppLanguage.ARABIC -> "المساحة الموفرة: %s"
         AppLanguage.PORTUGUESE -> "Espaço economizado: %s"
         AppLanguage.SPANISH -> "Espacio ahorrado: %s"
@@ -1145,6 +1235,7 @@ object StringsE {
     val optimizeFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化失败: %s"
         AppLanguage.ENGLISH -> "Optimization failed: %s"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa không thành công: %s"
         AppLanguage.ARABIC -> "فشل التحسين: %s"
         AppLanguage.PORTUGUESE -> "Otimização falhou: %s"
         AppLanguage.SPANISH -> "Optimización fallida: %s"
@@ -1157,6 +1248,7 @@ object StringsE {
     val tsPreCompile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "TypeScript 预编译"
         AppLanguage.ENGLISH -> "TypeScript Pre-compilation"
+        AppLanguage.VIETNAMESE -> "Biên dịch trước TypeScript"
         AppLanguage.ARABIC -> "تجميع TypeScript المسبق"
         AppLanguage.PORTUGUESE -> "Pré-compilação TypeScript"
         AppLanguage.SPANISH -> "Precompilación TypeScript"
@@ -1169,6 +1261,7 @@ object StringsE {
     val tsPreCompileHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动前使用 esbuild 将 TypeScript 编译为 JavaScript，提升运行速度"
         AppLanguage.ENGLISH -> "Compile TypeScript to JavaScript with esbuild before launch for faster startup"
+        AppLanguage.VIETNAMESE -> "Biên dịch TypeScript sang JavaScript bằng esbuild trước khi khởi chạy để khởi động nhanh hơn"
         AppLanguage.ARABIC -> "تجميع TypeScript إلى JavaScript باستخدام esbuild قبل التشغيل لبدء أسرع"
         AppLanguage.PORTUGUESE -> "Compilar TypeScript para JavaScript com esbuild antes da inicialização para início mais rápido"
         AppLanguage.SPANISH -> "Compilar TypeScript a JavaScript con esbuild antes del lanzamiento para un inicio más rápido"
@@ -1181,6 +1274,7 @@ object StringsE {
     val performanceOptimization: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "性能优化"
         AppLanguage.ENGLISH -> "Performance Optimization"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa hiệu suất"
         AppLanguage.ARABIC -> "تحسين الأداء"
         AppLanguage.PORTUGUESE -> "Otimização de Desempenho"
         AppLanguage.SPANISH -> "Optimización de Rendimiento"
@@ -1193,6 +1287,7 @@ object StringsE {
     val perfEnabled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已启用性能优化"
         AppLanguage.ENGLISH -> "Performance optimization enabled"
+        AppLanguage.VIETNAMESE -> "Đã bật tối ưu hóa hiệu suất"
         AppLanguage.ARABIC -> "تم تفعيل تحسين الأداء"
         AppLanguage.PORTUGUESE -> "Otimização de desempenho ativada"
         AppLanguage.SPANISH -> "Optimización de rendimiento activada"
@@ -1205,6 +1300,7 @@ object StringsE {
     val perfDisabled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未启用性能优化"
         AppLanguage.ENGLISH -> "Performance optimization disabled"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa hiệu suất bị vô hiệu hóa"
         AppLanguage.ARABIC -> "تحسين الأداء معطل"
         AppLanguage.PORTUGUESE -> "Otimização de desempenho desativada"
         AppLanguage.SPANISH -> "Optimización de rendimiento desactivada"
@@ -1218,6 +1314,7 @@ object StringsE {
     val perfResourceOptimize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "资源优化"
         AppLanguage.ENGLISH -> "Resource Optimization"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa tài nguyên"
         AppLanguage.ARABIC -> "تحسين الموارد"
         AppLanguage.PORTUGUESE -> "Otimização de Recursos"
         AppLanguage.SPANISH -> "Optimización de Recursos"
@@ -1230,6 +1327,7 @@ object StringsE {
     val perfCompressImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片压缩"
         AppLanguage.ENGLISH -> "Image Compression"
+        AppLanguage.VIETNAMESE -> "Nén hình ảnh"
         AppLanguage.ARABIC -> "ضغط الصور"
         AppLanguage.PORTUGUESE -> "Compressão de Imagem"
         AppLanguage.SPANISH -> "Compresión de Imagen"
@@ -1242,6 +1340,7 @@ object StringsE {
     val perfCompressImagesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 PNG/JPEG 图片，支持 WebP 转换"
         AppLanguage.ENGLISH -> "Compress PNG/JPEG images, supports WebP conversion"
+        AppLanguage.VIETNAMESE -> "Nén hình ảnh PNG/JPEG, hỗ trợ chuyển đổi WebP"
         AppLanguage.ARABIC -> "ضغط صور PNG/JPEG، يدعم تحويل WebP"
         AppLanguage.PORTUGUESE -> "Comprimir imagens PNG/JPEG, suporta conversão WebP"
         AppLanguage.SPANISH -> "Comprimir imágenes PNG/JPEG, soporta conversión WebP"
@@ -1254,6 +1353,7 @@ object StringsE {
     val perfMinifyCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码压缩"
         AppLanguage.ENGLISH -> "Code Minification"
+        AppLanguage.VIETNAMESE -> "Giảm thiểu mã"
         AppLanguage.ARABIC -> "ضغط الكود"
         AppLanguage.PORTUGUESE -> "Minificação de Código"
         AppLanguage.SPANISH -> "Minificación de Código"
@@ -1266,6 +1366,7 @@ object StringsE {
     val perfMinifyCodeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 JS/CSS/SVG，移除注释和多余空白"
         AppLanguage.ENGLISH -> "Minify JS/CSS/SVG, remove comments and whitespace"
+        AppLanguage.VIETNAMESE -> "Giảm thiểu JS/CSS/SVG, xóa nhận xét và khoảng trắng"
         AppLanguage.ARABIC -> "ضغط JS/CSS/SVG، إزالة التعليقات والمسافات"
         AppLanguage.PORTUGUESE -> "Minificar JS/CSS/SVG, remover comentários e espaços"
         AppLanguage.SPANISH -> "Minificar JS/CSS/SVG, eliminar comentarios y espacios"
@@ -1278,6 +1379,7 @@ object StringsE {
     val perfConvertWebP: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebP 转换"
         AppLanguage.ENGLISH -> "WebP Conversion"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi WebP"
         AppLanguage.ARABIC -> "تحويل WebP"
         AppLanguage.PORTUGUESE -> "Conversão WebP"
         AppLanguage.SPANISH -> "Conversión WebP"
@@ -1290,6 +1392,7 @@ object StringsE {
     val perfConvertWebPHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将 PNG/JPEG 转为 WebP 格式，体积减少 30-50%"
         AppLanguage.ENGLISH -> "Convert PNG/JPEG to WebP, 30-50% size reduction"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi PNG/JPEG sang WebP, giảm 30-50% size"
         AppLanguage.ARABIC -> "تحويل PNG/JPEG إلى WebP، تقليل الحجم 30-50%"
         AppLanguage.PORTUGUESE -> "Converter PNG/JPEG para WebP, redução de 30-50% no tamanho"
         AppLanguage.SPANISH -> "Convertir PNG/JPEG a WebP, reducción de tamaño 30-50%"
@@ -1302,6 +1405,7 @@ object StringsE {
     val perfRemoveUnused: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清理无用资源"
         AppLanguage.ENGLISH -> "Remove Unused Resources"
+        AppLanguage.VIETNAMESE -> "Xóa tài nguyên không sử dụng"
         AppLanguage.ARABIC -> "إزالة الموارد غير المستخدمة"
         AppLanguage.PORTUGUESE -> "Remover Recursos Não Utilizados"
         AppLanguage.SPANISH -> "Eliminar Recursos No Utilizados"
@@ -1314,6 +1418,7 @@ object StringsE {
     val perfRemoveUnusedHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除模板 APK 中不需要的语言包和默认资源"
         AppLanguage.ENGLISH -> "Remove unnecessary language packs and default resources from template"
+        AppLanguage.VIETNAMESE -> "Xóa các gói ngôn ngữ không cần thiết và tài nguyên mặc định khỏi mẫu"
         AppLanguage.ARABIC -> "إزالة حزم اللغات والموارد الافتراضية غير الضرورية"
         AppLanguage.PORTUGUESE -> "Remover pacotes de idioma desnecessários e recursos padrão do template"
         AppLanguage.SPANISH -> "Eliminar paquetes de idioma innecesarios y recursos predeterminados de la plantilla"
@@ -1326,6 +1431,7 @@ object StringsE {
     val perfBuildOptimize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建加速"
         AppLanguage.ENGLISH -> "Build Acceleration"
+        AppLanguage.VIETNAMESE -> "Tăng tốc xây dựng"
         AppLanguage.ARABIC -> "تسريع البناء"
         AppLanguage.PORTUGUESE -> "Aceleração de Build"
         AppLanguage.SPANISH -> "Aceleración de Build"
@@ -1338,6 +1444,7 @@ object StringsE {
     val perfParallelProcessing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "并行处理"
         AppLanguage.ENGLISH -> "Parallel Processing"
+        AppLanguage.VIETNAMESE -> "Xử lý song song"
         AppLanguage.ARABIC -> "المعالجة المتوازية"
         AppLanguage.PORTUGUESE -> "Processamento Paralelo"
         AppLanguage.SPANISH -> "Procesamiento Paralelo"
@@ -1350,6 +1457,7 @@ object StringsE {
     val perfParallelProcessingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "利用多核 CPU 并行处理资源文件"
         AppLanguage.ENGLISH -> "Process resource files in parallel using multi-core CPU"
+        AppLanguage.VIETNAMESE -> "Xử lý song song các tệp tài nguyên bằng CPU đa lõi"
         AppLanguage.ARABIC -> "معالجة ملفات الموارد بالتوازي باستخدام معالج متعدد النوى"
         AppLanguage.PORTUGUESE -> "Processar arquivos de recurso em paralelo usando CPU multi-núcleo"
         AppLanguage.SPANISH -> "Procesar archivos de recursos en paralelo usando CPU multinúcleo"
@@ -1362,6 +1470,7 @@ object StringsE {
     val perfEnableCache: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "智能缓存"
         AppLanguage.ENGLISH -> "Smart Cache"
+        AppLanguage.VIETNAMESE -> "Bộ nhớ đệm thông minh"
         AppLanguage.ARABIC -> "التخزين المؤقت الذكي"
         AppLanguage.PORTUGUESE -> "Cache Inteligente"
         AppLanguage.SPANISH -> "Caché Inteligente"
@@ -1374,6 +1483,7 @@ object StringsE {
     val perfEnableCacheHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缓存已优化的资源，避免重复处理"
         AppLanguage.ENGLISH -> "Cache optimized resources to avoid reprocessing"
+        AppLanguage.VIETNAMESE -> "Tài nguyên được tối ưu hóa bộ đệm để tránh xử lý lại"
         AppLanguage.ARABIC -> "تخزين الموارد المحسنة مؤقتاً لتجنب إعادة المعالجة"
         AppLanguage.PORTUGUESE -> "Armazenar em cache recursos otimizados para evitar reprocessamento"
         AppLanguage.SPANISH -> "Almacenar en caché recursos optimizados para evitar reprocesamiento"
@@ -1387,6 +1497,7 @@ object StringsE {
     val perfLoadOptimize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载提速"
         AppLanguage.ENGLISH -> "Loading Speed"
+        AppLanguage.VIETNAMESE -> "Tốc độ tải"
         AppLanguage.ARABIC -> "سرعة التحميل"
         AppLanguage.PORTUGUESE -> "Velocidade de Carregamento"
         AppLanguage.SPANISH -> "Velocidad de Carga"
@@ -1399,6 +1510,7 @@ object StringsE {
     val perfPreloadHints: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "资源预加载"
         AppLanguage.ENGLISH -> "Resource Preloading"
+        AppLanguage.VIETNAMESE -> "Tải trước tài nguyên"
         AppLanguage.ARABIC -> "التحميل المسبق للموارد"
         AppLanguage.PORTUGUESE -> "Pré-carregamento de Recursos"
         AppLanguage.SPANISH -> "Precarga de Recursos"
@@ -1411,6 +1523,7 @@ object StringsE {
     val perfPreloadHintsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入 preconnect/dns-prefetch 提示，加速资源下载"
         AppLanguage.ENGLISH -> "Inject preconnect/dns-prefetch hints for faster resource loading"
+        AppLanguage.VIETNAMESE -> "Đưa vào các gợi ý kết nối trước/dns-prefetch để tải tài nguyên nhanh hơn"
         AppLanguage.ARABIC -> "حقن تلميحات preconnect/dns-prefetch لتحميل أسرع"
         AppLanguage.PORTUGUESE -> "Injetar dicas preconnect/dns-prefetch para carregamento mais rápido de recursos"
         AppLanguage.SPANISH -> "Inyectar pistas preconnect/dns-prefetch para carga más rápida de recursos"
@@ -1423,6 +1536,7 @@ object StringsE {
     val perfLazyLoading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片懒加载"
         AppLanguage.ENGLISH -> "Image Lazy Loading"
+        AppLanguage.VIETNAMESE -> "Tải hình ảnh chậm"
         AppLanguage.ARABIC -> "التحميل الكسول للصور"
         AppLanguage.PORTUGUESE -> "Carregamento Preguiçoso de Imagens"
         AppLanguage.SPANISH -> "Carga Diferida de Imágenes"
@@ -1435,6 +1549,7 @@ object StringsE {
     val perfLazyLoadingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "非首屏图片延迟加载，加速首屏渲染"
         AppLanguage.ENGLISH -> "Defer off-screen images, accelerate first paint"
+        AppLanguage.VIETNAMESE -> "Trì hoãn hình ảnh ngoài màn hình, tăng tốc lần sơn đầu tiên"
         AppLanguage.ARABIC -> "تأخير صور خارج الشاشة، تسريع العرض الأول"
         AppLanguage.PORTUGUESE -> "Adiar imagens fora da tela, acelerar primeira renderização"
         AppLanguage.SPANISH -> "Retrasar imágenes fuera de pantalla, acelerar primer renderizado"
@@ -1447,6 +1562,7 @@ object StringsE {
     val perfOptimizeScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "脚本优化"
         AppLanguage.ENGLISH -> "Script Optimization"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa tập lệnh"
         AppLanguage.ARABIC -> "تحسين البرامج النصية"
         AppLanguage.PORTUGUESE -> "Otimização de Scripts"
         AppLanguage.SPANISH -> "Optimización de Scripts"
@@ -1459,6 +1575,7 @@ object StringsE {
     val perfOptimizeScriptsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动添加 defer 属性，避免阻塞页面渲染"
         AppLanguage.ENGLISH -> "Auto-add defer attribute, prevent render blocking"
+        AppLanguage.VIETNAMESE -> "Tự động thêm thuộc tính trì hoãn, ngăn chặn việc chặn hiển thị"
         AppLanguage.ARABIC -> "إضافة خاصية defer تلقائياً، منع حظر العرض"
         AppLanguage.PORTUGUESE -> "Adicionar atributo defer automaticamente, evitar bloqueio de renderização"
         AppLanguage.SPANISH -> "Añadir atributo defer automáticamente, evitar bloqueo de renderizado"
@@ -1472,6 +1589,7 @@ object StringsE {
     val perfRuntimeOptimize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时优化"
         AppLanguage.ENGLISH -> "Runtime Optimization"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa thời gian chạy"
         AppLanguage.ARABIC -> "تحسين وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Otimização de Runtime"
         AppLanguage.SPANISH -> "Optimización de Runtime"
@@ -1484,6 +1602,7 @@ object StringsE {
     val perfRuntimeScript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "性能增强脚本"
         AppLanguage.ENGLISH -> "Performance Enhancement Script"
+        AppLanguage.VIETNAMESE -> "Tập lệnh nâng cao hiệu suất"
         AppLanguage.ARABIC -> "نص تحسين الأداء"
         AppLanguage.PORTUGUESE -> "Script de Melhoria de Desempenho"
         AppLanguage.SPANISH -> "Script de Mejora de Rendimiento"
@@ -1496,6 +1615,7 @@ object StringsE {
     val perfRuntimeScriptHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入滚动优化、内存管理、CDN 预连接等性能脚本"
         AppLanguage.ENGLISH -> "Inject scroll optimization, memory management, CDN preconnect scripts"
+        AppLanguage.VIETNAMESE -> "Đưa vào tối ưu hóa cuộn, quản lý bộ nhớ, tập lệnh kết nối trước CDN"
         AppLanguage.ARABIC -> "حقن نصوص تحسين التمرير وإدارة الذاكرة واتصال CDN المسبق"
         AppLanguage.PORTUGUESE -> "Injetar scripts de otimização de rolagem, gerenciamento de memória, preconnect CDN"
         AppLanguage.SPANISH -> "Inyectar scripts de optimización de scroll, gestión de memoria, preconnect CDN"
@@ -1509,6 +1629,7 @@ object StringsE {
     val threatResponse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "威胁响应策略"
         AppLanguage.ENGLISH -> "Threat Response Strategy"
+        AppLanguage.VIETNAMESE -> "Chiến lược ứng phó với mối đe dọa"
         AppLanguage.ARABIC -> "استراتيجية الاستجابة للتهديدات"
         AppLanguage.PORTUGUESE -> "Estratégia de Resposta a Ameaças"
         AppLanguage.SPANISH -> "Estrategia de Respuesta a Amenazas"
@@ -1521,6 +1642,7 @@ object StringsE {
     val threatResponseLogOnly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仅记录日志"
         AppLanguage.ENGLISH -> "Log Only"
+        AppLanguage.VIETNAMESE -> "Chỉ đăng nhập"
         AppLanguage.ARABIC -> "تسجيل فقط"
         AppLanguage.PORTUGUESE -> "Apenas Registrar"
         AppLanguage.SPANISH -> "Solo Registrar"
@@ -1533,6 +1655,7 @@ object StringsE {
     val threatResponseSilentExit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "静默退出"
         AppLanguage.ENGLISH -> "Silent Exit"
+        AppLanguage.VIETNAMESE -> "Thoát im lặng"
         AppLanguage.ARABIC -> "خروج صامت"
         AppLanguage.PORTUGUESE -> "Saída Silenciosa"
         AppLanguage.SPANISH -> "Salida Silenciosa"
@@ -1545,6 +1668,7 @@ object StringsE {
     val threatResponseCrashRandom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "随机崩溃"
         AppLanguage.ENGLISH -> "Random Crash"
+        AppLanguage.VIETNAMESE -> "Sự cố ngẫu nhiên"
         AppLanguage.ARABIC -> "انهيار عشوائي"
         AppLanguage.PORTUGUESE -> "Falha Aleatória"
         AppLanguage.SPANISH -> "Cierre Aleatorio"
@@ -1557,6 +1681,7 @@ object StringsE {
     val threatResponseDataWipe: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据擦除"
         AppLanguage.ENGLISH -> "Data Wipe"
+        AppLanguage.VIETNAMESE -> "Xóa dữ liệu"
         AppLanguage.ARABIC -> "مسح البيانات"
         AppLanguage.PORTUGUESE -> "Apagar Dados"
         AppLanguage.SPANISH -> "Borrado de Datos"
@@ -1569,6 +1694,7 @@ object StringsE {
     val threatResponseFakeData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "假数据注入"
         AppLanguage.ENGLISH -> "Fake Data Injection"
+        AppLanguage.VIETNAMESE -> "Tiêm dữ liệu giả"
         AppLanguage.ARABIC -> "حقن بيانات مزيفة"
         AppLanguage.PORTUGUESE -> "Injeção de Dados Falsos"
         AppLanguage.SPANISH -> "Inyección de Datos Falsos"
@@ -1582,6 +1708,7 @@ object StringsE {
     val editCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑代码"
         AppLanguage.ENGLISH -> "Edit Code"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa mã"
         AppLanguage.ARABIC -> "تحرير الكود"
         AppLanguage.PORTUGUESE -> "Editar Código"
         AppLanguage.SPANISH -> "Editar Código"
@@ -1594,6 +1721,7 @@ object StringsE {
     val saveFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存文件"
         AppLanguage.ENGLISH -> "Save File"
+        AppLanguage.VIETNAMESE -> "Lưu tập tin"
         AppLanguage.ARABIC -> "حفظ الملف"
         AppLanguage.PORTUGUESE -> "Salvar Arquivo"
         AppLanguage.SPANISH -> "Guardar Archivo"
@@ -1606,6 +1734,7 @@ object StringsE {
     val aiPromptHtml1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个现代个人主页，包含导航栏、英雄区、作品展示和联系方式"
         AppLanguage.ENGLISH -> "Create a modern personal homepage with navbar, hero section, portfolio and contact info"
+        AppLanguage.VIETNAMESE -> "Tạo trang chủ cá nhân hiện đại với thanh điều hướng, phần anh hùng, danh mục đầu tư và thông tin liên hệ"
         AppLanguage.ARABIC -> "إنشاء صفحة شخصية حديثة تحتوي على شريط تنقل وقسم بطل ومعرض أعمال ومعلومات اتصال"
         AppLanguage.PORTUGUESE -> "Crie uma página pessoal moderna com barra de navegação, seção hero, portfólio e informações de contato"
         AppLanguage.SPANISH -> "Crea una página personal moderna con barra de navegación, sección hero, portafolio e información de contacto"
@@ -1618,6 +1747,7 @@ object StringsE {
     val aiPromptHtml2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "做一个天气预报应用界面，支持搜索城市、显示当前天气和未来7天预报"
         AppLanguage.ENGLISH -> "Build a weather forecast app UI with city search, current weather and 7-day forecast"
+        AppLanguage.VIETNAMESE -> "Xây dựng giao diện người dùng ứng dụng dự báo thời tiết với tính năng tìm kiếm thành phố, thời tiết hiện tại và dự báo trong 7 ngày"
         AppLanguage.ARABIC -> "بناء واجهة تطبيق توقعات الطقس مع بحث المدينة والطقس الحالي وتوقعات 7 أيام"
         AppLanguage.PORTUGUESE -> "Construa uma interface de app de previsão do tempo com busca de cidade, clima atual e previsão de 7 dias"
         AppLanguage.SPANISH -> "Construye una interfaz de app de pronóstico del tiempo con búsqueda de ciudad, clima actual y pronóstico de 7 días"
@@ -1630,6 +1760,7 @@ object StringsE {
     val aiPromptFrontend1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 React 创建一个待办事项应用，支持添加、删除、标记完成和本地存储"
         AppLanguage.ENGLISH -> "Create a React todo app with add, delete, mark complete and local storage support"
+        AppLanguage.VIETNAMESE -> "Tạo ứng dụng React todo với tính năng thêm, xóa, đánh dấu hoàn thành và hỗ trợ lưu trữ cục bộ"
         AppLanguage.ARABIC -> "إنشاء تطبيق مهام React مع إضافة وحذف وتعليم إتمام ودعم التخزين المحلي"
         AppLanguage.PORTUGUESE -> "Crie um app de tarefas React com adicionar, excluir, marcar concluído e suporte a armazenamento local"
         AppLanguage.SPANISH -> "Crea una app de tareas React con agregar, eliminar, marcar completado y soporte de almacenamiento local"
@@ -1642,6 +1773,7 @@ object StringsE {
     val aiPromptFrontend2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 Vue.js 构建一个电商产品列表页面，包含筛选、排序和购物车功能"
         AppLanguage.ENGLISH -> "Build a Vue.js e-commerce product listing page with filtering, sorting and cart"
+        AppLanguage.VIETNAMESE -> "Xây dựng trang danh sách sản phẩm thương mại điện tử Vue.js với tính năng lọc, sắp xếp và giỏ hàng"
         AppLanguage.ARABIC -> "بناء صفحة منتجات تجارة إلكترونية Vue.js مع تصفية وترتيب وسلة شراء"
         AppLanguage.PORTUGUESE -> "Construa uma página de listagem de produtos e-commerce Vue.js com filtros, ordenação e carrinho"
         AppLanguage.SPANISH -> "Construye una página de listado de productos e-commerce Vue.js con filtros, ordenamiento y carrito"
@@ -1654,6 +1786,7 @@ object StringsE {
     val aiPromptNodejs1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个 Express REST API 服务，包含用户注册登录、JWT认证和CRUD接口"
         AppLanguage.ENGLISH -> "Create an Express REST API with user registration, login, JWT auth and CRUD endpoints"
+        AppLanguage.VIETNAMESE -> "Tạo API Express REST với đăng ký người dùng, đăng nhập, xác thực JWT và điểm cuối CRUD"
         AppLanguage.ARABIC -> "إنشاء Express REST API مع تسجيل المستخدم وتسجيل الدخول ومصادقة JWT ونقاط CRUD"
         AppLanguage.PORTUGUESE -> "Crie uma Express REST API com registro de usuário, login, autenticação JWT e endpoints CRUD"
         AppLanguage.SPANISH -> "Crea una Express REST API con registro de usuario, login, autenticación JWT y endpoints CRUD"
@@ -1666,6 +1799,7 @@ object StringsE {
     val aiPromptNodejs2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搭建一个 WebSocket 实时聊天服务器，支持多房间和消息广播"
         AppLanguage.ENGLISH -> "Build a WebSocket real-time chat server with multi-room support and message broadcasting"
+        AppLanguage.VIETNAMESE -> "Xây dựng máy chủ trò chuyện thời gian thực WebSocket với hỗ trợ nhiều phòng và phát tin nhắn"
         AppLanguage.ARABIC -> "بناء خادم دردشة WebSocket مع دعم غرف متعددة وبث الرسائل"
         AppLanguage.PORTUGUESE -> "Construa um servidor de chat WebSocket em tempo real com suporte a múltiplas salas e transmissão de mensagens"
         AppLanguage.SPANISH -> "Construye un servidor de chat WebSocket en tiempo real con soporte multi-sala y transmisión de mensajes"
@@ -1678,6 +1812,7 @@ object StringsE {
     val aiPromptWordpress1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发一个 WordPress 自定义主题，包含首页模板、文章列表和侧边栏小工具"
         AppLanguage.ENGLISH -> "Develop a WordPress custom theme with homepage template, post listing and sidebar widgets"
+        AppLanguage.VIETNAMESE -> "Phát triển chủ đề tùy chỉnh WordPress với mẫu trang chủ, danh sách bài đăng và tiện ích thanh bên"
         AppLanguage.ARABIC -> "تطوير سمة WordPress مخصصة مع قالب صفحة رئيسية وقائمة مقالات وودجات الشريط الجانبي"
         AppLanguage.PORTUGUESE -> "Desenvolva um tema WordPress personalizado com template de homepage, listagem de posts e widgets de barra lateral"
         AppLanguage.SPANISH -> "Desarrolla un tema WordPress personalizado con plantilla de inicio, listado de entradas y widgets de barra lateral"
@@ -1690,6 +1825,7 @@ object StringsE {
     val aiPromptWordpress2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个 WordPress 插件，添加自定义文章类型和管理后台设置页面"
         AppLanguage.ENGLISH -> "Create a WordPress plugin that adds custom post types and an admin settings page"
+        AppLanguage.VIETNAMESE -> "Tạo plugin WordPress có thêm loại bài đăng tùy chỉnh và trang cài đặt quản trị viên"
         AppLanguage.ARABIC -> "إنشاء إضافة WordPress تضيف أنواع مقالات مخصصة وصفحة إعدادات المشرف"
         AppLanguage.PORTUGUESE -> "Crie um plugin WordPress que adiciona tipos de posts personalizados e uma página de configurações do admin"
         AppLanguage.SPANISH -> "Crea un plugin WordPress que añada tipos de entradas personalizadas y una página de configuración de admin"
@@ -1702,6 +1838,7 @@ object StringsE {
     val aiPromptPhp1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 Laravel 创建一个博客系统，包含文章管理、分类标签和评论功能"
         AppLanguage.ENGLISH -> "Create a Laravel blog system with post management, categories, tags and comments"
+        AppLanguage.VIETNAMESE -> "Tạo hệ thống blog Laravel với quản lý bài đăng, danh mục, thẻ và nhận xét"
         AppLanguage.ARABIC -> "إنشاء نظام مدونة Laravel مع إدارة المقالات والفئات والعلامات والتعليقات"
         AppLanguage.PORTUGUESE -> "Crie um sistema de blog Laravel com gestão de posts, categorias, tags e comentários"
         AppLanguage.SPANISH -> "Crea un sistema de blog Laravel con gestión de entradas, categorías, etiquetas y comentarios"
@@ -1714,6 +1851,7 @@ object StringsE {
     val aiPromptPhp2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搭建一个 PHP 用户管理系统，支持注册、登录、角色权限控制"
         AppLanguage.ENGLISH -> "Build a PHP user management system with registration, login and role-based access control"
+        AppLanguage.VIETNAMESE -> "Xây dựng hệ thống quản lý người dùng PHP với kiểm soát đăng ký, đăng nhập và truy cập dựa trên vai trò"
         AppLanguage.ARABIC -> "بناء نظام إدارة مستخدمين PHP مع التسجيل وتسجيل الدخول والتحكم بالصلاحيات"
         AppLanguage.PORTUGUESE -> "Construa um sistema de gestão de usuários PHP com registro, login e controle de acesso por papéis"
         AppLanguage.SPANISH -> "Construye un sistema de gestión de usuarios PHP con registro, login y control de acceso por roles"
@@ -1726,6 +1864,7 @@ object StringsE {
     val aiPromptPython1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 FastAPI 构建一个 RESTful API 服务，包含数据库模型、自动文档和认证中间件"
         AppLanguage.ENGLISH -> "Build a FastAPI RESTful service with database models, auto-docs and auth middleware"
+        AppLanguage.VIETNAMESE -> "Xây dựng dịch vụ FastAPI RESTful với các mô hình cơ sở dữ liệu, tài liệu tự động và phần mềm trung gian xác thực"
         AppLanguage.ARABIC -> "بناء خدمة FastAPI RESTful مع نماذج قاعدة بيانات ووثائق تلقائية ووسيط مصادقة"
         AppLanguage.PORTUGUESE -> "Construa um serviço FastAPI RESTful com modelos de banco de dados, docs automáticas e middleware de autenticação"
         AppLanguage.SPANISH -> "Construye un servicio FastAPI RESTful con modelos de base de datos, docs automáticas y middleware de autenticación"
@@ -1738,6 +1877,7 @@ object StringsE {
     val aiPromptPython2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建一个 Flask Web 应用，实现文件上传、图片处理和下载功能"
         AppLanguage.ENGLISH -> "Create a Flask web app with file upload, image processing and download functionality"
+        AppLanguage.VIETNAMESE -> "Tạo ứng dụng web Flask với chức năng tải lên tệp, xử lý hình ảnh và tải xuống"
         AppLanguage.ARABIC -> "إنشاء تطبيق Flask مع رفع الملفات ومعالجة الصور ووظيفة التنزيل"
         AppLanguage.PORTUGUESE -> "Crie um web app Flask com upload de arquivos, processamento de imagens e funcionalidade de download"
         AppLanguage.SPANISH -> "Crea una web app Flask con carga de archivos, procesamiento de imágenes y funcionalidad de descarga"
@@ -1750,6 +1890,7 @@ object StringsE {
     val aiPromptGo1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用 Gin 框架创建一个 RESTful API 服务，包含路由分组、中间件和数据库操作"
         AppLanguage.ENGLISH -> "Create a Gin framework RESTful API with route groups, middleware and database operations"
+        AppLanguage.VIETNAMESE -> "Tạo API RESTful khung Gin với các nhóm định tuyến, phần mềm trung gian và hoạt động cơ sở dữ liệu"
         AppLanguage.ARABIC -> "إنشاء Gin RESTful API مع مجموعات المسارات والوسيط وعمليات قاعدة البيانات"
         AppLanguage.PORTUGUESE -> "Crie uma API RESTful com framework Gin com grupos de rotas, middleware e operações de banco de dados"
         AppLanguage.SPANISH -> "Crea una API RESTful con framework Gin con grupos de rutas, middleware y operaciones de base de datos"
@@ -1762,6 +1903,7 @@ object StringsE {
     val aiPromptGo2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搭建一个 Go 微服务，实现 gRPC 接口和 HTTP 网关"
         AppLanguage.ENGLISH -> "Build a Go microservice with gRPC endpoints and HTTP gateway"
+        AppLanguage.VIETNAMESE -> "Xây dựng một vi dịch vụ Go với điểm cuối gRPC và cổng HTTP"
         AppLanguage.ARABIC -> "بناء خدمة Go مصغرة مع نقاط gRPC وبوابة HTTP"
         AppLanguage.PORTUGUESE -> "Construa um microsserviço Go com endpoints gRPC e gateway HTTP"
         AppLanguage.SPANISH -> "Construye un microservicio Go con endpoints gRPC y gateway HTTP"
@@ -1775,6 +1917,7 @@ object StringsE {
     val adSdkNotIntegrated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内置 AdMob SDK 尚未集成。填写广告单元 ID 不会在导出的 APK 中显示广告；目前请使用网页自身广告代码或扩展模块/自定义脚本接入广告。"
         AppLanguage.ENGLISH -> "Built-in AdMob SDK is not integrated yet. Filling ad unit IDs will not show ads in exported APKs; for now, use your website ad code, extension modules, or custom scripts."
+        AppLanguage.VIETNAMESE -> "SDK AdMob tích hợp chưa được tích hợp. Việc điền ID đơn vị quảng cáo sẽ không hiển thị quảng cáo trong APK đã xuất; hiện tại, hãy sử dụng mã quảng cáo trang web, mô-đun mở rộng hoặc tập lệnh tùy chỉnh của bạn."
         AppLanguage.ARABIC -> "لم يتم دمج AdMob SDK المدمج بعد. لن يؤدي ملء معرفات الوحدات الإعلانية إلى عرض إعلانات في ملفات APK المصدرة؛ استخدم حالياً كود إعلانات الموقع أو وحدات الإضافة أو السكربتات المخصصة."
         AppLanguage.PORTUGUESE -> "O SDK AdMob integrado ainda não foi integrado. Preencher IDs de unidades de anúncios não exibirá anúncios nos APKs exportados; por enquanto, use o código de anúncios do seu site, módulos de extensão ou scripts personalizados."
         AppLanguage.SPANISH -> "El SDK AdMob integrado aún no está integrado. Completar los IDs de unidades de anuncios no mostrará anuncios en los APKs exportados; por ahora, use el código de anuncios de su sitio web, módulos de extensión o scripts personalizados."
@@ -1788,6 +1931,7 @@ object StringsE {
     val storagePermissionRequiredForExport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要存储权限才能导出"
         AppLanguage.ENGLISH -> "Storage permission required to export"
+        AppLanguage.VIETNAMESE -> "Cần có quyền lưu trữ để xuất"
         AppLanguage.ARABIC -> "يلزم إذن التخزين للتصدير"
         AppLanguage.PORTUGUESE -> "Permissão de armazenamento necessária para exportar"
         AppLanguage.SPANISH -> "Se requiere permiso de almacenamiento para exportar"
@@ -1801,6 +1945,7 @@ object StringsE {
     val shareImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享图片"
         AppLanguage.ENGLISH -> "Share Image"
+        AppLanguage.VIETNAMESE -> "Chia sẻ hình ảnh"
         AppLanguage.ARABIC -> "مشاركة الصورة"
         AppLanguage.PORTUGUESE -> "Compartilhar Imagem"
         AppLanguage.SPANISH -> "Compartir Imagen"
@@ -1814,6 +1959,7 @@ object StringsE {
     val saveFailedCannotProcessHtml: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存失败：无法处理 HTML 文件"
         AppLanguage.ENGLISH -> "Save failed: cannot process HTML file"
+        AppLanguage.VIETNAMESE -> "Lưu không thành công: không thể xử lý tệp HTML"
         AppLanguage.ARABIC -> "فشل الحفظ: لا يمكن معالجة ملف HTML"
         AppLanguage.PORTUGUESE -> "Falha ao salvar: não é possível processar o arquivo HTML"
         AppLanguage.SPANISH -> "Error al guardar: no se puede procesar el archivo HTML"
@@ -1827,6 +1973,7 @@ object StringsE {
     val phpStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 运行时 (libphp.so) 未安装 — PHP 运行时未初始化；请打开设置 → 运行时引擎 → PHP 8.4，点击下载"
         AppLanguage.ENGLISH -> "PHP runtime (libphp.so) not installed — PHP runtime not initialized; open Settings → Runtime Engines → PHP 8.4 and tap Download"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy PHP (libphp.so) chưa được cài đặt — Thời gian chạy PHP chưa được khởi tạo; mở Cài đặt → Công cụ thời gian chạy → PHP 8.4 và nhấn Tải xuống"
         AppLanguage.ARABIC -> "PHP runtime (libphp.so) not installed — PHP runtime not initialized; افتح الإعدادات → محركات التشغيل → PHP 8.4 وانقر تنزيل"
         AppLanguage.PORTUGUESE -> "Runtime PHP (libphp.so) não instalado — runtime PHP não inicializado; abra Configurações → Motores de Runtime → PHP 8.4 e toque em Baixar"
         AppLanguage.SPANISH -> "Runtime de PHP (libphp.so) no instalado — runtime de PHP no inicializado; abre Configuración → Motores de Runtime → PHP 8.4 y toca Descargar"
@@ -1840,6 +1987,7 @@ object StringsE {
     val nodeRuntimeNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 运行时 (libnode.so) 未安装 — Node.js 运行时未下载；请打开设置 → 运行时引擎，下载 Node.js"
         AppLanguage.ENGLISH -> "Node.js runtime (libnode.so) not installed — Node.js runtime not downloaded; open Settings → Runtime Engines and download Node.js"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy Node.js (libnode.so) chưa được cài đặt — Thời gian chạy Node.js chưa được tải xuống; mở Cài đặt → Công cụ thời gian chạy và tải xuống Node.js"
         AppLanguage.ARABIC -> "Node.js runtime (libnode.so) not installed — Node.js runtime not downloaded; افتح الإعدادات → محركات التشغيل ونزّل Node.js"
         AppLanguage.PORTUGUESE -> "Runtime Node.js (libnode.so) não instalado — runtime Node.js não baixado; abra Configurações → Motores de Runtime e baixe Node.js"
         AppLanguage.SPANISH -> "Runtime de Node.js (libnode.so) no instalado — runtime de Node.js no descargado; abre Configuración → Motores de Runtime y descarga Node.js"
@@ -1853,6 +2001,7 @@ object StringsE {
     val nodeServerStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 服务器启动失败"
         AppLanguage.ENGLISH -> "Node.js server failed to start"
+        AppLanguage.VIETNAMESE -> "Máy chủ Node.js không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل خادم Node.js"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar o servidor Node.js"
         AppLanguage.SPANISH -> "Error al iniciar el servidor Node.js"
@@ -1866,6 +2015,7 @@ object StringsE {
     val nodeStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 启动失败"
         AppLanguage.ENGLISH -> "Node.js failed to start"
+        AppLanguage.VIETNAMESE -> "Node.js không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل Node.js"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar Node.js"
         AppLanguage.SPANISH -> "Error al iniciar Node.js"
@@ -1879,6 +2029,7 @@ object StringsE {
     val preparingNodeEnv: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在准备 Node.js 环境..."
         AppLanguage.ENGLISH -> "Preparing Node.js environment..."
+        AppLanguage.VIETNAMESE -> "Đang chuẩn bị môi trường Node.js..."
         AppLanguage.ARABIC -> "جاري تحضير بيئة Node.js..."
         AppLanguage.PORTUGUESE -> "Preparando ambiente Node.js..."
         AppLanguage.SPANISH -> "Preparando entorno Node.js..."
@@ -1892,6 +2043,7 @@ object StringsE {
     val startingNodeServer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在启动 Node.js 服务器..."
         AppLanguage.ENGLISH -> "Starting Node.js server..."
+        AppLanguage.VIETNAMESE -> "Đang khởi động máy chủ Node.js..."
         AppLanguage.ARABIC -> "جاري تشغيل خادم Node.js..."
         AppLanguage.PORTUGUESE -> "Iniciando servidor Node.js..."
         AppLanguage.SPANISH -> "Iniciando servidor Node.js..."
@@ -1905,6 +2057,7 @@ object StringsE {
     val pythonRuntimeNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 运行时未找到。请使用最新版 WebToApp 重新构建此应用，并确保已下载 Python 运行时依赖。"
         AppLanguage.ENGLISH -> "Python runtime not found. Please rebuild this app with the latest WebToApp and ensure Python runtime dependency is downloaded."
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thời gian chạy Python. Vui lòng xây dựng lại ứng dụng này bằng WebToApp mới nhất và đảm bảo tải xuống phần phụ thuộc thời gian chạy Python."
         AppLanguage.ARABIC -> "لم يتم العثور على وقت تشغيل Python. يرجى إعادة بناء هذا التطبيق باستخدام أحدث إصدار من WebToApp والتأكد من تنزيل تبعيات وقت تشغيل Python."
         AppLanguage.PORTUGUESE -> "Runtime Python não encontrado. Reconstrua este app com o WebToApp mais recente e certifique-se de que a dependência do runtime Python foi baixada."
         AppLanguage.SPANISH -> "Runtime de Python no encontrado. Reconstruye esta app con el WebToApp más reciente y asegúrate de que la dependencia del runtime de Python esté descargada."
@@ -1918,6 +2071,7 @@ object StringsE {
     val pythonServerStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 服务器启动失败"
         AppLanguage.ENGLISH -> "Python server failed to start"
+        AppLanguage.VIETNAMESE -> "Máy chủ Python không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل خادم Python"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar o servidor Python"
         AppLanguage.SPANISH -> "Error al iniciar el servidor Python"
@@ -1931,6 +2085,7 @@ object StringsE {
     val pythonStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 启动失败"
         AppLanguage.ENGLISH -> "Python failed to start"
+        AppLanguage.VIETNAMESE -> "Python không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل Python"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar Python"
         AppLanguage.SPANISH -> "Error al iniciar Python"
@@ -1944,6 +2099,7 @@ object StringsE {
     val preparingPythonEnv: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在准备 Python 环境..."
         AppLanguage.ENGLISH -> "Preparing Python environment..."
+        AppLanguage.VIETNAMESE -> "Đang chuẩn bị môi trường Python..."
         AppLanguage.ARABIC -> "جاري تحضير بيئة Python..."
         AppLanguage.PORTUGUESE -> "Preparando ambiente Python..."
         AppLanguage.SPANISH -> "Preparando entorno Python..."
@@ -1957,6 +2113,7 @@ object StringsE {
     val startingPythonServer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在启动 Python 服务器..."
         AppLanguage.ENGLISH -> "Starting Python server..."
+        AppLanguage.VIETNAMESE -> "Đang khởi động máy chủ Python..."
         AppLanguage.ARABIC -> "جاري تشغيل خادم Python..."
         AppLanguage.PORTUGUESE -> "Iniciando servidor Python..."
         AppLanguage.SPANISH -> "Iniciando servidor Python..."
@@ -1970,6 +2127,7 @@ object StringsE {
     val goBinaryNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到可执行的 Go 二进制文件。请先为目标 ABI 构建预编译二进制，再导入或导出此项目。"
         AppLanguage.ENGLISH -> "No executable Go binary was found. Build a prebuilt binary for the target ABI before importing or exporting this project."
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tệp nhị phân Go có thể thực thi được. Xây dựng tệp nhị phân dựng sẵn cho ABI mục tiêu trước khi nhập hoặc xuất dự án này."
         AppLanguage.ARABIC -> "لم يتم العثور على ملف Go ثنائي قابل للتنفيذ. أنشئ ملفًا ثنائيًا جاهزًا متوافقًا مع ABI الهدف قبل استيراد هذا المشروع أو تصديره."
         AppLanguage.PORTUGUESE -> "Nenhum binário Go executável foi encontrado. Compile um binário pré-compilado para o ABI alvo antes de importar ou exportar este projeto."
         AppLanguage.SPANISH -> "No se encontró ningún binario Go ejecutable. Compila un binario precompilado para el ABI objetivo antes de importar o exportar este proyecto."
@@ -1983,6 +2141,7 @@ object StringsE {
     val goBinaryPendingBuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂未检出预编译二进制。可在下面「应用内构建」一键编译。"
         AppLanguage.ENGLISH -> "No prebuilt binary detected. Use 'Build in app' below to compile."
+        AppLanguage.VIETNAMESE -> "Không phát hiện thấy tệp nhị phân dựng sẵn. Sử dụng 'Xây dựng trong ứng dụng' bên dưới để biên dịch."
         AppLanguage.ARABIC -> "لم يتم اكتشاف ملف ثنائي مُجمَّع مسبقًا. استخدم «البناء في التطبيق» أدناه."
         AppLanguage.PORTUGUESE -> "Nenhum binário pré-compilado detectado. Use 'Compilar no app' abaixo para compilar."
         AppLanguage.SPANISH -> "No se detectó ningún binario precompilado. Usa 'Compilar en la app' a continuación para compilar."
@@ -1996,6 +2155,7 @@ object StringsE {
     val goServerStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 服务器启动失败"
         AppLanguage.ENGLISH -> "Go server failed to start"
+        AppLanguage.VIETNAMESE -> "Máy chủ Go không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل خادم Go"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar o servidor Go"
         AppLanguage.SPANISH -> "Error al iniciar el servidor Go"
@@ -2009,6 +2169,7 @@ object StringsE {
     val goStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 运行时（预编译二进制）未找到 — Go 应用需要目标 ABI 的预编译二进制文件；请在项目设置中先构建二进制"
         AppLanguage.ENGLISH -> "Go runtime (prebuilt binary) not found — Go app needs a prebuilt binary for the target ABI; build the binary first in the project settings"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thời gian chạy (nhị phân dựng sẵn) - Ứng dụng Go cần tệp nhị phân dựng sẵn cho ABI mục tiêu; xây dựng nhị phân đầu tiên trong cài đặt dự án"
         AppLanguage.ARABIC -> "Go runtime (prebuilt binary) not found — تطبيق Go يحتاج إلى ملف ثنائي مُجمَّع مسبقًا لـ ABI الهدف؛ ابنِ الملف الثنائي أولًا في إعدادات المشروع"
         AppLanguage.PORTUGUESE -> "Runtime Go (binário pré-compilado) não encontrado — app Go precisa de um binário pré-compilado para o ABI alvo; compile o binário primeiro nas configurações do projeto"
         AppLanguage.SPANISH -> "Runtime de Go (binario precompilado) no encontrado — la app Go necesita un binario precompilado para el ABI objetivo; compila el binario primero en la configuración del proyecto"
@@ -2022,6 +2183,7 @@ object StringsE {
     val startingGoServer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在启动 Go 服务器..."
         AppLanguage.ENGLISH -> "Starting Go server..."
+        AppLanguage.VIETNAMESE -> "Đang khởi động máy chủ Go..."
         AppLanguage.ARABIC -> "جاري تشغيل خادم Go..."
         AppLanguage.PORTUGUESE -> "Iniciando servidor Go..."
         AppLanguage.SPANISH -> "Iniciando servidor Go..."
@@ -2035,6 +2197,7 @@ object StringsE {
     val wpStartFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WordPress 启动失败"
         AppLanguage.ENGLISH -> "WordPress failed to start"
+        AppLanguage.VIETNAMESE -> "WordPress không khởi động được"
         AppLanguage.ARABIC -> "فشل تشغيل WordPress"
         AppLanguage.PORTUGUESE -> "WordPress falhou ao iniciar"
         AppLanguage.SPANISH -> "WordPress no pudo iniciarse"
@@ -2048,6 +2211,7 @@ object StringsE {
     val appRunningInBackground: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在后台运行"
         AppLanguage.ENGLISH -> "Running in background"
+        AppLanguage.VIETNAMESE -> "Chạy ở chế độ nền"
         AppLanguage.ARABIC -> "يعمل في الخلفية"
         AppLanguage.PORTUGUESE -> "Executando em segundo plano"
         AppLanguage.SPANISH -> "Ejecutándose en segundo plano"
@@ -2061,6 +2225,7 @@ object StringsE {
     val tapToReturnToApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击返回应用"
         AppLanguage.ENGLISH -> "Tap to return to app"
+        AppLanguage.VIETNAMESE -> "Nhấn để quay lại ứng dụng"
         AppLanguage.ARABIC -> "اضغط للعودة إلى التطبيق"
         AppLanguage.PORTUGUESE -> "Toque para voltar ao app"
         AppLanguage.SPANISH -> "Toca para volver a la app"
@@ -2074,6 +2239,7 @@ object StringsE {
     val runtimeDownloadChannel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时下载"
         AppLanguage.ENGLISH -> "Runtime Download"
+        AppLanguage.VIETNAMESE -> "Tải xuống thời gian chạy"
         AppLanguage.ARABIC -> "تنزيل وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Download de Runtime"
         AppLanguage.SPANISH -> "Descarga de Runtime"
@@ -2087,6 +2253,7 @@ object StringsE {
     val runtimeDownloadChannelDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示运行时依赖下载进度"
         AppLanguage.ENGLISH -> "Shows runtime dependency download progress"
+        AppLanguage.VIETNAMESE -> "Hiển thị tiến trình tải xuống phụ thuộc thời gian chạy"
         AppLanguage.ARABIC -> "يعرض تقدم تنزيل التبعيات"
         AppLanguage.PORTUGUESE -> "Mostra o progresso de download das dependências de runtime"
         AppLanguage.SPANISH -> "Muestra el progreso de descarga de dependencias de runtime"
@@ -2100,6 +2267,7 @@ object StringsE {
     val depDownloadRemaining: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "剩余"
         AppLanguage.ENGLISH -> "Remaining"
+        AppLanguage.VIETNAMESE -> "Còn lại"
         AppLanguage.ARABIC -> "المتبقي"
         AppLanguage.PORTUGUESE -> "Restante"
         AppLanguage.SPANISH -> "Restante"
@@ -2113,6 +2281,7 @@ object StringsE {
     val depDownloadStarted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始"
         AppLanguage.ENGLISH -> "Started"
+        AppLanguage.VIETNAMESE -> "Đã bắt đầu"
         AppLanguage.ARABIC -> "بدأ"
         AppLanguage.PORTUGUESE -> "Iniciado"
         AppLanguage.SPANISH -> "Iniciado"
@@ -2126,6 +2295,7 @@ object StringsE {
     val depDownloadPause: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂停"
         AppLanguage.ENGLISH -> "Pause"
+        AppLanguage.VIETNAMESE -> "Tạm dừng"
         AppLanguage.ARABIC -> "إيقاف مؤقت"
         AppLanguage.PORTUGUESE -> "Pausar"
         AppLanguage.SPANISH -> "Pausar"
@@ -2139,6 +2309,7 @@ object StringsE {
     val depDownloadResume: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "继续"
         AppLanguage.ENGLISH -> "Resume"
+        AppLanguage.VIETNAMESE -> "Bản tóm tắt"
         AppLanguage.ARABIC -> "استئناف"
         AppLanguage.PORTUGUESE -> "Retomar"
         AppLanguage.SPANISH -> "Reanudar"
@@ -2152,6 +2323,7 @@ object StringsE {
     val depDownloadPaused: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已暂停"
         AppLanguage.ENGLISH -> "Paused"
+        AppLanguage.VIETNAMESE -> "Đã tạm dừng"
         AppLanguage.ARABIC -> "متوقف مؤقتًا"
         AppLanguage.PORTUGUESE -> "Pausado"
         AppLanguage.SPANISH -> "Pausado"
@@ -2165,6 +2337,7 @@ object StringsE {
     val depDownloadExtracting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在解压"
         AppLanguage.ENGLISH -> "Extracting"
+        AppLanguage.VIETNAMESE -> "Giải nén"
         AppLanguage.ARABIC -> "جارٍ الاستخراج"
         AppLanguage.PORTUGUESE -> "Extraindo"
         AppLanguage.SPANISH -> "Extrayendo"
@@ -2178,6 +2351,7 @@ object StringsE {
     val grant: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "授权"
         AppLanguage.ENGLISH -> "Grant"
+        AppLanguage.VIETNAMESE -> "Khoản trợ cấp"
         AppLanguage.ARABIC -> "منح"
         AppLanguage.PORTUGUESE -> "Conceder"
         AppLanguage.SPANISH -> "Conceder"
@@ -2191,6 +2365,7 @@ object StringsE {
     val granted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已授权"
         AppLanguage.ENGLISH -> "Granted"
+        AppLanguage.VIETNAMESE -> "Giả dụ như vậy"
         AppLanguage.ARABIC -> "تم المنح"
         AppLanguage.PORTUGUESE -> "Concedido"
         AppLanguage.SPANISH -> "Concedido"
@@ -2204,6 +2379,7 @@ object StringsE {
     val protectionBasic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "基础防护"
         AppLanguage.ENGLISH -> "Basic Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ cơ bản"
         AppLanguage.ARABIC -> "حماية أساسية"
         AppLanguage.PORTUGUESE -> "Proteção Básica"
         AppLanguage.SPANISH -> "Protección Básica"
@@ -2217,6 +2393,7 @@ object StringsE {
     val protectionBasicDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仅拦截返回键，防护效果有限"
         AppLanguage.ENGLISH -> "Back key interception only, limited protection"
+        AppLanguage.VIETNAMESE -> "Chỉ chặn phím quay lại, bảo vệ hạn chế"
         AppLanguage.ARABIC -> "اعتراض مفتاح الرجوع فقط، حماية محدودة"
         AppLanguage.PORTUGUESE -> "Apenas interceptação da tecla voltar, proteção limitada"
         AppLanguage.SPANISH -> "Solo intercepción de tecla de retroceso, protección limitada"
@@ -2230,6 +2407,7 @@ object StringsE {
     val protectionStandard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标准防护"
         AppLanguage.ENGLISH -> "Standard Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ tiêu chuẩn"
         AppLanguage.ARABIC -> "حماية قياسية"
         AppLanguage.PORTUGUESE -> "Proteção Padrão"
         AppLanguage.SPANISH -> "Protección Estándar"
@@ -2243,6 +2421,7 @@ object StringsE {
     val protectionStandardDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通过辅助功能监控窗口，有效阻止应用切换"
         AppLanguage.ENGLISH -> "Window monitoring via accessibility, effectively prevents app switching"
+        AppLanguage.VIETNAMESE -> "Giám sát cửa sổ thông qua khả năng truy cập, ngăn chặn hiệu quả việc chuyển đổi ứng dụng"
         AppLanguage.ARABIC -> "مراقبة النوافذ عبر إمكانية الوصول، يمنع التبديل بين التطبيقات بفعالية"
         AppLanguage.PORTUGUESE -> "Monitoramento de janelas via acessibilidade, evita troca de apps de forma eficaz"
         AppLanguage.SPANISH -> "Monitorización de ventanas vía accesibilidad, evita el cambio de apps eficazmente"
@@ -2256,6 +2435,7 @@ object StringsE {
     val protectionMaximum: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最强防护"
         AppLanguage.ENGLISH -> "Maximum Protection"
+        AppLanguage.VIETNAMESE -> "Bảo vệ tối đa"
         AppLanguage.ARABIC -> "أقصى حماية"
         AppLanguage.PORTUGUESE -> "Proteção Máxima"
         AppLanguage.SPANISH -> "Protección Máxima"
@@ -2269,6 +2449,7 @@ object StringsE {
     val protectionMaximumDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "辅助功能 + 后台守护服务，双重防护确保万无一失"
         AppLanguage.ENGLISH -> "Accessibility + background guard service, dual protection for maximum security"
+        AppLanguage.VIETNAMESE -> "Khả năng truy cập + dịch vụ bảo vệ nền, bảo vệ kép để bảo mật tối đa"
         AppLanguage.ARABIC -> "إمكانية الوصول + خدمة حراسة خلفية، حماية مزدوجة لأقصى أمان"
         AppLanguage.PORTUGUESE -> "Acessibilidade + serviço de guarda em segundo plano, proteção dupla para segurança máxima"
         AppLanguage.SPANISH -> "Accesibilidad + servicio de guardia en segundo plano, protección dual para seguridad máxima"
@@ -2282,6 +2463,7 @@ object StringsE {
     val permissionsReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "权限已就绪"
         AppLanguage.ENGLISH -> "Permissions Ready"
+        AppLanguage.VIETNAMESE -> "Quyền đã sẵn sàng"
         AppLanguage.ARABIC -> "الأذونات جاهزة"
         AppLanguage.PORTUGUESE -> "Permissões Prontas"
         AppLanguage.SPANISH -> "Permisos Listos"
@@ -2295,6 +2477,7 @@ object StringsE {
     val permissionsNeeded: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要授权"
         AppLanguage.ENGLISH -> "Permissions Needed"
+        AppLanguage.VIETNAMESE -> "Quyền cần thiết"
         AppLanguage.ARABIC -> "الأذونات مطلوبة"
         AppLanguage.PORTUGUESE -> "Permissões Necessárias"
         AppLanguage.SPANISH -> "Permisos Necesarios"
@@ -2308,6 +2491,7 @@ object StringsE {
     val start: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始"
         AppLanguage.ENGLISH -> "Start"
+        AppLanguage.VIETNAMESE -> "Bắt đầu"
         AppLanguage.ARABIC -> "بدء"
         AppLanguage.PORTUGUESE -> "Iniciar"
         AppLanguage.SPANISH -> "Iniciar"
@@ -2321,6 +2505,7 @@ object StringsE {
     val skipDegradedProtection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跳过（降级防护）"
         AppLanguage.ENGLISH -> "Skip (degraded protection)"
+        AppLanguage.VIETNAMESE -> "Bỏ qua (bảo vệ xuống cấp)"
         AppLanguage.ARABIC -> "تخطي (حماية مخفضة)"
         AppLanguage.PORTUGUESE -> "Pular (proteção reduzida)"
         AppLanguage.SPANISH -> "Omitir (protección degradada)"
@@ -2334,6 +2519,7 @@ object StringsE {
     val htmlFileTooLarge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 文件较大（%sMB），已跳过内容分析"
         AppLanguage.ENGLISH -> "HTML file is large (%sMB), content analysis skipped"
+        AppLanguage.VIETNAMESE -> "Tệp HTML lớn (%sMB), phân tích nội dung bị bỏ qua"
         AppLanguage.ARABIC -> "ملف HTML كبير (%sMB)، تم تخطي تحليل المحتوى"
         AppLanguage.PORTUGUESE -> "Arquivo HTML grande (%sMB), análise de conteúdo ignorada"
         AppLanguage.SPANISH -> "Archivo HTML grande (%sMB), análisis de contenido omitido"
@@ -2347,6 +2533,7 @@ object StringsE {
     val resourceReferenceIssue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "资源引用问题"
         AppLanguage.ENGLISH -> "Resource reference issue"
+        AppLanguage.VIETNAMESE -> "Vấn đề tham chiếu tài nguyên"
         AppLanguage.ARABIC -> "مشكلة في مرجع المورد"
         AppLanguage.PORTUGUESE -> "Problema de referência de recurso"
         AppLanguage.SPANISH -> "Problema de referencia de recurso"
@@ -2360,6 +2547,7 @@ object StringsE {
     val htmlFileNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 文件不存在"
         AppLanguage.ENGLISH -> "HTML file not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tệp HTML"
         AppLanguage.ARABIC -> "ملف HTML غير موجود"
         AppLanguage.PORTUGUESE -> "Arquivo HTML não encontrado"
         AppLanguage.SPANISH -> "Archivo HTML no encontrado"
@@ -2373,6 +2561,7 @@ object StringsE {
     val cssEncodingWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS 文件编码为 %s，建议使用 UTF-8"
         AppLanguage.ENGLISH -> "CSS file encoding is %s, UTF-8 recommended"
+        AppLanguage.VIETNAMESE -> "Mã hóa tệp CSS là %s, khuyến nghị UTF-8"
         AppLanguage.ARABIC -> "ترميز ملف CSS هو %s، يوصى باستخدام UTF-8"
         AppLanguage.PORTUGUESE -> "Codificação do arquivo CSS é %s, recomenda-se UTF-8"
         AppLanguage.SPANISH -> "La codificación del archivo CSS es %s, se recomienda UTF-8"
@@ -2386,6 +2575,7 @@ object StringsE {
     val documentWriteWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用了 document.write()，可能导致页面加载问题"
         AppLanguage.ENGLISH -> "Uses document.write(), may cause page loading issues"
+        AppLanguage.VIETNAMESE -> "Sử dụng document.write(), có thể gây ra sự cố tải trang"
         AppLanguage.ARABIC -> "يستخدم document.write()، قد يسبب مشاكل في تحميل الصفحة"
         AppLanguage.PORTUGUESE -> "Usa document.write(), pode causar problemas de carregamento de página"
         AppLanguage.SPANISH -> "Usa document.write(), puede causar problemas de carga de página"
@@ -2399,6 +2589,7 @@ object StringsE {
     val gameScore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "得分"
         AppLanguage.ENGLISH -> "Score"
+        AppLanguage.VIETNAMESE -> "Điểm"
         AppLanguage.ARABIC -> "النتيجة"
         AppLanguage.PORTUGUESE -> "Pontuação"
         AppLanguage.SPANISH -> "Puntuación"
@@ -2412,6 +2603,7 @@ object StringsE {
     val gameLives: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "生命"
         AppLanguage.ENGLISH -> "Lives"
+        AppLanguage.VIETNAMESE -> "Cuộc sống"
         AppLanguage.ARABIC -> "الأرواح"
         AppLanguage.PORTUGUESE -> "Vidas"
         AppLanguage.SPANISH -> "Vidas"
@@ -2425,6 +2617,7 @@ object StringsE {
     val gameOver: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "游戏结束"
         AppLanguage.ENGLISH -> "Game Over"
+        AppLanguage.VIETNAMESE -> "Trò chơi kết thúc"
         AppLanguage.ARABIC -> "انتهت اللعبة"
         AppLanguage.PORTUGUESE -> "Fim de Jogo"
         AppLanguage.SPANISH -> "Fin del Juego"
@@ -2438,6 +2631,7 @@ object StringsE {
     val gameYouWin: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "恭喜通关！"
         AppLanguage.ENGLISH -> "You Win!"
+        AppLanguage.VIETNAMESE -> "Bạn thắng!"
         AppLanguage.ARABIC -> "فزت!"
         AppLanguage.PORTUGUESE -> "Você Venceu!"
         AppLanguage.SPANISH -> "¡Ganaste!"
@@ -2451,6 +2645,7 @@ object StringsE {
     val gameTapToRestart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击重新开始"
         AppLanguage.ENGLISH -> "Tap to restart"
+        AppLanguage.VIETNAMESE -> "Nhấn để khởi động lại"
         AppLanguage.ARABIC -> "اضغط لإعادة البدء"
         AppLanguage.PORTUGUESE -> "Toque para reiniciar"
         AppLanguage.SPANISH -> "Toca para reiniciar"
@@ -2464,6 +2659,7 @@ object StringsE {
     val gameMazeComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "迷宫通关！"
         AppLanguage.ENGLISH -> "Maze Complete!"
+        AppLanguage.VIETNAMESE -> "Mê cung hoàn thành!"
         AppLanguage.ARABIC -> "اكتملت المتاهة!"
         AppLanguage.PORTUGUESE -> "Labirinto Concluído!"
         AppLanguage.SPANISH -> "¡Laberinto Completado!"
@@ -2477,6 +2673,7 @@ object StringsE {
     val gameSteps: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "步数"
         AppLanguage.ENGLISH -> "Steps"
+        AppLanguage.VIETNAMESE -> "bước"
         AppLanguage.ARABIC -> "الخطوات"
         AppLanguage.PORTUGUESE -> "Passos"
         AppLanguage.SPANISH -> "Pasos"
@@ -2490,6 +2687,7 @@ object StringsE {
     val gameCollected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收集"
         AppLanguage.ENGLISH -> "Collected"
+        AppLanguage.VIETNAMESE -> "Đã sưu tầm"
         AppLanguage.ARABIC -> "تم جمع"
         AppLanguage.PORTUGUESE -> "Coletado"
         AppLanguage.SPANISH -> "Recogido"
@@ -2503,6 +2701,7 @@ object StringsE {
     val gameTouchToPaint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触摸屏幕，随心落墨"
         AppLanguage.ENGLISH -> "Touch to paint freely"
+        AppLanguage.VIETNAMESE -> "Chạm để vẽ tự do"
         AppLanguage.ARABIC -> "المس للرسم بحرية"
         AppLanguage.PORTUGUESE -> "Toque para pintar livremente"
         AppLanguage.SPANISH -> "Toca para pintar libremente"
@@ -2516,6 +2715,7 @@ object StringsE {
     val gameZen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "— 禅 —"
         AppLanguage.ENGLISH -> "— Zen —"
+        AppLanguage.VIETNAMESE -> "— Thiền —"
         AppLanguage.ARABIC -> "— زن —"
         AppLanguage.PORTUGUESE -> "— Zen —"
         AppLanguage.SPANISH -> "— Zen —"
@@ -2529,6 +2729,7 @@ object StringsE {
     val downloadFailedHttp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载失败: HTTP %d"
         AppLanguage.ENGLISH -> "Download failed: HTTP %d"
+        AppLanguage.VIETNAMESE -> "Tải xuống không thành công: HTTP %d"
         AppLanguage.ARABIC -> "فشل التنزيل: HTTP %d"
         AppLanguage.PORTUGUESE -> "Download falhou: HTTP %d"
         AppLanguage.SPANISH -> "Descarga fallida: HTTP %d"
@@ -2542,6 +2743,7 @@ object StringsE {
     val downloadReturnedEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载返回空内容"
         AppLanguage.ENGLISH -> "Download returned empty content"
+        AppLanguage.VIETNAMESE -> "Tải xuống trả về nội dung trống"
         AppLanguage.ARABIC -> "التنزيل أرجع محتوى فارغ"
         AppLanguage.PORTUGUESE -> "Download retornou conteúdo vazio"
         AppLanguage.SPANISH -> "La descarga devolvió contenido vacío"
@@ -2555,6 +2757,7 @@ object StringsE {
     val downloadNameFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载 %s 失败: %s"
         AppLanguage.ENGLISH -> "Download %s failed: %s"
+        AppLanguage.VIETNAMESE -> "Tải xuống %s không thành công: %s"
         AppLanguage.ARABIC -> "فشل تنزيل %s: %s"
         AppLanguage.PORTUGUESE -> "Download %s falhou: %s"
         AppLanguage.SPANISH -> "Descarga %s fallida: %s"
@@ -2568,6 +2771,7 @@ object StringsE {
     val downloadIntegrityFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载 %s 失败: 完整性校验未通过 (SHA-256 不匹配)，已丢弃文件"
         AppLanguage.ENGLISH -> "Download %s failed: integrity check failed (SHA-256 mismatch), file discarded"
+        AppLanguage.VIETNAMESE -> "Tải xuống %s không thành công: kiểm tra tính toàn vẹn không thành công (SHA-256 không khớp), tệp bị hủy"
         AppLanguage.ARABIC -> "فشل تنزيل %s: فشل التحقق من السلامة (عدم تطابق SHA-256)، تم حذف الملف"
         AppLanguage.PORTUGUESE -> "Download %s falhou: verificação de integridade falhou (SHA-256 divergente), arquivo descartado"
         AppLanguage.SPANISH -> "Descarga de %s fallida: la verificación de integridad falló (SHA-256 no coincide), archivo descartado"
@@ -2581,6 +2785,7 @@ object StringsE {
     val sizeUnknown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未知"
         AppLanguage.ENGLISH -> "Unknown"
+        AppLanguage.VIETNAMESE -> "Không xác định"
         AppLanguage.ARABIC -> "غير معروف"
         AppLanguage.PORTUGUESE -> "Desconhecido"
         AppLanguage.SPANISH -> "Desconocido"
@@ -2594,6 +2799,7 @@ object StringsE {
     val saveFailedNoHtmlInZip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存失败：ZIP 中未找到 HTML 文件"
         AppLanguage.ENGLISH -> "Save failed: no HTML file found in ZIP"
+        AppLanguage.VIETNAMESE -> "Lưu không thành công: không tìm thấy tệp HTML trong ZIP"
         AppLanguage.ARABIC -> "فشل الحفظ: لم يتم العثور على ملف HTML في ZIP"
         AppLanguage.PORTUGUESE -> "Falha ao salvar: nenhum arquivo HTML encontrado no ZIP"
         AppLanguage.SPANISH -> "Error al guardar: ningún archivo HTML encontrado en el ZIP"
@@ -2607,6 +2813,7 @@ object StringsE {
     val suggestUseRelativePath: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "建议使用相对路径，如 './style.css' 而非 '/style.css'"
         AppLanguage.ENGLISH -> "Use relative paths, e.g. './style.css' instead of '/style.css'"
+        AppLanguage.VIETNAMESE -> "Sử dụng các đường dẫn tương đối, ví dụ: './style.css' thay vì '/style.css'"
         AppLanguage.ARABIC -> "استخدم مسارات نسبية، مثل './style.css' بدلاً من '/style.css'"
         AppLanguage.PORTUGUESE -> "Use caminhos relativos, ex. './style.css' em vez de '/style.css'"
         AppLanguage.SPANISH -> "Usa rutas relativas, ej. './style.css' en lugar de '/style.css'"
@@ -2620,6 +2827,7 @@ object StringsE {
     val suggestEnsureFileImported: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请确保引用的文件 '%s' 已导入"
         AppLanguage.ENGLISH -> "Ensure the referenced file '%s' has been imported"
+        AppLanguage.VIETNAMESE -> "Đảm bảo tệp tham chiếu '%s' đã được nhập"
         AppLanguage.ARABIC -> "تأكد من استيراد الملف المُشار إليه '%s'"
         AppLanguage.PORTUGUESE -> "Garanta que o arquivo referenciado '%s' foi importado"
         AppLanguage.SPANISH -> "Asegúrate de que el archivo referenciado '%s' haya sido importado"
@@ -2633,6 +2841,7 @@ object StringsE {
     val suggestSaveAsUtf8: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将文件另存为 UTF-8 编码可避免乱码问题"
         AppLanguage.ENGLISH -> "Save the file as UTF-8 encoding to avoid character encoding issues"
+        AppLanguage.VIETNAMESE -> "Lưu tệp dưới dạng mã hóa UTF-8 để tránh các vấn đề về mã hóa ký tự"
         AppLanguage.ARABIC -> "احفظ الملف بترميز UTF-8 لتجنب مشاكل الترميز"
         AppLanguage.PORTUGUESE -> "Salve o arquivo com codificação UTF-8 para evitar problemas de codificação"
         AppLanguage.SPANISH -> "Guarda el archivo con codificación UTF-8 para evitar problemas de codificación"
@@ -2646,6 +2855,7 @@ object StringsE {
     val suggestExternalFilesDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 引用了本地 CSS/JS，请确认相关文件已导入"
         AppLanguage.ENGLISH -> "HTML references local CSS/JS. Make sure those files are included."
+        AppLanguage.VIETNAMESE -> "HTML tham chiếu CSS/JS cục bộ. Hãy chắc chắn rằng những tập tin đó được bao gồm."
         AppLanguage.ARABIC -> "يشير HTML إلى CSS/JS محلي. تأكد من تضمين هذه الملفات."
         AppLanguage.PORTUGUESE -> "HTML referencia CSS/JS local. Certifique-se de que esses arquivos estão incluídos."
         AppLanguage.SPANISH -> "HTML referencia CSS/JS local. Asegúrate de que esos archivos estén incluidos."
@@ -2659,6 +2869,7 @@ object StringsE {
     val suggestUseRelativePathsForAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "建议将所有资源路径改为相对路径，以确保在应用中正常加载"
         AppLanguage.ENGLISH -> "Use relative paths for all resources to ensure proper loading in the app"
+        AppLanguage.VIETNAMESE -> "Sử dụng đường dẫn tương đối cho tất cả tài nguyên để đảm bảo tải đúng cách trong ứng dụng"
         AppLanguage.ARABIC -> "استخدم مسارات نسبية لجميع الموارد لضمان التحميل الصحيح في التطبيق"
         AppLanguage.PORTUGUESE -> "Use caminhos relativos para todos os recursos para garantir carregamento adequado no app"
         AppLanguage.SPANISH -> "Usa rutas relativas para todos los recursos para asegurar la carga correcta en la app"
@@ -2672,6 +2883,7 @@ object StringsE {
     val absolutePathWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用了绝对路径，可能导致资源无法加载"
         AppLanguage.ENGLISH -> "Absolute path used, resource may fail to load"
+        AppLanguage.VIETNAMESE -> "Đã sử dụng đường dẫn tuyệt đối, tài nguyên có thể không tải được"
         AppLanguage.ARABIC -> "تم استخدام مسار مطلق، قد يفشل تحميل المورد"
         AppLanguage.PORTUGUESE -> "Caminho absoluto usado, o recurso pode falhar ao carregar"
         AppLanguage.SPANISH -> "Ruta absoluta usada, el recurso puede no cargarse"
@@ -2685,6 +2897,7 @@ object StringsE {
     val referencedFileNotExist: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "引用的文件不存在"
         AppLanguage.ENGLISH -> "Referenced file does not exist"
+        AppLanguage.VIETNAMESE -> "Tệp được tham chiếu không tồn tại"
         AppLanguage.ARABIC -> "الملف المُشار إليه غير موجود"
         AppLanguage.PORTUGUESE -> "Arquivo referenciado não existe"
         AppLanguage.SPANISH -> "El archivo referenciado no existe"
@@ -2698,6 +2911,7 @@ object StringsE {
     val suggestUseDomMethods: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "建议使用 DOM 操作方法替代 document.write()"
         AppLanguage.ENGLISH -> "Use DOM manipulation methods instead of document.write()"
+        AppLanguage.VIETNAMESE -> "Sử dụng các phương thức thao tác DOM thay vì document.write()"
         AppLanguage.ARABIC -> "استخدم طرق معالجة DOM بدلاً من document.write()"
         AppLanguage.PORTUGUESE -> "Use métodos de manipulação DOM em vez de document.write()"
         AppLanguage.SPANISH -> "Usa métodos de manipulación DOM en lugar de document.write()"
@@ -2711,6 +2925,7 @@ object StringsE {
     val possiblyUnclosedBraces: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可能存在未闭合的大括号"
         AppLanguage.ENGLISH -> "Possibly unclosed braces detected"
+        AppLanguage.VIETNAMESE -> "Có thể phát hiện niềng răng chưa đóng kín"
         AppLanguage.ARABIC -> "تم اكتشاف أقواس ربما غير مغلقة"
         AppLanguage.PORTUGUESE -> "Possivelmente chaves não fechadas detectadas"
         AppLanguage.SPANISH -> "Posiblemente llaves sin cerrar detectadas"
@@ -2724,6 +2939,7 @@ object StringsE {
     val suggestCheckBracesPaired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请检查 JS 代码中的大括号是否正确配对"
         AppLanguage.ENGLISH -> "Check that braces in JS code are properly paired"
+        AppLanguage.VIETNAMESE -> "Kiểm tra xem các dấu ngoặc nhọn trong mã JS có được ghép nối đúng cách không"
         AppLanguage.ARABIC -> "تحقق من أن الأقواس في كود JS مقترنة بشكل صحيح"
         AppLanguage.PORTUGUESE -> "Verifique se as chaves no código JS estão corretamente pareadas"
         AppLanguage.SPANISH -> "Comprueba que las llaves en el código JS estén correctamente emparejadas"
@@ -2737,6 +2953,7 @@ object StringsE {
     val notifDownloadChannel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载"
         AppLanguage.ENGLISH -> "Downloads"
+        AppLanguage.VIETNAMESE -> "Tải xuống"
         AppLanguage.ARABIC -> "التنزيلات"
         AppLanguage.PORTUGUESE -> "Transferências"
         AppLanguage.SPANISH -> "Descargas"
@@ -2750,6 +2967,7 @@ object StringsE {
     val notifDownloadChannelDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示文件下载进度和完成通知"
         AppLanguage.ENGLISH -> "Show file download progress and completion notifications"
+        AppLanguage.VIETNAMESE -> "Hiển thị tiến trình tải xuống tệp và thông báo hoàn thành"
         AppLanguage.ARABIC -> "عرض تقدم تنزيل الملفات وإشعارات الاكتمال"
         AppLanguage.PORTUGUESE -> "Mostra o progresso de download de arquivos e notificações de conclusão"
         AppLanguage.SPANISH -> "Muestra el progreso de descarga de archivos y notificaciones de finalización"
@@ -2763,6 +2981,7 @@ object StringsE {
     val notifDownloadComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载完成"
         AppLanguage.ENGLISH -> "Download complete"
+        AppLanguage.VIETNAMESE -> "Tải xuống hoàn tất"
         AppLanguage.ARABIC -> "اكتمل التنزيل"
         AppLanguage.PORTUGUESE -> "Download concluído"
         AppLanguage.SPANISH -> "Descarga completa"
@@ -2776,6 +2995,7 @@ object StringsE {
     val notifDownloadFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载失败"
         AppLanguage.ENGLISH -> "Download failed"
+        AppLanguage.VIETNAMESE -> "Tải xuống không thành công"
         AppLanguage.ARABIC -> "فشل التنزيل"
         AppLanguage.PORTUGUESE -> "Download falhou"
         AppLanguage.SPANISH -> "Descarga fallida"
@@ -2789,6 +3009,7 @@ object StringsE {
     val notifDownloading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载中"
         AppLanguage.ENGLISH -> "Downloading"
+        AppLanguage.VIETNAMESE -> "Đang tải xuống"
         AppLanguage.ARABIC -> "جاري التنزيل"
         AppLanguage.PORTUGUESE -> "Baixando"
         AppLanguage.SPANISH -> "Descargando"
@@ -2802,6 +3023,7 @@ object StringsE {
     val notifDownloadingFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载中：%s"
         AppLanguage.ENGLISH -> "Downloading: %s"
+        AppLanguage.VIETNAMESE -> "Đang tải xuống: %s"
         AppLanguage.ARABIC -> "جارٍ تنزيل: %s"
         AppLanguage.PORTUGUESE -> "Baixando: %s"
         AppLanguage.SPANISH -> "Descargando: %s"
@@ -2815,6 +3037,7 @@ object StringsE {
     val notifDownloadingMultipleFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在下载 %d 个文件"
         AppLanguage.ENGLISH -> "Downloading %d files"
+        AppLanguage.VIETNAMESE -> "Đang tải xuống các tệp %d"
         AppLanguage.ARABIC -> "جارٍ تنزيل %d ملفات"
         AppLanguage.PORTUGUESE -> "Baixando %d arquivos"
         AppLanguage.SPANISH -> "Descargando %d archivos"
@@ -2828,6 +3051,7 @@ object StringsE {
     val cannotWriteFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法写入文件"
         AppLanguage.ENGLISH -> "Cannot write file"
+        AppLanguage.VIETNAMESE -> "Không thể ghi tập tin"
         AppLanguage.ARABIC -> "تعذر كتابة الملف"
         AppLanguage.PORTUGUESE -> "Não é possível gravar o arquivo"
         AppLanguage.SPANISH -> "No se puede escribir el archivo"
@@ -2854,6 +3078,7 @@ object StringsE {
     val notifShare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享"
         AppLanguage.ENGLISH -> "Share"
+        AppLanguage.VIETNAMESE -> "Chia sẻ"
         AppLanguage.ARABIC -> "مشاركة"
         AppLanguage.PORTUGUESE -> "Compartilhar"
         AppLanguage.SPANISH -> "Compartir"
@@ -2867,6 +3092,7 @@ object StringsE {
     val notifOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开"
         AppLanguage.ENGLISH -> "Open"
+        AppLanguage.VIETNAMESE -> "Mở"
         AppLanguage.ARABIC -> "فتح"
         AppLanguage.PORTUGUESE -> "Abrir"
         AppLanguage.SPANISH -> "Abrir"
@@ -2880,6 +3106,7 @@ object StringsE {
     val failedSaveIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图标保存失败，请重试"
         AppLanguage.ENGLISH -> "Failed to save icon, please retry"
+        AppLanguage.VIETNAMESE -> "Không lưu được biểu tượng, vui lòng thử lại"
         AppLanguage.ARABIC -> "فشل حفظ الأيقونة، يرجى المحاولة مرة أخرى"
         AppLanguage.PORTUGUESE -> "Falha ao salvar o ícone, tente novamente"
         AppLanguage.SPANISH -> "Error al guardar el icono, inténtalo de nuevo"
@@ -2893,6 +3120,7 @@ object StringsE {
     val failedSaveSplash: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动画面保存失败，请重试"
         AppLanguage.ENGLISH -> "Failed to save splash, please retry"
+        AppLanguage.VIETNAMESE -> "Không lưu được Splash, vui lòng thử lại"
         AppLanguage.ARABIC -> "فشل حفظ شاشة البداية، يرجى المحاولة مرة أخرى"
         AppLanguage.PORTUGUESE -> "Falha ao salvar a splash, tente novamente"
         AppLanguage.SPANISH -> "Error al guardar la splash, inténtalo de nuevo"
@@ -2906,6 +3134,7 @@ object StringsE {
     val appSavedSuccessfully: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用保存成功"
         AppLanguage.ENGLISH -> "App saved successfully"
+        AppLanguage.VIETNAMESE -> "Đã lưu ứng dụng thành công"
         AppLanguage.ARABIC -> "تم حفظ التطبيق بنجاح"
         AppLanguage.PORTUGUESE -> "App salva com sucesso"
         AppLanguage.SPANISH -> "App guardada con éxito"
@@ -2919,6 +3148,7 @@ object StringsE {
     val appDeleted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用已删除"
         AppLanguage.ENGLISH -> "App deleted"
+        AppLanguage.VIETNAMESE -> "Đã xóa ứng dụng"
         AppLanguage.ARABIC -> "تم حذف التطبيق"
         AppLanguage.PORTUGUESE -> "App excluída"
         AppLanguage.SPANISH -> "App eliminada"
@@ -2932,6 +3162,7 @@ object StringsE {
     val deleteFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除失败"
         AppLanguage.ENGLISH -> "Delete failed"
+        AppLanguage.VIETNAMESE -> "Xóa không thành công"
         AppLanguage.ARABIC -> "فشل الحذف"
         AppLanguage.PORTUGUESE -> "Exclusão falhou"
         AppLanguage.SPANISH -> "Eliminación fallida"
@@ -2945,6 +3176,7 @@ object StringsE {
     val pleaseEnterAppName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请输入应用名称"
         AppLanguage.ENGLISH -> "Please enter app name"
+        AppLanguage.VIETNAMESE -> "Vui lòng nhập tên ứng dụng"
         AppLanguage.ARABIC -> "يرجى إدخال اسم التطبيق"
         AppLanguage.PORTUGUESE -> "Por favor, insira o nome do app"
         AppLanguage.SPANISH -> "Por favor, ingresa el nombre de la app"
@@ -2958,6 +3190,7 @@ object StringsE {
     val pleaseEnterWebsiteUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请输入网站 URL"
         AppLanguage.ENGLISH -> "Please enter website URL"
+        AppLanguage.VIETNAMESE -> "Vui lòng nhập URL trang web"
         AppLanguage.ARABIC -> "يرجى إدخال عنوان URL للموقع"
         AppLanguage.PORTUGUESE -> "Por favor, insira a URL do site"
         AppLanguage.SPANISH -> "Por favor, ingresa la URL del sitio web"
@@ -2971,6 +3204,7 @@ object StringsE {
     val pleaseEnterValidUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请输入有效的 URL"
         AppLanguage.ENGLISH -> "Please enter a valid URL"
+        AppLanguage.VIETNAMESE -> "Vui lòng nhập một URL hợp lệ"
         AppLanguage.ARABIC -> "يرجى إدخال عنوان URL صالح"
         AppLanguage.PORTUGUESE -> "Por favor, insira uma URL válida"
         AppLanguage.SPANISH -> "Por favor, ingresa una URL válida"
@@ -2984,6 +3218,7 @@ object StringsE {
     val pleaseSelectHtmlFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请选择 HTML 文件"
         AppLanguage.ENGLISH -> "Please select HTML file"
+        AppLanguage.VIETNAMESE -> "Vui lòng chọn tệp HTML"
         AppLanguage.ARABIC -> "يرجى اختيار ملف HTML"
         AppLanguage.PORTUGUESE -> "Por favor, selecione o arquivo HTML"
         AppLanguage.SPANISH -> "Por favor, selecciona el archivo HTML"
@@ -2997,6 +3232,7 @@ object StringsE {
     val mediaFilePathEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体文件路径不能为空"
         AppLanguage.ENGLISH -> "Media file path cannot be empty"
+        AppLanguage.VIETNAMESE -> "Đường dẫn tệp phương tiện không được để trống"
         AppLanguage.ARABIC -> "مسار ملف الوسائط لا يمكن أن يكون فارغاً"
         AppLanguage.PORTUGUESE -> "O caminho do arquivo de mídia não pode estar vazio"
         AppLanguage.SPANISH -> "La ruta del archivo multimedia no puede estar vacía"
@@ -3010,6 +3246,7 @@ object StringsE {
     val failedSaveMediaFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体文件保存失败"
         AppLanguage.ENGLISH -> "Failed to save media file"
+        AppLanguage.VIETNAMESE -> "Không lưu được tệp phương tiện"
         AppLanguage.ARABIC -> "فشل حفظ ملف الوسائط"
         AppLanguage.PORTUGUESE -> "Falha ao salvar o arquivo de mídia"
         AppLanguage.SPANISH -> "Error al guardar el archivo multimedia"
@@ -3023,6 +3260,7 @@ object StringsE {
     val appCreatedSuccessfully: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%s 应用创建成功"
         AppLanguage.ENGLISH -> "%s app created successfully"
+        AppLanguage.VIETNAMESE -> "Ứng dụng %s đã được tạo thành công"
         AppLanguage.ARABIC -> "تم إنشاء تطبيق %s بنجاح"
         AppLanguage.PORTUGUESE -> "App %s criada com sucesso"
         AppLanguage.SPANISH -> "App %s creada con éxito"
@@ -3036,6 +3274,7 @@ object StringsE {
     val creationFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建失败: %s"
         AppLanguage.ENGLISH -> "Creation failed: %s"
+        AppLanguage.VIETNAMESE -> "Tạo không thành công: %s"
         AppLanguage.ARABIC -> "فشل الإنشاء: %s"
         AppLanguage.PORTUGUESE -> "Criação falhou: %s"
         AppLanguage.SPANISH -> "Creación fallida: %s"
@@ -3049,6 +3288,7 @@ object StringsE {
     val pleaseAddMediaFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请至少添加一个媒体文件"
         AppLanguage.ENGLISH -> "Please add at least one media file"
+        AppLanguage.VIETNAMESE -> "Vui lòng thêm ít nhất một tệp phương tiện"
         AppLanguage.ARABIC -> "يرجى إضافة ملف وسائط واحد على الأقل"
         AppLanguage.PORTUGUESE -> "Adicione pelo menos um arquivo de mídia"
         AppLanguage.SPANISH -> "Añade al menos un archivo multimedia"
@@ -3062,6 +3302,7 @@ object StringsE {
     val appUpdatedSuccessfully: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%s 应用更新成功"
         AppLanguage.ENGLISH -> "%s app updated successfully"
+        AppLanguage.VIETNAMESE -> "Ứng dụng %s được cập nhật thành công"
         AppLanguage.ARABIC -> "تم تحديث تطبيق %s بنجاح"
         AppLanguage.PORTUGUESE -> "App %s atualizada com sucesso"
         AppLanguage.SPANISH -> "App %s actualizada con éxito"
@@ -3075,6 +3316,7 @@ object StringsE {
     val updateFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更新失败: %s"
         AppLanguage.ENGLISH -> "Update failed: %s"
+        AppLanguage.VIETNAMESE -> "Cập nhật không thành công: %s"
         AppLanguage.ARABIC -> "فشل التحديث: %s"
         AppLanguage.PORTUGUESE -> "Atualização falhou: %s"
         AppLanguage.SPANISH -> "Actualización fallida: %s"
@@ -3088,6 +3330,7 @@ object StringsE {
     val failedCreateCategory: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "创建分类失败: %s"
         AppLanguage.ENGLISH -> "Failed to create category: %s"
+        AppLanguage.VIETNAMESE -> "Không tạo được danh mục: %s"
         AppLanguage.ARABIC -> "فشل إنشاء الفئة: %s"
         AppLanguage.PORTUGUESE -> "Falha ao criar categoria: %s"
         AppLanguage.SPANISH -> "Error al crear categoría: %s"
@@ -3101,6 +3344,7 @@ object StringsE {
     val failedUpdateCategory: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更新分类失败: %s"
         AppLanguage.ENGLISH -> "Failed to update category: %s"
+        AppLanguage.VIETNAMESE -> "Không thể cập nhật danh mục: %s"
         AppLanguage.ARABIC -> "فشل تحديث الفئة: %s"
         AppLanguage.PORTUGUESE -> "Falha ao atualizar categoria: %s"
         AppLanguage.SPANISH -> "Error al actualizar categoría: %s"
@@ -3114,6 +3358,7 @@ object StringsE {
     val failedDeleteCategory: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除分类失败: %s"
         AppLanguage.ENGLISH -> "Failed to delete category: %s"
+        AppLanguage.VIETNAMESE -> "Không xóa được danh mục: %s"
         AppLanguage.ARABIC -> "فشل حذف الفئة: %s"
         AppLanguage.PORTUGUESE -> "Falha ao excluir categoria: %s"
         AppLanguage.SPANISH -> "Error al eliminar categoría: %s"
@@ -3127,6 +3372,7 @@ object StringsE {
     val moveFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移动失败: %s"
         AppLanguage.ENGLISH -> "Move failed: %s"
+        AppLanguage.VIETNAMESE -> "Di chuyển không thành công: %s"
         AppLanguage.ARABIC -> "فشل النقل: %s"
         AppLanguage.PORTUGUESE -> "Movimentação falhou: %s"
         AppLanguage.SPANISH -> "Movimiento fallido: %s"
@@ -3140,6 +3386,7 @@ object StringsE {
     val cdBack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回"
         AppLanguage.ENGLISH -> "Back"
+        AppLanguage.VIETNAMESE -> "Mặt sau"
         AppLanguage.ARABIC -> "رجوع"
         AppLanguage.PORTUGUESE -> "Voltar"
         AppLanguage.SPANISH -> "Atrás"
@@ -3153,6 +3400,7 @@ object StringsE {
     val cdForward: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "前进"
         AppLanguage.ENGLISH -> "Forward"
+        AppLanguage.VIETNAMESE -> "Phía trước"
         AppLanguage.ARABIC -> "للأمام"
         AppLanguage.PORTUGUESE -> "Avançar"
         AppLanguage.SPANISH -> "Adelante"
@@ -3166,6 +3414,7 @@ object StringsE {
     val cdRefresh: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "刷新"
         AppLanguage.ENGLISH -> "Refresh"
+        AppLanguage.VIETNAMESE -> "Làm cho khỏe lại"
         AppLanguage.ARABIC -> "تحديث"
         AppLanguage.PORTUGUESE -> "Atualizar"
         AppLanguage.SPANISH -> "Actualizar"
@@ -3179,6 +3428,7 @@ object StringsE {
     val cdHome: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主页"
         AppLanguage.ENGLISH -> "Home"
+        AppLanguage.VIETNAMESE -> "Trang chủ"
         AppLanguage.ARABIC -> "الصفحة الرئيسية"
         AppLanguage.PORTUGUESE -> "Início"
         AppLanguage.SPANISH -> "Inicio"
@@ -3192,6 +3442,7 @@ object StringsE {
     val cdPause: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂停"
         AppLanguage.ENGLISH -> "Pause"
+        AppLanguage.VIETNAMESE -> "Tạm dừng"
         AppLanguage.ARABIC -> "إيقاف مؤقت"
         AppLanguage.PORTUGUESE -> "Pausar"
         AppLanguage.SPANISH -> "Pausar"
@@ -3205,6 +3456,7 @@ object StringsE {
     val cdPlay: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "播放"
         AppLanguage.ENGLISH -> "Play"
+        AppLanguage.VIETNAMESE -> "Chơi"
         AppLanguage.ARABIC -> "تشغيل"
         AppLanguage.PORTUGUESE -> "Reproduzir"
         AppLanguage.SPANISH -> "Reproducir"
@@ -3218,6 +3470,7 @@ object StringsE {
     val cdPrevious: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上一个"
         AppLanguage.ENGLISH -> "Previous"
+        AppLanguage.VIETNAMESE -> "Trước"
         AppLanguage.ARABIC -> "السابق"
         AppLanguage.PORTUGUESE -> "Anterior"
         AppLanguage.SPANISH -> "Anterior"
@@ -3231,6 +3484,7 @@ object StringsE {
     val cdNext: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下一个"
         AppLanguage.ENGLISH -> "Next"
+        AppLanguage.VIETNAMESE -> "Kế tiếp"
         AppLanguage.ARABIC -> "التالي"
         AppLanguage.PORTUGUESE -> "Próximo"
         AppLanguage.SPANISH -> "Siguiente"
@@ -3244,6 +3498,7 @@ object StringsE {
     val cdSeekBack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快退"
         AppLanguage.ENGLISH -> "Seek Back"
+        AppLanguage.VIETNAMESE -> "Tìm lại"
         AppLanguage.ARABIC -> "ترجيع"
         AppLanguage.PORTUGUESE -> "Retroceder"
         AppLanguage.SPANISH -> "Retroceder"
@@ -3257,6 +3512,7 @@ object StringsE {
     val cdSeekForward: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快进"
         AppLanguage.ENGLISH -> "Seek Forward"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm phía trước"
         AppLanguage.ARABIC -> "تقديم"
         AppLanguage.PORTUGUESE -> "Avançar"
         AppLanguage.SPANISH -> "Avanzar"
@@ -3270,6 +3526,7 @@ object StringsE {
     val cdSplashScreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动画面"
         AppLanguage.ENGLISH -> "Splash screen"
+        AppLanguage.VIETNAMESE -> "Màn hình giật gân"
         AppLanguage.ARABIC -> "شاشة البداية"
         AppLanguage.PORTUGUESE -> "Tela inicial"
         AppLanguage.SPANISH -> "Pantalla de inicio"
@@ -3283,6 +3540,7 @@ object StringsE {
     val cdMediaContent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体内容"
         AppLanguage.ENGLISH -> "Media content"
+        AppLanguage.VIETNAMESE -> "Nội dung truyền thông"
         AppLanguage.ARABIC -> "محتوى الوسائط"
         AppLanguage.PORTUGUESE -> "Conteúdo de mídia"
         AppLanguage.SPANISH -> "Contenido multimedia"
@@ -3296,6 +3554,7 @@ object StringsE {
     val cdCover: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "封面"
         AppLanguage.ENGLISH -> "Cover"
+        AppLanguage.VIETNAMESE -> "Che phủ"
         AppLanguage.ARABIC -> "غلاف"
         AppLanguage.PORTUGUESE -> "Capa"
         AppLanguage.SPANISH -> "Portada"
@@ -3309,6 +3568,7 @@ object StringsE {
     val cdClose: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭"
         AppLanguage.ENGLISH -> "Close"
+        AppLanguage.VIETNAMESE -> "Đóng"
         AppLanguage.ARABIC -> "إغلاق"
         AppLanguage.PORTUGUESE -> "Fechar"
         AppLanguage.SPANISH -> "Cerrar"
@@ -3322,6 +3582,7 @@ object StringsE {
     val cdRemove: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除"
         AppLanguage.ENGLISH -> "Remove"
+        AppLanguage.VIETNAMESE -> "Di dời"
         AppLanguage.ARABIC -> "إزالة"
         AppLanguage.PORTUGUESE -> "Remover"
         AppLanguage.SPANISH -> "Quitar"
@@ -3335,6 +3596,7 @@ object StringsE {
     val verifyingFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "验证中: %s"
         AppLanguage.ENGLISH -> "Verifying: %s"
+        AppLanguage.VIETNAMESE -> "Đang xác minh: %s"
         AppLanguage.ARABIC -> "جاري التحقق: %s"
         AppLanguage.PORTUGUESE -> "Verificando: %s"
         AppLanguage.SPANISH -> "Verificando: %s"
@@ -3348,6 +3610,7 @@ object StringsE {
     val pwaOfflineTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PWA 离线支持"
         AppLanguage.ENGLISH -> "PWA Offline Support"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ ngoại tuyến PWA"
         AppLanguage.ARABIC -> "دعم PWA بدون اتصال"
         AppLanguage.PORTUGUESE -> "Suporte PWA Offline"
         AppLanguage.SPANISH -> "Soporte PWA Sin Conexión"
@@ -3360,6 +3623,7 @@ object StringsE {
     val freshSessionModeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每次打开都是新会话"
         AppLanguage.ENGLISH -> "Fresh Session on Launch"
+        AppLanguage.VIETNAMESE -> "Phiên mới khi ra mắt"
         AppLanguage.ARABIC -> "جلسة جديدة عند التشغيل"
         AppLanguage.PORTUGUESE -> "Sessão Nova ao Iniciar"
         AppLanguage.SPANISH -> "Sesión Nueva al Iniciar"
@@ -3372,6 +3636,7 @@ object StringsE {
     val freshSessionModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动生成的 APK 时清除 Cookie、站点存储和网页缓存。开启后登录状态、本地存档和离线缓存都会被重置。"
         AppLanguage.ENGLISH -> "Clear cookies, site storage, and web cache when the generated APK launches. Login state, local saves, and offline cache will reset when enabled."
+        AppLanguage.VIETNAMESE -> "Xóa cookie, bộ nhớ trang web và bộ đệm web khi APK được tạo khởi chạy. Trạng thái đăng nhập, lưu cục bộ và bộ nhớ đệm ngoại tuyến sẽ được đặt lại khi được bật."
         AppLanguage.ARABIC -> "مسح ملفات تعريف الارتباط وتخزين الموقع وذاكرة الويب عند تشغيل ملف APK الناتج. عند التفعيل ستتم إعادة ضبط حالة تسجيل الدخول والحفظ المحلي وذاكرة التخزين دون اتصال."
         AppLanguage.PORTUGUESE -> "Limpa cookies, armazenamento do site e cache web quando o APK gerado inicia. Estado de login, salvamentos locais e cache offline serão redefinidos quando ativado."
         AppLanguage.SPANISH -> "Borra cookies, almacenamiento del sitio y caché web cuando el APK generado se inicia. El estado de inicio de sesión, los guardados locales y la caché sin conexión se restablecerán al activarse."
@@ -3384,6 +3649,7 @@ object StringsE {
     val pwaOfflineSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入 Service Worker 缓存层，支持离线浏览已访问页面"
         AppLanguage.ENGLISH -> "Inject Service Worker cache layer for offline browsing of visited pages"
+        AppLanguage.VIETNAMESE -> "Tiêm lớp bộ đệm của Service Worker để duyệt ngoại tuyến các trang đã truy cập"
         AppLanguage.ARABIC -> "حقن طبقة تخزين Service Worker للتصفح بدون اتصال"
         AppLanguage.PORTUGUESE -> "Injeta camada de cache Service Worker para navegação offline de páginas visitadas"
         AppLanguage.SPANISH -> "Inyecta capa de caché Service Worker para navegación sin conexión de páginas visitadas"
@@ -3396,6 +3662,7 @@ object StringsE {
     val pwaOfflineStrategyLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缓存策略"
         AppLanguage.ENGLISH -> "Cache Strategy"
+        AppLanguage.VIETNAMESE -> "Chiến lược bộ đệm"
         AppLanguage.ARABIC -> "استراتيجية التخزين المؤقت"
         AppLanguage.PORTUGUESE -> "Estratégia de Cache"
         AppLanguage.SPANISH -> "Estrategia de Caché"
@@ -3408,6 +3675,7 @@ object StringsE {
     val staticAssetPackTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "静态资源打包"
         AppLanguage.ENGLISH -> "Static Asset Pack"
+        AppLanguage.VIETNAMESE -> "Gói tài sản tĩnh"
         AppLanguage.ARABIC -> "حزمة الأصول الثابتة"
         AppLanguage.PORTUGUESE -> "Pacote de Recursos Estáticos"
         AppLanguage.SPANISH -> "Paquete de Recursos Estáticos"
@@ -3420,6 +3688,7 @@ object StringsE {
     val staticAssetPackSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建时将网站的静态资源（CSS/JS/字体/图标）打包进 APK，启动时本地加载，动态内容仍走网络。首启更快、更省流量。"
         AppLanguage.ENGLISH -> "Package the site's static assets (CSS/JS/fonts/icons) into the APK at build time; load them locally on launch while dynamic content stays online. Faster first launch, lower traffic."
+        AppLanguage.VIETNAMESE -> "Đóng gói nội dung tĩnh của trang web (CSS/JS/phông chữ/biểu tượng) vào APK tại thời điểm xây dựng; tải chúng cục bộ khi khởi chạy trong khi nội dung động vẫn trực tuyến. Khởi chạy lần đầu nhanh hơn, lưu lượng truy cập thấp hơn."
         AppLanguage.ARABIC -> "قم بتعبئة أصول الموقع الثابتة (CSS/JS/الخطوط/الأيقونات) في APK وقت البناء؛ يتم تحميلها محليًا عند التشغيل بينما يبقى المحتوى الديناميكي عبر الإنترنت. تشغيل أول أسرع واستهلاك أقل للبيانات."
         AppLanguage.PORTUGUESE -> "Empacota os recursos estáticos do site (CSS/JS/fontes/ícones) no APK durante a build; carrega-os localmente ao iniciar enquanto o conteúdo dinâmico permanece online. Início mais rápido, menos tráfego."
         AppLanguage.SPANISH -> "Empaqueta los recursos estáticos del sitio (CSS/JS/fuentes/iconos) en el APK durante la compilación; cárgalos localmente al iniciar mientras el contenido dinámico permanece en línea. Inicio más rápido, menos tráfico."
@@ -3432,6 +3701,7 @@ object StringsE {
     val staticAssetPackMaxAgeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缓存有效期（天）"
         AppLanguage.ENGLISH -> "Cache validity (days)"
+        AppLanguage.VIETNAMESE -> "Hiệu lực của bộ đệm (ngày)"
         AppLanguage.ARABIC -> "صلاحية التخزين المؤقت (أيام)"
         AppLanguage.PORTUGUESE -> "Validade do cache (dias)"
         AppLanguage.SPANISH -> "Validez de la caché (días)"
@@ -3444,6 +3714,7 @@ object StringsE {
     val staticAssetPackIncludeImagesTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包含图片"
         AppLanguage.ENGLISH -> "Include images"
+        AppLanguage.VIETNAMESE -> "Bao gồm hình ảnh"
         AppLanguage.ARABIC -> "تضمين الصور"
         AppLanguage.PORTUGUESE -> "Incluir imagens"
         AppLanguage.SPANISH -> "Incluir imágenes"
@@ -3456,6 +3727,7 @@ object StringsE {
     val staticAssetPackIncludeCdnTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包含 CDN 资源"
         AppLanguage.ENGLISH -> "Include CDN resources"
+        AppLanguage.VIETNAMESE -> "Bao gồm tài nguyên CDN"
         AppLanguage.ARABIC -> "تضمين موارد CDN"
         AppLanguage.PORTUGUESE -> "Incluir recursos de CDN"
         AppLanguage.SPANISH -> "Incluir recursos de CDN"
@@ -3468,6 +3740,7 @@ object StringsE {
     val backButtonBehaviorLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回键行为"
         AppLanguage.ENGLISH -> "Back Button Behavior"
+        AppLanguage.VIETNAMESE -> "Hành vi nút quay lại"
         AppLanguage.ARABIC -> "سلوك زر الرجوع"
         AppLanguage.PORTUGUESE -> "Comportamento do Botão Voltar"
         AppLanguage.SPANISH -> "Comportamiento del Botón Atrás"
@@ -3480,6 +3753,7 @@ object StringsE {
     val backButtonBehaviorHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回上一页会沿历史返回，到首页后再按一次才退出。首页一次退出同样沿历史返回，没有上一页时按一次就离开。直接退出应用会立刻离开。执行 JS 会先派发 wta:back，网页 preventDefault 后停在页面里，没人处理时仍按返回上一页。"
         AppLanguage.ENGLISH -> "Go back in history walks pages, then asks for a second press on the first page. Exit at first page walks pages and leaves on one press when nothing is left. Exit app leaves immediately. Run JavaScript dispatches wta:back first. preventDefault stays on the page. If nothing handles it, Back still walks history."
+        AppLanguage.VIETNAMESE -> "Quay lại các trang lịch sử, sau đó yêu cầu nhấn lần thứ hai vào trang đầu tiên. Thoát ở trang đầu tiên đi qua các trang và rời đi chỉ bằng một lần nhấn khi không còn gì. Thoát khỏi ứng dụng ngay lập tức. Trước tiên hãy chạy các công văn JavaScript wta:back. ngăn chặnDefault vẫn ở trên trang. Nếu không có gì xử lý được thì Lùi vẫn bước đi lịch sử."
         AppLanguage.ARABIC -> "الرجوع في السجل يتنقل بين الصفحات، ثم يطلب ضغطة ثانية في الصفحة الأولى. الخروج من الصفحة الأولى يتنقل كذلك ويغادر بضغطة واحدة عند عدم وجود صفحة سابقة. الخروج من التطبيق يغادر فورًا. تنفيذ جافاسكربت يرسل wta:back أولًا. preventDefault يُبقي الصفحة. إذا لم يعالجه أحد، يستمر الرجوع في السجل."
         AppLanguage.PORTUGUESE -> "Voltar no histórico percorre as páginas e pede um segundo toque na primeira. Sair na primeira página percorre o histórico e sai com um toque quando não há para onde voltar. Sair do app sai na hora. Executar JavaScript dispara wta:back primeiro. preventDefault fica na página. Se ninguém tratar, o Voltar ainda percorre o histórico."
         AppLanguage.SPANISH -> "Retroceder en el historial recorre las páginas y pide una segunda pulsación en la primera. Salir en la primera página recorre el historial y sale con una pulsación cuando no queda nada atrás. Salir de la app sale al instante. Ejecutar JavaScript envía wta:back primero. preventDefault se queda en la página. Si nadie lo atiende, Atrás sigue recorriendo el historial."
@@ -3492,6 +3766,7 @@ object StringsE {
     val backButtonGoBack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回上一页"
         AppLanguage.ENGLISH -> "Go back in history"
+        AppLanguage.VIETNAMESE -> "Quay lại lịch sử"
         AppLanguage.ARABIC -> "الرجوع في السجل"
         AppLanguage.PORTUGUESE -> "Voltar no histórico"
         AppLanguage.SPANISH -> "Retroceder en el historial"
@@ -3504,6 +3779,7 @@ object StringsE {
     val backButtonExitAtRoot: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "首页一次退出"
         AppLanguage.ENGLISH -> "Exit at first page"
+        AppLanguage.VIETNAMESE -> "Thoát ở trang đầu tiên"
         AppLanguage.ARABIC -> "الخروج من الصفحة الأولى"
         AppLanguage.PORTUGUESE -> "Sair na primeira página"
         AppLanguage.SPANISH -> "Salir en la primera página"
@@ -3516,6 +3792,7 @@ object StringsE {
     val backButtonExitApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "直接退出应用"
         AppLanguage.ENGLISH -> "Exit app"
+        AppLanguage.VIETNAMESE -> "Thoát ứng dụng"
         AppLanguage.ARABIC -> "الخروج من التطبيق"
         AppLanguage.PORTUGUESE -> "Sair do app"
         AppLanguage.SPANISH -> "Salir de la app"
@@ -3528,6 +3805,7 @@ object StringsE {
     val backButtonRunJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "执行 JS"
         AppLanguage.ENGLISH -> "Run JavaScript"
+        AppLanguage.VIETNAMESE -> "Chạy JavaScript"
         AppLanguage.ARABIC -> "تنفيذ جافاسكربت"
         AppLanguage.PORTUGUESE -> "Executar JavaScript"
         AppLanguage.SPANISH -> "Ejecutar JavaScript"
@@ -3540,6 +3818,7 @@ object StringsE {
     val forwardVolumeKeysLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把音量键交给网页"
         AppLanguage.ENGLISH -> "Send volume keys to the page"
+        AppLanguage.VIETNAMESE -> "Gửi phím âm lượng đến trang"
         AppLanguage.ARABIC -> "إرسال مفاتيح الصوت إلى الصفحة"
         AppLanguage.PORTUGUESE -> "Enviar as teclas de volume à página"
         AppLanguage.SPANISH -> "Enviar las teclas de volumen a la página"
@@ -3552,6 +3831,7 @@ object StringsE {
     val forwardVolumeKeysHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "按下音量加、减或静音时，网页会收到 wta:volume，detail.key 为 VolumeUp、VolumeDown 或 VolumeMute。"
         AppLanguage.ENGLISH -> "Volume up, down, and mute dispatch wta:volume. detail.key is VolumeUp, VolumeDown, or VolumeMute."
+        AppLanguage.VIETNAMESE -> "Tăng, giảm âm lượng và tắt tiếng gửi wta:volume. chi tiết.key là VolumeUp, VolumeDown hoặc VolumeMute."
         AppLanguage.ARABIC -> "ترسل مفاتيح رفع الصوت وخفضه وكتمه الحدث wta:volume. قيمة detail.key هي VolumeUp أو VolumeDown أو VolumeMute."
         AppLanguage.PORTUGUESE -> "Aumentar, diminuir e silenciar disparam wta:volume. detail.key é VolumeUp, VolumeDown ou VolumeMute."
         AppLanguage.SPANISH -> "Subir, bajar y silenciar envían wta:volume. detail.key es VolumeUp, VolumeDown o VolumeMute."
@@ -3564,6 +3844,7 @@ object StringsE {
     val consumeVolumeKeysLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "接管时不改系统音量"
         AppLanguage.ENGLISH -> "Do not change the system volume"
+        AppLanguage.VIETNAMESE -> "Không thay đổi âm lượng hệ thống"
         AppLanguage.ARABIC -> "عدم تغيير صوت النظام"
         AppLanguage.PORTUGUESE -> "Não alterar o volume do sistema"
         AppLanguage.SPANISH -> "No cambiar el volumen del sistema"
@@ -3576,6 +3857,7 @@ object StringsE {
     val consumeVolumeKeysHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关掉时，网页仍能收到事件，系统音量也会跟着变。"
         AppLanguage.ENGLISH -> "When this is off, the page still receives the event and the system volume still changes."
+        AppLanguage.VIETNAMESE -> "Khi tính năng này tắt, trang vẫn nhận được sự kiện và âm lượng hệ thống vẫn thay đổi."
         AppLanguage.ARABIC -> "عند الإيقاف، تستقبل الصفحة الحدث ويتغير صوت النظام أيضًا."
         AppLanguage.PORTUGUESE -> "Desligado, a página ainda recebe o evento e o volume do sistema também muda."
         AppLanguage.SPANISH -> "Apagado, la página sigue recibiendo el evento y el volumen del sistema también cambia."
@@ -3588,6 +3870,7 @@ object StringsE {
     val mediaAlbumNameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "相册子目录"
         AppLanguage.ENGLISH -> "Gallery folder"
+        AppLanguage.VIETNAMESE -> "Thư mục thư viện"
         AppLanguage.ARABIC -> "مجلد المعرض"
         AppLanguage.PORTUGUESE -> "Pasta da galeria"
         AppLanguage.SPANISH -> "Carpeta de la galería"
@@ -3600,6 +3883,7 @@ object StringsE {
     val mediaAlbumNameHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "系统下载进相册时用的子目录名。留空则是 WebToApp。自定义文件夹里的图片、视频和音频会单独登记进相册。"
         AppLanguage.ENGLISH -> "Subfolder used when a system download is saved to the gallery. Blank stays WebToApp. Pictures, video, and audio saved to a custom folder are registered with the gallery too."
+        AppLanguage.VIETNAMESE -> "Thư mục con được sử dụng khi bản tải xuống hệ thống được lưu vào thư viện. Trống vẫn là WebToApp. Hình ảnh, video và âm thanh được lưu vào thư mục tùy chỉnh cũng được đăng ký với thư viện."
         AppLanguage.ARABIC -> "المجلد الفرعي المستخدم عند حفظ تنزيل النظام في المعرض. الفراغ يبقى WebToApp. الصور والفيديو والصوت في مجلد مخصص تُسجَّل أيضًا في المعرض."
         AppLanguage.PORTUGUESE -> "Subpasta usada quando um download do sistema vai para a galeria. Em branco continua WebToApp. Imagens, vídeo e áudio numa pasta personalizada também entram na galeria."
         AppLanguage.SPANISH -> "Subcarpeta usada cuando una descarga del sistema va a la galería. En blanco sigue siendo WebToApp. Las imágenes, el vídeo y el audio de una carpeta personalizada también se registran en la galería."
@@ -3612,6 +3896,7 @@ object StringsE {
     val pwaStrategyNetworkFirst: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络优先（推荐）— 优先使用最新内容，离线时用缓存"
         AppLanguage.ENGLISH -> "Network First (Recommended) — Use latest content, fallback to cache offline"
+        AppLanguage.VIETNAMESE -> "Mạng đầu tiên (Được khuyến nghị) - Sử dụng nội dung mới nhất, dự phòng vào bộ nhớ đệm ngoại tuyến"
         AppLanguage.ARABIC -> "الشبكة أولاً (موصى به) — استخدام أحدث المحتويات"
         AppLanguage.PORTUGUESE -> "Rede Primeiro (Recomendado) — Usa conteúdo mais recente, recorre ao cache offline"
         AppLanguage.SPANISH -> "Red Primero (Recomendado) — Usa el contenido más reciente, recurre a la caché sin conexión"
@@ -3624,6 +3909,7 @@ object StringsE {
     val pwaStrategyCacheFirst: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缓存优先 — 最快速度加载，内容可能过时"
         AppLanguage.ENGLISH -> "Cache First — Fastest loading, content may be stale"
+        AppLanguage.VIETNAMESE -> "Cache First - Tải nhanh nhất, nội dung có thể cũ"
         AppLanguage.ARABIC -> "التخزين المؤقت أولاً — أسرع تحميل، قد يكون المحتوى قديماً"
         AppLanguage.PORTUGUESE -> "Cache Primeiro — Carregamento mais rápido, conteúdo pode estar desatualizado"
         AppLanguage.SPANISH -> "Caché Primero — Carga más rápida, el contenido puede estar obsoleto"
@@ -3636,6 +3922,7 @@ object StringsE {
     val pwaStrategyStaleWhileRevalidate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "先缓存后更新 — 立即显示缓存，后台静默更新"
         AppLanguage.ENGLISH -> "Stale While Revalidate — Show cache instantly, update in background"
+        AppLanguage.VIETNAMESE -> "Cũ trong khi xác nhận lại - Hiển thị bộ đệm ngay lập tức, cập nhật ở chế độ nền"
         AppLanguage.ARABIC -> "عرض التخزين المؤقت فوراً مع التحديث في الخلفية"
         AppLanguage.PORTUGUESE -> "Stale While Revalidate — Mostra o cache instantaneamente, atualiza em segundo plano"
         AppLanguage.SPANISH -> "Stale While Revalidate — Muestra la caché al instante, actualiza en segundo plano"
@@ -3649,6 +3936,7 @@ object StringsE {
     val playbackFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "播放失败"
         AppLanguage.ENGLISH -> "Playback failed"
+        AppLanguage.VIETNAMESE -> "Phát lại không thành công"
         AppLanguage.ARABIC -> "فشل التشغيل"
         AppLanguage.PORTUGUESE -> "Reprodução falhou"
         AppLanguage.SPANISH -> "Reproducción fallida"
@@ -3661,6 +3949,7 @@ object StringsE {
     val playbackFailedWithCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "播放失败 (错误码: %d)"
         AppLanguage.ENGLISH -> "Playback failed (error: %d)"
+        AppLanguage.VIETNAMESE -> "Phát lại không thành công (lỗi: %d)"
         AppLanguage.ARABIC -> "فشل التشغيل (خطأ: %d)"
         AppLanguage.PORTUGUESE -> "Reprodução falhou (erro: %d)"
         AppLanguage.SPANISH -> "Reproducción fallida (error: %d)"
@@ -3673,6 +3962,7 @@ object StringsE {
     val loadingTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载超时，请重试"
         AppLanguage.ENGLISH -> "Loading timeout, please retry"
+        AppLanguage.VIETNAMESE -> "Hết thời gian tải, vui lòng thử lại"
         AppLanguage.ARABIC -> "انتهت المهلة، يرجى المحاولة مرة أخرى"
         AppLanguage.PORTUGUESE -> "Tempo limite de carregamento, tente novamente"
         AppLanguage.SPANISH -> "Tiempo de carga agotado, inténtalo de nuevo"
@@ -3686,6 +3976,7 @@ object StringsE {
     val musicChannelLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音乐渠道"
         AppLanguage.ENGLISH -> "Music channel"
+        AppLanguage.VIETNAMESE -> "Kênh âm nhạc"
         AppLanguage.ARABIC -> "قناة الموسيقى"
         AppLanguage.PORTUGUESE -> "Canal de música"
         AppLanguage.SPANISH -> "Canal de música"
@@ -3698,6 +3989,7 @@ object StringsE {
     val gettingMusicDetails: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在获取音乐详情..."
         AppLanguage.ENGLISH -> "Getting music details..."
+        AppLanguage.VIETNAMESE -> "Đang tải chi tiết âm nhạc..."
         AppLanguage.ARABIC -> "جاري الحصول على تفاصيل الموسيقى..."
         AppLanguage.PORTUGUESE -> "Obtendo detalhes da música..."
         AppLanguage.SPANISH -> "Obteniendo detalles de la música..."
@@ -3710,6 +4002,7 @@ object StringsE {
     val getPlayUrlFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取播放链接失败"
         AppLanguage.ENGLISH -> "Failed to get play URL"
+        AppLanguage.VIETNAMESE -> "Không lấy được URL phát"
         AppLanguage.ARABIC -> "فشل الحصول على رابط التشغيل"
         AppLanguage.PORTUGUESE -> "Falha ao obter a URL de reprodução"
         AppLanguage.SPANISH -> "Error al obtener la URL de reproducción"
@@ -3722,6 +4015,7 @@ object StringsE {
     val getPlayUrlSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "播放链接获取成功"
         AppLanguage.ENGLISH -> "Play URL obtained"
+        AppLanguage.VIETNAMESE -> "Phát URL thu được"
         AppLanguage.ARABIC -> "تم الحصول على رابط التشغيل"
         AppLanguage.PORTUGUESE -> "URL de reprodução obtida"
         AppLanguage.SPANISH -> "URL de reproducción obtenida"
@@ -3734,6 +4028,7 @@ object StringsE {
     val startDownloadMusic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始下载音乐文件..."
         AppLanguage.ENGLISH -> "Downloading music file..."
+        AppLanguage.VIETNAMESE -> "Đang tải tập tin nhạc..."
         AppLanguage.ARABIC -> "جاري تنزيل ملف الموسيقى..."
         AppLanguage.PORTUGUESE -> "Baixando arquivo de música..."
         AppLanguage.SPANISH -> "Descargando archivo de música..."
@@ -3746,6 +4041,7 @@ object StringsE {
     val musicDownloading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "音乐文件下载中..."
         AppLanguage.ENGLISH -> "Downloading music..."
+        AppLanguage.VIETNAMESE -> "Đang tải nhạc xuống..."
         AppLanguage.ARABIC -> "جاري تنزيل الموسيقى..."
         AppLanguage.PORTUGUESE -> "Baixando música..."
         AppLanguage.SPANISH -> "Descargando música..."
@@ -3758,6 +4054,7 @@ object StringsE {
     val downloadingCoverImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在下载封面图片..."
         AppLanguage.ENGLISH -> "Downloading cover image..."
+        AppLanguage.VIETNAMESE -> "Đang tải xuống ảnh bìa..."
         AppLanguage.ARABIC -> "جاري تنزيل صورة الغلاف..."
         AppLanguage.PORTUGUESE -> "Baixando imagem da capa..."
         AppLanguage.SPANISH -> "Descargando imagen de portada..."
@@ -3770,6 +4067,7 @@ object StringsE {
     val coverDownloading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "封面下载中..."
         AppLanguage.ENGLISH -> "Cover downloading..."
+        AppLanguage.VIETNAMESE -> "Đang tải bìa xuống..."
         AppLanguage.ARABIC -> "جاري تنزيل الغلاف..."
         AppLanguage.PORTUGUESE -> "Baixando capa..."
         AppLanguage.SPANISH -> "Descargando portada..."
@@ -3782,6 +4080,7 @@ object StringsE {
     val finishing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在完成..."
         AppLanguage.ENGLISH -> "Finishing..."
+        AppLanguage.VIETNAMESE -> "Đang hoàn thiện..."
         AppLanguage.ARABIC -> "جاري الانتهاء..."
         AppLanguage.PORTUGUESE -> "Finalizando..."
         AppLanguage.SPANISH -> "Finalizando..."
@@ -3794,6 +4093,7 @@ object StringsE {
     val downloadCompleteSaved: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载完成！文件已保存"
         AppLanguage.ENGLISH -> "Download complete! File saved"
+        AppLanguage.VIETNAMESE -> "Tải xuống hoàn tất! Đã lưu tệp"
         AppLanguage.ARABIC -> "اكتمل التنزيل! تم حفظ الملف"
         AppLanguage.PORTUGUESE -> "Download concluído! Arquivo salvo"
         AppLanguage.SPANISH -> "¡Descarga completa! Archivo guardado"
@@ -3806,6 +4106,7 @@ object StringsE {
     val coverImageSaved: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "封面图片已保存"
         AppLanguage.ENGLISH -> "Cover image saved"
+        AppLanguage.VIETNAMESE -> "Đã lưu ảnh bìa"
         AppLanguage.ARABIC -> "تم حفظ صورة الغلاف"
         AppLanguage.PORTUGUESE -> "Imagem da capa salva"
         AppLanguage.SPANISH -> "Imagen de portada guardada"
@@ -3818,6 +4119,7 @@ object StringsE {
     val downloadError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载出错"
         AppLanguage.ENGLISH -> "Download error"
+        AppLanguage.VIETNAMESE -> "Lỗi tải xuống"
         AppLanguage.ARABIC -> "خطأ في التنزيل"
         AppLanguage.PORTUGUESE -> "Erro de download"
         AppLanguage.SPANISH -> "Error de descarga"
@@ -3830,6 +4132,7 @@ object StringsE {
     val downloadLog: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载日志"
         AppLanguage.ENGLISH -> "Download Log"
+        AppLanguage.VIETNAMESE -> "Tải xuống nhật ký"
         AppLanguage.ARABIC -> "سجل التنزيل"
         AppLanguage.PORTUGUESE -> "Log de Download"
         AppLanguage.SPANISH -> "Registro de Descarga"
@@ -3842,6 +4145,7 @@ object StringsE {
     val searchingText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在搜索..."
         AppLanguage.ENGLISH -> "Searching..."
+        AppLanguage.VIETNAMESE -> "Đang tìm kiếm..."
         AppLanguage.ARABIC -> "جاري البحث..."
         AppLanguage.PORTUGUESE -> "Pesquisando..."
         AppLanguage.SPANISH -> "Buscando..."
@@ -3854,6 +4158,7 @@ object StringsE {
     val clearText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清除"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Borrar"
@@ -3866,6 +4171,7 @@ object StringsE {
     val collapseText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收起"
         AppLanguage.ENGLISH -> "Collapse"
+        AppLanguage.VIETNAMESE -> "Sụp đổ"
         AppLanguage.ARABIC -> "طي"
         AppLanguage.PORTUGUESE -> "Recolher"
         AppLanguage.SPANISH -> "Contraer"
@@ -3879,6 +4185,7 @@ object StringsE {
     val pwaAnalyzeButton: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分析网站"
         AppLanguage.ENGLISH -> "Analyze Site"
+        AppLanguage.VIETNAMESE -> "Phân tích trang web"
         AppLanguage.ARABIC -> "تحليل الموقع"
         AppLanguage.PORTUGUESE -> "Analisar Site"
         AppLanguage.SPANISH -> "Analizar Sitio"
@@ -3891,6 +4198,7 @@ object StringsE {
     val pwaAnalyzing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在分析网站 PWA 配置..."
         AppLanguage.ENGLISH -> "Analyzing website PWA configuration..."
+        AppLanguage.VIETNAMESE -> "Phân tích cấu hình PWA của trang web..."
         AppLanguage.ARABIC -> "جاري تحليل إعدادات PWA للموقع..."
         AppLanguage.PORTUGUESE -> "Analisando configuração PWA do site..."
         AppLanguage.SPANISH -> "Analizando configuración PWA del sitio..."
@@ -3903,6 +4211,7 @@ object StringsE {
     val pwaDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 PWA 配置"
         AppLanguage.ENGLISH -> "PWA Configuration Detected"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện cấu hình PWA"
         AppLanguage.ARABIC -> "تم اكتشاف إعدادات PWA"
         AppLanguage.PORTUGUESE -> "Configuração PWA Detectada"
         AppLanguage.SPANISH -> "Configuración PWA Detectada"
@@ -3915,6 +4224,7 @@ object StringsE {
     val pwaNoneDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未检测到 PWA 配置，已从页面提取基本信息"
         AppLanguage.ENGLISH -> "No PWA configuration found, basic info extracted from page"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy cấu hình PWA, thông tin cơ bản được trích xuất từ ​​trang"
         AppLanguage.ARABIC -> "لم يتم العثور على إعدادات PWA، تم استخراج المعلومات الأساسية"
         AppLanguage.PORTUGUESE -> "Nenhuma configuração PWA encontrada, informações básicas extraídas da página"
         AppLanguage.SPANISH -> "No se encontró configuración PWA, información básica extraída de la página"
@@ -3927,6 +4237,7 @@ object StringsE {
     val pwaApplyAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "一键应用"
         AppLanguage.ENGLISH -> "Apply All"
+        AppLanguage.VIETNAMESE -> "Áp dụng tất cả"
         AppLanguage.ARABIC -> "تطبيق الكل"
         AppLanguage.PORTUGUESE -> "Aplicar Tudo"
         AppLanguage.SPANISH -> "Aplicar Todo"
@@ -3939,6 +4250,7 @@ object StringsE {
     val pwaSourceManifest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "来源: manifest.json"
         AppLanguage.ENGLISH -> "Source: manifest.json"
+        AppLanguage.VIETNAMESE -> "Nguồn: bảng kê khai.json"
         AppLanguage.ARABIC -> "المصدر: manifest.json"
         AppLanguage.PORTUGUESE -> "Origem: manifest.json"
         AppLanguage.SPANISH -> "Origen: manifest.json"
@@ -3951,6 +4263,7 @@ object StringsE {
     val pwaSourceMeta: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "来源: HTML Meta 标签"
         AppLanguage.ENGLISH -> "Source: HTML Meta Tags"
+        AppLanguage.VIETNAMESE -> "Nguồn: Thẻ Meta HTML"
         AppLanguage.ARABIC -> "المصدر: علامات HTML Meta"
         AppLanguage.PORTUGUESE -> "Origem: Tags HTML Meta"
         AppLanguage.SPANISH -> "Origen: Etiquetas HTML Meta"
@@ -3963,6 +4276,7 @@ object StringsE {
     val pwaName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用名称"
         AppLanguage.ENGLISH -> "App Name"
+        AppLanguage.VIETNAMESE -> "Tên ứng dụng"
         AppLanguage.ARABIC -> "اسم التطبيق"
         AppLanguage.PORTUGUESE -> "Nome do App"
         AppLanguage.SPANISH -> "Nombre de la App"
@@ -3975,6 +4289,7 @@ object StringsE {
     val pwaIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用图标"
         AppLanguage.ENGLISH -> "App Icon"
+        AppLanguage.VIETNAMESE -> "Biểu tượng ứng dụng"
         AppLanguage.ARABIC -> "أيقونة التطبيق"
         AppLanguage.PORTUGUESE -> "Ícone do App"
         AppLanguage.SPANISH -> "Icono de la App"
@@ -3987,6 +4302,7 @@ object StringsE {
     val pwaThemeColor: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主题色"
         AppLanguage.ENGLISH -> "Theme Color"
+        AppLanguage.VIETNAMESE -> "Màu chủ đề"
         AppLanguage.ARABIC -> "لون السمة"
         AppLanguage.PORTUGUESE -> "Cor do Tema"
         AppLanguage.SPANISH -> "Color del Tema"
@@ -3999,6 +4315,7 @@ object StringsE {
     val pwaDisplayMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "显示模式"
         AppLanguage.ENGLISH -> "Display Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ hiển thị"
         AppLanguage.ARABIC -> "وضع العرض"
         AppLanguage.PORTUGUESE -> "Modo de Exibição"
         AppLanguage.SPANISH -> "Modo de Visualización"
@@ -4011,6 +4328,7 @@ object StringsE {
     val pwaOrientation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏幕方向"
         AppLanguage.ENGLISH -> "Orientation"
+        AppLanguage.VIETNAMESE -> "Định hướng"
         AppLanguage.ARABIC -> "اتجاه الشاشة"
         AppLanguage.PORTUGUESE -> "Orientação"
         AppLanguage.SPANISH -> "Orientación"
@@ -4023,6 +4341,7 @@ object StringsE {
     val pwaStartUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "起始 URL"
         AppLanguage.ENGLISH -> "Start URL"
+        AppLanguage.VIETNAMESE -> "URL bắt đầu"
         AppLanguage.ARABIC -> "عنوان URL البدء"
         AppLanguage.PORTUGUESE -> "URL Inicial"
         AppLanguage.SPANISH -> "URL de Inicio"
@@ -4035,6 +4354,7 @@ object StringsE {
     val pwaAnalysisFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网站分析失败"
         AppLanguage.ENGLISH -> "Site analysis failed"
+        AppLanguage.VIETNAMESE -> "Phân tích trang web không thành công"
         AppLanguage.ARABIC -> "فشل تحليل الموقع"
         AppLanguage.PORTUGUESE -> "Análise do site falhou"
         AppLanguage.SPANISH -> "Análisis del sitio fallido"
@@ -4047,6 +4367,7 @@ object StringsE {
     val goBinarySize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "二进制大小"
         AppLanguage.ENGLISH -> "Binary Size"
+        AppLanguage.VIETNAMESE -> "Kích thước nhị phân"
         AppLanguage.ARABIC -> "حجم الملف الثنائي"
         AppLanguage.PORTUGUESE -> "Tamanho do Binário"
         AppLanguage.SPANISH -> "Tamaño del Binario"
@@ -4060,6 +4381,7 @@ object StringsE {
     val legalDisclaimerTitle1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "一、软件性质与用途"
         AppLanguage.ENGLISH -> "1. Nature and Purpose of Software"
+        AppLanguage.VIETNAMESE -> "1. Bản chất và mục đích của phần mềm"
         AppLanguage.ARABIC -> "أولاً: طبيعة وغرض البرنامج"
         AppLanguage.PORTUGUESE -> "1. Natureza e Finalidade do Software"
         AppLanguage.SPANISH -> "1. Naturaleza y Propósito del Software"
@@ -4073,6 +4395,7 @@ object StringsE {
     val legalDisclaimerContent1: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本软件用于开源研究与演示，请勿用于非法用途。"
         AppLanguage.ENGLISH -> "This software is for open-source research and demonstration. Do not use it illegally."
+        AppLanguage.VIETNAMESE -> "Phần mềm này dành cho nghiên cứu và trình diễn nguồn mở. Đừng sử dụng nó một cách bất hợp pháp."
         AppLanguage.ARABIC -> "هذا البرنامج هو أداة بحث وتقنية تعليمية مفتوحة المصدر. جميع الميزات مطبقة بناءً على واجهات برمجة التطبيقات العامة لنظام Android لإظهار تقنية تطوير التطبيقات المحمولة. هذا البرنامج لا يشجع أو يدعم أي استخدام غير قانوني."
         AppLanguage.PORTUGUESE -> "Este software é para pesquisa e demonstração de código aberto. Não o use ilegalmente."
         AppLanguage.SPANISH -> "Este software es para investigación y demostración de código abierto. No lo uses de forma ilegal."
@@ -4086,6 +4409,7 @@ object StringsE {
     val legalDisclaimerTitle2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "二、用户责任与义务"
         AppLanguage.ENGLISH -> "2. User Responsibilities and Obligations"
+        AppLanguage.VIETNAMESE -> "2. Trách nhiệm và nghĩa vụ của người dùng"
         AppLanguage.ARABIC -> "ثانياً: مسؤوليات والتزامات المستخدم"
         AppLanguage.PORTUGUESE -> "2. Responsabilidades e Obrigações do Usuário"
         AppLanguage.SPANISH -> "2. Responsabilidades y Obligaciones del Usuario"
@@ -4099,6 +4423,7 @@ object StringsE {
     val legalDisclaimerContent2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仅限合法场景使用，禁止侵害他人自由、隐私或财产。"
         AppLanguage.ENGLISH -> "Use it only for lawful purposes. Do not infringe others' freedom, privacy, or property."
+        AppLanguage.VIETNAMESE -> "Chỉ sử dụng nó cho mục đích hợp pháp. Không xâm phạm quyền tự do, quyền riêng tư hoặc tài sản của người khác."
         AppLanguage.ARABIC -> "يجب على المستخدمين ضمان استخدام هذا البرنامج في سيناريوهات قانونية ومناسبة، بما في ذلك على سبيل المثال لا الحصر: الإدارة الذاتية للتدريب على التركيز الشخصي وإدارة وقت التعلم؛ عرض المؤسسات للمعارض ومراكز التسوق؛ إشراف الوالدين بموافقة قاصر؛ البحث التعليمي لتعلم التعلم والأمن البحثي. يمنع منعا باتا استخدام هذا البرنامج لأي أفعال تنتهك الحقوق المشروعة للآخرين مثل الحرية الشخصية والخصوصية وحقوق الملكية."
         AppLanguage.PORTUGUESE -> "Use apenas para fins legais. Não infrinja a liberdade, privacidade ou propriedade de terceiros."
         AppLanguage.SPANISH -> "Úsalo solo para fines legales. No infrinjas la libertad, privacidad o propiedad de otros."
@@ -4112,6 +4437,7 @@ object StringsE {
     val legalDisclaimerTitle3: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "三、免责条款"
         AppLanguage.ENGLISH -> "3. Disclaimer Clauses"
+        AppLanguage.VIETNAMESE -> "3. Điều khoản từ chối trách nhiệm"
         AppLanguage.ARABIC -> "ثالثاً: بنود إخلاء المسؤولية"
         AppLanguage.PORTUGUESE -> "3. Cláusulas de Isenção de Responsabilidade"
         AppLanguage.SPANISH -> "3. Cláusulas de Exención de Responsabilidad"
@@ -4125,6 +4451,7 @@ object StringsE {
     val legalDisclaimerContent3: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "软件按现状提供。因违规或不当使用产生的责任由使用者承担。"
         AppLanguage.ENGLISH -> "The software is provided as is. Liability from misuse or illegal use belongs to the user."
+        AppLanguage.VIETNAMESE -> "Phần mềm được cung cấp theo nguyên trạng. Trách nhiệm từ việc sử dụng sai hoặc sử dụng trái phép thuộc về người dùng."
         AppLanguage.ARABIC -> "1. يتم توفير هذا البرنامج 'كما هو'، لا يقدم المطورون أي ضمانات صريحة أو ضمنية فيما يتعلق بملاءمة أو موثوقية أو أمان البرنامج؛ 2. جميع المسؤوليات القانونية الناشئة عن استخدام المستخدمين لهذا البرنامج انتهاكاً للقوانين واللوائح أو هذا الإعلان يتحملها المستخدمون أنفسهم وليس لها علاقة بالمطورين؛ 3. المطورون ليسوا مسؤولين عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو خاصة أو عقابية ناجمة عن استخدام هذا البرنامج؛ 4. أي تعديل أو توزيع من قبل أطراف ثالثة باستخدام الكود المصدري لهذا البرنامج يتحمل الطرف الثالث نفسه."
         AppLanguage.PORTUGUESE -> "O software é fornecido \"como está\". A responsabilidade por uso indevido ou ilegal pertence ao usuário."
         AppLanguage.SPANISH -> "El software se proporciona \"tal cual\". La responsabilidad por uso indebido o ilegal corresponde al usuario."
@@ -4138,6 +4465,7 @@ object StringsE {
     val legalDisclaimerTitle4: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "四、合规使用指引"
         AppLanguage.ENGLISH -> "4. Compliance Usage Guidelines"
+        AppLanguage.VIETNAMESE -> "4. Nguyên tắc sử dụng tuân thủ"
         AppLanguage.ARABIC -> "رابعاً: إرشادات الاستخدام المتوافق"
         AppLanguage.PORTUGUESE -> "4. Diretrizes de Uso em Conformidade"
         AppLanguage.SPANISH -> "4. Directrices de Uso Cumplimiento"
@@ -4151,6 +4479,7 @@ object StringsE {
     val legalDisclaimerContent4: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为确保合法合规使用，建议用户：\n• 使用前取得实际设备使用者的书面或电子同意\n• 在企业场景中建立适当的使用规范和管理流程\n• 在教育场景中确保符合相关教育法律法规\n• 定期查阅并遵守最新适用的当地法律法规"
         AppLanguage.ENGLISH -> "To ensure lawful and compliant use, it is recommended that users:\n• Obtain written or electronic consent from the actual device user before use\n• Establish appropriate usage policies and management procedures in enterprise scenarios\n• Ensure compliance with relevant education laws and regulations in educational scenarios\n• Regularly review and comply with the latest applicable local laws and regulations"
+        AppLanguage.VIETNAMESE -> "Để đảm bảo việc sử dụng hợp pháp và tuân thủ, người dùng nên:\n• Có được sự đồng ý bằng văn bản hoặc điện tử từ người sử dụng thiết bị thực tế trước khi sử dụng\n• Thiết lập các chính sách sử dụng và quy trình quản lý phù hợp trong các tình huống của doanh nghiệp\n• Đảm bảo tuân thủ luật và quy định giáo dục có liên quan trong các tình huống giáo dục\n• Thường xuyên xem xét và tuân thủ các luật và quy định hiện hành mới nhất của địa phương"
         AppLanguage.ARABIC -> "لضمان الاستخدام القانوني والمتوافق، يُنصح المستخدمون بما يلي:\n• الحصول على موافقة خطية أو إلكترونية من مستخدم الجهاز الفعلي قبل الاستخدام\n• وضع سياسات استخدام وإجراءات إدارة مناسبة في سيناريوهات المؤسسات\n• ضمان الامتثال للقوانين واللوائح التعليمية ذات الصلة في السيناريوهات التعليمية\n• مراجعة أحدث القوانين واللوائح المحلية المعمول بها والامتثال لها بانتظام"
         AppLanguage.PORTUGUESE -> "Para garantir uso legal e em conformidade, recomenda-se que os usuários:\n• Obtenham consentimento escrito ou eletrônico do usuário real do dispositivo antes do uso\n• Estabeleçam políticas de uso e procedimentos de gestão adequados em cenários empresariais\n• Garantam conformidade com leis e regulamentos educacionais relevantes em cenários educacionais\n• Revisem e cumpram regularmente as leis e regulamentos locais aplicáveis mais recentes"
         AppLanguage.SPANISH -> "Para garantizar un uso legal y cumplido, se recomienda que los usuarios:\n• Obtengan consentimiento escrito o electrónico del usuario real del dispositivo antes de usarlo\n• Establezcan políticas de uso y procedimientos de gestión adecuados en escenarios empresariales\n• Garanticen el cumplimiento de las leyes y regulaciones educativas relevantes en escenarios educativos\n• Revisen y cumplan regularmente las leyes y regulaciones locales aplicables más recientes"
@@ -4164,6 +4493,7 @@ object StringsE {
     val legalDisclaimerTitle5: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "五、知识产权声明"
         AppLanguage.ENGLISH -> "5. Intellectual Property Declaration"
+        AppLanguage.VIETNAMESE -> "5. Tuyên bố sở hữu trí tuệ"
         AppLanguage.ARABIC -> "خامساً: إعلان الملكية الفكرية"
         AppLanguage.PORTUGUESE -> "5. Declaração de Propriedade Intelectual"
         AppLanguage.SPANISH -> "5. Declaración de Propiedad Intelectual"
@@ -4177,6 +4507,7 @@ object StringsE {
     val legalDisclaimerContent5: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本软件基于 The Unlicense（公共领域）发布，已无条件放弃版权，可自由使用、修改和分发，无需保留版权声明。基于本软件进行二次开发所产生的任何法律责任，由相关衍生作品的开发者自行承担。"
         AppLanguage.ENGLISH -> "This software is released under The Unlicense (public domain). Copyright has been unconditionally waived, so it may be freely used, modified, and distributed with no obligation to retain a copyright notice. Any legal responsibilities arising from derivative works based on this software are borne solely by the developer of such derivative works."
+        AppLanguage.VIETNAMESE -> "Phần mềm này được phát hành theo The Unlicense (miền công cộng). Bản quyền đã được miễn trừ vô điều kiện, vì vậy nó có thể được sử dụng, sửa đổi và phân phối một cách tự do mà không có nghĩa vụ phải giữ lại thông báo bản quyền. Mọi trách nhiệm pháp lý phát sinh từ các tác phẩm phái sinh dựa trên phần mềm này chỉ do nhà phát triển các tác phẩm phái sinh đó chịu."
         AppLanguage.ARABIC -> "تم إصدار هذا البرنامج بموجب ترخيص The Unlicense (النطاق العام). وقد تم التنازل عن حقوق النشر دون قيد أو شرط، فيجوز استخدامه وتعديله وتوزيعه بحرية دون الحاجة إلى الاحتفاظ بإشعار حقوق النشر. يتحمل مطور الأعمال المشتقة وحده أي مسؤوليات قانونية تنشأ عن الأعمال المبنية على هذا البرنامج."
         AppLanguage.PORTUGUESE -> "Este software é lançado sob The Unlicense (domínio público). Os direitos autorais foram renunciados incondicionalmente, podendo ser usado, modificado e distribuído livremente sem a obrigação de manter o aviso de direitos autorais. Quaisquer responsabilidades legais decorrentes de trabalhos derivados baseados neste software são suportadas exclusivamente pelo desenvolvedor de tais trabalhos derivados."
         AppLanguage.SPANISH -> "Este software se publica bajo The Unlicense (dominio público). Los derechos de autor se han renunciado incondicionalmente, por lo que puede usarse, modificarse y distribuirse libremente sin obligación de conservar el aviso de copyright. Cualquier responsabilidad legal derivada de trabajos basados en este software es asumida únicamente por el desarrollador de dichos trabajos derivados."
@@ -4190,6 +4521,7 @@ object StringsE {
     val madeWithLove: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用心制作 by Shiaho"
         AppLanguage.ENGLISH -> "Made with love by Shiaho"
+        AppLanguage.VIETNAMESE -> "Được thực hiện bằng tình yêu của Shiaho"
         AppLanguage.ARABIC -> "صنع بحب بواسطة Shiaho"
         AppLanguage.PORTUGUESE -> "Feito com amor por Shiaho"
         AppLanguage.SPANISH -> "Hecho con amor por Shiaho"
@@ -4203,6 +4535,7 @@ object StringsE {
     val shortcutPermissionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要快捷方式权限"
         AppLanguage.ENGLISH -> "Shortcut Permission Required"
+        AppLanguage.VIETNAMESE -> "Cần có quyền truy cập phím tắt"
         AppLanguage.ARABIC -> "مطلوب إذن الاختصار"
         AppLanguage.PORTUGUESE -> "Permissão de Atalho Necessária"
         AppLanguage.SPANISH -> "Se Requiere Permiso de Acceso Directo"
@@ -4216,6 +4549,7 @@ object StringsE {
     val shortcutPermissionGoToSettings: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "去设置"
         AppLanguage.ENGLISH -> "Go to Settings"
+        AppLanguage.VIETNAMESE -> "Đi tới Cài đặt"
         AppLanguage.ARABIC -> "الذهاب إلى الإعدادات"
         AppLanguage.PORTUGUESE -> "Ir para Configurações"
         AppLanguage.SPANISH -> "Ir a Ajustes"
@@ -4229,6 +4563,7 @@ object StringsE {
     val shortcutPermissionLater: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "稍后再说"
         AppLanguage.ENGLISH -> "Later"
+        AppLanguage.VIETNAMESE -> "Sau đó"
         AppLanguage.ARABIC -> "لاحقاً"
         AppLanguage.PORTUGUESE -> "Depois"
         AppLanguage.SPANISH -> "Más tarde"
@@ -4263,6 +4598,7 @@ object StringsE {
     val errorUiSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "错误提示"
         AppLanguage.ENGLISH -> "Error Notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo lỗi"
         AppLanguage.ARABIC -> "تنبيهات الأخطاء"
         AppLanguage.PORTUGUESE -> "Notificações de Erro"
         AppLanguage.SPANISH -> "Notificaciones de Error"
@@ -4276,6 +4612,7 @@ object StringsE {
     val showHttp4xxErrorUiTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTTP 4xx 错误提示"
         AppLanguage.ENGLISH -> "HTTP 4xx error notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo lỗi HTTP 4xx"
         AppLanguage.ARABIC -> "تنبيهات أخطاء HTTP 4xx"
         AppLanguage.PORTUGUESE -> "Notificações de erro HTTP 4xx"
         AppLanguage.SPANISH -> "Notificaciones de error HTTP 4xx"
@@ -4289,6 +4626,7 @@ object StringsE {
     val showHttp4xxErrorUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如 403、404 等客户端错误"
         AppLanguage.ENGLISH -> "Client errors such as 403, 404"
+        AppLanguage.VIETNAMESE -> "Các lỗi client như 403, 404"
         AppLanguage.ARABIC -> "أخطاء العميل مثل 403 و404"
         AppLanguage.PORTUGUESE -> "Erros de cliente como 403, 404"
         AppLanguage.SPANISH -> "Errores de cliente como 403, 404"
@@ -4302,6 +4640,7 @@ object StringsE {
     val showHttp5xxErrorUiTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTTP 5xx 错误提示"
         AppLanguage.ENGLISH -> "HTTP 5xx error notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo lỗi HTTP 5xx"
         AppLanguage.ARABIC -> "تنبيهات أخطاء HTTP 5xx"
         AppLanguage.PORTUGUESE -> "Notificações de erro HTTP 5xx"
         AppLanguage.SPANISH -> "Notificaciones de error HTTP 5xx"
@@ -4315,6 +4654,7 @@ object StringsE {
     val showHttp5xxErrorUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如 500、502、503 等服务端错误"
         AppLanguage.ENGLISH -> "Server errors such as 500, 502, 503"
+        AppLanguage.VIETNAMESE -> "Các lỗi máy chủ như 500, 502, 503"
         AppLanguage.ARABIC -> "أخطاء الخادم مثل 500 و502 و503"
         AppLanguage.PORTUGUESE -> "Erros de servidor como 500, 502, 503"
         AppLanguage.SPANISH -> "Errores de servidor como 500, 502, 503"
@@ -4328,6 +4668,7 @@ object StringsE {
     val showNetworkErrorUiTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络错误提示"
         AppLanguage.ENGLISH -> "Network error notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo lỗi mạng"
         AppLanguage.ARABIC -> "تنبيهات أخطاء الشبكة"
         AppLanguage.PORTUGUESE -> "Notificações de erro de rede"
         AppLanguage.SPANISH -> "Notificaciones de error de red"
@@ -4341,6 +4682,7 @@ object StringsE {
     val showNetworkErrorUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DNS 解析失败、连接超时、断网等"
         AppLanguage.ENGLISH -> "DNS failure, connection timeout, offline, etc."
+        AppLanguage.VIETNAMESE -> "Lỗi DNS, hết thời gian kết nối, ngoại tuyến, v.v."
         AppLanguage.ARABIC -> "فشل DNS وانتهاء مهلة الاتصال وانقطاع الشبكة وغيرها"
         AppLanguage.PORTUGUESE -> "Falha de DNS, tempo limite de conexão, offline, etc."
         AppLanguage.SPANISH -> "Fallo de DNS, tiempo de conexión agotado, sin conexión, etc."
@@ -4354,6 +4696,7 @@ object StringsE {
     val showSslErrorUiTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SSL 证书错误提示"
         AppLanguage.ENGLISH -> "SSL certificate error notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo lỗi chứng chỉ SSL"
         AppLanguage.ARABIC -> "تنبيهات أخطاء شهادة SSL"
         AppLanguage.PORTUGUESE -> "Notificações de erro de certificado SSL"
         AppLanguage.SPANISH -> "Notificaciones de error de certificado SSL"
@@ -4366,6 +4709,7 @@ object StringsE {
     val ignoreSslErrorsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "忽略 SSL 证书错误"
         AppLanguage.ENGLISH -> "Ignore SSL certificate errors"
+        AppLanguage.VIETNAMESE -> "Bỏ qua lỗi chứng chỉ SSL"
         AppLanguage.ARABIC -> "تجاهل أخطاء شهادة SSL"
         AppLanguage.PORTUGUESE -> "Ignorar erros de certificado SSL"
         AppLanguage.SPANISH -> "Ignorar errores de certificado SSL"
@@ -4378,6 +4722,7 @@ object StringsE {
     val ignoreSslErrorsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载证书过期、不匹配或不受信任的 HTTPS 站点（含其图片与脚本）。将对该应用关闭 TLS 中间人防护，有被劫持风险；仅系统内核有效，且可能影响 Google Play 审核。"
         AppLanguage.ENGLISH -> "Load HTTPS sites whose certificate is expired, mismatched, or untrusted (including their images and scripts). Disables TLS man-in-the-middle protection for the whole app and risks interception; system engine only, and may fail Google Play review."
+        AppLanguage.VIETNAMESE -> "Tải các trang web HTTPS có chứng chỉ đã hết hạn, không khớp hoặc không đáng tin cậy (bao gồm cả hình ảnh và tập lệnh của chúng). Vô hiệu hóa tính năng bảo vệ trung gian TLS cho toàn bộ ứng dụng và có nguy cơ bị chặn; chỉ có công cụ hệ thống và có thể không được Google Play đánh giá."
         AppLanguage.ARABIC -> "تحميل مواقع HTTPS التي انتهت شهادتها أو غير مطابقة أو غير موثوقة (بما في ذلك صورها ونصوصها البرمجية). يعطّل حماية TLS من الاعتراض للتطبيق بالكامل ويعرّضه للاختراق؛ محرك النظام فقط، وقد يفشل في مراجعة Google Play."
         AppLanguage.PORTUGUESE -> "Carrega sites HTTPS cujo certificado está expirado, incompatível ou não confiável (incluindo suas imagens e scripts). Desativa a proteção TLS contra interceptação para todo o app e arrisca sequestro do tráfego; apenas no motor do sistema, e pode falhar na revisão do Google Play."
         AppLanguage.SPANISH -> "Carga sitios HTTPS cuyo certificado esté caducado, no coincida o no sea de confianza (incluidas sus imágenes y scripts). Desactiva la protección TLS contra intercepción para toda la app y arriesga secuestros; solo en el motor del sistema, y puede fallar la revisión de Google Play."
@@ -4391,6 +4736,7 @@ object StringsE {
     val showRenderCrashErrorUiTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "渲染崩溃提示"
         AppLanguage.ENGLISH -> "Render crash notifications"
+        AppLanguage.VIETNAMESE -> "Hiển thị thông báo sự cố"
         AppLanguage.ARABIC -> "تنبيهات تعطل العرض"
         AppLanguage.PORTUGUESE -> "Notificações de falha de renderização"
         AppLanguage.SPANISH -> "Notificaciones de fallo de renderizado"
@@ -4404,6 +4750,7 @@ object StringsE {
     val showRenderCrashErrorUiDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebView 渲染进程崩溃或被回收"
         AppLanguage.ENGLISH -> "WebView render process crashed or killed"
+        AppLanguage.VIETNAMESE -> "Quá trình kết xuất WebView bị lỗi hoặc bị tắt"
         AppLanguage.ARABIC -> "تعطل عملية عرض WebView أو إنهاؤها"
         AppLanguage.PORTUGUESE -> "Processo de renderização do WebView falhou ou foi encerrado"
         AppLanguage.SPANISH -> "El proceso de renderizado de WebView falló o fue terminado"
@@ -4417,6 +4764,7 @@ object StringsE {
     val errorPageTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义无网络页面"
         AppLanguage.ENGLISH -> "Custom Offline Page"
+        AppLanguage.VIETNAMESE -> "Trang ngoại tuyến tùy chỉnh"
         AppLanguage.ARABIC -> "صفحة مخصصة بدون إنترنت"
         AppLanguage.PORTUGUESE -> "Página Offline Personalizada"
         AppLanguage.SPANISH -> "Página Sin Conexión Personalizada"
@@ -4430,6 +4778,7 @@ object StringsE {
     val errorPageSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当网络不可用时展示的页面"
         AppLanguage.ENGLISH -> "Page shown when network is unavailable"
+        AppLanguage.VIETNAMESE -> "Trang hiển thị khi mạng không khả dụng"
         AppLanguage.ARABIC -> "الصفحة المعروضة عند عدم توفر الشبكة"
         AppLanguage.PORTUGUESE -> "Página exibida quando a rede está indisponível"
         AppLanguage.SPANISH -> "Página mostrada cuando la red no está disponible"
@@ -4443,6 +4792,7 @@ object StringsE {
     val errorPageModeBuiltIn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内置样式"
         AppLanguage.ENGLISH -> "Built-in Styles"
+        AppLanguage.VIETNAMESE -> "Kiểu tích hợp"
         AppLanguage.ARABIC -> "أنماط مدمجة"
         AppLanguage.PORTUGUESE -> "Estilos Integrados"
         AppLanguage.SPANISH -> "Estilos Integrados"
@@ -4456,6 +4806,7 @@ object StringsE {
     val errorPageModeCustomHtml: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义 HTML"
         AppLanguage.ENGLISH -> "Custom HTML"
+        AppLanguage.VIETNAMESE -> "HTML tùy chỉnh"
         AppLanguage.ARABIC -> "HTML مخصص"
         AppLanguage.PORTUGUESE -> "HTML Personalizado"
         AppLanguage.SPANISH -> "HTML Personalizado"
@@ -4469,6 +4820,7 @@ object StringsE {
     val errorPageModeCustomMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义媒体"
         AppLanguage.ENGLISH -> "Custom Media"
+        AppLanguage.VIETNAMESE -> "Phương tiện tùy chỉnh"
         AppLanguage.ARABIC -> "وسائط مخصصة"
         AppLanguage.PORTUGUESE -> "Mídia personalizada"
         AppLanguage.SPANISH -> "Medios personalizados"
@@ -4482,6 +4834,7 @@ object StringsE {
     val errorPageStyleLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择风格"
         AppLanguage.ENGLISH -> "Choose Style"
+        AppLanguage.VIETNAMESE -> "chọn kiểu"
         AppLanguage.ARABIC -> "اختر النمط"
         AppLanguage.PORTUGUESE -> "Escolher estilo"
         AppLanguage.SPANISH -> "Elegir estilo"
@@ -4495,6 +4848,7 @@ object StringsE {
     val errorPageStyleMaterial: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Material Design"
         AppLanguage.ENGLISH -> "Material Design"
+        AppLanguage.VIETNAMESE -> "Thiết kế vật liệu"
         AppLanguage.ARABIC -> "تصميم ماتيريال"
         AppLanguage.PORTUGUESE -> "Material Design"
         AppLanguage.SPANISH -> "Material Design"
@@ -4508,6 +4862,7 @@ object StringsE {
     val errorPageStyleSatellite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深空卫星"
         AppLanguage.ENGLISH -> "Deep Space"
+        AppLanguage.VIETNAMESE -> "Không gian sâu thẳm"
         AppLanguage.ARABIC -> "فضاء عميق"
         AppLanguage.PORTUGUESE -> "Espaço profundo"
         AppLanguage.SPANISH -> "Espacio profundo"
@@ -4521,6 +4876,7 @@ object StringsE {
     val errorPageStyleOcean: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "深海世界"
         AppLanguage.ENGLISH -> "Deep Ocean"
+        AppLanguage.VIETNAMESE -> "Đại dương sâu thẳm"
         AppLanguage.ARABIC -> "محيط عميق"
         AppLanguage.PORTUGUESE -> "Oceano profundo"
         AppLanguage.SPANISH -> "Océano profundo"
@@ -4534,6 +4890,7 @@ object StringsE {
     val errorPageStyleForest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "萤火森林"
         AppLanguage.ENGLISH -> "Firefly Forest"
+        AppLanguage.VIETNAMESE -> "Rừng đom đóm"
         AppLanguage.ARABIC -> "غابة اليراعات"
         AppLanguage.PORTUGUESE -> "Floresta de vaga-lumes"
         AppLanguage.SPANISH -> "Bosque de luciérnagas"
@@ -4547,6 +4904,7 @@ object StringsE {
     val errorPageStyleMinimal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "极简线条"
         AppLanguage.ENGLISH -> "Minimalist"
+        AppLanguage.VIETNAMESE -> "tối giản"
         AppLanguage.ARABIC -> "بسيط"
         AppLanguage.PORTUGUESE -> "Minimalista"
         AppLanguage.SPANISH -> "Minimalista"
@@ -4560,6 +4918,7 @@ object StringsE {
     val errorPageStyleNeon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "赛博霓虹"
         AppLanguage.ENGLISH -> "Cyber Neon"
+        AppLanguage.VIETNAMESE -> "Mạng Neon"
         AppLanguage.ARABIC -> "نيون سيبراني"
         AppLanguage.PORTUGUESE -> "Neon cibernético"
         AppLanguage.SPANISH -> "Neón ciber"
@@ -4573,6 +4932,7 @@ object StringsE {
     val errorPageMiniGameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内嵌小游戏"
         AppLanguage.ENGLISH -> "Mini Game"
+        AppLanguage.VIETNAMESE -> "Trò chơi nhỏ"
         AppLanguage.ARABIC -> "لعبة صغيرة"
         AppLanguage.PORTUGUESE -> "Minijogo"
         AppLanguage.SPANISH -> "Minijuego"
@@ -4586,6 +4946,7 @@ object StringsE {
     val errorPageMiniGameDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在等待网络恢复时可以玩小游戏"
         AppLanguage.ENGLISH -> "Play a game while waiting for network"
+        AppLanguage.VIETNAMESE -> "Chơi game trong khi chờ mạng"
         AppLanguage.ARABIC -> "العب لعبة أثناء انتظار الشبكة"
         AppLanguage.PORTUGUESE -> "Jogue um jogo enquanto aguarda a rede"
         AppLanguage.SPANISH -> "Juega un juego mientras esperas la red"
@@ -4599,6 +4960,7 @@ object StringsE {
     val errorPageGameRandom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "随机"
         AppLanguage.ENGLISH -> "Random"
+        AppLanguage.VIETNAMESE -> "Ngẫu nhiên"
         AppLanguage.ARABIC -> "عشوائي"
         AppLanguage.PORTUGUESE -> "Aleatório"
         AppLanguage.SPANISH -> "Aleatorio"
@@ -4612,6 +4974,7 @@ object StringsE {
     val errorPageGameBreakout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "弹球消消"
         AppLanguage.ENGLISH -> "Breakout"
+        AppLanguage.VIETNAMESE -> "Đột phá"
         AppLanguage.ARABIC -> "كسر الطوب"
         AppLanguage.PORTUGUESE -> "Quebra-blocos"
         AppLanguage.SPANISH -> "Rompebloques"
@@ -4625,6 +4988,7 @@ object StringsE {
     val errorPageGameMaze: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "迷宫行者"
         AppLanguage.ENGLISH -> "Maze Runner"
+        AppLanguage.VIETNAMESE -> "Á hậu mê cung"
         AppLanguage.ARABIC -> "عداء المتاهة"
         AppLanguage.PORTUGUESE -> "Corredor do labirinto"
         AppLanguage.SPANISH -> "Corredor del laberinto"
@@ -4638,6 +5002,7 @@ object StringsE {
     val errorPageGameInkZen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "水墨禅境"
         AppLanguage.ENGLISH -> "Ink Zen"
+        AppLanguage.VIETNAMESE -> "Mực Thiền"
         AppLanguage.ARABIC -> "حبر زن"
         AppLanguage.PORTUGUESE -> "Zen de tinta"
         AppLanguage.SPANISH -> "Zen de tinta"
@@ -4651,6 +5016,7 @@ object StringsE {
     val errorPageGameStarCatch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "星空收集"
         AppLanguage.ENGLISH -> "Star Catch"
+        AppLanguage.VIETNAMESE -> "Bắt Sao"
         AppLanguage.ARABIC -> "جمع النجوم"
         AppLanguage.PORTUGUESE -> "Captura de estrelas"
         AppLanguage.SPANISH -> "Caza de estrellas"
@@ -4664,6 +5030,7 @@ object StringsE {
     val errorPageAutoRetryLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动重试"
         AppLanguage.ENGLISH -> "Auto Retry"
+        AppLanguage.VIETNAMESE -> "Tự động thử lại"
         AppLanguage.ARABIC -> "إعادة المحاولة تلقائيًا"
         AppLanguage.PORTUGUESE -> "Repetição Automática"
         AppLanguage.SPANISH -> "Reintentar Automáticamente"
@@ -4677,6 +5044,7 @@ object StringsE {
     val errorPageAutoRetryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动每隔 %d 秒重试连接"
         AppLanguage.ENGLISH -> "Auto retry every %d seconds"
+        AppLanguage.VIETNAMESE -> "Tự động thử lại sau mỗi %d giây"
         AppLanguage.ARABIC -> "إعادة المحاولة تلقائيًا كل %d ثانية"
         AppLanguage.PORTUGUESE -> "Repetir a cada %d segundos"
         AppLanguage.SPANISH -> "Reintentar cada %d segundos"
@@ -4690,6 +5058,7 @@ object StringsE {
     val errorPageAutoRetryOff: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭自动重试"
         AppLanguage.ENGLISH -> "Auto retry off"
+        AppLanguage.VIETNAMESE -> "Tự động tắt thử lại"
         AppLanguage.ARABIC -> "إعادة المحاولة التلقائية معطلة"
         AppLanguage.PORTUGUESE -> "Repetição automática desativada"
         AppLanguage.SPANISH -> "Reintento automático desactivado"
@@ -4703,6 +5072,7 @@ object StringsE {
     val errorPageCustomHtmlHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入完整的 HTML 代码..."
         AppLanguage.ENGLISH -> "Enter complete HTML code..."
+        AppLanguage.VIETNAMESE -> "Nhập mã HTML hoàn chỉnh..."
         AppLanguage.ARABIC -> "أدخل كود HTML الكامل..."
         AppLanguage.PORTUGUESE -> "Insira o código HTML completo..."
         AppLanguage.SPANISH -> "Introduce el código HTML completo..."
@@ -4716,6 +5086,7 @@ object StringsE {
     val errorPageOpenCodeEditor: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开代码编辑器"
         AppLanguage.ENGLISH -> "Open Code Editor"
+        AppLanguage.VIETNAMESE -> "Trình soạn thảo mã mở"
         AppLanguage.ARABIC -> "فتح محرر الأكواد"
         AppLanguage.PORTUGUESE -> "Abrir Editor de Código"
         AppLanguage.SPANISH -> "Abrir Editor de Código"
@@ -4728,6 +5099,7 @@ object StringsE {
     val errorPageEditCodeAgain: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "继续编辑"
         AppLanguage.ENGLISH -> "Continue editing"
+        AppLanguage.VIETNAMESE -> "Tiếp tục chỉnh sửa"
         AppLanguage.ARABIC -> "متابعة التحرير"
         AppLanguage.PORTUGUESE -> "Continuar editando"
         AppLanguage.SPANISH -> "Continuar editando"
@@ -4740,6 +5112,7 @@ object StringsE {
     val errorPageHtmlSummary: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已编写自定义 HTML"
         AppLanguage.ENGLISH -> "Custom HTML written"
+        AppLanguage.VIETNAMESE -> "HTML tùy chỉnh được viết"
         AppLanguage.ARABIC -> "تم إعداد HTML مخصص"
         AppLanguage.PORTUGUESE -> "HTML personalizado escrito"
         AppLanguage.SPANISH -> "HTML personalizado escrito"
@@ -4752,6 +5125,7 @@ object StringsE {
     val errorPageHtmlEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有自定义 HTML，点击下方按钮在全屏代码编辑器里编写。"
         AppLanguage.ENGLISH -> "No custom HTML yet — tap the button below to compose it in the full-screen code editor."
+        AppLanguage.VIETNAMESE -> "Chưa có HTML tùy chỉnh — hãy nhấn vào nút bên dưới để soạn nó trong trình chỉnh sửa mã toàn màn hình."
         AppLanguage.ARABIC -> "لا يوجد HTML مخصص بعد—انقر على الزر أدناه لكتابته في محرر الأكواد بملء الشاشة."
         AppLanguage.PORTUGUESE -> "Ainda não há HTML personalizado — toque no botão abaixo para compô-lo no editor de código em tela cheia."
         AppLanguage.SPANISH -> "Aún no hay HTML personalizado — toca el botón de abajo para redactarlo en el editor de código a pantalla completa."
@@ -4764,6 +5138,7 @@ object StringsE {
     val errorPagePickMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择图片或视频"
         AppLanguage.ENGLISH -> "Pick Image or Video"
+        AppLanguage.VIETNAMESE -> "Chọn hình ảnh hoặc video"
         AppLanguage.ARABIC -> "اختر صورة أو فيديو"
         AppLanguage.PORTUGUESE -> "Escolher Imagem ou Vídeo"
         AppLanguage.SPANISH -> "Elegir Imagen o Video"
@@ -4776,6 +5151,7 @@ object StringsE {
     val errorPageReplaceMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换"
         AppLanguage.ENGLISH -> "Replace"
+        AppLanguage.VIETNAMESE -> "Thay thế"
         AppLanguage.ARABIC -> "استبدال"
         AppLanguage.PORTUGUESE -> "Substituir"
         AppLanguage.SPANISH -> "Reemplazar"
@@ -4788,6 +5164,7 @@ object StringsE {
     val errorPageClearMedia: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清除"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Limpiar"
@@ -4800,6 +5177,7 @@ object StringsE {
     val errorPageMediaEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有选择媒体，点击下方按钮从相册选一张图或一段视频。"
         AppLanguage.ENGLISH -> "No media selected yet — tap the button below to pick an image or video from your gallery."
+        AppLanguage.VIETNAMESE -> "Chưa có phương tiện nào được chọn — hãy nhấn vào nút bên dưới để chọn hình ảnh hoặc video từ thư viện của bạn."
         AppLanguage.ARABIC -> "لم يتم تحديد وسائط—انقر على الزر أدناه لاختيار صورة أو فيديو من المعرض."
         AppLanguage.PORTUGUESE -> "Nenhuma mídia selecionada — toque no botão abaixo para escolher uma imagem ou vídeo da galeria."
         AppLanguage.SPANISH -> "Aún no se ha seleccionado ningún medio — toca el botón de abajo para elegir una imagen o video de la galería."
@@ -4812,6 +5190,7 @@ object StringsE {
     val errorPageMediaSelected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选择"
         AppLanguage.ENGLISH -> "Selected"
+        AppLanguage.VIETNAMESE -> "Đã chọn"
         AppLanguage.ARABIC -> "تم الاختيار"
         AppLanguage.PORTUGUESE -> "Selecionado"
         AppLanguage.SPANISH -> "Seleccionado"
@@ -4825,6 +5204,7 @@ object StringsE {
     val unsavedChangesTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未保存的更改"
         AppLanguage.ENGLISH -> "Unsaved Changes"
+        AppLanguage.VIETNAMESE -> "Những thay đổi chưa được lưu"
         AppLanguage.ARABIC -> "تغييرات غير محفوظة"
         AppLanguage.PORTUGUESE -> "Alterações Não Salvas"
         AppLanguage.SPANISH -> "Cambios Sin Guardar"
@@ -4837,6 +5217,7 @@ object StringsE {
     val unsavedChangesMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "你有未保存的更改，确定要离开吗？"
         AppLanguage.ENGLISH -> "You have unsaved changes. Are you sure you want to leave?"
+        AppLanguage.VIETNAMESE -> "Bạn có những thay đổi chưa được lưu. Bạn có chắc chắn muốn rời đi không?"
         AppLanguage.ARABIC -> "لديك تغييرات غير محفوظة. هل أنت متأكد من المغادرة؟"
         AppLanguage.PORTUGUESE -> "Você tem alterações não salvas. Tem certeza de que deseja sair?"
         AppLanguage.SPANISH -> "Tienes cambios sin guardar. ¿Seguro que quieres salir?"
@@ -4849,6 +5230,7 @@ object StringsE {
     val discardChanges: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "放弃"
         AppLanguage.ENGLISH -> "Discard"
+        AppLanguage.VIETNAMESE -> "Loại bỏ"
         AppLanguage.ARABIC -> "تجاهل"
         AppLanguage.PORTUGUESE -> "Descartar"
         AppLanguage.SPANISH -> "Descartar"
@@ -4861,6 +5243,7 @@ object StringsE {
     val keepEditing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "继续编辑"
         AppLanguage.ENGLISH -> "Keep Editing"
+        AppLanguage.VIETNAMESE -> "Tiếp tục chỉnh sửa"
         AppLanguage.ARABIC -> "متابعة التحرير"
         AppLanguage.PORTUGUESE -> "Continuar Editando"
         AppLanguage.SPANISH -> "Seguir Editando"
@@ -4873,6 +5256,7 @@ object StringsE {
     val writeCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编写代码"
         AppLanguage.ENGLISH -> "Write Code"
+        AppLanguage.VIETNAMESE -> "Viết mã"
         AppLanguage.ARABIC -> "كتابة الكود"
         AppLanguage.PORTUGUESE -> "Escrever Código"
         AppLanguage.SPANISH -> "Escribir Código"
@@ -4885,6 +5269,7 @@ object StringsE {
     val writeCodeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "直接在应用内编写代码，无需外部文件"
         AppLanguage.ENGLISH -> "Write code directly in the app, no external files needed"
+        AppLanguage.VIETNAMESE -> "Viết mã trực tiếp trong ứng dụng, không cần tệp bên ngoài"
         AppLanguage.ARABIC -> "اكتب الكود مباشرة في التطبيق، بدون ملفات خارجية"
         AppLanguage.PORTUGUESE -> "Escreva o código diretamente no app, sem arquivos externos"
         AppLanguage.SPANISH -> "Escribe el código directamente en la app, sin archivos externos"
@@ -4897,6 +5282,7 @@ object StringsE {
     val htmlCodePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在此输入 HTML 代码..."
         AppLanguage.ENGLISH -> "Enter HTML code here..."
+        AppLanguage.VIETNAMESE -> "Nhập mã HTML vào đây..."
         AppLanguage.ARABIC -> "أدخل كود HTML هنا..."
         AppLanguage.PORTUGUESE -> "Insira o código HTML aqui..."
         AppLanguage.SPANISH -> "Introduce el código HTML aquí..."
@@ -4909,6 +5295,7 @@ object StringsE {
     val codeEditorTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码编辑器"
         AppLanguage.ENGLISH -> "Code Editor"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa mã"
         AppLanguage.ARABIC -> "محرر الكود"
         AppLanguage.PORTUGUESE -> "Editor de Código"
         AppLanguage.SPANISH -> "Editor de Código"
@@ -4922,6 +5309,7 @@ object StringsE {
     val codeEditorFind: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查找"
         AppLanguage.ENGLISH -> "Find"
+        AppLanguage.VIETNAMESE -> "Tìm thấy"
         AppLanguage.ARABIC -> "بحث"
         AppLanguage.PORTUGUESE -> "Localizar"
         AppLanguage.SPANISH -> "Buscar"
@@ -4935,6 +5323,7 @@ object StringsE {
     val codeEditorFindHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入要查找的内容"
         AppLanguage.ENGLISH -> "Find in code"
+        AppLanguage.VIETNAMESE -> "Tìm trong mã"
         AppLanguage.ARABIC -> "ابحث في الكود"
         AppLanguage.PORTUGUESE -> "Localizar no código"
         AppLanguage.SPANISH -> "Buscar en el código"
@@ -4948,6 +5337,7 @@ object StringsE {
     val codeEditorFindNext: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下一个"
         AppLanguage.ENGLISH -> "Next"
+        AppLanguage.VIETNAMESE -> "Kế tiếp"
         AppLanguage.ARABIC -> "التالي"
         AppLanguage.PORTUGUESE -> "Próximo"
         AppLanguage.SPANISH -> "Siguiente"
@@ -4961,6 +5351,7 @@ object StringsE {
     val codeEditorFindPrev: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "上一个"
         AppLanguage.ENGLISH -> "Previous"
+        AppLanguage.VIETNAMESE -> "Trước"
         AppLanguage.ARABIC -> "السابق"
         AppLanguage.PORTUGUESE -> "Anterior"
         AppLanguage.SPANISH -> "Anterior"
@@ -4974,6 +5365,7 @@ object StringsE {
     val codeEditorReplace: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换"
         AppLanguage.ENGLISH -> "Replace"
+        AppLanguage.VIETNAMESE -> "Thay thế"
         AppLanguage.ARABIC -> "استبدال"
         AppLanguage.PORTUGUESE -> "Substituir"
         AppLanguage.SPANISH -> "Reemplazar"
@@ -4987,6 +5379,7 @@ object StringsE {
     val codeEditorReplaceAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部替换"
         AppLanguage.ENGLISH -> "Replace all"
+        AppLanguage.VIETNAMESE -> "Thay thế tất cả"
         AppLanguage.ARABIC -> "استبدال الكل"
         AppLanguage.PORTUGUESE -> "Substituir tudo"
         AppLanguage.SPANISH -> "Reemplazar todo"
@@ -5000,6 +5393,7 @@ object StringsE {
     val codeEditorReplaceHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "替换为"
         AppLanguage.ENGLISH -> "Replace with"
+        AppLanguage.VIETNAMESE -> "Thay thế bằng"
         AppLanguage.ARABIC -> "استبدال بـ"
         AppLanguage.PORTUGUESE -> "Substituir por"
         AppLanguage.SPANISH -> "Reemplazar con"
@@ -5013,6 +5407,7 @@ object StringsE {
     val codeEditorMatchCase: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "区分大小写"
         AppLanguage.ENGLISH -> "Match case"
+        AppLanguage.VIETNAMESE -> "Hộp diêm"
         AppLanguage.ARABIC -> "مطابقة حالة الأحرف"
         AppLanguage.PORTUGUESE -> "Diferenciar maiúsculas"
         AppLanguage.SPANISH -> "Coincidir mayúsculas"
@@ -5026,6 +5421,7 @@ object StringsE {
     val codeEditorNoMatches: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到匹配"
         AppLanguage.ENGLISH -> "No matches"
+        AppLanguage.VIETNAMESE -> "Không có kết quả phù hợp"
         AppLanguage.ARABIC -> "لا توجد نتائج"
         AppLanguage.PORTUGUESE -> "Sem resultados"
         AppLanguage.SPANISH -> "Sin coincidencias"
@@ -5038,6 +5434,7 @@ object StringsE {
     val codeEditorBinaryFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此文件是二进制文件（图片、字体等），不支持文本编辑"
         AppLanguage.ENGLISH -> "This file is binary (image, font, etc.) and cannot be edited as text"
+        AppLanguage.VIETNAMESE -> "Tệp này là tệp nhị phân (hình ảnh, phông chữ, v.v.) và không thể chỉnh sửa dưới dạng văn bản"
         AppLanguage.ARABIC -> "هذا ملف ثنائي (صورة أو خط وما إلى ذلك) ولا يمكن تحريره كنص"
         AppLanguage.PORTUGUESE -> "Este arquivo é binário (imagem, fonte etc.) e não pode ser editado como texto"
         AppLanguage.SPANISH -> "Este archivo es binario (imagen, fuente, etc.) y no se puede editar como texto"
@@ -5050,6 +5447,7 @@ object StringsE {
     val codeEditorFileTooLarge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件过大（超过 1 MB），不支持在应用内编辑"
         AppLanguage.ENGLISH -> "File is too large (over 1 MB) to edit in-app"
+        AppLanguage.VIETNAMESE -> "Tệp quá lớn (trên 1 MB) để chỉnh sửa trong ứng dụng"
         AppLanguage.ARABIC -> "الملف كبير جدًا (أكثر من 1 ميغابايت) ولا يمكن تحريره داخل التطبيق"
         AppLanguage.PORTUGUESE -> "O arquivo é grande demais (mais de 1 MB) para editar no app"
         AppLanguage.SPANISH -> "El archivo es demasiado grande (más de 1 MB) para editarse en la app"
@@ -5063,6 +5461,7 @@ object StringsE {
     val codeEditorSoftWrap: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动换行"
         AppLanguage.ENGLISH -> "Soft Wrap"
+        AppLanguage.VIETNAMESE -> "Bọc mềm"
         AppLanguage.ARABIC -> "التفاف النص"
         AppLanguage.PORTUGUESE -> "Quebra de linha"
         AppLanguage.SPANISH -> "Ajuste de línea"
@@ -5075,6 +5474,7 @@ object StringsE {
     val orWriteDirectly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "或直接编写"
         AppLanguage.ENGLISH -> "or write directly"
+        AppLanguage.VIETNAMESE -> "hoặc viết trực tiếp"
         AppLanguage.ARABIC -> "أو اكتب مباشرة"
         AppLanguage.PORTUGUESE -> "ou escreva diretamente"
         AppLanguage.SPANISH -> "o escribe directamente"
@@ -5088,6 +5488,7 @@ object StringsE {
     val deviceDisguiseTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备伪装"
         AppLanguage.ENGLISH -> "Device Disguise"
+        AppLanguage.VIETNAMESE -> "Ngụy trang thiết bị"
         AppLanguage.ARABIC -> "تمويه الجهاز"
         AppLanguage.PORTUGUESE -> "Disfarce de Dispositivo"
         AppLanguage.SPANISH -> "Disfraz de Dispositivo"
@@ -5100,6 +5501,7 @@ object StringsE {
     val deviceDisguiseHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择一个设备，自动生成对应的浏览器指纹和 User-Agent，让网站认为你正在使用该设备访问。"
         AppLanguage.ENGLISH -> "Select a device to auto-generate matching browser fingerprint and User-Agent, making websites believe you are browsing with that device."
+        AppLanguage.VIETNAMESE -> "Chọn một thiết bị để tự động tạo dấu vân tay trình duyệt và Tác nhân người dùng phù hợp, khiến các trang web tin rằng bạn đang duyệt bằng thiết bị đó."
         AppLanguage.ARABIC -> "اختر جهازًا لتوليد بصمة المتصفح و User-Agent المطابقة تلقائيًا، مما يجعل المواقع تعتقد أنك تتصفح من هذا الجهاز."
         AppLanguage.PORTUGUESE -> "Selecione um dispositivo para gerar automaticamente a impressão digital do navegador e o User-Agent correspondentes, fazendo os sites acreditarem que você está navegando com esse dispositivo."
         AppLanguage.SPANISH -> "Selecciona un dispositivo para generar automáticamente la huella digital del navegador y el User-Agent correspondientes, haciendo que los sitios crean que navegas con ese dispositivo."
@@ -5112,6 +5514,7 @@ object StringsE {
     val deviceTypePhone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手机"
         AppLanguage.ENGLISH -> "Phone"
+        AppLanguage.VIETNAMESE -> "Điện thoại"
         AppLanguage.ARABIC -> "هاتف"
         AppLanguage.PORTUGUESE -> "Celular"
         AppLanguage.SPANISH -> "Teléfono"
@@ -5124,6 +5527,7 @@ object StringsE {
     val deviceTypeTablet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "平板"
         AppLanguage.ENGLISH -> "Tablet"
+        AppLanguage.VIETNAMESE -> "Viên thuốc"
         AppLanguage.ARABIC -> "جهاز لوحي"
         AppLanguage.PORTUGUESE -> "Tablet"
         AppLanguage.SPANISH -> "Tablet"
@@ -5136,6 +5540,7 @@ object StringsE {
     val deviceTypeDesktop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "桌面"
         AppLanguage.ENGLISH -> "Desktop"
+        AppLanguage.VIETNAMESE -> "Máy tính để bàn"
         AppLanguage.ARABIC -> "سطح المكتب"
         AppLanguage.PORTUGUESE -> "Computador"
         AppLanguage.SPANISH -> "Escritorio"
@@ -5148,6 +5553,7 @@ object StringsE {
     val deviceTypeLaptop: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "笔记本"
         AppLanguage.ENGLISH -> "Laptop"
+        AppLanguage.VIETNAMESE -> "Máy tính xách tay"
         AppLanguage.ARABIC -> "حاسوب محمول"
         AppLanguage.PORTUGUESE -> "Notebook"
         AppLanguage.SPANISH -> "Portátil"
@@ -5160,6 +5566,7 @@ object StringsE {
     val deviceTypeWatch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手表"
         AppLanguage.ENGLISH -> "Watch"
+        AppLanguage.VIETNAMESE -> "Đồng hồ"
         AppLanguage.ARABIC -> "ساعة"
         AppLanguage.PORTUGUESE -> "Relógio"
         AppLanguage.SPANISH -> "Reloj"
@@ -5172,6 +5579,7 @@ object StringsE {
     val deviceQuickSelect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快速选择"
         AppLanguage.ENGLISH -> "Quick Select"
+        AppLanguage.VIETNAMESE -> "Chọn nhanh"
         AppLanguage.ARABIC -> "اختيار سريع"
         AppLanguage.PORTUGUESE -> "Seleção Rápida"
         AppLanguage.SPANISH -> "Selección Rápida"
@@ -5184,6 +5592,7 @@ object StringsE {
     val devicePopularPresets: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "热门设备"
         AppLanguage.ENGLISH -> "Popular Devices"
+        AppLanguage.VIETNAMESE -> "Thiết bị phổ biến"
         AppLanguage.ARABIC -> "الأجهزة الشائعة"
         AppLanguage.PORTUGUESE -> "Dispositivos Populares"
         AppLanguage.SPANISH -> "Dispositivos Populares"
@@ -5196,6 +5605,7 @@ object StringsE {
     val deviceCurrentDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前伪装"
         AppLanguage.ENGLISH -> "Current Disguise"
+        AppLanguage.VIETNAMESE -> "Ngụy trang hiện tại"
         AppLanguage.ARABIC -> "التمويه الحالي"
         AppLanguage.PORTUGUESE -> "Disfarce Atual"
         AppLanguage.SPANISH -> "Disfraz Actual"
@@ -5208,6 +5618,7 @@ object StringsE {
     val deviceCustomUA: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义 User-Agent"
         AppLanguage.ENGLISH -> "Custom User-Agent"
+        AppLanguage.VIETNAMESE -> "Tác nhân người dùng tùy chỉnh"
         AppLanguage.ARABIC -> "User-Agent مخصص"
         AppLanguage.PORTUGUESE -> "User-Agent Personalizado"
         AppLanguage.SPANISH -> "User-Agent Personalizado"
@@ -5220,6 +5631,7 @@ object StringsE {
     val deviceCustomUAHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输入完整的 User-Agent 字符串（覆盖自动生成）"
         AppLanguage.ENGLISH -> "Enter full User-Agent string (overrides auto-generated)"
+        AppLanguage.VIETNAMESE -> "Nhập chuỗi Tác nhân người dùng đầy đủ (ghi đè được tạo tự động)"
         AppLanguage.ARABIC -> "أدخل سلسلة User-Agent الكاملة (يتجاوز التوليد التلقائي)"
         AppLanguage.PORTUGUESE -> "Insira a string completa do User-Agent (substitui a gerada automaticamente)"
         AppLanguage.SPANISH -> "Introduce la cadena completa de User-Agent (anula la generada automáticamente)"
@@ -5232,6 +5644,7 @@ object StringsE {
     val deviceGeneratedUA: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动生成的 User-Agent"
         AppLanguage.ENGLISH -> "Auto-generated User-Agent"
+        AppLanguage.VIETNAMESE -> "Tác nhân người dùng được tạo tự động"
         AppLanguage.ARABIC -> "User-Agent تم إنشاؤه تلقائيًا"
         AppLanguage.PORTUGUESE -> "User-Agent Gerado Automaticamente"
         AppLanguage.SPANISH -> "User-Agent Generado Automáticamente"
@@ -5244,6 +5657,7 @@ object StringsE {
     val deviceDesktopViewport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强制桌面视口"
         AppLanguage.ENGLISH -> "Force Desktop Viewport"
+        AppLanguage.VIETNAMESE -> "Buộc chế độ xem máy tính để bàn"
         AppLanguage.ARABIC -> "فرض عرض سطح المكتب"
         AppLanguage.PORTUGUESE -> "Forçar Viewport de Desktop"
         AppLanguage.SPANISH -> "Forzar Viewport de Escritorio"
@@ -5256,6 +5670,7 @@ object StringsE {
     val deviceDesktopViewportHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用桌面宽度加载网页"
         AppLanguage.ENGLISH -> "Load pages with desktop width"
+        AppLanguage.VIETNAMESE -> "Tải các trang có chiều rộng màn hình"
         AppLanguage.ARABIC -> "تحميل الصفحات بعرض سطح المكتب"
         AppLanguage.PORTUGUESE -> "Carregar páginas com largura de desktop"
         AppLanguage.SPANISH -> "Cargar páginas con ancho de escritorio"
@@ -5268,6 +5683,7 @@ object StringsE {
     val deviceDisguiseOff: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭 · 使用真实设备"
         AppLanguage.ENGLISH -> "Off · Using real device"
+        AppLanguage.VIETNAMESE -> "Tắt · Sử dụng thiết bị thực"
         AppLanguage.ARABIC -> "مغلق · يستخدم الجهاز الحقيقي"
         AppLanguage.PORTUGUESE -> "Desativado · Usando dispositivo real"
         AppLanguage.SPANISH -> "Desactivado · Usando dispositivo real"
@@ -5280,6 +5696,7 @@ object StringsE {
     val deviceDisguiseActive: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已伪装为"
         AppLanguage.ENGLISH -> "Disguised as"
+        AppLanguage.VIETNAMESE -> "Cải trang thành"
         AppLanguage.ARABIC -> "متنكر كـ"
         AppLanguage.PORTUGUESE -> "Disfarçado como"
         AppLanguage.SPANISH -> "Disfrazado como"
@@ -5293,6 +5710,7 @@ object StringsE {
     val deviceCustomDevice: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义设备"
         AppLanguage.ENGLISH -> "Custom Device"
+        AppLanguage.VIETNAMESE -> "Thiết bị tùy chỉnh"
         AppLanguage.ARABIC -> "جهاز مخصص"
         AppLanguage.PORTUGUESE -> "Dispositivo Personalizado"
         AppLanguage.SPANISH -> "Dispositivo Personalizado"
@@ -5305,6 +5723,7 @@ object StringsE {
     val deviceCustomDeviceHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "手动配置设备名称、型号和分辨率"
         AppLanguage.ENGLISH -> "Manually configure device name, model and resolution"
+        AppLanguage.VIETNAMESE -> "Định cấu hình thủ công tên thiết bị, kiểu máy và độ phân giải"
         AppLanguage.ARABIC -> "تكوين اسم الجهاز والطراز والدقة يدويًا"
         AppLanguage.PORTUGUESE -> "Configurar manualmente o nome, modelo e resolução do dispositivo"
         AppLanguage.SPANISH -> "Configurar manualmente el nombre, modelo y resolución del dispositivo"
@@ -5317,6 +5736,7 @@ object StringsE {
     val deviceCustomName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备名称"
         AppLanguage.ENGLISH -> "Device Name"
+        AppLanguage.VIETNAMESE -> "Tên thiết bị"
         AppLanguage.ARABIC -> "اسم الجهاز"
         AppLanguage.PORTUGUESE -> "Nome do Dispositivo"
         AppLanguage.SPANISH -> "Nombre del Dispositivo"
@@ -5329,6 +5749,7 @@ object StringsE {
     val deviceCustomModelId: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备型号标识"
         AppLanguage.ENGLISH -> "Model Identifier"
+        AppLanguage.VIETNAMESE -> "Mã định danh mẫu"
         AppLanguage.ARABIC -> "معرف الطراز"
         AppLanguage.PORTUGUESE -> "Identificador do Modelo"
         AppLanguage.SPANISH -> "Identificador del Modelo"
@@ -5341,6 +5762,7 @@ object StringsE {
     val deviceCustomWidth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "宽度 px"
         AppLanguage.ENGLISH -> "Width px"
+        AppLanguage.VIETNAMESE -> "Chiều rộng px"
         AppLanguage.ARABIC -> "العرض px"
         AppLanguage.PORTUGUESE -> "Largura px"
         AppLanguage.SPANISH -> "Ancho px"
@@ -5353,6 +5775,7 @@ object StringsE {
     val deviceCustomHeight: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高度 px"
         AppLanguage.ENGLISH -> "Height px"
+        AppLanguage.VIETNAMESE -> "Chiều cao px"
         AppLanguage.ARABIC -> "الارتفاع px"
         AppLanguage.PORTUGUESE -> "Altura px"
         AppLanguage.SPANISH -> "Alto px"
@@ -5365,6 +5788,7 @@ object StringsE {
     val deviceCustomDensity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "像素密度 (DPR)"
         AppLanguage.ENGLISH -> "Pixel Density (DPR)"
+        AppLanguage.VIETNAMESE -> "Mật độ điểm ảnh (DPR)"
         AppLanguage.ARABIC -> "كثافة البكسل (DPR)"
         AppLanguage.PORTUGUESE -> "Densidade de Pixels (DPR)"
         AppLanguage.SPANISH -> "Densidad de Píxeles (DPR)"
@@ -5377,6 +5801,7 @@ object StringsE {
     val deviceCustomApply: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用自定义配置"
         AppLanguage.ENGLISH -> "Apply Custom Config"
+        AppLanguage.VIETNAMESE -> "Áp dụng cấu hình tùy chỉnh"
         AppLanguage.ARABIC -> "تطبيق التكوين المخصص"
         AppLanguage.PORTUGUESE -> "Aplicar Configuração Personalizada"
         AppLanguage.SPANISH -> "Aplicar Configuración Personalizada"
@@ -5390,6 +5815,7 @@ object StringsE {
     val tlsFingerprintTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "TLS 指纹伪装"
         AppLanguage.ENGLISH -> "TLS Fingerprint Spoofing"
+        AppLanguage.VIETNAMESE -> "Giả mạo vân tay TLS"
         AppLanguage.ARABIC -> "انتحال بصمة TLS"
         AppLanguage.PORTUGUESE -> "Falsificação de Impressão Digital TLS"
         AppLanguage.SPANISH -> "Falsificación de Huella TLS"
@@ -5403,6 +5829,7 @@ object StringsE {
     val antiCaptureTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "防抓包"
         AppLanguage.ENGLISH -> "Anti Packet Capture"
+        AppLanguage.VIETNAMESE -> "Chống bắt gói"
         AppLanguage.ARABIC -> "منع التقاط الحزم"
         AppLanguage.PORTUGUESE -> "Anti Captura de Pacotes"
         AppLanguage.SPANISH -> "Anti Captura de Paquetes"
@@ -5416,6 +5843,7 @@ object StringsE {
     val vpnBlockTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到抓包工具"
         AppLanguage.ENGLISH -> "Capture Tool Detected"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện công cụ chụp"
         AppLanguage.ARABIC -> "تم اكتشاف أداة التقاط"
         AppLanguage.PORTUGUESE -> "Ferramenta de Captura Detectada"
         AppLanguage.SPANISH -> "Herramienta de Captura Detectada"
@@ -5429,6 +5857,7 @@ object StringsE {
     val vpnBlockMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 VPN 或抓包工具正在运行。请关闭 HttpCanary、ADB 等抓包/VPN 应用后重试。"
         AppLanguage.ENGLISH -> "A VPN or packet-capture tool is active. Please disable HttpCanary, ADB capture, or similar tools and retry."
+        AppLanguage.VIETNAMESE -> "VPN hoặc công cụ chụp gói đang hoạt động. Vui lòng tắt HttpCanary, ADB capture hoặc các công cụ tương tự và thử lại."
         AppLanguage.ARABIC -> "أداة VPN أو التقاط حزم نشطة. يرجى تعطيل HttpCanary وأدوات مشابهة وإعادة المحاولة."
         AppLanguage.PORTUGUESE -> "Uma VPN ou ferramenta de captura de pacotes está ativa. Desative HttpCanary, captura via ADB ou ferramentas similares e tente novamente."
         AppLanguage.SPANISH -> "Hay una VPN o herramienta de captura de paquetes activa. Desactiva HttpCanary, captura por ADB o herramientas similares e inténtalo de nuevo."
@@ -5442,6 +5871,7 @@ object StringsE {
     val vpnBlockRetry: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "我已关闭，重试"
         AppLanguage.ENGLISH -> "I've disabled it, retry"
+        AppLanguage.VIETNAMESE -> "Tôi đã tắt nó, thử lại"
         AppLanguage.ARABIC -> "لقد عطلتها، أعد المحاولة"
         AppLanguage.PORTUGUESE -> "Já desativei, tentar novamente"
         AppLanguage.SPANISH -> "Ya lo desactivé, reintentar"
@@ -5455,6 +5885,7 @@ object StringsE {
     val antiCaptureDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开启后，常规抓包软件（如 Charles、Fiddler）将无法截获网页内容；应用将忽略系统代理并拒绝抓包证书。不影响应用内自定义代理。"
         AppLanguage.ENGLISH -> "When enabled, common packet-capture tools (e.g. Charles, Fiddler) cannot intercept web content; the app ignores system proxy and rejects capture certificates. App-internal proxies are unaffected."
+        AppLanguage.VIETNAMESE -> "Khi được bật, các công cụ chụp gói thông thường (ví dụ: Charles, Fiddler) không thể chặn nội dung web; ứng dụng bỏ qua proxy hệ thống và từ chối chứng chỉ chụp. Proxy nội bộ của ứng dụng không bị ảnh hưởng."
         AppLanguage.ARABIC -> "عند التفعيل، لا تستطيع أدوات التقاط الحزم الشائعة (مثل Charles وFiddler) اعتراض محتوى الويب؛ سيتجاهل التطبيق وكيل النظام ويرفض شهود الالتقاط. لا يؤثر على الوكلاء الداخليين للتطبيق."
         AppLanguage.PORTUGUESE -> "Quando ativado, ferramentas comuns de captura de pacotes (ex.: Charles, Fiddler) não conseguem interceptar o conteúdo da web; o app ignora o proxy do sistema e rejeita certificados de captura. Proxies internos do app não são afetados."
         AppLanguage.SPANISH -> "Cuando está activado, las herramientas comunes de captura de paquetes (p. ej. Charles, Fiddler) no pueden interceptar el contenido web; la app ignora el proxy del sistema y rechaza los certificados de captura. Los proxies internos de la app no se ven afectados."
@@ -5467,6 +5898,7 @@ object StringsE {
     val hideStatusBarInVideoFullscreenTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频全屏时隐藏状态栏"
         AppLanguage.ENGLISH -> "Hide Status Bar in Video Fullscreen"
+        AppLanguage.VIETNAMESE -> "Ẩn thanh trạng thái trong toàn màn hình video"
         AppLanguage.ARABIC -> "إخفاء شريط الحالة في وضع ملء الشاشة للفيديو"
         AppLanguage.PORTUGUESE -> "Ocultar Barra de Status em Tela Cheia de Vídeo"
         AppLanguage.SPANISH -> "Ocultar Barra de Estado en Pantalla Completa de Vídeo"
@@ -5480,6 +5912,7 @@ object StringsE {
     val hideStatusBarInVideoFullscreenDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页视频进入全屏播放时自动隐藏状态栏，退出全屏后恢复（默认开启）"
         AppLanguage.ENGLISH -> "Automatically hide the status bar when a web video enters fullscreen playback and restore it on exit (on by default)"
+        AppLanguage.VIETNAMESE -> "Tự động ẩn thanh trạng thái khi video trên web phát lại toàn màn hình và khôi phục nó khi thoát (bật theo mặc định)"
         AppLanguage.ARABIC -> "إخفاء شريط الحالة تلقائيًا عند دخول فيديو الويب في وضع ملء الشاشة واستعادته عند الخروج (مفعّل افتراضيًا)"
         AppLanguage.PORTUGUESE -> "Oculta automaticamente a barra de status quando um vídeo da web entra em tela cheia e a restaura ao sair (ativado por padrão)"
         AppLanguage.SPANISH -> "Oculta automáticamente la barra de estado cuando un vídeo web entra en pantalla completa y la restaura al salir (activado de forma predeterminada)"
@@ -5493,6 +5926,7 @@ object StringsE {
     val tlsFingerprintDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通过本地 MITM 桥终止并重新发起 TLS 握手，模拟目标浏览器的 TLS 指纹。会增加约 50-100ms 连接延迟。"
         AppLanguage.ENGLISH -> "Terminates and re-initiates TLS handshake via a local MITM bridge to simulate the target browser's TLS fingerprint. Adds ~50-100ms connection latency."
+        AppLanguage.VIETNAMESE -> "Chấm dứt và bắt đầu lại quá trình bắt tay TLS thông qua cầu nối MITM cục bộ để mô phỏng dấu vân tay TLS của trình duyệt mục tiêu. Thêm độ trễ kết nối ~ 50-100ms."
         AppLanguage.ARABIC -> "ينهي ويعيد بدء مصافحة TLS عبر جسر MITM محلي لمحاكاة بصمة TLS للمتصفح المستهدف. يضيف حوالي ٥٠-١٠٠ مللي ثانية تأخير."
         AppLanguage.PORTUGUESE -> "Termina e reinicia o handshake TLS via uma ponte MITM local para simular a impressão digital TLS do navegador alvo. Adiciona ~50-100ms de latência de conexão."
         AppLanguage.SPANISH -> "Termina y reinicia el handshake TLS mediante un puente MITM local para simular la huella TLS del navegador objetivo. Añade ~50-100ms de latencia de conexión."
@@ -5505,6 +5939,7 @@ object StringsE {
     val tlsFingerprintTemplateLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "指纹模板"
         AppLanguage.ENGLISH -> "Fingerprint Template"
+        AppLanguage.VIETNAMESE -> "Mẫu vân tay"
         AppLanguage.ARABIC -> "قالب البصمة"
         AppLanguage.PORTUGUESE -> "Modelo de Impressão Digital"
         AppLanguage.SPANISH -> "Plantilla de Huella"
@@ -5517,6 +5952,7 @@ object StringsE {
     val tlsFingerprintCustomCiphersLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义 Cipher Suite"
         AppLanguage.ENGLISH -> "Custom Cipher Suites"
+        AppLanguage.VIETNAMESE -> "Bộ mật mã tùy chỉnh"
         AppLanguage.ARABIC -> "مجموعات تشفير مخصصة"
         AppLanguage.PORTUGUESE -> "Conjuntos de Cifra Personalizados"
         AppLanguage.SPANISH -> "Conjuntos de Cifrado Personalizados"
@@ -5529,6 +5965,7 @@ object StringsE {
     val tlsFingerprintCustomCiphersHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每行一个，如 TLS_AES_128_GCM_SHA256"
         AppLanguage.ENGLISH -> "One per line, e.g. TLS_AES_128_GCM_SHA256"
+        AppLanguage.VIETNAMESE -> "Một trên mỗi dòng, ví dụ: TLS_AES_128_GCM_SHA256"
         AppLanguage.ARABIC -> "واحد في كل سطر، مثال TLS_AES_128_GCM_SHA256"
         AppLanguage.PORTUGUESE -> "Um por linha, ex. TLS_AES_128_GCM_SHA256"
         AppLanguage.SPANISH -> "Uno por línea, ej. TLS_AES_128_GCM_SHA256"
@@ -5541,6 +5978,7 @@ object StringsE {
     val tlsFingerprintGeckoWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "GeckoView 引擎下证书信任可能不完全生效，建议使用系统 WebView 引擎"
         AppLanguage.ENGLISH -> "Certificate trust may not fully work with GeckoView engine. System WebView engine is recommended."
+        AppLanguage.VIETNAMESE -> "Chứng chỉ tin cậy có thể không hoạt động hoàn toàn với công cụ GeckoView. Công cụ WebView của hệ thống được khuyến nghị."
         AppLanguage.ARABIC -> "قد لا يعمل信任 الشهادة بشكل كامل مع محرك GeckoView. يُوصى بمحرك WebView للنظام."
         AppLanguage.PORTUGUESE -> "A confiança de certificados pode não funcionar totalmente com o engine GeckoView. Recomenda-se o engine WebView do sistema."
         AppLanguage.SPANISH -> "La confianza de certificados puede no funcionar completamente con el motor GeckoView. Se recomienda el motor WebView del sistema."
@@ -5553,6 +5991,7 @@ object StringsE {
     val tlsFingerprintProxyIntegration: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "与 SOCKS5 代理组合使用时，TLS 重握手将通过代理隧道进行"
         AppLanguage.ENGLISH -> "When combined with SOCKS5 proxy, TLS re-handshake goes through the proxy tunnel"
+        AppLanguage.VIETNAMESE -> "Khi được kết hợp với proxy SOCKS5, quá trình bắt tay lại TLS sẽ đi qua đường hầm proxy"
         AppLanguage.ARABIC -> "عند الدمج مع وكيل SOCKS5، تتم إعادة مصافحة TLS عبر نفق الوكيل"
         AppLanguage.PORTUGUESE -> "Quando combinado com proxy SOCKS5, o re-handshake TLS passa pelo túnel do proxy"
         AppLanguage.SPANISH -> "Cuando se combina con proxy SOCKS5, el re-handshake TLS pasa por el túnel del proxy"
@@ -5565,6 +6004,7 @@ object StringsE {
     val forceHttp3Title: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强制 HTTP/3 (QUIC)"
         AppLanguage.ENGLISH -> "Force HTTP/3 (QUIC)"
+        AppLanguage.VIETNAMESE -> "Buộc HTTP/3 (QUIC)"
         AppLanguage.ARABIC -> "فرض HTTP/3 (QUIC)"
         AppLanguage.PORTUGUESE -> "Forçar HTTP/3 (QUIC)"
         AppLanguage.SPANISH -> "Forzar HTTP/3 (QUIC)"
@@ -5577,6 +6017,7 @@ object StringsE {
     val forceHttp3Description: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "流量经真实 Chromium 网络栈传输，对每个站点从首个请求起优先尝试 QUIC"
         AppLanguage.ENGLISH -> "Traffic rides the real Chromium network stack; every host tries QUIC from the first request"
+        AppLanguage.VIETNAMESE -> "Lưu lượng truy cập dựa trên ngăn xếp mạng Chrome thực; mọi máy chủ đều thử QUIC từ yêu cầu đầu tiên"
         AppLanguage.ARABIC -> "يستخدم حركة البيانات مكدس الشبكة الحقيقي لـ Chromium؛ كل موقع يجرب QUIC من الطلب الأول"
         AppLanguage.PORTUGUESE -> "O tráfego usa a pilha de rede real do Chromium; cada host tenta QUIC desde a primeira solicitação"
         AppLanguage.SPANISH -> "El tráfico usa la pila de red real de Chromium; cada host prueba QUIC desde la primera solicitud"
@@ -5589,6 +6030,7 @@ object StringsE {
     val forceHttp3Note: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "经本地桥将请求转发到内置的 Chromium 网络组件 (Cronet)：对每个目标站点从首个请求起优先建立 HTTP/3 (QUIC/UDP) 连接，不支持的站点自动回退到真实 Chrome 的 TLS 通道，出口指纹即真实 Chromium，无需另行伪装。首次使用会自动下载网络组件（约 14MB），导出的 APK 将内置该组件。与 SOCKS 上游代理互斥：配置 SOCKS 时本开关不生效。"
         AppLanguage.ENGLISH -> "The local bridge forwards requests to the embedded Chromium network stack (Cronet): every target site is preferred over HTTP/3 (QUIC/UDP) from its first request, sites without h3 fall back to a genuine Chrome TLS path, and the outbound fingerprint is real Chromium — no spoofing needed. First use auto-downloads the network component (~14 MB); exported APKs embed it. Mutually exclusive with a SOCKS upstream: the switch is inert while SOCKS is configured."
+        AppLanguage.VIETNAMESE -> "Cầu nối cục bộ chuyển tiếp yêu cầu tới ngăn xếp mạng Chrome được nhúng (Cronet): mọi trang web mục tiêu đều được ưu tiên hơn HTTP/3 (QUIC/UDP) từ yêu cầu đầu tiên, các trang web không có h3 sẽ quay trở lại đường dẫn TLS Chrome chính hãng và dấu vân tay gửi đi là Chrome thật — không cần giả mạo. Lần sử dụng đầu tiên sẽ tự động tải xuống thành phần mạng (~14 MB); APK đã xuất sẽ nhúng nó. Loại trừ lẫn nhau với SOCKS ngược dòng: công tắc ở trạng thái trơ trong khi SOCKS được định cấu hình."
         AppLanguage.ARABIC -> "يعيد الجسر المحلي توجيه الطلبات إلى مكدس شبكة Chromium المدمج (Cronet): يُفضَّل HTTP/3 (QUIC/UDP) لكل موقع مستهدف من طلبه الأول، وتتراجع المواقع بدون h3 إلى مسار TLS حقيقي من Chrome، وبصمة الخروج هي Chromium حقيقي — لا حاجة للانتحال. الاستخدام الأول ينزّل مكوّن الشبكة تلقائيًا (حوالي 14 ميغابايت)؛ وتُدمج ملفات APK المصدَّرة المكوّن. حصري بشكل متبادل مع وكيل SOCKS: لا يعمل المفتاح عند تهيئة SOCKS."
         AppLanguage.PORTUGUESE -> "A ponte local encaminha as solicitações para a pilha de rede Chromium integrada (Cronet): cada site de destino prefere HTTP/3 (QUIC/UDP) desde a primeira solicitação, sites sem h3 recuam para um caminho TLS genuíno do Chrome, e a impressão digital de saída é o Chromium real — sem necessidade de falsificação. O primeiro uso baixa automaticamente o componente de rede (~14 MB); APKs exportados o incorporam. Mutuamente exclusivo com um proxy SOCKS: a opção fica inerte com o SOCKS configurado."
         AppLanguage.SPANISH -> "El puente local reenvía las solicitudes a la pila de red Chromium integrada (Cronet): cada sitio de destino prefiere HTTP/3 (QUIC/UDP) desde su primera solicitud, los sitios sin h3 retroceden a una ruta TLS genuina de Chrome, y la huella de salida es Chromium real, sin necesidad de suplantación. El primer uso descarga automáticamente el componente de red (~14 MB); los APK exportados lo incorporan. Mutuamente excluyente con un proxy SOCKS: la opción queda inerte con SOCKS configurado."
@@ -5601,6 +6043,7 @@ object StringsE {
     val proxyModeNone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无代理"
         AppLanguage.ENGLISH -> "No Proxy"
+        AppLanguage.VIETNAMESE -> "Không có ủy quyền"
         AppLanguage.ARABIC -> "بدون وكيل"
         AppLanguage.PORTUGUESE -> "Sem Proxy"
         AppLanguage.SPANISH -> "Sin Proxy"
@@ -5613,6 +6056,7 @@ object StringsE {
     val proxyModeStatic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "固定代理"
         AppLanguage.ENGLISH -> "Static Proxy"
+        AppLanguage.VIETNAMESE -> "Proxy tĩnh"
         AppLanguage.ARABIC -> "وكيل ثابت"
         AppLanguage.PORTUGUESE -> "Proxy Estático"
         AppLanguage.SPANISH -> "Proxy Estático"
@@ -5625,6 +6069,7 @@ object StringsE {
     val proxyModePac: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PAC 脚本"
         AppLanguage.ENGLISH -> "PAC Script"
+        AppLanguage.VIETNAMESE -> "Tập lệnh PAC"
         AppLanguage.ARABIC -> "سكربت PAC"
         AppLanguage.PORTUGUESE -> "Script PAC"
         AppLanguage.SPANISH -> "Script PAC"
@@ -5637,6 +6082,7 @@ object StringsE {
     val proxyHostLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代理主机"
         AppLanguage.ENGLISH -> "Proxy Host"
+        AppLanguage.VIETNAMESE -> "Máy chủ proxy"
         AppLanguage.ARABIC -> "مضيف الوكيل"
         AppLanguage.PORTUGUESE -> "Host do Proxy"
         AppLanguage.SPANISH -> "Host del Proxy"
@@ -5649,6 +6095,7 @@ object StringsE {
     val proxyHostHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如 proxy.example.com 或 192.168.1.1"
         AppLanguage.ENGLISH -> "e.g. proxy.example.com or 192.168.1.1"
+        AppLanguage.VIETNAMESE -> "ví dụ. proxy.example.com hoặc 192.168.1.1"
         AppLanguage.ARABIC -> "مثال: proxy.example.com أو 192.168.1.1"
         AppLanguage.PORTUGUESE -> "ex. proxy.example.com ou 192.168.1.1"
         AppLanguage.SPANISH -> "ej. proxy.example.com o 192.168.1.1"
@@ -5661,6 +6108,7 @@ object StringsE {
     val proxyPortLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "端口"
         AppLanguage.ENGLISH -> "Port"
+        AppLanguage.VIETNAMESE -> "Cảng"
         AppLanguage.ARABIC -> "المنفذ"
         AppLanguage.PORTUGUESE -> "Porta"
         AppLanguage.SPANISH -> "Puerto"
@@ -5673,6 +6121,7 @@ object StringsE {
     val proxyPortHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如 8080"
         AppLanguage.ENGLISH -> "e.g. 8080"
+        AppLanguage.VIETNAMESE -> "ví dụ. 8080"
         AppLanguage.ARABIC -> "مثال: 8080"
         AppLanguage.PORTUGUESE -> "ex. 8080"
         AppLanguage.SPANISH -> "ej. 8080"
@@ -5685,6 +6134,7 @@ object StringsE {
     val proxyTypeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "协议"
         AppLanguage.ENGLISH -> "Protocol"
+        AppLanguage.VIETNAMESE -> "Giao thức"
         AppLanguage.ARABIC -> "البروتوكول"
         AppLanguage.PORTUGUESE -> "Protocolo"
         AppLanguage.SPANISH -> "Protocolo"
@@ -5697,6 +6147,7 @@ object StringsE {
     val pacUrlLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PAC 脚本地址"
         AppLanguage.ENGLISH -> "PAC Script URL"
+        AppLanguage.VIETNAMESE -> "URL tập lệnh PAC"
         AppLanguage.ARABIC -> "عنوان سكربت PAC"
         AppLanguage.PORTUGUESE -> "URL do Script PAC"
         AppLanguage.SPANISH -> "URL del Script PAC"
@@ -5721,6 +6172,7 @@ object StringsE {
     val proxyBypassLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "绕过规则"
         AppLanguage.ENGLISH -> "Bypass Rules"
+        AppLanguage.VIETNAMESE -> "Bỏ qua quy tắc"
         AppLanguage.ARABIC -> "قواعد التجاوز"
         AppLanguage.PORTUGUESE -> "Regras de Bypass"
         AppLanguage.SPANISH -> "Reglas de Omisión"
@@ -5733,6 +6185,7 @@ object StringsE {
     val proxyBypassHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "一行一个，如 *.example.com 或 192.168.0.0/16"
         AppLanguage.ENGLISH -> "One per line, e.g. *.example.com or 192.168.0.0/16"
+        AppLanguage.VIETNAMESE -> "Một trên mỗi dòng, ví dụ: *.example.com hoặc 192.168.0.0/16"
         AppLanguage.ARABIC -> "واحد لكل سطر، مثال: *.example.com أو 192.168.0.0/16"
         AppLanguage.PORTUGUESE -> "Um por linha, ex. *.example.com ou 192.168.0.0/16"
         AppLanguage.SPANISH -> "Uno por línea, ej. *.example.com o 192.168.0.0/16"
@@ -5745,6 +6198,7 @@ object StringsE {
     val proxyModeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代理模式"
         AppLanguage.ENGLISH -> "Proxy Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ ủy quyền"
         AppLanguage.ARABIC -> "وضع الوكيل"
         AppLanguage.PORTUGUESE -> "Modo de Proxy"
         AppLanguage.SPANISH -> "Modo de Proxy"
@@ -5757,6 +6211,7 @@ object StringsE {
     val proxyAuthLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代理认证"
         AppLanguage.ENGLISH -> "Proxy Authentication"
+        AppLanguage.VIETNAMESE -> "Xác thực proxy"
         AppLanguage.ARABIC -> "مصادقة الوكيل"
         AppLanguage.PORTUGUESE -> "Autenticação de Proxy"
         AppLanguage.SPANISH -> "Autenticación de Proxy"
@@ -5769,6 +6224,7 @@ object StringsE {
     val proxyUsernameLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户名"
         AppLanguage.ENGLISH -> "Username"
+        AppLanguage.VIETNAMESE -> "Tên người dùng"
         AppLanguage.ARABIC -> "اسم المستخدم"
         AppLanguage.PORTUGUESE -> "Nome de Usuário"
         AppLanguage.SPANISH -> "Nombre de Usuario"
@@ -5781,6 +6237,7 @@ object StringsE {
     val proxyPasswordLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码"
         AppLanguage.ENGLISH -> "Password"
+        AppLanguage.VIETNAMESE -> "Mật khẩu"
         AppLanguage.ARABIC -> "كلمة المرور"
         AppLanguage.PORTUGUESE -> "Senha"
         AppLanguage.SPANISH -> "Contraseña"
@@ -5793,6 +6250,7 @@ object StringsE {
     val hostsMappingTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Hosts 映射"
         AppLanguage.ENGLISH -> "Hosts Mapping"
+        AppLanguage.VIETNAMESE -> "Bản đồ máy chủ"
         AppLanguage.ARABIC -> "تعيين hosts"
         AppLanguage.PORTUGUESE -> "Mapeamento de Hosts"
         AppLanguage.SPANISH -> "Mapeo de Hosts"
@@ -5805,6 +6263,7 @@ object StringsE {
     val hostsMappingSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把指定域名定向到固定 IP，类似 hosts 文件"
         AppLanguage.ENGLISH -> "Route selected domains to fixed IPs like a hosts file"
+        AppLanguage.VIETNAMESE -> "Định tuyến các miền đã chọn tới các IP cố định như tệp máy chủ"
         AppLanguage.ARABIC -> "وجّه نطاقات محددة إلى عناوين IP ثابتة مثل ملف hosts"
         AppLanguage.PORTUGUESE -> "Direciona domínios selecionados para IPs fixos, como um arquivo hosts"
         AppLanguage.SPANISH -> "Dirige dominios seleccionados a IPs fijos, como un archivo hosts"
@@ -5817,6 +6276,7 @@ object StringsE {
     val hostsMappingDescription: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仅影响 WebView 内请求，保留原始域名与 Host 头。"
         AppLanguage.ENGLISH -> "Only affects WebView requests and preserves the original hostname and Host header."
+        AppLanguage.VIETNAMESE -> "Chỉ ảnh hưởng đến các yêu cầu WebView và giữ nguyên tên máy chủ gốc cũng như tiêu đề Máy chủ."
         AppLanguage.ARABIC -> "يؤثر فقط على طلبات WebView مع الاحتفاظ باسم المضيف الأصلي وترويسة Host."
         AppLanguage.PORTUGUESE -> "Afeta apenas requisições do WebView e preserva o hostname original e o cabeçalho Host."
         AppLanguage.SPANISH -> "Solo afecta a las solicitudes de WebView y conserva el nombre de host original y el encabezado Host."
@@ -5829,6 +6289,7 @@ object StringsE {
     val hostsMappingHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每行一条，支持 `1.2.3.4 example.com` 或 `example.com 1.2.3.4`，可用 # 注释"
         AppLanguage.ENGLISH -> "One per line. Supports `1.2.3.4 example.com` or `example.com 1.2.3.4`. `#` comments are ignored."
+        AppLanguage.VIETNAMESE -> "Một trên mỗi dòng. Hỗ trợ `1.2.3.4 example.com` hoặc `example.com 1.2.3.4`. `#` bình luận bị bỏ qua."
         AppLanguage.ARABIC -> "واحد لكل سطر. يدعم `1.2.3.4 example.com` أو `example.com 1.2.3.4` ويتم تجاهل تعليقات `#`."
         AppLanguage.PORTUGUESE -> "Um por linha. Suporta `1.2.3.4 example.com` ou `example.com 1.2.3.4`. Comentários `#` são ignorados."
         AppLanguage.SPANISH -> "Uno por línea. Soporta `1.2.3.4 example.com` o `example.com 1.2.3.4`. Los comentarios `#` se ignoran."
@@ -5841,6 +6302,7 @@ object StringsE {
     val hostsMappingWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTTPS 仍会校验证书；如果目标 IP 与证书或 CDN 节点不匹配，页面可能加载失败。"
         AppLanguage.ENGLISH -> "HTTPS certificates are still validated. Requests may fail if the mapped IP does not match the certificate or CDN edge."
+        AppLanguage.VIETNAMESE -> "Chứng chỉ HTTPS vẫn được xác thực. Yêu cầu có thể không thành công nếu IP được ánh xạ không khớp với chứng chỉ hoặc cạnh CDN."
         AppLanguage.ARABIC -> "ما زال يتم التحقق من شهادات HTTPS. قد تفشل الطلبات إذا لم يطابق عنوان IP المعيّن الشهادة أو عقدة CDN."
         AppLanguage.PORTUGUESE -> "Os certificados HTTPS ainda são validados. As requisições podem falhar se o IP mapeado não corresponder ao certificado ou ao edge da CDN."
         AppLanguage.SPANISH -> "Los certificados HTTPS siguen validándose. Las solicitudes pueden fallar si la IP mapeada no coincide con el certificado o el nodo CDN."
@@ -5853,6 +6315,7 @@ object StringsE {
     val hostsMappingProxyConflict: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前已启用代理。Hosts 映射暂不支持与外部代理叠加。"
         AppLanguage.ENGLISH -> "A proxy is already enabled. Hosts mapping does not currently stack with external proxies."
+        AppLanguage.VIETNAMESE -> "Một proxy đã được kích hoạt. Ánh xạ máy chủ hiện không xếp chồng với proxy bên ngoài."
         AppLanguage.ARABIC -> "هناك وكيل مفعّل بالفعل. تعيين hosts لا يعمل حالياً مع الوكلاء الخارجيين معاً."
         AppLanguage.PORTUGUESE -> "Um proxy já está ativado. O mapeamento de hosts atualmente não suporta empilhamento com proxies externos."
         AppLanguage.SPANISH -> "Ya hay un proxy activado. El mapeo de hosts actualmente no se combina con proxies externos."
@@ -5865,6 +6328,7 @@ object StringsE {
     fun hostsMappingParsedCount(count: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已解析 $count 条映射"
         AppLanguage.ENGLISH -> "$count mappings parsed"
+        AppLanguage.VIETNAMESE -> "Ánh xạ $count được phân tích cú pháp"
         AppLanguage.ARABIC -> "تم تحليل $count من التعيينات"
         AppLanguage.PORTUGUESE -> "$count mapeamentos analisados"
         AppLanguage.SPANISH -> "$count mapeos analizados"
@@ -5878,6 +6342,7 @@ object StringsE {
     val advancedConfig: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高级配置"
         AppLanguage.ENGLISH -> "Advanced Config"
+        AppLanguage.VIETNAMESE -> "Cấu hình nâng cao"
         AppLanguage.ARABIC -> "إعدادات متقدمة"
         AppLanguage.PORTUGUESE -> "Configuração Avançada"
         AppLanguage.SPANISH -> "Configuración Avanzada"
@@ -5890,6 +6355,7 @@ object StringsE {
     val animationPositionInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动画位置信息"
         AppLanguage.ENGLISH -> "Animation position info"
+        AppLanguage.VIETNAMESE -> "Thông tin vị trí hoạt hình"
         AppLanguage.ARABIC -> "معلومات موضع الرسوم المتحركة"
         AppLanguage.PORTUGUESE -> "Informação de posição da animação"
         AppLanguage.SPANISH -> "Información de posición de animación"
@@ -5902,6 +6368,7 @@ object StringsE {
     val apkBuildFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 构建失败"
         AppLanguage.ENGLISH -> "Apk build failed"
+        AppLanguage.VIETNAMESE -> "Xây dựng apk không thành công"
         AppLanguage.ARABIC -> "فشل بناء APK"
         AppLanguage.PORTUGUESE -> "Falha ao compilar o APK"
         AppLanguage.SPANISH -> "Error al compilar el APK"
@@ -5914,6 +6381,7 @@ object StringsE {
     val apkShareFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 分享失败"
         AppLanguage.ENGLISH -> "Apk share failed"
+        AppLanguage.VIETNAMESE -> "Chia sẻ Apk không thành công"
         AppLanguage.ARABIC -> "فشل مشاركة APK"
         AppLanguage.PORTUGUESE -> "Falha ao compartilhar o APK"
         AppLanguage.SPANISH -> "Error al compartir el APK"
@@ -5926,6 +6394,7 @@ object StringsE {
     val attachContext: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "附加上下文"
         AppLanguage.ENGLISH -> "Attach context"
+        AppLanguage.VIETNAMESE -> "Đính kèm bối cảnh"
         AppLanguage.ARABIC -> "إرفاق السياق"
         AppLanguage.PORTUGUESE -> "Anexar contexto"
         AppLanguage.SPANISH -> "Adjuntar contexto"
@@ -5938,6 +6407,7 @@ object StringsE {
     val btnCopy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制按钮"
         AppLanguage.ENGLISH -> "Btn copy"
+        AppLanguage.VIETNAMESE -> "bản sao btn"
         AppLanguage.ARABIC -> "زر النسخ"
         AppLanguage.PORTUGUESE -> "Botão copiar"
         AppLanguage.SPANISH -> "Botón copiar"
@@ -5950,6 +6420,7 @@ object StringsE {
     val chooseBrowser: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择浏览器"
         AppLanguage.ENGLISH -> "Choose browser"
+        AppLanguage.VIETNAMESE -> "Chọn trình duyệt"
         AppLanguage.ARABIC -> "اختر المتصفح"
         AppLanguage.PORTUGUESE -> "Escolher navegador"
         AppLanguage.SPANISH -> "Elegir navegador"
@@ -5962,6 +6433,7 @@ object StringsE {
     val crawlDepth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "爬取深度"
         AppLanguage.ENGLISH -> "Crawl depth"
+        AppLanguage.VIETNAMESE -> "Độ sâu thu thập dữ liệu"
         AppLanguage.ARABIC -> "عمق الزحف"
         AppLanguage.PORTUGUESE -> "Profundidade de rastreamento"
         AppLanguage.SPANISH -> "Profundidad de rastreo"
@@ -5974,6 +6446,7 @@ object StringsE {
     val depProjectCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "dep project count"
         AppLanguage.ENGLISH -> "Dep project count"
+        AppLanguage.VIETNAMESE -> "Số dự án đẹp"
         AppLanguage.ARABIC -> "dep project count"
         AppLanguage.PORTUGUESE -> "Contagem de projetos de dependências"
         AppLanguage.SPANISH -> "Recuento de proyectos de dependencias"
@@ -5986,6 +6459,7 @@ object StringsE {
     val depthLayers: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 层"
         AppLanguage.ENGLISH -> "%d layers"
+        AppLanguage.VIETNAMESE -> "Các lớp %d"
         AppLanguage.ARABIC -> "%d طبقات"
         AppLanguage.PORTUGUESE -> "%d camadas"
         AppLanguage.SPANISH -> "%d capas"
@@ -5998,6 +6472,7 @@ object StringsE {
     val downloadCdnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载跨域 CDN 资源（JS/CSS/字体等）"
         AppLanguage.ENGLISH -> "Download cross-origin CDN resources (JS/CSS/fonts)"
+        AppLanguage.VIETNAMESE -> "Tải xuống tài nguyên CDN có nguồn gốc chéo (JS/CSS/phông chữ)"
         AppLanguage.ARABIC -> "تنزيل موارد CDN عبر النطاقات (JS/CSS/خطوط)"
         AppLanguage.PORTUGUESE -> "Baixar recursos CDN de origem cruzada (JS/CSS/fontes)"
         AppLanguage.SPANISH -> "Descargar recursos CDN de origen cruzado (JS/CSS/fuentes)"
@@ -6010,6 +6485,7 @@ object StringsE {
     val downloadCdnResources: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载 CDN 资源"
         AppLanguage.ENGLISH -> "Download CDN resources"
+        AppLanguage.VIETNAMESE -> "Tải xuống tài nguyên CDN"
         AppLanguage.ARABIC -> "تنزيل موارد CDN"
         AppLanguage.PORTUGUESE -> "Baixar recursos CDN"
         AppLanguage.SPANISH -> "Descargar recursos CDN"
@@ -6022,6 +6498,7 @@ object StringsE {
     val editLrc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "edit lrc"
         AppLanguage.ENGLISH -> "Edit lrc"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa lrc"
         AppLanguage.ARABIC -> "edit lrc"
         AppLanguage.PORTUGUESE -> "Editar LRC"
         AppLanguage.SPANISH -> "Editar LRC"
@@ -6034,6 +6511,7 @@ object StringsE {
     val engineGeckoviewDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "engine geckoview"
         AppLanguage.ENGLISH -> "Engine geckoview"
+        AppLanguage.VIETNAMESE -> "động cơ tắc kè"
         AppLanguage.ARABIC -> "engine geckoview"
         AppLanguage.PORTUGUESE -> "Motor GeckoView"
         AppLanguage.SPANISH -> "Motor GeckoView"
@@ -6046,6 +6524,7 @@ object StringsE {
     val engineSystemWebviewDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "engine system webview"
         AppLanguage.ENGLISH -> "Engine system webview"
+        AppLanguage.VIETNAMESE -> "Chế độ xem web hệ thống động cơ"
         AppLanguage.ARABIC -> "engine system webview"
         AppLanguage.PORTUGUESE -> "Motor System WebView"
         AppLanguage.SPANISH -> "Motor System WebView"
@@ -6058,6 +6537,7 @@ object StringsE {
     val envInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "环境安装失败"
         AppLanguage.ENGLISH -> "Environment install failed"
+        AppLanguage.VIETNAMESE -> "Cài đặt môi trường không thành công"
         AppLanguage.ARABIC -> "فشل تثبيت بيئة البناء"
         AppLanguage.PORTUGUESE -> "Falha na instalação do ambiente"
         AppLanguage.SPANISH -> "Error en la instalación del entorno"
@@ -6070,6 +6550,7 @@ object StringsE {
     val extracting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "extracting"
         AppLanguage.ENGLISH -> "Extracting"
+        AppLanguage.VIETNAMESE -> "Giải nén"
         AppLanguage.ARABIC -> "extracting"
         AppLanguage.PORTUGUESE -> "Extraindo"
         AppLanguage.SPANISH -> "Extrayendo"
@@ -6082,6 +6563,7 @@ object StringsE {
     val fullErrorReport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完整错误报告"
         AppLanguage.ENGLISH -> "Full error report"
+        AppLanguage.VIETNAMESE -> "Báo cáo lỗi đầy đủ"
         AppLanguage.ARABIC -> "تقرير الخطأ الكامل"
         AppLanguage.PORTUGUESE -> "Relatório completo de erros"
         AppLanguage.SPANISH -> "Informe completo de errores"
@@ -6094,6 +6576,7 @@ object StringsE {
     val htmlCannotReadFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML 无法读取文件"
         AppLanguage.ENGLISH -> "Html cannot read file"
+        AppLanguage.VIETNAMESE -> "Html không thể đọc tệp"
         AppLanguage.ARABIC -> "HTML لا يمكن قراءة الملف"
         AppLanguage.PORTUGUESE -> "HTML não consegue ler o ficheiro"
         AppLanguage.SPANISH -> "HTML no puede leer el archivo"
@@ -6106,6 +6589,7 @@ object StringsE {
     val indexOf: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "索引位置"
         AppLanguage.ENGLISH -> "Index of"
+        AppLanguage.VIETNAMESE -> "Chỉ số của"
         AppLanguage.ARABIC -> "موضع الفهرس"
         AppLanguage.PORTUGUESE -> "Índice de"
         AppLanguage.SPANISH -> "Índice de"
@@ -6118,6 +6602,7 @@ object StringsE {
     val indexOfFirst: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "首个匹配索引"
         AppLanguage.ENGLISH -> "Index of first"
+        AppLanguage.VIETNAMESE -> "Chỉ số đầu tiên"
         AppLanguage.ARABIC -> "موضع أول فهرس"
         AppLanguage.PORTUGUESE -> "Índice do primeiro"
         AppLanguage.SPANISH -> "Índice del primero"
@@ -6130,6 +6615,7 @@ object StringsE {
     val joinToString: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拼接为字符串"
         AppLanguage.ENGLISH -> "Join to string"
+        AppLanguage.VIETNAMESE -> "Tham gia vào chuỗi"
         AppLanguage.ARABIC -> "ضمّ إلى سلسلة نصية"
         AppLanguage.PORTUGUESE -> "Juntar em string"
         AppLanguage.SPANISH -> "Unir en cadena"
@@ -6142,6 +6628,7 @@ object StringsE {
     val langChineseSimplified: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "简体中文"
         AppLanguage.ENGLISH -> "Simplified Chinese"
+        AppLanguage.VIETNAMESE -> "Tiếng Trung giản thể"
         AppLanguage.ARABIC -> "الصينية المبسطة"
         AppLanguage.PORTUGUESE -> "Chinês Simplificado"
         AppLanguage.SPANISH -> "Chino Simplificado"
@@ -6154,6 +6641,7 @@ object StringsE {
     val langChineseTraditional: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "繁體中文"
         AppLanguage.ENGLISH -> "Traditional Chinese"
+        AppLanguage.VIETNAMESE -> "Tiếng Trung phồn thể"
         AppLanguage.ARABIC -> "الصينية التقليدية"
         AppLanguage.PORTUGUESE -> "Chinês Tradicional"
         AppLanguage.SPANISH -> "Chino Tradicional"
@@ -6166,6 +6654,7 @@ object StringsE {
     val langKorean: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "韩文"
         AppLanguage.ENGLISH -> "Korean"
+        AppLanguage.VIETNAMESE -> "Tiếng Hàn"
         AppLanguage.ARABIC -> "الكورية"
         AppLanguage.PORTUGUESE -> "Coreano"
         AppLanguage.SPANISH -> "Coreano"
@@ -6178,6 +6667,7 @@ object StringsE {
     val langSpanish: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "西班牙语"
         AppLanguage.ENGLISH -> "Spanish"
+        AppLanguage.VIETNAMESE -> "tiếng Tây Ban Nha"
         AppLanguage.ARABIC -> "الإسبانية"
         AppLanguage.PORTUGUESE -> "Espanhol"
         AppLanguage.SPANISH -> "Español"
@@ -6190,6 +6680,7 @@ object StringsE {
     val langFrench: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "法文"
         AppLanguage.ENGLISH -> "French"
+        AppLanguage.VIETNAMESE -> "người Pháp"
         AppLanguage.ARABIC -> "الفرنسية"
         AppLanguage.PORTUGUESE -> "Francês"
         AppLanguage.SPANISH -> "Francés"
@@ -6202,6 +6693,7 @@ object StringsE {
     val langGerman: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "德文"
         AppLanguage.ENGLISH -> "German"
+        AppLanguage.VIETNAMESE -> "tiếng Đức"
         AppLanguage.ARABIC -> "الألمانية"
         AppLanguage.PORTUGUESE -> "Alemão"
         AppLanguage.SPANISH -> "Alemán"
@@ -6214,6 +6706,7 @@ object StringsE {
     val langPortugueseBrazil: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "葡萄牙语（巴西）"
         AppLanguage.ENGLISH -> "Portuguese (Brazil)"
+        AppLanguage.VIETNAMESE -> "Tiếng Bồ Đào Nha (Brazil)"
         AppLanguage.ARABIC -> "البرتغالية (البرازيل)"
         AppLanguage.PORTUGUESE -> "Português (Brasil)"
         AppLanguage.SPANISH -> "Portugués (Brasil)"
@@ -6226,6 +6719,7 @@ object StringsE {
     val largeFileWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "大文件警告"
         AppLanguage.ENGLISH -> "Large file warning"
+        AppLanguage.VIETNAMESE -> "Cảnh báo tập tin lớn"
         AppLanguage.ARABIC -> "تحذير ملف كبير"
         AppLanguage.PORTUGUESE -> "Aviso de arquivo grande"
         AppLanguage.SPANISH -> "Advertencia de archivo grande"
@@ -6238,6 +6732,7 @@ object StringsE {
     val lrcAddLine: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词添加一行"
         AppLanguage.ENGLISH -> "Lrc add line"
+        AppLanguage.VIETNAMESE -> "Lrc thêm dòng"
         AppLanguage.ARABIC -> "إضافة سطر كلمات"
         AppLanguage.PORTUGUESE -> "Adicionar linha de letra"
         AppLanguage.SPANISH -> "Añadir línea de letra"
@@ -6250,6 +6745,7 @@ object StringsE {
     val lrcBackward5s: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词后退5秒"
         AppLanguage.ENGLISH -> "Lrc backward5s"
+        AppLanguage.VIETNAMESE -> "Lrc lạc hậu5s"
         AppLanguage.ARABIC -> "كلمات للخلف ٥ ثوانٍ"
         AppLanguage.PORTUGUESE -> "Letra retroceder 5s"
         AppLanguage.SPANISH -> "Letra retroceder 5s"
@@ -6262,6 +6758,7 @@ object StringsE {
     val lrcForward5s: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词前进5秒"
         AppLanguage.ENGLISH -> "Lrc forward5s"
+        AppLanguage.VIETNAMESE -> "Lrc chuyển tiếp5s"
         AppLanguage.ARABIC -> "كلمات للأمام ٥ ثوانٍ"
         AppLanguage.PORTUGUESE -> "Letra avançar 5s"
         AppLanguage.SPANISH -> "Letra avanzar 5s"
@@ -6274,6 +6771,7 @@ object StringsE {
     val lrcMoveDown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词下移"
         AppLanguage.ENGLISH -> "Lrc move down"
+        AppLanguage.VIETNAMESE -> "Lrc di chuyển xuống"
         AppLanguage.ARABIC -> "تحريك الكلمات للأسفل"
         AppLanguage.PORTUGUESE -> "Letra mover para baixo"
         AppLanguage.SPANISH -> "Letra mover abajo"
@@ -6286,6 +6784,7 @@ object StringsE {
     val lrcMoveUp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词上移"
         AppLanguage.ENGLISH -> "Lrc move up"
+        AppLanguage.VIETNAMESE -> "Lrc tiến lên"
         AppLanguage.ARABIC -> "تحريك الكلمات للأعلى"
         AppLanguage.PORTUGUESE -> "Letra mover para cima"
         AppLanguage.SPANISH -> "Letra mover arriba"
@@ -6298,6 +6797,7 @@ object StringsE {
     val lrcSave: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "保存歌词"
         AppLanguage.ENGLISH -> "Lrc save"
+        AppLanguage.VIETNAMESE -> "lưu lại"
         AppLanguage.ARABIC -> "حفظ الكلمات"
         AppLanguage.PORTUGUESE -> "Salvar letra"
         AppLanguage.SPANISH -> "Guardar letra"
@@ -6310,6 +6810,7 @@ object StringsE {
     val lrcTimeAdjust: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "歌词时间调整"
         AppLanguage.ENGLISH -> "Lrc time adjust"
+        AppLanguage.VIETNAMESE -> "Điều chỉnh thời gian Lrc"
         AppLanguage.ARABIC -> "ضبط وقت الكلمات"
         AppLanguage.PORTUGUESE -> "Ajustar tempo da letra"
         AppLanguage.SPANISH -> "Ajustar tiempo de la letra"
@@ -6322,6 +6823,7 @@ object StringsE {
     val myOfflineApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "我的离线应用"
         AppLanguage.ENGLISH -> "My Offline App"
+        AppLanguage.VIETNAMESE -> "Ứng dụng ngoại tuyến của tôi"
         AppLanguage.ARABIC -> "my offline app"
         AppLanguage.PORTUGUESE -> "Meu App Offline"
         AppLanguage.SPANISH -> "Mi App Offline"
@@ -6334,6 +6836,7 @@ object StringsE {
     val notifClickToReturn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "点击返回"
         AppLanguage.ENGLISH -> "Tap to return"
+        AppLanguage.VIETNAMESE -> "Nhấn để quay lại"
         AppLanguage.ARABIC -> "اضغط للعودة"
         AppLanguage.PORTUGUESE -> "Toque para voltar"
         AppLanguage.SPANISH -> "Toca para volver"
@@ -6346,6 +6849,7 @@ object StringsE {
     val notifFocusModeChannelDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "专注模式守护通知"
         AppLanguage.ENGLISH -> "Notifications for focus mode guard"
+        AppLanguage.VIETNAMESE -> "Thông báo cho bảo vệ chế độ lấy nét"
         AppLanguage.ARABIC -> "إشعارات حراسة وضع التركيز"
         AppLanguage.PORTUGUESE -> "Notificações de guarda do modo de foco"
         AppLanguage.SPANISH -> "Notificaciones de guardia del modo de enfoque"
@@ -6358,6 +6862,7 @@ object StringsE {
     val notifFocusModeChannelName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "专注模式"
         AppLanguage.ENGLISH -> "Focus Mode"
+        AppLanguage.VIETNAMESE -> "Chế độ lấy nét"
         AppLanguage.ARABIC -> "وضع التركيز"
         AppLanguage.PORTUGUESE -> "Modo de Foco"
         AppLanguage.SPANISH -> "Modo de Enfoque"
@@ -6370,6 +6875,7 @@ object StringsE {
     val notifFocusModeRunning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "专注模式运行中"
         AppLanguage.ENGLISH -> "Focus mode running"
+        AppLanguage.VIETNAMESE -> "Đang chạy chế độ lấy nét"
         AppLanguage.ARABIC -> "وضع التركيز قيد التشغيل"
         AppLanguage.PORTUGUESE -> "Modo de foco em execução"
         AppLanguage.SPANISH -> "Modo de enfoque en ejecución"
@@ -6382,6 +6888,7 @@ object StringsE {
     val exportPermGroupBasic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "基础功能"
         AppLanguage.ENGLISH -> "Basic"
+        AppLanguage.VIETNAMESE -> "Nền tảng"
         AppLanguage.ARABIC -> "أساسي"
         AppLanguage.PORTUGUESE -> "Básico"
         AppLanguage.SPANISH -> "Básico"
@@ -6394,6 +6901,7 @@ object StringsE {
     val exportPermGroupStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存储与媒体"
         AppLanguage.ENGLISH -> "Storage & Media"
+        AppLanguage.VIETNAMESE -> "Lưu trữ & Phương tiện"
         AppLanguage.ARABIC -> "التخزين والوسائط"
         AppLanguage.PORTUGUESE -> "Armazenamento & Mídia"
         AppLanguage.SPANISH -> "Almacenamiento & Multimedia"
@@ -6406,6 +6914,7 @@ object StringsE {
     val exportPermGroupNetwork: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络与连接"
         AppLanguage.ENGLISH -> "Network & Connectivity"
+        AppLanguage.VIETNAMESE -> "Mạng & Kết nối"
         AppLanguage.ARABIC -> "الشبكة والاتصال"
         AppLanguage.PORTUGUESE -> "Rede & Conectividade"
         AppLanguage.SPANISH -> "Red & Conectividad"
@@ -6418,6 +6927,7 @@ object StringsE {
     val exportPermGroupSensors: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "传感器"
         AppLanguage.ENGLISH -> "Sensors"
+        AppLanguage.VIETNAMESE -> "Cảm biến"
         AppLanguage.ARABIC -> "المستشعرات"
         AppLanguage.PORTUGUESE -> "Sensores"
         AppLanguage.SPANISH -> "Sensores"
@@ -6430,6 +6940,7 @@ object StringsE {
     val exportPermGroupContacts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通讯录与日历"
         AppLanguage.ENGLISH -> "Contacts & Calendar"
+        AppLanguage.VIETNAMESE -> "Danh bạ & Lịch"
         AppLanguage.ARABIC -> "جهات الاتصال والتقويم"
         AppLanguage.PORTUGUESE -> "Contatos & Calendário"
         AppLanguage.SPANISH -> "Contactos & Calendario"
@@ -6442,6 +6953,7 @@ object StringsE {
     val exportPermGroupPhone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "电话与短信"
         AppLanguage.ENGLISH -> "Phone & SMS"
+        AppLanguage.VIETNAMESE -> "Điện thoại & SMS"
         AppLanguage.ARABIC -> "الهاتف والرسائل القصيرة"
         AppLanguage.PORTUGUESE -> "Telefone & SMS"
         AppLanguage.SPANISH -> "Teléfono & SMS"
@@ -6454,6 +6966,7 @@ object StringsE {
     val exportPermGroupSystem: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "系统服务"
         AppLanguage.ENGLISH -> "System Services"
+        AppLanguage.VIETNAMESE -> "Dịch vụ hệ thống"
         AppLanguage.ARABIC -> "خدمات النظام"
         AppLanguage.PORTUGUESE -> "Serviços do Sistema"
         AppLanguage.SPANISH -> "Servicios del Sistema"
@@ -6466,6 +6979,7 @@ object StringsE {
     val exportPermGroupAdvanced: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高级 / Play 受限"
         AppLanguage.ENGLISH -> "Advanced / Play-restricted"
+        AppLanguage.VIETNAMESE -> "Nâng cao / Hạn chế chơi"
         AppLanguage.ARABIC -> "متقدم / مقيّد في Play"
         AppLanguage.PORTUGUESE -> "Avançado / restrito na Play"
         AppLanguage.SPANISH -> "Avanzado / restringido en Play"
@@ -6478,6 +6992,7 @@ object StringsE {
     val permissionCamera: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "相机"
         AppLanguage.ENGLISH -> "Camera"
+        AppLanguage.VIETNAMESE -> "Máy ảnh"
         AppLanguage.ARABIC -> "الكاميرا"
         AppLanguage.PORTUGUESE -> "Câmera"
         AppLanguage.SPANISH -> "Cámara"
@@ -6490,6 +7005,7 @@ object StringsE {
     val permissionCameraDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CAMERA — 拍照和录像"
         AppLanguage.ENGLISH -> "CAMERA — Take photos and record video"
+        AppLanguage.VIETNAMESE -> "CAMERA - Chụp ảnh và quay video"
         AppLanguage.ARABIC -> "CAMERA — التقاط الصور وتسجيل الفيديو"
         AppLanguage.PORTUGUESE -> "CAMERA — Tirar fotos e gravar vídeo"
         AppLanguage.SPANISH -> "CAMERA — Tomar fotos y grabar video"
@@ -6502,6 +7018,7 @@ object StringsE {
     val permissionLocation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "位置"
         AppLanguage.ENGLISH -> "Location"
+        AppLanguage.VIETNAMESE -> "Vị trí"
         AppLanguage.ARABIC -> "الموقع"
         AppLanguage.PORTUGUESE -> "Localização"
         AppLanguage.SPANISH -> "Ubicación"
@@ -6514,6 +7031,7 @@ object StringsE {
     val permissionLocationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION — 获取设备位置"
         AppLanguage.ENGLISH -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION — Get device location"
+        AppLanguage.VIETNAMESE -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION - Nhận vị trí thiết bị"
         AppLanguage.ARABIC -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION — الحصول على موقع الجهاز"
         AppLanguage.PORTUGUESE -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION — Obter a localização do dispositivo"
         AppLanguage.SPANISH -> "ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION — Obtener la ubicación del dispositivo"
@@ -6526,6 +7044,7 @@ object StringsE {
     val permissionMicrophone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "麦克风"
         AppLanguage.ENGLISH -> "Microphone"
+        AppLanguage.VIETNAMESE -> "Micrô"
         AppLanguage.ARABIC -> "الميكروفون"
         AppLanguage.PORTUGUESE -> "Microfone"
         AppLanguage.SPANISH -> "Micrófono"
@@ -6538,6 +7057,7 @@ object StringsE {
     val permissionMicrophoneDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS — 录音和修改音频设置"
         AppLanguage.ENGLISH -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS — Record audio and modify audio settings"
+        AppLanguage.VIETNAMESE -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS - Ghi lại âm thanh và sửa đổi cài đặt âm thanh"
         AppLanguage.ARABIC -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS — تسجيل الصوت وتعديل إعدادات الصوت"
         AppLanguage.PORTUGUESE -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS — Gravar áudio e modificar configurações de áudio"
         AppLanguage.SPANISH -> "RECORD_AUDIO / MODIFY_AUDIO_SETTINGS — Grabar audio y modificar la configuración de audio"
@@ -6550,6 +7070,7 @@ object StringsE {
     val permissionNotifications: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通知"
         AppLanguage.ENGLISH -> "Notifications"
+        AppLanguage.VIETNAMESE -> "Thông báo"
         AppLanguage.ARABIC -> "الإشعارات"
         AppLanguage.PORTUGUESE -> "Notificações"
         AppLanguage.SPANISH -> "Notificaciones"
@@ -6562,6 +7083,7 @@ object StringsE {
     val permissionNotificationsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许应用发送通知"
         AppLanguage.ENGLISH -> "Allow the app to send notifications"
+        AppLanguage.VIETNAMESE -> "Cho phép ứng dụng gửi thông báo"
         AppLanguage.ARABIC -> "السماح للتطبيق بإرسال الإشعارات"
         AppLanguage.PORTUGUESE -> "Permitir que o app envie notificações"
         AppLanguage.SPANISH -> "Permitir que la app envíe notificaciones"
@@ -6575,6 +7097,7 @@ object StringsE {
     val permissionConfigTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "权限配置"
         AppLanguage.ENGLISH -> "Permission Configuration"
+        AppLanguage.VIETNAMESE -> "Cấu hình quyền"
         AppLanguage.ARABIC -> "تكوين الأذونات"
         AppLanguage.PORTUGUESE -> "Configuração de Permissões"
         AppLanguage.SPANISH -> "Configuración de Permisos"
@@ -6587,6 +7110,7 @@ object StringsE {
     val permissionConfigDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "按官方权限表填写，从 API 23 到 Android 17。每一行是一条第三方能声明的权限，标了引入和废弃的 API。签名级和系统内部权限不在这里。有网络时默认带上局域网，可以单独关掉。读取应用列表要勾了才写入生成的 APK，Play 可能拒审。"
         AppLanguage.ENGLISH -> "Filled from the official table, API 23 through Android 17. Each row is one permission a third-party app can declare, with the API that added or deprecated it. Signature and internal permissions are absent. Local network is included with the network unless you turn that row off. Installed-app list is written into the generated APK only when checked, and Play may reject it."
+        AppLanguage.VIETNAMESE -> "Được điền từ bảng chính thức, API 23 đến Android 17. Mỗi hàng là một quyền mà ứng dụng bên thứ ba có thể khai báo, với API đã thêm hoặc không dùng nữa. Chữ ký và quyền nội bộ không có. Mạng cục bộ được bao gồm trong mạng trừ khi bạn tắt hàng đó. Danh sách ứng dụng đã cài đặt chỉ được ghi vào APK đã tạo khi được chọn và Play có thể từ chối danh sách đó."
         AppLanguage.ARABIC -> "مملوء من الجدول الرسمي، من API 23 إلى أندرويد 17. كل صف إذن واحد يمكن لتطبيق طرف ثالث إعلانه، مع واجهة الإضافة أو الإهمال. أذونات التوقيع والداخلية غير موجودة. الشبكة المحلية تأتي مع الشبكة ما لم توقف ذلك الصف. قائمة التطبيقات تُكتب في APK المولَّد فقط عند التحديد، وقد ترفضها Play."
         AppLanguage.PORTUGUESE -> "Preenchido pela tabela oficial, da API 23 ao Android 17. Cada linha é uma permissão que um app de terceiros pode declarar, com a API que a adicionou ou tornou obsoleta. Permissões de assinatura e internas não aparecem. A rede local entra com a rede, salvo se você desligar essa linha. A lista de apps só vai para o APK gerado se marcada, e a Play pode recusar."
         AppLanguage.SPANISH -> "Rellenado con la tabla oficial, de la API 23 a Android 17. Cada fila es un permiso que una app de terceros puede declarar, con la API que lo añadió o dejó obsoleto. No están los de firma ni los internos. La red local va con la red salvo que apagues esa fila. La lista de apps solo entra en el APK generado si la marcas, y Play puede rechazarla."
@@ -6599,6 +7123,7 @@ object StringsE {
     val permissionEnabledCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已启用 %d 项权限"
         AppLanguage.ENGLISH -> "%d permission(s) enabled"
+        AppLanguage.VIETNAMESE -> "Đã bật (các) quyền %d"
         AppLanguage.ARABIC -> "%d إذن مُفعّل"
         AppLanguage.PORTUGUESE -> "%d permissão(ões) ativada(s)"
         AppLanguage.SPANISH -> "%d permiso(s) activado(s)"
@@ -6611,6 +7136,7 @@ object StringsE {
     val permissionClearAll: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部清除"
         AppLanguage.ENGLISH -> "Clear all"
+        AppLanguage.VIETNAMESE -> "Xóa tất cả"
         AppLanguage.ARABIC -> "مسح الكل"
         AppLanguage.PORTUGUESE -> "Limpar tudo"
         AppLanguage.SPANISH -> "Limpiar todo"
@@ -6623,6 +7149,7 @@ object StringsE {
     val permissionAutoEnabledBy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "因以下功能自动启用：%s"
         AppLanguage.ENGLISH -> "Auto-enabled by: %s"
+        AppLanguage.VIETNAMESE -> "Được kích hoạt tự động bởi: %s"
         AppLanguage.ARABIC -> "مُفعَّل تلقائياً بواسطة: %s"
         AppLanguage.PORTUGUESE -> "Ativado automaticamente por: %s"
         AppLanguage.SPANISH -> "Activado automáticamente por: %s"
@@ -6635,6 +7162,7 @@ object StringsE {
     val permissionAutoEnabledSummary: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "有 %d 项权限因已开启的功能自动勾选，可在下方查看来源。关闭对应功能后可手动取消。"
         AppLanguage.ENGLISH -> "%d permission(s) were auto-checked by enabled features. See sources below. Turn off the related feature to clear them."
+        AppLanguage.VIETNAMESE -> "(Các) quyền %d đã được kiểm tra tự động bằng các tính năng được bật. Xem các nguồn dưới đây. Tắt tính năng liên quan để xóa chúng."
         AppLanguage.ARABIC -> "تم تحديد %d إذن تلقائياً بواسطة الميزات المفعّلة. انظر المصادر أدناه. أوقف الميزة ذات الصلة لإلغاء التحديد."
         AppLanguage.PORTUGUESE -> "%d permissão(ões) foram marcadas automaticamente por recursos ativos. Veja as origens abaixo. Desative o recurso relacionado para limpar."
         AppLanguage.SPANISH -> "%d permiso(s) se marcaron automáticamente por funciones activas. Vea los orígenes abajo. Desactive la función relacionada para quitarlos."
@@ -6647,6 +7175,7 @@ object StringsE {
     val permissionConfigButton: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "配置权限"
         AppLanguage.ENGLISH -> "Configure Permissions"
+        AppLanguage.VIETNAMESE -> "Định cấu hình quyền"
         AppLanguage.ARABIC -> "تكوين الأذونات"
         AppLanguage.PORTUGUESE -> "Configurar Permissões"
         AppLanguage.SPANISH -> "Configurar Permisos"
@@ -6659,6 +7188,7 @@ object StringsE {
     val permissionReadExternalStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取外部存储"
         AppLanguage.ENGLISH -> "Read External Storage"
+        AppLanguage.VIETNAMESE -> "Đọc bộ nhớ ngoài"
         AppLanguage.ARABIC -> "قراءة التخزين الخارجي"
         AppLanguage.PORTUGUESE -> "Ler Armazenamento Externo"
         AppLanguage.SPANISH -> "Leer Almacenamiento Externo"
@@ -6671,6 +7201,7 @@ object StringsE {
     val permissionReadExternalStorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_EXTERNAL_STORAGE — 读取设备上的文件（Android 12 及以下）"
         AppLanguage.ENGLISH -> "READ_EXTERNAL_STORAGE — Read files on device (Android 12 and below)"
+        AppLanguage.VIETNAMESE -> "READ_EXTERNAL_STORAGE — Đọc tệp trên thiết bị (Android 12 trở xuống)"
         AppLanguage.ARABIC -> "READ_EXTERNAL_STORAGE — قراءة الملفات على الجهاز (أندرويد 12 وأدناه)"
         AppLanguage.PORTUGUESE -> "READ_EXTERNAL_STORAGE — Ler arquivos no dispositivo (Android 12 e inferior)"
         AppLanguage.SPANISH -> "READ_EXTERNAL_STORAGE — Leer archivos del dispositivo (Android 12 e inferior)"
@@ -6683,6 +7214,7 @@ object StringsE {
     val permissionWriteExternalStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写入外部存储"
         AppLanguage.ENGLISH -> "Write External Storage"
+        AppLanguage.VIETNAMESE -> "Ghi bộ nhớ ngoài"
         AppLanguage.ARABIC -> "كتابة التخزين الخارجي"
         AppLanguage.PORTUGUESE -> "Gravar Armazenamento Externo"
         AppLanguage.SPANISH -> "Escribir Almacenamiento Externo"
@@ -6695,6 +7227,7 @@ object StringsE {
     val permissionWriteExternalStorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WRITE_EXTERNAL_STORAGE — 向设备写入文件（Android 12 及以下）"
         AppLanguage.ENGLISH -> "WRITE_EXTERNAL_STORAGE — Write files to device (Android 12 and below)"
+        AppLanguage.VIETNAMESE -> "WRITE_EXTERNAL_STORAGE — Ghi tệp vào thiết bị (Android 12 trở xuống)"
         AppLanguage.ARABIC -> "WRITE_EXTERNAL_STORAGE — كتابة الملفات إلى الجهاز (أندرويد 12 وأدناه)"
         AppLanguage.PORTUGUESE -> "WRITE_EXTERNAL_STORAGE — Gravar arquivos no dispositivo (Android 12 e inferior)"
         AppLanguage.SPANISH -> "WRITE_EXTERNAL_STORAGE — Escribir archivos en el dispositivo (Android 12 e inferior)"
@@ -6707,6 +7240,7 @@ object StringsE {
     val permissionReadMediaImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取媒体图片"
         AppLanguage.ENGLISH -> "Read Media Images"
+        AppLanguage.VIETNAMESE -> "Đọc hình ảnh phương tiện"
         AppLanguage.ARABIC -> "قراءة صور الوسائط"
         AppLanguage.PORTUGUESE -> "Ler Imagens de Mídia"
         AppLanguage.SPANISH -> "Leer Imágenes de Medios"
@@ -6719,6 +7253,7 @@ object StringsE {
     val permissionReadMediaImagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_MEDIA_IMAGES — 读取图片文件（Android 13+）"
         AppLanguage.ENGLISH -> "READ_MEDIA_IMAGES — Read image files (Android 13+)"
+        AppLanguage.VIETNAMESE -> "READ_MEDIA_IMAGES - Đọc tệp hình ảnh (Android 13+)"
         AppLanguage.ARABIC -> "READ_MEDIA_IMAGES — قراءة ملفات الصور (أندرويد 13+)"
         AppLanguage.PORTUGUESE -> "READ_MEDIA_IMAGES — Ler arquivos de imagem (Android 13+)"
         AppLanguage.SPANISH -> "READ_MEDIA_IMAGES — Leer archivos de imagen (Android 13+)"
@@ -6731,6 +7266,7 @@ object StringsE {
     val permissionReadMediaVideo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取媒体视频"
         AppLanguage.ENGLISH -> "Read Media Video"
+        AppLanguage.VIETNAMESE -> "Đọc video truyền thông"
         AppLanguage.ARABIC -> "قراءة فيديو الوسائط"
         AppLanguage.PORTUGUESE -> "Ler Vídeos de Mídia"
         AppLanguage.SPANISH -> "Leer Videos de Medios"
@@ -6743,6 +7279,7 @@ object StringsE {
     val permissionReadMediaVideoDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_MEDIA_VIDEO — 读取视频文件（Android 13+）"
         AppLanguage.ENGLISH -> "READ_MEDIA_VIDEO — Read video files (Android 13+)"
+        AppLanguage.VIETNAMESE -> "READ_MEDIA_VIDEO - Đọc tệp video (Android 13+)"
         AppLanguage.ARABIC -> "READ_MEDIA_VIDEO — قراءة ملفات الفيديو (أندرويد 13+)"
         AppLanguage.PORTUGUESE -> "READ_MEDIA_VIDEO — Ler arquivos de vídeo (Android 13+)"
         AppLanguage.SPANISH -> "READ_MEDIA_VIDEO — Leer archivos de video (Android 13+)"
@@ -6755,6 +7292,7 @@ object StringsE {
     val permissionReadMediaAudio: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取媒体音频"
         AppLanguage.ENGLISH -> "Read Media Audio"
+        AppLanguage.VIETNAMESE -> "Đọc âm thanh phương tiện"
         AppLanguage.ARABIC -> "قراءة صوت الوسائط"
         AppLanguage.PORTUGUESE -> "Ler Áudios de Mídia"
         AppLanguage.SPANISH -> "Leer Audio de Medios"
@@ -6767,6 +7305,7 @@ object StringsE {
     val permissionReadMediaAudioDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_MEDIA_AUDIO — 读取音频文件（Android 13+）"
         AppLanguage.ENGLISH -> "READ_MEDIA_AUDIO — Read audio files (Android 13+)"
+        AppLanguage.VIETNAMESE -> "READ_MEDIA_AUDIO - Đọc tệp âm thanh (Android 13+)"
         AppLanguage.ARABIC -> "READ_MEDIA_AUDIO — قراءة ملفات الصوت (أندرويد 13+)"
         AppLanguage.PORTUGUESE -> "READ_MEDIA_AUDIO — Ler arquivos de áudio (Android 13+)"
         AppLanguage.SPANISH -> "READ_MEDIA_AUDIO — Leer archivos de audio (Android 13+)"
@@ -6792,6 +7331,7 @@ object StringsE {
     val permissionBluetoothDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT — 蓝牙连接与扫描"
         AppLanguage.ENGLISH -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT — Bluetooth connection & scanning"
+        AppLanguage.VIETNAMESE -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT - Kết nối và quét Bluetooth"
         AppLanguage.ARABIC -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT — اتصال وفحص البلوتوث"
         AppLanguage.PORTUGUESE -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT — Conexão e varredura Bluetooth"
         AppLanguage.SPANISH -> "BLUETOOTH / BLUETOOTH_SCAN / BLUETOOTH_CONNECT — Conexión y escaneo Bluetooth"
@@ -6816,6 +7356,7 @@ object StringsE {
     val permissionNfcDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "NFC — 近场通信"
         AppLanguage.ENGLISH -> "NFC — Near Field Communication"
+        AppLanguage.VIETNAMESE -> "NFC - Giao tiếp trường gần"
         AppLanguage.ARABIC -> "NFC — الاتصال قريب المدى"
         AppLanguage.PORTUGUESE -> "NFC — Comunicação de Campo Próximo"
         AppLanguage.SPANISH -> "NFC — Comunicación de Campo Cercano"
@@ -6828,6 +7369,7 @@ object StringsE {
     val permissionWifiState: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Wi-Fi 状态"
         AppLanguage.ENGLISH -> "Wi-Fi State"
+        AppLanguage.VIETNAMESE -> "Trạng thái Wi-Fi"
         AppLanguage.ARABIC -> "حالة Wi-Fi"
         AppLanguage.PORTUGUESE -> "Estado do Wi-Fi"
         AppLanguage.SPANISH -> "Estado del Wi-Fi"
@@ -6840,6 +7382,7 @@ object StringsE {
     val permissionWifiStateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE — 查看和更改 Wi-Fi 连接"
         AppLanguage.ENGLISH -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE — View and change Wi-Fi connection"
+        AppLanguage.VIETNAMESE -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE - Xem và thay đổi kết nối Wi-Fi"
         AppLanguage.ARABIC -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE — عرض وتغيير اتصال Wi-Fi"
         AppLanguage.PORTUGUESE -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE — Ver e alterar a conexão Wi-Fi"
         AppLanguage.SPANISH -> "ACCESS_WIFI_STATE / CHANGE_WIFI_STATE — Ver y cambiar la conexión Wi-Fi"
@@ -6852,6 +7395,7 @@ object StringsE {
     val permissionNearbyWifiDevices: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "附近的 Wi-Fi 设备"
         AppLanguage.ENGLISH -> "Nearby Wi-Fi devices"
+        AppLanguage.VIETNAMESE -> "Thiết bị Wi-Fi ở gần"
         AppLanguage.ARABIC -> "أجهزة Wi-Fi القريبة"
         AppLanguage.PORTUGUESE -> "Dispositivos Wi-Fi próximos"
         AppLanguage.SPANISH -> "Dispositivos Wi-Fi cercanos"
@@ -6864,6 +7408,7 @@ object StringsE {
     val permissionNearbyWifiDevicesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "NEARBY_WIFI_DEVICES — Android 13+ 扫描附近 Wi-Fi 设备，与蓝牙分开"
         AppLanguage.ENGLISH -> "NEARBY_WIFI_DEVICES — Android 13+ scan for nearby Wi-Fi devices, separate from Bluetooth"
+        AppLanguage.VIETNAMESE -> "NEARBY_WIFI_DEVICES — Android 13+ quét tìm các thiết bị Wi-Fi ở gần, tách biệt với Bluetooth"
         AppLanguage.ARABIC -> "NEARBY_WIFI_DEVICES — أندرويد 13+ لمسح أجهزة Wi-Fi القريبة، منفصل عن البلوتوث"
         AppLanguage.PORTUGUESE -> "NEARBY_WIFI_DEVICES — Android 13+ para procurar Wi-Fi próximos, separado do Bluetooth"
         AppLanguage.SPANISH -> "NEARBY_WIFI_DEVICES — Android 13+ para escanear Wi-Fi cercanos, aparte de Bluetooth"
@@ -6877,6 +7422,7 @@ object StringsE {
     val permissionBodySensors: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "身体传感器"
         AppLanguage.ENGLISH -> "Body Sensors"
+        AppLanguage.VIETNAMESE -> "Cảm biến cơ thể"
         AppLanguage.ARABIC -> "مستشعرات الجسم"
         AppLanguage.PORTUGUESE -> "Sensores Corporais"
         AppLanguage.SPANISH -> "Sensores Corporales"
@@ -6889,6 +7435,7 @@ object StringsE {
     val permissionBodySensorsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "BODY_SENSORS — 访问心率、步数等身体传感器数据"
         AppLanguage.ENGLISH -> "BODY_SENSORS — Access body sensor data like heart rate, step count"
+        AppLanguage.VIETNAMESE -> "BODY_SENSORS - Truy cập dữ liệu cảm biến cơ thể như nhịp tim, số bước"
         AppLanguage.ARABIC -> "BODY_SENSORS — الوصول إلى بيانات مستشعرات الجسم مثل معدل ضربات القلب"
         AppLanguage.PORTUGUESE -> "BODY_SENSORS — Acessar dados de sensores corporais como frequência cardíaca, contagem de passos"
         AppLanguage.SPANISH -> "BODY_SENSORS — Acceder a datos de sensores corporales como frecuencia cardíaca, conteo de pasos"
@@ -6901,6 +7448,7 @@ object StringsE {
     val permissionActivityRecognition: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "活动识别"
         AppLanguage.ENGLISH -> "Activity Recognition"
+        AppLanguage.VIETNAMESE -> "Nhận dạng hoạt động"
         AppLanguage.ARABIC -> "التعرف على النشاط"
         AppLanguage.PORTUGUESE -> "Reconhecimento de Atividade"
         AppLanguage.SPANISH -> "Reconocimiento de Actividad"
@@ -6913,6 +7461,7 @@ object StringsE {
     val permissionActivityRecognitionDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ACTIVITY_RECOGNITION — 检测用户活动状态（步行、跑步、骑车等）"
         AppLanguage.ENGLISH -> "ACTIVITY_RECOGNITION — Detect user activity like walking, running, cycling"
+        AppLanguage.VIETNAMESE -> "ACTIVITY_RECOGNITION - Phát hiện hoạt động của người dùng như đi bộ, chạy, đạp xe"
         AppLanguage.ARABIC -> "ACTIVITY_RECOGNITION — اكتشاف نشاط المستخدم مثل المشي والجري وركوب الدراجة"
         AppLanguage.PORTUGUESE -> "ACTIVITY_RECOGNITION — Detectar atividade do usuário como caminhada, corrida, ciclismo"
         AppLanguage.SPANISH -> "ACTIVITY_RECOGNITION — Detectar actividad del usuario como caminar, correr, andar en bicicleta"
@@ -6926,6 +7475,7 @@ object StringsE {
     val permissionReadPhoneState: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取手机状态"
         AppLanguage.ENGLISH -> "Read Phone State"
+        AppLanguage.VIETNAMESE -> "Đọc trạng thái điện thoại"
         AppLanguage.ARABIC -> "قراءة حالة الهاتف"
         AppLanguage.PORTUGUESE -> "Ler Estado do Telefone"
         AppLanguage.SPANISH -> "Leer Estado del Teléfono"
@@ -6938,6 +7488,7 @@ object StringsE {
     val permissionReadPhoneStateDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_PHONE_STATE — 读取设备标识和通话状态"
         AppLanguage.ENGLISH -> "READ_PHONE_STATE — Read device identity and call state"
+        AppLanguage.VIETNAMESE -> "READ_PHONE_STATE - Đọc nhận dạng thiết bị và trạng thái cuộc gọi"
         AppLanguage.ARABIC -> "READ_PHONE_STATE — قراءة هوية الجهاز وحالة المكالمة"
         AppLanguage.PORTUGUESE -> "READ_PHONE_STATE — Ler identidade do dispositivo e estado da chamada"
         AppLanguage.SPANISH -> "READ_PHONE_STATE — Leer identidad del dispositivo y estado de llamada"
@@ -6950,6 +7501,7 @@ object StringsE {
     val permissionCallPhone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拨打电话"
         AppLanguage.ENGLISH -> "Call Phone"
+        AppLanguage.VIETNAMESE -> "Gọi điện thoại"
         AppLanguage.ARABIC -> "الاتصال الهاتفي"
         AppLanguage.PORTUGUESE -> "Ligar"
         AppLanguage.SPANISH -> "Llamar"
@@ -6962,6 +7514,7 @@ object StringsE {
     val permissionCallPhoneDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CALL_PHONE — 直接拨打电话"
         AppLanguage.ENGLISH -> "CALL_PHONE — Directly initiate phone calls"
+        AppLanguage.VIETNAMESE -> "CALL_PHONE - Bắt đầu cuộc gọi điện thoại trực tiếp"
         AppLanguage.ARABIC -> "CALL_PHONE — بدء مكالمات هاتفية مباشرة"
         AppLanguage.PORTUGUESE -> "CALL_PHONE — Iniciar chamadas telefônicas diretamente"
         AppLanguage.SPANISH -> "CALL_PHONE — Iniciar llamadas telefónicas directamente"
@@ -6974,6 +7527,7 @@ object StringsE {
     val permissionReadContacts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取联系人"
         AppLanguage.ENGLISH -> "Read Contacts"
+        AppLanguage.VIETNAMESE -> "Đọc Danh bạ"
         AppLanguage.ARABIC -> "قراءة جهات الاتصال"
         AppLanguage.PORTUGUESE -> "Ler Contatos"
         AppLanguage.SPANISH -> "Leer Contactos"
@@ -6986,6 +7540,7 @@ object StringsE {
     val permissionReadContactsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_CONTACTS — 读取通讯录联系人"
         AppLanguage.ENGLISH -> "READ_CONTACTS — Read contacts from address book"
+        AppLanguage.VIETNAMESE -> "READ_CONTACTS - Đọc danh bạ từ sổ địa chỉ"
         AppLanguage.ARABIC -> "READ_CONTACTS — قراءة جهات الاتصال من دفتر العناوين"
         AppLanguage.PORTUGUESE -> "READ_CONTACTS — Ler contatos do catálogo de endereços"
         AppLanguage.SPANISH -> "READ_CONTACTS — Leer contactos de la libreta de direcciones"
@@ -6998,6 +7553,7 @@ object StringsE {
     val permissionWriteContacts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写入联系人"
         AppLanguage.ENGLISH -> "Write Contacts"
+        AppLanguage.VIETNAMESE -> "Viết liên hệ"
         AppLanguage.ARABIC -> "كتابة جهات الاتصال"
         AppLanguage.PORTUGUESE -> "Gravar Contatos"
         AppLanguage.SPANISH -> "Escribir Contactos"
@@ -7010,6 +7566,7 @@ object StringsE {
     val permissionWriteContactsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WRITE_CONTACTS — 修改通讯录联系人"
         AppLanguage.ENGLISH -> "WRITE_CONTACTS — Modify contacts in address book"
+        AppLanguage.VIETNAMESE -> "WRITE_CONTACTS - Sửa đổi danh bạ trong sổ địa chỉ"
         AppLanguage.ARABIC -> "WRITE_CONTACTS — تعديل جهات الاتصال في دفتر العناوين"
         AppLanguage.PORTUGUESE -> "WRITE_CONTACTS — Modificar contatos no catálogo de endereços"
         AppLanguage.SPANISH -> "WRITE_CONTACTS — Modificar contactos en la libreta de direcciones"
@@ -7022,6 +7579,7 @@ object StringsE {
     val permissionReadCalendar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取日历"
         AppLanguage.ENGLISH -> "Read Calendar"
+        AppLanguage.VIETNAMESE -> "Đọc lịch"
         AppLanguage.ARABIC -> "قراءة التقويم"
         AppLanguage.PORTUGUESE -> "Ler Calendário"
         AppLanguage.SPANISH -> "Leer Calendario"
@@ -7034,6 +7592,7 @@ object StringsE {
     val permissionReadCalendarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_CALENDAR — 读取日历事件"
         AppLanguage.ENGLISH -> "READ_CALENDAR — Read calendar events"
+        AppLanguage.VIETNAMESE -> "READ_CALENDAR - Đọc sự kiện lịch"
         AppLanguage.ARABIC -> "READ_CALENDAR — قراءة أحداث التقويم"
         AppLanguage.PORTUGUESE -> "READ_CALENDAR — Ler eventos do calendário"
         AppLanguage.SPANISH -> "READ_CALENDAR — Leer eventos del calendario"
@@ -7046,6 +7605,7 @@ object StringsE {
     val permissionWriteCalendar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写入日历"
         AppLanguage.ENGLISH -> "Write Calendar"
+        AppLanguage.VIETNAMESE -> "Viết Lịch"
         AppLanguage.ARABIC -> "كتابة التقويم"
         AppLanguage.PORTUGUESE -> "Gravar Calendário"
         AppLanguage.SPANISH -> "Escribir Calendario"
@@ -7058,6 +7618,7 @@ object StringsE {
     val permissionWriteCalendarDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WRITE_CALENDAR — 创建和修改日历事件"
         AppLanguage.ENGLISH -> "WRITE_CALENDAR — Create and modify calendar events"
+        AppLanguage.VIETNAMESE -> "WRITE_CALENDAR - Tạo và sửa đổi các sự kiện lịch"
         AppLanguage.ARABIC -> "WRITE_CALENDAR — إنشاء وتعديل أحداث التقويم"
         AppLanguage.PORTUGUESE -> "WRITE_CALENDAR — Criar e modificar eventos do calendário"
         AppLanguage.SPANISH -> "WRITE_CALENDAR — Crear y modificar eventos del calendario"
@@ -7070,6 +7631,7 @@ object StringsE {
     val permissionReadSms: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取短信"
         AppLanguage.ENGLISH -> "Read SMS"
+        AppLanguage.VIETNAMESE -> "Đọc tin nhắn SMS"
         AppLanguage.ARABIC -> "قراءة الرسائل القصيرة"
         AppLanguage.PORTUGUESE -> "Ler SMS"
         AppLanguage.SPANISH -> "Leer SMS"
@@ -7082,6 +7644,7 @@ object StringsE {
     val permissionReadSmsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_SMS — 读取短信内容"
         AppLanguage.ENGLISH -> "READ_SMS — Read SMS messages"
+        AppLanguage.VIETNAMESE -> "READ_SMS - Đọc tin nhắn SMS"
         AppLanguage.ARABIC -> "READ_SMS — قراءة رسائل SMS"
         AppLanguage.PORTUGUESE -> "READ_SMS — Ler mensagens SMS"
         AppLanguage.SPANISH -> "READ_SMS — Leer mensajes SMS"
@@ -7094,6 +7657,7 @@ object StringsE {
     val permissionSendSms: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发送短信"
         AppLanguage.ENGLISH -> "Send SMS"
+        AppLanguage.VIETNAMESE -> "Gửi tin nhắn SMS"
         AppLanguage.ARABIC -> "إرسال الرسائل القصيرة"
         AppLanguage.PORTUGUESE -> "Enviar SMS"
         AppLanguage.SPANISH -> "Enviar SMS"
@@ -7106,6 +7670,7 @@ object StringsE {
     val permissionSendSmsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SEND_SMS — 直接发送短信"
         AppLanguage.ENGLISH -> "SEND_SMS — Directly send SMS messages"
+        AppLanguage.VIETNAMESE -> "SEND_SMS - Gửi tin nhắn SMS trực tiếp"
         AppLanguage.ARABIC -> "SEND_SMS — إرسال رسائل SMS مباشرة"
         AppLanguage.PORTUGUESE -> "SEND_SMS — Enviar mensagens SMS diretamente"
         AppLanguage.SPANISH -> "SEND_SMS — Enviar mensajes SMS directamente"
@@ -7118,6 +7683,7 @@ object StringsE {
     val permissionReceiveSms: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "接收短信"
         AppLanguage.ENGLISH -> "Receive SMS"
+        AppLanguage.VIETNAMESE -> "Nhận tin nhắn SMS"
         AppLanguage.ARABIC -> "استقبال الرسائل القصيرة"
         AppLanguage.PORTUGUESE -> "Receber SMS"
         AppLanguage.SPANISH -> "Recibir SMS"
@@ -7130,6 +7696,7 @@ object StringsE {
     val permissionReceiveSmsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "RECEIVE_SMS — 接收短信广播"
         AppLanguage.ENGLISH -> "RECEIVE_SMS — Receive SMS broadcast"
+        AppLanguage.VIETNAMESE -> "RECEIVE_SMS - Nhận tin nhắn SMS phát sóng"
         AppLanguage.ARABIC -> "RECEIVE_SMS — استقبال بث SMS"
         AppLanguage.PORTUGUESE -> "RECEIVE_SMS — Receber broadcast de SMS"
         AppLanguage.SPANISH -> "RECEIVE_SMS — Recibir broadcast de SMS"
@@ -7142,6 +7709,7 @@ object StringsE {
     val permissionReadCallLog: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取通话记录"
         AppLanguage.ENGLISH -> "Read Call Log"
+        AppLanguage.VIETNAMESE -> "Đọc nhật ký cuộc gọi"
         AppLanguage.ARABIC -> "قراءة سجل المكالمات"
         AppLanguage.PORTUGUESE -> "Ler Registro de Chamadas"
         AppLanguage.SPANISH -> "Leer Registro de Llamadas"
@@ -7154,6 +7722,7 @@ object StringsE {
     val permissionReadCallLogDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_CALL_LOG — 读取通话历史记录"
         AppLanguage.ENGLISH -> "READ_CALL_LOG — Read call history"
+        AppLanguage.VIETNAMESE -> "READ_CALL_LOG - Đọc lịch sử cuộc gọi"
         AppLanguage.ARABIC -> "READ_CALL_LOG — قراءة سجل المكالمات"
         AppLanguage.PORTUGUESE -> "READ_CALL_LOG — Ler histórico de chamadas"
         AppLanguage.SPANISH -> "READ_CALL_LOG — Leer historial de llamadas"
@@ -7166,6 +7735,7 @@ object StringsE {
     val permissionWriteCallLog: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "写入通话记录"
         AppLanguage.ENGLISH -> "Write Call Log"
+        AppLanguage.VIETNAMESE -> "Viết nhật ký cuộc gọi"
         AppLanguage.ARABIC -> "كتابة سجل المكالمات"
         AppLanguage.PORTUGUESE -> "Gravar Registro de Chamadas"
         AppLanguage.SPANISH -> "Escribir Registro de Llamadas"
@@ -7178,6 +7748,7 @@ object StringsE {
     val permissionWriteCallLogDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WRITE_CALL_LOG — 修改通话历史记录"
         AppLanguage.ENGLISH -> "WRITE_CALL_LOG — Modify call history"
+        AppLanguage.VIETNAMESE -> "WRITE_CALL_LOG - Sửa đổi lịch sử cuộc gọi"
         AppLanguage.ARABIC -> "WRITE_CALL_LOG — تعديل سجل المكالمات"
         AppLanguage.PORTUGUESE -> "WRITE_CALL_LOG — Modificar histórico de chamadas"
         AppLanguage.SPANISH -> "WRITE_CALL_LOG — Modificar historial de llamadas"
@@ -7190,6 +7761,7 @@ object StringsE {
     val permissionProcessOutgoingCalls: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "处理外拨电话"
         AppLanguage.ENGLISH -> "Process Outgoing Calls"
+        AppLanguage.VIETNAMESE -> "Xử lý cuộc gọi đi"
         AppLanguage.ARABIC -> "معالجة المكالمات الصادرة"
         AppLanguage.PORTUGUESE -> "Processar Chamadas Realizadas"
         AppLanguage.SPANISH -> "Procesar Llamadas Salientes"
@@ -7202,6 +7774,7 @@ object StringsE {
     val permissionProcessOutgoingCallsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PROCESS_OUTGOING_CALLS — 监听和处理拨出的电话"
         AppLanguage.ENGLISH -> "PROCESS_OUTGOING_CALLS — Monitor and process outgoing calls"
+        AppLanguage.VIETNAMESE -> "PROCESS_OUTGOING_CALLS - Giám sát và xử lý các cuộc gọi đi"
         AppLanguage.ARABIC -> "PROCESS_OUTGOING_CALLS — مراقبة ومعالجة المكالمات الصادرة"
         AppLanguage.PORTUGUESE -> "PROCESS_OUTGOING_CALLS — Monitorar e processar chamadas realizadas"
         AppLanguage.SPANISH -> "PROCESS_OUTGOING_CALLS — Monitorear y procesar llamadas salientes"
@@ -7215,6 +7788,7 @@ object StringsE {
     val permissionForegroundService: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "前台服务"
         AppLanguage.ENGLISH -> "Foreground Service"
+        AppLanguage.VIETNAMESE -> "Dịch vụ tiền cảnh"
         AppLanguage.ARABIC -> "خدمة أمامية"
         AppLanguage.PORTUGUESE -> "Serviço em Primeiro Plano"
         AppLanguage.SPANISH -> "Servicio en Primer Plano"
@@ -7227,6 +7801,7 @@ object StringsE {
     val permissionForegroundServiceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "FOREGROUND_SERVICE — 在后台运行前台服务"
         AppLanguage.ENGLISH -> "FOREGROUND_SERVICE — Run foreground service in background"
+        AppLanguage.VIETNAMESE -> "FOREGROUND_SERVICE - Chạy dịch vụ nền trước trong nền"
         AppLanguage.ARABIC -> "FOREGROUND_SERVICE — تشغيل الخدمة الأمامية في الخلفية"
         AppLanguage.PORTUGUESE -> "FOREGROUND_SERVICE — Executar serviço em primeiro plano em segundo plano"
         AppLanguage.SPANISH -> "FOREGROUND_SERVICE — Ejecutar servicio en primer plano en segundo plano"
@@ -7239,6 +7814,7 @@ object StringsE {
     val permissionWakeLock: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "唤醒锁"
         AppLanguage.ENGLISH -> "Wake Lock"
+        AppLanguage.VIETNAMESE -> "Khóa đánh thức"
         AppLanguage.ARABIC -> "قفل الاستيقاظ"
         AppLanguage.PORTUGUESE -> "Manter ativo"
         AppLanguage.SPANISH -> "Bloqueo de suspensión"
@@ -7251,6 +7827,7 @@ object StringsE {
     val permissionWakeLockDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WAKE_LOCK — 防止设备进入休眠"
         AppLanguage.ENGLISH -> "WAKE_LOCK — Prevent device from sleeping"
+        AppLanguage.VIETNAMESE -> "WAKE_LOCK - Ngăn thiết bị ngủ"
         AppLanguage.ARABIC -> "WAKE_LOCK — منع الجهاز من الدخول في السكون"
         AppLanguage.PORTUGUESE -> "WAKE_LOCK — Impedir que o dispositivo durma"
         AppLanguage.SPANISH -> "WAKE_LOCK — Evitar que el dispositivo entre en suspensión"
@@ -7263,6 +7840,7 @@ object StringsE {
     val permissionRequestIgnoreBatteryOptimizations: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "忽略电池优化"
         AppLanguage.ENGLISH -> "Ignore Battery Optimizations"
+        AppLanguage.VIETNAMESE -> "Bỏ qua tối ưu hóa pin"
         AppLanguage.ARABIC -> "تجاهل تحسين البطارية"
         AppLanguage.PORTUGUESE -> "Ignorar Otimizações de Bateria"
         AppLanguage.SPANISH -> "Ignorar Optimizaciones de Batería"
@@ -7275,6 +7853,7 @@ object StringsE {
     val permissionRequestIgnoreBatteryOptimizationsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — 请求不受电池优化限制"
         AppLanguage.ENGLISH -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — Request exemption from battery optimization"
+        AppLanguage.VIETNAMESE -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS - Yêu cầu miễn tối ưu hóa pin"
         AppLanguage.ARABIC -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — طلب إعفاء من تحسين البطارية"
         AppLanguage.PORTUGUESE -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — Solicitar isenção da otimização de bateria"
         AppLanguage.SPANISH -> "REQUEST_IGNORE_BATTERY_OPTIMIZATIONS — Solicitar exención de la optimización de batería"
@@ -7287,6 +7866,7 @@ object StringsE {
     val permissionBootCompleted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开机自启"
         AppLanguage.ENGLISH -> "Boot Completed"
+        AppLanguage.VIETNAMESE -> "Khởi động hoàn tất"
         AppLanguage.ARABIC -> "اكتمال التشغيل"
         AppLanguage.PORTUGUESE -> "Inicialização Concluída"
         AppLanguage.SPANISH -> "Inicio Completado"
@@ -7299,6 +7879,7 @@ object StringsE {
     val permissionBootCompletedDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "RECEIVE_BOOT_COMPLETED — 设备启动后自动运行"
         AppLanguage.ENGLISH -> "RECEIVE_BOOT_COMPLETED — Auto-start after device boot"
+        AppLanguage.VIETNAMESE -> "RECEIVE_BOOT_COMPLETED - Tự động khởi động sau khi khởi động thiết bị"
         AppLanguage.ARABIC -> "RECEIVE_BOOT_COMPLETED — بدء تلقائي بعد تشغيل الجهاز"
         AppLanguage.PORTUGUESE -> "RECEIVE_BOOT_COMPLETED — Início automático após a inicialização do dispositivo"
         AppLanguage.SPANISH -> "RECEIVE_BOOT_COMPLETED — Inicio automático tras el arranque del dispositivo"
@@ -7311,6 +7892,7 @@ object StringsE {
     val permissionVibration: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "振动"
         AppLanguage.ENGLISH -> "Vibration"
+        AppLanguage.VIETNAMESE -> "Rung"
         AppLanguage.ARABIC -> "الاهتزاز"
         AppLanguage.PORTUGUESE -> "Vibração"
         AppLanguage.SPANISH -> "Vibración"
@@ -7323,6 +7905,7 @@ object StringsE {
     val permissionVibrationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "VIBRATE — 控制设备振动"
         AppLanguage.ENGLISH -> "VIBRATE — Control device vibration"
+        AppLanguage.VIETNAMESE -> "VIBRATE — Kiểm soát độ rung của thiết bị"
         AppLanguage.ARABIC -> "VIBRATE — التحكم في اهتزاز الجهاز"
         AppLanguage.PORTUGUESE -> "VIBRATE — Controlar a vibração do dispositivo"
         AppLanguage.SPANISH -> "VIBRATE — Controlar la vibración del dispositivo"
@@ -7335,6 +7918,7 @@ object StringsE {
     val permissionInstallPackages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装应用"
         AppLanguage.ENGLISH -> "Install Packages"
+        AppLanguage.VIETNAMESE -> "Gói cài đặt"
         AppLanguage.ARABIC -> "تثبيت الحزم"
         AppLanguage.PORTUGUESE -> "Instalar Pacotes"
         AppLanguage.SPANISH -> "Instalar Paquetes"
@@ -7347,6 +7931,7 @@ object StringsE {
     val permissionInstallPackagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "REQUEST_INSTALL_PACKAGES — 请求安装其他应用"
         AppLanguage.ENGLISH -> "REQUEST_INSTALL_PACKAGES — Request to install other apps"
+        AppLanguage.VIETNAMESE -> "REQUEST_INSTALL_PACKAGES - Yêu cầu cài đặt các ứng dụng khác"
         AppLanguage.ARABIC -> "REQUEST_INSTALL_PACKAGES — طلب تثبيت تطبيقات أخرى"
         AppLanguage.PORTUGUESE -> "REQUEST_INSTALL_PACKAGES — Solicitar instalação de outros apps"
         AppLanguage.SPANISH -> "REQUEST_INSTALL_PACKAGES — Solicitar instalación de otras apps"
@@ -7359,6 +7944,7 @@ object StringsE {
     val permissionRequestDeletePackages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "卸载应用"
         AppLanguage.ENGLISH -> "Delete Packages"
+        AppLanguage.VIETNAMESE -> "Xóa gói"
         AppLanguage.ARABIC -> "حذف الحزم"
         AppLanguage.PORTUGUESE -> "Excluir Pacotes"
         AppLanguage.SPANISH -> "Eliminar Paquetes"
@@ -7371,6 +7957,7 @@ object StringsE {
     val permissionRequestDeletePackagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "REQUEST_DELETE_PACKAGES — 请求卸载应用"
         AppLanguage.ENGLISH -> "REQUEST_DELETE_PACKAGES — Request to uninstall apps"
+        AppLanguage.VIETNAMESE -> "REQUEST_DELETE_PACKAGES - Yêu cầu gỡ cài đặt ứng dụng"
         AppLanguage.ARABIC -> "REQUEST_DELETE_PACKAGES — طلب إلغاء تثبيت التطبيقات"
         AppLanguage.PORTUGUESE -> "REQUEST_DELETE_PACKAGES — Solicitar desinstalação de apps"
         AppLanguage.SPANISH -> "REQUEST_DELETE_PACKAGES — Solicitar desinstalación de apps"
@@ -7383,6 +7970,7 @@ object StringsE {
     val permissionSystemAlertWindow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮窗"
         AppLanguage.ENGLISH -> "System Alert Window"
+        AppLanguage.VIETNAMESE -> "Cửa sổ cảnh báo hệ thống"
         AppLanguage.ARABIC -> "نافذة تنبيه النظام"
         AppLanguage.PORTUGUESE -> "Janela de Alerta do Sistema"
         AppLanguage.SPANISH -> "Ventana de Alerta del Sistema"
@@ -7395,6 +7983,7 @@ object StringsE {
     val permissionSystemAlertWindowDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SYSTEM_ALERT_WINDOW — 在其他应用上方显示悬浮窗"
         AppLanguage.ENGLISH -> "SYSTEM_ALERT_WINDOW — Display overlay window above other apps"
+        AppLanguage.VIETNAMESE -> "SYSTEM_ALERT_WINDOW - Hiển thị cửa sổ lớp phủ phía trên các ứng dụng khác"
         AppLanguage.ARABIC -> "SYSTEM_ALERT_WINDOW — عرض نافذة تراكب فوق التطبيقات الأخرى"
         AppLanguage.PORTUGUESE -> "SYSTEM_ALERT_WINDOW — Exibir janela flutuante sobre outros apps"
         AppLanguage.SPANISH -> "SYSTEM_ALERT_WINDOW — Mostrar ventana flotante sobre otras apps"
@@ -7408,6 +7997,7 @@ object StringsE {
     val permissionPresetNone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无"
         AppLanguage.ENGLISH -> "None"
+        AppLanguage.VIETNAMESE -> "Không có"
         AppLanguage.ARABIC -> "بدون"
         AppLanguage.PORTUGUESE -> "Nenhum"
         AppLanguage.SPANISH -> "Ninguno"
@@ -7420,6 +8010,7 @@ object StringsE {
     val permissionPresetMinimal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "极简"
         AppLanguage.ENGLISH -> "Minimal"
+        AppLanguage.VIETNAMESE -> "Tối thiểu"
         AppLanguage.ARABIC -> "أدنى"
         AppLanguage.PORTUGUESE -> "Mínimo"
         AppLanguage.SPANISH -> "Mínimo"
@@ -7432,6 +8023,7 @@ object StringsE {
     val permissionPresetStandard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "标准"
         AppLanguage.ENGLISH -> "Standard"
+        AppLanguage.VIETNAMESE -> "Tiêu chuẩn"
         AppLanguage.ARABIC -> "قياسي"
         AppLanguage.PORTUGUESE -> "Padrão"
         AppLanguage.SPANISH -> "Estándar"
@@ -7444,6 +8036,7 @@ object StringsE {
     val permissionPresetFull: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完整"
         AppLanguage.ENGLISH -> "Full"
+        AppLanguage.VIETNAMESE -> "Đầy"
         AppLanguage.ARABIC -> "كامل"
         AppLanguage.PORTUGUESE -> "Completo"
         AppLanguage.SPANISH -> "Completo"
@@ -7457,6 +8050,7 @@ object StringsE {
     val permissionDangerTag: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高敏感权限 — Play Store 审核可能需要提供使用声明"
         AppLanguage.ENGLISH -> "Highly sensitive — Play Store may require usage declaration"
+        AppLanguage.VIETNAMESE -> "Rất nhạy cảm — Cửa hàng Play có thể yêu cầu khai báo mức sử dụng"
         AppLanguage.ARABIC -> "حساس للغاية — قد يتطلب Play Store إعلان الاستخدام"
         AppLanguage.PORTUGUESE -> "Altamente sensível — Play Store pode exigir declaração de uso"
         AppLanguage.SPANISH -> "Altamente sensible — Play Store puede requerir declaración de uso"
@@ -7469,6 +8063,7 @@ object StringsE {
     val permissionDangerWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此权限属于高敏感权限，Google Play 可能要求你填写权限使用声明才能通过审核"
         AppLanguage.ENGLISH -> "This is a highly sensitive permission. Google Play may require a usage declaration to pass review"
+        AppLanguage.VIETNAMESE -> "Đây là một sự cho phép rất nhạy cảm. Google Play có thể yêu cầu khai báo mức sử dụng để vượt qua quá trình xem xét"
         AppLanguage.ARABIC -> "هذا إذن حساس للغاية. قد يتطلب Google Play إعلان استخدام لاجتياز المراجعة"
         AppLanguage.PORTUGUESE -> "Esta é uma permissão altamente sensível. O Google Play pode exigir uma declaração de uso para aprovar a revisão"
         AppLanguage.SPANISH -> "Este es un permiso altamente sensible. Google Play puede requerir una declaración de uso para aprobar la revisión"
@@ -7482,6 +8077,7 @@ object StringsE {
     val permissionConflictTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "权限冲突提示"
         AppLanguage.ENGLISH -> "Permission Conflict Warning"
+        AppLanguage.VIETNAMESE -> "Cảnh báo xung đột quyền"
         AppLanguage.ARABIC -> "تحذير تعارض الأذونات"
         AppLanguage.PORTUGUESE -> "Aviso de Conflito de Permissões"
         AppLanguage.SPANISH -> "Advertencia de Conflicto de Permisos"
@@ -7494,6 +8090,7 @@ object StringsE {
     val permissionConflictMediaVsLegacy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "READ_MEDIA_* (Android 13+) 与 READ/WRITE_EXTERNAL_STORAGE 功能重叠，建议只保留其中一组"
         AppLanguage.ENGLISH -> "READ_MEDIA_* (Android 13+) overlaps with READ/WRITE_EXTERNAL_STORAGE, keep only one group"
+        AppLanguage.VIETNAMESE -> "READ_MEDIA_* (Android 13+) trùng lặp với READ/WRITE_EXTERNAL_STORAGE, chỉ giữ lại một nhóm"
         AppLanguage.ARABIC -> "READ_MEDIA_* (أندرويد 13+) يتداخل مع READ/WRITE_EXTERNAL_STORAGE، احتفظ بمجموعة واحدة فقط"
         AppLanguage.PORTUGUESE -> "READ_MEDIA_* (Android 13+) se sobrepõe a READ/WRITE_EXTERNAL_STORAGE, mantenha apenas um grupo"
         AppLanguage.SPANISH -> "READ_MEDIA_* (Android 13+) se superpone con READ/WRITE_EXTERNAL_STORAGE, mantén solo un grupo"
@@ -7506,6 +8103,7 @@ object StringsE {
     val permissionConflictSmsRisk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SMS 权限属于高敏感权限，Google Play 对此类权限审核极为严格，非必要不建议启用"
         AppLanguage.ENGLISH -> "SMS permissions are highly sensitive. Google Play reviews them strictly. Avoid unless necessary"
+        AppLanguage.VIETNAMESE -> "Quyền gửi SMS rất nhạy cảm. Google Play đánh giá chúng một cách nghiêm ngặt. Tránh trừ khi cần thiết"
         AppLanguage.ARABIC -> "أذونات SMS حساسة للغاية. يراجعها Google Play بصرامة. تجنبها ما لم تكن ضرورية"
         AppLanguage.PORTUGUESE -> "Permissões de SMS são altamente sensíveis. O Google Play as revisa com rigor. Evite a menos que seja necessário"
         AppLanguage.SPANISH -> "Los permisos de SMS son altamente sensibles. Google Play los revisa con rigor. Evítalos a menos que sea necesario"
@@ -7518,6 +8116,7 @@ object StringsE {
     val permissionConflictCallRisk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CALL_PHONE / PROCESS_OUTGOING_CALLS 属于高敏感权限，Google Play 可能拒绝上架"
         AppLanguage.ENGLISH -> "CALL_PHONE / PROCESS_OUTGOING_CALLS are highly sensitive. Google Play may reject the listing"
+        AppLanguage.VIETNAMESE -> "CALL_PHONE / PROCESS_OUTGOING_CALLS có độ nhạy cao. Google Play có thể từ chối danh sách"
         AppLanguage.ARABIC -> "CALL_PHONE / PROCESS_OUTGOING_CALLS حساسة للغاية. قد يرفض Google Play الإدراج"
         AppLanguage.PORTUGUESE -> "CALL_PHONE / PROCESS_OUTGOING_CALLS são altamente sensíveis. O Google Play pode rejeitar a listagem"
         AppLanguage.SPANISH -> "CALL_PHONE / PROCESS_OUTGOING_CALLS son altamente sensibles. Google Play puede rechazar la publicación"
@@ -7530,6 +8129,7 @@ object StringsE {
     val permissionConflictQueryAllPackages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "QUERY_ALL_PACKAGES（读取应用列表）是 Play 受限权限，上架需要单独申报；侧载安装一般会直接授予"
         AppLanguage.ENGLISH -> "QUERY_ALL_PACKAGES (installed-app list) is Play-restricted and needs a declaration for listing. Sideload installs usually grant it"
+        AppLanguage.VIETNAMESE -> "QUERY_ALL_PACKAGES (danh sách ứng dụng đã cài đặt) bị hạn chế phát và cần khai báo để liệt kê. Cài đặt Sideload thường cấp nó"
         AppLanguage.ARABIC -> "QUERY_ALL_PACKAGES (قائمة التطبيقات) مقيّد في Play ويحتاج إعلاناً للنشر. التثبيت الجانبي يمنحه عادة"
         AppLanguage.PORTUGUESE -> "QUERY_ALL_PACKAGES (lista de apps) é restrito na Play e exige declaração. Instalações sideload costumam concedê-lo"
         AppLanguage.SPANISH -> "QUERY_ALL_PACKAGES (lista de apps) está restringido en Play y requiere declaración. Sideload suele concederlo"
@@ -7542,6 +8142,7 @@ object StringsE {
     val permissionPlayRestrictedTag: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Play 受限权限 — 上架通常会被拒，除非你是默认短信/电话应用或已申报"
         AppLanguage.ENGLISH -> "Play-restricted — listing is usually rejected unless you are the default SMS/phone app or filed a declaration"
+        AppLanguage.VIETNAMESE -> "Bị hạn chế phát - danh sách thường bị từ chối trừ khi bạn là ứng dụng SMS/điện thoại mặc định hoặc đã gửi tuyên bố"
         AppLanguage.ARABIC -> "مقيّد في Play — يُرفض النشر عادة إلا إذا كنت تطبيق الرسائل/الهاتف الافتراضي أو قدّمت إعلاناً"
         AppLanguage.PORTUGUESE -> "Restrito na Play — a listagem costuma ser recusada salvo app padrão de SMS/telefone ou declaração"
         AppLanguage.SPANISH -> "Restringido en Play — suelen rechazar la ficha salvo app SMS/teléfono predeterminada o declaración"
@@ -7554,6 +8155,7 @@ object StringsE {
     val permissionPlayRestrictedWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "这条权限网页套壳很少真正用到。打开只会写进清单并可能弹系统框；页面 JS 没有对应 API。Play 审核很容易拒绝。"
         AppLanguage.ENGLISH -> "Wrapper pages rarely use this. Enabling it only declares it and may show a system prompt; page JS has no matching API. Play review often rejects it."
+        AppLanguage.VIETNAMESE -> "Các trang Wrapper hiếm khi sử dụng điều này. Việc kích hoạt nó chỉ khai báo nó và có thể hiển thị lời nhắc hệ thống; trang JS không có API phù hợp. Chơi đánh giá thường từ chối nó."
         AppLanguage.ARABIC -> "صفحات الغلاف نادراً ما تستخدم هذا. تفعيله يعلنه فقط وقد يظهر مطالبة نظام؛ لا يوجد API في JS. مراجعة Play ترفضه غالباً."
         AppLanguage.PORTUGUESE -> "Páginas wrapper quase não usam isto. Ativar só declara e pode mostrar um aviso do sistema; JS não tem API. A Play costuma recusar."
         AppLanguage.SPANISH -> "Las páginas wrapper casi no lo usan. Activarlo solo lo declara y puede mostrar un aviso; JS no tiene API. Play suele rechazarlo."
@@ -7566,6 +8168,7 @@ object StringsE {
     val permissionQueryAllPackages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取应用列表"
         AppLanguage.ENGLISH -> "Installed app list"
+        AppLanguage.VIETNAMESE -> "Danh sách ứng dụng đã cài đặt"
         AppLanguage.ARABIC -> "قائمة التطبيقات المثبتة"
         AppLanguage.PORTUGUESE -> "Lista de apps instalados"
         AppLanguage.SPANISH -> "Lista de apps instaladas"
@@ -7578,6 +8181,7 @@ object StringsE {
     val permissionQueryAllPackagesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "QUERY_ALL_PACKAGES — 枚举设备上已安装的应用。Play 受限；侧载一般会授予"
         AppLanguage.ENGLISH -> "QUERY_ALL_PACKAGES — Enumerate installed apps. Play-restricted; sideload usually grants it"
+        AppLanguage.VIETNAMESE -> "QUERY_ALL_PACKAGES - Liệt kê các ứng dụng đã cài đặt. Chơi bị hạn chế; sideload thường cấp nó"
         AppLanguage.ARABIC -> "QUERY_ALL_PACKAGES — تعداد التطبيقات المثبتة. مقيّد في Play؛ التثبيت الجانبي يمنحه عادة"
         AppLanguage.PORTUGUESE -> "QUERY_ALL_PACKAGES — Listar apps instalados. Restrito na Play; sideload costuma conceder"
         AppLanguage.SPANISH -> "QUERY_ALL_PACKAGES — Enumerar apps instaladas. Restringido en Play; sideload suele concederlo"
@@ -7590,6 +8194,7 @@ object StringsE {
     val permissionBackgroundLocation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后台位置"
         AppLanguage.ENGLISH -> "Background location"
+        AppLanguage.VIETNAMESE -> "Vị trí nền"
         AppLanguage.ARABIC -> "الموقع في الخلفية"
         AppLanguage.PORTUGUESE -> "Localização em segundo plano"
         AppLanguage.SPANISH -> "Ubicación en segundo plano"
@@ -7602,6 +8207,7 @@ object StringsE {
     val permissionBackgroundLocationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ACCESS_BACKGROUND_LOCATION — 应用不在前台时仍可定位。会同时打开「位置」"
         AppLanguage.ENGLISH -> "ACCESS_BACKGROUND_LOCATION — Location while the app is not in the foreground. Also turns on Location"
+        AppLanguage.VIETNAMESE -> "ACCESS_BACKGROUND_LOCATION — Vị trí khi ứng dụng không ở nền trước. Đồng thời bật Vị trí"
         AppLanguage.ARABIC -> "ACCESS_BACKGROUND_LOCATION — الموقع والتطبيق في الخلفية. يشغّل أيضاً الموقع"
         AppLanguage.PORTUGUESE -> "ACCESS_BACKGROUND_LOCATION — Localização com o app em segundo plano. Também liga Localização"
         AppLanguage.SPANISH -> "ACCESS_BACKGROUND_LOCATION — Ubicación con la app en segundo plano. También activa Ubicación"
@@ -7615,6 +8221,7 @@ object StringsE {
     val projectSyncFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "project sync失败"
         AppLanguage.ENGLISH -> "Project sync failed"
+        AppLanguage.VIETNAMESE -> "Đồng bộ hóa dự án không thành công"
         AppLanguage.ARABIC -> "فشل project sync"
         AppLanguage.PORTUGUESE -> "Falha na sincronização do projeto"
         AppLanguage.SPANISH -> "Error al sincronizar el proyecto"
@@ -7627,6 +8234,7 @@ object StringsE {
     val r2CdnAccelerate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "r2 cdn accelerate"
         AppLanguage.ENGLISH -> "R2 cdn accelerate"
+        AppLanguage.VIETNAMESE -> "R2 cdn tăng tốc"
         AppLanguage.ARABIC -> "r2 cdn accelerate"
         AppLanguage.PORTUGUESE -> "Aceleração CDN R2"
         AppLanguage.SPANISH -> "Aceleración CDN R2"
@@ -7651,6 +8259,7 @@ object StringsE {
     val r2StorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "r2 storage"
         AppLanguage.ENGLISH -> "R2 storage"
+        AppLanguage.VIETNAMESE -> "lưu trữ R2"
         AppLanguage.ARABIC -> "r2 storage"
         AppLanguage.PORTUGUESE -> "Armazenamento R2"
         AppLanguage.SPANISH -> "Almacenamiento R2"
@@ -7663,6 +8272,7 @@ object StringsE {
     val readBuildLogFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "read build log失败"
         AppLanguage.ENGLISH -> "Read build log failed"
+        AppLanguage.VIETNAMESE -> "Đọc nhật ký bản dựng không thành công"
         AppLanguage.ARABIC -> "فشل read build log"
         AppLanguage.PORTUGUESE -> "Falha ao ler o log de build"
         AppLanguage.SPANISH -> "Error al leer el log de compilación"
@@ -7675,6 +8285,7 @@ object StringsE {
     val reinstallEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重新安装"
         AppLanguage.ENGLISH -> "Reinstall"
+        AppLanguage.VIETNAMESE -> "Cài đặt lại"
         AppLanguage.ARABIC -> "إعادة التثبيت"
         AppLanguage.PORTUGUESE -> "Reinstalar"
         AppLanguage.SPANISH -> "Reinstalar"
@@ -7687,6 +8298,7 @@ object StringsE {
     val scraperLongDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动抓取网站前端文件并保存到本地，支持 HTML/CSS/JS/图片/字体等资源，离线浏览无需网络。"
         AppLanguage.ENGLISH -> "Automatically scrape website frontend files and save locally. Supports HTML/CSS/JS/images/fonts for offline browsing."
+        AppLanguage.VIETNAMESE -> "Tự động quét các tập tin giao diện trang web và lưu cục bộ. Hỗ trợ HTML/CSS/JS/hình ảnh/phông chữ để duyệt ngoại tuyến."
         AppLanguage.ARABIC -> "الزحف التلقائي لملفات الواجهة الأمامية وحفظها محليًا. يدعم HTML/CSS/JS/الصور/الخطوط للتصفح دون اتصال."
         AppLanguage.PORTUGUESE -> "Extrair automaticamente os arquivos frontend do site e salvá-los localmente. Suporta HTML/CSS/JS/imagens/fontes para navegação offline."
         AppLanguage.SPANISH -> "Extraer automáticamente los archivos frontend del sitio web y guardarlos localmente. Soporta HTML/CSS/JS/imágenes/fuentes para navegación sin conexión."
@@ -7699,6 +8311,7 @@ object StringsE {
     val screenAwakeTimeoutValue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "screen awake timeout value"
         AppLanguage.ENGLISH -> "Screen awake timeout value"
+        AppLanguage.VIETNAMESE -> "Giá trị thời gian chờ của màn hình"
         AppLanguage.ARABIC -> "screen awake timeout value"
         AppLanguage.PORTUGUESE -> "Valor do tempo limite de tela ativa"
         AppLanguage.SPANISH -> "Valor del tiempo de pantalla activa"
@@ -7711,6 +8324,7 @@ object StringsE {
     val setAsCurrent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "set as current"
         AppLanguage.ENGLISH -> "Set as current"
+        AppLanguage.VIETNAMESE -> "Đặt như hiện tại"
         AppLanguage.ARABIC -> "set as current"
         AppLanguage.PORTUGUESE -> "Definir como atual"
         AppLanguage.SPANISH -> "Establecer como actual"
@@ -7723,6 +8337,7 @@ object StringsE {
     val setLanguage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "set language"
         AppLanguage.ENGLISH -> "Set language"
+        AppLanguage.VIETNAMESE -> "Đặt ngôn ngữ"
         AppLanguage.ARABIC -> "set language"
         AppLanguage.PORTUGUESE -> "Definir idioma"
         AppLanguage.SPANISH -> "Establecer idioma"
@@ -7735,6 +8350,7 @@ object StringsE {
     val size: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "size"
         AppLanguage.ENGLISH -> "Size"
+        AppLanguage.VIETNAMESE -> "Kích cỡ"
         AppLanguage.ARABIC -> "size"
         AppLanguage.PORTUGUESE -> "Tamanho"
         AppLanguage.SPANISH -> "Tamaño"
@@ -7747,6 +8363,7 @@ object StringsE {
     val startScraping: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始抓取"
         AppLanguage.ENGLISH -> "Start Scraping"
+        AppLanguage.VIETNAMESE -> "Bắt đầu cạo"
         AppLanguage.ARABIC -> "بدء الزحف"
         AppLanguage.PORTUGUESE -> "Iniciar Extração"
         AppLanguage.SPANISH -> "Iniciar Extracción"
@@ -7759,6 +8376,7 @@ object StringsE {
     val statFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
         AppLanguage.ENGLISH -> "Files"
+        AppLanguage.VIETNAMESE -> "Tập tin"
         AppLanguage.ARABIC -> "ملفات"
         AppLanguage.PORTUGUESE -> "Arquivos"
         AppLanguage.SPANISH -> "Archivos"
@@ -7771,6 +8389,7 @@ object StringsE {
     val statSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "大小"
         AppLanguage.ENGLISH -> "Size"
+        AppLanguage.VIETNAMESE -> "Kích cỡ"
         AppLanguage.ARABIC -> "الحجم"
         AppLanguage.PORTUGUESE -> "Tamanho"
         AppLanguage.SPANISH -> "Tamaño"
@@ -7783,6 +8402,7 @@ object StringsE {
     val staticWebsite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "static website"
         AppLanguage.ENGLISH -> "Static website"
+        AppLanguage.VIETNAMESE -> "Trang web tĩnh"
         AppLanguage.ARABIC -> "static website"
         AppLanguage.PORTUGUESE -> "Site estático"
         AppLanguage.SPANISH -> "Sitio estático"
@@ -7795,6 +8415,7 @@ object StringsE {
     val tooManyAttemptsWithCountdown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "too many attempts with countdown"
         AppLanguage.ENGLISH -> "Too many attempts with countdown"
+        AppLanguage.VIETNAMESE -> "Quá nhiều lần thử đếm ngược"
         AppLanguage.ARABIC -> "too many attempts with countdown"
         AppLanguage.PORTUGUESE -> "Muitas tentativas com contagem regressiva"
         AppLanguage.SPANISH -> "Demasiados intentos con cuenta atrás"
@@ -7807,6 +8428,7 @@ object StringsE {
     val unnamed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "unnamed"
         AppLanguage.ENGLISH -> "Unnamed"
+        AppLanguage.VIETNAMESE -> "Vô danh"
         AppLanguage.ARABIC -> "unnamed"
         AppLanguage.PORTUGUESE -> "Sem nome"
         AppLanguage.SPANISH -> "Sin nombre"
@@ -7819,6 +8441,7 @@ object StringsE {
     val uploadingApkToR2: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "uploading apk to r2"
         AppLanguage.ENGLISH -> "Uploading apk to r2"
+        AppLanguage.VIETNAMESE -> "Đang tải apk lên r2"
         AppLanguage.ARABIC -> "uploading apk to r2"
         AppLanguage.PORTUGUESE -> "Enviando APK para o R2"
         AppLanguage.SPANISH -> "Subiendo APK a R2"
@@ -7831,6 +8454,7 @@ object StringsE {
     val verifying: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "verifying"
         AppLanguage.ENGLISH -> "Verifying"
+        AppLanguage.VIETNAMESE -> "Đang xác minh"
         AppLanguage.ARABIC -> "verifying"
         AppLanguage.PORTUGUESE -> "Verificando"
         AppLanguage.SPANISH -> "Verificando"
@@ -7843,6 +8467,7 @@ object StringsE {
     val viewFullError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "view full error"
         AppLanguage.ENGLISH -> "View full error"
+        AppLanguage.VIETNAMESE -> "Xem toàn bộ lỗi"
         AppLanguage.ARABIC -> "view full error"
         AppLanguage.PORTUGUESE -> "Ver erro completo"
         AppLanguage.SPANISH -> "Ver error completo"
@@ -7855,6 +8480,7 @@ object StringsE {
     val websiteOfflinePack: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "离线包"
         AppLanguage.ENGLISH -> "Offline Pack"
+        AppLanguage.VIETNAMESE -> "Gói ngoại tuyến"
         AppLanguage.ARABIC -> "حزمة غير متصلة"
         AppLanguage.PORTUGUESE -> "Pacote Offline"
         AppLanguage.SPANISH -> "Paquete Offline"
@@ -7867,6 +8493,7 @@ object StringsE {
     val websiteOfflinePackTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "离线打包"
         AppLanguage.ENGLISH -> "Offline Pack"
+        AppLanguage.VIETNAMESE -> "Gói ngoại tuyến"
         AppLanguage.ARABIC -> "حزمة غير متصلة"
         AppLanguage.PORTUGUESE -> "Empacotamento Offline"
         AppLanguage.SPANISH -> "Empaquetado Offline"
@@ -7879,6 +8506,7 @@ object StringsE {
     val websiteUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网站 URL"
         AppLanguage.ENGLISH -> "Website URL"
+        AppLanguage.VIETNAMESE -> "URL trang web"
         AppLanguage.ARABIC -> "رابط الموقع"
         AppLanguage.PORTUGUESE -> "URL do Site"
         AppLanguage.SPANISH -> "URL del Sitio"
@@ -7891,6 +8519,7 @@ object StringsE {
     val scrapeStrategy: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "爬取策略"
         AppLanguage.ENGLISH -> "Scrape Strategy"
+        AppLanguage.VIETNAMESE -> "Chiến lược cạo"
         AppLanguage.ARABIC -> "استراتيجية الزحف"
         AppLanguage.PORTUGUESE -> "Estratégia de Extração"
         AppLanguage.SPANISH -> "Estrategia de Extracción"
@@ -7903,6 +8532,7 @@ object StringsE {
     val followLinks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跟踪页面链接"
         AppLanguage.ENGLISH -> "Follow page links"
+        AppLanguage.VIETNAMESE -> "Theo liên kết trang"
         AppLanguage.ARABIC -> "تتبع روابط الصفحات"
         AppLanguage.PORTUGUESE -> "Seguir links da página"
         AppLanguage.SPANISH -> "Seguir enlaces de la página"
@@ -7915,6 +8545,7 @@ object StringsE {
     val followLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跟踪同域 <a> 链接，抓取多页站点"
         AppLanguage.ENGLISH -> "Follow same-domain <a> links for multi-page sites"
+        AppLanguage.VIETNAMESE -> "Theo các liên kết <a> cùng tên miền cho các trang web nhiều trang"
         AppLanguage.ARABIC -> "تتبع روابط <a> ضمن نفس النطاق للمواقع متعددة الصفحات"
         AppLanguage.PORTUGUESE -> "Seguir links <a> do mesmo domínio para sites de várias páginas"
         AppLanguage.SPANISH -> "Seguir enlaces <a> del mismo dominio para sitios de varias páginas"
@@ -7927,6 +8558,7 @@ object StringsE {
     val maxFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最大文件数"
         AppLanguage.ENGLISH -> "Max files"
+        AppLanguage.VIETNAMESE -> "Tệp tối đa"
         AppLanguage.ARABIC -> "الحد الأقصى للملفات"
         AppLanguage.PORTUGUESE -> "Máx. de arquivos"
         AppLanguage.SPANISH -> "Máx. de archivos"
@@ -7939,6 +8571,7 @@ object StringsE {
     val maxTotalSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "总大小上限"
         AppLanguage.ENGLISH -> "Max total size"
+        AppLanguage.VIETNAMESE -> "Tổng kích thước tối đa"
         AppLanguage.ARABIC -> "الحد الأقصى للحجم الكلي"
         AppLanguage.PORTUGUESE -> "Tamanho total máximo"
         AppLanguage.SPANISH -> "Tamaño total máximo"
@@ -7951,6 +8584,7 @@ object StringsE {
     val skipPatterns: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跳过 URL 模式"
         AppLanguage.ENGLISH -> "Skip URL patterns"
+        AppLanguage.VIETNAMESE -> "Bỏ qua các mẫu URL"
         AppLanguage.ARABIC -> "تخطي أنماط الروابط"
         AppLanguage.PORTUGUESE -> "Pular padrões de URL"
         AppLanguage.SPANISH -> "Omitir patrones de URL"
@@ -7963,6 +8597,7 @@ object StringsE {
     val skipPatternsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用逗号分隔，如: /api/, /admin/"
         AppLanguage.ENGLISH -> "Comma-separated, e.g.: /api/, /admin/"
+        AppLanguage.VIETNAMESE -> "Được phân tách bằng dấu phẩy, ví dụ: /api/, /admin/"
         AppLanguage.ARABIC -> "مفصولة بفواصل، مثال: /api/, /admin/"
         AppLanguage.PORTUGUESE -> "Separados por vírgula, ex.: /api/, /admin/"
         AppLanguage.SPANISH -> "Separados por comas, ej.: /api/, /admin/"
@@ -7975,6 +8610,7 @@ object StringsE {
     val scrapeTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "超时时间"
         AppLanguage.ENGLISH -> "Timeout"
+        AppLanguage.VIETNAMESE -> "Hết giờ"
         AppLanguage.ARABIC -> "مهلة الانتهاء"
         AppLanguage.PORTUGUESE -> "Tempo limite"
         AppLanguage.SPANISH -> "Tiempo de espera"
@@ -7987,6 +8623,7 @@ object StringsE {
     val scrapeTimeoutDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "超过此时间后自动停止抓取"
         AppLanguage.ENGLISH -> "Auto-stop scraping after this duration"
+        AppLanguage.VIETNAMESE -> "Tự động dừng cạo sau khoảng thời gian này"
         AppLanguage.ARABIC -> "إيقاف الزحف تلقائيًا بعد هذه المدة"
         AppLanguage.PORTUGUESE -> "Parar automaticamente a extração após esta duração"
         AppLanguage.SPANISH -> "Detener automáticamente la extracción tras esta duración"
@@ -8000,6 +8637,7 @@ object StringsE {
     val enterEncryptionPassword: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请输入加密密码"
         AppLanguage.ENGLISH -> "Enter encryption password"
+        AppLanguage.VIETNAMESE -> "Nhập mật khẩu mã hóa"
         AppLanguage.ARABIC -> "أدخل كلمة مرور التشفير"
         AppLanguage.PORTUGUESE -> "Digite a senha de criptografia"
         AppLanguage.SPANISH -> "Introduce la contraseña de cifrado"
@@ -8012,6 +8650,7 @@ object StringsE {
     val passwordVerification: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码验证"
         AppLanguage.ENGLISH -> "Password Verification"
+        AppLanguage.VIETNAMESE -> "Xác minh mật khẩu"
         AppLanguage.ARABIC -> "التحقق من كلمة المرور"
         AppLanguage.PORTUGUESE -> "Verificação de Senha"
         AppLanguage.SPANISH -> "Verificación de Contraseña"
@@ -8024,6 +8663,7 @@ object StringsE {
     val appEncryptedMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此应用已加密，请输入密码以继续"
         AppLanguage.ENGLISH -> "This app is encrypted. Please enter the password to continue"
+        AppLanguage.VIETNAMESE -> "Ứng dụng này được mã hóa. Vui lòng nhập mật khẩu để tiếp tục"
         AppLanguage.ARABIC -> "هذا التطبيق مشفر. يرجى إدخال كلمة المرور للمتابعة"
         AppLanguage.PORTUGUESE -> "Este app está criptografado. Digite a senha para continuar"
         AppLanguage.SPANISH -> "Esta app está cifrada. Introduce la contraseña para continuar"
@@ -8036,6 +8676,7 @@ object StringsE {
     val wrongPasswordCannotDecrypt: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码错误，无法解密配置"
         AppLanguage.ENGLISH -> "Wrong password, cannot decrypt config"
+        AppLanguage.VIETNAMESE -> "Sai mật khẩu, không giải mã được config"
         AppLanguage.ARABIC -> "كلمة مرور خاطئة، لا يمكن فك تشفير التكوين"
         AppLanguage.PORTUGUESE -> "Senha incorreta, não é possível descriptografar a configuração"
         AppLanguage.SPANISH -> "Contraseña incorrecta, no se puede descifrar la configuración"
@@ -8048,6 +8689,7 @@ object StringsE {
     val passwordCannotBeEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "密码不能为空"
         AppLanguage.ENGLISH -> "Password cannot be empty"
+        AppLanguage.VIETNAMESE -> "Mật khẩu không thể trống"
         AppLanguage.ARABIC -> "لا يمكن أن تكون كلمة المرور فارغة"
         AppLanguage.PORTUGUESE -> "A senha não pode estar vazia"
         AppLanguage.SPANISH -> "La contraseña no puede estar vacía"
@@ -8060,6 +8702,7 @@ object StringsE {
     val btnExit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "退出"
         AppLanguage.ENGLISH -> "Exit"
+        AppLanguage.VIETNAMESE -> "Ra"
         AppLanguage.ARABIC -> "خروج"
         AppLanguage.PORTUGUESE -> "Sair"
         AppLanguage.SPANISH -> "Salir"
@@ -8072,6 +8715,7 @@ object StringsE {
     val buildLogTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 构建日志"
         AppLanguage.ENGLISH -> "APK Build Log"
+        AppLanguage.VIETNAMESE -> "Nhật ký bản dựng APK"
         AppLanguage.ARABIC -> "سجل بناء APK"
         AppLanguage.PORTUGUESE -> "Log de Build do APK"
         AppLanguage.SPANISH -> "Registro de Build del APK"
@@ -8084,6 +8728,7 @@ object StringsE {
     val buildLogAppName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用名称"
         AppLanguage.ENGLISH -> "App Name"
+        AppLanguage.VIETNAMESE -> "Tên ứng dụng"
         AppLanguage.ARABIC -> "اسم التطبيق"
         AppLanguage.PORTUGUESE -> "Nome do App"
         AppLanguage.SPANISH -> "Nombre de la App"
@@ -8096,6 +8741,7 @@ object StringsE {
     val buildLogStartTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开始时间"
         AppLanguage.ENGLISH -> "Start Time"
+        AppLanguage.VIETNAMESE -> "Thời gian bắt đầu"
         AppLanguage.ARABIC -> "وقت البدء"
         AppLanguage.PORTUGUESE -> "Hora de Início"
         AppLanguage.SPANISH -> "Hora de Inicio"
@@ -8108,6 +8754,7 @@ object StringsE {
     val buildLogEndTime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "结束时间"
         AppLanguage.ENGLISH -> "End Time"
+        AppLanguage.VIETNAMESE -> "Thời gian kết thúc"
         AppLanguage.ARABIC -> "وقت الانتهاء"
         AppLanguage.PORTUGUESE -> "Hora de Término"
         AppLanguage.SPANISH -> "Hora de Fin"
@@ -8120,6 +8767,7 @@ object StringsE {
     val buildLogLogFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "日志文件"
         AppLanguage.ENGLISH -> "Log File"
+        AppLanguage.VIETNAMESE -> "Tệp nhật ký"
         AppLanguage.ARABIC -> "ملف السجل"
         AppLanguage.PORTUGUESE -> "Arquivo de Log"
         AppLanguage.SPANISH -> "Archivo de Registro"
@@ -8132,6 +8780,7 @@ object StringsE {
     val buildLogResult: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "结果"
         AppLanguage.ENGLISH -> "Result"
+        AppLanguage.VIETNAMESE -> "Kết quả"
         AppLanguage.ARABIC -> "النتيجة"
         AppLanguage.PORTUGUESE -> "Resultado"
         AppLanguage.SPANISH -> "Resultado"
@@ -8144,6 +8793,7 @@ object StringsE {
     val buildLogSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建成功"
         AppLanguage.ENGLISH -> "Build succeeded"
+        AppLanguage.VIETNAMESE -> "Xây dựng thành công"
         AppLanguage.ARABIC -> "نجح البناء"
         AppLanguage.PORTUGUESE -> "Build concluído"
         AppLanguage.SPANISH -> "Build completado"
@@ -8156,6 +8806,7 @@ object StringsE {
     val buildLogFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建失败"
         AppLanguage.ENGLISH -> "Build failed"
+        AppLanguage.VIETNAMESE -> "Xây dựng không thành công"
         AppLanguage.ARABIC -> "فشل البناء"
         AppLanguage.PORTUGUESE -> "Build falhou"
         AppLanguage.SPANISH -> "Build fallido"
@@ -8168,6 +8819,7 @@ object StringsE {
     val buildLogItems: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项"
         AppLanguage.ENGLISH -> "items"
+        AppLanguage.VIETNAMESE -> "mặt hàng"
         AppLanguage.ARABIC -> "عناصر"
         AppLanguage.PORTUGUESE -> "itens"
         AppLanguage.SPANISH -> "elementos"
@@ -8181,6 +8833,7 @@ object StringsE {
     val pureBuildCopyFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制文件"
         AppLanguage.ENGLISH -> "Copying files"
+        AppLanguage.VIETNAMESE -> "Sao chép tập tin"
         AppLanguage.ARABIC -> "نسخ الملفات"
         AppLanguage.PORTUGUESE -> "Copiando arquivos"
         AppLanguage.SPANISH -> "Copiando archivos"
@@ -8193,6 +8846,7 @@ object StringsE {
     val pureBuildBuilding: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建中"
         AppLanguage.ENGLISH -> "Building"
+        AppLanguage.VIETNAMESE -> "Xây dựng"
         AppLanguage.ARABIC -> "جاري البناء"
         AppLanguage.PORTUGUESE -> "Construindo"
         AppLanguage.SPANISH -> "Construyendo"
@@ -8205,6 +8859,7 @@ object StringsE {
     val pureBuildCollectFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收集文件"
         AppLanguage.ENGLISH -> "Collecting files"
+        AppLanguage.VIETNAMESE -> "Thu thập tập tin"
         AppLanguage.ARABIC -> "جمع الملفات"
         AppLanguage.PORTUGUESE -> "Coletando arquivos"
         AppLanguage.SPANISH -> "Recopilando archivos"
@@ -8217,6 +8872,7 @@ object StringsE {
     val pureBuildPackaging: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打包"
         AppLanguage.ENGLISH -> "Packaging"
+        AppLanguage.VIETNAMESE -> "Bao bì"
         AppLanguage.ARABIC -> "التعبئة"
         AppLanguage.PORTUGUESE -> "Empacotando"
         AppLanguage.SPANISH -> "Empaquetando"
@@ -8229,6 +8885,7 @@ object StringsE {
     val pureBuildCopyResources: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复制资源"
         AppLanguage.ENGLISH -> "Copying resources"
+        AppLanguage.VIETNAMESE -> "Sao chép tài nguyên"
         AppLanguage.ARABIC -> "نسخ الموارد"
         AppLanguage.PORTUGUESE -> "Copiando recursos"
         AppLanguage.SPANISH -> "Copiando recursos"
@@ -8241,6 +8898,7 @@ object StringsE {
     val pureBuildAnalyzeProject: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分析项目: %s"
         AppLanguage.ENGLISH -> "Analyzing project: %s"
+        AppLanguage.VIETNAMESE -> "Phân tích dự án: %s"
         AppLanguage.ARABIC -> "تحليل المشروع: %s"
         AppLanguage.PORTUGUESE -> "Analisando projeto: %s"
         AppLanguage.SPANISH -> "Analizando proyecto: %s"
@@ -8253,6 +8911,7 @@ object StringsE {
     val pureBuildFoundDist: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发现已构建的输出: %s"
         AppLanguage.ENGLISH -> "Found existing build output: %s"
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy đầu ra bản dựng hiện có: %s"
         AppLanguage.ARABIC -> "وجد إخراج بناء موجود: %s"
         AppLanguage.PORTUGUESE -> "Saída de build existente encontrada: %s"
         AppLanguage.SPANISH -> "Salida de build existente encontrada: %s"
@@ -8265,6 +8924,7 @@ object StringsE {
     val pureBuildUseEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 esbuild 构建"
         AppLanguage.ENGLISH -> "Building with esbuild"
+        AppLanguage.VIETNAMESE -> "Xây dựng với esbuild"
         AppLanguage.ARABIC -> "البناء باستخدام esbuild"
         AppLanguage.PORTUGUESE -> "Construindo com esbuild"
         AppLanguage.SPANISH -> "Construyendo con esbuild"
@@ -8277,6 +8937,7 @@ object StringsE {
     val pureBuildError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "错误: %s"
         AppLanguage.ENGLISH -> "Error: %s"
+        AppLanguage.VIETNAMESE -> "Lỗi: %s"
         AppLanguage.ARABIC -> "خطأ: %s"
         AppLanguage.PORTUGUESE -> "Erro: %s"
         AppLanguage.SPANISH -> "Erro: %s"
@@ -8289,6 +8950,7 @@ object StringsE {
     val pureBuildEntryFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "入口文件：%s"
         AppLanguage.ENGLISH -> "Entry file: %s"
+        AppLanguage.VIETNAMESE -> "File đầu vào: %s"
         AppLanguage.ARABIC -> "ملف الدخول: %s"
         AppLanguage.PORTUGUESE -> "Arquivo de entrada: %s"
         AppLanguage.SPANISH -> "Archivo de entrada: %s"
@@ -8301,6 +8963,7 @@ object StringsE {
     val pureBuildRunEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "执行 esbuild..."
         AppLanguage.ENGLISH -> "Running esbuild..."
+        AppLanguage.VIETNAMESE -> "Đang chạy esbuild..."
         AppLanguage.ARABIC -> "تشغيل esbuild..."
         AppLanguage.PORTUGUESE -> "Executando esbuild..."
         AppLanguage.SPANISH -> "Ejecutando esbuild..."
@@ -8313,6 +8976,7 @@ object StringsE {
     val pureBuildEsbuildFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "esbuild 构建失败: %s"
         AppLanguage.ENGLISH -> "esbuild build failed: %s"
+        AppLanguage.VIETNAMESE -> "xây dựng esbuild không thành công: %s"
         AppLanguage.ARABIC -> "فشل بناء esbuild: %s"
         AppLanguage.PORTUGUESE -> "Build do esbuild falhou: %s"
         AppLanguage.SPANISH -> "Build de esbuild fallido: %s"
@@ -8325,6 +8989,7 @@ object StringsE {
     val pureBuildFoundSourceFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "找到 %d 个源文件"
         AppLanguage.ENGLISH -> "Found %d source files"
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy tệp nguồn %d"
         AppLanguage.ARABIC -> "وجد %d ملفات مصدر"
         AppLanguage.PORTUGUESE -> "Encontrados %d arquivos fonte"
         AppLanguage.SPANISH -> "Encontrados %d archivos fuente"
@@ -8337,6 +9002,7 @@ object StringsE {
     val pureBuildProjectDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目目录不存在"
         AppLanguage.ENGLISH -> "Project directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án"
         AppLanguage.ARABIC -> "دليل المشروع غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório do projeto não encontrado"
         AppLanguage.SPANISH -> "Directorio del proyecto no encontrado"
@@ -8349,6 +9015,7 @@ object StringsE {
     val pureBuildEsbuildUnavailable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "esbuild 不可用，且当前已禁止自动切换到内置打包器。请先修复 esbuild 安装，或在电脑完成构建后再导入。"
         AppLanguage.ENGLISH -> "esbuild is unavailable and fallback to built-in bundler is disabled. Please fix esbuild installation, or build on computer before importing."
+        AppLanguage.VIETNAMESE -> "esbuild không khả dụng và tính năng dự phòng cho gói tích hợp bị tắt. Vui lòng sửa cài đặt esbuild hoặc xây dựng trên máy tính trước khi nhập."
         AppLanguage.ARABIC -> "esbuild غير متاح والانتقال إلى أداة التعبئة المدمجة معطل. يرجى إصلاح تثبيت esbuild، أو البناء على الكمبيوتر قبل الاستيراد."
         AppLanguage.PORTUGUESE -> "esbuild não está disponível e o fallback para o bundler integrado está desativado. Corrija a instalação do esbuild, ou compile no computador antes de importar."
         AppLanguage.SPANISH -> "esbuild no está disponible y el fallback al bundler integrado está desactivado. Corrige la instalación de esbuild, o compila en el ordenador antes de importar."
@@ -8361,6 +9028,7 @@ object StringsE {
     val pureBuildEntryNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "找不到入口文件"
         AppLanguage.ENGLISH -> "Entry file not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tập tin nhập"
         AppLanguage.ARABIC -> "لم يتم العثور على ملف الدخول"
         AppLanguage.PORTUGUESE -> "Arquivo de entrada não encontrado"
         AppLanguage.SPANISH -> "Archivo de entrada no encontrado"
@@ -8374,6 +9042,7 @@ object StringsE {
     val nodeDownloadEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载 esbuild..."
         AppLanguage.ENGLISH -> "Downloading esbuild..."
+        AppLanguage.VIETNAMESE -> "Đang tải xuống esbuild..."
         AppLanguage.ARABIC -> "تنزيل esbuild..."
         AppLanguage.PORTUGUESE -> "Baixando esbuild..."
         AppLanguage.SPANISH -> "Descargando esbuild..."
@@ -8386,6 +9055,7 @@ object StringsE {
     val nodeVerifyInstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "验证安装..."
         AppLanguage.ENGLISH -> "Verifying installation..."
+        AppLanguage.VIETNAMESE -> "Đang xác minh cài đặt..."
         AppLanguage.ARABIC -> "التحقق من التثبيت..."
         AppLanguage.PORTUGUESE -> "Verificando instalação..."
         AppLanguage.SPANISH -> "Verificando instalación..."
@@ -8398,6 +9068,7 @@ object StringsE {
     val nodeEsbuildInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "esbuild 安装失败"
         AppLanguage.ENGLISH -> "esbuild installation failed"
+        AppLanguage.VIETNAMESE -> "cài đặt esbuild không thành công"
         AppLanguage.ARABIC -> "فشل تثبيت esbuild"
         AppLanguage.PORTUGUESE -> "Falha na instalação do esbuild"
         AppLanguage.SPANISH -> "Error en la instalación de esbuild"
@@ -8410,6 +9081,7 @@ object StringsE {
     val nodeUnsupportedArch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "不支持的架构: %s"
         AppLanguage.ENGLISH -> "Unsupported architecture: %s"
+        AppLanguage.VIETNAMESE -> "Kiến trúc không được hỗ trợ: %s"
         AppLanguage.ARABIC -> "بنية غير مدعومة: %s"
         AppLanguage.PORTUGUESE -> "Arquitetura não suportada: %s"
         AppLanguage.SPANISH -> "Arquitectura no compatible: %s"
@@ -8422,6 +9094,7 @@ object StringsE {
     val nodeEsbuildBinaryNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在包中找不到 esbuild 二进制文件"
         AppLanguage.ENGLISH -> "esbuild binary not found in package"
+        AppLanguage.VIETNAMESE -> "không tìm thấy nhị phân esbuild trong gói"
         AppLanguage.ARABIC -> "لم يتم العثور على ملف esbuild الثنائي في الحزمة"
         AppLanguage.PORTUGUESE -> "Binário do esbuild não encontrado no pacote"
         AppLanguage.SPANISH -> "Binario de esbuild no encontrado en el paquete"
@@ -8435,6 +9108,7 @@ object StringsE {
     val htmlOptJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化 JavaScript..."
         AppLanguage.ENGLISH -> "Optimizing JavaScript..."
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa JavaScript..."
         AppLanguage.ARABIC -> "تحسين JavaScript..."
         AppLanguage.PORTUGUESE -> "Otimizando JavaScript..."
         AppLanguage.SPANISH -> "Optimizando JavaScript..."
@@ -8447,6 +9121,7 @@ object StringsE {
     val htmlOptCss: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化 CSS..."
         AppLanguage.ENGLISH -> "Optimizing CSS..."
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa CSS..."
         AppLanguage.ARABIC -> "تحسين CSS..."
         AppLanguage.PORTUGUESE -> "Otimizando CSS..."
         AppLanguage.SPANISH -> "Optimizando CSS..."
@@ -8459,6 +9134,7 @@ object StringsE {
     val htmlOptComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成"
         AppLanguage.ENGLISH -> "Complete"
+        AppLanguage.VIETNAMESE -> "Hoàn thành"
         AppLanguage.ARABIC -> "مكتمل"
         AppLanguage.PORTUGUESE -> "Concluído"
         AppLanguage.SPANISH -> "Completado"
@@ -8471,6 +9147,7 @@ object StringsE {
     val htmlOptCompileTs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编译 TypeScript (%d 个文件)..."
         AppLanguage.ENGLISH -> "Compiling TypeScript (%d files)..."
+        AppLanguage.VIETNAMESE -> "Đang biên dịch TypeScript (tệp %d)..."
         AppLanguage.ARABIC -> "تجميع TypeScript (%d ملفات)..."
         AppLanguage.PORTUGUESE -> "Compilando TypeScript (%d arquivos)..."
         AppLanguage.SPANISH -> "Compilando TypeScript (%d archivos)..."
@@ -8483,6 +9160,7 @@ object StringsE {
     val htmlOptCompressJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 JavaScript (%d 个文件)..."
         AppLanguage.ENGLISH -> "Compressing JavaScript (%d files)..."
+        AppLanguage.VIETNAMESE -> "Đang nén JavaScript (tệp %d)..."
         AppLanguage.ARABIC -> "ضغط JavaScript (%d ملفات)..."
         AppLanguage.PORTUGUESE -> "Compactando JavaScript (%d arquivos)..."
         AppLanguage.SPANISH -> "Comprimiendo JavaScript (%d archivos)..."
@@ -8495,6 +9173,7 @@ object StringsE {
     val htmlOptCompressCss: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 CSS (%d 个文件)..."
         AppLanguage.ENGLISH -> "Compressing CSS (%d files)..."
+        AppLanguage.VIETNAMESE -> "Đang nén CSS (tệp %d)..."
         AppLanguage.ARABIC -> "ضغط CSS (%d ملفات)..."
         AppLanguage.PORTUGUESE -> "Compactando CSS (%d arquivos)..."
         AppLanguage.SPANISH -> "Comprimiendo CSS (%d archivos)..."
@@ -8507,6 +9186,7 @@ object StringsE {
     val htmlOptOptimizeComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "优化完成"
         AppLanguage.ENGLISH -> "Optimization complete"
+        AppLanguage.VIETNAMESE -> "Tối ưu hóa hoàn tất"
         AppLanguage.ARABIC -> "اكتمل التحسين"
         AppLanguage.PORTUGUESE -> "Otimização concluída"
         AppLanguage.SPANISH -> "Optimización completada"
@@ -8519,6 +9199,7 @@ object StringsE {
     val htmlOptCompileTsFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编译 TypeScript: %s"
         AppLanguage.ENGLISH -> "Compiling TypeScript: %s"
+        AppLanguage.VIETNAMESE -> "Biên dịch TypeScript: %s"
         AppLanguage.ARABIC -> "تجميع TypeScript: %s"
         AppLanguage.PORTUGUESE -> "Compilando TypeScript: %s"
         AppLanguage.SPANISH -> "Compilando TypeScript: %s"
@@ -8531,6 +9212,7 @@ object StringsE {
     val htmlOptCompressJsFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 JS: %s"
         AppLanguage.ENGLISH -> "Compressing JS: %s"
+        AppLanguage.VIETNAMESE -> "Nén JS: %s"
         AppLanguage.ARABIC -> "ضغط JS: %s"
         AppLanguage.PORTUGUESE -> "Comprimindo JS: %s"
         AppLanguage.SPANISH -> "Comprimiendo JS: %s"
@@ -8543,6 +9225,7 @@ object StringsE {
     val htmlOptCompressCssFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "压缩 CSS: %s"
         AppLanguage.ENGLISH -> "Compressing CSS: %s"
+        AppLanguage.VIETNAMESE -> "Nén CSS: %s"
         AppLanguage.ARABIC -> "ضغط CSS: %s"
         AppLanguage.PORTUGUESE -> "Comprimindo CSS: %s"
         AppLanguage.SPANISH -> "Comprimiendo CSS: %s"
@@ -8556,6 +9239,7 @@ object StringsE {
     val backupCollectingResources: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在收集资源: %s"
         AppLanguage.ENGLISH -> "Collecting resources: %s"
+        AppLanguage.VIETNAMESE -> "Thu thập tài nguyên: %s"
         AppLanguage.ARABIC -> "جمع الموارد: %s"
         AppLanguage.PORTUGUESE -> "Coletando recursos: %s"
         AppLanguage.SPANISH -> "Recopilando recursos: %s"
@@ -8568,6 +9252,7 @@ object StringsE {
     val backupExtracting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在解压: %s"
         AppLanguage.ENGLISH -> "Extracting: %s"
+        AppLanguage.VIETNAMESE -> "Đang giải nén: %s"
         AppLanguage.ARABIC -> "استخراج: %s"
         AppLanguage.PORTUGUESE -> "Extraindo: %s"
         AppLanguage.SPANISH -> "Extrayendo: %s"
@@ -8580,6 +9265,7 @@ object StringsE {
     val backupReadingData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在读取应用数据..."
         AppLanguage.ENGLISH -> "Reading app data..."
+        AppLanguage.VIETNAMESE -> "Đọc dữ liệu ứng dụng..."
         AppLanguage.ARABIC -> "قراءة بيانات التطبيق..."
         AppLanguage.PORTUGUESE -> "Lendo dados do app..."
         AppLanguage.SPANISH -> "Leyendo datos de la app..."
@@ -8592,6 +9278,7 @@ object StringsE {
     val backupCreatingFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在创建备份文件..."
         AppLanguage.ENGLISH -> "Creating backup file..."
+        AppLanguage.VIETNAMESE -> "Đang tạo tập tin sao lưu..."
         AppLanguage.ARABIC -> "إنشاء ملف النسخ الاحتياطي..."
         AppLanguage.PORTUGUESE -> "Criando arquivo de backup..."
         AppLanguage.SPANISH -> "Creando archivo de respaldo..."
@@ -8604,6 +9291,7 @@ object StringsE {
     val backupExportComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出完成"
         AppLanguage.ENGLISH -> "Export complete"
+        AppLanguage.VIETNAMESE -> "Xuất hoàn tất"
         AppLanguage.ARABIC -> "اكتمل التصدير"
         AppLanguage.PORTUGUESE -> "Exportação concluída"
         AppLanguage.SPANISH -> "Exportación completada"
@@ -8616,6 +9304,7 @@ object StringsE {
     val backupReadingBackup: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在读取备份文件..."
         AppLanguage.ENGLISH -> "Reading backup file..."
+        AppLanguage.VIETNAMESE -> "Đang đọc tập tin sao lưu..."
         AppLanguage.ARABIC -> "قراءة ملف النسخ الاحتياطي..."
         AppLanguage.PORTUGUESE -> "Lendo arquivo de backup..."
         AppLanguage.SPANISH -> "Leyendo archivo de respaldo..."
@@ -8628,6 +9317,7 @@ object StringsE {
     val backupImportingData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在导入应用数据..."
         AppLanguage.ENGLISH -> "Importing app data..."
+        AppLanguage.VIETNAMESE -> "Đang nhập dữ liệu ứng dụng..."
         AppLanguage.ARABIC -> "استيراد بيانات التطبيق..."
         AppLanguage.PORTUGUESE -> "Importando dados do app..."
         AppLanguage.SPANISH -> "Importando datos de la app..."
@@ -8640,6 +9330,7 @@ object StringsE {
     val backupImportComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入完成"
         AppLanguage.ENGLISH -> "Import complete"
+        AppLanguage.VIETNAMESE -> "Nhập hoàn tất"
         AppLanguage.ARABIC -> "اكتمل الاستيراد"
         AppLanguage.PORTUGUESE -> "Importação concluída"
         AppLanguage.SPANISH -> "Importación completada"
@@ -8653,6 +9344,7 @@ object StringsE {
     val backupPackaging: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在打包文件..."
         AppLanguage.ENGLISH -> "Packaging files..."
+        AppLanguage.VIETNAMESE -> "Đóng gói hồ sơ..."
         AppLanguage.ARABIC -> "جارٍ تغليف الملفات..."
         AppLanguage.PORTUGUESE -> "Empacotando arquivos..."
         AppLanguage.SPANISH -> "Empaquetando archivos..."
@@ -8665,6 +9357,7 @@ object StringsE {
     val backupImportingApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在导入：%s"
         AppLanguage.ENGLISH -> "Importing: %s"
+        AppLanguage.VIETNAMESE -> "Đang nhập: %s"
         AppLanguage.ARABIC -> "جارٍ الاستيراد: %s"
         AppLanguage.PORTUGUESE -> "Importando: %s"
         AppLanguage.SPANISH -> "Importando: %s"
@@ -8677,6 +9370,7 @@ object StringsE {
     val backupExportSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出成功：%1\$d 个应用，%2\$d 个资源文件"
         AppLanguage.ENGLISH -> "Exported: %1\$d apps, %2\$d resource files"
+        AppLanguage.VIETNAMESE -> "Đã xuất: ứng dụng %1\\$d, tệp tài nguyên %2\\$d"
         AppLanguage.ARABIC -> "تم التصدير: %1\$d تطبيقات، %2\$d ملفات موارد"
         AppLanguage.PORTUGUESE -> "Exportados: %1\$d apps, %2\$d arquivos de recursos"
         AppLanguage.SPANISH -> "Exportados: %1\$d apps, %2\$d archivos de recursos"
@@ -8689,6 +9383,7 @@ object StringsE {
     val backupImportSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用。部分设置需重启应用后生效。"
         AppLanguage.ENGLISH -> "Imported: %1\$d/%2\$d apps. Some settings apply after restarting the app."
+        AppLanguage.VIETNAMESE -> "Đã nhập: ứng dụng %1\\$d/%2\\$d. Một số cài đặt được áp dụng sau khi khởi động lại ứng dụng."
         AppLanguage.ARABIC -> "تم الاستيراد: %1\$d/%2\$d تطبيقات. تُطبَّق بعض الإعدادات بعد إعادة تشغيل التطبيق."
         AppLanguage.PORTUGUESE -> "Importados: %1\$d/%2\$d apps. Algumas configurações só se aplicam após reiniciar o app."
         AppLanguage.SPANISH -> "Importados: %1\$d/%2\$d apps. Algunas configuraciones se aplican tras reiniciar la app."
@@ -8701,6 +9396,7 @@ object StringsE {
     val backupImportSuccessDupes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入成功：%1\$d/%2\$d 个应用，跳过 %3\$d 个重复项。部分设置需重启应用后生效。"
         AppLanguage.ENGLISH -> "Imported: %1\$d/%2\$d apps, skipped %3\$d duplicates. Some settings apply after restarting the app."
+        AppLanguage.VIETNAMESE -> "Đã nhập: ứng dụng %1\\$d/%2\\$d, đã bỏ qua %3\\$d trùng lặp. Một số cài đặt được áp dụng sau khi khởi động lại ứng dụng."
         AppLanguage.ARABIC -> "تم الاستيراد: %1\$d/%2\$d تطبيقات، تم تخطي %3\$d مكررة. تُطبَّق بعض الإعدادات بعد إعادة تشغيل التطبيق."
         AppLanguage.PORTUGUESE -> "Importados: %1\$d/%2\$d apps, %3\$d duplicados ignorados. Algumas configurações só se aplicam após reiniciar o app."
         AppLanguage.SPANISH -> "Importados: %1\$d/%2\$d apps, %3\$d duplicados omitidos. Algunas configuraciones se aplican tras reiniciar la app."
@@ -8713,6 +9409,7 @@ object StringsE {
     val backupRestartTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要重启应用"
         AppLanguage.ENGLISH -> "Restart required"
+        AppLanguage.VIETNAMESE -> "Yêu cầu khởi động lại"
         AppLanguage.ARABIC -> "إعادة التشغيل مطلوبة"
         AppLanguage.PORTUGUESE -> "Reinício necessário"
         AppLanguage.SPANISH -> "Reinicio necesario"
@@ -8725,6 +9422,7 @@ object StringsE {
     val backupRestartMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "部分恢复的设置需要重启应用后才会生效。是否立即重启？"
         AppLanguage.ENGLISH -> "Some restored settings only take effect after a restart. Restart now?"
+        AppLanguage.VIETNAMESE -> "Một số cài đặt được khôi phục chỉ có hiệu lực sau khi khởi động lại. Khởi động lại bây giờ?"
         AppLanguage.ARABIC -> "بعض الإعدادات المستعادة لا تسري إلا بعد إعادة التشغيل. هل تريد إعادة التشغيل الآن؟"
         AppLanguage.PORTUGUESE -> "Algumas configurações restauradas só entram em vigor após reiniciar. Reiniciar agora?"
         AppLanguage.SPANISH -> "Algunos ajustes restaurados solo se aplican tras reiniciar. ¿Reiniciar ahora?"
@@ -8737,6 +9435,7 @@ object StringsE {
     val backupRestartNow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "立即重启"
         AppLanguage.ENGLISH -> "Restart now"
+        AppLanguage.VIETNAMESE -> "Khởi động lại ngay bây giờ"
         AppLanguage.ARABIC -> "إعادة التشغيل الآن"
         AppLanguage.PORTUGUESE -> "Reiniciar agora"
         AppLanguage.SPANISH -> "Reiniciar ahora"
@@ -8749,6 +9448,7 @@ object StringsE {
     val backupRestartLater: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "稍后"
         AppLanguage.ENGLISH -> "Later"
+        AppLanguage.VIETNAMESE -> "Sau đó"
         AppLanguage.ARABIC -> "لاحقًا"
         AppLanguage.PORTUGUESE -> "Mais tarde"
         AppLanguage.SPANISH -> "Más tarde"
@@ -8761,6 +9461,7 @@ object StringsE {
     val scrapeNoHtmlFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "抓取完成但未找到有效的 HTML 文件"
         AppLanguage.ENGLISH -> "Scrape completed but no valid HTML files found"
+        AppLanguage.VIETNAMESE -> "Quét hoàn tất nhưng không tìm thấy tệp HTML hợp lệ"
         AppLanguage.ARABIC -> "اكتمل الكشف لكن لم يتم العثور على ملفات HTML صالحة"
         AppLanguage.PORTUGUESE -> "Extração concluída, mas nenhum arquivo HTML válido encontrado"
         AppLanguage.SPANISH -> "Extracción completada, pero no se encontraron archivos HTML válidos"
@@ -8773,6 +9474,7 @@ object StringsE {
     val scrapePackFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网站离线打包失败: %s"
         AppLanguage.ENGLISH -> "Website offline packaging failed: %s"
+        AppLanguage.VIETNAMESE -> "Đóng gói ngoại tuyến trang web không thành công: %s"
         AppLanguage.ARABIC -> "فشل تغليف الموقع دون اتصال: %s"
         AppLanguage.PORTUGUESE -> "Falha no empacotamento offline do site: %s"
         AppLanguage.SPANISH -> "Error al empaquetar el sitio sin conexión: %s"
@@ -8785,6 +9487,7 @@ object StringsE {
     val scrapePackSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网站离线打包成功: %d 个文件, %s KB"
         AppLanguage.ENGLISH -> "Website offline packaging succeeded: %d files, %s KB"
+        AppLanguage.VIETNAMESE -> "Đóng gói ngoại tuyến trang web đã thành công: tệp %d, %s KB"
         AppLanguage.ARABIC -> "نجح تغليف الموقع دون اتصال: %d ملفات، %s كيلوبايت"
         AppLanguage.PORTUGUESE -> "Empacotamento offline do site concluído: %d arquivos, %s KB"
         AppLanguage.SPANISH -> "Empaquetado sin conexión del sitio completado: %d archivos, %s KB"
@@ -8798,6 +9501,7 @@ object StringsE {
     val aiConnectionOk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[OK] %s 连接成功"
         AppLanguage.ENGLISH -> "[OK] %s connected successfully"
+        AppLanguage.VIETNAMESE -> "[OK] %s đã kết nối thành công"
         AppLanguage.ARABIC -> "[OK] %s اتصال ناجح"
         AppLanguage.PORTUGUESE -> "[OK] %s conectado com sucesso"
         AppLanguage.SPANISH -> "[OK] %s conectado correctamente"
@@ -8810,6 +9514,7 @@ object StringsE {
     val aiConnectionFail: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "[FAIL] 连接失败: %s"
         AppLanguage.ENGLISH -> "[FAIL] Connection failed: %s"
+        AppLanguage.VIETNAMESE -> "[FAIL] Kết nối không thành công: %s"
         AppLanguage.ARABIC -> "[FAIL] فشل الاتصال: %s"
         AppLanguage.PORTUGUESE -> "[FALHA] Conexão falhou: %s"
         AppLanguage.SPANISH -> "[FALLO] Conexión fallida: %s"
@@ -8823,6 +9528,7 @@ object StringsE {
     val moduleTestMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模块测试"
         AppLanguage.ENGLISH -> "Module Test"
+        AppLanguage.VIETNAMESE -> "Kiểm tra mô-đun"
         AppLanguage.ARABIC -> "اختبار الوحدة"
         AppLanguage.PORTUGUESE -> "Teste de Módulo"
         AppLanguage.SPANISH -> "Prueba de Módulo"
@@ -8836,6 +9542,7 @@ object StringsE {
     val importNodeDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 项目目录不存在"
         AppLanguage.ENGLISH -> "Node.js project directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án Node.js"
         AppLanguage.ARABIC -> "دليل مشروع Node.js غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório do projeto Node.js não encontrado"
         AppLanguage.SPANISH -> "Directorio del proyecto Node.js no encontrado"
@@ -8848,6 +9555,7 @@ object StringsE {
     val importPackageJsonNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到 package.json"
         AppLanguage.ENGLISH -> "package.json not found"
+        AppLanguage.VIETNAMESE -> "không tìm thấy gói.json"
         AppLanguage.ARABIC -> "لم يتم العثور على package.json"
         AppLanguage.PORTUGUESE -> "package.json não encontrado"
         AppLanguage.SPANISH -> "package.json no encontrado"
@@ -8860,6 +9568,7 @@ object StringsE {
     val importGoDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 项目目录不存在"
         AppLanguage.ENGLISH -> "Go project directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án"
         AppLanguage.ARABIC -> "دليل مشروع Go غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório do projeto Go não encontrado"
         AppLanguage.SPANISH -> "Directorio del proyecto Go no encontrado"
@@ -8872,6 +9581,7 @@ object StringsE {
     val importPhpDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 项目目录不存在"
         AppLanguage.ENGLISH -> "PHP project directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án PHP"
         AppLanguage.ARABIC -> "دليل مشروع PHP غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório do projeto PHP não encontrado"
         AppLanguage.SPANISH -> "Directorio del proyecto PHP no encontrado"
@@ -8884,6 +9594,7 @@ object StringsE {
     val importDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "目录不存在"
         AppLanguage.ENGLISH -> "Directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục"
         AppLanguage.ARABIC -> "الدليل غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório não encontrado"
         AppLanguage.SPANISH -> "Directorio no encontrado"
@@ -8896,6 +9607,7 @@ object StringsE {
     val importZipExtractFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ZIP 解压失败"
         AppLanguage.ENGLISH -> "ZIP extraction failed"
+        AppLanguage.VIETNAMESE -> "Trích xuất ZIP không thành công"
         AppLanguage.ARABIC -> "فشل استخراج ZIP"
         AppLanguage.PORTUGUESE -> "Falha na extração do ZIP"
         AppLanguage.SPANISH -> "Error al extraer el ZIP"
@@ -8908,6 +9620,7 @@ object StringsE {
     val importZipNoPhpFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ZIP 中未找到 PHP 文件"
         AppLanguage.ENGLISH -> "No PHP files found in ZIP"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tệp PHP nào trong ZIP"
         AppLanguage.ARABIC -> "لم يتم العثور على ملفات PHP في ZIP"
         AppLanguage.PORTUGUESE -> "Nenhum arquivo PHP encontrado no ZIP"
         AppLanguage.SPANISH -> "No se encontraron archivos PHP en el ZIP"
@@ -8920,6 +9633,7 @@ object StringsE {
     val importPythonDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 项目目录不存在"
         AppLanguage.ENGLISH -> "Python project directory not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án Python"
         AppLanguage.ARABIC -> "دليل مشروع Python غير موجود"
         AppLanguage.PORTUGUESE -> "Diretório do projeto Python não encontrado"
         AppLanguage.SPANISH -> "Directorio del proyecto Python no encontrado"
@@ -8933,6 +9647,7 @@ object StringsE {
     val frontendProjectDirNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目目录不存在: %s"
         AppLanguage.ENGLISH -> "Project directory not found: %s"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục dự án: %s"
         AppLanguage.ARABIC -> "دليل المشروع غير موجود: %s"
         AppLanguage.PORTUGUESE -> "Diretório do projeto não encontrado: %s"
         AppLanguage.SPANISH -> "Directorio del proyecto no encontrado: %s"
@@ -8945,6 +9660,7 @@ object StringsE {
     val frontendBuildOutputNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到构建输出目录，请先在电脑上运行 npm run build"
         AppLanguage.ENGLISH -> "Build output directory not found. Please run npm run build on your computer first"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thư mục đầu ra của bản dựng. Vui lòng chạy npm run build trên máy tính của bạn trước"
         AppLanguage.ARABIC -> "لم يتم العثور على دليل إخراج البناء. يرجى تشغيل npm run build على الكمبيوتر أولاً"
         AppLanguage.PORTUGUESE -> "Diretório de saída de build não encontrado. Execute npm run build no computador primeiro"
         AppLanguage.SPANISH -> "Directorio de salida de compilación no encontrado. Ejecuta npm run build en tu computadora primero"
@@ -8957,6 +9673,7 @@ object StringsE {
     val frontendIndexHtmlNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输出目录中未找到 index.html"
         AppLanguage.ENGLISH -> "index.html not found in output directory"
+        AppLanguage.VIETNAMESE -> "không tìm thấy index.html trong thư mục đầu ra"
         AppLanguage.ARABIC -> "لم يتم العثور على index.html في دليل الإخراج"
         AppLanguage.PORTUGUESE -> "index.html não encontrado no diretório de saída"
         AppLanguage.SPANISH -> "index.html no encontrado en el directorio de salida"
@@ -8969,6 +9686,7 @@ object StringsE {
     val frontendStaticSite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "静态网站"
         AppLanguage.ENGLISH -> "Static Website"
+        AppLanguage.VIETNAMESE -> "Trang web tĩnh"
         AppLanguage.ARABIC -> "موقع ثابت"
         AppLanguage.PORTUGUESE -> "Site Estático"
         AppLanguage.SPANISH -> "Sitio Estático"
@@ -8982,6 +9700,7 @@ object StringsE {
     val cryptoCustomPasswordRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此 APK 使用自定义密码加密，需要先调用 setCustomPassword() 设置密码"
         AppLanguage.ENGLISH -> "This APK is encrypted with a custom password. Please call setCustomPassword() first"
+        AppLanguage.VIETNAMESE -> "APK này được mã hóa bằng mật khẩu tùy chỉnh. Vui lòng gọi setCustomPassword() trước"
         AppLanguage.ARABIC -> "هذا APK مشفر بكلمة مرور مخصصة. يرجى استدعاء setCustomPassword() أولاً"
         AppLanguage.PORTUGUESE -> "Este APK está criptografado com uma senha personalizada. Chame setCustomPassword() primeiro"
         AppLanguage.SPANISH -> "Este APK está cifrado con una contraseña personalizada. Llama a setCustomPassword() primero"
@@ -8994,6 +9713,7 @@ object StringsE {
     val cryptoDecryptFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解密失败: %s"
         AppLanguage.ENGLISH -> "Decryption failed: %s"
+        AppLanguage.VIETNAMESE -> "Giải mã không thành công: %s"
         AppLanguage.ARABIC -> "فشل فك التشفير: %s"
         AppLanguage.PORTUGUESE -> "Falha na descriptografia: %s"
         AppLanguage.SPANISH -> "Error al descifrar: %s"
@@ -9006,6 +9726,7 @@ object StringsE {
     val cryptoDecryptFailedNoBackup: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解密失败且无明文备份: %s (原因: %s)"
         AppLanguage.ENGLISH -> "Decryption failed and no plaintext backup: %s (reason: %s)"
+        AppLanguage.VIETNAMESE -> "Giải mã không thành công và không có bản sao lưu văn bản gốc: %s (lý do: %s)"
         AppLanguage.ARABIC -> "فشل فك التشفير ولا يوجد نسخة احتياطية نصية: %s (السبب: %s)"
         AppLanguage.PORTUGUESE -> "Falha na descriptografia e sem backup em texto plano: %s (motivo: %s)"
         AppLanguage.SPANISH -> "Error al descifrar y sin respaldo en texto plano: %s (motivo: %s)"
@@ -9018,6 +9739,7 @@ object StringsE {
     val cryptoInvalidPathLength: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无效的路径长度: %d"
         AppLanguage.ENGLISH -> "Invalid path length: %d"
+        AppLanguage.VIETNAMESE -> "Độ dài đường dẫn không hợp lệ: %d"
         AppLanguage.ARABIC -> "طول مسار غير صالح: %d"
         AppLanguage.PORTUGUESE -> "Comprimento de caminho inválido: %d"
         AppLanguage.SPANISH -> "Longitud de ruta no válida: %d"
@@ -9030,6 +9752,7 @@ object StringsE {
     val cryptoEncryptFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加密失败: %s"
         AppLanguage.ENGLISH -> "Encryption failed: %s"
+        AppLanguage.VIETNAMESE -> "Mã hóa không thành công: %s"
         AppLanguage.ARABIC -> "فشل التشفير: %s"
         AppLanguage.PORTUGUESE -> "Falha na criptografia: %s"
         AppLanguage.SPANISH -> "Error al cifrar: %s"
@@ -9042,6 +9765,7 @@ object StringsE {
     val cryptoUnsupportedVersion: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "不支持的加密版本: %d"
         AppLanguage.ENGLISH -> "Unsupported encryption version: %d"
+        AppLanguage.VIETNAMESE -> "Phiên bản mã hóa không được hỗ trợ: %d"
         AppLanguage.ARABIC -> "إصدار تشفير غير مدعوم: %d"
         AppLanguage.PORTUGUESE -> "Versão de criptografia não suportada: %d"
         AppLanguage.SPANISH -> "Versión de cifrado no compatible: %d"
@@ -9054,6 +9778,7 @@ object StringsE {
     val cryptoEncryptAssetFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加密资源失败: %s"
         AppLanguage.ENGLISH -> "Failed to encrypt asset: %s"
+        AppLanguage.VIETNAMESE -> "Không thể mã hóa nội dung: %s"
         AppLanguage.ARABIC -> "فشل تشفير الأصل: %s"
         AppLanguage.PORTUGUESE -> "Falha ao criptografar recurso: %s"
         AppLanguage.SPANISH -> "Error al cifrar el recurso: %s"
@@ -9067,6 +9792,7 @@ object StringsE {
     val nodeLibNotFoundInZip: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "zip 中未找到 %s/libnode.so"
         AppLanguage.ENGLISH -> "%s/libnode.so not found in zip"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy %s/libnode.so trong zip"
         AppLanguage.ARABIC -> "لم يتم العثور على %s/libnode.so في zip"
         AppLanguage.PORTUGUESE -> "%s/libnode.so não encontrado no zip"
         AppLanguage.SPANISH -> "%s/libnode.so no encontrado en el zip"
@@ -9079,6 +9805,7 @@ object StringsE {
     val nodeEsbuildNotInstalled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "esbuild 未安装"
         AppLanguage.ENGLISH -> "esbuild not installed"
+        AppLanguage.VIETNAMESE -> "esbuild chưa được cài đặt"
         AppLanguage.ARABIC -> "esbuild غير مثبت"
         AppLanguage.PORTUGUESE -> "esbuild não instalado"
         AppLanguage.SPANISH -> "esbuild no instalado"
@@ -9092,6 +9819,7 @@ object StringsE {
     val lrcLineCount: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 行歌词"
         AppLanguage.ENGLISH -> "%d lyric lines"
+        AppLanguage.VIETNAMESE -> "Dòng lời bài hát %d"
         AppLanguage.ARABIC -> "%d سطور كلمات"
         AppLanguage.PORTUGUESE -> "%d linhas de letra"
         AppLanguage.SPANISH -> "%d líneas de letra"
@@ -9105,6 +9833,7 @@ object StringsE {
     val signInputValidationFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "签名输入验证失败: input=%s"
         AppLanguage.ENGLISH -> "Signature input validation failed: input=%s"
+        AppLanguage.VIETNAMESE -> "Xác thực đầu vào chữ ký không thành công: input=%s"
         AppLanguage.ARABIC -> "فشل التحقق من مدخلات التوقيع: input=%s"
         AppLanguage.PORTUGUESE -> "Falha na validação da entrada de assinatura: input=%s"
         AppLanguage.SPANISH -> "Error en la validación de entrada de firma: input=%s"
@@ -9117,6 +9846,7 @@ object StringsE {
     val signKeyInitFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "签名密钥初始化失败: %s"
         AppLanguage.ENGLISH -> "Signature key initialization failed: %s"
+        AppLanguage.VIETNAMESE -> "Khởi tạo khóa chữ ký không thành công: %s"
         AppLanguage.ARABIC -> "فشل تهيئة مفتاح التوقيع: %s"
         AppLanguage.PORTUGUESE -> "Falha na inicialização da chave de assinatura: %s"
         AppLanguage.SPANISH -> "Error en la inicialización de la clave de firma: %s"
@@ -9129,6 +9859,7 @@ object StringsE {
     val signApkFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 签名失败 (%d 种方案): %s"
         AppLanguage.ENGLISH -> "APK signing failed (%d schemes): %s"
+        AppLanguage.VIETNAMESE -> "Việc ký APK không thành công (sơ đồ %d): %s"
         AppLanguage.ARABIC -> "فشل توقيع APK (%d مخططات): %s"
         AppLanguage.PORTUGUESE -> "Falha na assinatura do APK (%d esquemas): %s"
         AppLanguage.SPANISH -> "Error al firmar el APK (%d esquemas): %s"
@@ -9142,6 +9873,7 @@ object StringsE {
     val zipTooManyEntries: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ZIP 文件包含过多条目（超过 %d）"
         AppLanguage.ENGLISH -> "ZIP file contains too many entries (over %d)"
+        AppLanguage.VIETNAMESE -> "Tệp ZIP chứa quá nhiều mục (trên %d)"
         AppLanguage.ARABIC -> "ملف ZIP يحتوي على عدد كبير جدًا من الإدخالات (أكثر من %d)"
         AppLanguage.PORTUGUESE -> "O arquivo ZIP contém entradas demais (mais de %d)"
         AppLanguage.SPANISH -> "El archivo ZIP contiene demasiadas entradas (más de %d)"
@@ -9154,6 +9886,7 @@ object StringsE {
     val zipSizeExceeded: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压后文件大小超过限制（%dMB）"
         AppLanguage.ENGLISH -> "Extracted file size exceeds limit (%dMB)"
+        AppLanguage.VIETNAMESE -> "Kích thước tệp được trích xuất vượt quá giới hạn (%dMB)"
         AppLanguage.ARABIC -> "حجم الملف المستخرج يتجاوز الحد (%dMB)"
         AppLanguage.PORTUGUESE -> "Tamanho do arquivo extraído excede o limite (%dMB)"
         AppLanguage.SPANISH -> "El tamaño del archivo extraído excede el límite (%dMB)"
@@ -9166,6 +9899,7 @@ object StringsE {
     val zipFileSizeExceeded: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ZIP 文件大小超过限制（%dMB）"
         AppLanguage.ENGLISH -> "ZIP file size exceeds limit (%dMB)"
+        AppLanguage.VIETNAMESE -> "Kích thước tệp ZIP vượt quá giới hạn (%dMB)"
         AppLanguage.ARABIC -> "حجم ملف ZIP يتجاوز الحد (%dMB)"
         AppLanguage.PORTUGUESE -> "Tamanho do arquivo ZIP excede o limite (%dMB)"
         AppLanguage.SPANISH -> "El tamaño del archivo ZIP excede el límite (%dMB)"
@@ -9178,6 +9912,7 @@ object StringsE {
     val zipCannotOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法打开 ZIP 文件"
         AppLanguage.ENGLISH -> "Cannot open ZIP file"
+        AppLanguage.VIETNAMESE -> "Không thể mở tệp ZIP"
         AppLanguage.ARABIC -> "لا يمكن فتح ملف ZIP"
         AppLanguage.PORTUGUESE -> "Não é possível abrir o arquivo ZIP"
         AppLanguage.SPANISH -> "No se puede abrir el archivo ZIP"
@@ -9190,6 +9925,7 @@ object StringsE {
     val zipExtractFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压失败: %s"
         AppLanguage.ENGLISH -> "Extraction failed: %s"
+        AppLanguage.VIETNAMESE -> "Trích xuất không thành công: %s"
         AppLanguage.ARABIC -> "فشل الاستخراج: %s"
         AppLanguage.PORTUGUESE -> "Falha na extração: %s"
         AppLanguage.SPANISH -> "Error al extraer: %s"
@@ -9202,6 +9938,7 @@ object StringsE {
     val zipEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ZIP 文件为空"
         AppLanguage.ENGLISH -> "ZIP file is empty"
+        AppLanguage.VIETNAMESE -> "Tệp ZIP trống"
         AppLanguage.ARABIC -> "ملف ZIP فارغ"
         AppLanguage.PORTUGUESE -> "O arquivo ZIP está vazio"
         AppLanguage.SPANISH -> "El archivo ZIP está vacío"
@@ -9215,6 +9952,7 @@ object StringsE {
     val musicCannotGetPlayUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法获取播放链接（可能是付费/VIP歌曲）"
         AppLanguage.ENGLISH -> "Cannot get playback URL (may be a paid/VIP song)"
+        AppLanguage.VIETNAMESE -> "Không thể lấy URL phát lại (có thể là bài hát trả phí/VIP)"
         AppLanguage.ARABIC -> "لا يمكن الحصول على رابط التشغيل (قد يكون أغنية مدفوعة/VIP)"
         AppLanguage.PORTUGUESE -> "Não foi possível obter a URL de reprodução (pode ser uma música paga/VIP)"
         AppLanguage.SPANISH -> "No se pudo obtener la URL de reproducción (puede ser una canción de pago/VIP)"
@@ -9227,6 +9965,7 @@ object StringsE {
     val musicChannelNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "渠道不存在: %s"
         AppLanguage.ENGLISH -> "Channel not found: %s"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy kênh: %s"
         AppLanguage.ARABIC -> "القناة غير موجودة: %s"
         AppLanguage.PORTUGUESE -> "Canal não encontrado: %s"
         AppLanguage.SPANISH -> "Canal no encontrado: %s"
@@ -9239,6 +9978,7 @@ object StringsE {
     val musicGetDetailFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取详情失败"
         AppLanguage.ENGLISH -> "Failed to get track details"
+        AppLanguage.VIETNAMESE -> "Không thể lấy chi tiết bản nhạc"
         AppLanguage.ARABIC -> "فشل الحصول على تفاصيل المسار"
         AppLanguage.PORTUGUESE -> "Falha ao obter detalhes da faixa"
         AppLanguage.SPANISH -> "Error al obtener los detalles de la pista"
@@ -9251,6 +9991,7 @@ object StringsE {
     val musicDataEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据为空"
         AppLanguage.ENGLISH -> "Data is empty"
+        AppLanguage.VIETNAMESE -> "Dữ liệu trống"
         AppLanguage.ARABIC -> "البيانات فارغة"
         AppLanguage.PORTUGUESE -> "Os dados estão vazios"
         AppLanguage.SPANISH -> "Los datos están vacíos"
@@ -9263,6 +10004,7 @@ object StringsE {
     val musicNetworkRequestFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络请求失败"
         AppLanguage.ENGLISH -> "Network request failed"
+        AppLanguage.VIETNAMESE -> "Yêu cầu mạng không thành công"
         AppLanguage.ARABIC -> "فشل طلب الشبكة"
         AppLanguage.PORTUGUESE -> "Falha na solicitação de rede"
         AppLanguage.SPANISH -> "Error en la solicitud de red"
@@ -9275,6 +10017,7 @@ object StringsE {
     val musicCannotGetPlayUrlPaid: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法获取播放链接（可能是付费歌曲）"
         AppLanguage.ENGLISH -> "Cannot get playback URL (may be a paid song)"
+        AppLanguage.VIETNAMESE -> "Không thể lấy URL phát lại (có thể là bài hát trả phí)"
         AppLanguage.ARABIC -> "لا يمكن الحصول على رابط التشغيل (قد تكون أغنية مدفوعة)"
         AppLanguage.PORTUGUESE -> "Não foi possível obter a URL de reprodução (pode ser uma música paga)"
         AppLanguage.SPANISH -> "No se pudo obtener la URL de reproducción (puede ser una canción de pago)"
@@ -9287,6 +10030,7 @@ object StringsE {
     val musicCannotGetPlayUrlShort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法获取播放链接"
         AppLanguage.ENGLISH -> "Cannot get playback URL"
+        AppLanguage.VIETNAMESE -> "Không thể lấy URL phát lại"
         AppLanguage.ARABIC -> "لا يمكن الحصول على رابط التشغيل"
         AppLanguage.PORTUGUESE -> "Não foi possível obter a URL de reprodução"
         AppLanguage.SPANISH -> "No se pudo obtener la URL de reproducción"
@@ -9299,6 +10043,7 @@ object StringsE {
     val musicNoSearchKeyword: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无搜索关键词"
         AppLanguage.ENGLISH -> "No search keyword"
+        AppLanguage.VIETNAMESE -> "Không có từ khóa tìm kiếm"
         AppLanguage.ARABIC -> "لا توجد كلمة بحث"
         AppLanguage.PORTUGUESE -> "Sem palavra-chave de busca"
         AppLanguage.SPANISH -> "Sin palabra clave de búsqueda"
@@ -9312,6 +10057,7 @@ object StringsE {
     val aiRequestFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求失败: %s - %s"
         AppLanguage.ENGLISH -> "Request failed: %s - %s"
+        AppLanguage.VIETNAMESE -> "Yêu cầu không thành công: %s - %s"
         AppLanguage.ARABIC -> "فشل الطلب: %s - %s"
         AppLanguage.PORTUGUESE -> "Falha na solicitação: %s - %s"
         AppLanguage.SPANISH -> "Error en la solicitud: %s - %s"
@@ -9324,6 +10070,7 @@ object StringsE {
     val aiApiNotConfigured: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未配置API地址"
         AppLanguage.ENGLISH -> "API address not configured"
+        AppLanguage.VIETNAMESE -> "Địa chỉ API chưa được định cấu hình"
         AppLanguage.ARABIC -> "لم يتم تكوين عنوان API"
         AppLanguage.PORTUGUESE -> "Endereço da API não configurado"
         AppLanguage.SPANISH -> "Dirección de API no configurada"
@@ -9336,6 +10083,7 @@ object StringsE {
     val aiApiNotConfiguredDetail: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未配置API地址，请在设置中填写Base URL"
         AppLanguage.ENGLISH -> "API address not configured. Please enter Base URL in settings"
+        AppLanguage.VIETNAMESE -> "Địa chỉ API chưa được định cấu hình. Vui lòng nhập URL cơ sở trong cài đặt"
         AppLanguage.ARABIC -> "لم يتم تكوين عنوان API. يرجى إدخال عنوان URL الأساسي في الإعدادات"
         AppLanguage.PORTUGUESE -> "Endereço da API não configurado. Insira a URL Base nas configurações"
         AppLanguage.SPANISH -> "Dirección de API no configurada. Ingresa la URL Base en la configuración"
@@ -9348,6 +10096,7 @@ object StringsE {
     val aiDeleteKeyConfirm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定要删除此 API Key 吗？"
         AppLanguage.ENGLISH -> "Delete this API key?"
+        AppLanguage.VIETNAMESE -> "Xóa khóa API này?"
         AppLanguage.ARABIC -> "هل تريد حذف مفتاح API هذا؟"
         AppLanguage.PORTUGUESE -> "Excluir esta chave de API?"
         AppLanguage.SPANISH -> "¿Eliminar esta clave de API?"
@@ -9360,6 +10109,7 @@ object StringsE {
     val aiDeleteKeyCascade: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此 Key 正被 %d 个已保存模型使用，将一并删除。"
         AppLanguage.ENGLISH -> "%d saved model(s) use this key and will be deleted too."
+        AppLanguage.VIETNAMESE -> "(Các) mẫu đã lưu %d sử dụng khóa này và cũng sẽ bị xóa."
         AppLanguage.ARABIC -> "يستخدم %d نموذجًا محفوظًا هذا المفتاح وسيتم حذفها أيضًا."
         AppLanguage.PORTUGUESE -> "%d modelo(s) salvo(s) usam esta chave e também serão excluídos."
         AppLanguage.SPANISH -> "%d modelo(s) guardado(s) usan esta clave y también se eliminarán."
@@ -9372,6 +10122,7 @@ object StringsE {
     val aiDeleteModelConfirm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定要删除该模型吗？"
         AppLanguage.ENGLISH -> "Delete this model?"
+        AppLanguage.VIETNAMESE -> "Xóa mô hình này?"
         AppLanguage.ARABIC -> "هل تريد حذف هذا النموذج؟"
         AppLanguage.PORTUGUESE -> "Excluir este modelo?"
         AppLanguage.SPANISH -> "¿Eliminar este modelo?"
@@ -9384,6 +10135,7 @@ object StringsE {
     val aiModelListEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "API 返回的模型列表为空"
         AppLanguage.ENGLISH -> "API returned empty model list"
+        AppLanguage.VIETNAMESE -> "API trả về danh sách mô hình trống"
         AppLanguage.ARABIC -> "أرجع API قائمة نماذج فارغة"
         AppLanguage.PORTUGUESE -> "A API retornou uma lista de modelos vazia"
         AppLanguage.SPANISH -> "La API devolvió una lista de modelos vacía"
@@ -9396,6 +10148,7 @@ object StringsE {
     val aiGetModelListError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取模型列表出错: %s"
         AppLanguage.ENGLISH -> "Error getting model list: %s"
+        AppLanguage.VIETNAMESE -> "Lỗi lấy danh sách model: %s"
         AppLanguage.ARABIC -> "خطأ في الحصول على قائمة النماذج: %s"
         AppLanguage.PORTUGUESE -> "Erro ao obter a lista de modelos: %s"
         AppLanguage.SPANISH -> "Error al obtener la lista de modelos: %s"
@@ -9408,6 +10161,7 @@ object StringsE {
     val aiGetModelListFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取模型列表失败: %s - %s"
         AppLanguage.ENGLISH -> "Failed to get model list: %s - %s"
+        AppLanguage.VIETNAMESE -> "Không lấy được danh sách model: %s - %s"
         AppLanguage.ARABIC -> "فشل الحصول على قائمة النماذج: %s - %s"
         AppLanguage.PORTUGUESE -> "Falha ao obter a lista de modelos: %s - %s"
         AppLanguage.SPANISH -> "Error al obtener la lista de modelos: %s - %s"
@@ -9420,6 +10174,7 @@ object StringsE {
     val aiGenerateFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "生成失败: %s"
         AppLanguage.ENGLISH -> "Generation failed: %s"
+        AppLanguage.VIETNAMESE -> "Thế hệ không thành công: %s"
         AppLanguage.ARABIC -> "فشل التوليد: %s"
         AppLanguage.PORTUGUESE -> "Falha na geração: %s"
         AppLanguage.SPANISH -> "Error en la generación: %s"
@@ -9432,6 +10187,7 @@ object StringsE {
     val aiImageGenerationFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图像生成失败: %s - %s"
         AppLanguage.ENGLISH -> "Image generation failed: %s - %s"
+        AppLanguage.VIETNAMESE -> "Tạo hình ảnh không thành công: %s - %s"
         AppLanguage.ARABIC -> "فشل توليد الصورة: %s - %s"
         AppLanguage.PORTUGUESE -> "Falha na geração de imagem: %s - %s"
         AppLanguage.SPANISH -> "Error en la generación de imagen: %s - %s"
@@ -9444,6 +10200,7 @@ object StringsE {
     val aiImageDownloadFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载图像失败: %s"
         AppLanguage.ENGLISH -> "Image download failed: %s"
+        AppLanguage.VIETNAMESE -> "Tải xuống hình ảnh không thành công: %s"
         AppLanguage.ARABIC -> "فشل تنزيل الصورة: %s"
         AppLanguage.PORTUGUESE -> "Falha no download da imagem: %s"
         AppLanguage.SPANISH -> "Error al descargar la imagen: %s"
@@ -9456,6 +10213,7 @@ object StringsE {
     val aiCannotParseResponse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法解析响应"
         AppLanguage.ENGLISH -> "Cannot parse response"
+        AppLanguage.VIETNAMESE -> "Không thể phân tích phản hồi"
         AppLanguage.ARABIC -> "لا يمكن تحليل الاستجابة"
         AppLanguage.PORTUGUESE -> "Não foi possível analisar a resposta"
         AppLanguage.SPANISH -> "No se pudo analizar la respuesta"
@@ -9468,6 +10226,7 @@ object StringsE {
     val musicUnknownArtist: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未知歌手"
         AppLanguage.ENGLISH -> "Unknown Artist"
+        AppLanguage.VIETNAMESE -> "Nghệ sĩ vô danh"
         AppLanguage.ARABIC -> "فنان غير معروف"
         AppLanguage.PORTUGUESE -> "Artista desconhecido"
         AppLanguage.SPANISH -> "Artista desconocido"
@@ -9480,6 +10239,7 @@ object StringsE {
     val musicSearchFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索失败"
         AppLanguage.ENGLISH -> "Search failed"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm không thành công"
         AppLanguage.ARABIC -> "فشل البحث"
         AppLanguage.PORTUGUESE -> "Falha na busca"
         AppLanguage.SPANISH -> "Error en la búsqueda"
@@ -9492,6 +10252,7 @@ object StringsE {
     val musicSearchNoResult: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索无结果"
         AppLanguage.ENGLISH -> "No search results"
+        AppLanguage.VIETNAMESE -> "Không có kết quả tìm kiếm"
         AppLanguage.ARABIC -> "لا توجد نتائج بحث"
         AppLanguage.PORTUGUESE -> "Nenhum resultado de busca"
         AppLanguage.SPANISH -> "Sin resultados de búsqueda"
@@ -9505,6 +10266,7 @@ object StringsE {
     val githubImportTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "从 GitHub 导入"
         AppLanguage.ENGLISH -> "Import from GitHub"
+        AppLanguage.VIETNAMESE -> "Nhập từ GitHub"
         AppLanguage.ARABIC -> "استيراد من GitHub"
         AppLanguage.PORTUGUESE -> "Importar do GitHub"
         AppLanguage.SPANISH -> "Importar desde GitHub"
@@ -9517,6 +10279,7 @@ object StringsE {
     val githubImportSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "粘贴 GitHub 仓库链接，自动下载并分析项目"
         AppLanguage.ENGLISH -> "Paste a GitHub repository link to auto-download and analyze the project"
+        AppLanguage.VIETNAMESE -> "Dán liên kết kho lưu trữ GitHub để tự động tải xuống và phân tích dự án"
         AppLanguage.ARABIC -> "الصق رابط مستودع GitHub لتنزيل المشروع وتحليله تلقائيًا"
         AppLanguage.PORTUGUESE -> "Cole um link de repositório do GitHub para baixar e analisar o projeto automaticamente"
         AppLanguage.SPANISH -> "Pega un enlace de repositorio de GitHub para descargar y analizar el proyecto automáticamente"
@@ -9529,6 +10292,7 @@ object StringsE {
     val githubUrlLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "GitHub 仓库链接"
         AppLanguage.ENGLISH -> "GitHub Repository URL"
+        AppLanguage.VIETNAMESE -> "URL kho lưu trữ GitHub"
         AppLanguage.ARABIC -> "رابط مستودع GitHub"
         AppLanguage.PORTUGUESE -> "URL do repositório do GitHub"
         AppLanguage.SPANISH -> "URL del repositorio de GitHub"
@@ -9542,6 +10306,7 @@ object StringsE {
     val githubBranchLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分支（可选）"
         AppLanguage.ENGLISH -> "Branch (optional)"
+        AppLanguage.VIETNAMESE -> "Chi nhánh (tùy chọn)"
         AppLanguage.ARABIC -> "الفرع (اختياري)"
         AppLanguage.PORTUGUESE -> "Branch (opcional)"
         AppLanguage.SPANISH -> "Rama (opcional)"
@@ -9554,6 +10319,7 @@ object StringsE {
     val githubBranchPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认 main / master"
         AppLanguage.ENGLISH -> "Defaults to main / master"
+        AppLanguage.VIETNAMESE -> "Mặc định là chính/chính"
         AppLanguage.ARABIC -> "الافتراضي main / master"
         AppLanguage.PORTUGUESE -> "Padrão: main / master"
         AppLanguage.SPANISH -> "Por defecto: main / master"
@@ -9566,6 +10332,7 @@ object StringsE {
     val githubSubPathLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "子目录（可选）"
         AppLanguage.ENGLISH -> "Sub-path (optional)"
+        AppLanguage.VIETNAMESE -> "Đường dẫn phụ (tùy chọn)"
         AppLanguage.ARABIC -> "المسار الفرعي (اختياري)"
         AppLanguage.PORTUGUESE -> "Subcaminho (opcional)"
         AppLanguage.SPANISH -> "Subruta (opcional)"
@@ -9578,6 +10345,7 @@ object StringsE {
     val githubSubPathPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "如 apps/web"
         AppLanguage.ENGLISH -> "e.g. apps/web"
+        AppLanguage.VIETNAMESE -> "ví dụ. ứng dụng/web"
         AppLanguage.ARABIC -> "مثال: apps/web"
         AppLanguage.PORTUGUESE -> "ex. apps/web"
         AppLanguage.SPANISH -> "p. ej. apps/web"
@@ -9590,6 +10358,7 @@ object StringsE {
     val githubResolving: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解析仓库..."
         AppLanguage.ENGLISH -> "Resolving repository..."
+        AppLanguage.VIETNAMESE -> "Đang giải quyết kho lưu trữ..."
         AppLanguage.ARABIC -> "جارٍ تحليل المستودع..."
         AppLanguage.PORTUGUESE -> "Resolvendo repositório..."
         AppLanguage.SPANISH -> "Resolviendo repositorio..."
@@ -9602,6 +10371,7 @@ object StringsE {
     val githubDownloading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载中..."
         AppLanguage.ENGLISH -> "Downloading..."
+        AppLanguage.VIETNAMESE -> "Đang tải xuống..."
         AppLanguage.ARABIC -> "جارٍ التنزيل..."
         AppLanguage.PORTUGUESE -> "Baixando..."
         AppLanguage.SPANISH -> "Descargando..."
@@ -9614,6 +10384,7 @@ object StringsE {
     val githubExtracting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压中..."
         AppLanguage.ENGLISH -> "Extracting..."
+        AppLanguage.VIETNAMESE -> "Đang trích xuất..."
         AppLanguage.ARABIC -> "جارٍ فك الضغط..."
         AppLanguage.PORTUGUESE -> "Extraindo..."
         AppLanguage.SPANISH -> "Extrayendo..."
@@ -9626,6 +10397,7 @@ object StringsE {
     val githubFetchSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已下载到本地，可继续构建"
         AppLanguage.ENGLISH -> "Downloaded to local storage, ready to build"
+        AppLanguage.VIETNAMESE -> "Đã tải xuống bộ nhớ cục bộ, sẵn sàng xây dựng"
         AppLanguage.ARABIC -> "تم التنزيل إلى التخزين المحلي، جاهز للبناء"
         AppLanguage.PORTUGUESE -> "Baixado para o armazenamento local, pronto para build"
         AppLanguage.SPANISH -> "Descargado al almacenamiento local, listo para compilar"
@@ -9638,6 +10410,7 @@ object StringsE {
     val githubFetchFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入失败：%s"
         AppLanguage.ENGLISH -> "Import failed: %s"
+        AppLanguage.VIETNAMESE -> "Nhập không thành công: %s"
         AppLanguage.ARABIC -> "فشل الاستيراد: %s"
         AppLanguage.PORTUGUESE -> "Falha na importação: %s"
         AppLanguage.SPANISH -> "Error al importar: %s"
@@ -9650,6 +10423,7 @@ object StringsE {
     val githubFetchAndAnalyze: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "获取并分析"
         AppLanguage.ENGLISH -> "Fetch & Analyze"
+        AppLanguage.VIETNAMESE -> "Tìm nạp & Phân tích"
         AppLanguage.ARABIC -> "جلب وتحليل"
         AppLanguage.PORTUGUESE -> "Obter e Analisar"
         AppLanguage.SPANISH -> "Obtener y Analizar"
@@ -9663,6 +10437,7 @@ object StringsE {
     val installPhpRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此 APK 未内置 PHP"
         AppLanguage.ENGLISH -> "PHP not bundled in APK"
+        AppLanguage.VIETNAMESE -> "PHP không được gói trong APK"
         AppLanguage.ARABIC -> "PHP غير مضمَّن في APK"
         AppLanguage.PORTUGUESE -> "PHP não incluído no APK"
         AppLanguage.SPANISH -> "PHP no incluido en el APK"
@@ -9675,6 +10450,7 @@ object StringsE {
     val installComposerLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装 Composer"
         AppLanguage.ENGLISH -> "Install Composer"
+        AppLanguage.VIETNAMESE -> "Cài đặt trình soạn thảo"
         AppLanguage.ARABIC -> "تثبيت Composer"
         AppLanguage.PORTUGUESE -> "Instalar Composer"
         AppLanguage.SPANISH -> "Instalar Composer"
@@ -9687,6 +10463,7 @@ object StringsE {
     val installPythonRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装 Python 运行时"
         AppLanguage.ENGLISH -> "Install Python runtime"
+        AppLanguage.VIETNAMESE -> "Cài đặt thời gian chạy Python"
         AppLanguage.ARABIC -> "تثبيت بيئة تشغيل Python"
         AppLanguage.PORTUGUESE -> "Instalar runtime do Python"
         AppLanguage.SPANISH -> "Instalar runtime de Python"
@@ -9699,6 +10476,7 @@ object StringsE {
     val composerNeedsPhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Composer 依赖 PHP，请先安装 PHP 运行时"
         AppLanguage.ENGLISH -> "Composer requires PHP. Install the PHP runtime first."
+        AppLanguage.VIETNAMESE -> "Trình soạn thảo yêu cầu PHP. Trước tiên hãy cài đặt thời gian chạy PHP."
         AppLanguage.ARABIC -> "يتطلب Composer وجود PHP. ثبّت بيئة تشغيل PHP أولاً."
         AppLanguage.PORTUGUESE -> "O Composer requer PHP. Instale o runtime do PHP primeiro."
         AppLanguage.SPANISH -> "Composer requiere PHP. Instala el runtime de PHP primero."
@@ -9711,6 +10489,7 @@ object StringsE {
     val installDepsInAppTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在 App 内安装依赖"
         AppLanguage.ENGLISH -> "Install dependencies in app"
+        AppLanguage.VIETNAMESE -> "Cài đặt phụ thuộc trong ứng dụng"
         AppLanguage.ARABIC -> "تثبيت التبعيات داخل التطبيق"
         AppLanguage.PORTUGUESE -> "Instalar dependências no app"
         AppLanguage.SPANISH -> "Instalar dependencias en la app"
@@ -9723,6 +10502,7 @@ object StringsE {
     val installDepsInAppDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "直接在手机上跑 composer install / pip install，无需电脑。需要先在「本地构建环境」里安装对应运行时。"
         AppLanguage.ENGLISH -> "Run composer install / pip install directly on phone, no PC needed. Make sure the runtime is installed under \"Local Build Environment\" first."
+        AppLanguage.VIETNAMESE -> "Chạy cài đặt trình soạn thảo/cài đặt pip trực tiếp trên điện thoại, không cần PC. Trước tiên, hãy đảm bảo thời gian chạy được cài đặt trong \"Môi trường xây dựng cục bộ\"."
         AppLanguage.ARABIC -> "تشغيل composer install / pip install مباشرة على الهاتف دون كمبيوتر. تأكد من تثبيت بيئة التشغيل في \"بيئة البناء المحلية\" أولاً."
         AppLanguage.PORTUGUESE -> "Execute composer install / pip install diretamente no celular, sem PC. Instale o runtime em \"Ambiente de Build Local\" primeiro."
         AppLanguage.SPANISH -> "Ejecuta composer install / pip install directamente en el teléfono, sin PC. Instala el runtime en \"Entorno de Compilación Local\" primero."
@@ -9735,6 +10515,7 @@ object StringsE {
     val runComposerInstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行 composer install"
         AppLanguage.ENGLISH -> "Run composer install"
+        AppLanguage.VIETNAMESE -> "Chạy cài đặt trình soạn thảo"
         AppLanguage.ARABIC -> "تشغيل composer install"
         AppLanguage.PORTUGUESE -> "Executar composer install"
         AppLanguage.SPANISH -> "Ejecutar composer install"
@@ -9747,6 +10528,7 @@ object StringsE {
     val runPipInstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行 pip install"
         AppLanguage.ENGLISH -> "Run pip install"
+        AppLanguage.VIETNAMESE -> "Chạy cài đặt pip"
         AppLanguage.ARABIC -> "تشغيل pip install"
         AppLanguage.PORTUGUESE -> "Executar pip install"
         AppLanguage.SPANISH -> "Ejecutar pip install"
@@ -9759,6 +10541,7 @@ object StringsE {
     val depsInstalling: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在安装依赖…"
         AppLanguage.ENGLISH -> "Installing dependencies…"
+        AppLanguage.VIETNAMESE -> "Đang cài đặt các phần phụ thuộc…"
         AppLanguage.ARABIC -> "جارٍ تثبيت التبعيات…"
         AppLanguage.PORTUGUESE -> "Instalando dependências…"
         AppLanguage.SPANISH -> "Instalando dependencias…"
@@ -9771,6 +10554,7 @@ object StringsE {
     val depsInstallSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "依赖安装完成"
         AppLanguage.ENGLISH -> "Dependencies installed"
+        AppLanguage.VIETNAMESE -> "Đã cài đặt phụ thuộc"
         AppLanguage.ARABIC -> "تم تثبيت التبعيات"
         AppLanguage.PORTUGUESE -> "Dependências instaladas"
         AppLanguage.SPANISH -> "Dependencias instaladas"
@@ -9783,6 +10567,7 @@ object StringsE {
     val depsInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "依赖安装失败"
         AppLanguage.ENGLISH -> "Dependency install failed"
+        AppLanguage.VIETNAMESE -> "Cài đặt phụ thuộc không thành công"
         AppLanguage.ARABIC -> "فشل تثبيت التبعيات"
         AppLanguage.PORTUGUESE -> "Falha na instalação de dependências"
         AppLanguage.SPANISH -> "Error al instalar dependencias"
@@ -9796,6 +10581,7 @@ object StringsE {
     val installDiagDnsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DNS 解析失败"
         AppLanguage.ENGLISH -> "DNS resolution failed"
+        AppLanguage.VIETNAMESE -> "Độ phân giải DNS không thành công"
         AppLanguage.ARABIC -> "فشل تحليل DNS"
         AppLanguage.PORTUGUESE -> "Falha na resolução de DNS"
         AppLanguage.SPANISH -> "Error en la resolución de DNS"
@@ -9809,6 +10595,7 @@ object StringsE {
     val installDiagDnsPhpMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP / Composer 在 Android 沙盒里无法读取系统 DNS 配置（这是静态 musl-libc PHP 的已知限制，不是项目本身的问题）。可尝试：① 切换 Wi-Fi / 移动网络；② 给 composer.json 配置已知 IP 的国内镜像（如 packagist.org.cn）；③ 临时使用 VPN。"
         AppLanguage.ENGLISH -> "PHP / Composer cannot read the system DNS config inside the Android sandbox (a known limitation of static musl-libc PHP, not a project issue). Try: 1) switch Wi-Fi or mobile data; 2) configure a mirror with a known IP in composer.json (e.g. a regional mirror); 3) use a VPN temporarily."
+        AppLanguage.VIETNAMESE -> "PHP/Trình soạn thảo không thể đọc cấu hình DNS hệ thống bên trong hộp cát Android (một hạn chế đã biết của PHP musl-libc tĩnh, không phải là vấn đề của dự án). Hãy thử: 1) chuyển đổi Wi-Fi hoặc dữ liệu di động; 2) định cấu hình máy nhân bản có IP đã biết trong Composer.json (ví dụ: máy nhân bản khu vực); 3) sử dụng VPN tạm thời."
         AppLanguage.ARABIC -> "لا يمكن لـ PHP / Composer قراءة إعدادات DNS داخل صندوق رمل Android (قيد معروف لـ PHP المبني على musl-libc الثابت). جرّب: ١) التبديل بين Wi-Fi والبيانات؛ ٢) ضبط مرآة بعنوان IP معروف في composer.json؛ ٣) استخدام VPN مؤقتًا."
         AppLanguage.PORTUGUESE -> "O PHP / Composer não consegue ler a configuração de DNS do sistema dentro do sandbox do Android (uma limitação conhecida do PHP estático com musl-libc, não um problema do projeto). Tente: 1) alternar Wi-Fi ou dados móveis; 2) configurar um mirror com IP conhecido no composer.json (ex. um mirror regional); 3) usar uma VPN temporariamente."
         AppLanguage.SPANISH -> "PHP / Composer no puede leer la configuración DNS del sistema dentro del sandbox de Android (una limitación conocida de PHP estático con musl-libc, no un problema del proyecto). Prueba: 1) cambiar Wi-Fi o datos móviles; 2) configurar un mirror con IP conocido en composer.json (p. ej. un mirror regional); 3) usar una VPN temporalmente."
@@ -9822,6 +10609,7 @@ object StringsE {
     val installDiagDnsPythonMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "pip 在 Android 沙盒里无法解析域名（musl Python 的 DNS 限制）。可尝试：① 切换 Wi-Fi / 移动网络；② 用 -i 指定已知国内镜像，如 https://pypi.tuna.tsinghua.edu.cn/simple；③ 临时挂 VPN。"
         AppLanguage.ENGLISH -> "pip cannot resolve hostnames in the Android sandbox (musl Python DNS limitation). Try: 1) switch network; 2) use -i with a regional mirror like https://pypi.tuna.tsinghua.edu.cn/simple; 3) use a VPN temporarily."
+        AppLanguage.VIETNAMESE -> "pip không thể phân giải tên máy chủ trong hộp cát Android (hạn chế DNS Python). Hãy thử: 1) chuyển mạng; 2) sử dụng -i với máy nhân bản khu vực như https://pypi.tuna.tsinghua.edu.cn/simple; 3) sử dụng VPN tạm thời."
         AppLanguage.ARABIC -> "لا يمكن لـ pip تحليل أسماء المضيفين داخل صندوق رمل Android. جرّب: ١) تبديل الشبكة؛ ٢) استخدام -i مع مرآة محلية؛ ٣) استخدام VPN مؤقتًا."
         AppLanguage.PORTUGUESE -> "O pip não consegue resolver nomes de host no sandbox do Android (limitação de DNS do musl Python). Tente: 1) trocar de rede; 2) usar -i com um mirror regional como https://pypi.tuna.tsinghua.edu.cn/simple; 3) usar uma VPN temporariamente."
         AppLanguage.SPANISH -> "pip no puede resolver nombres de host en el sandbox de Android (limitación de DNS de musl Python). Prueba: 1) cambiar de red; 2) usar -i con un mirror regional como https://pypi.tuna.tsinghua.edu.cn/simple; 3) usar una VPN temporalmente."
@@ -9835,6 +10623,7 @@ object StringsE {
     val installDiagDnsNodeMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "npm 无法解析仓库域名。可尝试：① 切换 Wi-Fi / 移动网络；② 配置 npm registry 为国内镜像：npm config set registry https://registry.npmmirror.com；③ 临时挂 VPN。"
         AppLanguage.ENGLISH -> "npm cannot resolve registry hostnames. Try: 1) switch network; 2) point npm at a regional mirror: npm config set registry <mirror>; 3) use a VPN temporarily."
+        AppLanguage.VIETNAMESE -> "npm không thể phân giải tên máy chủ đăng ký. Hãy thử: 1) chuyển mạng; 2) trỏ npm vào máy nhân bản khu vực: npm config set register <mirror>; 3) sử dụng VPN tạm thời."
         AppLanguage.ARABIC -> "لا يمكن لـ npm تحليل أسماء مضيفي السجل. جرّب: ١) تبديل الشبكة؛ ٢) ضبط مرآة سجل npm؛ ٣) استخدام VPN مؤقتًا."
         AppLanguage.PORTUGUESE -> "O npm não consegue resolver nomes de host do registry. Tente: 1) trocar de rede; 2) apontar o npm para um mirror regional: npm config set registry <mirror>; 3) usar uma VPN temporariamente."
         AppLanguage.SPANISH -> "npm no puede resolver los nombres de host del registry. Prueba: 1) cambiar de red; 2) apuntar npm a un mirror regional: npm config set registry <mirror>; 3) usar una VPN temporalmente."
@@ -9848,6 +10637,7 @@ object StringsE {
     val installDiagNetworkTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络连接失败"
         AppLanguage.ENGLISH -> "Network connection failed"
+        AppLanguage.VIETNAMESE -> "Kết nối mạng không thành công"
         AppLanguage.ARABIC -> "فشل الاتصال بالشبكة"
         AppLanguage.PORTUGUESE -> "Falha na conexão de rede"
         AppLanguage.SPANISH -> "Error en la conexión de red"
@@ -9861,6 +10651,7 @@ object StringsE {
     val installDiagNetworkMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DNS 能解析但 TCP 连接超时或被拒。可能是：① 当前网络屏蔽了仓库源；② 仓库服务器临时不可达；③ 防火墙 / 代理拦截。可尝试切换网络、换镜像源或挂 VPN 后重试。"
         AppLanguage.ENGLISH -> "DNS works but TCP connection timed out or was refused. Likely: 1) the current network blocks the repository; 2) the registry is temporarily down; 3) firewall / proxy interference. Try switching network, using a mirror, or a VPN."
+        AppLanguage.VIETNAMESE -> "DNS hoạt động nhưng kết nối TCP hết thời gian chờ hoặc bị từ chối. Có khả năng: 1) mạng hiện tại chặn kho lưu trữ; 2) sổ đăng ký tạm thời ngừng hoạt động; 3) nhiễu tường lửa / proxy. Hãy thử chuyển đổi mạng, sử dụng máy nhân bản hoặc VPN."
         AppLanguage.ARABIC -> "DNS يعمل لكن انتهت مهلة TCP أو رُفض الاتصال. الأسباب المحتملة: ١) الشبكة تحجب المستودع؛ ٢) السجل غير متاح مؤقتًا؛ ٣) جدار ناري أو وكيل يعترض. جرّب الشبكة أو المرآة أو VPN."
         AppLanguage.PORTUGUESE -> "O DNS resolve, mas a conexão TCP expirou ou foi recusada. Provável: 1) a rede atual bloqueia o repositório; 2) o registry está temporariamente indisponível; 3) interferência de firewall / proxy. Tente trocar de rede, usar um mirror ou uma VPN."
         AppLanguage.SPANISH -> "El DNS funciona, pero la conexión TCP expiró o fue rechazada. Probablemente: 1) la red actual bloquea el repositorio; 2) el registry está temporalmente caído; 3) interferencia de firewall / proxy. Prueba cambiar de red, usar un mirror o una VPN."
@@ -9874,6 +10665,7 @@ object StringsE {
     val installDiagSslTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SSL / 证书验证失败"
         AppLanguage.ENGLISH -> "SSL / certificate verification failed"
+        AppLanguage.VIETNAMESE -> "Xác minh SSL/chứng chỉ không thành công"
         AppLanguage.ARABIC -> "فشل التحقق من شهادة SSL"
         AppLanguage.PORTUGUESE -> "Falha na verificação de SSL / certificado"
         AppLanguage.SPANISH -> "Error en la verificación de SSL / certificado"
@@ -9887,6 +10679,7 @@ object StringsE {
     val installDiagSslMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "TLS 握手失败。常见原因：① 设备时间不对（请检查系统时间）；② 仓库证书过期；③ 中间人代理（公司 / 公共 Wi-Fi）。检查时间或换网络后重试。"
         AppLanguage.ENGLISH -> "TLS handshake failed. Common causes: 1) device clock is wrong (check system time); 2) the registry's certificate has expired; 3) a man-in-the-middle proxy (corporate / public Wi-Fi). Fix the clock or switch network, then retry."
+        AppLanguage.VIETNAMESE -> "Bắt tay TLS không thành công. Nguyên nhân thường gặp: 1) đồng hồ thiết bị sai (kiểm tra thời gian hệ thống); 2) chứng chỉ của cơ quan đăng ký đã hết hạn; 3) proxy trung gian (Wi-Fi công ty/công cộng). Hãy sửa đồng hồ hoặc chuyển mạng rồi thử lại."
         AppLanguage.ARABIC -> "فشل توافق TLS. الأسباب الشائعة: ١) ساعة الجهاز غير صحيحة؛ ٢) انتهت صلاحية شهادة السجل؛ ٣) وكيل وسيط (شبكات عامة / شركات). صحّح الوقت أو بدّل الشبكة وأعد المحاولة."
         AppLanguage.PORTUGUESE -> "Falha no handshake TLS. Causas comuns: 1) relógio do dispositivo errado (verifique a hora do sistema); 2) o certificado do registry expirou; 3) um proxy man-in-the-middle (Wi-Fi corporativo / público). Corrija o relógio ou troque de rede e tente novamente."
         AppLanguage.SPANISH -> "Error en el handshake TLS. Causas comunes: 1) el reloj del dispositivo está mal (comprueba la hora del sistema); 2) el certificado del registry ha caducado; 3) un proxy man-in-the-middle (Wi-Fi corporativo / público). Corrige el reloj o cambia de red e inténtalo de nuevo."
@@ -9900,6 +10693,7 @@ object StringsE {
     val installDiagDiskFullTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存储空间不足"
         AppLanguage.ENGLISH -> "Out of disk space"
+        AppLanguage.VIETNAMESE -> "Hết dung lượng đĩa"
         AppLanguage.ARABIC -> "نفدت مساحة التخزين"
         AppLanguage.PORTUGUESE -> "Sem espaço em disco"
         AppLanguage.SPANISH -> "Sin espacio en disco"
@@ -9913,6 +10707,7 @@ object StringsE {
     val installDiagDiskFullMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "依赖解压时设备存储已满。请清理空间后重试，或在「运行时依赖」页面里清掉不再使用的运行时缓存。"
         AppLanguage.ENGLISH -> "Storage filled up while extracting dependencies. Free up some space and retry, or clear unused runtime caches in the Runtime Dependencies screen."
+        AppLanguage.VIETNAMESE -> "Bộ nhớ đã đầy trong khi trích xuất các phần phụ thuộc. Giải phóng một số dung lượng và thử lại hoặc xóa bộ đệm thời gian chạy không sử dụng trong màn hình Phụ thuộc thời gian chạy."
         AppLanguage.ARABIC -> "امتلأت مساحة التخزين أثناء فك ضغط التبعيات. حرّر بعض المساحة أو امسح ذاكرة وقت التشغيل غير المستخدمة من شاشة 'تبعيات وقت التشغيل'."
         AppLanguage.PORTUGUESE -> "O armazenamento encheu ao extrair dependências. Libere espaço e tente novamente, ou limpe caches de runtime não utilizados na tela de Dependências de Runtime."
         AppLanguage.SPANISH -> "El almacenamiento se llenó al extraer dependencias. Libera espacio e inténtalo de nuevo, o borra las cachés de runtime no utilizadas en la pantalla de Dependencias de Runtime."
@@ -9925,6 +10720,7 @@ object StringsE {
     val viewLogs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看日志"
         AppLanguage.ENGLISH -> "View logs"
+        AppLanguage.VIETNAMESE -> "Xem nhật ký"
         AppLanguage.ARABIC -> "عرض السجلات"
         AppLanguage.PORTUGUESE -> "Ver logs"
         AppLanguage.SPANISH -> "Ver logs"
@@ -9937,6 +10733,7 @@ object StringsE {
     val phpRuntimeNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 运行时未就绪"
         AppLanguage.ENGLISH -> "PHP runtime not ready"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy PHP chưa sẵn sàng"
         AppLanguage.ARABIC -> "بيئة تشغيل PHP غير جاهزة"
         AppLanguage.PORTUGUESE -> "Runtime do PHP não está pronto"
         AppLanguage.SPANISH -> "El runtime de PHP no está listo"
@@ -9949,6 +10746,7 @@ object StringsE {
     val composerNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Composer 未安装"
         AppLanguage.ENGLISH -> "Composer not installed"
+        AppLanguage.VIETNAMESE -> "Trình soạn thảo chưa được cài đặt"
         AppLanguage.ARABIC -> "Composer غير مثبَّت"
         AppLanguage.PORTUGUESE -> "Composer não instalado"
         AppLanguage.SPANISH -> "Composer no instalado"
@@ -9961,6 +10759,7 @@ object StringsE {
     val pythonRuntimeNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 运行时未就绪"
         AppLanguage.ENGLISH -> "Python runtime not ready"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy Python chưa sẵn sàng"
         AppLanguage.ARABIC -> "بيئة تشغيل Python غير جاهزة"
         AppLanguage.PORTUGUESE -> "Runtime do Python não está pronto"
         AppLanguage.SPANISH -> "El runtime de Python no está listo"
@@ -9973,6 +10772,7 @@ object StringsE {
     val nodeRuntimeNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 工具链未就绪（Node + npm）"
         AppLanguage.ENGLISH -> "Node.js toolchain not ready (Node + npm)"
+        AppLanguage.VIETNAMESE -> "Chuỗi công cụ Node.js chưa sẵn sàng (Node + npm)"
         AppLanguage.ARABIC -> "سلسلة أدوات Node.js غير جاهزة (Node + npm)"
         AppLanguage.PORTUGUESE -> "A toolchain do Node.js não está pronta (Node + npm)"
         AppLanguage.SPANISH -> "La toolchain de Node.js no está lista (Node + npm)"
@@ -9985,6 +10785,7 @@ object StringsE {
     val runNpmInstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行 npm install"
         AppLanguage.ENGLISH -> "Run npm install"
+        AppLanguage.VIETNAMESE -> "Chạy cài đặt npm"
         AppLanguage.ARABIC -> "تشغيل npm install"
         AppLanguage.PORTUGUESE -> "Executar npm install"
         AppLanguage.SPANISH -> "Ejecutar npm install"
@@ -9997,6 +10798,7 @@ object StringsE {
     val openBuildEnvScreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "前往「本地构建环境」"
         AppLanguage.ENGLISH -> "Open Local Build Environment"
+        AppLanguage.VIETNAMESE -> "Môi trường xây dựng cục bộ mở"
         AppLanguage.ARABIC -> "افتح بيئة البناء المحلية"
         AppLanguage.PORTUGUESE -> "Abrir Ambiente de Build Local"
         AppLanguage.SPANISH -> "Abrir Entorno de Compilación Local"
@@ -10009,6 +10811,7 @@ object StringsE {
     val noProjectSelected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请先选择项目"
         AppLanguage.ENGLISH -> "Select a project first"
+        AppLanguage.VIETNAMESE -> "Chọn một dự án đầu tiên"
         AppLanguage.ARABIC -> "يرجى اختيار مشروع أولاً"
         AppLanguage.PORTUGUESE -> "Selecione um projeto primeiro"
         AppLanguage.SPANISH -> "Selecciona un proyecto primero"
@@ -10022,6 +10825,7 @@ object StringsE {
     val specialSettingsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "特殊设置"
         AppLanguage.ENGLISH -> "Special Settings"
+        AppLanguage.VIETNAMESE -> "Cài đặt đặc biệt"
         AppLanguage.ARABIC -> "إعدادات خاصة"
         AppLanguage.PORTUGUESE -> "Configurações Especiais"
         AppLanguage.SPANISH -> "Configuraciones Especiales"
@@ -10034,6 +10838,7 @@ object StringsE {
     val appReturnTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用回跳"
         AppLanguage.ENGLISH -> "App return"
+        AppLanguage.VIETNAMESE -> "Trả lại ứng dụng"
         AppLanguage.ARABIC -> "العودة إلى التطبيق"
         AppLanguage.PORTUGUESE -> "Retorno de app"
         AppLanguage.SPANISH -> "Retorno de app"
@@ -10046,6 +10851,7 @@ object StringsE {
     val appReturnDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "授权完成后，允许第三方应用（QQ、微博等）把控制权交回本应用。关闭后登录仍能打开对应 App，但回调无处可返，系统会提示没有可用于打开的应用。"
         AppLanguage.ENGLISH -> "Let third-party apps (QQ, Weibo, …) hand control back after an authorization. If off, the login still opens the provider app, but the callback has nowhere to return to and the system reports that no app can handle it."
+        AppLanguage.VIETNAMESE -> "Cho phép các ứng dụng của bên thứ ba (QQ, Weibo,…) kiểm soát lại sau khi ủy quyền. Nếu tắt, thông tin đăng nhập vẫn mở ứng dụng của nhà cung cấp nhưng cuộc gọi lại không có nơi nào để quay lại và hệ thống báo cáo rằng không ứng dụng nào có thể xử lý được."
         AppLanguage.ARABIC -> "السماح للتطبيقات الخارجية (QQ وWeibo وما شابه) بإعادة التحكم إلى هذا التطبيق بعد التفويض. عند الإيقاف، يفتح تسجيل الدخول تطبيق المزوّد لكن لا يجد الرد مسارًا للعودة."
         AppLanguage.PORTUGUESE -> "Permitir que apps de terceiros (QQ, Weibo, …) devolvam o controle após a autorização. Se desativado, o login abre o app do provedor, mas o retorno não tem para onde ir."
         AppLanguage.SPANISH -> "Permitir que apps de terceros (QQ, Weibo, …) devuelvan el control tras la autorización. Si se desactiva, el inicio de sesión abre el app del proveedor, pero la respuesta no tiene a dónde volver."
@@ -10058,6 +10864,7 @@ object StringsE {
     val appReturnCustomSchemesLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义回跳 scheme"
         AppLanguage.ENGLISH -> "Custom return schemes"
+        AppLanguage.VIETNAMESE -> "Chương trình hoàn trả tùy chỉnh"
         AppLanguage.ARABIC -> "مخططات العودة المخصصة"
         AppLanguage.PORTUGUESE -> "Esquemas de retorno personalizados"
         AppLanguage.SPANISH -> "Esquemas de retorno personalizados"
@@ -10070,6 +10877,7 @@ object StringsE {
     val appReturnCustomSchemesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "部分平台（如微信）的回调 scheme 与你在该平台注册的应用绑定，需自行填写。每行或用逗号分隔一个，例如 wx1234567890abcdef。"
         AppLanguage.ENGLISH -> "Some providers (e.g. WeChat) bind the callback scheme to the app id you registered with them, so it cannot ship as a default. One per line or comma-separated, e.g. wx1234567890abcdef."
+        AppLanguage.VIETNAMESE -> "Một số nhà cung cấp (ví dụ: WeChat) liên kết sơ đồ gọi lại với id ứng dụng mà bạn đã đăng ký với họ, vì vậy nó không thể gửi dưới dạng mặc định. Một cái trên mỗi dòng hoặc được phân tách bằng dấu phẩy, ví dụ: wx1234567890abcdef."
         AppLanguage.ARABIC -> "بعض المزوّدين (مثل WeChat) يربطون مخطط الاستجابة بمعرّف التطبيق المسجَّل لديهم، لذا يُدخَل يدويًا. واحد في كل سطر أو مفصولة بفواصل، مثل wx1234567890abcdef."
         AppLanguage.PORTUGUESE -> "Alguns provedores (ex.: WeChat) vinculam o esquema de retorno ao app id registrado neles e ele não pode vir como padrão. Um por linha ou separados por vírgula, ex.: wx1234567890abcdef."
         AppLanguage.SPANISH -> "Algunos proveedores (p. ej. WeChat) vinculan el esquema de retorno al app id registrado en ellos y no puede venir por defecto. Uno por línea o separados por comas, p. ej. wx1234567890abcdef."
@@ -10082,6 +10890,7 @@ object StringsE {
     val decodeBase64DeepLinksTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解码 Base64 深度链接"
         AppLanguage.ENGLISH -> "Decode Base64 Deep Links"
+        AppLanguage.VIETNAMESE -> "Giải mã các liên kết sâu Base64"
         AppLanguage.ARABIC -> "فك تشفير الروابط العميقة Base64"
         AppLanguage.PORTUGUESE -> "Decodificar Deep Links em Base64"
         AppLanguage.SPANISH -> "Decodificar Deep Links en Base64"
@@ -10094,6 +10903,7 @@ object StringsE {
     val decodeBase64DeepLinksDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "某些 App（如哔哩哔哩）的网页版会把跳转链接做 Base64 编码。开启后可自动解码并跳转到对应 App。"
         AppLanguage.ENGLISH -> "Some apps (e.g. Bilibili) encode deep links in Base64 on their web pages. When enabled, these are automatically decoded and opened in the target app."
+        AppLanguage.VIETNAMESE -> "Một số ứng dụng (ví dụ: Bilibili) mã hóa các liên kết sâu trong Base64 trên trang web của họ. Khi được bật, chúng sẽ tự động được giải mã và mở trong ứng dụng đích."
         AppLanguage.ARABIC -> "بعض التطبيقات (مثل Bilibili) تشفّر الروابط العميقة بـ Base64 في صفحاتها. عند التفعيل، يتم فك التشفير تلقائيًا وفتحها في التطبيق المستهدف."
         AppLanguage.PORTUGUESE -> "Alguns apps (ex. Bilibili) codificam deep links em Base64 em suas páginas web. Quando ativado, eles são decodificados automaticamente e abertos no app de destino."
         AppLanguage.SPANISH -> "Algunas apps (p. ej. Bilibili) codifican los deep links en Base64 en sus páginas web. Cuando se activa, se decodifican automáticamente y se abren en la app de destino."
@@ -10107,6 +10917,7 @@ object StringsE {
     val mediaAutoplayTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体自动播放"
         AppLanguage.ENGLISH -> "Media Autoplay"
+        AppLanguage.VIETNAMESE -> "Tự động phát phương tiện"
         AppLanguage.ARABIC -> "التشغيل التلقائي للوسائط"
         AppLanguage.PORTUGUESE -> "Reprodução Automática de Mídia"
         AppLanguage.SPANISH -> "Reproducción Automática de Medios"
@@ -10119,6 +10930,7 @@ object StringsE {
     val mediaAutoplayDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页中的视频和音频在无需点击的情况下自动播放。语音对话类网页（如 AI 助手）需要开启此项才能听到回复语音。"
         AppLanguage.ENGLISH -> "Allow videos and audio on web pages to play without a tap. Voice-chat pages (e.g. AI assistants) need this on to hear spoken replies."
+        AppLanguage.VIETNAMESE -> "Cho phép phát video và âm thanh trên trang web mà không cần nhấn. Các trang trò chuyện bằng giọng nói (ví dụ: trợ lý AI) cần bật tính năng này để nghe câu trả lời bằng giọng nói."
         AppLanguage.ARABIC -> "السماح للفيديو والصوت في صفحات الويب بالتشغيل دون نقر. تحتاج صفحات الدردشة الصوتية (مثل مساعدي الذكاء الاصطناعي) إلى تفعيل هذا الخيار لسماع الردود الصوتية."
         AppLanguage.PORTUGUESE -> "Permitir que vídeos e áudio nas páginas web sejam reproduzidos sem um toque. Páginas de chat por voz (ex. assistentes de IA) precisam disso ativado para ouvir as respostas faladas."
         AppLanguage.SPANISH -> "Permitir que los videos y el audio de las páginas web se reproduzcan sin un toque. Las páginas de chat por voz (p. ej., asistentes de IA) necesitan esto activado para escuchar las respuestas habladas."
@@ -10132,6 +10944,7 @@ object StringsE {
     val thirdPartyCookiesTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "第三方 Cookie"
         AppLanguage.ENGLISH -> "Third-Party Cookies"
+        AppLanguage.VIETNAMESE -> "Cookie của bên thứ ba"
         AppLanguage.ARABIC -> "ملفات تعريف الارتباط للجهات الخارجية"
         AppLanguage.PORTUGUESE -> "Cookies de Terceiros"
         AppLanguage.SPANISH -> "Cookies de Terceros"
@@ -10144,6 +10957,7 @@ object StringsE {
     val thirdPartyCookiesDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许第三方登录、支付或嵌入组件写入 Cookie。关闭可增强隐私，但可能导致跨域登录/支付状态无法保持。"
         AppLanguage.ENGLISH -> "Allow third-party login, payment, or embedded components to write cookies. Disabling improves privacy but may break cross-site login or payment sessions."
+        AppLanguage.VIETNAMESE -> "Cho phép đăng nhập, thanh toán hoặc các thành phần nhúng của bên thứ ba viết cookie. Việc vô hiệu hóa sẽ cải thiện quyền riêng tư nhưng có thể phá vỡ các phiên thanh toán hoặc đăng nhập trên nhiều trang web."
         AppLanguage.ARABIC -> "السماح لمكونات تسجيل الدخول أو الدفع أو التضمين التابعة لجهات خارجية بكتابة ملفات تعريف الارتباط. الإيقاف يحسن الخصوصية لكنه قد يعطّل جلسات تسجيل الدخول أو الدفع عبر المواقع."
         AppLanguage.PORTUGUESE -> "Permitir que login, pagamento ou componentes incorporados de terceiros gravem cookies. Desativar melhora a privacidade, mas pode quebrar sessões de login ou pagamento entre sites."
         AppLanguage.SPANISH -> "Permitir que el inicio de sesión, el pago o los componentes integrados de terceros escriban cookies. Desactivarlo mejora la privacidad, pero puede romper las sesiones de inicio de sesión o pago entre sitios."
@@ -10157,6 +10971,7 @@ object StringsE {
     val kernelDisguiseTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览器内核伪装"
         AppLanguage.ENGLISH -> "Browser Kernel Disguise"
+        AppLanguage.VIETNAMESE -> "Ngụy trang hạt nhân trình duyệt"
         AppLanguage.ARABIC -> "تمويه نواة المتصفح"
         AppLanguage.PORTUGUESE -> "Disfarce de Kernel do Navegador"
         AppLanguage.SPANISH -> "Disfraz de Kernel del Navegador"
@@ -10169,6 +10984,7 @@ object StringsE {
     val kernelDisguiseDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "让 WebView 看起来像真正的 Chrome 浏览器（移除 WebView 标记、伪装 navigator 属性等）。某些网站检测到伪装后反而拒绝服务时可关闭。"
         AppLanguage.ENGLISH -> "Make WebView appear as a real Chrome browser (strip WebView markers, fake navigator properties, etc.). Disable if some sites refuse service when disguise is detected."
+        AppLanguage.VIETNAMESE -> "Làm cho WebView xuất hiện dưới dạng trình duyệt Chrome thực (loại bỏ các điểm đánh dấu WebView, thuộc tính điều hướng giả, v.v.). Tắt nếu một số trang web từ chối dịch vụ khi phát hiện thấy việc ngụy trang."
         AppLanguage.ARABIC -> "جعل WebView يبدو كمتصفح Chrome حقيقي (إزالة علامات WebView، تزييف خصائص navigator). أوقفه إذا رفضت بعض المواقع الخدمة عند اكتشاف التمويه."
         AppLanguage.PORTUGUESE -> "Faz o WebView parecer um navegador Chrome real (remove marcadores do WebView, falsifica propriedades do navigator, etc.). Desative se alguns sites recusarem o serviço ao detectar o disfarce."
         AppLanguage.SPANISH -> "Hace que WebView parezca un navegador Chrome real (elimina los marcadores de WebView, falsifica las propiedades de navigator, etc.). Desactívalo si algunos sitios rechazan el servicio al detectar el disfraz."
@@ -10182,6 +10998,7 @@ object StringsE {
     val imageRepairTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片修复 / 反防盗链"
         AppLanguage.ENGLISH -> "Image Repair / Anti-Hotlink"
+        AppLanguage.VIETNAMESE -> "Sửa chữa hình ảnh/Chống Hotlink"
         AppLanguage.ARABIC -> "إصلاح الصور / مكافحة الربط الساخن"
         AppLanguage.PORTUGUESE -> "Reparo de Imagem / Anti-Hotlink"
         AppLanguage.SPANISH -> "Reparación de Imagen / Anti-Hotlink"
@@ -10194,6 +11011,7 @@ object StringsE {
     val imageRepairDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动修复因防盗链导致加载失败的图片（移除 Referrer 后重试）。某些站点的图片被修复后反而显示异常时可关闭。"
         AppLanguage.ENGLISH -> "Automatically repair images that fail to load due to hotlink protection (retry without Referrer). Disable if some sites show broken images after repair."
+        AppLanguage.VIETNAMESE -> "Tự động sửa hình ảnh không tải được do bảo vệ liên kết nóng (thử lại mà không có Người giới thiệu). Tắt nếu một số trang web hiển thị hình ảnh bị hỏng sau khi sửa chữa."
         AppLanguage.ARABIC -> "إصلاح الصور التي تفشل في التحميل بسبب حماية الربط الساخن تلقائيًا (إعادة المحاولة بدون Referrer). أوقفه إذا ظهرت صور معطلة بعد الإصلاح."
         AppLanguage.PORTUGUESE -> "Reparar automaticamente imagens que falham ao carregar devido à proteção anti-hotlink (repetir sem Referrer). Desative se alguns sites exibirem imagens quebradas após o reparo."
         AppLanguage.SPANISH -> "Reparar automáticamente las imágenes que no se cargan debido a la protección anti-hotlink (reintentar sin Referrer). Desactívalo si algunos sitios muestran imágenes rotas tras la reparación."
@@ -10207,6 +11025,7 @@ object StringsE {
     val scrollMemoryTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "滚动位置记忆"
         AppLanguage.ENGLISH -> "Scroll Position Memory"
+        AppLanguage.VIETNAMESE -> "Bộ nhớ vị trí cuộn"
         AppLanguage.ARABIC -> "تذكر موضع التمرير"
         AppLanguage.PORTUGUESE -> "Memória de Posição de Rolagem"
         AppLanguage.SPANISH -> "Memoria de Posición de Desplazamiento"
@@ -10219,6 +11038,7 @@ object StringsE {
     val scrollMemoryDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "记住页面滚动位置，返回时自动恢复。某些 SPA 应用自己管理滚动时可能冲突，可关闭。"
         AppLanguage.ENGLISH -> "Remember scroll position and restore it when navigating back. May conflict with SPAs that manage their own scroll; disable if needed."
+        AppLanguage.VIETNAMESE -> "Ghi nhớ vị trí cuộn và khôi phục nó khi điều hướng trở lại. Có thể xung đột với các SPA quản lý cuộn của riêng họ; vô hiệu hóa nếu cần thiết."
         AppLanguage.ARABIC -> "تذكر موضع التمرير واستعادته عند العودة. قد يتعارض مع تطبيقات SPA التي تدير التمرير بنفسها؛ أوقفه عند الحاجة."
         AppLanguage.PORTUGUESE -> "Lembrar a posição de rolagem e restaurá-la ao voltar. Pode conflitar com SPAs que gerenciam sua própria rolagem; desative se necessário."
         AppLanguage.SPANISH -> "Recordar la posición de desplazamiento y restaurarla al volver. Puede conflictar con SPAs que gestionan su propio desplazamiento; desactívalo si es necesario."
@@ -10231,6 +11051,7 @@ object StringsE {
     val backStatePreservationTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "返回状态保留"
         AppLanguage.ENGLISH -> "Back Navigation State Preservation"
+        AppLanguage.VIETNAMESE -> "Trở lại Điều hướng Bảo quản trạng thái"
         AppLanguage.ARABIC -> "الحفاظ على حالة التنقل للخلف"
         AppLanguage.PORTUGUESE -> "Preservação de Estado na Navegação de Volta"
         AppLanguage.SPANISH -> "Preservación de Estado al Volver"
@@ -10243,6 +11064,7 @@ object StringsE {
     val backStatePreservationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尝试保留 ajax 翻页/SPA 的返回状态：拦截页面在返回时的自动刷新，返回键优先走 history.back 以命中页面缓存。尽力而为，不保证所有网站生效；少数依赖返回刷新数据的网站可能受影响。"
         AppLanguage.ENGLISH -> "Best-effort preservation of ajax pagination / SPA state on back: blocks the page's auto-reload on back navigation and prefers history.back() to hit the page cache. Not guaranteed on all sites; a few sites that refresh data on back may be affected."
+        AppLanguage.VIETNAMESE -> "Nỗ lực tốt nhất để duy trì phân trang ajax/trạng thái SPA ở mặt sau: chặn tính năng tự động tải lại của trang khi điều hướng quay lại và ưu tiên history.back() truy cập vào bộ đệm của trang. Không được đảm bảo trên tất cả các trang web; một số trang web làm mới dữ liệu ở mặt sau có thể bị ảnh hưởng."
         AppLanguage.ARABIC -> "محاولة للحفاظ على حالة ترقيم الصفحات عبر ajax / SPA عند الرجوع: يمنع إعادة التحميل التلقائية للصفحة عند الرجوع ويفضل history.back() للوصول إلى ذاكرة التخزين المؤقت للصفحة. غير مضمون على جميع المواقع؛ قد تتأثر بعض المواقع التي تعتمد على تحديث البيانات عند الرجوع."
         AppLanguage.PORTUGUESE -> "Preservação best-effort do estado de paginação ajax / SPA ao voltar: bloqueia o recarregamento automático da página na navegação de volta e prefere history.back() para atingir o cache da página. Não garantido em todos os sites; alguns sites que atualizam dados ao voltar podem ser afetados."
         AppLanguage.SPANISH -> "Preservación best-effort del estado de paginación ajax / SPA al volver: bloquea la recarga automática de la página al navegar hacia atrás y prefiere history.back() para usar la caché de la página. No garantizado en todos los sitios; algunos sitios que actualizan datos al volver pueden verse afectados."
@@ -10256,6 +11078,7 @@ object StringsE {
     val followSystemDarkModeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页跟随系统深色"
         AppLanguage.ENGLISH -> "Web Page Follows System Dark Mode"
+        AppLanguage.VIETNAMESE -> "Trang web theo dõi chế độ tối của hệ thống"
         AppLanguage.ARABIC -> "تتبع صفحة الويب الوضع الداكن للنظام"
         AppLanguage.PORTUGUESE -> "A Página Web Segue o Modo Escuro do Sistema"
         AppLanguage.SPANISH -> "La Página Web Sigue el Modo Oscuro del Sistema"
@@ -10268,6 +11091,7 @@ object StringsE {
     val followSystemDarkModeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开启后，网页随系统深色/浅色主题自动切换：适配了 prefers-color-scheme 的站点会跟随，未适配的站点由内核算法自动反色。仅部分内核支持，不支持时静默忽略。"
         AppLanguage.ENGLISH -> "When enabled, web pages follow the system light/dark theme: sites that support prefers-color-scheme switch automatically, and non-adapted sites are darkened by the engine's algorithm. Only some engines support this; silently ignored when unsupported."
+        AppLanguage.VIETNAMESE -> "Khi được bật, các trang web sẽ tuân theo chủ đề sáng/tối của hệ thống: các trang web hỗ trợ lược đồ màu ưu tiên sẽ tự động chuyển đổi và các trang web không thích ứng sẽ bị làm tối theo thuật toán của công cụ. Chỉ một số động cơ hỗ trợ điều này; âm thầm bỏ qua khi không được hỗ trợ."
         AppLanguage.ARABIC -> "عند التفعيل، تتبع صفحات الويب سمة النظام الفاتحة/الداكنة: المواقع التي تدعم prefers-color-scheme تتبدّل تلقائيًا، والمواقع غير المهيأة يعتّمها المحرك خوارزميًا. يدعمه بعض المحركات فقط، ويُتجاهَل بصمت عند عدم الدعم."
         AppLanguage.PORTUGUESE -> "Quando ativado, as páginas web seguem o tema claro/escuro do sistema: sites que suportam prefers-color-scheme alternam automaticamente, e sites não adaptados são escurecidos pelo algoritmo do engine. Apenas alguns engines suportam isso; ignorado silenciosamente quando não suportado."
         AppLanguage.SPANISH -> "Cuando se activa, las páginas web siguen el tema claro/oscuro del sistema: los sitios que admiten prefers-color-scheme cambian automáticamente, y los sitios no adaptados son oscurecidos por el algoritmo del motor. Solo algunos motores admiten esto; se ignora silenciosamente cuando no se admite."
@@ -10281,6 +11105,7 @@ object StringsE {
     val clipboardPolyfillTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "剪贴板 API 桥接"
         AppLanguage.ENGLISH -> "Clipboard API Bridge"
+        AppLanguage.VIETNAMESE -> "Cầu API bảng nhớ tạm"
         AppLanguage.ARABIC -> "جسر واجهة الحافظة"
         AppLanguage.PORTUGUESE -> "Ponte da API de Clipboard"
         AppLanguage.SPANISH -> "Puente de la API de Clipboard"
@@ -10293,6 +11118,7 @@ object StringsE {
     val clipboardPolyfillDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页通过 navigator.clipboard 读写系统剪贴板。关闭后网页无法访问剪贴板内容。"
         AppLanguage.ENGLISH -> "Allow web pages to read/write the system clipboard via navigator.clipboard. When off, pages cannot access clipboard content."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang web đọc/ghi bảng nhớ tạm hệ thống thông qua navigator.clipboard. Khi tắt, các trang không thể truy cập nội dung clipboard."
         AppLanguage.ARABIC -> "السماح لصفحات الويب بقراءة/كتابة حافظة النظام عبر navigator.clipboard. عند الإيقاف، لا يمكن للصفحات الوصول إلى محتوى الحافظة."
         AppLanguage.PORTUGUESE -> "Permitir que páginas web leiam/gravem a área de transferência do sistema via navigator.clipboard. Quando desativado, as páginas não podem acessar o conteúdo da área de transferência."
         AppLanguage.SPANISH -> "Permitir que las páginas web lean/escriban el portapapeles del sistema vía navigator.clipboard. Cuando está desactivado, las páginas no pueden acceder al contenido del portapapeles."
@@ -10306,6 +11132,7 @@ object StringsE {
     val notificationPolyfillTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通知 API 桥接"
         AppLanguage.ENGLISH -> "Notification API Bridge"
+        AppLanguage.VIETNAMESE -> "Cầu API thông báo"
         AppLanguage.ARABIC -> "جسر واجهة الإشعارات"
         AppLanguage.PORTUGUESE -> "Ponte da API de Notification"
         AppLanguage.SPANISH -> "Puente de la API de Notification"
@@ -10318,6 +11145,7 @@ object StringsE {
     val notificationPolyfillDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页使用 Web Notification API 发送系统通知。关闭后网页无法弹出通知。"
         AppLanguage.ENGLISH -> "Allow web pages to send system notifications via the Web Notification API. When off, pages cannot show notifications."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang web gửi thông báo hệ thống qua API thông báo web. Khi tắt, các trang không thể hiển thị thông báo."
         AppLanguage.ARABIC -> "السماح لصفحات الويب بإرسال إشعارات النظام عبر Web Notification API. عند الإيقاف، لا يمكن للصفحات عرض الإشعارات."
         AppLanguage.PORTUGUESE -> "Permitir que páginas web enviem notificações do sistema via Web Notification API. Quando desativado, as páginas não podem exibir notificações."
         AppLanguage.SPANISH -> "Permitir que las páginas web envíen notificaciones del sistema vía Web Notification API. Cuando está desactivado, las páginas no pueden mostrar notificaciones."
@@ -10331,6 +11159,7 @@ object StringsE {
     val geolocationTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "地理位置"
         AppLanguage.ENGLISH -> "Geolocation"
+        AppLanguage.VIETNAMESE -> "Định vị địa lý"
         AppLanguage.ARABIC -> "تحديد الموقع الجغرافي"
         AppLanguage.PORTUGUESE -> "Geolocalização"
         AppLanguage.SPANISH -> "Geolocalización"
@@ -10343,6 +11172,7 @@ object StringsE {
     val geolocationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页请求设备地理位置。关闭后网页的定位请求将被直接拒绝。"
         AppLanguage.ENGLISH -> "Allow web pages to request device location. When off, location requests are automatically denied."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang web yêu cầu vị trí thiết bị. Khi tắt, yêu cầu vị trí sẽ tự động bị từ chối."
         AppLanguage.ARABIC -> "السماح لصفحات الويب بطلب موقع الجهاز. عند الإيقاف، يتم رفض طلبات الموقع تلقائيًا."
         AppLanguage.PORTUGUESE -> "Permitir que páginas web solicitem a localização do dispositivo. Quando desativado, solicitações de localização são negadas automaticamente."
         AppLanguage.SPANISH -> "Permitir que las páginas web soliciten la ubicación del dispositivo. Cuando está desactivado, las solicitudes de ubicación se rechazan automáticamente."
@@ -10355,6 +11185,7 @@ object StringsE {
     val cameraAccessTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "摄像头访问"
         AppLanguage.ENGLISH -> "Camera access"
+        AppLanguage.VIETNAMESE -> "Truy cập máy ảnh"
         AppLanguage.ARABIC -> "الوصول إلى الكاميرا"
         AppLanguage.PORTUGUESE -> "Acesso à câmera"
         AppLanguage.SPANISH -> "Acceso a la cámara"
@@ -10367,6 +11198,7 @@ object StringsE {
     val cameraAccessDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页访问摄像头（如视频验证、扫码、拍照）。仍会弹出系统权限请求。"
         AppLanguage.ENGLISH -> "Allow web pages to access the camera (e.g. video verification, QR scanning, photo capture). The system permission prompt still applies."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang web truy cập vào camera (ví dụ: xác minh video, quét QR, chụp ảnh). Lời nhắc cấp phép hệ thống vẫn được áp dụng."
         AppLanguage.ARABIC -> "السماح لصفحات الويب بالوصول إلى الكاميرا (مثل التحقق بالفيديو، مسح رمز QR، التقاط الصور). يظل طلب إذن النظام ساريًا."
         AppLanguage.PORTUGUESE -> "Permitir que páginas web acessem a câmera (ex.: verificação por vídeo, leitura de QR, captura de fotos). O prompt de permissão do sistema ainda se aplica."
         AppLanguage.SPANISH -> "Permitir que las páginas web accedan a la cámara (p. ej., verificación por vídeo, escaneo QR, captura de fotos). El aviso de permiso del sistema sigue aplicándose."
@@ -10379,6 +11211,7 @@ object StringsE {
     val microphoneAccessTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "麦克风访问"
         AppLanguage.ENGLISH -> "Microphone access"
+        AppLanguage.VIETNAMESE -> "Quyền truy cập micrô"
         AppLanguage.ARABIC -> "الوصول إلى الميكروفون"
         AppLanguage.PORTUGUESE -> "Acesso ao microfone"
         AppLanguage.SPANISH -> "Acceso al micrófono"
@@ -10391,6 +11224,7 @@ object StringsE {
     val microphoneAccessDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页访问麦克风（如语音/视频通话、实时验证）。仍会弹出系统权限请求。"
         AppLanguage.ENGLISH -> "Allow web pages to access the microphone (e.g. voice/video calls, live verification). The system permission prompt still applies."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang web truy cập micrô (ví dụ: cuộc gọi thoại/video, xác minh trực tiếp). Lời nhắc cấp phép hệ thống vẫn được áp dụng."
         AppLanguage.ARABIC -> "السماح لصفحات الويب بالوصول إلى الميكروفون (مثل المكالمات الصوتية/المرئية، التحقق المباشر). يظل طلب إذن النظام ساريًا."
         AppLanguage.PORTUGUESE -> "Permitir que páginas web acessem o microfone (ex.: chamadas de voz/vídeo, verificação ao vivo). O prompt de permissão do sistema ainda se aplica."
         AppLanguage.SPANISH -> "Permitir que las páginas web accedan al micrófono (p. ej., llamadas de voz/vídeo, verificación en vivo). El aviso de permiso del sistema sigue aplicándose."
@@ -10403,6 +11237,7 @@ object StringsE {
     val geolocationLocationOffTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "位置服务未开启"
         AppLanguage.ENGLISH -> "Location service is off"
+        AppLanguage.VIETNAMESE -> "Dịch vụ định vị đã tắt"
         AppLanguage.ARABIC -> "خدمة الموقع متوقفة"
         AppLanguage.PORTUGUESE -> "Serviço de localização desativado"
         AppLanguage.SPANISH -> "Servicio de ubicación desactivado"
@@ -10415,6 +11250,7 @@ object StringsE {
     val geolocationLocationOffMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用已获得定位权限，但系统位置服务已关闭。请在系统设置中开启位置服务后返回。"
         AppLanguage.ENGLISH -> "The app has location permission, but the system location service is turned off. Please enable it in system settings and return."
+        AppLanguage.VIETNAMESE -> "Ứng dụng có quyền truy cập vị trí nhưng dịch vụ định vị hệ thống bị tắt. Vui lòng kích hoạt nó trong cài đặt hệ thống và quay lại."
         AppLanguage.ARABIC -> "يملك التطبيق إذن الموقع، ولكن خدمة تحديد موقع النظام متوقفة. يرجى تفعيلها من إعدادات النظام والعودة."
         AppLanguage.PORTUGUESE -> "O app tem permissão de localização, mas o serviço de localização do sistema está desativado. Ative-o nas configurações do sistema e volte."
         AppLanguage.SPANISH -> "La app tiene permiso de ubicación, pero el servicio de ubicación del sistema está desactivado. Actívalo en la configuración del sistema y regresa."
@@ -10427,6 +11263,7 @@ object StringsE {
     val geolocationLocationOffOpenSettings: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "去开启"
         AppLanguage.ENGLISH -> "Turn on"
+        AppLanguage.VIETNAMESE -> "Bật"
         AppLanguage.ARABIC -> "تفعيل"
         AppLanguage.PORTUGUESE -> "Ativar"
         AppLanguage.SPANISH -> "Activar"
@@ -10439,6 +11276,7 @@ object StringsE {
     val geolocationLocationOffCancel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "取消"
         AppLanguage.ENGLISH -> "Cancel"
+        AppLanguage.VIETNAMESE -> "Hủy bỏ"
         AppLanguage.ARABIC -> "إلغاء"
         AppLanguage.PORTUGUESE -> "Cancelar"
         AppLanguage.SPANISH -> "Cancelar"
@@ -10452,6 +11290,7 @@ object StringsE {
     val orientationPolyfillTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏幕方向 Polyfill"
         AppLanguage.ENGLISH -> "Screen Orientation Polyfill"
+        AppLanguage.VIETNAMESE -> "Polyfill định hướng màn hình"
         AppLanguage.ARABIC -> "محاكاة اتجاه الشاشة"
         AppLanguage.PORTUGUESE -> "Polyfill de Orientação de Tela"
         AppLanguage.SPANISH -> "Polyfill de Orientación de Pantalla"
@@ -10464,6 +11303,7 @@ object StringsE {
     val orientationPolyfillDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为网页提供 screen.orientation.lock() API 支持。某些游戏/应用自己管理方向时可能冲突。"
         AppLanguage.ENGLISH -> "Provide screen.orientation.lock() API support for web pages. May conflict with games/apps that manage orientation themselves."
+        AppLanguage.VIETNAMESE -> "Cung cấp hỗ trợ API screen.orientation.lock() cho các trang web. Có thể xung đột với các trò chơi/ứng dụng tự quản lý định hướng."
         AppLanguage.ARABIC -> "توفير دعم واجهة screen.orientation.lock() لصفحات الويب. قد يتعارض مع الألعاب/التطبيقات التي تدير الاتجاه بنفسها."
         AppLanguage.PORTUGUESE -> "Fornecer suporte à API screen.orientation.lock() para páginas web. Pode conflitar com jogos/apps que gerenciam a orientação por conta própria."
         AppLanguage.SPANISH -> "Proporcionar soporte de la API screen.orientation.lock() para páginas web. Puede conflictar con juegos/apps que gestionan la orientación por sí mismos."
@@ -10477,6 +11317,7 @@ object StringsE {
     val compatPolyfillsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "兼容性 Polyfill"
         AppLanguage.ENGLISH -> "Compatibility Polyfills"
+        AppLanguage.VIETNAMESE -> "Khả năng tương thích Polyfill"
         AppLanguage.ARABIC -> "محاكاة التوافق"
         AppLanguage.PORTUGUESE -> "Polyfills de Compatibilidade"
         AppLanguage.SPANISH -> "Polyfills de Compatibilidad"
@@ -10489,6 +11330,7 @@ object StringsE {
     val compatPolyfillsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入 requestIdleCallback / ResizeObserver 等 API 的兼容实现。开发者调试时想看原生行为可关闭。"
         AppLanguage.ENGLISH -> "Inject polyfills for requestIdleCallback / ResizeObserver APIs. Developers may disable to see native behavior during debugging."
+        AppLanguage.VIETNAMESE -> "Chèn polyfill cho API requestIdleCallback / ResizeObserver. Nhà phát triển có thể tắt tính năng xem hành vi gốc trong quá trình gỡ lỗi."
         AppLanguage.ARABIC -> "حقن محاكاة لواجهات requestIdleCallback / ResizeObserver. قد يوقفها المطورون لرؤية السلوك الأصلي أثناء التصحيح."
         AppLanguage.PORTUGUESE -> "Injetar polyfills para as APIs requestIdleCallback / ResizeObserver. Desenvolvedores podem desativar para ver o comportamento nativo durante a depuração."
         AppLanguage.SPANISH -> "Inyectar polyfills para las APIs requestIdleCallback / ResizeObserver. Los desarrolladores pueden desactivarlo para ver el comportamiento nativo durante la depuración."
@@ -10502,6 +11344,7 @@ object StringsE {
     val nativeBridgeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "NativeBridge 接口"
         AppLanguage.ENGLISH -> "NativeBridge Interface"
+        AppLanguage.VIETNAMESE -> "Giao diện NativeBridge"
         AppLanguage.ARABIC -> "واجهة NativeBridge"
         AppLanguage.PORTUGUESE -> "Interface NativeBridge"
         AppLanguage.SPANISH -> "Interfaz NativeBridge"
@@ -10514,6 +11357,7 @@ object StringsE {
     val nativeBridgeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "向网页暴露 window.NativeBridge（toast/震动/分享/设备信息等）。关闭可能导致部分内置功能异常。"
         AppLanguage.ENGLISH -> "Expose window.NativeBridge to web pages (toast/vibrate/share/device info). Disabling may break some built-in features."
+        AppLanguage.VIETNAMESE -> "Hiển thị window.NativeBridge cho các trang web (thông tin về bánh mì nướng/rung/chia sẻ/thiết bị). Việc tắt có thể làm hỏng một số tính năng tích hợp."
         AppLanguage.ARABIC -> "كشف window.NativeBridge لصفحات الويب (إشعار/اهتزاز/مشاركة/معلومات الجهاز). الإيقاف قد يعطّل بعض الميزات المدمجة."
         AppLanguage.PORTUGUESE -> "Expor window.NativeBridge para páginas web (toast/vibrar/compartilhar/info do dispositivo). Desativar pode quebrar alguns recursos integrados."
         AppLanguage.SPANISH -> "Exponer window.NativeBridge a las páginas web (toast/vibrar/compartir/info del dispositivo). Desactivarlo puede romper algunas funciones integradas."
@@ -10527,6 +11371,7 @@ object StringsE {
     val jsCanOpenWindowsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JS 自动打开窗口"
         AppLanguage.ENGLISH -> "JS Can Open Windows"
+        AppLanguage.VIETNAMESE -> "JS có thể mở Windows"
         AppLanguage.ARABIC -> "JS يمكنه فتح النوافذ"
         AppLanguage.PORTUGUESE -> "JS Pode Abrir Janelas"
         AppLanguage.SPANISH -> "JS Puede Abrir Ventanas"
@@ -10539,6 +11384,7 @@ object StringsE {
     val jsCanOpenWindowsDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许 JavaScript 通过 window.open() 自动打开新窗口。关闭后可阻止弹窗广告。"
         AppLanguage.ENGLISH -> "Allow JavaScript to open new windows via window.open(). Disabling blocks popup ads."
+        AppLanguage.VIETNAMESE -> "Cho phép JavaScript mở các cửa sổ mới thông qua window.open(). Vô hiệu hóa khối quảng cáo bật lên."
         AppLanguage.ARABIC -> "السماح لـ JavaScript بفتح نوافذ جديدة عبر window.open(). الإيقاف يحظر الإعلانات المنبثقة."
         AppLanguage.PORTUGUESE -> "Permitir que o JavaScript abra novas janelas via window.open(). Desativar bloqueia anúncios pop-up."
         AppLanguage.SPANISH -> "Permitir que JavaScript abra nuevas ventanas vía window.open(). Desactivarlo bloquea los anuncios emergentes."
@@ -10552,6 +11398,7 @@ object StringsE {
     val databaseStorageTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "数据库存储"
         AppLanguage.ENGLISH -> "Database Storage"
+        AppLanguage.VIETNAMESE -> "Lưu trữ cơ sở dữ liệu"
         AppLanguage.ARABIC -> "تخزين قاعدة البيانات"
         AppLanguage.PORTUGUESE -> "Armazenamento de Banco de Dados"
         AppLanguage.SPANISH -> "Almacenamiento de Base de Datos"
@@ -10564,6 +11411,7 @@ object StringsE {
     val databaseStorageDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许网页使用 IndexedDB / Web SQL 保存账号状态、草稿、缓存和本地数据。大多数现代 Web 应用建议保持开启。"
         AppLanguage.ENGLISH -> "Allow pages to use IndexedDB / Web SQL for account state, drafts, cache, and local data. Keep this on for most modern web apps."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang sử dụng IndexedDB/Web SQL cho trạng thái tài khoản, bản nháp, bộ đệm và dữ liệu cục bộ. Hãy bật tính năng này cho hầu hết các ứng dụng web hiện đại."
         AppLanguage.ARABIC -> "السماح للصفحات باستخدام IndexedDB / Web SQL لحالة الحساب والمسودات والذاكرة المؤقتة والبيانات المحلية. أبقه مفعلاً لمعظم تطبيقات الويب الحديثة."
         AppLanguage.PORTUGUESE -> "Permitir que páginas usem IndexedDB / Web SQL para estado de conta, rascunhos, cache e dados locais. Mantenha ativado para a maioria dos apps web modernos."
         AppLanguage.SPANISH -> "Permitir que las páginas usen IndexedDB / Web SQL para el estado de la cuenta, borradores, caché y datos locales. Mantenlo activado para la mayoría de las apps web modernas."
@@ -10577,6 +11425,7 @@ object StringsE {
     val cookiePersistenceTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Cookie 持久化"
         AppLanguage.ENGLISH -> "Cookie Persistence"
+        AppLanguage.VIETNAMESE -> "Sự kiên trì của cookie"
         AppLanguage.ARABIC -> "استمرار ملفات تعريف الارتباط"
         AppLanguage.PORTUGUESE -> "Persistência de Cookie"
         AppLanguage.SPANISH -> "Persistencia de Cookies"
@@ -10589,6 +11438,7 @@ object StringsE {
     val cookiePersistenceDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面加载后自动把 Cookie 保存到磁盘，用于保留登录态和会话。若开启“每次打开都是新会话”，这些数据仍会在启动时清除。"
         AppLanguage.ENGLISH -> "Persist cookies to disk after page load to keep login and session state. If Fresh Session is enabled, these values are still cleared on launch."
+        AppLanguage.VIETNAMESE -> "Lưu cookie vào đĩa sau khi tải trang để duy trì trạng thái đăng nhập và phiên. Nếu Phiên làm mới được bật, các giá trị này vẫn bị xóa khi khởi chạy."
         AppLanguage.ARABIC -> "حفظ ملفات تعريف الارتباط على القرص بعد تحميل الصفحة للحفاظ على تسجيل الدخول والجلسة. إذا تم تفعيل الجلسة الجديدة، فستُمسح هذه القيم عند التشغيل."
         AppLanguage.PORTUGUESE -> "Persistir cookies no disco após o carregamento da página para manter o estado de login e sessão. Se a Sessão Nova estiver ativada, esses valores ainda serão limpos na inicialização."
         AppLanguage.SPANISH -> "Persistir cookies en el disco después de cargar la página para mantener el estado de inicio de sesión y de sesión. Si la Sesión Nueva está activada, estos valores se siguen limpiando al iniciar."
@@ -10602,6 +11452,7 @@ object StringsE {
     val privateNetworkBridgeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "私有网络 API 桥接"
         AppLanguage.ENGLISH -> "Private Network API Bridge"
+        AppLanguage.VIETNAMESE -> "Cầu API mạng riêng"
         AppLanguage.ARABIC -> "جسر واجهة الشبكة الخاصة"
         AppLanguage.PORTUGUESE -> "Ponte da API de Rede Privada"
         AppLanguage.SPANISH -> "Puente de la API de Red Privada"
@@ -10614,6 +11465,7 @@ object StringsE {
     val privateNetworkBridgeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许页面通过 NativeBridge 访问内网/本地网络资源。安全敏感场景可关闭。"
         AppLanguage.ENGLISH -> "Allow pages to access intranet/local network resources via NativeBridge. Disable for security-sensitive scenarios."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang truy cập tài nguyên mạng nội bộ/mạng cục bộ qua NativeBridge. Tắt cho các trường hợp nhạy cảm về bảo mật."
         AppLanguage.ARABIC -> "السماح للصفحات بالوصول إلى موارد الشبكة الداخلية/المحلية عبر NativeBridge. أوقفه للسيناريوهات الحساسة أمنيًا."
         AppLanguage.PORTUGUESE -> "Permitir que páginas acessem recursos da intranet/rede local via NativeBridge. Desative em cenários sensíveis à segurança."
         AppLanguage.SPANISH -> "Permitir que las páginas accedan a recursos de la intranet/red local vía NativeBridge. Desactívalo en escenarios sensibles a la seguridad."
@@ -10626,6 +11478,7 @@ object StringsE {
     val corsBypassTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跨域请求绕过 (CORS Bypass)"
         AppLanguage.ENGLISH -> "CORS Bypass"
+        AppLanguage.VIETNAMESE -> "Bỏ qua CORS"
         AppLanguage.ARABIC -> "تجاوز CORS"
         AppLanguage.PORTUGUESE -> "Bypass de CORS (Requisição Cross-Origin)"
         AppLanguage.SPANISH -> "Bypass de CORS (Solicitud Cross-Origin)"
@@ -10638,6 +11491,7 @@ object StringsE {
     val corsBypassDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "让纯静态单页应用能直接请求外部 API，绕过浏览器的跨域 (CORS) 限制。请求经原生网络栈重发。"
         AppLanguage.ENGLISH -> "Let static single-page apps call external APIs directly, bypassing browser CORS limits. Requests are re-sent via the native network stack."
+        AppLanguage.VIETNAMESE -> "Cho phép các ứng dụng một trang tĩnh gọi trực tiếp các API bên ngoài, bỏ qua các giới hạn CORS của trình duyệt. Yêu cầu được gửi lại qua ngăn xếp mạng gốc."
         AppLanguage.ARABIC -> "السماح لتطبيقات الصفحة الواحدة الثابتة باستدعاء واجهات برمجة خارجية مباشرة، متجاوزة قيود CORS الخاصة بالمتصفح. تُعاد الطلبات عبر مكدس الشبكة الأصلي."
         AppLanguage.PORTUGUESE -> "Permitir que apps de página única estática chamem APIs externas diretamente, contornando os limites de CORS do navegador. As requisições são reenviadas via a pilha de rede nativa."
         AppLanguage.SPANISH -> "Permitir que las apps estáticas de página única llamen a APIs externas directamente, sorteando los límites CORS del navegador. Las solicitudes se reenvían a través de la pila de red nativa."
@@ -10650,6 +11504,7 @@ object StringsE {
     val corsBypassWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安全提示：开启后，该应用内加载的所有网页（含第三方内容）都能经原生网络栈向任意地址发送任意HTTP 请求，不再受同源策略保护。仅对你自己开发的应用开启；打包不可信网站时请保持关闭。"
         AppLanguage.ENGLISH -> "Security note: once enabled, every page loaded in this app (including third-party content) can send arbitrary HTTP requests to any URL via the native network stack, no longer protected by the same-origin policy. Only enable for apps you develop yourself; keep it off when packaging untrusted sites."
+        AppLanguage.VIETNAMESE -> "Lưu ý bảo mật: sau khi được bật, mọi trang được tải trong ứng dụng này (bao gồm cả nội dung của bên thứ ba) có thể gửi các yêu cầu HTTP tùy ý tới bất kỳ URL nào thông qua ngăn xếp mạng gốc, không còn được bảo vệ bởi chính sách cùng nguồn gốc nữa. Chỉ kích hoạt cho các ứng dụng bạn tự phát triển; hãy tắt nó đi khi đóng gói các trang web không đáng tin cậy."
         AppLanguage.ARABIC -> "تنبيه أمني: بمجرد التفعيل، يمكن لكل صفحة تُحمّل في هذا التطبيق (بما في ذلك محتوى الطرف الثالث) إرسال طلبات HTTP عشوائية إلى أي عنوان عبر مكدس الشبكة الأصلي، دون حماية سياسة نفس الأصل. فعّله فقط للتطبيقات التي تطورها بنفسك؛ أبقه مطفأً عند تغليف مواقع غير موثوقة."
         AppLanguage.PORTUGUESE -> "Nota de segurança: uma vez ativado, todas as páginas carregadas neste app (incluindo conteúdo de terceiros) podem enviar requisições HTTP arbitrárias para qualquer URL via a pilha de rede nativa, sem mais a proteção da política de mesma origem. Ative apenas para apps que você mesmo desenvolve; mantenha desativado ao empacotar sites não confiáveis."
         AppLanguage.SPANISH -> "Nota de seguridad: una vez activado, todas las páginas cargadas en esta app (incluido contenido de terceros) pueden enviar solicitudes HTTP arbitrarias a cualquier URL a través de la pila de red nativa, sin la protección de la política del mismo origen. Actívalo solo para apps que tú mismo desarrollas; manténlo desactivado al empaquetar sitios no confiables."
@@ -10663,6 +11518,7 @@ object StringsE {
     val mixedContentTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "混合内容加载"
         AppLanguage.ENGLISH -> "Mixed Content Loading"
+        AppLanguage.VIETNAMESE -> "Đang tải nội dung hỗn hợp"
         AppLanguage.ARABIC -> "تحميل المحتوى المختلط"
         AppLanguage.PORTUGUESE -> "Carregamento de Conteúdo Misto"
         AppLanguage.SPANISH -> "Carga de Contenido Mixto"
@@ -10675,6 +11531,7 @@ object StringsE {
     val mixedContentDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "允许 HTTPS 页面加载 HTTP 资源（图片/脚本等）。关闭后更安全但某些旧站点可能显示不全。"
         AppLanguage.ENGLISH -> "Allow HTTPS pages to load HTTP resources (images/scripts). Disabling is more secure but some legacy sites may not display fully."
+        AppLanguage.VIETNAMESE -> "Cho phép các trang HTTPS tải tài nguyên HTTP (hình ảnh/tập lệnh). Việc tắt sẽ an toàn hơn nhưng một số trang cũ có thể không hiển thị đầy đủ."
         AppLanguage.ARABIC -> "السماح لصفحات HTTPS بتحميل موارد HTTP (صور/نصوص). الإيقاف أكثر أمانًا لكن بعض المواقع القديمة قد لا تُعرض بالكامل."
         AppLanguage.PORTUGUESE -> "Permitir que páginas HTTPS carreguem recursos HTTP (imagens/scripts). Desativar é mais seguro, mas alguns sites legados podem não ser exibidos completamente."
         AppLanguage.SPANISH -> "Permitir que las páginas HTTPS carguen recursos HTTP (imágenes/scripts). Desactivarlo es más seguro, pero algunos sitios antiguos pueden no mostrarse completamente."
@@ -10688,6 +11545,7 @@ object StringsE {
     val blobDownloadTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Blob 下载拦截"
         AppLanguage.ENGLISH -> "Blob Download Interception"
+        AppLanguage.VIETNAMESE -> "Chặn tải xuống Blob"
         AppLanguage.ARABIC -> "اعتراض تنزيل Blob"
         AppLanguage.PORTUGUESE -> "Interceptação de Download de Blob"
         AppLanguage.SPANISH -> "Intercepción de Descarga de Blob"
@@ -10700,6 +11558,7 @@ object StringsE {
     val blobDownloadDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截网页的 blob:/data: URL 下载请求并通过原生桥接保存文件。某些站点的 blob 处理与此冲突时可关闭。"
         AppLanguage.ENGLISH -> "Intercept blob:/data: URL download requests from web pages and save files via native bridge. Disable if some sites' blob handling conflicts."
+        AppLanguage.VIETNAMESE -> "Chặn blob:/data: Yêu cầu tải xuống URL từ các trang web và lưu tệp qua cầu nối gốc. Tắt nếu xung đột xử lý blob của một số trang web."
         AppLanguage.ARABIC -> "اعتراض طلبات تنزيل blob:/data: من صفحات الويب وحفظ الملفات عبر الجسر الأصلي. أوقفه إذا تعارضت معالجة blob لبعض المواقع."
         AppLanguage.PORTUGUESE -> "Interceptar requisições de download de URL blob:/data: das páginas web e salvar arquivos via ponte nativa. Desative se o tratamento de blob de alguns sites conflitar."
         AppLanguage.SPANISH -> "Interceptar las solicitudes de descarga de URL blob:/data: de las páginas web y guardar los archivos vía puente nativo. Desactívalo si el manejo de blob de algunos sitios causa conflictos."
@@ -10713,6 +11572,7 @@ object StringsE {
     val cloudflareCompatTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Cloudflare 验证兼容"
         AppLanguage.ENGLISH -> "Cloudflare Challenge Compat"
+        AppLanguage.VIETNAMESE -> "Tương thích với thử thách Cloudflare"
         AppLanguage.ARABIC -> "توافق تحدي Cloudflare"
         AppLanguage.PORTUGUESE -> "Compat. de Desafio Cloudflare"
         AppLanguage.SPANISH -> "Compat. de Desafío Cloudflare"
@@ -10725,6 +11585,7 @@ object StringsE {
     val cloudflareCompatDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提升 Cloudflare 验证页在 WebView 中的兼容性（环境伪装、第三方 Cookie 等）。不能保证自动通过所有人机验证；交互式 Turnstile 仍可能需要手动完成。"
         AppLanguage.ENGLISH -> "Improves Cloudflare challenge compatibility in WebView (environment spoofing, third-party cookies, etc.). Does not guarantee automatically passing every challenge; interactive Turnstile may still need manual completion."
+        AppLanguage.VIETNAMESE -> "Cải thiện khả năng tương thích với thử thách Cloudflare trong WebView (giả mạo môi trường, cookie của bên thứ ba, v.v.). Không đảm bảo tự động vượt qua mọi thử thách; Cửa quay tương tác có thể vẫn cần hoàn thành thủ công."
         AppLanguage.ARABIC -> "يحسّن توافق صفحات تحدي Cloudflare في WebView (تمويه البيئة وملفات تعريف الارتباط للطرف الثالث وغيرها). لا يضمن تجاوز كل التحديات تلقائيًا؛ قد يتطلب Turnstile التفاعلي إكمالًا يدويًا."
         AppLanguage.PORTUGUESE -> "Melhora a compatibilidade de desafios Cloudflare no WebView (simulação de ambiente, cookies de terceiros etc.). Não garante passar automaticamente em todos os desafios; o Turnstile interativo ainda pode exigir conclusão manual."
         AppLanguage.SPANISH -> "Mejora la compatibilidad de desafíos de Cloudflare en WebView (simulación de entorno, cookies de terceros, etc.). No garantiza superar automáticamente todos los desafíos; Turnstile interactivo aún puede requerir completar manualmente."
@@ -10738,6 +11599,7 @@ object StringsE {
     val primeUserActivationTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "首次加载自动建立用户激活"
         AppLanguage.ENGLISH -> "Prime User Activation On Load"
+        AppLanguage.VIETNAMESE -> "Kích hoạt người dùng chính khi tải"
         AppLanguage.ARABIC -> "تفعيل المستخدم تلقائيًا عند التحميل"
         AppLanguage.PORTUGUESE -> "Estabelecer Ativação de Usuário ao Carregar"
         AppLanguage.SPANISH -> "Establecer Activación de Usuario al Cargar"
@@ -10750,6 +11612,7 @@ object StringsE {
     val primeUserActivationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面加载完成后自动注入一次原生触摸，解锁浏览器内核要求「用户先交互」才允许的能力（带声自动播放、全屏、遥控器/键盘方向键控制等）。默认关闭：极少数页面在屏幕左上角放透明覆盖层时可能受影响。仅在确实需要时打开。"
         AppLanguage.ENGLISH -> "After each page load, dispatch one native tap to unlock APIs the browser engine gates behind a real user interaction (audio autoplay, fullscreen, keyboard / D-pad control, etc.). Off by default: a handful of pages with transparent overlays at the top-left corner may be affected. Only enable when you need it."
+        AppLanguage.VIETNAMESE -> "Sau mỗi lần tải trang, hãy gửi một lần nhấn gốc để mở khóa các API của công cụ trình duyệt đằng sau tương tác thực của người dùng (tự động phát âm thanh, toàn màn hình, điều khiển bàn phím / D-pad, v.v.). Tắt theo mặc định: một số trang có lớp phủ trong suốt ở góc trên bên trái có thể bị ảnh hưởng. Chỉ kích hoạt khi bạn cần."
         AppLanguage.ARABIC -> "بعد تحميل كل صفحة، يتم إرسال نقرة أصلية واحدة لفتح الواجهات التي يحجبها متصفح الويب وراء تفاعل المستخدم الفعلي (التشغيل التلقائي بالصوت، ملء الشاشة، التحكم بلوحة المفاتيح/D-pad، إلخ). معطل افتراضيًا: قد تتأثر صفحات قليلة فيها طبقات شفافة في الزاوية العلوية اليسرى. فعّل فقط عند الحاجة."
         AppLanguage.PORTUGUESE -> "Após cada carregamento de página, enviar um toque nativo para desbloquear APIs que o engine do navegador bloqueia até uma interação real do usuário (autoplay de áudio, tela cheia, controle por teclado / D-pad, etc.). Desativado por padrão: algumas páginas com sobreposições transparentes no canto superior esquerdo podem ser afetadas. Ative apenas quando precisar."
         AppLanguage.SPANISH -> "Tras cada carga de página, enviar un toque nativo para desbloquear APIs que el motor del navegador bloquea hasta una interación real del usuario (autoplay de audio, pantalla completa, control por teclado / D-pad, etc.). Desactivado por defecto: algunas páginas con superposiciones transparentes en la esquina superior izquierda pueden verse afectadas. Actívalo solo cuando lo necesites."
@@ -10763,6 +11626,7 @@ object StringsE {
     val failoverTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "故障转移（备用网址）"
         AppLanguage.ENGLISH -> "Failover (Backup URLs)"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi dự phòng (URL dự phòng)"
         AppLanguage.ARABIC -> "تجاوز الفشل (عناوين احتياطية)"
         AppLanguage.PORTUGUESE -> "Failover (URLs de Backup)"
         AppLanguage.SPANISH -> "Conmutación (URLs de Respaldo)"
@@ -10775,6 +11639,7 @@ object StringsE {
     val failoverDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "主网址加载失败时按列表顺序自动切换到下一个备用网址。本次会话不回切；下次启动从列表头开始。所有现有重试机制（HTTPS 升级、本地服务器重连、file:// 重试）会先跑完，全部失败后故障转移才接手；列表用尽再走错误页。注意：跨域时 Cookie / 登录态不互通，请确保备用网址提供等价内容。"
         AppLanguage.ENGLISH -> "When the primary URL fails to load, automatically switch to the next backup URL in order. No fallback within a session; next cold start begins at the top of the list. All existing recovery (HTTPS upgrade, loopback retry, file:// retry) runs first; failover takes over only after they all fail. Once the list is exhausted, the error page kicks in. Note: cookies and login state do not carry across origins — make sure the backup URLs serve equivalent content."
+        AppLanguage.VIETNAMESE -> "Khi URL chính không tải được, tự động chuyển sang URL dự phòng tiếp theo theo thứ tự. Không có dự phòng trong một phiên; khởi động nguội tiếp theo bắt đầu ở đầu danh sách. Tất cả quá trình khôi phục hiện có (nâng cấp HTTPS, thử lại vòng lặp, thử lại tệp: //) đều chạy trước; chuyển đổi dự phòng chỉ tiếp quản sau khi tất cả đều thất bại. Khi danh sách đã hết, trang lỗi sẽ xuất hiện. Lưu ý: cookie và trạng thái đăng nhập không chuyển đổi giữa các nguồn gốc — hãy đảm bảo rằng các URL dự phòng phân phát nội dung tương đương."
         AppLanguage.ARABIC -> "عند فشل تحميل الرابط الرئيسي، التبديل تلقائيًا إلى الرابط الاحتياطي التالي حسب الترتيب. لا رجوع ضمن الجلسة الواحدة؛ تبدأ كل جلسة جديدة من رأس القائمة. تعمل جميع آليات الاسترداد الحالية (ترقية HTTPS، إعادة محاولة loopback، إعادة محاولة file://) أولاً؛ لن يتولى تجاوز الفشل إلا بعد فشل جميعها. عند استنفاد القائمة تُعرض صفحة الخطأ. ملاحظة: لا تُشارك ملفات تعريف الارتباط ولا حالة تسجيل الدخول بين الأصول المختلفة، تأكد أن العناوين الاحتياطية تقدم محتوى مكافئًا."
         AppLanguage.PORTUGUESE -> "Quando a URL primária falha ao carregar, alterna automaticamente para a próxima URL de backup em ordem. Sem retorno dentro de uma sessão; a próxima inicialização a frio começa no topo da lista. Toda a recuperação existente (upgrade HTTPS, retransmissão loopback, retransmissão file://) roda primeiro; o failover assume apenas após todas falharem. Quando a lista se esgota, a página de erro entra em ação. Nota: cookies e estado de login não são compartilhados entre origens — certifique-se de que as URLs de backup sirvam conteúdo equivalente."
         AppLanguage.SPANISH -> "Cuando la URL primaria falla al cargar, conmuta automáticamente a la siguiente URL de respaldo en orden. Sin retroceso dentro de una sesión; el próximo inicio en frío comienza al principio de la lista. Toda la recuperación existente (mejora HTTPS, reintento loopback, reintento file://) se ejecuta primero; la conmutación toma el control solo después de que todas fallen. Cuando se agota la lista, aparece la página de error. Nota: las cookies y el estado de inicio de sesión no se comparten entre orígenes — asegúrate de que las URLs de respaldo sirvan contenido equivalente."
@@ -10787,6 +11652,7 @@ object StringsE {
     val failoverUrlsLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "备用网址列表（按优先级顺序）"
         AppLanguage.ENGLISH -> "Backup URL list (in priority order)"
+        AppLanguage.VIETNAMESE -> "Danh sách URL dự phòng (theo thứ tự ưu tiên)"
         AppLanguage.ARABIC -> "قائمة العناوين الاحتياطية (حسب الأولوية)"
         AppLanguage.PORTUGUESE -> "Lista de URLs de backup (em ordem de prioridade)"
         AppLanguage.SPANISH -> "Lista de URLs de respaldo (en orden de prioridad)"
@@ -10799,6 +11665,7 @@ object StringsE {
     val failoverEmptyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尚未添加备用网址。点击下方按钮添加，列表为空时此功能等同未启用。"
         AppLanguage.ENGLISH -> "No backup URLs yet. Tap the button below to add one — leaving the list empty is equivalent to disabling failover."
+        AppLanguage.VIETNAMESE -> "Chưa có URL dự phòng nào. Nhấn vào nút bên dưới để thêm một nút — để trống danh sách tương đương với việc tắt tính năng chuyển đổi dự phòng."
         AppLanguage.ARABIC -> "لم تتم إضافة عناوين احتياطية. اضغط الزر أدناه لإضافة عنوان — ترك القائمة فارغة يعادل تعطيل الميزة."
         AppLanguage.PORTUGUESE -> "Nenhuma URL de backup ainda. Toque no botão abaixo para adicionar uma — deixar a lista vazia equivale a desativar o failover."
         AppLanguage.SPANISH -> "Aún no hay URLs de respaldo. Toca el botón siguiente para añadir una — dejar la lista vacía equivale a desactivar la conmutación."
@@ -10811,6 +11678,7 @@ object StringsE {
     val failoverAddUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加备用网址"
         AppLanguage.ENGLISH -> "Add Backup URL"
+        AppLanguage.VIETNAMESE -> "Thêm URL dự phòng"
         AppLanguage.ARABIC -> "إضافة عنوان احتياطي"
         AppLanguage.PORTUGUESE -> "Adicionar URL de Backup"
         AppLanguage.SPANISH -> "Añadir URL de Respaldo"
@@ -10835,6 +11703,7 @@ object StringsE {
     val failoverUrlInvalid: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "只支持以 http:// 或 https:// 开头的网址"
         AppLanguage.ENGLISH -> "Only http:// or https:// URLs are supported"
+        AppLanguage.VIETNAMESE -> "Chỉ hỗ trợ URL http:// hoặc https://"
         AppLanguage.ARABIC -> "يُدعم فقط عناوين http:// أو https://"
         AppLanguage.PORTUGUESE -> "Apenas URLs http:// ou https:// são suportadas"
         AppLanguage.SPANISH -> "Solo se admiten URLs http:// o https://"
@@ -10847,6 +11716,7 @@ object StringsE {
     val failoverUrlDuplicate: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "该网址已在列表中"
         AppLanguage.ENGLISH -> "URL is already in the list"
+        AppLanguage.VIETNAMESE -> "URL đã có trong danh sách"
         AppLanguage.ARABIC -> "العنوان موجود بالفعل في القائمة"
         AppLanguage.PORTUGUESE -> "A URL já está na lista"
         AppLanguage.SPANISH -> "La URL ya está en la lista"
@@ -10859,6 +11729,7 @@ object StringsE {
     val failoverDragHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "长按拖动手柄可重排顺序，或使用上下箭头"
         AppLanguage.ENGLISH -> "Long-press the drag handle to reorder, or use the arrows"
+        AppLanguage.VIETNAMESE -> "Nhấn và giữ thanh điều khiển kéo để sắp xếp lại hoặc sử dụng các mũi tên"
         AppLanguage.ARABIC -> "اضغط مطوّلاً على مقبض السحب لإعادة الترتيب، أو استخدم الأسهم"
         AppLanguage.PORTUGUESE -> "Pressione e segure a alça de arrasto para reordenar, ou use as setas"
         AppLanguage.SPANISH -> "Mantén presionado el controlador de arrastre para reordenar, o usa las flechas"
@@ -10871,6 +11742,7 @@ object StringsE {
     val failoverTriggersLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "触发条件（任一勾选项命中即切换）"
         AppLanguage.ENGLISH -> "Triggers (any checked condition initiates failover)"
+        AppLanguage.VIETNAMESE -> "Trình kích hoạt (bất kỳ điều kiện nào được kiểm tra sẽ bắt đầu chuyển đổi dự phòng)"
         AppLanguage.ARABIC -> "شروط التفعيل (أي شرط محدد يبدأ تجاوز الفشل)"
         AppLanguage.PORTUGUESE -> "Gatilhos (qualquer condição marcada inicia o failover)"
         AppLanguage.SPANISH -> "Disparadores (cualquier condición marcada inicia la conmutación)"
@@ -10883,6 +11755,7 @@ object StringsE {
     val failoverTriggerNetworkError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络错误"
         AppLanguage.ENGLISH -> "Network Error"
+        AppLanguage.VIETNAMESE -> "Lỗi mạng"
         AppLanguage.ARABIC -> "خطأ في الشبكة"
         AppLanguage.PORTUGUESE -> "Erro de Rede"
         AppLanguage.SPANISH -> "Error de Red"
@@ -10919,6 +11792,7 @@ object StringsE {
     val failoverTriggerTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "加载超时"
         AppLanguage.ENGLISH -> "Load Timeout"
+        AppLanguage.VIETNAMESE -> "Hết thời gian tải"
         AppLanguage.ARABIC -> "انتهاء مهلة التحميل"
         AppLanguage.PORTUGUESE -> "Tempo Limite de Carregamento"
         AppLanguage.SPANISH -> "Tiempo de Espera de Carga"
@@ -10931,6 +11805,7 @@ object StringsE {
     val failoverTimeoutSecondsLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "超时阈值（秒）"
         AppLanguage.ENGLISH -> "Timeout threshold (seconds)"
+        AppLanguage.VIETNAMESE -> "Ngưỡng thời gian chờ (giây)"
         AppLanguage.ARABIC -> "حد المهلة (بالثواني)"
         AppLanguage.PORTUGUESE -> "Limite de tempo (segundos)"
         AppLanguage.SPANISH -> "Umbral de tiempo (segundos)"
@@ -10943,6 +11818,7 @@ object StringsE {
     val failoverDragHandleDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拖动以重新排序"
         AppLanguage.ENGLISH -> "Drag to reorder"
+        AppLanguage.VIETNAMESE -> "Kéo để sắp xếp lại"
         AppLanguage.ARABIC -> "اسحب لإعادة الترتيب"
         AppLanguage.PORTUGUESE -> "Arraste para reordenar"
         AppLanguage.SPANISH -> "Arrastra para reordenar"
@@ -10956,6 +11832,7 @@ object StringsE {
     val fullscreenVideoOrientationTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全屏视频自动横屏"
         AppLanguage.ENGLISH -> "Auto-Landscape on Fullscreen Video"
+        AppLanguage.VIETNAMESE -> "Tự động chụp phong cảnh trên video toàn màn hình"
         AppLanguage.ARABIC -> "تدوير تلقائي إلى الوضع الأفقي عند تشغيل الفيديو بملء الشاشة"
         AppLanguage.PORTUGUESE -> "Paisagem Automática em Vídeo em Tela Cheia"
         AppLanguage.SPANISH -> "Paisaje Automático en Video a Pantalla Completa"
@@ -10968,6 +11845,7 @@ object StringsE {
     val fullscreenVideoOrientationDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页里的视频点击「全屏」时自动转横屏，避免横屏视频被压成中间一条窄带、上下大量黑边。退出全屏后自动还原原来的方向。即使 app 整体锁竖屏也照常生效。"
         AppLanguage.ENGLISH -> "When a video on the page enters fullscreen, automatically rotate to landscape so wide videos fill the screen instead of being squeezed into a thin band with large black bars. Restores the original orientation when fullscreen exits. Works even when the app itself is locked to portrait."
+        AppLanguage.VIETNAMESE -> "Khi video trên trang chuyển sang chế độ toàn màn hình, hãy tự động xoay sang ngang để video rộng lấp đầy màn hình thay vì bị dồn vào một dải mỏng với các thanh màu đen lớn. Khôi phục hướng ban đầu khi thoát khỏi chế độ toàn màn hình. Hoạt động ngay cả khi ứng dụng bị khóa ở chế độ dọc."
         AppLanguage.ARABIC -> "عند دخول فيديو في الصفحة وضع ملء الشاشة، يتم التدوير تلقائيًا إلى الوضع الأفقي حتى تملأ مقاطع الفيديو الواسعة الشاشة بدلاً من أن تنضغط في شريط رفيع مع شرائط سوداء كبيرة. يُستعاد الاتجاه الأصلي عند الخروج من ملء الشاشة. يعمل حتى لو كان التطبيق نفسه مقفلاً على الوضع الرأسي."
         AppLanguage.PORTUGUESE -> "Quando um vídeo na página entra em tela cheia, girar automaticamente para paisagem para que vídeos largos preencham a tela em vez de serem comprimidos em uma faixa fina com grandes barras pretas. Restaura a orientação original ao sair da tela cheia. Funciona mesmo quando o app está travado em retrato."
         AppLanguage.SPANISH -> "Cuando un video de la página entra en pantalla completa, girar automáticamente al modo paisaje para que los videos anchos llenen la pantalla en lugar de comprimirse en una banda estrecha con grandes barras negras. Restaura la orientación original al salir de pantalla completa. Funciona incluso cuando la app está bloqueada en vertical."
@@ -10980,6 +11858,7 @@ object StringsE {
     val fullscreenVideoOrientationModeLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "策略"
         AppLanguage.ENGLISH -> "Strategy"
+        AppLanguage.VIETNAMESE -> "Chiến lược"
         AppLanguage.ARABIC -> "الاستراتيجية"
         AppLanguage.PORTUGUESE -> "Estratégia"
         AppLanguage.SPANISH -> "Estrategia"
@@ -10992,6 +11871,7 @@ object StringsE {
     val fullscreenVideoOrientationModeAuto: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动横屏（跟手势）"
         AppLanguage.ENGLISH -> "Auto landscape (follow device)"
+        AppLanguage.VIETNAMESE -> "Tự động chụp cảnh (theo dõi thiết bị)"
         AppLanguage.ARABIC -> "أفقي تلقائي (يتبع الجهاز)"
         AppLanguage.PORTUGUESE -> "Paisagem automática (seguir dispositivo)"
         AppLanguage.SPANISH -> "Paisaje automático (seguir dispositivo)"
@@ -11004,6 +11884,7 @@ object StringsE {
     val fullscreenVideoOrientationModeForce: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "固定横屏方向"
         AppLanguage.ENGLISH -> "Forced landscape"
+        AppLanguage.VIETNAMESE -> "Cảnh quan cưỡng bức"
         AppLanguage.ARABIC -> "أفقي ثابت"
         AppLanguage.PORTUGUESE -> "Paisagem forçada"
         AppLanguage.SPANISH -> "Paisaje forzado"
@@ -11016,6 +11897,7 @@ object StringsE {
     val specialAdvancedSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "高级配置"
         AppLanguage.ENGLISH -> "Advanced"
+        AppLanguage.VIETNAMESE -> "Trình độ cao"
         AppLanguage.ARABIC -> "إعدادات متقدمة"
         AppLanguage.PORTUGUESE -> "Avançado"
         AppLanguage.SPANISH -> "Avanzado"
@@ -11028,6 +11910,7 @@ object StringsE {
     val specialBasicSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "基础开关"
         AppLanguage.ENGLISH -> "Basic Toggles"
+        AppLanguage.VIETNAMESE -> "Chuyển đổi cơ bản"
         AppLanguage.ARABIC -> "تبديلات أساسية"
         AppLanguage.PORTUGUESE -> "Alternadores Básicos"
         AppLanguage.SPANISH -> "Interruptores Básicos"
@@ -11040,6 +11923,7 @@ object StringsE {
     val specialBrowsingSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "浏览体验"
         AppLanguage.ENGLISH -> "Browsing"
+        AppLanguage.VIETNAMESE -> "Đang duyệt"
         AppLanguage.ARABIC -> "تجربة التصفح"
         AppLanguage.PORTUGUESE -> "Experiência de Navegação"
         AppLanguage.SPANISH -> "Experiencia de navegación"
@@ -11052,6 +11936,7 @@ object StringsE {
     val specialMediaSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体播放"
         AppLanguage.ENGLISH -> "Media Playback"
+        AppLanguage.VIETNAMESE -> "Phát lại phương tiện"
         AppLanguage.ARABIC -> "تشغيل الوسائط"
         AppLanguage.PORTUGUESE -> "Reprodução de Mídia"
         AppLanguage.SPANISH -> "Reproducción multimedia"
@@ -11064,6 +11949,7 @@ object StringsE {
     val specialSystemBridgeSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "系统桥接"
         AppLanguage.ENGLISH -> "System Bridge"
+        AppLanguage.VIETNAMESE -> "Cầu hệ thống"
         AppLanguage.ARABIC -> "جسر النظام"
         AppLanguage.PORTUGUESE -> "Ponte do Sistema"
         AppLanguage.SPANISH -> "Puente del sistema"
@@ -11076,6 +11962,7 @@ object StringsE {
     val specialLinksSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "链接与下载"
         AppLanguage.ENGLISH -> "Links & Downloads"
+        AppLanguage.VIETNAMESE -> "Liên kết & Tải xuống"
         AppLanguage.ARABIC -> "الروابط والتنزيلات"
         AppLanguage.PORTUGUESE -> "Links e Downloads"
         AppLanguage.SPANISH -> "Enlaces y descargas"
@@ -11088,6 +11975,7 @@ object StringsE {
     val specialSiteCompatSectionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "站点兼容"
         AppLanguage.ENGLISH -> "Site Compatibility"
+        AppLanguage.VIETNAMESE -> "Khả năng tương thích của trang web"
         AppLanguage.ARABIC -> "توافق الموقع"
         AppLanguage.PORTUGUESE -> "Compatibilidade do Site"
         AppLanguage.SPANISH -> "Compatibilidad del sitio"
@@ -11118,6 +12006,7 @@ object StringsE {
     val kernelFlavorDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "让页面识别为所选浏览器内核（UA + Sec-CH-UA + userAgentData 一致伪装）。客户端提示请求头经官方 WebView API 下发，不更换真实引擎。"
         AppLanguage.ENGLISH -> "Make pages detect the selected browser kernel (UA + Sec-CH-UA + userAgentData spoofed consistently). Client-hint request headers are driven through the official WebView API; the real engine is unchanged."
+        AppLanguage.VIETNAMESE -> "Làm cho các trang phát hiện nhân trình duyệt đã chọn (UA + Sec-CH-UA + userAgentData bị giả mạo một cách nhất quán). Tiêu đề yêu cầu gợi ý ứng dụng khách được điều khiển thông qua API WebView chính thức; động cơ thực không thay đổi."
         AppLanguage.ARABIC -> "اجعل الصفحات تتعرف على نواة المتصفح المختارة (تمويه متسق لـ UA و Sec-CH-UA و userAgentData). يتم إرسال ترويسات تلميحات العميل عبر واجهة WebView الرسمية؛ لا يتغير المحرك الحقيقي."
         AppLanguage.PORTUGUESE -> "Fazer com que as páginas detectem o kernel do navegador selecionado (UA + Sec-CH-UA + userAgentData falsificados de forma consistente). Os cabeçalhos de client-hint são enviados pela API oficial do WebView; o engine real não é alterado."
         AppLanguage.SPANISH -> "Hacer que las páginas detecten el kernel del navegador seleccionado (UA + Sec-CH-UA + userAgentData falsificados de forma consistente). Las cabeceras de client-hint se envían a través de la API oficial de WebView; el motor real no cambia."
@@ -11226,6 +12115,7 @@ object StringsE {
     val menuFileManager: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件管理"
         AppLanguage.ENGLISH -> "File Manager"
+        AppLanguage.VIETNAMESE -> "Trình quản lý tệp"
         AppLanguage.ARABIC -> "مدير الملفات"
         AppLanguage.PORTUGUESE -> "Gerenciador de Arquivos"
         AppLanguage.SPANISH -> "Administrador de archivos"
@@ -11238,6 +12128,7 @@ object StringsE {
     val fileManagerTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件管理"
         AppLanguage.ENGLISH -> "File Manager"
+        AppLanguage.VIETNAMESE -> "Trình quản lý tệp"
         AppLanguage.ARABIC -> "مدير الملفات"
         AppLanguage.PORTUGUESE -> "Gerenciador de Arquivos"
         AppLanguage.SPANISH -> "Administrador de archivos"
@@ -11250,6 +12141,7 @@ object StringsE {
     val fileManagerSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看与管理本应用生成的构建产物"
         AppLanguage.ENGLISH -> "View and manage build outputs generated by this app"
+        AppLanguage.VIETNAMESE -> "Xem và quản lý kết quả đầu ra của bản dựng do ứng dụng này tạo ra"
         AppLanguage.ARABIC -> "عرض وإدارة مخرجات البناء التي أنشأها هذا التطبيق"
         AppLanguage.PORTUGUESE -> "Ver e gerenciar os produtos de build gerados por este app"
         AppLanguage.SPANISH -> "Ver y gestionar los productos de compilación generados por esta app"
@@ -11262,6 +12154,7 @@ object StringsE {
     val fileManagerSectionApk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 构建"
         AppLanguage.ENGLISH -> "APK Builds"
+        AppLanguage.VIETNAMESE -> "Bản dựng APK"
         AppLanguage.ARABIC -> "حزم APK"
         AppLanguage.PORTUGUESE -> "Builds de APK"
         AppLanguage.SPANISH -> "Compilaciones APK"
@@ -11274,6 +12167,7 @@ object StringsE {
     val fileManagerSectionAab: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AAB 导出"
         AppLanguage.ENGLISH -> "AAB Exports"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu AAB"
         AppLanguage.ARABIC -> "صادرات AAB"
         AppLanguage.PORTUGUESE -> "Exportações de AAB"
         AppLanguage.SPANISH -> "Exportaciones de AAB"
@@ -11286,6 +12180,7 @@ object StringsE {
     val fileManagerSectionCloned: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用克隆"
         AppLanguage.ENGLISH -> "App Clones"
+        AppLanguage.VIETNAMESE -> "Bản sao ứng dụng"
         AppLanguage.ARABIC -> "نسخ التطبيقات"
         AppLanguage.PORTUGUESE -> "Clones de App"
         AppLanguage.SPANISH -> "Clones de App"
@@ -11298,6 +12193,7 @@ object StringsE {
     val fileManagerSectionUpdateApks: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更新安装包"
         AppLanguage.ENGLISH -> "Update Packages"
+        AppLanguage.VIETNAMESE -> "Cập nhật gói"
         AppLanguage.ARABIC -> "حزم التحديث"
         AppLanguage.PORTUGUESE -> "Pacotes de Atualização"
         AppLanguage.SPANISH -> "Paquetes de Actualización"
@@ -11310,6 +12206,7 @@ object StringsE {
     val fileManagerSectionLogs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建日志"
         AppLanguage.ENGLISH -> "Build Logs"
+        AppLanguage.VIETNAMESE -> "Nhật ký xây dựng"
         AppLanguage.ARABIC -> "سجلات البناء"
         AppLanguage.PORTUGUESE -> "Logs de Build"
         AppLanguage.SPANISH -> "Logs de Compilación"
@@ -11322,6 +12219,7 @@ object StringsE {
     val fileManagerSectionUserFiles: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "我的文件"
         AppLanguage.ENGLISH -> "My Files"
+        AppLanguage.VIETNAMESE -> "Tệp của tôi"
         AppLanguage.ARABIC -> "ملفاتي"
         AppLanguage.PORTUGUESE -> "Meus Arquivos"
         AppLanguage.SPANISH -> "Mis Archivos"
@@ -11334,6 +12232,7 @@ object StringsE {
     val fileManagerOpen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打开"
         AppLanguage.ENGLISH -> "Open"
+        AppLanguage.VIETNAMESE -> "Mở"
         AppLanguage.ARABIC -> "فتح"
         AppLanguage.PORTUGUESE -> "Abrir"
         AppLanguage.SPANISH -> "Abrir"
@@ -11346,6 +12245,7 @@ object StringsE {
     val fileManagerClear: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清空"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Vaciar"
@@ -11358,6 +12258,7 @@ object StringsE {
     val fileManagerView: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看"
         AppLanguage.ENGLISH -> "View"
+        AppLanguage.VIETNAMESE -> "Xem"
         AppLanguage.ARABIC -> "عرض"
         AppLanguage.PORTUGUESE -> "Ver"
         AppLanguage.SPANISH -> "Ver"
@@ -11370,6 +12271,7 @@ object StringsE {
     val fileManagerEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无文件"
         AppLanguage.ENGLISH -> "No files"
+        AppLanguage.VIETNAMESE -> "Không có tập tin"
         AppLanguage.ARABIC -> "لا توجد ملفات"
         AppLanguage.PORTUGUESE -> "Nenhum arquivo"
         AppLanguage.SPANISH -> "Sin archivos"
@@ -11382,6 +12284,7 @@ object StringsE {
     val fileManagerClearConfirmDir: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定清空「%s」目录下的所有文件?此操作不可撤销。"
         AppLanguage.ENGLISH -> "Clear all files in \"%s\"? This cannot be undone."
+        AppLanguage.VIETNAMESE -> "Xóa tất cả các tệp trong \"%s\"? Điều này không thể hoàn tác được."
         AppLanguage.ARABIC -> "مسح جميع الملفات في «%s»؟ لا يمكن التراجع عن ذلك."
         AppLanguage.PORTUGUESE -> "Limpar todos os arquivos em \"%s\"? Isso não pode ser desfeito."
         AppLanguage.SPANISH -> "¿Vaciar todos los archivos en \"%s\"? Esto no se puede deshacer."
@@ -11394,6 +12297,7 @@ object StringsE {
     val fileManagerDeleteConfirmFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定删除「%s」?"
         AppLanguage.ENGLISH -> "Delete \"%s\"?"
+        AppLanguage.VIETNAMESE -> "Xóa \"%s\"?"
         AppLanguage.ARABIC -> "حذف «%s»؟"
         AppLanguage.PORTUGUESE -> "Excluir \"%s\"?"
         AppLanguage.SPANISH -> "¿Eliminar \"%s\"?"
@@ -11406,6 +12310,7 @@ object StringsE {
     val fileManagerLogViewerTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "日志详情"
         AppLanguage.ENGLISH -> "Log Details"
+        AppLanguage.VIETNAMESE -> "Chi tiết nhật ký"
         AppLanguage.ARABIC -> "تفاصيل السجل"
         AppLanguage.PORTUGUESE -> "Detalhes do log"
         AppLanguage.SPANISH -> "Detalles del registro"
@@ -11418,6 +12323,7 @@ object StringsE {
     val fileManagerTotalUsage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "总占用:%s · 共 %d 个文件"
         AppLanguage.ENGLISH -> "Total: %s · %d files"
+        AppLanguage.VIETNAMESE -> "Tổng cộng: %s · %d tệp"
         AppLanguage.ARABIC -> "الإجمالي: %s · %d ملف"
         AppLanguage.PORTUGUESE -> "Total: %s · %d arquivos"
         AppLanguage.SPANISH -> "Total: %s · %d archivos"
@@ -11430,6 +12336,7 @@ object StringsE {
     val fileManagerSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索文件名…"
         AppLanguage.ENGLISH -> "Search files…"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm tập tin…"
         AppLanguage.ARABIC -> "ابحث عن الملفات…"
         AppLanguage.PORTUGUESE -> "Pesquisar arquivos…"
         AppLanguage.SPANISH -> "Buscar archivos…"
@@ -11442,6 +12349,7 @@ object StringsE {
     val fileManagerNoMatch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有匹配的文件"
         AppLanguage.ENGLISH -> "No matching files"
+        AppLanguage.VIETNAMESE -> "Không có tập tin phù hợp"
         AppLanguage.ARABIC -> "لا توجد ملفات مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum arquivo correspondente"
         AppLanguage.SPANISH -> "No hay archivos coincidentes"
@@ -11454,6 +12362,7 @@ object StringsE {
     val fileManagerNoMatchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "试试换个关键词，或切换分类筛选。"
         AppLanguage.ENGLISH -> "Try another keyword or switch category filters."
+        AppLanguage.VIETNAMESE -> "Hãy thử từ khóa khác hoặc chuyển đổi bộ lọc danh mục."
         AppLanguage.ARABIC -> "جرّب كلمة أخرى أو غيّر تصفية الفئة."
         AppLanguage.PORTUGUESE -> "Tente outra palavra-chave ou mude o filtro de categoria."
         AppLanguage.SPANISH -> "Prueba otra palabra clave o cambia el filtro de categoría."
@@ -11466,6 +12375,7 @@ object StringsE {
     val fileManagerEmptyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建 APK、导出 AAB 或导入项目后，文件会显示在这里。"
         AppLanguage.ENGLISH -> "Files appear here after you build APKs, export AABs, or import projects."
+        AppLanguage.VIETNAMESE -> "Các tệp xuất hiện ở đây sau khi bạn tạo APK, xuất AAB hoặc nhập dự án."
         AppLanguage.ARABIC -> "تظهر الملفات هنا بعد بناء APK أو تصدير AAB أو استيراد المشاريع."
         AppLanguage.PORTUGUESE -> "Os arquivos aparecem aqui após criar APKs, exportar AABs ou importar projetos."
         AppLanguage.SPANISH -> "Los archivos aparecen aquí después de crear APKs, exportar AABs o importar proyectos."
@@ -11478,6 +12388,7 @@ object StringsE {
     val fileManagerFilteredHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前为筛选结果"
         AppLanguage.ENGLISH -> "Showing filtered results"
+        AppLanguage.VIETNAMESE -> "Hiển thị kết quả đã lọc"
         AppLanguage.ARABIC -> "عرض النتائج المصفّاة"
         AppLanguage.PORTUGUESE -> "Mostrando resultados filtrados"
         AppLanguage.SPANISH -> "Mostrando resultados filtrados"
@@ -11490,6 +12401,7 @@ object StringsE {
     val fileManagerSelect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择"
         AppLanguage.ENGLISH -> "Select"
+        AppLanguage.VIETNAMESE -> "Lựa chọn"
         AppLanguage.ARABIC -> "تحديد"
         AppLanguage.PORTUGUESE -> "Selecionar"
         AppLanguage.SPANISH -> "Seleccionar"
@@ -11502,6 +12414,7 @@ object StringsE {
     val fileManagerSort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排序"
         AppLanguage.ENGLISH -> "Sort"
+        AppLanguage.VIETNAMESE -> "Loại"
         AppLanguage.ARABIC -> "ترتيب"
         AppLanguage.PORTUGUESE -> "Ordenar"
         AppLanguage.SPANISH -> "Ordenar"
@@ -11514,6 +12427,7 @@ object StringsE {
     val fileManagerSortNewest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最新优先"
         AppLanguage.ENGLISH -> "Newest first"
+        AppLanguage.VIETNAMESE -> "Mới nhất đầu tiên"
         AppLanguage.ARABIC -> "الأحدث أولاً"
         AppLanguage.PORTUGUESE -> "Mais recentes primeiro"
         AppLanguage.SPANISH -> "Más recientes primero"
@@ -11526,6 +12440,7 @@ object StringsE {
     val fileManagerSortLargest: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最大优先"
         AppLanguage.ENGLISH -> "Largest first"
+        AppLanguage.VIETNAMESE -> "Lớn nhất đầu tiên"
         AppLanguage.ARABIC -> "الأكبر أولاً"
         AppLanguage.PORTUGUESE -> "Maiores primeiro"
         AppLanguage.SPANISH -> "Más grandes primero"
@@ -11538,6 +12453,7 @@ object StringsE {
     val fileManagerSortName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "按名称"
         AppLanguage.ENGLISH -> "Name"
+        AppLanguage.VIETNAMESE -> "Tên"
         AppLanguage.ARABIC -> "الاسم"
         AppLanguage.PORTUGUESE -> "Nome"
         AppLanguage.SPANISH -> "Nombre"
@@ -11550,6 +12466,7 @@ object StringsE {
     val fileManagerDeleteConfirmMany: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确定删除已选的 %d 项？此操作不可撤销。"
         AppLanguage.ENGLISH -> "Delete %d selected items? This cannot be undone."
+        AppLanguage.VIETNAMESE -> "Xóa các mục đã chọn %d? Điều này không thể hoàn tác được."
         AppLanguage.ARABIC -> "حذف %d عنصرًا محددًا؟ لا يمكن التراجع."
         AppLanguage.PORTUGUESE -> "Excluir %d itens selecionados? Isso não pode ser desfeito."
         AppLanguage.SPANISH -> "¿Eliminar %d elementos seleccionados? Esto no se puede deshacer."
@@ -11562,6 +12479,7 @@ object StringsE {
     val fileManagerCleared: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已清空"
         AppLanguage.ENGLISH -> "Cleared"
+        AppLanguage.VIETNAMESE -> "Đã xóa"
         AppLanguage.ARABIC -> "تم المسح"
         AppLanguage.PORTUGUESE -> "Limpo"
         AppLanguage.SPANISH -> "Vaciado"
@@ -11574,6 +12492,7 @@ object StringsE {
     val fileManagerInstallStarted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已打开系统安装界面"
         AppLanguage.ENGLISH -> "Opened the system installer"
+        AppLanguage.VIETNAMESE -> "Đã mở trình cài đặt hệ thống"
         AppLanguage.ARABIC -> "تم فتح مثبت النظام"
         AppLanguage.PORTUGUESE -> "Instalador do sistema aberto"
         AppLanguage.SPANISH -> "Se abrió el instalador del sistema"
@@ -11586,6 +12505,7 @@ object StringsE {
     val fileManagerInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法启动安装，请检查文件是否有效"
         AppLanguage.ENGLISH -> "Could not start install. Check that the file is valid."
+        AppLanguage.VIETNAMESE -> "Không thể bắt đầu cài đặt. Kiểm tra xem tập tin có hợp lệ không."
         AppLanguage.ARABIC -> "تعذر بدء التثبيت. تحقق من صلاحية الملف."
         AppLanguage.PORTUGUESE -> "Não foi possível iniciar a instalação. Verifique se o arquivo é válido."
         AppLanguage.SPANISH -> "No se pudo iniciar la instalación. Comprueba que el archivo sea válido."
@@ -11598,6 +12518,7 @@ object StringsE {
     val fileManagerLogTruncated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "日志较长，仅显示前部内容。可分享完整文件。"
         AppLanguage.ENGLISH -> "Log is large; showing the beginning. Share the full file if needed."
+        AppLanguage.VIETNAMESE -> "Nhật ký lớn; thể hiện sự bắt đầu. Chia sẻ tập tin đầy đủ nếu cần thiết."
         AppLanguage.ARABIC -> "السجل كبير؛ يُعرض الجزء الأول. شارك الملف الكامل عند الحاجة."
         AppLanguage.PORTUGUESE -> "O log é grande; mostrando o início. Compartilhe o arquivo completo se precisar."
         AppLanguage.SPANISH -> "El registro es grande; se muestra el inicio. Comparte el archivo completo si lo necesitas."
@@ -11610,6 +12531,7 @@ object StringsE {
     val playStoreTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出 AAB"
         AppLanguage.ENGLISH -> "Export AAB"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu AAB"
         AppLanguage.ARABIC -> "تصدير AAB"
         AppLanguage.PORTUGUESE -> "Exportar AAB"
         AppLanguage.SPANISH -> "Exportar AAB"
@@ -11622,6 +12544,7 @@ object StringsE {
     val playStoreSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打包为可上传 Google Play 的签名 AAB"
         AppLanguage.ENGLISH -> "Package a signed AAB ready for Google Play"
+        AppLanguage.VIETNAMESE -> "Đóng gói AAB đã ký sẵn sàng cho Google Play"
         AppLanguage.ARABIC -> "حزّم AAB موقّع جاهز لـ Google Play"
         AppLanguage.PORTUGUESE -> "Empacote um AAB assinado pronto para o Google Play"
         AppLanguage.SPANISH -> "Empaqueta un AAB firmado listo para Google Play"
@@ -11634,6 +12557,7 @@ object StringsE {
     val playStoreNoAppsHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "你还没有创建任何应用。请先在主页创建一个应用。"
         AppLanguage.ENGLISH -> "You haven't created any apps yet. Create one on the home screen first."
+        AppLanguage.VIETNAMESE -> "Bạn chưa tạo bất kỳ ứng dụng nào. Trước tiên hãy tạo một cái trên màn hình chính."
         AppLanguage.ARABIC -> "لم تنشئ أي تطبيقات بعد. أنشئ تطبيقًا من الشاشة الرئيسية أولاً."
         AppLanguage.PORTUGUESE -> "Você ainda não criou nenhum app. Crie um na tela inicial primeiro."
         AppLanguage.SPANISH -> "Aún no has creado ninguna app. Crea una en la pantalla de inicio primero."
@@ -11646,6 +12570,7 @@ object StringsE {
     val playStoreExportAabButton: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出 AAB"
         AppLanguage.ENGLISH -> "Export AAB"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu AAB"
         AppLanguage.ARABIC -> "تصدير AAB"
         AppLanguage.PORTUGUESE -> "Exportar AAB"
         AppLanguage.SPANISH -> "Exportar AAB"
@@ -11659,6 +12584,7 @@ object StringsE {
     val playStoreExportStageStarting: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "准备中"
         AppLanguage.ENGLISH -> "Starting"
+        AppLanguage.VIETNAMESE -> "Bắt đầu"
         AppLanguage.ARABIC -> "جاري البدء"
         AppLanguage.PORTUGUESE -> "Iniciando"
         AppLanguage.SPANISH -> "Iniciando"
@@ -11671,6 +12597,7 @@ object StringsE {
     val playStoreExportStageBuildingApk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在构建 APK…"
         AppLanguage.ENGLISH -> "Building APK…"
+        AppLanguage.VIETNAMESE -> "Đang xây dựng APK…"
         AppLanguage.ARABIC -> "جاري بناء APK…"
         AppLanguage.PORTUGUESE -> "Criando APK…"
         AppLanguage.SPANISH -> "Compilando APK…"
@@ -11683,6 +12610,7 @@ object StringsE {
     val playStoreExportStageAssembling: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "组装 AAB 中"
         AppLanguage.ENGLISH -> "Assembling AAB"
+        AppLanguage.VIETNAMESE -> "Lắp ráp AAB"
         AppLanguage.ARABIC -> "جاري تجميع AAB"
         AppLanguage.PORTUGUESE -> "Montando AAB"
         AppLanguage.SPANISH -> "Ensamblando AAB"
@@ -11695,6 +12623,7 @@ object StringsE {
     val playStoreExportStageAssembled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AAB 结构构建完成"
         AppLanguage.ENGLISH -> "AAB structure built"
+        AppLanguage.VIETNAMESE -> "Cấu trúc AAB được xây dựng"
         AppLanguage.ARABIC -> "تم بناء بنية AAB"
         AppLanguage.PORTUGUESE -> "Estrutura do AAB criada"
         AppLanguage.SPANISH -> "Estructura del AAB creada"
@@ -11707,6 +12636,7 @@ object StringsE {
     val playStoreExportStageSigning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "签名 AAB 中"
         AppLanguage.ENGLISH -> "Signing AAB"
+        AppLanguage.VIETNAMESE -> "Ký AAB"
         AppLanguage.ARABIC -> "جاري توقيع AAB"
         AppLanguage.PORTUGUESE -> "Assinando AAB"
         AppLanguage.SPANISH -> "Firmando AAB"
@@ -11719,6 +12649,7 @@ object StringsE {
     val playStoreExportStageSigned: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AAB 已签名"
         AppLanguage.ENGLISH -> "AAB signed"
+        AppLanguage.VIETNAMESE -> "AAB đã ký"
         AppLanguage.ARABIC -> "تم توقيع AAB"
         AppLanguage.PORTUGUESE -> "AAB assinado"
         AppLanguage.SPANISH -> "AAB firmado"
@@ -11732,6 +12663,7 @@ object StringsE {
     val playStoreExportFailureBuildApk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建 APK 失败"
         AppLanguage.ENGLISH -> "Failed to build APK"
+        AppLanguage.VIETNAMESE -> "Không tạo được APK"
         AppLanguage.ARABIC -> "فشل بناء APK"
         AppLanguage.PORTUGUESE -> "Falha ao criar o APK"
         AppLanguage.SPANISH -> "Error al crear el APK"
@@ -11744,6 +12676,7 @@ object StringsE {
     val playStoreExportFailureAssemble: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "组装 AAB 失败"
         AppLanguage.ENGLISH -> "Failed to assemble AAB"
+        AppLanguage.VIETNAMESE -> "Không thể lắp ráp AAB"
         AppLanguage.ARABIC -> "فشل تجميع AAB"
         AppLanguage.PORTUGUESE -> "Falha ao montar o AAB"
         AppLanguage.SPANISH -> "Error al ensamblar el AAB"
@@ -11756,6 +12689,7 @@ object StringsE {
     val playStoreExportFailureSign: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "签名 AAB 失败"
         AppLanguage.ENGLISH -> "Failed to sign AAB"
+        AppLanguage.VIETNAMESE -> "Không thể ký AAB"
         AppLanguage.ARABIC -> "فشل توقيع AAB"
         AppLanguage.PORTUGUESE -> "Falha ao assinar o AAB"
         AppLanguage.SPANISH -> "Error al firmar el AAB"
@@ -11768,6 +12702,7 @@ object StringsE {
     val playStoreExportFailureUnknown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AAB 导出失败"
         AppLanguage.ENGLISH -> "AAB export failed"
+        AppLanguage.VIETNAMESE -> "Xuất AAB không thành công"
         AppLanguage.ARABIC -> "فشل تصدير AAB"
         AppLanguage.PORTUGUESE -> "Falha na exportação do AAB"
         AppLanguage.SPANISH -> "Error al exportar el AAB"
@@ -11780,6 +12715,7 @@ object StringsE {
     val playStoreExportTechnicalDetails: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "技术细节"
         AppLanguage.ENGLISH -> "Technical details"
+        AppLanguage.VIETNAMESE -> "Chi tiết kỹ thuật"
         AppLanguage.ARABIC -> "التفاصيل التقنية"
         AppLanguage.PORTUGUESE -> "Detalhes técnicos"
         AppLanguage.SPANISH -> "Detalles técnicos"
@@ -11792,6 +12728,7 @@ object StringsE {
     val playStoreExportRunning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在导出 AAB..."
         AppLanguage.ENGLISH -> "Exporting AAB..."
+        AppLanguage.VIETNAMESE -> "Đang xuất AAB..."
         AppLanguage.ARABIC -> "جاري تصدير AAB..."
         AppLanguage.PORTUGUESE -> "Exportando AAB..."
         AppLanguage.SPANISH -> "Exportando AAB..."
@@ -11804,6 +12741,7 @@ object StringsE {
     val playStoreExportCancelled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已取消导出"
         AppLanguage.ENGLISH -> "Export cancelled"
+        AppLanguage.VIETNAMESE -> "Đã hủy xuất"
         AppLanguage.ARABIC -> "تم إلغاء التصدير"
         AppLanguage.PORTUGUESE -> "Exportação cancelada"
         AppLanguage.SPANISH -> "Exportación cancelada"
@@ -11816,6 +12754,7 @@ object StringsE {
     val playStoreExportAabConfirmTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出 AAB"
         AppLanguage.ENGLISH -> "Export AAB"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu AAB"
         AppLanguage.ARABIC -> "تصدير AAB"
         AppLanguage.PORTUGUESE -> "Exportar AAB"
         AppLanguage.SPANISH -> "Exportar AAB"
@@ -11828,6 +12767,7 @@ object StringsE {
     val playStoreExportAabConfirmBody: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将跳转到导出页面，并自动为该应用构建 APK 并导出可上传 Google Play 的签名 AAB。是否继续?"
         AppLanguage.ENGLISH -> "This opens the export page and automatically builds the APK and exports a signed AAB ready for Google Play. Continue?"
+        AppLanguage.VIETNAMESE -> "Thao tác này sẽ mở trang xuất và tự động xây dựng APK cũng như xuất AAB đã ký sẵn sàng cho Google Play. Tiếp tục?"
         AppLanguage.ARABIC -> "سيفتح صفحة التصدير ويبني APK تلقائياً ويصدّر AAB موقّعاً جاهزاً لـ Google Play. هل تريد المتابعة؟"
         AppLanguage.PORTUGUESE -> "Isso abre a página de exportação e cria automaticamente o APK e exporta um AAB assinado pronto para o Google Play. Continuar?"
         AppLanguage.SPANISH -> "Esto abre la página de exportación y crea automáticamente el APK y exporta un AAB firmado listo para Google Play. ¿Continuar?"
@@ -11840,6 +12780,7 @@ object StringsE {
     val playStoreExportSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AAB 导出成功"
         AppLanguage.ENGLISH -> "AAB Export Successful"
+        AppLanguage.VIETNAMESE -> "Xuất AAB thành công"
         AppLanguage.ARABIC -> "نجح تصدير AAB"
         AppLanguage.PORTUGUESE -> "AAB exportado com sucesso"
         AppLanguage.SPANISH -> "AAB exportado correctamente"
@@ -11852,6 +12793,7 @@ object StringsE {
     val playStoreExportSuccessDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件已保存到："
         AppLanguage.ENGLISH -> "File saved to:"
+        AppLanguage.VIETNAMESE -> "Tệp đã lưu vào:"
         AppLanguage.ARABIC -> "تم حفظ الملف في:"
         AppLanguage.PORTUGUESE -> "Arquivo salvo em:"
         AppLanguage.SPANISH -> "Archivo guardado en:"
@@ -11864,6 +12806,7 @@ object StringsE {
     val playStoreExportPreUploadHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件已通过本地完整性校验，可直接上传到 Play Console 内部测试轨道。如需额外保险，可在电脑上运行 bundletool validate 复查。"
         AppLanguage.ENGLISH -> "The file has passed local integrity checks and is ready to upload to the Play Console internal testing track. For extra safety you can also run 'bundletool validate' on a PC."
+        AppLanguage.VIETNAMESE -> "Tệp đã vượt qua các bước kiểm tra tính toàn vẹn cục bộ và sẵn sàng tải lên kênh thử nghiệm nội bộ của Play Console. Để an toàn hơn, bạn cũng có thể chạy 'xác thực gói công cụ' trên PC."
         AppLanguage.ARABIC -> "اجتاز الملف فحوصات السلامة المحلية وجاهز للرفع إلى مسار الاختبار الداخلي في Play Console. للمزيد من الأمان يمكنك تشغيل 'bundletool validate' على جهاز كمبيوتر."
         AppLanguage.PORTUGUESE -> "O arquivo passou nas verificações locais de integridade e está pronto para upload na faixa de testes internos do Play Console. Para mais segurança, você também pode executar 'bundletool validate' em um PC."
         AppLanguage.SPANISH -> "El archivo superó las comprobaciones locales de integridad y está listo para subirse a la pista de pruebas internas de Play Console. Como precaución extra, también puedes ejecutar 'bundletool validate' en un PC."
@@ -11876,6 +12819,7 @@ object StringsE {
     val playStoreExportShare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分享 / 导出"
         AppLanguage.ENGLISH -> "Share / Export"
+        AppLanguage.VIETNAMESE -> "Chia sẻ / Xuất"
         AppLanguage.ARABIC -> "مشاركة / تصدير"
         AppLanguage.PORTUGUESE -> "Compartilhar / Exportar"
         AppLanguage.SPANISH -> "Compartir / Exportar"
@@ -11889,6 +12833,7 @@ object StringsE {
     val playStoreReportClean: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未检测到违规配置"
         AppLanguage.ENGLISH -> "No violations detected"
+        AppLanguage.VIETNAMESE -> "Không phát hiện vi phạm"
         AppLanguage.ARABIC -> "لم يتم اكتشاف أي مخالفات"
         AppLanguage.PORTUGUESE -> "Nenhuma violação detectada"
         AppLanguage.SPANISH -> "No se detectaron infracciones"
@@ -11901,6 +12846,7 @@ object StringsE {
     val playStoreReportCleanDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "本地配置审核通过。注意：Google Play 还会对应用内容（图标、URL、注入脚本）进行人工审核，本工具无法替代。"
         AppLanguage.ENGLISH -> "Local config audit passed. Note: Google Play also conducts content review (icons, URLs, injected scripts) which this tool cannot replace."
+        AppLanguage.VIETNAMESE -> "Kiểm tra cấu hình cục bộ đã được thông qua. Lưu ý: Google Play cũng tiến hành xem xét nội dung (biểu tượng, URL, tập lệnh được chèn) mà công cụ này không thể thay thế."
         AppLanguage.ARABIC -> "تم اجتياز تدقيق التكوين المحلي. ملاحظة: تجري Google Play أيضًا مراجعة المحتوى (الأيقونات، عناوين URL، النصوص المحقونة) ولا يمكن لهذه الأداة استبدالها."
         AppLanguage.PORTUGUESE -> "A auditoria local de configuração passou. Observação: o Google Play também revisa o conteúdo (ícones, URLs, scripts injetados), o que esta ferramenta não substitui."
         AppLanguage.SPANISH -> "La auditoría local de configuración se superó. Nota: Google Play también revisa el contenido (iconos, URLs, scripts inyectados), y esta herramienta no lo sustituye."
@@ -11913,6 +12859,7 @@ object StringsE {
     val playStoreReportBlocked: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 %d 项严重违规"
         AppLanguage.ENGLISH -> "%d critical violation(s) detected"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện thấy (các) vi phạm nghiêm trọng %d"
         AppLanguage.ARABIC -> "تم اكتشاف %d مخالفة خطيرة"
         AppLanguage.PORTUGUESE -> "%d violação(ões) crítica(s) detectada(s)"
         AppLanguage.SPANISH -> "%d infracción(es) crítica(s) detectada(s)"
@@ -11925,6 +12872,7 @@ object StringsE {
     val playStoreReportWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 %d 项需要注意的配置"
         AppLanguage.ENGLISH -> "%d configuration(s) need attention"
+        AppLanguage.VIETNAMESE -> "(Các) cấu hình %d cần được chú ý"
         AppLanguage.ARABIC -> "%d تكوين يحتاج إلى انتباه"
         AppLanguage.PORTUGUESE -> "%d configuração(ões) precisam de atenção"
         AppLanguage.SPANISH -> "%d configuración(es) necesitan atención"
@@ -11937,6 +12885,7 @@ object StringsE {
     val playStoreSeverityBlocker: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "严重"
         AppLanguage.ENGLISH -> "BLOCKER"
+        AppLanguage.VIETNAMESE -> "CHẶN"
         AppLanguage.ARABIC -> "حرج"
         AppLanguage.PORTUGUESE -> "BLOQUEADOR"
         AppLanguage.SPANISH -> "BLOQUEANTE"
@@ -11949,6 +12898,7 @@ object StringsE {
     val playStoreSeverityWarning: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "警告"
         AppLanguage.ENGLISH -> "WARNING"
+        AppLanguage.VIETNAMESE -> "CẢNH BÁO"
         AppLanguage.ARABIC -> "تحذير"
         AppLanguage.PORTUGUESE -> "AVISO"
         AppLanguage.SPANISH -> "ADVERTENCIA"
@@ -11961,6 +12911,7 @@ object StringsE {
     val playStoreSeverityInfo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提示"
         AppLanguage.ENGLISH -> "INFO"
+        AppLanguage.VIETNAMESE -> "THÔNG TIN"
         AppLanguage.ARABIC -> "معلومات"
         AppLanguage.PORTUGUESE -> "INFO"
         AppLanguage.SPANISH -> "INFO"
@@ -11974,6 +12925,7 @@ object StringsE {
     val playStoreAdviceTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Play 合规建议"
         AppLanguage.ENGLISH -> "Play Policy Advice"
+        AppLanguage.VIETNAMESE -> "Tư vấn chính sách Play"
         AppLanguage.ARABIC -> "نصائح سياسة Play"
         AppLanguage.PORTUGUESE -> "Conselhos de Política do Play"
         AppLanguage.SPANISH -> "Consejos de Política de Play"
@@ -11986,6 +12938,7 @@ object StringsE {
     val playStoreAdviceSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动检测可能影响上架的配置；阻塞项会阻止导出，警告项可确认后继续"
         AppLanguage.ENGLISH -> "Auto-checks configs that may affect review; blockers stop export, warnings need confirmation"
+        AppLanguage.VIETNAMESE -> "Tự động kiểm tra các cấu hình có thể ảnh hưởng đến việc đánh giá; trình chặn ngừng xuất, cảnh báo cần xác nhận"
         AppLanguage.ARABIC -> "فحص تلقائي للإعدادات التي قد تؤثر على المراجعة؛ العناصر المانعة توقف التصدير والتحذيرات تحتاج تأكيدًا"
         AppLanguage.PORTUGUESE -> "Verifica automaticamente configurações que podem afetar a revisão; bloqueios impedem a exportação e avisos pedem confirmação"
         AppLanguage.SPANISH -> "Comprueba automáticamente configuraciones que pueden afectar la revisión; los bloqueos detienen la exportación y los avisos piden confirmación"
@@ -11998,6 +12951,7 @@ object StringsE {
     fun playStoreAppCount(total: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "共 %d 个应用"
         AppLanguage.ENGLISH -> "%d apps"
+        AppLanguage.VIETNAMESE -> "Ứng dụng %d"
         AppLanguage.ARABIC -> "%d تطبيقات"
         AppLanguage.PORTUGUESE -> "%d apps"
         AppLanguage.SPANISH -> "%d apps"
@@ -12010,6 +12964,7 @@ object StringsE {
     val playStoreChangeApp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "更换应用"
         AppLanguage.ENGLISH -> "Change app"
+        AppLanguage.VIETNAMESE -> "Thay đổi ứng dụng"
         AppLanguage.ARABIC -> "تغيير التطبيق"
         AppLanguage.PORTUGUESE -> "Trocar app"
         AppLanguage.SPANISH -> "Cambiar app"
@@ -12022,6 +12977,7 @@ object StringsE {
     val playStoreNoMatch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有匹配的应用"
         AppLanguage.ENGLISH -> "No matching apps"
+        AppLanguage.VIETNAMESE -> "Không có ứng dụng phù hợp"
         AppLanguage.ARABIC -> "لا توجد تطبيقات مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum app correspondente"
         AppLanguage.SPANISH -> "No hay apps coincidentes"
@@ -12034,6 +12990,7 @@ object StringsE {
     val playStoreHasApkHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已找到可用 APK，导出 AAB 时会优先复用，速度更快。"
         AppLanguage.ENGLISH -> "A built APK is available and will be reused for faster AAB export."
+        AppLanguage.VIETNAMESE -> "APK đã xây dựng sẵn có và sẽ được sử dụng lại để xuất AAB nhanh hơn."
         AppLanguage.ARABIC -> "يتوفر APK مبني وسيُعاد استخدامه لتصدير AAB بسرعة أكبر."
         AppLanguage.PORTUGUESE -> "Há um APK pronto; ele será reutilizado para exportar o AAB mais rápido."
         AppLanguage.SPANISH -> "Hay un APK listo; se reutilizará para exportar el AAB más rápido."
@@ -12046,6 +13003,7 @@ object StringsE {
     val playStoreNoApkHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "尚未找到已构建 APK，导出时会先构建 APK 再打包 AAB。"
         AppLanguage.ENGLISH -> "No built APK found yet. Export will build an APK first, then package the AAB."
+        AppLanguage.VIETNAMESE -> "Chưa tìm thấy APK đã xây dựng nào. Xuất sẽ xây dựng APK trước, sau đó đóng gói AAB."
         AppLanguage.ARABIC -> "لم يتم العثور على APK مبني بعد. سيُبنى APK أولاً ثم يُحزم AAB."
         AppLanguage.PORTUGUESE -> "Nenhum APK pronto ainda. A exportação fará o APK primeiro e depois o AAB."
         AppLanguage.SPANISH -> "Aún no hay un APK listo. La exportación construirá el APK y luego empaquetará el AAB."
@@ -12058,6 +13016,7 @@ object StringsE {
     val playStoreExportBlockedHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存在阻塞问题，请先修复后再导出 AAB。"
         AppLanguage.ENGLISH -> "Blocking issues found. Fix them before exporting an AAB."
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy sự cố chặn. Hãy sửa chúng trước khi xuất AAB."
         AppLanguage.ARABIC -> "توجد مشكلات مانعة. أصلحها قبل تصدير AAB."
         AppLanguage.PORTUGUESE -> "Há problemas bloqueantes. Corrija-os antes de exportar o AAB."
         AppLanguage.SPANISH -> "Hay problemas bloqueantes. Corrígelos antes de exportar el AAB."
@@ -12070,6 +13029,7 @@ object StringsE {
     val playStoreFixBeforeExport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "先修复阻塞项"
         AppLanguage.ENGLISH -> "Fix blockers first"
+        AppLanguage.VIETNAMESE -> "Sửa các trình chặn trước"
         AppLanguage.ARABIC -> "أصلح العناصر المانعة أولاً"
         AppLanguage.PORTUGUESE -> "Corrija os bloqueios primeiro"
         AppLanguage.SPANISH -> "Corrige los bloqueos primero"
@@ -12082,6 +13042,7 @@ object StringsE {
     val playStoreExportWarningTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仍要导出吗？"
         AppLanguage.ENGLISH -> "Export anyway?"
+        AppLanguage.VIETNAMESE -> "Vẫn xuất khẩu?"
         AppLanguage.ARABIC -> "هل تريد التصدير على أي حال؟"
         AppLanguage.PORTUGUESE -> "Exportar mesmo assim?"
         AppLanguage.SPANISH -> "¿Exportar de todos modos?"
@@ -12094,6 +13055,7 @@ object StringsE {
     val playStoreExportWarningBody: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 %d 个警告项。它们不一定阻止导出，但可能影响 Google Play 审核。"
         AppLanguage.ENGLISH -> "%d warning(s) found. They may not block export, but can affect Google Play review."
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy (các) cảnh báo %d. Họ có thể không chặn xuất nhưng có thể ảnh hưởng đến việc đánh giá trên Google Play."
         AppLanguage.ARABIC -> "تم العثور على %d تحذير(ات). قد لا تمنع التصدير، لكنها قد تؤثر على مراجعة Google Play."
         AppLanguage.PORTUGUESE -> "%d aviso(s) encontrado(s). Eles podem não bloquear a exportação, mas podem afetar a revisão do Google Play."
         AppLanguage.SPANISH -> "Se encontraron %d aviso(s). Puede que no bloqueen la exportación, pero pueden afectar la revisión de Google Play."
@@ -12106,6 +13068,7 @@ object StringsE {
     val playStoreExportContinueAnyway: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "仍然导出"
         AppLanguage.ENGLISH -> "Export anyway"
+        AppLanguage.VIETNAMESE -> "Vẫn xuất"
         AppLanguage.ARABIC -> "التصدير على أي حال"
         AppLanguage.PORTUGUESE -> "Exportar mesmo assim"
         AppLanguage.SPANISH -> "Exportar de todos modos"
@@ -12118,6 +13081,7 @@ object StringsE {
     val playStoreRecentAabs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近导出的 AAB"
         AppLanguage.ENGLISH -> "Recent AAB exports"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu AAB gần đây"
         AppLanguage.ARABIC -> "عمليات تصدير AAB الأخيرة"
         AppLanguage.PORTUGUESE -> "Exportações AAB recentes"
         AppLanguage.SPANISH -> "Exportaciones AAB recientes"
@@ -12130,6 +13094,7 @@ object StringsE {
     val apkExportPreflightTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出前检查"
         AppLanguage.ENGLISH -> "Export preflight"
+        AppLanguage.VIETNAMESE -> "Xuất trước chuyến bay"
         AppLanguage.ARABIC -> "فحص ما قبل التصدير"
         AppLanguage.PORTUGUESE -> "Verificação pré-exportação"
         AppLanguage.SPANISH -> "Verificación pre-exportación"
@@ -12142,6 +13107,7 @@ object StringsE {
     val apkExportPreflightBlocked: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "发现 %d 个阻塞问题，修复后才能开始构建。"
         AppLanguage.ENGLISH -> "%d blocking issue(s) found. Fix them before starting the build."
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy (các) vấn đề chặn %d. Hãy sửa chúng trước khi bắt đầu xây dựng."
         AppLanguage.ARABIC -> "تم العثور على %d مشكلة مانعة. أصلحها قبل بدء البناء."
         AppLanguage.PORTUGUESE -> "%d problema(s) bloqueante(s) encontrado(s). Corrija-os antes de iniciar o build."
         AppLanguage.SPANISH -> "%d problema(s) bloqueante(s) encontrado(s). Corrígelos antes de iniciar la compilación."
@@ -12155,6 +13121,7 @@ object StringsE {
     val nEnabledOfTotal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d/%d 已启用"
         AppLanguage.ENGLISH -> "%d/%d enabled"
+        AppLanguage.VIETNAMESE -> "Đã bật %d/%d"
         AppLanguage.ARABIC -> "%d/%d مفعّل"
         AppLanguage.PORTUGUESE -> "%d/%d ativado(s)"
         AppLanguage.SPANISH -> "%d/%d activado(s)"
@@ -12168,6 +13135,7 @@ object StringsE {
     val frontendDetectFoundDistDir: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到已构建的输出目录: %s，可直接导入"
         AppLanguage.ENGLISH -> "Found a pre-built output directory: %s — ready to import as-is"
+        AppLanguage.VIETNAMESE -> "Đã tìm thấy thư mục đầu ra dựng sẵn: %s — sẵn sàng nhập nguyên trạng"
         AppLanguage.ARABIC -> "تم العثور على مجلد إخراج مُجهَّز: %s — جاهز للاستيراد مباشرة"
         AppLanguage.PORTUGUESE -> "Encontrado um diretório de saída pré-construído: %s — pronto para importar como está"
         AppLanguage.SPANISH -> "Se encontró un directorio de salida preconstruido: %s — listo para importar tal cual"
@@ -12180,6 +13148,7 @@ object StringsE {
     val frontendDetectNoIndexHtml: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到 index.html 文件"
         AppLanguage.ENGLISH -> "index.html was not found"
+        AppLanguage.VIETNAMESE -> "không tìm thấy chỉ mục.html"
         AppLanguage.ARABIC -> "لم يتم العثور على ملف index.html"
         AppLanguage.PORTUGUESE -> "index.html não encontrado"
         AppLanguage.SPANISH -> "index.html no encontrado"
@@ -12192,6 +13161,7 @@ object StringsE {
     val frontendDetectStaticImport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到静态网站项目，将直接导入所有文件"
         AppLanguage.ENGLISH -> "Detected a static-site project — every file will be imported as-is"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện một dự án trang web tĩnh — mọi tệp sẽ được nhập nguyên trạng"
         AppLanguage.ARABIC -> "تم اكتشاف مشروع موقع ثابت — سيتم استيراد كل الملفات كما هي"
         AppLanguage.PORTUGUESE -> "Detectado um projeto de site estático — todos os arquivos serão importados como estão"
         AppLanguage.SPANISH -> "Detectado un proyecto de sitio estático — todos los archivos se importarán tal cual"
@@ -12204,6 +13174,7 @@ object StringsE {
     val frontendDetectNoPackageJson: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到 package.json 文件，也没有检测到静态文件"
         AppLanguage.ENGLISH -> "No package.json found, and no static assets were detected either"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy package.json và cũng không phát hiện thấy nội dung tĩnh nào"
         AppLanguage.ARABIC -> "لم يتم العثور على package.json ولا على أي ملفات ثابتة"
         AppLanguage.PORTUGUESE -> "Nenhum package.json encontrado, e nenhum arquivo estático foi detectado"
         AppLanguage.SPANISH -> "No se encontró package.json, ni se detectaron archivos estáticos"
@@ -12216,6 +13187,7 @@ object StringsE {
     val frontendDetectInvalidPackageJson: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "package.json 格式错误: %s"
         AppLanguage.ENGLISH -> "package.json is malformed: %s"
+        AppLanguage.VIETNAMESE -> "pack.json không đúng định dạng: %s"
         AppLanguage.ARABIC -> "ملف package.json غير صالح: %s"
         AppLanguage.PORTUGUESE -> "package.json mal formatado: %s"
         AppLanguage.SPANISH -> "package.json mal formado: %s"
@@ -12228,6 +13200,7 @@ object StringsE {
     val frontendDetectNoDistFolder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未检测到构建输出目录（dist/build）"
         AppLanguage.ENGLISH -> "No build output directory (dist/build) detected"
+        AppLanguage.VIETNAMESE -> "Không phát hiện thấy thư mục đầu ra bản dựng (dist/build)"
         AppLanguage.ARABIC -> "لم يتم اكتشاف مجلد إخراج البناء (dist/build)"
         AppLanguage.PORTUGUESE -> "Nenhum diretório de saída de build (dist/build) detectado"
         AppLanguage.SPANISH -> "No se detectó directorio de salida de compilación (dist/build)"
@@ -12240,6 +13213,7 @@ object StringsE {
     val frontendDetectNoDistSuggestion: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请先在电脑上运行 npm run build 构建项目，然后导入构建后的文件夹"
         AppLanguage.ENGLISH -> "Run `npm run build` on your computer first, then import the produced folder"
+        AppLanguage.VIETNAMESE -> "Trước tiên hãy chạy `npm run build` trên máy tính của bạn, sau đó nhập thư mục đã tạo"
         AppLanguage.ARABIC -> "نفّذ `npm run build` على الكمبيوتر أولًا، ثم استورد المجلد الناتج"
         AppLanguage.PORTUGUESE -> "Execute `npm run build` no computador primeiro, depois importe a pasta gerada"
         AppLanguage.SPANISH -> "Ejecuta `npm run build` en tu computadora primero, luego importa la carpeta generada"
@@ -12252,6 +13226,7 @@ object StringsE {
     val frontendDetectConfigureEnvVar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请配置环境变量 %s"
         AppLanguage.ENGLISH -> "Please configure environment variable %s"
+        AppLanguage.VIETNAMESE -> "Vui lòng định cấu hình biến môi trường %s"
         AppLanguage.ARABIC -> "يرجى ضبط متغير البيئة %s"
         AppLanguage.PORTUGUESE -> "Configure a variável de ambiente %s"
         AppLanguage.SPANISH -> "Configura la variable de entorno %s"
@@ -12264,6 +13239,7 @@ object StringsE {
     val frontendSuggestBackendDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 %s 后端框架，建议使用 Node.js 应用模式打包"
         AppLanguage.ENGLISH -> "Detected %s backend framework — packaging as a Node.js app is recommended"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện khung phụ trợ %s - nên đóng gói dưới dạng ứng dụng Node.js"
         AppLanguage.ARABIC -> "تم اكتشاف إطار خلفي %s — يُنصح بالتعبئة كتطبيق Node.js"
         AppLanguage.PORTUGUESE -> "Detectado o framework backend %s — empacotar como app Node.js é recomendado"
         AppLanguage.SPANISH -> "Detectado el framework backend %s — se recomienda empaquetar como app Node.js"
@@ -12276,6 +13252,7 @@ object StringsE {
     val frontendSuggestSsrDetected: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 SSR 框架，需要 Node.js 运行时或切换到静态导出模式"
         AppLanguage.ENGLISH -> "SSR framework detected — needs the Node.js runtime, or switch to static export"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện thấy khung SSR - cần thời gian chạy Node.js hoặc chuyển sang xuất tĩnh"
         AppLanguage.ARABIC -> "تم اكتشاف إطار SSR — يحتاج وقت تشغيل Node.js أو التحوّل إلى وضع التصدير الثابت"
         AppLanguage.PORTUGUESE -> "Framework SSR detectado — precisa do runtime do Node.js, ou mude para exportação estática"
         AppLanguage.SPANISH -> "Framework SSR detectado — necesita el runtime de Node.js, o cambia a exportación estática"
@@ -12288,6 +13265,7 @@ object StringsE {
     val frontendSuggestBackendEntry: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后端入口文件: %s"
         AppLanguage.ENGLISH -> "Backend entry file: %s"
+        AppLanguage.VIETNAMESE -> "Tệp mục nhập phụ trợ: %s"
         AppLanguage.ARABIC -> "ملف الدخول للخلفية: %s"
         AppLanguage.PORTUGUESE -> "Arquivo de entrada do backend: %s"
         AppLanguage.SPANISH -> "Archivo de entrada del backend: %s"
@@ -12300,6 +13278,7 @@ object StringsE {
     val frontendSuggestRunBuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请先在电脑上构建项目：npm run build"
         AppLanguage.ENGLISH -> "Build the project on your computer first: npm run build"
+        AppLanguage.VIETNAMESE -> "Trước tiên hãy xây dựng dự án trên máy tính của bạn: npm run build"
         AppLanguage.ARABIC -> "ابنِ المشروع على الكمبيوتر أولًا: npm run build"
         AppLanguage.PORTUGUESE -> "Construa o projeto no computador primeiro: npm run build"
         AppLanguage.SPANISH -> "Compila el proyecto en tu computadora primero: npm run build"
@@ -12312,6 +13291,7 @@ object StringsE {
     val frontendSuggestSelectDist: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "然后选择构建输出目录（通常是 dist 或 build）导入"
         AppLanguage.ENGLISH -> "Then pick the build output directory (usually dist or build) to import"
+        AppLanguage.VIETNAMESE -> "Sau đó chọn thư mục đầu ra của bản dựng (thường là dist hoặc build) để nhập"
         AppLanguage.ARABIC -> "ثم اختر مجلد إخراج البناء (عادةً dist أو build) للاستيراد"
         AppLanguage.PORTUGUESE -> "Depois escolha o diretório de saída do build (geralmente dist ou build) para importar"
         AppLanguage.SPANISH -> "Luego elige el directorio de salida de compilación (normalmente dist o build) para importar"
@@ -12324,6 +13304,7 @@ object StringsE {
     val frontendSuggestEnvVars: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到 %d 个环境变量需要配置"
         AppLanguage.ENGLISH -> "Detected %d environment variable(s) that need to be configured"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện (các) biến môi trường %d cần được định cấu hình"
         AppLanguage.ARABIC -> "تم اكتشاف %d متغير بيئة بحاجة إلى ضبط"
         AppLanguage.PORTUGUESE -> "Detectadas %d variável(is) de ambiente que precisam ser configuradas"
         AppLanguage.SPANISH -> "Detectadas %d variable(s) de entorno que deben configurarse"
@@ -12336,6 +13317,7 @@ object StringsE {
     val frontendSuggestDbWithNode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到数据库依赖，Node.js 模式下可使用 SQLite"
         AppLanguage.ENGLISH -> "Database dependency detected — SQLite is available in Node.js mode"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện sự phụ thuộc cơ sở dữ liệu - SQLite có sẵn ở chế độ Node.js"
         AppLanguage.ARABIC -> "تم اكتشاف تبعية قاعدة بيانات — يمكن استخدام SQLite في وضع Node.js"
         AppLanguage.PORTUGUESE -> "Dependência de banco de dados detectada — SQLite está disponível no modo Node.js"
         AppLanguage.SPANISH -> "Dependencia de base de datos detectada — SQLite está disponible en modo Node.js"
@@ -12348,6 +13330,7 @@ object StringsE {
     val frontendSuggestDbStaticOnly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "检测到数据库依赖，纯静态模式无法使用后端数据库"
         AppLanguage.ENGLISH -> "Database dependency detected — a pure static build cannot use a backend database"
+        AppLanguage.VIETNAMESE -> "Đã phát hiện sự phụ thuộc của cơ sở dữ liệu - bản dựng tĩnh thuần túy không thể sử dụng cơ sở dữ liệu phụ trợ"
         AppLanguage.ARABIC -> "تم اكتشاف تبعية قاعدة بيانات — لا يمكن لوضع ثابت بحت استخدام قاعدة بيانات خلفية"
         AppLanguage.PORTUGUESE -> "Dependência de banco de dados detectada — um build puramente estático não pode usar um banco de dados backend"
         AppLanguage.SPANISH -> "Dependencia de base de datos detectada — una compilación puramente estática no puede usar una base de datos backend"
@@ -12361,6 +13344,7 @@ object StringsE {
     val scrapeAnalyzing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分析页面结构..."
         AppLanguage.ENGLISH -> "Analysing page structure..."
+        AppLanguage.VIETNAMESE -> "Phân tích cấu trúc trang..."
         AppLanguage.ARABIC -> "تحليل بنية الصفحة..."
         AppLanguage.PORTUGUESE -> "Analisando a estrutura da página..."
         AppLanguage.SPANISH -> "Analizando la estructura de la página..."
@@ -12373,6 +13357,7 @@ object StringsE {
     val scrapeEntryDownloadFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法下载入口页面: %s"
         AppLanguage.ENGLISH -> "Couldn't download the entry page: %s"
+        AppLanguage.VIETNAMESE -> "Không thể tải xuống trang nhập: %s"
         AppLanguage.ARABIC -> "تعذّر تنزيل صفحة الدخول: %s"
         AppLanguage.PORTUGUESE -> "Não foi possível baixar a página de entrada: %s"
         AppLanguage.SPANISH -> "No se pudo descargar la página de entrada: %s"
@@ -12385,6 +13370,7 @@ object StringsE {
     val scrapeDownloadingProgress: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载中: %d 个文件..."
         AppLanguage.ENGLISH -> "Downloading: %d file(s)..."
+        AppLanguage.VIETNAMESE -> "Đang tải xuống: (các) tệp %d..."
         AppLanguage.ARABIC -> "جارٍ التنزيل: %d ملف..."
         AppLanguage.PORTUGUESE -> "Baixando: %d arquivo(s)..."
         AppLanguage.SPANISH -> "Descargando: %d archivo(s)..."
@@ -12397,6 +13383,7 @@ object StringsE {
     val scrapeRewritingPaths: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重写资源路径..."
         AppLanguage.ENGLISH -> "Rewriting asset paths..."
+        AppLanguage.VIETNAMESE -> "Viết lại đường dẫn nội dung..."
         AppLanguage.ARABIC -> "إعادة كتابة مسارات الموارد..."
         AppLanguage.PORTUGUESE -> "Reescrevendo caminhos de recursos..."
         AppLanguage.SPANISH -> "Reescribiendo rutas de recursos..."
@@ -12409,6 +13396,7 @@ object StringsE {
     val scrapeComplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完成: %d 个文件, %d KB"
         AppLanguage.ENGLISH -> "Done: %d file(s), %d KB"
+        AppLanguage.VIETNAMESE -> "Đã hoàn tất: (các) tệp %d, %d KB"
         AppLanguage.ARABIC -> "اكتمل: %d ملف، %d ك.بايت"
         AppLanguage.PORTUGUESE -> "Concluído: %d arquivo(s), %d KB"
         AppLanguage.SPANISH -> "Completado: %d archivo(s), %d KB"
@@ -12421,6 +13409,7 @@ object StringsE {
     val scrapeFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "抓取失败: %s"
         AppLanguage.ENGLISH -> "Scrape failed: %s"
+        AppLanguage.VIETNAMESE -> "Quét không thành công: %s"
         AppLanguage.ARABIC -> "فشل النسخ: %s"
         AppLanguage.PORTUGUESE -> "Falha na extração: %s"
         AppLanguage.SPANISH -> "Error en la extracción: %s"
@@ -12434,6 +13423,7 @@ object StringsE {
     val pwaAnalyzeEmptyPage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "站点返回了空页面，无法完成分析"
         AppLanguage.ENGLISH -> "The site returned an empty page; analysis can't continue"
+        AppLanguage.VIETNAMESE -> "Trang web trả về một trang trống; phân tích không thể tiếp tục"
         AppLanguage.ARABIC -> "أعاد الموقع صفحة فارغة، فلا يمكن إكمال التحليل"
         AppLanguage.PORTUGUESE -> "O site retornou uma página vazia; a análise não pode continuar"
         AppLanguage.SPANISH -> "El sitio devolvió una página vacía; el análisis no puede continuar"
@@ -12446,6 +13436,7 @@ object StringsE {
     val pwaAnalyzeFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "分析失败: %s"
         AppLanguage.ENGLISH -> "Analysis failed: %s"
+        AppLanguage.VIETNAMESE -> "Phân tích không thành công: %s"
         AppLanguage.ARABIC -> "فشل التحليل: %s"
         AppLanguage.PORTUGUESE -> "Falha na análise: %s"
         AppLanguage.SPANISH -> "Error en el análisis: %s"
@@ -12458,6 +13449,7 @@ object StringsE {
     val pwaAnalyzeUnknownError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未知错误"
         AppLanguage.ENGLISH -> "Unknown error"
+        AppLanguage.VIETNAMESE -> "Lỗi không xác định"
         AppLanguage.ARABIC -> "خطأ غير معروف"
         AppLanguage.PORTUGUESE -> "Erro desconhecido"
         AppLanguage.SPANISH -> "Error desconocido"
@@ -12471,6 +13463,7 @@ object StringsE {
     val integrityInstallerSource: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装来源: %s"
         AppLanguage.ENGLISH -> "Installer source: %s"
+        AppLanguage.VIETNAMESE -> "Nguồn cài đặt: %s"
         AppLanguage.ARABIC -> "مصدر التثبيت: %s"
         AppLanguage.PORTUGUESE -> "Origem da instalação: %s"
         AppLanguage.SPANISH -> "Origen de la instalación: %s"
@@ -12483,6 +13476,7 @@ object StringsE {
     val integrityInstallerUnknown: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未知"
         AppLanguage.ENGLISH -> "unknown"
+        AppLanguage.VIETNAMESE -> "không rõ"
         AppLanguage.ARABIC -> "غير معروف"
         AppLanguage.PORTUGUESE -> "desconhecido"
         AppLanguage.SPANISH -> "desconocido"
@@ -12495,6 +13489,7 @@ object StringsE {
     val integrityInstallerCannotDetect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法获取安装来源"
         AppLanguage.ENGLISH -> "Couldn't determine the installer source"
+        AppLanguage.VIETNAMESE -> "Không thể xác định nguồn trình cài đặt"
         AppLanguage.ARABIC -> "تعذّر تحديد مصدر التثبيت"
         AppLanguage.PORTUGUESE -> "Não foi possível determinar a origem da instalação"
         AppLanguage.SPANISH -> "No se pudo determinar el origen de la instalación"
@@ -12508,6 +13503,7 @@ object StringsE {
     val errorPageModeSuppressed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "屏蔽错误信息"
         AppLanguage.ENGLISH -> "Suppress Errors"
+        AppLanguage.VIETNAMESE -> "Ngăn chặn lỗi"
         AppLanguage.ARABIC -> "إخفاء معلومات الخطأ"
         AppLanguage.PORTUGUESE -> "Suprimir Erros"
         AppLanguage.SPANISH -> "Suprimir Errores"
@@ -12521,6 +13517,7 @@ object StringsE {
     val printStarted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印对话框已打开"
         AppLanguage.ENGLISH -> "Print dialog opened"
+        AppLanguage.VIETNAMESE -> "Đã mở hộp thoại in"
         AppLanguage.ARABIC -> "تم فتح مربع حوار الطباعة"
         AppLanguage.PORTUGUESE -> "Caixa de diálogo de impressão aberta"
         AppLanguage.SPANISH -> "Cuadro de diálogo de impresión abierto"
@@ -12534,6 +13531,7 @@ object StringsE {
     val printNotAvailable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印功能不可用"
         AppLanguage.ENGLISH -> "Printing is not available"
+        AppLanguage.VIETNAMESE -> "In ấn không có sẵn"
         AppLanguage.ARABIC -> "الطباعة غير متاحة"
         AppLanguage.PORTUGUESE -> "A impressão não está disponível"
         AppLanguage.SPANISH -> "La impresión no está disponible"
@@ -12547,6 +13545,7 @@ object StringsE {
     val printFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印失败"
         AppLanguage.ENGLISH -> "Print failed"
+        AppLanguage.VIETNAMESE -> "In không thành công"
         AppLanguage.ARABIC -> "فشل الطباعة"
         AppLanguage.PORTUGUESE -> "Falha na impressão"
         AppLanguage.SPANISH -> "Error al imprimir"
@@ -12560,6 +13559,7 @@ object StringsE {
     val printPreparing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在准备打印..."
         AppLanguage.ENGLISH -> "Preparing print..."
+        AppLanguage.VIETNAMESE -> "Đang chuẩn bị in..."
         AppLanguage.ARABIC -> "جاري تحضير الطباعة..."
         AppLanguage.PORTUGUESE -> "Preparando impressão..."
         AppLanguage.SPANISH -> "Preparando la impresión..."
@@ -12573,6 +13573,7 @@ object StringsE {
     val printDocument: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文档"
         AppLanguage.ENGLISH -> "Document"
+        AppLanguage.VIETNAMESE -> "Tài liệu"
         AppLanguage.ARABIC -> "مستند"
         AppLanguage.PORTUGUESE -> "Documento"
         AppLanguage.SPANISH -> "Documento"
@@ -12586,6 +13587,7 @@ object StringsE {
     val enablePrintBridgeTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "打印支持"
         AppLanguage.ENGLISH -> "Print Support"
+        AppLanguage.VIETNAMESE -> "Hỗ trợ in ấn"
         AppLanguage.ARABIC -> "دعم الطباعة"
         AppLanguage.PORTUGUESE -> "Suporte à Impressão"
         AppLanguage.SPANISH -> "Soporte de Impresión"
@@ -12599,6 +13601,7 @@ object StringsE {
     val enablePrintBridgeDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "拦截 window.print() 并唤起系统打印对话框，支持网页打印和 PDF 导出"
         AppLanguage.ENGLISH -> "Intercept window.print() to open the system print dialog, supporting web page printing and PDF export"
+        AppLanguage.VIETNAMESE -> "Chặn window.print() để mở hộp thoại in hệ thống, hỗ trợ in trang web và xuất PDF"
         AppLanguage.ARABIC -> "اعتراض window.print() لفتح مربع حوار طباعة النظام، يدعم طباعة صفحات الويب وتصدير PDF"
         AppLanguage.PORTUGUESE -> "Interceptar window.print() para abrir a caixa de diálogo de impressão do sistema, com suporte a impressão de páginas web e exportação em PDF"
         AppLanguage.SPANISH -> "Interceptar window.print() para abrir el cuadro de diálogo de impresión del sistema, permitiendo imprimir páginas web y exportar a PDF"
@@ -12611,6 +13614,7 @@ object StringsE {
     val enableMediaSessionTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "媒体会话集成"
         AppLanguage.ENGLISH -> "Media Session Integration"
+        AppLanguage.VIETNAMESE -> "Tích hợp phiên truyền thông"
         AppLanguage.ARABIC -> "تكامل جلسة الوسائط"
         AppLanguage.PORTUGUESE -> "Integração de Sessão de Mídia"
         AppLanguage.SPANISH -> "Integración de Sesión de Medios"
@@ -12623,6 +13627,7 @@ object StringsE {
     val enableMediaSessionDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将网页媒体桥接到系统通知栏和锁屏控制，支持蓝牙耳机、Android Auto"
         AppLanguage.ENGLISH -> "Bridge web media to system notification and lock-screen controls (Bluetooth, Android Auto)"
+        AppLanguage.VIETNAMESE -> "Kết nối phương tiện web với thông báo hệ thống và điều khiển màn hình khóa (Bluetooth, Android Auto)"
         AppLanguage.ARABIC -> "ربط وسائط الويب بإشعارات النظام والتحكم في شاشة القفل (Bluetooth، Android Auto)"
         AppLanguage.PORTUGUESE -> "Conectar mídia da web aos controles de notificação do sistema e tela de bloqueio (Bluetooth, Android Auto)"
         AppLanguage.SPANISH -> "Conectar medios web a controles de notificación del sistema y pantalla de bloqueo (Bluetooth, Android Auto)"
@@ -12635,6 +13640,7 @@ object StringsE {
     val backgroundMediaPlaybackTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后台继续播放"
         AppLanguage.ENGLISH -> "Keep playing in background"
+        AppLanguage.VIETNAMESE -> "Tiếp tục phát ở chế độ nền"
         AppLanguage.ARABIC -> "متابعة التشغيل في الخلفية"
         AppLanguage.PORTUGUESE -> "Continuar a reproduzir em segundo plano"
         AppLanguage.SPANISH -> "Seguir reproduciendo en segundo plano"
@@ -12647,6 +13653,7 @@ object StringsE {
     val backgroundMediaPlaybackDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "离开应用后，正在播放的声音会继续。通知栏可以暂停。画面会停，回到应用后从刚才的进度接着播"
         AppLanguage.ENGLISH -> "Audio that is already playing continues after you leave. Pause it from the notification. The picture stops until you come back, then picks up where it left off"
+        AppLanguage.VIETNAMESE -> "Âm thanh đang phát vẫn tiếp tục sau khi bạn rời đi. Tạm dừng nó khỏi thông báo. Hình ảnh dừng lại cho đến khi bạn quay lại, sau đó tiếp tục nơi nó đã dừng lại"
         AppLanguage.ARABIC -> "يستمر الصوت الذي يعمل عند مغادرة التطبيق. يمكن إيقافه من الإشعار. تتوقف الصورة حتى تعود، ثم تكمل من حيث توقفت"
         AppLanguage.PORTUGUESE -> "O áudio que já está a tocar continua quando sai da aplicação. Pause pelo aviso. A imagem para até voltar e retoma de onde ficou"
         AppLanguage.SPANISH -> "El audio que ya se está reproduciendo continúa al salir. Puedes pausarlo desde la notificación. La imagen se detiene hasta que vuelves y sigue desde el mismo punto"
@@ -12659,6 +13666,7 @@ object StringsE {
     val previewBackendAppIntro: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此项目是 %s 后端应用。"
         AppLanguage.ENGLISH -> "This project is a %s backend app."
+        AppLanguage.VIETNAMESE -> "Dự án này là một ứng dụng phụ trợ %s."
         AppLanguage.ARABIC -> "هذا المشروع تطبيق خلفي بإطار %s."
         AppLanguage.PORTUGUESE -> "Este projeto é um app backend %s."
         AppLanguage.SPANISH -> "Este proyecto es una app backend %s."
@@ -12672,6 +13680,7 @@ object StringsE {
     val previewEntryNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到入口文件"
         AppLanguage.ENGLISH -> "Entry file not found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tập tin nhập"
         AppLanguage.ARABIC -> "لم يُعثر على ملف الدخول"
         AppLanguage.PORTUGUESE -> "Arquivo de entrada não encontrado"
         AppLanguage.SPANISH -> "Archivo de entrada no encontrado"
@@ -12685,6 +13694,7 @@ object StringsE {
     val previewFileNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件不存在：%s"
         AppLanguage.ENGLISH -> "File not found: %s"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tệp: %s"
         AppLanguage.ARABIC -> "الملف غير موجود: %s"
         AppLanguage.PORTUGUESE -> "Arquivo não encontrado: %s"
         AppLanguage.SPANISH -> "Archivo no encontrado: %s"
@@ -12698,6 +13708,7 @@ object StringsE {
     val previewFileUnreadable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法读取文件内容"
         AppLanguage.ENGLISH -> "Unable to read file contents"
+        AppLanguage.VIETNAMESE -> "Không thể đọc nội dung tập tin"
         AppLanguage.ARABIC -> "تعذّرت قراءة محتوى الملف"
         AppLanguage.PORTUGUESE -> "Não foi possível ler o conteúdo do arquivo"
         AppLanguage.SPANISH -> "No se pudo leer el contenido del archivo"
@@ -12711,6 +13722,7 @@ object StringsE {
     val previewGoBinaryMissingBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缺少预编译二进制"
         AppLanguage.ENGLISH -> "Missing precompiled binary"
+        AppLanguage.VIETNAMESE -> "Thiếu nhị phân được biên dịch trước"
         AppLanguage.ARABIC -> "ملف ثنائي مُترجَم مفقود"
         AppLanguage.PORTUGUESE -> "Binário pré-compilado ausente"
         AppLanguage.SPANISH -> "Binario precompilado faltante"
@@ -12724,6 +13736,7 @@ object StringsE {
     val previewGoBinaryReadyBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可运行二进制已就绪：%s"
         AppLanguage.ENGLISH -> "Runnable binary ready: %s"
+        AppLanguage.VIETNAMESE -> "Sẵn sàng nhị phân có thể chạy được: %s"
         AppLanguage.ARABIC -> "الملف الثنائي القابل للتشغيل جاهز: %s"
         AppLanguage.PORTUGUESE -> "Binário executável pronto: %s"
         AppLanguage.SPANISH -> "Binario ejecutable listo: %s"
@@ -12737,6 +13750,7 @@ object StringsE {
     val previewGoNoGoMod: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无 go.mod"
         AppLanguage.ENGLISH -> "No go.mod"
+        AppLanguage.VIETNAMESE -> "Không đi.mod"
         AppLanguage.ARABIC -> "لا يوجد go.mod"
         AppLanguage.PORTUGUESE -> "Sem go.mod"
         AppLanguage.SPANISH -> "Sin go.mod"
@@ -12750,6 +13764,7 @@ object StringsE {
     val previewGoTipNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前 GO_APP 仅支持运行预编译二进制。请先为目标 ABI 构建可执行文件。"
         AppLanguage.ENGLISH -> "GO_APP currently only runs precompiled binaries. Build an executable for the target ABI first."
+        AppLanguage.VIETNAMESE -> "GO_APP hiện chỉ chạy các tệp nhị phân được biên dịch trước. Trước tiên hãy xây dựng tệp thực thi cho ABI mục tiêu."
         AppLanguage.ARABIC -> "يشغّل GO_APP حاليًا الملفات الثنائية المُترجَمة مسبقًا فقط. ابنِ ملفًا تنفيذيًا لمعمارية الـ ABI المستهدفة أولاً."
         AppLanguage.PORTUGUESE -> "O GO_APP atualmente executa apenas binários pré-compilados. Compile um executável para a ABI de destino primeiro."
         AppLanguage.SPANISH -> "GO_APP actualmente solo ejecuta binarios precompilados. Compila un ejecutable para la ABI de destino primero."
@@ -12763,6 +13778,7 @@ object StringsE {
     val previewGoTipReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已检测到可运行二进制（%s），可直接启动服务器。"
         AppLanguage.ENGLISH -> "A runnable binary was detected (%s); the server can start directly."
+        AppLanguage.VIETNAMESE -> "Đã phát hiện một tệp nhị phân có thể chạy được (%s); máy chủ có thể khởi động trực tiếp."
         AppLanguage.ARABIC -> "تم اكتشاف ملف ثنائي قابل للتشغيل (%s)؛ يمكن تشغيل الخادم مباشرة."
         AppLanguage.PORTUGUESE -> "Um binário executável foi detectado (%s); o servidor pode iniciar diretamente."
         AppLanguage.SPANISH -> "Se detectó un binario ejecutable (%s); el servidor puede iniciar directamente."
@@ -12776,6 +13792,7 @@ object StringsE {
     val previewNodeNeedRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要下载 Node.js 运行时"
         AppLanguage.ENGLISH -> "Node.js runtime required"
+        AppLanguage.VIETNAMESE -> "Yêu cầu thời gian chạy Node.js"
         AppLanguage.ARABIC -> "مطلوب وقت تشغيل Node.js"
         AppLanguage.PORTUGUESE -> "Runtime do Node.js necessário"
         AppLanguage.SPANISH -> "Se requiere el runtime de Node.js"
@@ -12789,6 +13806,7 @@ object StringsE {
     val previewNodeTipNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "这是一个 %s 后端应用。当前在预览模式（仅显示源码）。请到「运行时管理」下载 Node.js 运行时后再回来即可正常运行。"
         AppLanguage.ENGLISH -> "This is a %s backend app, currently in preview mode (source only). Download the Node.js runtime in Runtime Management, then come back to run it."
+        AppLanguage.VIETNAMESE -> "Đây là ứng dụng phụ trợ %s, hiện ở chế độ xem trước (chỉ nguồn). Tải xuống thời gian chạy Node.js trong Quản lý thời gian chạy, sau đó quay lại để chạy nó."
         AppLanguage.ARABIC -> "هذا تطبيق خلفي بإطار %s، وهو حاليًا في وضع المعاينة (الكود المصدري فقط). نزّل وقت تشغيل Node.js من إدارة أوقات التشغيل ثم عُد لتشغيله."
         AppLanguage.PORTUGUESE -> "Este é um app backend %s, atualmente em modo de pré-visualização (somente código-fonte). Baixe o runtime do Node.js em Gerenciamento de Runtime e volte para executá-lo."
         AppLanguage.SPANISH -> "Esta es una app backend %s, actualmente en modo vista previa (solo código fuente). Descarga el runtime de Node.js en Gestión de Runtimes y vuelve para ejecutarla."
@@ -12802,6 +13820,7 @@ object StringsE {
     val previewNodeTipReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 运行时已就绪，但本次启动 server 失败 / 未配置入口。检查 entryFile 是否存在、package.json 的 dependencies 是否需要先 npm install。"
         AppLanguage.ENGLISH -> "Node.js runtime is ready, but the server failed to start or no entry is configured. Check that entryFile exists and whether package.json dependencies need npm install first."
+        AppLanguage.VIETNAMESE -> "Thời gian chạy Node.js đã sẵn sàng nhưng máy chủ không khởi động được hoặc không có mục nào được định cấu hình. Kiểm tra xem entryFile có tồn tại không và liệu các phần phụ thuộc pack.json có cần cài đặt npm trước không."
         AppLanguage.ARABIC -> "وقت تشغيل Node.js جاهز، لكن فشل تشغيل الخادم أو لم يُضبط ملف الدخول. تحقق من وجود entryFile وما إذا كانت تبعيات package.json تحتاج إلى npm install أولاً."
         AppLanguage.PORTUGUESE -> "O runtime do Node.js está pronto, mas o servidor falhou ao iniciar ou nenhum entry foi configurado. Verifique se o entryFile existe e se as dependências do package.json precisam de npm install primeiro."
         AppLanguage.SPANISH -> "El runtime de Node.js está listo, pero el servidor falló al iniciar o no se configuró un entry. Verifica si entryFile existe y si las dependencias de package.json necesitan npm install primero."
@@ -12815,6 +13834,7 @@ object StringsE {
     val previewProjectFilesLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目文件"
         AppLanguage.ENGLISH -> "Project Files"
+        AppLanguage.VIETNAMESE -> "Tệp dự án"
         AppLanguage.ARABIC -> "ملفات المشروع"
         AppLanguage.PORTUGUESE -> "Arquivos do Projeto"
         AppLanguage.SPANISH -> "Archivos del Proyecto"
@@ -12828,6 +13848,7 @@ object StringsE {
     val previewProjectSuffix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "项目预览"
         AppLanguage.ENGLISH -> "Project Preview"
+        AppLanguage.VIETNAMESE -> "Xem trước dự án"
         AppLanguage.ARABIC -> "معاينة المشروع"
         AppLanguage.PORTUGUESE -> "Pré-visualização do Projeto"
         AppLanguage.SPANISH -> "Vista Previa del Proyecto"
@@ -12841,6 +13862,7 @@ object StringsE {
     val previewPythonNeedRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要下载 Python 运行时"
         AppLanguage.ENGLISH -> "Python runtime required"
+        AppLanguage.VIETNAMESE -> "Yêu cầu thời gian chạy Python"
         AppLanguage.ARABIC -> "مطلوب وقت تشغيل Python"
         AppLanguage.PORTUGUESE -> "Runtime do Python necessário"
         AppLanguage.SPANISH -> "Se requiere el runtime de Python"
@@ -12854,6 +13876,7 @@ object StringsE {
     val previewPythonTipNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需要先下载 Python 运行时才能运行。"
         AppLanguage.ENGLISH -> "Download the Python runtime first to run it."
+        AppLanguage.VIETNAMESE -> "Trước tiên hãy tải xuống thời gian chạy Python để chạy nó."
         AppLanguage.ARABIC -> "نزّل وقت تشغيل Python أولاً لتتمكن من تشغيله."
         AppLanguage.PORTUGUESE -> "Baixe o runtime do Python primeiro para executá-lo."
         AppLanguage.SPANISH -> "Descarga el runtime de Python primero para ejecutarlo."
@@ -12867,6 +13890,7 @@ object StringsE {
     val previewPythonTipReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python 运行时已就绪，可直接启动服务器。"
         AppLanguage.ENGLISH -> "Python runtime is ready; the server can start directly."
+        AppLanguage.VIETNAMESE -> "Thời gian chạy Python đã sẵn sàng; máy chủ có thể khởi động trực tiếp."
         AppLanguage.ARABIC -> "وقت تشغيل Python جاهز؛ يمكن تشغيل الخادم مباشرة."
         AppLanguage.PORTUGUESE -> "O runtime do Python está pronto; o servidor pode iniciar diretamente."
         AppLanguage.SPANISH -> "El runtime de Python está listo; el servidor puede iniciar directamente."
@@ -12880,6 +13904,7 @@ object StringsE {
     val previewRuntimeReadyBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时就绪"
         AppLanguage.ENGLISH -> "Runtime Ready"
+        AppLanguage.VIETNAMESE -> "Đã sẵn sàng cho thời gian chạy"
         AppLanguage.ARABIC -> "وقت التشغيل جاهز"
         AppLanguage.PORTUGUESE -> "Runtime Pronto"
         AppLanguage.SPANISH -> "Runtime Listo"
@@ -12893,6 +13918,7 @@ object StringsE {
     val previewServerStartFailedTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "服务器启动失败 — 详细错误"
         AppLanguage.ENGLISH -> "Server startup failed — details"
+        AppLanguage.VIETNAMESE -> "Khởi động máy chủ không thành công - chi tiết"
         AppLanguage.ARABIC -> "فشل تشغيل الخادم — التفاصيل"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar o servidor — detalhes"
         AppLanguage.SPANISH -> "Error al iniciar el servidor — detalles"
@@ -12906,6 +13932,7 @@ object StringsE {
     val previewStartupFailedBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动失败"
         AppLanguage.ENGLISH -> "Startup Failed"
+        AppLanguage.VIETNAMESE -> "Khởi động thất bại"
         AppLanguage.ARABIC -> "فشل بدء التشغيل"
         AppLanguage.PORTUGUESE -> "Falha na Inicialização"
         AppLanguage.SPANISH -> "Error de Inicio"
@@ -12923,6 +13950,7 @@ object StringsE {
     val rulePathApkEncryption: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → APK 导出 → APK 加密"
         AppLanguage.ENGLISH -> "App Editor → APK Export → APK Encryption"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Xuất APK → Mã hóa APK"
         AppLanguage.ARABIC -> "محرر التطبيق ← تصدير APK ← تشفير APK"
         AppLanguage.PORTUGUESE -> "Editor do App → Exportar APK → Criptografia de APK"
         AppLanguage.SPANISH -> "Editor de App → Exportar APK → Cifrado de APK"
@@ -12936,6 +13964,7 @@ object StringsE {
     val ruleAreaApkEncryption: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "恶意行为（隐藏代码意图）"
         AppLanguage.ENGLISH -> "Malicious Behavior (Code Concealment)"
+        AppLanguage.VIETNAMESE -> "Hành vi độc hại (Che giấu mã)"
         AppLanguage.ARABIC -> "السلوك الخبيث (إخفاء الكود)"
         AppLanguage.PORTUGUESE -> "Comportamento Malicioso (Ocultação de Código)"
         AppLanguage.SPANISH -> "Comportamiento Malicioso (Ocultación de Código)"
@@ -12949,6 +13978,7 @@ object StringsE {
     val ruleFixApkEncryption: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭「APK 加密」。Play 要求应用代码可被审核，加密后的 APK 会被识别为隐藏意图。"
         AppLanguage.ENGLISH -> "Disable APK Encryption. Play requires app code to be auditable; encrypted APKs are flagged as concealing intent."
+        AppLanguage.VIETNAMESE -> "Tắt mã hóa APK. Play yêu cầu mã ứng dụng phải được kiểm tra; APK được mã hóa bị gắn cờ là mục đích che giấu."
         AppLanguage.ARABIC -> "عطّل تشفير APK. تتطلب Play أن يكون كود التطبيق قابلاً للتدقيق؛ يتم وضع علامة على APKs المشفرة على أنها تخفي النية."
         AppLanguage.PORTUGUESE -> "Desative a Criptografia de APK. O Play exige que o código do app seja auditável; APKs criptografados são sinalizados como ocultando intenção."
         AppLanguage.SPANISH -> "Desactiva el Cifrado de APK. Play requiere que el código de la app sea auditable; los APK cifrados se marcan como ocultamiento de intenciones."
@@ -12962,6 +13992,7 @@ object StringsE {
     val rulePathSslIgnore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 特殊设置 → 忽略 SSL 证书错误"
         AppLanguage.ENGLISH -> "App Editor → Special Settings → Ignore SSL certificate errors"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Cài đặt đặc biệt → Bỏ qua lỗi chứng chỉ SSL"
         AppLanguage.ARABIC -> "محرر التطبيق ← الإعدادات الخاصة ← تجاهل أخطاء شهادة SSL"
         AppLanguage.PORTUGUESE -> "Editor do App → Configurações Especiais → Ignorar erros de certificado SSL"
         AppLanguage.SPANISH -> "Editor de App → Ajustes Especiales → Ignorar errores de certificado SSL"
@@ -12975,6 +14006,7 @@ object StringsE {
     val ruleAreaSslIgnore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备和网络滥用（不安全实现）"
         AppLanguage.ENGLISH -> "Device and Network Abuse (Unsafe Implementation)"
+        AppLanguage.VIETNAMESE -> "Lạm dụng thiết bị và mạng (Triển khai không an toàn)"
         AppLanguage.ARABIC -> "إساءة استخدام الجهاز والشبكة (تنفيذ غير آمن)"
         AppLanguage.PORTUGUESE -> "Abuso de Dispositivo e Rede (Implementação Insegura)"
         AppLanguage.SPANISH -> "Abuso de Dispositivo y Red (Implementación Insegura)"
@@ -12988,6 +14020,7 @@ object StringsE {
     val ruleFixSslIgnore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "为上架 Play 关闭「忽略 SSL 证书错误」。该功能会无条件放行证书校验失败(含过期/域名不匹配/不受信任),属于 Play 政策明确列出的不安全实现,审核大概率被拒。仅侧载分发时无此限制。"
         AppLanguage.ENGLISH -> "Disable Ignore SSL certificate errors before publishing to Play. Proceeding past all certificate failures (expired, mismatched, untrusted) is an unsafe implementation explicitly called out by Play policy and will most likely be rejected. Sideload-only distribution is unaffected."
+        AppLanguage.VIETNAMESE -> "Tắt Bỏ qua lỗi chứng chỉ SSL trước khi xuất bản lên Play. Việc tiếp tục vượt qua tất cả các lỗi chứng chỉ (đã hết hạn, không khớp, không đáng tin cậy) là một cách triển khai không an toàn được chính sách Play chỉ ra rõ ràng và rất có thể sẽ bị từ chối. Phân phối chỉ tải bên không bị ảnh hưởng."
         AppLanguage.ARABIC -> "عطّل تجاهل أخطاء شهادة SSL قبل النشر على Play. تجاوز جميع حالات فشل الشهادة (منتهية، غير مطابقة، غير موثوقة) تنفيذ غير آمن تنص عليه سياسة Play صراحةً وسيُرفض على الأرجح. التوزيع بالتثبيت الجانبي غير متأثر."
         AppLanguage.PORTUGUESE -> "Desative Ignorar erros de certificado SSL antes de publicar no Play. Prosseguir além de todas as falhas de certificado (expirado, incompatível, não confiável) é uma implementação insegura explicitamente citada pela política do Play e provavelmente será rejeitada. Distribuição apenas por sideload não é afetada."
         AppLanguage.SPANISH -> "Desactiva Ignorar errores de certificado SSL antes de publicar en Play. Continuar ante cualquier fallo de certificado (caducado, no coincidente, no confiable) es una implementación insegura señalada expresamente por la política de Play y lo más probable es que se rechace. La distribución solo por instalación lateral no se ve afectada."
@@ -13002,6 +14035,7 @@ object StringsE {
     val rulePathBrowserDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 浏览器指纹伪装"
         AppLanguage.ENGLISH -> "App Editor → Browser Fingerprint Disguise"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Ngụy trang dấu vân tay của trình duyệt"
         AppLanguage.ARABIC -> "محرر التطبيق ← تمويه بصمة المتصفح"
         AppLanguage.PORTUGUESE -> "Editor do App → Disfarce de Impressão Digital do Navegador"
         AppLanguage.SPANISH -> "Editor de App → Disfraz de Huella del Navegador"
@@ -13015,6 +14049,7 @@ object StringsE {
     val ruleAreaBrowserDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "误导性行为"
         AppLanguage.ENGLISH -> "Misrepresentation"
+        AppLanguage.VIETNAMESE -> "Trình bày sai"
         AppLanguage.ARABIC -> "التضليل"
         AppLanguage.PORTUGUESE -> "Deturpação"
         AppLanguage.SPANISH -> "Tergiversación"
@@ -13028,6 +14063,7 @@ object StringsE {
     val ruleFixBrowserDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "建议关闭浏览器指纹伪装。如果你的应用确实需要伪装来访问目标站点，可保留，但 Play 审核可能会问询用途。"
         AppLanguage.ENGLISH -> "Consider disabling browser fingerprint disguise. If your app legitimately needs it for site access, keep it but be ready to justify during Play review."
+        AppLanguage.VIETNAMESE -> "Hãy cân nhắc việc vô hiệu hóa tính năng ngụy trang dấu vân tay của trình duyệt. Nếu ứng dụng của bạn cần nó một cách chính đáng để truy cập trang web, hãy giữ nó nhưng sẵn sàng biện minh trong quá trình xem xét trên Play."
         AppLanguage.ARABIC -> "فكر في تعطيل تمويه بصمة المتصفح. إذا كان تطبيقك يحتاجه فعلاً للوصول إلى المواقع، احتفظ به لكن استعد لتبريره أثناء مراجعة Play."
         AppLanguage.PORTUGUESE -> "Considere desativar o disfarce de impressão digital do navegador. Se o seu app legitimamente precisar disso para acesso ao site, mantenha, mas esteja pronto para justificar durante a revisão do Play."
         AppLanguage.SPANISH -> "Considera desactivar el disfraz de huella del navegador. Si tu app legítimamente lo necesita para acceder al sitio, manténlo, pero prepárate para justificarlo durante la revisión de Play."
@@ -13042,6 +14078,7 @@ object StringsE {
     val rulePathDeviceDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 设备伪装"
         AppLanguage.ENGLISH -> "App Editor → Device Disguise"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Ngụy trang thiết bị"
         AppLanguage.ARABIC -> "محرر التطبيق ← تمويه الجهاز"
         AppLanguage.PORTUGUESE -> "Editor do App → Disfarce de Dispositivo"
         AppLanguage.SPANISH -> "Editor de App → Disfraz de Dispositivo"
@@ -13055,6 +14092,7 @@ object StringsE {
     val ruleAreaDeviceDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "误导性行为"
         AppLanguage.ENGLISH -> "Misrepresentation"
+        AppLanguage.VIETNAMESE -> "Trình bày sai"
         AppLanguage.ARABIC -> "التضليل"
         AppLanguage.PORTUGUESE -> "Deturpação"
         AppLanguage.SPANISH -> "Tergiversación"
@@ -13068,6 +14106,7 @@ object StringsE {
     val ruleFixDeviceDisguise: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭「设备伪装」。把 Android 设备伪装成 iPhone / 桌面浏览器等通常会被 Play 视为误导。"
         AppLanguage.ENGLISH -> "Disable Device Disguise. Disguising an Android device as iPhone/Desktop browser is generally treated as misrepresentation by Play."
+        AppLanguage.VIETNAMESE -> "Tắt ngụy trang thiết bị. Việc ngụy trang thiết bị Android thành trình duyệt iPhone/Máy tính để bàn thường bị Play coi là trình bày sai."
         AppLanguage.ARABIC -> "عطّل تمويه الجهاز. تمويه جهاز Android كـ iPhone/متصفح سطح المكتب يُعتبر عادةً تضليلاً من قبل Play."
         AppLanguage.PORTUGUESE -> "Desative o Disfarce de Dispositivo. Disfarçar um dispositivo Android como iPhone/navegador de desktop geralmente é tratado como deturpação pelo Play."
         AppLanguage.SPANISH -> "Desactiva el Disfraz de Dispositivo. Disfrazar un dispositivo Android como iPhone/navegador de escritorio generalmente se considera tergiversación por Play."
@@ -13082,6 +14121,7 @@ object StringsE {
     val rulePathExtensions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 扩展模块"
         AppLanguage.ENGLISH -> "App Editor → Extension Modules"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Mô-đun mở rộng"
         AppLanguage.ARABIC -> "محرر التطبيق ← وحدات الامتدادات"
         AppLanguage.PORTUGUESE -> "Editor do App → Módulos de Extensão"
         AppLanguage.SPANISH -> "Editor de App → Módulos de Extensión"
@@ -13095,6 +14135,7 @@ object StringsE {
     val ruleAreaExtensions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动态代码加载（设备和网络滥用 6.1）"
         AppLanguage.ENGLISH -> "Dynamic Code Loading (Device & Network Abuse 6.1)"
+        AppLanguage.VIETNAMESE -> "Tải mã động (Lạm dụng thiết bị và mạng 6.1)"
         AppLanguage.ARABIC -> "تحميل الكود الديناميكي"
         AppLanguage.PORTUGUESE -> "Carregamento Dinâmico de Código (Uso Indiscriminado de Dispositivo e Rede 6.1)"
         AppLanguage.SPANISH -> "Carga Dinámica de Código (Uso Indebido de Dispositivo y Red 6.1)"
@@ -13108,6 +14149,7 @@ object StringsE {
     val ruleFixExtensions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "移除所有外部扩展模块。Play 6.1 政策禁止应用执行非 Play 提供的代码，但来自模块市场的代码也算外部代码。"
         AppLanguage.ENGLISH -> "Remove all external extension modules. Play policy 6.1 prohibits apps from executing code not delivered by Play, including module-market modules."
+        AppLanguage.VIETNAMESE -> "Loại bỏ tất cả các mô-đun mở rộng bên ngoài. Chính sách Play 6.1 cấm các ứng dụng thực thi mã không do Play phân phối, bao gồm cả các mô-đun thị trường mô-đun."
         AppLanguage.ARABIC -> "أزل جميع وحدات الامتدادات الخارجية. تحظر سياسة Play 6.1 التطبيقات من تنفيذ التعليمات البرمجية التي لم تقدمها Play."
         AppLanguage.PORTUGUESE -> "Remova todos os módulos de extensão externos. A política 6.1 do Play proíbe apps de executar código não entregue pelo Play, incluindo módulos do mercado de módulos."
         AppLanguage.SPANISH -> "Elimina todos los módulos de extensión externos. La política 6.1 de Play prohíbe a las apps ejecutar código no entregado por Play, incluidos los módulos del mercado de módulos."
@@ -13122,6 +14164,7 @@ object StringsE {
     val rulePathAutostart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 自启动 + 后台运行"
         AppLanguage.ENGLISH -> "App Editor → Auto-start + Background Run"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Tự động khởi động + Chạy trong nền"
         AppLanguage.ARABIC -> "محرر التطبيق ← التشغيل التلقائي + التشغيل في الخلفية"
         AppLanguage.PORTUGUESE -> "Editor do App → Início Automático + Execução em Segundo Plano"
         AppLanguage.SPANISH -> "Editor de App → Inicio Automático + Ejecución en Segundo Plano"
@@ -13135,6 +14178,7 @@ object StringsE {
     val ruleAreaAutostart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "后台服务限制"
         AppLanguage.ENGLISH -> "Background Service Restrictions"
+        AppLanguage.VIETNAMESE -> "Hạn chế dịch vụ nền"
         AppLanguage.ARABIC -> "قيود الخدمة في الخلفية"
         AppLanguage.PORTUGUESE -> "Restrições de Serviço em Segundo Plano"
         AppLanguage.SPANISH -> "Restricciones de Servicio en Segundo Plano"
@@ -13148,6 +14192,7 @@ object StringsE {
     val ruleFixAutostart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭「自启动」或「后台运行」其中一项。开机自启 + 持续后台 的组合在 Play 上需要明确的功能正当理由。"
         AppLanguage.ENGLISH -> "Disable either Auto-start or Background Run. The combination of boot-start + persistent background requires a clear functional justification on Play."
+        AppLanguage.VIETNAMESE -> "Vô hiệu hóa Tự động khởi động hoặc Chạy trong nền. Sự kết hợp giữa boot-start + nền liên tục đòi hỏi phải có sự chứng minh rõ ràng về chức năng trên Play."
         AppLanguage.ARABIC -> "عطّل إما التشغيل التلقائي أو التشغيل في الخلفية. مزيج بدء التشغيل + الخلفية المستمرة يتطلب تبريرًا وظيفيًا واضحًا في Play."
         AppLanguage.PORTUGUESE -> "Desative o Início Automático ou a Execução em Segundo Plano. A combinação de início no boot + segundo plano persistente requer uma justificativa funcional clara no Play."
         AppLanguage.SPANISH -> "Desactiva el Inicio Automático o la Ejecución en Segundo Plano. La combinación de inicio en arranque + segundo plano persistente requiere una justificación funcional clara en Play."
@@ -13162,6 +14207,7 @@ object StringsE {
     val rulePathUserScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 注入脚本"
         AppLanguage.ENGLISH -> "App Editor → Injected Scripts"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Tập lệnh được chèn"
         AppLanguage.ARABIC -> "محرر التطبيق ← النصوص المحقونة"
         AppLanguage.PORTUGUESE -> "Editor do App → Scripts Injetados"
         AppLanguage.SPANISH -> "Editor de App → Scripts Inyectados"
@@ -13175,6 +14221,7 @@ object StringsE {
     val ruleAreaUserScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "代码内容审核（参考）"
         AppLanguage.ENGLISH -> "Code Content Review (Informational)"
+        AppLanguage.VIETNAMESE -> "Đánh giá nội dung mã (Thông tin)"
         AppLanguage.ARABIC -> "مراجعة محتوى الكود (إعلامي)"
         AppLanguage.PORTUGUESE -> "Revisão de Conteúdo de Código (Informativo)"
         AppLanguage.SPANISH -> "Revisión de Contenido de Código (Informativo)"
@@ -13188,6 +14235,7 @@ object StringsE {
     val ruleFixUserScripts: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "确保你注入的 JS/CSS 不含恶意行为（追踪、键盘记录、密码窃取等）。Play 审核会扫描这些脚本。"
         AppLanguage.ENGLISH -> "Ensure your injected JS/CSS contains no malicious behavior (tracking, keylogging, credential theft). Play review will scan these scripts."
+        AppLanguage.VIETNAMESE -> "Đảm bảo JS/CSS được chèn của bạn không chứa hành vi độc hại (theo dõi, ghi nhật ký thao tác bàn phím, đánh cắp thông tin xác thực). Đánh giá Play sẽ quét các tập lệnh này."
         AppLanguage.ARABIC -> "تأكد من أن JS/CSS المحقون لا يحتوي على سلوك ضار (تتبع، تسجيل المفاتيح، سرقة بيانات الاعتماد). ستقوم مراجعة Play بفحص هذه النصوص."
         AppLanguage.PORTUGUESE -> "Garanta que o JS/CSS injetado não contenha comportamento malicioso (rastreamento, keylogging, roubo de credenciais). A revisão do Play examinará esses scripts."
         AppLanguage.SPANISH -> "Asegúrate de que el JS/CSS inyectado no contenga comportamiento malicioso (rastreo, keylogging, robo de credenciales). La revisión de Play escaneará estos scripts."
@@ -13202,6 +14250,7 @@ object StringsE {
     val rulePathPackageName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 导出 → 自定义包名"
         AppLanguage.ENGLISH -> "APK Export → Custom Package Name"
+        AppLanguage.VIETNAMESE -> "Xuất APK → Tên gói tùy chỉnh"
         AppLanguage.ARABIC -> "تصدير APK ← اسم الحزمة المخصص"
         AppLanguage.PORTUGUESE -> "Exportar APK → Nome de Pacote Personalizado"
         AppLanguage.SPANISH -> "Exportar APK → Nombre de Paquete Personalizado"
@@ -13215,6 +14264,7 @@ object StringsE {
     val ruleAreaPackageName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "假冒 / 知识产权"
         AppLanguage.ENGLISH -> "Impersonation / IP"
+        AppLanguage.VIETNAMESE -> "Mạo danh / IP"
         AppLanguage.ARABIC -> "انتحال الشخصية / الملكية الفكرية"
         AppLanguage.PORTUGUESE -> "Falsa Identidade / PI"
         AppLanguage.SPANISH -> "Suplantación / PI"
@@ -13228,6 +14278,7 @@ object StringsE {
     val ruleFixPackageName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包名疑似包含主流应用品牌词。换成你自有的反向域名（如 com.yourname.appname）。"
         AppLanguage.ENGLISH -> "Package name appears to contain a major brand keyword. Change it to your own reverse-domain name (e.g. com.yourname.appname)."
+        AppLanguage.VIETNAMESE -> "Tên gói dường như chứa từ khóa thương hiệu chính. Thay đổi nó thành tên miền đảo ngược của riêng bạn (ví dụ: com.yourname.appname)."
         AppLanguage.ARABIC -> "يبدو أن اسم الحزمة يحتوي على كلمة علامة تجارية رئيسية. غيّره إلى اسم نطاق عكسي خاص بك."
         AppLanguage.PORTUGUESE -> "O nome do pacote parece conter uma palavra-chave de marca importante. Altere para seu próprio nome de domínio reverso (ex. com.yourname.appname)."
         AppLanguage.SPANISH -> "El nombre del paquete parece contener una palabra clave de una marca importante. Cámbialo por tu propio nombre de dominio inverso (p. ej. com.yourname.appname)."
@@ -13242,6 +14293,7 @@ object StringsE {
     val rulePathActivation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用编辑 → 激活码门控"
         AppLanguage.ENGLISH -> "App Editor → Activation Code Gating"
+        AppLanguage.VIETNAMESE -> "Trình chỉnh sửa ứng dụng → Gating mã kích hoạt"
         AppLanguage.ARABIC -> "محرر التطبيق ← بوابة رمز التفعيل"
         AppLanguage.PORTUGUESE -> "Editor do App → Restrição por Código de Ativação"
         AppLanguage.SPANISH -> "Editor de App → Restricción por Código de Activación"
@@ -13255,6 +14307,7 @@ object StringsE {
     val ruleAreaActivation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "支付与功能解锁"
         AppLanguage.ENGLISH -> "Payments & Feature Unlock"
+        AppLanguage.VIETNAMESE -> "Thanh toán & Mở khóa tính năng"
         AppLanguage.ARABIC -> "المدفوعات وإلغاء قفل الميزات"
         AppLanguage.PORTUGUESE -> "Pagamentos & Desbloqueio de Recursos"
         AppLanguage.SPANISH -> "Pagos & Desbloqueo de Funciones"
@@ -13268,6 +14321,7 @@ object StringsE {
     val ruleFixActivation: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Play 上付费墙必须使用 Play Billing。如果你用激活码解锁付费内容，需要改成 Play 内购，否则可能违反「支付」政策。"
         AppLanguage.ENGLISH -> "Paywalls on Play must use Play Billing. If activation codes unlock paid content, switch to Play in-app purchase or you may violate Payments policy."
+        AppLanguage.VIETNAMESE -> "Tường phí trên Play phải sử dụng Play Billing. Nếu mã kích hoạt mở khóa nội dung trả phí, hãy chuyển sang mua trong ứng dụng Play, nếu không bạn có thể vi phạm chính sách Thanh toán."
         AppLanguage.ARABIC -> "يجب أن تستخدم البوابات المدفوعة على Play خدمة Play Billing. إذا كانت رموز التفعيل تفتح محتوى مدفوعًا، فقم بالتبديل إلى الشراء داخل تطبيق Play."
         AppLanguage.PORTUGUESE -> "Paywalls no Play devem usar o Play Billing. Se códigos de ativação desbloqueiam conteúdo pago, mude para compra no app do Play ou você pode violar a política de Pagamentos."
         AppLanguage.SPANISH -> "Los muros de pago en Play deben usar Play Billing. Si los códigos de activación desbloquean contenido de pago, cambia a compra integrada de Play o podrías violar la política de Pagos."
@@ -13282,6 +14336,7 @@ object StringsE {
     val rulePathServerRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "应用类型 → PHP / Node.js / Python / Go / WordPress"
         AppLanguage.ENGLISH -> "App Type → PHP / Node.js / Python / Go / WordPress"
+        AppLanguage.VIETNAMESE -> "Loại ứng dụng → PHP / Node.js / Python / Go / WordPress"
         AppLanguage.ARABIC -> "نوع التطبيق ← PHP / Node.js / Python / Go / WordPress"
         AppLanguage.PORTUGUESE -> "Tipo de App → PHP / Node.js / Python / Go / WordPress"
         AppLanguage.SPANISH -> "Tipo de App → PHP / Node.js / Python / Go / WordPress"
@@ -13295,6 +14350,7 @@ object StringsE {
     val ruleAreaServerRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时兼容性（targetSdk ≥ 29 限制）"
         AppLanguage.ENGLISH -> "Runtime Compatibility (targetSdk ≥ 29 restrictions)"
+        AppLanguage.VIETNAMESE -> "Khả năng tương thích thời gian chạy (targetSdk ≥ 29 hạn chế)"
         AppLanguage.ARABIC -> "توافق وقت التشغيل (قيود targetSdk ≥ 29)"
         AppLanguage.PORTUGUESE -> "Compatibilidade de Runtime (restrições do targetSdk ≥ 29)"
         AppLanguage.SPANISH -> "Compatibilidad de Runtime (restricciones de targetSdk ≥ 29)"
@@ -13308,6 +14364,7 @@ object StringsE {
     val ruleFixServerRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "此应用类型依赖 fork+exec 应用数据目录里的 ELF 二进制（PHP/Node/Python/Go 解释器、WordPress 用的 PHP）。Play 当前要求 targetSdk ≥ 36，但 Android 10 起 SELinux 不允许这种 exec，应用安装后无法启动。请把应用类型改为 Website / HTML / React / Vue / Image / Video / Gallery / Multi-Web 等纯前端类型，再考虑上架 Play。"
         AppLanguage.ENGLISH -> "This app type depends on fork+exec of ELF binaries inside the app data directory (PHP/Node/Python/Go interpreters, WordPress's bundled PHP). Play requires targetSdk ≥ 36, but Android 10+ SELinux blocks that exec — installed apps will fail to start. Switch the app type to a pure frontend (Website / HTML / React / Vue / Image / Video / Gallery / Multi-Web) before targeting Play."
+        AppLanguage.VIETNAMESE -> "Loại ứng dụng này phụ thuộc vào fork+exec của các tệp nhị phân ELF bên trong thư mục dữ liệu ứng dụng (trình thông dịch PHP/Node/Python/Go, gói PHP của WordPress). Chơi yêu cầu targetSdk ≥ 36, nhưng Android 10+ SELinux chặn thực thi — các ứng dụng đã cài đặt sẽ không khởi động được. Chuyển loại ứng dụng sang giao diện người dùng thuần túy (Trang web / HTML / React / Vue / Hình ảnh / Video / Thư viện / Multi-Web) trước khi nhắm mục tiêu Play."
         AppLanguage.ARABIC -> "يعتمد نوع التطبيق هذا على fork+exec للملفات الثنائية ELF داخل دليل بيانات التطبيق (PHP/Node/Python/Go، PHP المضمن في WordPress). يتطلب Play الآن targetSdk ≥ 36، لكن SELinux في Android 10+ يحظر ذلك — لن يتمكن المستخدمون من تشغيل التطبيق بعد التثبيت. غيّر نوع التطبيق إلى أحد الأنواع الأمامية الخالصة (Website / HTML / React / Vue / Image / Video / Gallery / Multi-Web) قبل التفكير في النشر على Play."
         AppLanguage.PORTUGUESE -> "Este tipo de app depende do fork+exec de binários ELF dentro do diretório de dados do app (interpretadores PHP/Node/Python/Go, PHP embutido do WordPress). O Play exige targetSdk ≥ 36, mas o SELinux do Android 10+ bloqueia esse exec — apps instalados falham ao iniciar. Mude o tipo de app para um frontend puro (Website / HTML / React / Vue / Image / Video / Gallery / Multi-Web) antes de publicar no Play."
         AppLanguage.SPANISH -> "Este tipo de app depende de fork+exec de binarios ELF dentro del directorio de datos de la app (intérpretes PHP/Node/Python/Go, PHP integrado de WordPress). Play exige targetSdk ≥ 36, pero SELinux de Android 10+ bloquea ese exec — las apps instaladas no arrancarán. Cambia el tipo de app a un frontend puro (Website / HTML / React / Vue / Image / Video / Gallery / Multi-Web) antes de publicar en Play."
@@ -13326,6 +14383,7 @@ object StringsE {
     val appModifierSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择应用，重塑名称、图标与启动体验"
         AppLanguage.ENGLISH -> "Pick an app, then reshape its name, icon, and launch experience"
+        AppLanguage.VIETNAMESE -> "Chọn một ứng dụng, sau đó định hình lại tên, biểu tượng và trải nghiệm khởi chạy của ứng dụng đó"
         AppLanguage.ARABIC -> "اختر تطبيقًا ثم أعد تشكيل اسمه وأيقونته وتجربة التشغيل"
         AppLanguage.PORTUGUESE -> "Escolha um app e redefina nome, ícone e experiência de abertura"
         AppLanguage.SPANISH -> "Elige una app y redefine nombre, icono y experiencia de apertura"
@@ -13339,6 +14397,7 @@ object StringsE {
     val appModifierLibraryTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "设备应用库"
         AppLanguage.ENGLISH -> "Device app library"
+        AppLanguage.VIETNAMESE -> "Thư viện ứng dụng thiết bị"
         AppLanguage.ARABIC -> "مكتبة تطبيقات الجهاز"
         AppLanguage.PORTUGUESE -> "Biblioteca de apps do dispositivo"
         AppLanguage.SPANISH -> "Biblioteca de apps del dispositivo"
@@ -13352,6 +14411,7 @@ object StringsE {
     val appModifierLibraryHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "一次扫描，本地筛选与排序，进入身份改造"
         AppLanguage.ENGLISH -> "Scan once, filter locally, then reshape identity"
+        AppLanguage.VIETNAMESE -> "Quét một lần, lọc cục bộ, sau đó định hình lại danh tính"
         AppLanguage.ARABIC -> "امسح مرة واحدة، صفِّ محليًا، ثم أعد تشكيل الهوية"
         AppLanguage.PORTUGUESE -> "Escaneie uma vez, filtre localmente e redefina a identidade"
         AppLanguage.SPANISH -> "Escanea una vez, filtra en local y redefine la identidad"
@@ -13365,6 +14425,7 @@ object StringsE {
     val appModifierMetricTotal: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全部"
         AppLanguage.ENGLISH -> "Total"
+        AppLanguage.VIETNAMESE -> "Tổng cộng"
         AppLanguage.ARABIC -> "الإجمالي"
         AppLanguage.PORTUGUESE -> "Total"
         AppLanguage.SPANISH -> "Total"
@@ -13378,6 +14439,7 @@ object StringsE {
     val appModifierLoading: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在扫描已安装应用…"
         AppLanguage.ENGLISH -> "Scanning installed apps…"
+        AppLanguage.VIETNAMESE -> "Đang quét các ứng dụng đã cài đặt…"
         AppLanguage.ARABIC -> "جارٍ فحص التطبيقات المثبتة…"
         AppLanguage.PORTUGUESE -> "Verificando apps instalados…"
         AppLanguage.SPANISH -> "Escaneando apps instaladas…"
@@ -13391,6 +14453,7 @@ object StringsE {
     val appModifierLoadFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法加载应用列表"
         AppLanguage.ENGLISH -> "Could not load app list"
+        AppLanguage.VIETNAMESE -> "Không thể tải danh sách ứng dụng"
         AppLanguage.ARABIC -> "تعذّر تحميل قائمة التطبيقات"
         AppLanguage.PORTUGUESE -> "Não foi possível carregar a lista de apps"
         AppLanguage.SPANISH -> "No se pudo cargar la lista de apps"
@@ -13404,6 +14467,7 @@ object StringsE {
     val appModifierSortName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "名称"
         AppLanguage.ENGLISH -> "Name"
+        AppLanguage.VIETNAMESE -> "Tên"
         AppLanguage.ARABIC -> "الاسم"
         AppLanguage.PORTUGUESE -> "Nome"
         AppLanguage.SPANISH -> "Nombre"
@@ -13417,6 +14481,7 @@ object StringsE {
     val appModifierSortSize: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "体积"
         AppLanguage.ENGLISH -> "Size"
+        AppLanguage.VIETNAMESE -> "Kích cỡ"
         AppLanguage.ARABIC -> "الحجم"
         AppLanguage.PORTUGUESE -> "Tamanho"
         AppLanguage.SPANISH -> "Tamaño"
@@ -13430,6 +14495,7 @@ object StringsE {
     val appModifierSortRecent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近更新"
         AppLanguage.ENGLISH -> "Recently updated"
+        AppLanguage.VIETNAMESE -> "Đã cập nhật gần đây"
         AppLanguage.ARABIC -> "حدّث مؤخرًا"
         AppLanguage.PORTUGUESE -> "Atualizados recentemente"
         AppLanguage.SPANISH -> "Actualizados recientemente"
@@ -13443,6 +14509,7 @@ object StringsE {
     val appModifierBadgeUser: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户"
         AppLanguage.ENGLISH -> "User"
+        AppLanguage.VIETNAMESE -> "người dùng"
         AppLanguage.ARABIC -> "مستخدم"
         AppLanguage.PORTUGUESE -> "Usuário"
         AppLanguage.SPANISH -> "Usuario"
@@ -13456,6 +14523,7 @@ object StringsE {
     val appModifierBadgeSystem: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "系统"
         AppLanguage.ENGLISH -> "System"
+        AppLanguage.VIETNAMESE -> "Hệ thống"
         AppLanguage.ARABIC -> "نظام"
         AppLanguage.PORTUGUESE -> "Sistema"
         AppLanguage.SPANISH -> "Sistema"
@@ -13469,6 +14537,7 @@ object StringsE {
     val appModifierIdentitySection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "身份改造"
         AppLanguage.ENGLISH -> "Identity reshape"
+        AppLanguage.VIETNAMESE -> "Định hình lại danh tính"
         AppLanguage.ARABIC -> "إعادة تشكيل الهوية"
         AppLanguage.PORTUGUESE -> "Reconstrução de identidade"
         AppLanguage.SPANISH -> "Reforma de identidad"
@@ -13482,6 +14551,7 @@ object StringsE {
     val appModifierPreviewTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "改造预览"
         AppLanguage.ENGLISH -> "Identity preview"
+        AppLanguage.VIETNAMESE -> "Xem trước danh tính"
         AppLanguage.ARABIC -> "معاينة الهوية"
         AppLanguage.PORTUGUESE -> "Prévia da identidade"
         AppLanguage.SPANISH -> "Vista previa de identidad"
@@ -13495,6 +14565,7 @@ object StringsE {
     val appModifierNewIdentity: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新身份"
         AppLanguage.ENGLISH -> "New identity"
+        AppLanguage.VIETNAMESE -> "Danh tính mới"
         AppLanguage.ARABIC -> "هوية جديدة"
         AppLanguage.PORTUGUESE -> "Nova identidade"
         AppLanguage.SPANISH -> "Nueva identidad"
@@ -13508,6 +14579,7 @@ object StringsE {
     val appModifierCustomIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义图标"
         AppLanguage.ENGLISH -> "Custom icon"
+        AppLanguage.VIETNAMESE -> "Biểu tượng tùy chỉnh"
         AppLanguage.ARABIC -> "أيقونة مخصصة"
         AppLanguage.PORTUGUESE -> "Ícone personalizado"
         AppLanguage.SPANISH -> "Icono personalizado"
@@ -13521,6 +14593,7 @@ object StringsE {
     val appModifierOutputMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "输出方式"
         AppLanguage.ENGLISH -> "Output mode"
+        AppLanguage.VIETNAMESE -> "Chế độ đầu ra"
         AppLanguage.ARABIC -> "وضع الإخراج"
         AppLanguage.PORTUGUESE -> "Modo de saída"
         AppLanguage.SPANISH -> "Modo de salida"
@@ -13534,6 +14607,7 @@ object StringsE {
     val appModifierModeShortcutDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "桌面快捷方式，兼容性最好，可附带开屏/激活/公告"
         AppLanguage.ENGLISH -> "Home-screen shortcut with best compatibility; splash, activation, and notice supported"
+        AppLanguage.VIETNAMESE -> "Phím tắt trên màn hình chính có khả năng tương thích tốt nhất; Hỗ trợ giật gân, kích hoạt và thông báo"
         AppLanguage.ARABIC -> "اختصار على الشاشة الرئيسية بأفضل توافق، مع شاشة افتتاح/تفعيل/إعلان"
         AppLanguage.PORTUGUESE -> "Atalho na tela inicial com melhor compatibilidade; splash, ativação e aviso suportados"
         AppLanguage.SPANISH -> "Acceso directo con mejor compatibilidad; admite splash, activación y aviso"
@@ -13547,6 +14621,7 @@ object StringsE {
     val appModifierModeCloneDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重打包并安装独立副本，仅适合无签名校验的应用"
         AppLanguage.ENGLISH -> "Repackage and install a separate copy; only for apps without signature checks"
+        AppLanguage.VIETNAMESE -> "Đóng gói lại và cài đặt một bản sao riêng; chỉ dành cho các ứng dụng không có kiểm tra chữ ký"
         AppLanguage.ARABIC -> "إعادة تعبئة وتثبيت نسخة منفصلة؛ فقط للتطبيقات بدون تحقق توقيع"
         AppLanguage.PORTUGUESE -> "Reempacota e instala uma cópia separada; só para apps sem verificação de assinatura"
         AppLanguage.SPANISH -> "Reempaqueta e instala una copia aparte; solo apps sin verificación de firma"
@@ -13560,6 +14635,7 @@ object StringsE {
     val appModifierRecommended: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "推荐"
         AppLanguage.ENGLISH -> "Recommended"
+        AppLanguage.VIETNAMESE -> "Khuyến khích"
         AppLanguage.ARABIC -> "موصى به"
         AppLanguage.PORTUGUESE -> "Recomendado"
         AppLanguage.SPANISH -> "Recomendado"
@@ -13573,6 +14649,7 @@ object StringsE {
     val appModifierCloneNeedsOriginalIcon: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义图标时暂不支持克隆安装，请改用快捷方式或恢复原图标"
         AppLanguage.ENGLISH -> "Clone install is unavailable with a custom icon. Use shortcut mode or restore the original icon"
+        AppLanguage.VIETNAMESE -> "Cài đặt bản sao không khả dụng với biểu tượng tùy chỉnh. Sử dụng chế độ phím tắt hoặc khôi phục biểu tượng gốc"
         AppLanguage.ARABIC -> "تثبيت النسخة غير متاح مع أيقونة مخصصة. استخدم الاختصار أو استعد الأيقونة الأصلية"
         AppLanguage.PORTUGUESE -> "Clone indisponível com ícone personalizado. Use atalho ou restaure o ícone original"
         AppLanguage.SPANISH -> "El clon no está disponible con icono personalizado. Usa acceso directo o restaura el icono original"
@@ -13586,6 +14663,7 @@ object StringsE {
     val appModifierCloneNoEnhancements: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "克隆安装暂不支持开屏、激活码与公告，请改用快捷方式或关闭这些增强"
         AppLanguage.ENGLISH -> "Clone install does not support splash, activation, or announcement. Use shortcut mode or turn these off"
+        AppLanguage.VIETNAMESE -> "Cài đặt bản sao không hỗ trợ giới thiệu, kích hoạt hoặc thông báo. Sử dụng chế độ phím tắt hoặc tắt chúng đi"
         AppLanguage.ARABIC -> "تثبيت النسخة لا يدعم الافتتاح أو التفعيل أو الإعلان. استخدم الاختصار أو أوقف هذه الميزات"
         AppLanguage.PORTUGUESE -> "O clone não suporta splash, ativação nem anúncio. Use atalho ou desative esses recursos"
         AppLanguage.SPANISH -> "El clon no admite splash, activación ni aviso. Usa acceso directo o desactiva estas funciones"
@@ -13599,6 +14677,7 @@ object StringsE {
     val appModifierShortcutHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "快捷方式会请求桌面固定权限，并尽量保留开屏、激活码与公告配置。"
         AppLanguage.ENGLISH -> "Shortcut mode asks to pin on the home screen and keeps splash, activation, and announcement settings when possible."
+        AppLanguage.VIETNAMESE -> "Chế độ phím tắt yêu cầu ghim trên màn hình chính và giữ các cài đặt giật gân, kích hoạt và thông báo khi có thể."
         AppLanguage.ARABIC -> "وضع الاختصار يطلب التثبيت على الشاشة الرئيسية ويحتفظ بإعدادات الافتتاح والتفعيل والإعلان قدر الإمكان."
         AppLanguage.PORTUGUESE -> "O modo atalho pede fixação na tela inicial e mantém splash, ativação e anúncio quando possível."
         AppLanguage.SPANISH -> "El modo acceso directo pide fijar en el inicio y conserva splash, activación y aviso cuando es posible."
@@ -13612,6 +14691,7 @@ object StringsE {
     val appModifierWorking: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "处理中…"
         AppLanguage.ENGLISH -> "Working…"
+        AppLanguage.VIETNAMESE -> "Đang làm việc…"
         AppLanguage.ARABIC -> "جارٍ العمل…"
         AppLanguage.PORTUGUESE -> "Processando…"
         AppLanguage.SPANISH -> "Procesando…"
@@ -13625,6 +14705,7 @@ object StringsE {
     fun appModifierResultCount(count: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$count 个应用"
         AppLanguage.ENGLISH -> "$count apps"
+        AppLanguage.VIETNAMESE -> "Ứng dụng $count"
         AppLanguage.ARABIC -> "$count تطبيقات"
         AppLanguage.PORTUGUESE -> "$count apps"
         AppLanguage.SPANISH -> "$count apps"
@@ -13638,6 +14719,7 @@ object StringsE {
     val linuxEnvSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "把手机变成可构建 React / Vue / PHP / Python 项目的工作站"
         AppLanguage.ENGLISH -> "Turn this device into a workstation for React, Vue, PHP, and Python builds"
+        AppLanguage.VIETNAMESE -> "Biến thiết bị này thành máy trạm cho các bản dựng React, Vue, PHP và Python"
         AppLanguage.ARABIC -> "حوّل هذا الجهاز إلى محطة عمل لبناء React و Vue و PHP و Python"
         AppLanguage.PORTUGUESE -> "Transforme este dispositivo em uma estação de build para React, Vue, PHP e Python"
         AppLanguage.SPANISH -> "Convierte este dispositivo en una estación de build para React, Vue, PHP y Python"
@@ -13651,6 +14733,7 @@ object StringsE {
     val linuxEnvCoreTools: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "核心工具链"
         AppLanguage.ENGLISH -> "Core toolchain"
+        AppLanguage.VIETNAMESE -> "Chuỗi công cụ cốt lõi"
         AppLanguage.ARABIC -> "سلسلة الأدوات الأساسية"
         AppLanguage.PORTUGUESE -> "Toolchain principal"
         AppLanguage.SPANISH -> "Toolchain principal"
@@ -13664,6 +14747,7 @@ object StringsE {
     val linuxEnvCoreHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js + npm 是前端本地构建的最小完备集"
         AppLanguage.ENGLISH -> "Node.js + npm is the minimum complete set for local frontend builds"
+        AppLanguage.VIETNAMESE -> "Node.js + npm là bộ hoàn chỉnh tối thiểu cho các bản dựng giao diện người dùng cục bộ"
         AppLanguage.ARABIC -> "Node.js + npm هما الحد الأدنى الكامل للبناء المحلي للواجهات"
         AppLanguage.PORTUGUESE -> "Node.js + npm é o conjunto mínimo completo para builds frontend locais"
         AppLanguage.SPANISH -> "Node.js + npm es el conjunto mínimo completo para builds frontend locales"
@@ -13677,6 +14761,7 @@ object StringsE {
     val linuxEnvPackageManagers: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包管理与加速器"
         AppLanguage.ENGLISH -> "Package managers & accelerators"
+        AppLanguage.VIETNAMESE -> "Trình quản lý và tăng tốc gói"
         AppLanguage.ARABIC -> "مديري الحزم والمسرّعات"
         AppLanguage.PORTUGUESE -> "Gerenciadores e aceleradores"
         AppLanguage.SPANISH -> "Gestores y aceleradores"
@@ -13690,6 +14775,7 @@ object StringsE {
     val linuxEnvPmHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "随核心工具链一起准备；esbuild 可显著加快部分构建"
         AppLanguage.ENGLISH -> "Prepared with the core toolchain; esbuild can speed up many builds"
+        AppLanguage.VIETNAMESE -> "Được chuẩn bị với chuỗi công cụ cốt lõi; esbuild có thể tăng tốc nhiều bản dựng"
         AppLanguage.ARABIC -> "تُجهَّز مع السلسلة الأساسية؛ يمكن لـ esbuild تسريع كثير من عمليات البناء"
         AppLanguage.PORTUGUESE -> "Preparados com a toolchain principal; o esbuild pode acelerar vários builds"
         AppLanguage.SPANISH -> "Se preparan con la toolchain principal; esbuild puede acelerar muchos builds"
@@ -13703,6 +14789,7 @@ object StringsE {
     val linuxEnvOptionalRuntimes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可选运行时"
         AppLanguage.ENGLISH -> "Optional runtimes"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy tùy chọn"
         AppLanguage.ARABIC -> "أوقات تشغيل اختيارية"
         AppLanguage.PORTUGUESE -> "Runtimes opcionais"
         AppLanguage.SPANISH -> "Runtimes opcionales"
@@ -13716,6 +14803,7 @@ object StringsE {
     val linuxEnvOptionalHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "按项目需要安装。Composer 依赖 PHP"
         AppLanguage.ENGLISH -> "Install only what your projects need. Composer requires PHP"
+        AppLanguage.VIETNAMESE -> "Chỉ cài đặt những gì dự án của bạn cần. Trình soạn thảo yêu cầu PHP"
         AppLanguage.ARABIC -> "ثبّت ما تحتاجه مشاريعك فقط. Composer يحتاج PHP"
         AppLanguage.PORTUGUESE -> "Instale só o que seus projetos precisam. Composer exige PHP"
         AppLanguage.SPANISH -> "Instala solo lo que necesiten tus proyectos. Composer requiere PHP"
@@ -13729,6 +14817,7 @@ object StringsE {
     val linuxEnvOptionalShort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "可选"
         AppLanguage.ENGLISH -> "Optional"
+        AppLanguage.VIETNAMESE -> "Không bắt buộc"
         AppLanguage.ARABIC -> "اختياري"
         AppLanguage.PORTUGUESE -> "Opcional"
         AppLanguage.SPANISH -> "Opcional"
@@ -13742,6 +14831,7 @@ object StringsE {
     val linuxEnvMaintenance: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "维护"
         AppLanguage.ENGLISH -> "Maintenance"
+        AppLanguage.VIETNAMESE -> "BẢO TRÌ"
         AppLanguage.ARABIC -> "الصيانة"
         AppLanguage.PORTUGUESE -> "Manutenção"
         AppLanguage.SPANISH -> "Mantenimiento"
@@ -13755,6 +14845,7 @@ object StringsE {
     val linuxEnvCapabilities: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "这台工作站能做什么"
         AppLanguage.ENGLISH -> "What this workstation can do"
+        AppLanguage.VIETNAMESE -> "Máy trạm này có thể làm gì"
         AppLanguage.ARABIC -> "ما الذي يمكن لمحطة العمل هذه فعله"
         AppLanguage.PORTUGUESE -> "O que esta estação pode fazer"
         AppLanguage.SPANISH -> "Qué puede hacer esta estación"
@@ -13768,6 +14859,7 @@ object StringsE {
     val linuxEnvInstallCore: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装核心构建环境"
         AppLanguage.ENGLISH -> "Install core build environment"
+        AppLanguage.VIETNAMESE -> "Cài đặt môi trường xây dựng lõi"
         AppLanguage.ARABIC -> "تثبيت بيئة البناء الأساسية"
         AppLanguage.PORTUGUESE -> "Instalar ambiente de build principal"
         AppLanguage.SPANISH -> "Instalar entorno de build principal"
@@ -13781,6 +14873,7 @@ object StringsE {
     val linuxEnvRepair: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "修复 / 补齐工具链"
         AppLanguage.ENGLISH -> "Repair / complete toolchain"
+        AppLanguage.VIETNAMESE -> "Chuỗi công cụ sửa chữa/hoàn thiện"
         AppLanguage.ARABIC -> "إصلاح / إكمال سلسلة الأدوات"
         AppLanguage.PORTUGUESE -> "Reparar / completar toolchain"
         AppLanguage.SPANISH -> "Reparar / completar toolchain"
@@ -13794,6 +14887,7 @@ object StringsE {
     val linuxEnvToolReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "就绪"
         AppLanguage.ENGLISH -> "Ready"
+        AppLanguage.VIETNAMESE -> "Sẵn sàng"
         AppLanguage.ARABIC -> "جاهز"
         AppLanguage.PORTUGUESE -> "Pronto"
         AppLanguage.SPANISH -> "Listo"
@@ -13807,6 +14901,7 @@ object StringsE {
     val linuxEnvToolMissing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "缺失"
         AppLanguage.ENGLISH -> "Missing"
+        AppLanguage.VIETNAMESE -> "Mất tích"
         AppLanguage.ARABIC -> "مفقود"
         AppLanguage.PORTUGUESE -> "Ausente"
         AppLanguage.SPANISH -> "Falta"
@@ -13820,6 +14915,7 @@ object StringsE {
     val linuxEnvRoleRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时 · 执行脚本与构建"
         AppLanguage.ENGLISH -> "Runtime · execute scripts and builds"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy · thực thi các tập lệnh và bản dựng"
         AppLanguage.ARABIC -> "وقت تشغيل · تنفيذ السكربتات والبناء"
         AppLanguage.PORTUGUESE -> "Runtime · executar scripts e builds"
         AppLanguage.SPANISH -> "Runtime · ejecutar scripts y builds"
@@ -13833,6 +14929,7 @@ object StringsE {
     val linuxEnvRolePackageManager: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "包管理 · 安装项目依赖"
         AppLanguage.ENGLISH -> "Package manager · install project dependencies"
+        AppLanguage.VIETNAMESE -> "Trình quản lý gói · cài đặt các phụ thuộc của dự án"
         AppLanguage.ARABIC -> "مدير حزم · تثبيت تبعيات المشروع"
         AppLanguage.PORTUGUESE -> "Gerenciador · instalar dependências do projeto"
         AppLanguage.SPANISH -> "Gestor · instalar dependencias del proyecto"
@@ -13846,6 +14943,7 @@ object StringsE {
     val linuxEnvEsbuildReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "原生加速可用"
         AppLanguage.ENGLISH -> "Native acceleration ready"
+        AppLanguage.VIETNAMESE -> "Tính năng tăng tốc gốc đã sẵn sàng"
         AppLanguage.ARABIC -> "التسريع الأصلي جاهز"
         AppLanguage.PORTUGUESE -> "Aceleração nativa pronta"
         AppLanguage.SPANISH -> "Aceleración nativa lista"
@@ -13859,6 +14957,7 @@ object StringsE {
     val linuxEnvEsbuildMissing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装核心环境时一并准备"
         AppLanguage.ENGLISH -> "Prepared when you install the core environment"
+        AppLanguage.VIETNAMESE -> "Chuẩn bị khi bạn cài đặt môi trường cốt lõi"
         AppLanguage.ARABIC -> "يُجهَّز عند تثبيت البيئة الأساسية"
         AppLanguage.PORTUGUESE -> "Preparado ao instalar o ambiente principal"
         AppLanguage.SPANISH -> "Se prepara al instalar el entorno principal"
@@ -13872,6 +14971,7 @@ object StringsE {
     val linuxEnvNpmDefault: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "默认包管理器"
         AppLanguage.ENGLISH -> "Default package manager"
+        AppLanguage.VIETNAMESE -> "Trình quản lý gói mặc định"
         AppLanguage.ARABIC -> "مدير الحزم الافتراضي"
         AppLanguage.PORTUGUESE -> "Gerenciador de pacotes padrão"
         AppLanguage.SPANISH -> "Gestor de paquetes predeterminado"
@@ -13885,6 +14985,7 @@ object StringsE {
     val linuxEnvPipFollowsPython: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "随 Python 一起可用"
         AppLanguage.ENGLISH -> "Available with Python"
+        AppLanguage.VIETNAMESE -> "Có sẵn với Python"
         AppLanguage.ARABIC -> "متاح مع Python"
         AppLanguage.PORTUGUESE -> "Disponível com Python"
         AppLanguage.SPANISH -> "Disponible con Python"
@@ -13898,6 +14999,7 @@ object StringsE {
     val linuxEnvLocked: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "需先装 PHP"
         AppLanguage.ENGLISH -> "Needs PHP first"
+        AppLanguage.VIETNAMESE -> "Cần PHP trước tiên"
         AppLanguage.ARABIC -> "يحتاج PHP أولاً"
         AppLanguage.PORTUGUESE -> "Precisa de PHP antes"
         AppLanguage.SPANISH -> "Requiere PHP primero"
@@ -13911,6 +15013,7 @@ object StringsE {
     val linuxEnvResetDone: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建环境已重置"
         AppLanguage.ENGLISH -> "Build environment reset"
+        AppLanguage.VIETNAMESE -> "Xây dựng lại môi trường"
         AppLanguage.ARABIC -> "تمت إعادة تعيين بيئة البناء"
         AppLanguage.PORTUGUESE -> "Ambiente de build redefinido"
         AppLanguage.SPANISH -> "Entorno de build restablecido"
@@ -13924,6 +15027,7 @@ object StringsE {
     val linuxEnvCapFrontend: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "React / Vue / Next / Nuxt / Vite"
         AppLanguage.ENGLISH -> "React / Vue / Next / Nuxt / Vite"
+        AppLanguage.VIETNAMESE -> "Phản ứng/Vue/Tiếp theo/Nuxt/Vite"
         AppLanguage.ARABIC -> "React / Vue / Next / Nuxt / Vite"
         AppLanguage.PORTUGUESE -> "React / Vue / Next / Nuxt / Vite"
         AppLanguage.SPANISH -> "React / Vue / Next / Nuxt / Vite"
@@ -13937,6 +15041,7 @@ object StringsE {
     val linuxEnvCapStatic: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "静态 HTML 直接打包"
         AppLanguage.ENGLISH -> "Static HTML packaging"
+        AppLanguage.VIETNAMESE -> "Bao bì HTML tĩnh"
         AppLanguage.ARABIC -> "تعبئة HTML ثابت"
         AppLanguage.PORTUGUESE -> "Empacotamento de HTML estático"
         AppLanguage.SPANISH -> "Empaquetado de HTML estático"
@@ -13950,6 +15055,7 @@ object StringsE {
     val linuxEnvCapNode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 本地服务模式"
         AppLanguage.ENGLISH -> "Node.js local server mode"
+        AppLanguage.VIETNAMESE -> "Chế độ máy chủ cục bộ của Node.js"
         AppLanguage.ARABIC -> "وضع خادم Node.js المحلي"
         AppLanguage.PORTUGUESE -> "Modo servidor local Node.js"
         AppLanguage.SPANISH -> "Modo servidor local de Node.js"
@@ -13963,6 +15069,7 @@ object StringsE {
     val linuxEnvCapPhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP + Composer 依赖"
         AppLanguage.ENGLISH -> "PHP + Composer dependencies"
+        AppLanguage.VIETNAMESE -> "Phụ thuộc PHP + Trình soạn thảo"
         AppLanguage.ARABIC -> "تبعيات PHP + Composer"
         AppLanguage.PORTUGUESE -> "Dependências PHP + Composer"
         AppLanguage.SPANISH -> "Dependencias PHP + Composer"
@@ -13976,6 +15083,7 @@ object StringsE {
     val linuxEnvCapPython: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python + pip 依赖"
         AppLanguage.ENGLISH -> "Python + pip dependencies"
+        AppLanguage.VIETNAMESE -> "Phụ thuộc Python + pip"
         AppLanguage.ARABIC -> "تبعيات Python + pip"
         AppLanguage.PORTUGUESE -> "Dependências Python + pip"
         AppLanguage.SPANISH -> "Dependencias Python + pip"
@@ -13989,6 +15097,7 @@ object StringsE {
     val linuxEnvCapEsbuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "esbuild 原生加速"
         AppLanguage.ENGLISH -> "Native esbuild acceleration"
+        AppLanguage.VIETNAMESE -> "Tăng tốc esbuild gốc"
         AppLanguage.ARABIC -> "تسريع esbuild الأصلي"
         AppLanguage.PORTUGUESE -> "Aceleração nativa do esbuild"
         AppLanguage.SPANISH -> "Aceleración nativa de esbuild"
@@ -14002,6 +15111,7 @@ object StringsE {
     val linuxEnvCapAutoDetect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动检测框架与包管理器"
         AppLanguage.ENGLISH -> "Auto-detect framework & package manager"
+        AppLanguage.VIETNAMESE -> "Tự động phát hiện khung và trình quản lý gói"
         AppLanguage.ARABIC -> "اكتشاف تلقائي للإطار ومدير الحزم"
         AppLanguage.PORTUGUESE -> "Detectar framework e gerenciador automaticamente"
         AppLanguage.SPANISH -> "Detectar framework y gestor automáticamente"
@@ -14015,6 +15125,7 @@ object StringsE {
     val linuxEnvCapComposerDep: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Composer 依赖 PHP 先安装"
         AppLanguage.ENGLISH -> "Composer depends on PHP first"
+        AppLanguage.VIETNAMESE -> "Trình soạn thảo phụ thuộc vào PHP trước tiên"
         AppLanguage.ARABIC -> "Composer يعتمد على تثبيت PHP أولاً"
         AppLanguage.PORTUGUESE -> "Composer depende do PHP primeiro"
         AppLanguage.SPANISH -> "Composer depende de PHP primero"
@@ -14028,6 +15139,7 @@ object StringsE {
     val linuxEnvCapFooter: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "先装核心链，再按项目补可选运行时。工具链全部跑在设备本地。"
         AppLanguage.ENGLISH -> "Install the core chain first, then add optional runtimes per project. Everything runs on-device."
+        AppLanguage.VIETNAMESE -> "Trước tiên hãy cài đặt chuỗi lõi, sau đó thêm thời gian chạy tùy chọn cho mỗi dự án. Mọi thứ đều chạy trên thiết bị."
         AppLanguage.ARABIC -> "ثبّت السلسلة الأساسية أولاً، ثم أضف أوقات التشغيل الاختيارية حسب المشروع. كل شيء يعمل على الجهاز."
         AppLanguage.PORTUGUESE -> "Instale a cadeia principal primeiro e depois adicione runtimes opcionais por projeto. Tudo roda no dispositivo."
         AppLanguage.SPANISH -> "Instala primero la cadena principal y luego añade runtimes opcionales por proyecto. Todo corre en el dispositivo."
@@ -14041,6 +15153,7 @@ object StringsE {
     fun linuxEnvReadinessScore(ready: Int, total: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "就绪度 $ready / $total"
         AppLanguage.ENGLISH -> "Readiness $ready / $total"
+        AppLanguage.VIETNAMESE -> "Sẵn sàng $ready / $total"
         AppLanguage.ARABIC -> "الجاهزية $ready / $total"
         AppLanguage.PORTUGUESE -> "Prontidão $ready / $total"
         AppLanguage.SPANISH -> "Preparación $ready / $total"
@@ -14054,6 +15167,7 @@ object StringsE {
     fun linuxEnvInstalledToast(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$name 已安装"
         AppLanguage.ENGLISH -> "$name installed"
+        AppLanguage.VIETNAMESE -> "Đã cài đặt $name"
         AppLanguage.ARABIC -> "تم تثبيت $name"
         AppLanguage.PORTUGUESE -> "$name instalado"
         AppLanguage.SPANISH -> "$name instalado"
@@ -14067,6 +15181,7 @@ object StringsE {
     fun linuxEnvInstallFailedToast(name: String, message: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$name 安装失败：$message"
         AppLanguage.ENGLISH -> "$name install failed: $message"
+        AppLanguage.VIETNAMESE -> "Cài đặt $name không thành công: $message"
         AppLanguage.ARABIC -> "فشل تثبيت $name: $message"
         AppLanguage.PORTUGUESE -> "Falha ao instalar $name: $message"
         AppLanguage.SPANISH -> "Error al instalar $name: $message"
@@ -14080,6 +15195,7 @@ object StringsE {
     fun linuxEnvCacheFreed(size: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已释放 $size 缓存"
         AppLanguage.ENGLISH -> "Freed $size of cache"
+        AppLanguage.VIETNAMESE -> "Giải phóng bộ nhớ đệm $size"
         AppLanguage.ARABIC -> "تم تحرير $size من ذاكرة التخزين المؤقت"
         AppLanguage.PORTUGUESE -> "Liberados $size de cache"
         AppLanguage.SPANISH -> "Se liberaron $size de caché"
@@ -14093,6 +15209,7 @@ object StringsE {
     fun linuxEnvInstallingTool(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在安装 $name…"
         AppLanguage.ENGLISH -> "Installing $name…"
+        AppLanguage.VIETNAMESE -> "Đang cài đặt $name…"
         AppLanguage.ARABIC -> "جارٍ تثبيت $name…"
         AppLanguage.PORTUGUESE -> "Instalando $name…"
         AppLanguage.SPANISH -> "Instalando $name…"
@@ -14106,6 +15223,7 @@ object StringsE {
     val runtimeDepsSubtitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装、更新并管理打包所需的运行时与依赖"
         AppLanguage.ENGLISH -> "Install, update, and manage runtimes needed for packaging"
+        AppLanguage.VIETNAMESE -> "Cài đặt, cập nhật và quản lý thời gian chạy cần thiết để đóng gói"
         AppLanguage.ARABIC -> "ثبّت وحدّث وأدر أوقات التشغيل اللازمة للتعبئة"
         AppLanguage.PORTUGUESE -> "Instale, atualize e gerencie runtimes necessários para empacotar"
         AppLanguage.SPANISH -> "Instala, actualiza y gestiona runtimes necesarios para empaquetar"
@@ -14119,6 +15237,7 @@ object StringsE {
     val depSearchHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索运行时或依赖…"
         AppLanguage.ENGLISH -> "Search runtimes or dependencies…"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm thời gian chạy hoặc phần phụ thuộc…"
         AppLanguage.ARABIC -> "ابحث عن أوقات التشغيل أو التبعيات…"
         AppLanguage.PORTUGUESE -> "Pesquisar runtimes ou dependências…"
         AppLanguage.SPANISH -> "Buscar runtimes o dependencias…"
@@ -14132,6 +15251,7 @@ object StringsE {
     val depFilterReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已就绪"
         AppLanguage.ENGLISH -> "Ready"
+        AppLanguage.VIETNAMESE -> "Sẵn sàng"
         AppLanguage.ARABIC -> "جاهز"
         AppLanguage.PORTUGUESE -> "Pronto"
         AppLanguage.SPANISH -> "Listo"
@@ -14145,6 +15265,7 @@ object StringsE {
     val depFilterMissing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未安装"
         AppLanguage.ENGLISH -> "Missing"
+        AppLanguage.VIETNAMESE -> "Mất tích"
         AppLanguage.ARABIC -> "غير مثبت"
         AppLanguage.PORTUGUESE -> "Ausente"
         AppLanguage.SPANISH -> "Faltante"
@@ -14158,6 +15279,7 @@ object StringsE {
     val depReinstall: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重新安装"
         AppLanguage.ENGLISH -> "Reinstall"
+        AppLanguage.VIETNAMESE -> "Cài đặt lại"
         AppLanguage.ARABIC -> "إعادة التثبيت"
         AppLanguage.PORTUGUESE -> "Reinstalar"
         AppLanguage.SPANISH -> "Reinstalar"
@@ -14171,6 +15293,7 @@ object StringsE {
     val depClearRuntime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清理"
         AppLanguage.ENGLISH -> "Clear"
+        AppLanguage.VIETNAMESE -> "Thông thoáng"
         AppLanguage.ARABIC -> "مسح"
         AppLanguage.PORTUGUESE -> "Limpar"
         AppLanguage.SPANISH -> "Borrar"
@@ -14184,6 +15307,7 @@ object StringsE {
     val depInstallSuccess: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装完成"
         AppLanguage.ENGLISH -> "Installation complete"
+        AppLanguage.VIETNAMESE -> "Cài đặt hoàn tất"
         AppLanguage.ARABIC -> "اكتمل التثبيت"
         AppLanguage.PORTUGUESE -> "Instalação concluída"
         AppLanguage.SPANISH -> "Instalación completada"
@@ -14197,6 +15321,7 @@ object StringsE {
     val depInstallFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "安装失败，请检查网络后重试"
         AppLanguage.ENGLISH -> "Install failed. Check your network and try again"
+        AppLanguage.VIETNAMESE -> "Cài đặt không thành công. Hãy kiểm tra mạng của bạn và thử lại"
         AppLanguage.ARABIC -> "فشل التثبيت. تحقق من الشبكة وحاول مجددًا"
         AppLanguage.PORTUGUESE -> "Falha na instalação. Verifique a rede e tente novamente"
         AppLanguage.SPANISH -> "Error de instalación. Revisa la red e inténtalo de nuevo"
@@ -14210,6 +15335,7 @@ object StringsE {
     val depNoMatch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "没有匹配的运行时"
         AppLanguage.ENGLISH -> "No matching runtimes"
+        AppLanguage.VIETNAMESE -> "Không có thời gian chạy phù hợp"
         AppLanguage.ARABIC -> "لا توجد أوقات تشغيل مطابقة"
         AppLanguage.PORTUGUESE -> "Nenhum runtime correspondente"
         AppLanguage.SPANISH -> "No hay runtimes coincidentes"
@@ -14223,6 +15349,7 @@ object StringsE {
     val depStorageEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "暂无缓存占用"
         AppLanguage.ENGLISH -> "No cache storage used yet"
+        AppLanguage.VIETNAMESE -> "Chưa sử dụng bộ nhớ đệm"
         AppLanguage.ARABIC -> "لا يوجد استخدام لذاكرة التخزين المؤقت بعد"
         AppLanguage.PORTUGUESE -> "Nenhum armazenamento de cache em uso"
         AppLanguage.SPANISH -> "Aún no se usa almacenamiento de caché"
@@ -14236,6 +15363,7 @@ object StringsE {
     fun depReadyOfTotal(ready: Int, total: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$ready / $total 已就绪"
         AppLanguage.ENGLISH -> "$ready / $total ready"
+        AppLanguage.VIETNAMESE -> "$ready / $total đã sẵn sàng"
         AppLanguage.ARABIC -> "$ready / $total جاهز"
         AppLanguage.PORTUGUESE -> "$ready / $total prontos"
         AppLanguage.SPANISH -> "$ready / $total listos"
@@ -14249,6 +15377,7 @@ object StringsE {
     fun depConfirmClearCache(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "确认清理 $name 缓存？"
         AppLanguage.ENGLISH -> "Clear $name cache?"
+        AppLanguage.VIETNAMESE -> "Xóa bộ nhớ đệm $name?"
         AppLanguage.ARABIC -> "مسح ذاكرة التخزين المؤقت $name؟"
         AppLanguage.PORTUGUESE -> "Limpar cache de $name?"
         AppLanguage.SPANISH -> "¿Borrar caché de $name?"
@@ -14262,6 +15391,7 @@ object StringsE {
     val buildOptionsSection: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建选项"
         AppLanguage.ENGLISH -> "Build options"
+        AppLanguage.VIETNAMESE -> "Tùy chọn xây dựng"
         AppLanguage.ARABIC -> "خيارات البناء"
         AppLanguage.PORTUGUESE -> "Opções de build"
         AppLanguage.SPANISH -> "Opciones de compilación"
@@ -14275,6 +15405,7 @@ object StringsE {
     val forceFullRebuild: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "强制完整构建"
         AppLanguage.ENGLISH -> "Force full rebuild"
+        AppLanguage.VIETNAMESE -> "Buộc xây dựng lại toàn bộ"
         AppLanguage.ARABIC -> "فرض إعادة بناء كاملة"
         AppLanguage.PORTUGUESE -> "Forçar rebuild completo"
         AppLanguage.SPANISH -> "Forzar rebuild completo"
@@ -14288,6 +15419,7 @@ object StringsE {
     val forceFullRebuildDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "忽略增量缓存，始终从模板完整打包"
         AppLanguage.ENGLISH -> "Ignore incremental cache and always pack from template"
+        AppLanguage.VIETNAMESE -> "Bỏ qua bộ nhớ đệm gia tăng và luôn đóng gói từ mẫu"
         AppLanguage.ARABIC -> "تجاهل ذاكرة التخزين المؤقت التدريجية والتعبئة دائمًا من القالب"
         AppLanguage.PORTUGUESE -> "Ignorar cache incremental e empacotar sempre a partir do template"
         AppLanguage.SPANISH -> "Ignorar caché incremental y empaquetar siempre desde la plantilla"
@@ -14301,6 +15433,7 @@ object StringsE {
     val clearIncrementalCache: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "清除增量缓存"
         AppLanguage.ENGLISH -> "Clear incremental cache"
+        AppLanguage.VIETNAMESE -> "Xóa bộ nhớ đệm gia tăng"
         AppLanguage.ARABIC -> "مسح ذاكرة التخزين المؤقت التدريجية"
         AppLanguage.PORTUGUESE -> "Limpar cache incremental"
         AppLanguage.SPANISH -> "Borrar caché incremental"
@@ -14314,6 +15447,7 @@ object StringsE {
     val incrementalCacheCleared: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已清除增量缓存"
         AppLanguage.ENGLISH -> "Incremental cache cleared"
+        AppLanguage.VIETNAMESE -> "Đã xóa bộ nhớ đệm gia tăng"
         AppLanguage.ARABIC -> "تم مسح ذاكرة التخزين المؤقت التدريجية"
         AppLanguage.PORTUGUESE -> "Cache incremental limpo"
         AppLanguage.SPANISH -> "Caché incremental borrada"
@@ -14327,6 +15461,7 @@ object StringsE {
     val buildModeFull: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "完整构建"
         AppLanguage.ENGLISH -> "Full rebuild"
+        AppLanguage.VIETNAMESE -> "Xây dựng lại toàn bộ"
         AppLanguage.ARABIC -> "إعادة بناء كاملة"
         AppLanguage.PORTUGUESE -> "Rebuild completo"
         AppLanguage.SPANISH -> "Rebuild completo"
@@ -14340,6 +15475,7 @@ object StringsE {
     val buildModeContentOverlay: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内容增量覆盖"
         AppLanguage.ENGLISH -> "Content overlay"
+        AppLanguage.VIETNAMESE -> "Lớp phủ nội dung"
         AppLanguage.ARABIC -> "تراكب المحتوى"
         AppLanguage.PORTUGUESE -> "Sobreposição de conteúdo"
         AppLanguage.SPANISH -> "Superposición de contenido"
@@ -14353,6 +15489,7 @@ object StringsE {
     val buildModeReuseUnsigned: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "复用未签名包"
         AppLanguage.ENGLISH -> "Reuse unsigned APK"
+        AppLanguage.VIETNAMESE -> "Sử dụng lại APK chưa được ký"
         AppLanguage.ARABIC -> "إعادة استخدام APK غير موقّع"
         AppLanguage.PORTUGUESE -> "Reutilizar APK não assinado"
         AppLanguage.SPANISH -> "Reutilizar APK sin firmar"
@@ -14366,6 +15503,7 @@ object StringsE {
     val buildModeUsed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建模式：%s"
         AppLanguage.ENGLISH -> "Build mode: %s"
+        AppLanguage.VIETNAMESE -> "Chế độ xây dựng: %s"
         AppLanguage.ARABIC -> "وضع البناء: %s"
         AppLanguage.PORTUGUESE -> "Modo de build: %s"
         AppLanguage.SPANISH -> "Modo de build: %s"
@@ -14379,6 +15517,7 @@ object StringsE {
     val buildSummaryMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建模式"
         AppLanguage.ENGLISH -> "Build mode"
+        AppLanguage.VIETNAMESE -> "Chế độ xây dựng"
         AppLanguage.ARABIC -> "وضع البناء"
         AppLanguage.PORTUGUESE -> "Modo de build"
         AppLanguage.SPANISH -> "Modo de build"
@@ -14392,6 +15531,7 @@ object StringsE {
     val buildSummaryReason: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "增量判定"
         AppLanguage.ENGLISH -> "Incremental reason"
+        AppLanguage.VIETNAMESE -> "Lý do gia tăng"
         AppLanguage.ARABIC -> "سبب الزيادة"
         AppLanguage.PORTUGUESE -> "Motivo incremental"
         AppLanguage.SPANISH -> "Motivo incremental"
@@ -14405,6 +15545,7 @@ object StringsE {
     val buildAgain: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "再次构建"
         AppLanguage.ENGLISH -> "Build again"
+        AppLanguage.VIETNAMESE -> "Xây dựng lại"
         AppLanguage.ARABIC -> "البناء مجددًا"
         AppLanguage.PORTUGUESE -> "Construir novamente"
         AppLanguage.SPANISH -> "Construir de nuevo"
@@ -14418,6 +15559,7 @@ object StringsE {
     val shareApkReadyMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 已就绪（%s）"
         AppLanguage.ENGLISH -> "APK ready (%s)"
+        AppLanguage.VIETNAMESE -> "APK đã sẵn sàng (%s)"
         AppLanguage.ARABIC -> "APK جاهز (%s)"
         AppLanguage.PORTUGUESE -> "APK pronto (%s)"
         AppLanguage.SPANISH -> "APK listo (%s)"
@@ -14433,6 +15575,7 @@ object StringsE {
     val agentToolViewFull: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "查看完整内容"
         AppLanguage.ENGLISH -> "View full output"
+        AppLanguage.VIETNAMESE -> "Xem đầu ra đầy đủ"
         AppLanguage.ARABIC -> "عرض المحتوى الكامل"
         AppLanguage.PORTUGUESE -> "Ver conteúdo completo"
         AppLanguage.SPANISH -> "Ver contenido completo"
@@ -14446,6 +15589,7 @@ object StringsE {
     val agentCopyThinkingHeader: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "思考过程"
         AppLanguage.ENGLISH -> "Thinking"
+        AppLanguage.VIETNAMESE -> "suy nghĩ"
         AppLanguage.ARABIC -> "عملية التفكير"
         AppLanguage.PORTUGUESE -> "Processo de pensamento"
         AppLanguage.SPANISH -> "Proceso de pensamiento"
@@ -14459,6 +15603,7 @@ object StringsE {
     val agentSessionRename: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重命名"
         AppLanguage.ENGLISH -> "Rename"
+        AppLanguage.VIETNAMESE -> "Đổi tên"
         AppLanguage.ARABIC -> "إعادة تسمية"
         AppLanguage.PORTUGUESE -> "Renomear"
         AppLanguage.SPANISH -> "Renombrar"
@@ -14472,6 +15617,7 @@ object StringsE {
     val agentSessionRenameTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重命名会话"
         AppLanguage.ENGLISH -> "Rename session"
+        AppLanguage.VIETNAMESE -> "Đổi tên phiên"
         AppLanguage.ARABIC -> "إعادة تسمية الجلسة"
         AppLanguage.PORTUGUESE -> "Renomear sessão"
         AppLanguage.SPANISH -> "Renombrar sesión"
@@ -14485,6 +15631,7 @@ object StringsE {
     val agentSessionRenameHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "会话名称"
         AppLanguage.ENGLISH -> "Session name"
+        AppLanguage.VIETNAMESE -> "Tên phiên"
         AppLanguage.ARABIC -> "اسم الجلسة"
         AppLanguage.PORTUGUESE -> "Nome da sessão"
         AppLanguage.SPANISH -> "Nombre de la sesión"
@@ -14498,6 +15645,7 @@ object StringsE {
     val agentSessionDeleteConfirmTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除会话？"
         AppLanguage.ENGLISH -> "Delete session?"
+        AppLanguage.VIETNAMESE -> "Xóa phiên?"
         AppLanguage.ARABIC -> "حذف الجلسة؟"
         AppLanguage.PORTUGUESE -> "Excluir sessão?"
         AppLanguage.SPANISH -> "¿Eliminar sesión?"
@@ -14511,6 +15659,7 @@ object StringsE {
     val agentSessionDeleteConfirmMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将永久删除该会话及其全部消息记录，无法恢复。"
         AppLanguage.ENGLISH -> "This session and all its messages will be permanently deleted. This cannot be undone."
+        AppLanguage.VIETNAMESE -> "Phiên này và tất cả tin nhắn của nó sẽ bị xóa vĩnh viễn. Điều này không thể hoàn tác được."
         AppLanguage.ARABIC -> "سيتم حذف هذه الجلسة وجميع رسائلها نهائياً. لا يمكن التراجع عن هذا الإجراء."
         AppLanguage.PORTUGUESE -> "Esta sessão e todas as suas mensagens serão excluídas permanentemente. Isto não pode ser desfeito."
         AppLanguage.SPANISH -> "Esta sesión y todos sus mensajes se eliminarán permanentemente. No se puede deshacer."
@@ -14524,6 +15673,7 @@ object StringsE {
     val agentSessionExport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出"
         AppLanguage.ENGLISH -> "Export"
+        AppLanguage.VIETNAMESE -> "Xuất khẩu"
         AppLanguage.ARABIC -> "تصدير"
         AppLanguage.PORTUGUESE -> "Exportar"
         AppLanguage.SPANISH -> "Exportar"
@@ -14537,6 +15687,7 @@ object StringsE {
     val agentFileDeleteConfirmTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除文件？"
         AppLanguage.ENGLISH -> "Delete file?"
+        AppLanguage.VIETNAMESE -> "Xóa tập tin?"
         AppLanguage.ARABIC -> "حذف الملف؟"
         AppLanguage.PORTUGUESE -> "Excluir arquivo?"
         AppLanguage.SPANISH -> "¿Eliminar archivo?"
@@ -14550,6 +15701,7 @@ object StringsE {
     val agentFileDeleteConfirmMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "将永久删除文件 %s，无法恢复。"
         AppLanguage.ENGLISH -> "The file %s will be permanently deleted. This cannot be undone."
+        AppLanguage.VIETNAMESE -> "Tệp %s sẽ bị xóa vĩnh viễn. Điều này không thể hoàn tác được."
         AppLanguage.ARABIC -> "سيتم حذف الملف %s نهائياً. لا يمكن التراجع عن هذا الإجراء."
         AppLanguage.PORTUGUESE -> "O arquivo %s será excluído permanentemente. Isto não pode ser desfeito."
         AppLanguage.SPANISH -> "El archivo %s se eliminará permanentemente. No se puede deshacer."
@@ -14565,6 +15717,7 @@ object StringsE {
     val aiIconFallbackName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AI图标"
         AppLanguage.ENGLISH -> "AI icon"
+        AppLanguage.VIETNAMESE -> "biểu tượng AI"
         AppLanguage.ARABIC -> "أيقونة AI"
         AppLanguage.PORTUGUESE -> "Ícone de IA"
         AppLanguage.SPANISH -> "Icono de IA"
@@ -14578,6 +15731,7 @@ object StringsE {
     val lrcEmptyLine: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "(空行)"
         AppLanguage.ENGLISH -> "(empty line)"
+        AppLanguage.VIETNAMESE -> "(dòng trống)"
         AppLanguage.ARABIC -> "(سطر فارغ)"
         AppLanguage.PORTUGUESE -> "(linha vazia)"
         AppLanguage.SPANISH -> "(línea vacía)"
@@ -14604,6 +15758,7 @@ object StringsE {
     val copySuffix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> " (副本)"
         AppLanguage.ENGLISH -> " (copy)"
+        AppLanguage.VIETNAMESE -> "(sao chép)"
         AppLanguage.ARABIC -> " (نسخة)"
         AppLanguage.PORTUGUESE -> " (cópia)"
         AppLanguage.SPANISH -> " (copia)"
@@ -14617,6 +15772,7 @@ object StringsE {
     val downloadingNotificationText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在下载..."
         AppLanguage.ENGLISH -> "Downloading..."
+        AppLanguage.VIETNAMESE -> "Đang tải xuống..."
         AppLanguage.ARABIC -> "جارٍ التنزيل..."
         AppLanguage.PORTUGUESE -> "Baixando..."
         AppLanguage.SPANISH -> "Descargando..."
@@ -14630,6 +15786,7 @@ object StringsE {
     val filePrefixImage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "图片"
         AppLanguage.ENGLISH -> "image"
+        AppLanguage.VIETNAMESE -> "hình ảnh"
         AppLanguage.ARABIC -> "صورة"
         AppLanguage.PORTUGUESE -> "imagem"
         AppLanguage.SPANISH -> "imagen"
@@ -14643,6 +15800,7 @@ object StringsE {
     val filePrefixVideo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "视频"
         AppLanguage.ENGLISH -> "video"
+        AppLanguage.VIETNAMESE -> "băng hình"
         AppLanguage.ARABIC -> "فيديو"
         AppLanguage.PORTUGUESE -> "vídeo"
         AppLanguage.SPANISH -> "vídeo"
@@ -14656,6 +15814,7 @@ object StringsE {
     val filePrefixFile: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件"
         AppLanguage.ENGLISH -> "file"
+        AppLanguage.VIETNAMESE -> "tài liệu"
         AppLanguage.ARABIC -> "ملف"
         AppLanguage.PORTUGUESE -> "arquivo"
         AppLanguage.SPANISH -> "archivo"
@@ -14669,6 +15828,7 @@ object StringsE {
     fun httpErrorCode(code: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTTP 错误: $code"
         AppLanguage.ENGLISH -> "HTTP error: $code"
+        AppLanguage.VIETNAMESE -> "Lỗi HTTP: $code"
         AppLanguage.ARABIC -> "خطأ HTTP: $code"
         AppLanguage.PORTUGUESE -> "Erro HTTP: $code"
         AppLanguage.SPANISH -> "Error HTTP: $code"
@@ -14682,6 +15842,7 @@ object StringsE {
     fun wpProjectDirMissing(path: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "WordPress 项目目录意外丢失: $path"
         AppLanguage.ENGLISH -> "WordPress project directory unexpectedly missing: $path"
+        AppLanguage.VIETNAMESE -> "Thư mục dự án WordPress bị thiếu đột ngột: $path"
         AppLanguage.ARABIC -> "اختفى دليل مشروع WordPress بشكل غير متوقع: $path"
         AppLanguage.PORTUGUESE -> "O diretório do projeto WordPress desapareceu inesperadamente: $path"
         AppLanguage.SPANISH -> "El directorio del proyecto WordPress desapareció inesperadamente: $path"
@@ -14695,6 +15856,7 @@ object StringsE {
     val interstitialAdNotConfigured: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插屏广告未配置"
         AppLanguage.ENGLISH -> "Interstitial ad not configured"
+        AppLanguage.VIETNAMESE -> "Quảng cáo xen kẽ chưa được định cấu hình"
         AppLanguage.ARABIC -> "الإعلان البيني غير مهيأ"
         AppLanguage.PORTUGUESE -> "Anúncio intersticial não configurado"
         AppLanguage.SPANISH -> "Anuncio intersticial no configurado"
@@ -14709,6 +15871,7 @@ object StringsE {
     val translateEngineAuto: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自动选择"
         AppLanguage.ENGLISH -> "Auto"
+        AppLanguage.VIETNAMESE -> "Tự động"
         AppLanguage.ARABIC -> "تلقائي"
         AppLanguage.PORTUGUESE -> "Automático"
         AppLanguage.SPANISH -> "Automático"
@@ -14722,6 +15885,7 @@ object StringsE {
     val blobImageUsePageDownload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Blob 图片需要通过页面下载"
         AppLanguage.ENGLISH -> "Blob images must be downloaded via the page"
+        AppLanguage.VIETNAMESE -> "Hình ảnh Blob phải được tải xuống qua trang"
         AppLanguage.ARABIC -> "يجب تنزيل صور Blob من الصفحة"
         AppLanguage.PORTUGUESE -> "Imagens Blob precisam ser baixadas pela página"
         AppLanguage.SPANISH -> "Las imágenes Blob deben descargarse desde la página"
@@ -14735,6 +15899,7 @@ object StringsE {
     val blobVideoUsePageDownload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Blob 视频需要通过页面下载"
         AppLanguage.ENGLISH -> "Blob videos must be downloaded via the page"
+        AppLanguage.VIETNAMESE -> "Video Blob phải được tải xuống qua trang"
         AppLanguage.ARABIC -> "يجب تنزيل فيديوهات Blob من الصفحة"
         AppLanguage.PORTUGUESE -> "Vídeos Blob precisam ser baixados pela página"
         AppLanguage.SPANISH -> "Los vídeos Blob deben descargarse desde la página"
@@ -14751,6 +15916,7 @@ object StringsE {
     fun aiErrBadRequest(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求参数错误: $detail"
         AppLanguage.ENGLISH -> "Bad request: $detail"
+        AppLanguage.VIETNAMESE -> "Yêu cầu không hợp lệ: $detail"
         AppLanguage.ARABIC -> "طلب غير صالح: $detail"
         AppLanguage.PORTUGUESE -> "Requisição inválida: $detail"
         AppLanguage.SPANISH -> "Solicitud inválida: $detail"
@@ -14764,6 +15930,7 @@ object StringsE {
     val aiErrInvalidKey: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "API Key 无效或已过期，请检查设置"
         AppLanguage.ENGLISH -> "API key invalid or expired — check your settings"
+        AppLanguage.VIETNAMESE -> "Khóa API không hợp lệ hoặc đã hết hạn — hãy kiểm tra cài đặt của bạn"
         AppLanguage.ARABIC -> "مفتاح API غير صالح أو منتهي — تحقق من الإعدادات"
         AppLanguage.PORTUGUESE -> "Chave de API inválida ou expirada — verifique as configurações"
         AppLanguage.SPANISH -> "Clave de API inválida o caducada — revisa la configuración"
@@ -14777,6 +15944,7 @@ object StringsE {
     val aiErrForbidden: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "API 访问被拒绝，请检查权限或配额"
         AppLanguage.ENGLISH -> "API access denied — check permissions or quota"
+        AppLanguage.VIETNAMESE -> "Quyền truy cập API bị từ chối - kiểm tra quyền hoặc hạn ngạch"
         AppLanguage.ARABIC -> "تم رفض الوصول إلى API — تحقق من الأذونات أو الحصة"
         AppLanguage.PORTUGUESE -> "Acesso à API negado — verifique permissões ou cota"
         AppLanguage.SPANISH -> "Acceso a la API denegado — revisa permisos o cuota"
@@ -14790,6 +15958,7 @@ object StringsE {
     val aiErrNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "模型或端点不存在 (404)，请检查模型名称与 Base URL"
         AppLanguage.ENGLISH -> "Model or endpoint not found (404) — check the model name and Base URL"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy mô hình hoặc điểm cuối (404) - kiểm tra tên mô hình và URL cơ sở"
         AppLanguage.ARABIC -> "النموذج أو نقطة النهاية غير موجودة (404) — تحقق من اسم النموذج و Base URL"
         AppLanguage.PORTUGUESE -> "Modelo ou endpoint não encontrado (404) — verifique o nome do modelo e a Base URL"
         AppLanguage.SPANISH -> "Modelo o endpoint no encontrado (404) — revisa el nombre del modelo y la Base URL"
@@ -14803,6 +15972,7 @@ object StringsE {
     val aiErrRateLimited: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求过于频繁，请稍后重试"
         AppLanguage.ENGLISH -> "Rate limited — please retry later"
+        AppLanguage.VIETNAMESE -> "Tỷ lệ bị giới hạn - vui lòng thử lại sau"
         AppLanguage.ARABIC -> "تم تجاوز حد الطلبات — حاول لاحقاً"
         AppLanguage.PORTUGUESE -> "Limite de requisições excedido — tente novamente mais tarde"
         AppLanguage.SPANISH -> "Límite de solicitudes excedido — inténtalo más tarde"
@@ -14816,6 +15986,7 @@ object StringsE {
     val aiErrServer: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "服务器错误，请稍后重试"
         AppLanguage.ENGLISH -> "Server error — please retry later"
+        AppLanguage.VIETNAMESE -> "Lỗi máy chủ - vui lòng thử lại sau"
         AppLanguage.ARABIC -> "خطأ في الخادم — حاول لاحقاً"
         AppLanguage.PORTUGUESE -> "Erro do servidor — tente novamente mais tarde"
         AppLanguage.SPANISH -> "Error del servidor — inténtalo más tarde"
@@ -14829,6 +16000,7 @@ object StringsE {
     fun aiErrHttp(code: Int, detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求失败: $code - $detail"
         AppLanguage.ENGLISH -> "Request failed: $code - $detail"
+        AppLanguage.VIETNAMESE -> "Yêu cầu không thành công: $code - $detail"
         AppLanguage.ARABIC -> "فشل الطلب: $code - $detail"
         AppLanguage.PORTUGUESE -> "Falha na requisição: $code - $detail"
         AppLanguage.SPANISH -> "Solicitud fallida: $code - $detail"
@@ -14842,6 +16014,7 @@ object StringsE {
     val aiNoImageData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未找到图像数据"
         AppLanguage.ENGLISH -> "No image data found"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy dữ liệu hình ảnh"
         AppLanguage.ARABIC -> "لم يتم العثور على بيانات الصورة"
         AppLanguage.PORTUGUESE -> "Nenhum dado de imagem encontrado"
         AppLanguage.SPANISH -> "No se encontraron datos de imagen"
@@ -14855,6 +16028,7 @@ object StringsE {
     val aiNotConfigured: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未配置 API 地址，请在设置中填写 Base URL"
         AppLanguage.ENGLISH -> "API endpoint not configured — set the Base URL in settings"
+        AppLanguage.VIETNAMESE -> "Điểm cuối API chưa được định cấu hình - đặt URL cơ sở trong cài đặt"
         AppLanguage.ARABIC -> "لم يتم تكوين عنوان API — قم بتعيين Base URL في الإعدادات"
         AppLanguage.PORTUGUESE -> "Endpoint de API não configurado — defina a Base URL nas configurações"
         AppLanguage.SPANISH -> "Endpoint de API no configurado — define la Base URL en ajustes"
@@ -14868,6 +16042,7 @@ object StringsE {
     val aiNetworkInterrupted: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络连接中断，请检查网络后重试"
         AppLanguage.ENGLISH -> "Network connection interrupted — check your network and retry"
+        AppLanguage.VIETNAMESE -> "Kết nối mạng bị gián đoạn - hãy kiểm tra mạng của bạn và thử lại"
         AppLanguage.ARABIC -> "انقطع الاتصال بالشبكة — تحقق من الشبكة وحاول مجدداً"
         AppLanguage.PORTUGUESE -> "Conexão de rede interrompida — verifique a rede e tente novamente"
         AppLanguage.SPANISH -> "Conexión de red interrumpida — revisa la red y reintenta"
@@ -14881,6 +16056,7 @@ object StringsE {
     val aiRequestTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "请求超时，请检查网络连接"
         AppLanguage.ENGLISH -> "Request timed out — check your network connection"
+        AppLanguage.VIETNAMESE -> "Yêu cầu đã hết thời gian chờ - hãy kiểm tra kết nối mạng của bạn"
         AppLanguage.ARABIC -> "انتهت مهلة الطلب — تحقق من اتصال الشبكة"
         AppLanguage.PORTUGUESE -> "Requisição expirou — verifique a conexão de rede"
         AppLanguage.SPANISH -> "La solicitud expiró — revisa tu conexión de red"
@@ -14894,6 +16070,7 @@ object StringsE {
     val aiCannotConnect: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法连接服务器，请检查网络或 API 地址"
         AppLanguage.ENGLISH -> "Cannot connect to server — check network or API address"
+        AppLanguage.VIETNAMESE -> "Không thể kết nối với máy chủ - hãy kiểm tra địa chỉ mạng hoặc API"
         AppLanguage.ARABIC -> "تعذر الاتصال بالخادم — تحقق من الشبكة أو عنوان API"
         AppLanguage.PORTUGUESE -> "Não foi possível conectar ao servidor — verifique a rede ou o endereço da API"
         AppLanguage.SPANISH -> "No se puede conectar al servidor — revisa la red o la dirección de la API"
@@ -14907,6 +16084,7 @@ object StringsE {
     val aiConnectionRefused: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "服务器拒绝连接，请检查 API 地址是否正确"
         AppLanguage.ENGLISH -> "Server refused the connection — check the API address"
+        AppLanguage.VIETNAMESE -> "Máy chủ từ chối kết nối - kiểm tra địa chỉ API"
         AppLanguage.ARABIC -> "رفض الخادم الاتصال — تحقق من صحة عنوان API"
         AppLanguage.PORTUGUESE -> "Servidor recusou a conexão — verifique o endereço da API"
         AppLanguage.SPANISH -> "El servidor rechazó la conexión — revisa la dirección de la API"
@@ -14920,6 +16098,7 @@ object StringsE {
     val aiNetworkFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网络连接失败"
         AppLanguage.ENGLISH -> "Network request failed"
+        AppLanguage.VIETNAMESE -> "Yêu cầu mạng không thành công"
         AppLanguage.ARABIC -> "فشل طلب الشبكة"
         AppLanguage.PORTUGUESE -> "Falha na requisição de rede"
         AppLanguage.SPANISH -> "Error de solicitud de red"
@@ -14933,6 +16112,7 @@ object StringsE {
     val aiEmptyResponse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "响应体为空"
         AppLanguage.ENGLISH -> "Empty response body"
+        AppLanguage.VIETNAMESE -> "Nội dung phản hồi trống"
         AppLanguage.ARABIC -> "جسم الاستجابة فارغ"
         AppLanguage.PORTUGUESE -> "Corpo da resposta vazio"
         AppLanguage.SPANISH -> "Cuerpo de respuesta vacío"
@@ -14946,6 +16126,7 @@ object StringsE {
     val aiReturnedError: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "API 返回错误"
         AppLanguage.ENGLISH -> "API returned an error"
+        AppLanguage.VIETNAMESE -> "API trả về lỗi"
         AppLanguage.ARABIC -> "أعادت API خطأ"
         AppLanguage.PORTUGUESE -> "A API retornou um erro"
         AppLanguage.SPANISH -> "La API devolvió un error"
@@ -14959,6 +16140,7 @@ object StringsE {
     val aiNoStreamData: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未收到任何数据，API 可能不支持流式输出"
         AppLanguage.ENGLISH -> "No data received — the API may not support streaming"
+        AppLanguage.VIETNAMESE -> "Không nhận được dữ liệu - API có thể không hỗ trợ phát trực tuyến"
         AppLanguage.ARABIC -> "لم يتم استلام أي بيانات — قد لا تدعم API البث"
         AppLanguage.PORTUGUESE -> "Nenhum dado recebido — a API pode não suportar streaming"
         AppLanguage.SPANISH -> "No se recibieron datos — la API puede no admitir streaming"
@@ -14972,6 +16154,7 @@ object StringsE {
     fun aiDataFormatError(preview: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "API 返回数据格式异常，请查看日志或尝试其他模型。数据预览: $preview..."
         AppLanguage.ENGLISH -> "Malformed API response data — check logs or try another model. Preview: $preview..."
+        AppLanguage.VIETNAMESE -> "Dữ liệu phản hồi API không đúng định dạng - kiểm tra nhật ký hoặc thử mô hình khác. Xem trước: $preview..."
         AppLanguage.ARABIC -> "بيانات استجابة API غير صالحة — تحقق من السجلات أو جرب نموذجاً آخر. معاينة: $preview..."
         AppLanguage.PORTUGUESE -> "Dados de resposta da API malformados — verifique os logs ou tente outro modelo. Prévia: $preview..."
         AppLanguage.SPANISH -> "Datos de respuesta de la API mal formados — revisa los registros o prueba otro modelo. Vista previa: $preview..."
@@ -14985,6 +16168,7 @@ object StringsE {
     val aiReadResponseFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "读取响应失败"
         AppLanguage.ENGLISH -> "Failed to read response"
+        AppLanguage.VIETNAMESE -> "Không đọc được phản hồi"
         AppLanguage.ARABIC -> "فشل قراءة الاستجابة"
         AppLanguage.PORTUGUESE -> "Falha ao ler a resposta"
         AppLanguage.SPANISH -> "Error al leer la respuesta"
@@ -14998,6 +16182,7 @@ object StringsE {
     val developerTools: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开发者工具"
         AppLanguage.ENGLISH -> "Developer tools"
+        AppLanguage.VIETNAMESE -> "Công cụ dành cho nhà phát triển"
         AppLanguage.ARABIC -> "أدوات المطور"
         AppLanguage.PORTUGUESE -> "Ferramentas do desenvolvedor"
         AppLanguage.SPANISH -> "Herramientas del desarrollador"
@@ -15013,6 +16198,7 @@ object StringsE {
     val runtimeNotReadyDownloadDeps: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "运行时未就绪，请先下载依赖"
         AppLanguage.ENGLISH -> "Runtime not ready — please download dependencies first"
+        AppLanguage.VIETNAMESE -> "Thời gian chạy chưa sẵn sàng - trước tiên hãy tải xuống các phần phụ thuộc"
         AppLanguage.ARABIC -> "وقت التشغيل غير جاهز — يرجى تنزيل التبعيات أولاً"
         AppLanguage.PORTUGUESE -> "Runtime não está pronto — baixe as dependências primeiro"
         AppLanguage.SPANISH -> "El runtime no está listo — descarga las dependencias primero"
@@ -15026,6 +16212,7 @@ object StringsE {
     fun runtimeStartFailed(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动失败: $detail"
         AppLanguage.ENGLISH -> "Start failed: $detail"
+        AppLanguage.VIETNAMESE -> "Bắt đầu thất bại: $detail"
         AppLanguage.ARABIC -> "فشل البدء: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar: $detail"
         AppLanguage.SPANISH -> "Error al iniciar: $detail"
@@ -15039,6 +16226,7 @@ object StringsE {
     val runtimePortAllocFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "无法分配端口"
         AppLanguage.ENGLISH -> "Unable to allocate a port"
+        AppLanguage.VIETNAMESE -> "Không thể phân bổ một cổng"
         AppLanguage.ARABIC -> "تعذر تخصيص منفذ"
         AppLanguage.PORTUGUESE -> "Não foi possível alocar uma porta"
         AppLanguage.SPANISH -> "No se pudo asignar un puerto"
@@ -15052,6 +16240,7 @@ object StringsE {
     fun runtimePortInUse(port: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "端口被占用: $port"
         AppLanguage.ENGLISH -> "Port already in use: $port"
+        AppLanguage.VIETNAMESE -> "Cổng đã được sử dụng: $port"
         AppLanguage.ARABIC -> "المنفذ قيد الاستخدام: $port"
         AppLanguage.PORTUGUESE -> "Porta em uso: $port"
         AppLanguage.SPANISH -> "Puerto en uso: $port"
@@ -15065,6 +16254,7 @@ object StringsE {
     fun runtimeEntryMissing(entryFile: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "入口文件不存在: $entryFile"
         AppLanguage.ENGLISH -> "Entry file not found: $entryFile"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy tệp mục nhập: $entryFile"
         AppLanguage.ARABIC -> "ملف الدخول غير موجود: $entryFile"
         AppLanguage.PORTUGUESE -> "Arquivo de entrada não encontrado: $entryFile"
         AppLanguage.SPANISH -> "Archivo de entrada no encontrado: $entryFile"
@@ -15078,6 +16268,7 @@ object StringsE {
     val phpBinaryNotReady: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 二进制未就绪，请先下载依赖"
         AppLanguage.ENGLISH -> "PHP binary not ready — please download dependencies first"
+        AppLanguage.VIETNAMESE -> "Tệp nhị phân PHP chưa sẵn sàng - trước tiên vui lòng tải xuống các phần phụ thuộc"
         AppLanguage.ARABIC -> "ثنائي PHP غير جاهز — يرجى تنزيل التبعيات أولاً"
         AppLanguage.PORTUGUESE -> "Binário PHP não está pronto — baixe as dependências primeiro"
         AppLanguage.SPANISH -> "El binario PHP no está listo — descarga las dependencias primero"
@@ -15091,6 +16282,7 @@ object StringsE {
     fun phpDocRootMissing(docRoot: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "Document root 不存在: $docRoot"
         AppLanguage.ENGLISH -> "Document root does not exist: $docRoot"
+        AppLanguage.VIETNAMESE -> "Gốc tài liệu không tồn tại: $docRoot"
         AppLanguage.ARABIC -> "جذر المستند غير موجود: $docRoot"
         AppLanguage.PORTUGUESE -> "Document root não existe: $docRoot"
         AppLanguage.SPANISH -> "Document root no existe: $docRoot"
@@ -15104,6 +16296,7 @@ object StringsE {
     val phpServerStartTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 服务器启动超时"
         AppLanguage.ENGLISH -> "PHP server start timed out"
+        AppLanguage.VIETNAMESE -> "Máy chủ PHP đã hết thời gian khởi động"
         AppLanguage.ARABIC -> "انتهت مهلة بدء خادم PHP"
         AppLanguage.PORTUGUESE -> "Tempo limite de inicialização do servidor PHP"
         AppLanguage.SPANISH -> "Tiempo de inicio del servidor PHP agotado"
@@ -15117,6 +16310,7 @@ object StringsE {
     val goBinaryInvalid: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 二进制无效或 ABI 不兼容"
         AppLanguage.ENGLISH -> "Go binary invalid or ABI incompatible"
+        AppLanguage.VIETNAMESE -> "Chuyển sang nhị phân không hợp lệ hoặc ABI không tương thích"
         AppLanguage.ARABIC -> "ثنائي Go غير صالح أو ABI غير متوافق"
         AppLanguage.PORTUGUESE -> "Binário Go inválido ou ABI incompatível"
         AppLanguage.SPANISH -> "Binario Go inválido o ABI incompatible"
@@ -15130,6 +16324,7 @@ object StringsE {
     val goServerStartTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 服务器启动超时"
         AppLanguage.ENGLISH -> "Go server start timed out"
+        AppLanguage.VIETNAMESE -> "Máy chủ bắt đầu hết thời gian chờ"
         AppLanguage.ARABIC -> "انتهت مهلة بدء خادم Go"
         AppLanguage.PORTUGUESE -> "Tempo limite de inicialização do servidor Go"
         AppLanguage.SPANISH -> "Tiempo de inicio del servidor Go agotado"
@@ -15143,6 +16338,7 @@ object StringsE {
     fun goStartFailedWithChannel(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "启动失败: $detail"
         AppLanguage.ENGLISH -> "Start failed: $detail"
+        AppLanguage.VIETNAMESE -> "Bắt đầu thất bại: $detail"
         AppLanguage.ARABIC -> "فشل البدء: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao iniciar: $detail"
         AppLanguage.SPANISH -> "Error al iniciar: $detail"
@@ -15156,6 +16352,7 @@ object StringsE {
     fun goToolchainUnsupportedAbi(abi: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "当前设备架构 ($abi) 暂不支持 Go 工具链，仅支持 arm64-v8a"
         AppLanguage.ENGLISH -> "Current device ABI ($abi) is not supported by the Go toolchain — only arm64-v8a is supported"
+        AppLanguage.VIETNAMESE -> "Thiết bị hiện tại ABI ($abi) không được chuỗi công cụ Go hỗ trợ - chỉ hỗ trợ arm64-v8a"
         AppLanguage.ARABIC -> "بنية الجهاز الحالية ($abi) غير مدعومة من سلسلة أدوات Go — يدعم فقط arm64-v8a"
         AppLanguage.PORTUGUESE -> "A ABI do dispositivo ($abi) não é suportada pela toolchain Go — apenas arm64-v8a"
         AppLanguage.SPANISH -> "La ABI del dispositivo ($abi) no es compatible con la toolchain de Go — solo arm64-v8a"
@@ -15169,6 +16366,7 @@ object StringsE {
     val goToolchainExtractIncomplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 工具链解压不完整，请重试"
         AppLanguage.ENGLISH -> "Go toolchain extraction incomplete — please retry"
+        AppLanguage.VIETNAMESE -> "Quá trình trích xuất chuỗi công cụ chưa hoàn tất — vui lòng thử lại"
         AppLanguage.ARABIC -> "استخراج سلسلة أدوات Go غير مكتمل — يرجى المحاولة مرة أخرى"
         AppLanguage.PORTUGUESE -> "Extração da toolchain Go incompleta — tente novamente"
         AppLanguage.SPANISH -> "Extracción de la toolchain de Go incompleta — reintenta"
@@ -15182,6 +16380,7 @@ object StringsE {
     val goToolchainNotInstalled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Go 工具链未安装"
         AppLanguage.ENGLISH -> "Go toolchain not installed"
+        AppLanguage.VIETNAMESE -> "Chuỗi công cụ Go chưa được cài đặt"
         AppLanguage.ARABIC -> "سلسلة أدوات Go غير مثبتة"
         AppLanguage.PORTUGUESE -> "Toolchain Go não instalada"
         AppLanguage.SPANISH -> "Toolchain de Go no instalada"
@@ -15195,6 +16394,7 @@ object StringsE {
     fun nodeRuntimeNotFound(abi: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压后未找到 Node.js 运行时 (ABI: $abi)"
         AppLanguage.ENGLISH -> "Node.js runtime not found after extraction (ABI: $abi)"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy thời gian chạy Node.js sau khi trích xuất (ABI: $abi)"
         AppLanguage.ARABIC -> "لم يتم العثور على وقت تشغيل Node.js بعد الاستخراج (ABI: $abi)"
         AppLanguage.PORTUGUESE -> "Runtime Node.js não encontrado após extração (ABI: $abi)"
         AppLanguage.SPANISH -> "Runtime de Node.js no encontrado tras la extracción (ABI: $abi)"
@@ -15208,6 +16408,7 @@ object StringsE {
     fun nodeExtractFailed(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压 Node.js 失败: $detail"
         AppLanguage.ENGLISH -> "Failed to extract Node.js: $detail"
+        AppLanguage.VIETNAMESE -> "Không thể giải nén Node.js: $detail"
         AppLanguage.ARABIC -> "فشل استخراج Node.js: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao extrair Node.js: $detail"
         AppLanguage.SPANISH -> "Error al extraer Node.js: $detail"
@@ -15221,6 +16422,7 @@ object StringsE {
     fun nodeBridgeLoadFailed(detail: String, channelNote: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "libnode_bridge.so 加载失败 ($detail)。导出的 NODEJS_APP 需包含 libnode_bridge.so 与 libc++_shared.so；请用最新构建器重新导出。$channelNote"
         AppLanguage.ENGLISH -> "libnode_bridge.so failed to load ($detail). Exported NODEJS_APP must include libnode_bridge.so and libc++_shared.so; re-export with the latest builder. $channelNote"
+        AppLanguage.VIETNAMESE -> "libnode_bridge.so không tải được ($detail). NODEJS_APP đã xuất phải bao gồm libnode_bridge.so và libc++_shared.so; tái xuất với trình tạo mới nhất. $channelNote"
         AppLanguage.ARABIC -> "فشل تحميل libnode_bridge.so ($detail). يجب أن يتضمن NODEJS_APP المُصدَّر libnode_bridge.so و libc++_shared.so؛ أعد التصدير بأحدث أداة بناء. $channelNote"
         AppLanguage.PORTUGUESE -> "Falha ao carregar libnode_bridge.so ($detail). NODEJS_APP exportado deve incluir libnode_bridge.so e libc++_shared.so; reexporte com o construtor mais recente. $channelNote"
         AppLanguage.SPANISH -> "Error al cargar libnode_bridge.so ($detail). El NODEJS_APP exportado debe incluir libnode_bridge.so y libc++_shared.so; reexporta con el constructor más reciente. $channelNote"
@@ -15234,6 +16436,7 @@ object StringsE {
     fun nodeLibLoadFailed(path: String, channelNote: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "libnode.so 加载失败 ($path)。请确认 APK 含 16KB 对齐的 libnode.so，或在主机下载 Node 运行时后重新导出。$channelNote"
         AppLanguage.ENGLISH -> "libnode.so failed to load ($path). Ensure the APK contains a 16KB-aligned libnode.so, or download the Node runtime on the host and re-export. $channelNote"
+        AppLanguage.VIETNAMESE -> "libnode.so không tải được ($path). Đảm bảo APK chứa libnode.so được căn chỉnh 16KB hoặc tải xuống thời gian chạy Nút trên máy chủ và xuất lại. $channelNote"
         AppLanguage.ARABIC -> "فشل تحميل libnode.so ($path). تأكد من أن APK يحتوي على libnode.so بمحاذاة 16KB، أو نزّل وقت تشغيل Node على المضيف وأعد التصدير. $channelNote"
         AppLanguage.PORTUGUESE -> "Falha ao carregar libnode.so ($path). Certifique-se de que o APK contém libnode.so alinhado a 16KB, ou baixe o runtime Node no host e reexporte. $channelNote"
         AppLanguage.SPANISH -> "Error al cargar libnode.so ($path). Asegúrate de que el APK contiene libnode.so alineado a 16KB, o descarga el runtime de Node en el host y reexporta. $channelNote"
@@ -15247,6 +16450,7 @@ object StringsE {
     val nodeV8AlreadyInit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "V8 已初始化且服务器未运行，请发送 MSG_KILL_ENGINE 重建子进程"
         AppLanguage.ENGLISH -> "V8 already initialized and server not running — send MSG_KILL_ENGINE to rebuild the child process"
+        AppLanguage.VIETNAMESE -> "V8 đã được khởi tạo và máy chủ không chạy - gửi MSG_KILL_ENGINE để xây dựng lại tiến trình con"
         AppLanguage.ARABIC -> "تم تهيئة V8 بالفعل والخادم لا يعمل — أرسل MSG_KILL_ENGINE لإعادة بناء العملية الفرعية"
         AppLanguage.PORTUGUESE -> "V8 já inicializado e servidor não em execução — envie MSG_KILL_ENGINE para reconstruir o processo filho"
         AppLanguage.SPANISH -> "V8 ya inicializado y servidor no en ejecución — envía MSG_KILL_ENGINE para reconstruir el proceso hijo"
@@ -15260,6 +16464,7 @@ object StringsE {
     fun nodeExitedImmediately(exitCode: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 启动后立即退出$exitCode"
         AppLanguage.ENGLISH -> "Node.js exited immediately after start$exitCode"
+        AppLanguage.VIETNAMESE -> "Node.js đã thoát ngay sau khi start$exitCode"
         AppLanguage.ARABIC -> "خرج Node.js فور البدء$exitCode"
         AppLanguage.PORTUGUESE -> "Node.js saiu imediatamente após iniciar$exitCode"
         AppLanguage.SPANISH -> "Node.js salió inmediatamente después de iniciar$exitCode"
@@ -15273,6 +16478,7 @@ object StringsE {
     fun nodeProcessExited(exitCode: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 进程已退出$exitCode"
         AppLanguage.ENGLISH -> "Node.js process exited$exitCode"
+        AppLanguage.VIETNAMESE -> "Quá trình Node.js đã thoát$exitCode"
         AppLanguage.ARABIC -> "عملية Node.js خرجت$exitCode"
         AppLanguage.PORTUGUESE -> "Processo Node.js encerrado$exitCode"
         AppLanguage.SPANISH -> "El proceso Node.js salió$exitCode"
@@ -15286,6 +16492,7 @@ object StringsE {
     val nodeEntryScriptFailed: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 入口脚本执行失败"
         AppLanguage.ENGLISH -> "Node.js entry script execution failed"
+        AppLanguage.VIETNAMESE -> "Việc thực thi tập lệnh nhập Node.js không thành công"
         AppLanguage.ARABIC -> "فشل تنفيذ سكربت دخول Node.js"
         AppLanguage.PORTUGUESE -> "Falha na execução do script de entrada Node.js"
         AppLanguage.SPANISH -> "Error en la ejecución del script de entrada de Node.js"
@@ -15299,6 +16506,7 @@ object StringsE {
     val nodeServerStartTimeout: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js 服务器启动超时"
         AppLanguage.ENGLISH -> "Node.js server start timed out"
+        AppLanguage.VIETNAMESE -> "Máy chủ Node.js đã hết thời gian khởi động"
         AppLanguage.ARABIC -> "انتهت مهلة بدء خادم Node.js"
         AppLanguage.PORTUGUESE -> "Tempo limite de inicialização do servidor Node.js"
         AppLanguage.SPANISH -> "Tiempo de inicio del servidor Node.js agotado"
@@ -15312,6 +16520,7 @@ object StringsE {
     val phpArmOnly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP 二进制仅支持 arm64 设备"
         AppLanguage.ENGLISH -> "PHP binary supports arm64 devices only"
+        AppLanguage.VIETNAMESE -> "Nhị phân PHP chỉ hỗ trợ các thiết bị arm64"
         AppLanguage.ARABIC -> "ثنائي PHP يدعم أجهزة arm64 فقط"
         AppLanguage.PORTUGUESE -> "O binário PHP suporta apenas dispositivos arm64"
         AppLanguage.SPANISH -> "El binario PHP solo admite dispositivos arm64"
@@ -15325,6 +16534,7 @@ object StringsE {
     val phpBinaryNotFound: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压后未找到 PHP 二进制"
         AppLanguage.ENGLISH -> "PHP binary not found after extraction"
+        AppLanguage.VIETNAMESE -> "Không tìm thấy nhị phân PHP sau khi giải nén"
         AppLanguage.ARABIC -> "لم يتم العثور على ثنائي PHP بعد الاستخراج"
         AppLanguage.PORTUGUESE -> "Binário PHP não encontrado após extração"
         AppLanguage.SPANISH -> "Binario PHP no encontrado tras la extracción"
@@ -15338,6 +16548,7 @@ object StringsE {
     fun phpExtractFailed(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压 PHP 失败: $detail"
         AppLanguage.ENGLISH -> "Failed to extract PHP: $detail"
+        AppLanguage.VIETNAMESE -> "Không thể giải nén PHP: $detail"
         AppLanguage.ARABIC -> "فشل استخراج PHP: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao extrair PHP: $detail"
         AppLanguage.SPANISH -> "Error al extraer PHP: $detail"
@@ -15351,6 +16562,7 @@ object StringsE {
     val wpExtractIncomplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WordPress 解压不完整"
         AppLanguage.ENGLISH -> "WordPress extraction incomplete"
+        AppLanguage.VIETNAMESE -> "Trích xuất WordPress không đầy đủ"
         AppLanguage.ARABIC -> "استخراج WordPress غير مكتمل"
         AppLanguage.PORTUGUESE -> "Extração do WordPress incompleta"
         AppLanguage.SPANISH -> "Extracción de WordPress incompleta"
@@ -15364,6 +16576,7 @@ object StringsE {
     fun wpExtractFailed(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压 WordPress 失败: $detail"
         AppLanguage.ENGLISH -> "Failed to extract WordPress: $detail"
+        AppLanguage.VIETNAMESE -> "Không thể giải nén WordPress: $detail"
         AppLanguage.ARABIC -> "فشل استخراج WordPress: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao extrair WordPress: $detail"
         AppLanguage.SPANISH -> "Error al extraer WordPress: $detail"
@@ -15377,6 +16590,7 @@ object StringsE {
     val sqlitePluginExtractIncomplete: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SQLite 插件解压不完整"
         AppLanguage.ENGLISH -> "SQLite plugin extraction incomplete"
+        AppLanguage.VIETNAMESE -> "Trích xuất plugin SQLite chưa hoàn tất"
         AppLanguage.ARABIC -> "استخراج إضافة SQLite غير مكتمل"
         AppLanguage.PORTUGUESE -> "Extração do plugin SQLite incompleta"
         AppLanguage.SPANISH -> "Extracción del plugin SQLite incompleta"
@@ -15390,6 +16604,7 @@ object StringsE {
     fun sqlitePluginExtractFailed(detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "解压 SQLite 插件失败: $detail"
         AppLanguage.ENGLISH -> "Failed to extract SQLite plugin: $detail"
+        AppLanguage.VIETNAMESE -> "Không thể giải nén plugin SQLite: $detail"
         AppLanguage.ARABIC -> "فشل استخراج إضافة SQLite: $detail"
         AppLanguage.PORTUGUESE -> "Falha ao extrair o plugin SQLite: $detail"
         AppLanguage.SPANISH -> "Error al extraer el plugin SQLite: $detail"
@@ -15404,6 +16619,7 @@ object StringsE {
     fun downloadTooSmall(label: String, size: Long): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$label 下载内容过小（${size} bytes），可能是错误页"
         AppLanguage.ENGLISH -> "$label download too small (${size} bytes) — possibly an error page"
+        AppLanguage.VIETNAMESE -> "Tải xuống $label quá nhỏ (${size} byte) — có thể là một trang lỗi"
         AppLanguage.ARABIC -> "تنزيل $label صغير جداً (${size} بايت) — ربما صفحة خطأ"
         AppLanguage.PORTUGUESE -> "Download de $label muito pequeno (${size} bytes) — possivelmente uma página de erro"
         AppLanguage.SPANISH -> "Descarga de $label demasiado pequeña (${size} bytes) — posiblemente una página de error"
@@ -15417,6 +16633,7 @@ object StringsE {
     fun downloadVersionMismatch(label: String, expected: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$label 下载到的 phar 版本不匹配（期望 $expected）"
         AppLanguage.ENGLISH -> "Downloaded $label phar version mismatch (expected $expected)"
+        AppLanguage.VIETNAMESE -> "Phiên bản phar $label đã tải xuống không khớp (dự kiến ​​$expected)"
         AppLanguage.ARABIC -> "إصدار phar لـ $label الذي تم تنزيله غير مطابق (متوقع $expected)"
         AppLanguage.PORTUGUESE -> "A versão phar de $label baixada não corresponde (esperada $expected)"
         AppLanguage.SPANISH -> "La versión phar de $label descargada no coincide (esperada $expected)"
@@ -15430,6 +16647,7 @@ object StringsE {
     fun downloadFailed(label: String, detail: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$label 下载失败: $detail"
         AppLanguage.ENGLISH -> "$label download failed: $detail"
+        AppLanguage.VIETNAMESE -> "Tải xuống $label không thành công: $detail"
         AppLanguage.ARABIC -> "فشل تنزيل $label: $detail"
         AppLanguage.PORTUGUESE -> "Falha no download de $label: $detail"
         AppLanguage.SPANISH -> "Error de descarga de $label: $detail"
@@ -15443,6 +16661,7 @@ object StringsE {
     val packageJsonMissing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "package.json 不存在"
         AppLanguage.ENGLISH -> "package.json not found"
+        AppLanguage.VIETNAMESE -> "không tìm thấy gói.json"
         AppLanguage.ARABIC -> "package.json غير موجود"
         AppLanguage.PORTUGUESE -> "package.json não encontrado"
         AppLanguage.SPANISH -> "package.json no encontrado"
@@ -15458,6 +16677,7 @@ object StringsE {
     val outboundShareTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页分享"
         AppLanguage.ENGLISH -> "Share from the page"
+        AppLanguage.VIETNAMESE -> "Chia sẻ từ trang"
         AppLanguage.ARABIC -> "مشاركة من الصفحة"
         AppLanguage.PORTUGUESE -> "Compartilhar a partir da página"
         AppLanguage.SPANISH -> "Compartir desde la página"
@@ -15471,6 +16691,7 @@ object StringsE {
     val outboundShareDesc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页可以把文字和文件交给系统分享面板，再由你选择 WhatsApp、Telegram 或其他应用"
         AppLanguage.ENGLISH -> "The page can hand text and files to the system share sheet. You then pick WhatsApp, Telegram, or any other app"
+        AppLanguage.VIETNAMESE -> "Trang này có thể đưa văn bản và tập tin vào bảng chia sẻ hệ thống. Sau đó, bạn chọn WhatsApp, Telegram hoặc bất kỳ ứng dụng nào khác"
         AppLanguage.ARABIC -> "يمكن للصفحة تسليم النص والملفات إلى لوحة مشاركة النظام، ثم تختار واتساب أو تيليغرام أو أي تطبيق آخر"
         AppLanguage.PORTUGUESE -> "A página pode entregar texto e arquivos ao menu de compartilhamento do sistema. Você escolhe o WhatsApp, o Telegram ou qualquer outro app"
         AppLanguage.SPANISH -> "La página puede entregar texto y archivos a la hoja de compartir del sistema. Tú eliges WhatsApp, Telegram u otra aplicación"
@@ -15486,6 +16707,7 @@ object StringsE {
     val receiveShare: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "接收分享内容"
         AppLanguage.ENGLISH -> "Receive shared content"
+        AppLanguage.VIETNAMESE -> "Nhận nội dung được chia sẻ"
         AppLanguage.ARABIC -> "استقبال المحتوى المُشارَك"
         AppLanguage.PORTUGUESE -> "Receber conteúdo compartilhado"
         AppLanguage.SPANISH -> "Recibir contenido compartido"
@@ -15499,6 +16721,7 @@ object StringsE {
     val receiveShareHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "让本应用出现在系统分享面板中"
         AppLanguage.ENGLISH -> "Let this app appear in the system share sheet"
+        AppLanguage.VIETNAMESE -> "Để ứng dụng này xuất hiện trong bảng chia sẻ hệ thống"
         AppLanguage.ARABIC -> "اجعل هذا التطبيق يظهر في قائمة المشاركة بالنظام"
         AppLanguage.PORTUGUESE -> "Fazer este app aparecer no menu de compartilhamento do sistema"
         AppLanguage.SPANISH -> "Hacer que esta app aparezca en el menú de compartir del sistema"
@@ -15512,6 +16735,7 @@ object StringsE {
     val receiveShareImages: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "接收图片"
         AppLanguage.ENGLISH -> "Receive images"
+        AppLanguage.VIETNAMESE -> "Nhận hình ảnh"
         AppLanguage.ARABIC -> "استقبال الصور"
         AppLanguage.PORTUGUESE -> "Receber imagens"
         AppLanguage.SPANISH -> "Recibir imágenes"
@@ -15525,6 +16749,7 @@ object StringsE {
     val receiveShareImagesHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在分享面板中作为图片分享目标出现"
         AppLanguage.ENGLISH -> "Appear as a target when sharing images"
+        AppLanguage.VIETNAMESE -> "Xuất hiện dưới dạng mục tiêu khi chia sẻ hình ảnh"
         AppLanguage.ARABIC -> "الظهور كهدف عند مشاركة الصور"
         AppLanguage.PORTUGUESE -> "Aparecer como destino ao compartilhar imagens"
         AppLanguage.SPANISH -> "Aparecer como destino al compartir imágenes"
@@ -15538,6 +16763,7 @@ object StringsE {
     val receiveShareText: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "接收文本与链接"
         AppLanguage.ENGLISH -> "Receive text and links"
+        AppLanguage.VIETNAMESE -> "Nhận văn bản và liên kết"
         AppLanguage.ARABIC -> "استقبال النصوص والروابط"
         AppLanguage.PORTUGUESE -> "Receber texto e links"
         AppLanguage.SPANISH -> "Recibir texto y enlaces"
@@ -15551,6 +16777,7 @@ object StringsE {
     val receiveShareTextHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "同时接收以纯文本形式分享的内容"
         AppLanguage.ENGLISH -> "Also accept content shared as plain text"
+        AppLanguage.VIETNAMESE -> "Đồng thời chấp nhận nội dung được chia sẻ dưới dạng văn bản thuần túy"
         AppLanguage.ARABIC -> "قبول المحتوى المُشارَك كنص عادي أيضًا"
         AppLanguage.PORTUGUESE -> "Também aceitar conteúdo compartilhado como texto simples"
         AppLanguage.SPANISH -> "Aceptar también contenido compartido como texto sin formato"
@@ -15564,6 +16791,7 @@ object StringsE {
     val receiveShareDeliveryMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "投递方式"
         AppLanguage.ENGLISH -> "Delivery method"
+        AppLanguage.VIETNAMESE -> "Phương thức giao hàng"
         AppLanguage.ARABIC -> "طريقة التسليم"
         AppLanguage.PORTUGUESE -> "Método de entrega"
         AppLanguage.SPANISH -> "Método de entrega"
@@ -15577,6 +16805,7 @@ object StringsE {
     val receiveShareModeEvent: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面事件"
         AppLanguage.ENGLISH -> "Page event"
+        AppLanguage.VIETNAMESE -> "Sự kiện trang"
         AppLanguage.ARABIC -> "حدث الصفحة"
         AppLanguage.PORTUGUESE -> "Evento da página"
         AppLanguage.SPANISH -> "Evento de la página"
@@ -15590,6 +16819,7 @@ object StringsE {
     val receiveShareModeEventHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "派发 wta:share 事件，零点击；需要页面或扩展模块主动监听"
         AppLanguage.ENGLISH -> "Dispatch a wta:share event — zero taps, but the page or a module must listen"
+        AppLanguage.VIETNAMESE -> "Gửi sự kiện wta:share — không cần nhấn nhưng trang hoặc mô-đun phải lắng nghe"
         AppLanguage.ARABIC -> "إرسال حدث wta:share — بدون نقرات، لكن يجب أن تستمع الصفحة أو الوحدة"
         AppLanguage.PORTUGUESE -> "Disparar um evento wta:share — sem toques, mas a página ou um módulo precisa escutar"
         AppLanguage.SPANISH -> "Lanzar un evento wta:share — sin toques, pero la página o un módulo debe escuchar"
@@ -15603,6 +16833,7 @@ object StringsE {
     val receiveShareModeChooser: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "预填文件选择器"
         AppLanguage.ENGLISH -> "Pre-fill file chooser"
+        AppLanguage.VIETNAMESE -> "Trình chọn tệp điền trước"
         AppLanguage.ARABIC -> "تعبئة منتقي الملفات مسبقًا"
         AppLanguage.PORTUGUESE -> "Preencher o seletor de arquivos"
         AppLanguage.SPANISH -> "Rellenar el selector de archivos"
@@ -15616,6 +16847,7 @@ object StringsE {
     val receiveShareModeChooserHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面点击上传时直接使用分享内容，对任意网站生效"
         AppLanguage.ENGLISH -> "Use the shared content when the page asks for a file — works on any site"
+        AppLanguage.VIETNAMESE -> "Sử dụng nội dung được chia sẻ khi trang yêu cầu tệp - hoạt động trên mọi trang web"
         AppLanguage.ARABIC -> "استخدام المحتوى المُشارَك عندما تطلب الصفحة ملفًا — يعمل على أي موقع"
         AppLanguage.PORTUGUESE -> "Usar o conteúdo compartilhado quando a página pedir um arquivo — funciona em qualquer site"
         AppLanguage.SPANISH -> "Usar el contenido compartido cuando la página pida un archivo — funciona en cualquier sitio"
@@ -15629,6 +16861,7 @@ object StringsE {
     val receiveShareModeBoth: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "两者都使用"
         AppLanguage.ENGLISH -> "Both"
+        AppLanguage.VIETNAMESE -> "Cả hai"
         AppLanguage.ARABIC -> "كلاهما"
         AppLanguage.PORTUGUESE -> "Ambos"
         AppLanguage.SPANISH -> "Ambos"
@@ -15642,6 +16875,7 @@ object StringsE {
     val receiveShareModeBothHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "事件优先，文件选择器兜底（推荐）"
         AppLanguage.ENGLISH -> "Event first, file chooser as fallback (recommended)"
+        AppLanguage.VIETNAMESE -> "Sự kiện đầu tiên, trình chọn tệp làm dự phòng (được khuyến nghị)"
         AppLanguage.ARABIC -> "الحدث أولًا ومنتقي الملفات كبديل (موصى به)"
         AppLanguage.PORTUGUESE -> "Evento primeiro, seletor de arquivos como alternativa (recomendado)"
         AppLanguage.SPANISH -> "Evento primero, selector de archivos como respaldo (recomendado)"
@@ -15655,6 +16889,7 @@ object StringsE {
     val receiveSharePromptBeforeUse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用前先询问"
         AppLanguage.ENGLISH -> "Ask before using"
+        AppLanguage.VIETNAMESE -> "Hỏi trước khi sử dụng"
         AppLanguage.ARABIC -> "اسأل قبل الاستخدام"
         AppLanguage.PORTUGUESE -> "Perguntar antes de usar"
         AppLanguage.SPANISH -> "Preguntar antes de usar"
@@ -15668,6 +16903,7 @@ object StringsE {
     val receiveSharePromptBeforeUseHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "关闭后直接用分享内容应答上传，不再询问"
         AppLanguage.ENGLISH -> "When off, uploads are answered with the shared content without asking"
+        AppLanguage.VIETNAMESE -> "Khi tắt, nội dung tải lên sẽ được trả lời bằng nội dung được chia sẻ mà không cần hỏi"
         AppLanguage.ARABIC -> "عند الإيقاف، تُجاب عمليات الرفع بالمحتوى المُشارَك دون سؤال"
         AppLanguage.PORTUGUESE -> "Desativado, os envios usam o conteúdo compartilhado sem perguntar"
         AppLanguage.SPANISH -> "Desactivado, las subidas usan el contenido compartido sin preguntar"
@@ -15681,6 +16917,7 @@ object StringsE {
     val receiveShareShowToast: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "收到分享时弹出提示"
         AppLanguage.ENGLISH -> "Toast when content arrives"
+        AppLanguage.VIETNAMESE -> "Nâng cốc chúc mừng khi có nội dung"
         AppLanguage.ARABIC -> "إشعار عند وصول المحتوى"
         AppLanguage.PORTUGUESE -> "Aviso ao receber conteúdo"
         AppLanguage.SPANISH -> "Aviso al recibir contenido"
@@ -15694,6 +16931,7 @@ object StringsE {
     val receiveShareShowToastHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "提示用户去点页面上的上传按钮。页面自己处理 wta:share 时请关掉"
         AppLanguage.ENGLISH -> "Tells the user to tap the page's upload button. Turn off if the page handles wta:share itself"
+        AppLanguage.VIETNAMESE -> "Yêu cầu người dùng nhấn vào nút tải lên của trang. Tắt nếu trang tự xử lý wta:share"
         AppLanguage.ARABIC -> "يخبر المستخدم بالنقر على زر الرفع في الصفحة. أوقفها إذا كانت الصفحة تعالج wta:share بنفسها"
         AppLanguage.PORTUGUESE -> "Pede para tocar no botão de envio da página. Desligue se a página trata wta:share sozinha"
         AppLanguage.SPANISH -> "Indica que pulse el botón de subida de la página. Apágalo si la página gestiona wta:share"
@@ -15707,6 +16945,7 @@ object StringsE {
     val receiveShareCaveat: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "第三方网站无法自动提交，需要在页面点击上传时选择已分享的内容"
         AppLanguage.ENGLISH -> "Third-party sites cannot be submitted to automatically — tap the page's upload control and the shared content is used"
+        AppLanguage.VIETNAMESE -> "Không thể tự động gửi các trang web của bên thứ ba - hãy nhấn vào kiểm soát tải lên của trang và nội dung được chia sẻ sẽ được sử dụng"
         AppLanguage.ARABIC -> "لا يمكن الإرسال تلقائيًا في مواقع الطرف الثالث — انقر زر الرفع في الصفحة وسيُستخدم المحتوى المُشارَك"
         AppLanguage.PORTUGUESE -> "Sites de terceiros não podem ser enviados automaticamente — toque no botão de envio da página e o conteúdo compartilhado será usado"
         AppLanguage.SPANISH -> "Los sitios de terceros no pueden enviarse automáticamente — pulsa el botón de subida de la página y se usará el contenido compartido"
@@ -15720,6 +16959,7 @@ object StringsE {
     val shareReceivedToast: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已接收分享内容，点击页面上传即可使用"
         AppLanguage.ENGLISH -> "Shared content received — use the page's upload button"
+        AppLanguage.VIETNAMESE -> "Đã nhận được nội dung chia sẻ — sử dụng nút tải lên của trang"
         AppLanguage.ARABIC -> "تم استقبال المحتوى المُشارَك — استخدم زر الرفع في الصفحة"
         AppLanguage.PORTUGUESE -> "Conteúdo compartilhado recebido — use o botão de envio da página"
         AppLanguage.SPANISH -> "Contenido compartido recibido — usa el botón de subida de la página"
@@ -15733,6 +16973,7 @@ object StringsE {
     val shareReceivedPickTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用已分享的内容？"
         AppLanguage.ENGLISH -> "Use the shared content?"
+        AppLanguage.VIETNAMESE -> "Sử dụng nội dung được chia sẻ?"
         AppLanguage.ARABIC -> "استخدام المحتوى المُشارَك؟"
         AppLanguage.PORTUGUESE -> "Usar o conteúdo compartilhado?"
         AppLanguage.SPANISH -> "¿Usar el contenido compartido?"
@@ -15746,6 +16987,7 @@ object StringsE {
     val shareReceivedPickMessage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "刚分享进来的内容可以直接用于这次上传。"
         AppLanguage.ENGLISH -> "The content you just shared can be used for this upload."
+        AppLanguage.VIETNAMESE -> "Nội dung bạn vừa chia sẻ có thể được sử dụng cho lần tải lên này."
         AppLanguage.ARABIC -> "يمكن استخدام المحتوى الذي شاركته للتو في عملية الرفع هذه."
         AppLanguage.PORTUGUESE -> "O conteúdo que você acabou de compartilhar pode ser usado neste envio."
         AppLanguage.SPANISH -> "El contenido que acabas de compartir puede usarse en esta subida."
@@ -15759,6 +17001,7 @@ object StringsE {
     fun shareReceivedPickMessageNamed(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "「$name」可以直接用于这次上传。"
         AppLanguage.ENGLISH -> "\"$name\" can be used for this upload."
+        AppLanguage.VIETNAMESE -> "Có thể sử dụng \"$name\" cho lần tải lên này."
         AppLanguage.ARABIC -> "يمكن استخدام «$name» في عملية الرفع هذه."
         AppLanguage.PORTUGUESE -> "\"$name\" pode ser usado neste envio."
         AppLanguage.SPANISH -> "\"$name\" puede usarse en esta subida."
@@ -15772,6 +17015,7 @@ object StringsE {
     val shareReceivedPickUse: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用它"
         AppLanguage.ENGLISH -> "Use it"
+        AppLanguage.VIETNAMESE -> "Sử dụng nó"
         AppLanguage.ARABIC -> "استخدامه"
         AppLanguage.PORTUGUESE -> "Usar"
         AppLanguage.SPANISH -> "Usarlo"
@@ -15785,6 +17029,7 @@ object StringsE {
     val shareReceivedPickChoose: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "重新选择"
         AppLanguage.ENGLISH -> "Choose another"
+        AppLanguage.VIETNAMESE -> "Chọn cái khác"
         AppLanguage.ARABIC -> "اختيار آخر"
         AppLanguage.PORTUGUESE -> "Escolher outro"
         AppLanguage.SPANISH -> "Elegir otro"
@@ -15798,6 +17043,7 @@ object StringsE {
     val buildServiceChannelName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "APK 构建"
         AppLanguage.ENGLISH -> "APK builds"
+        AppLanguage.VIETNAMESE -> "Bản dựng APK"
         AppLanguage.ARABIC -> "بناء حزم APK"
         AppLanguage.PORTUGUESE -> "Compilações de APK"
         AppLanguage.SPANISH -> "Compilaciones de APK"
@@ -15811,6 +17057,7 @@ object StringsE {
     val buildServiceTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在构建 APK"
         AppLanguage.ENGLISH -> "Building APK"
+        AppLanguage.VIETNAMESE -> "APK xây dựng"
         AppLanguage.ARABIC -> "جارٍ بناء APK"
         AppLanguage.PORTUGUESE -> "Compilando APK"
         AppLanguage.SPANISH -> "Compilando APK"
@@ -15824,6 +17071,7 @@ object StringsE {
     fun buildServiceRunning(appName: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "正在打包「$appName」，可切到后台等待完成"
         AppLanguage.ENGLISH -> "Packaging \"$appName\" — safe to leave running in the background"
+        AppLanguage.VIETNAMESE -> "Đóng gói \"$appName\" — an toàn để chạy ở chế độ nền"
         AppLanguage.ARABIC -> "جارٍ تجميع «$appName» — يمكنك تركه يعمل في الخلفية"
         AppLanguage.PORTUGUESE -> "Empacotando \"$appName\" — pode continuar em segundo plano"
         AppLanguage.SPANISH -> "Empaquetando \"$appName\" — puede seguir en segundo plano"
@@ -15837,6 +17085,7 @@ object StringsE {
     val openWithTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注册为文件「打开方式」"
         AppLanguage.ENGLISH -> "Register as file \"Open with\""
+        AppLanguage.VIETNAMESE -> "Đăng ký dưới dạng tệp \"Mở bằng\""
         AppLanguage.ARABIC -> "التسجيل كخيار «فتح باستخدام» للملفات"
         AppLanguage.PORTUGUESE -> "Registrar como \"Abrir com\" para arquivos"
         AppLanguage.SPANISH -> "Registrarse como \"Abrir con\" para archivos"
@@ -15850,6 +17099,7 @@ object StringsE {
     val openWithHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "生成的应用可接收文本、配置和代码文件（txt/json/xml/py/js 等），内容进入分享收件箱"
         AppLanguage.ENGLISH -> "The exported app can receive text, config and code files (txt/json/xml/py/js…); content lands in the share inbox"
+        AppLanguage.VIETNAMESE -> "Ứng dụng đã xuất có thể nhận các tệp văn bản, cấu hình và mã (txt/json/xml/py/js…); nội dung nằm trong hộp thư chia sẻ"
         AppLanguage.ARABIC -> "يمكن للتطبيق المُصدَّر استقبال ملفات النصوص والإعدادات والشيفرة (txt/json/xml/py/js…)؛ يصل المحتوى إلى صندوق المشاركة"
         AppLanguage.PORTUGUESE -> "O app exportado pode receber arquivos de texto, configuração e código (txt/json/xml/py/js…); o conteúdo vai para a caixa de compartilhamento"
         AppLanguage.SPANISH -> "La app exportada puede recibir archivos de texto, configuración y código (txt/json/xml/py/js…); el contenido llega a la bandeja de compartidos"
@@ -15863,6 +17113,7 @@ object StringsE {
     val perAppSigningTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每应用独立签名身份"
         AppLanguage.ENGLISH -> "Per-app signing identity"
+        AppLanguage.VIETNAMESE -> "Danh tính ký trên mỗi ứng dụng"
         AppLanguage.ARABIC -> "هوية توقيع مستقلة لكل تطبيق"
         AppLanguage.PORTUGUESE -> "Identidade de assinatura por app"
         AppLanguage.SPANISH -> "Identidad de firma por aplicación"
@@ -15876,6 +17127,7 @@ object StringsE {
     val perAppSigningHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "每个包名独立证书，更新时签名不变"
         AppLanguage.ENGLISH -> "Dedicated certificate per package name; signing identity stays stable across updates"
+        AppLanguage.VIETNAMESE -> "Chứng chỉ chuyên dụng cho mỗi tên gói; danh tính ký vẫn ổn định qua các bản cập nhật"
         AppLanguage.ARABIC -> "شهادة مخصصة لكل اسم حزمة؛ تبقى هوية التوقيع ثابتة عبر التحديثات"
         AppLanguage.PORTUGUESE -> "Certificado dedicado por nome de pacote; identidade de assinatura estável entre atualizações"
         AppLanguage.SPANISH -> "Certificado dedicado por nombre de paquete; la identidad de firma se mantiene entre actualizaciones"
@@ -15893,6 +17145,7 @@ object StringsE {
     val pluginsTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插件"
         AppLanguage.ENGLISH -> "Plugins"
+        AppLanguage.VIETNAMESE -> "Plugin"
         AppLanguage.ARABIC -> "الإضافات"
         AppLanguage.PORTUGUESE -> "Plugins"
         AppLanguage.SPANISH -> "Plugins"
@@ -15907,6 +17160,7 @@ object StringsE {
     val pluginsManageTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "管理插件"
         AppLanguage.ENGLISH -> "Manage Plugins"
+        AppLanguage.VIETNAMESE -> "Quản lý plugin"
         AppLanguage.ARABIC -> "إدارة الإضافات"
         AppLanguage.PORTUGUESE -> "Gerenciar plugins"
         AppLanguage.SPANISH -> "Gestionar plugins"
@@ -15920,6 +17174,7 @@ object StringsE {
     val searchPlugins: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "搜索插件…"
         AppLanguage.ENGLISH -> "Search plugins…"
+        AppLanguage.VIETNAMESE -> "Tìm kiếm plugin…"
         AppLanguage.ARABIC -> "ابحث في الإضافات…"
         AppLanguage.PORTUGUESE -> "Pesquisar plugins…"
         AppLanguage.SPANISH -> "Buscar plugins…"
@@ -15933,6 +17188,7 @@ object StringsE {
     val pluginKindHcj: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页插件"
         AppLanguage.ENGLISH -> "Web plugin"
+        AppLanguage.VIETNAMESE -> "Trình cắm web"
         AppLanguage.ARABIC -> "إضافة ويب"
         AppLanguage.PORTUGUESE -> "Plugin web"
         AppLanguage.SPANISH -> "Plugin web"
@@ -15946,6 +17202,7 @@ object StringsE {
     val pluginKindUserscript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "用户脚本"
         AppLanguage.ENGLISH -> "Userscript"
+        AppLanguage.VIETNAMESE -> "Bản mô tả người dùng"
         AppLanguage.ARABIC -> "نص مستخدم"
         AppLanguage.PORTUGUESE -> "Userscript"
         AppLanguage.SPANISH -> "Userscript"
@@ -15959,6 +17216,7 @@ object StringsE {
     val pluginKindChrome: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Chrome 扩展"
         AppLanguage.ENGLISH -> "Chrome ext."
+        AppLanguage.VIETNAMESE -> "Tiện ích mở rộng của Chrome"
         AppLanguage.ARABIC -> "إضافة Chrome"
         AppLanguage.PORTUGUESE -> "Ext. Chrome"
         AppLanguage.SPANISH -> "Ext. Chrome"
@@ -15972,6 +17230,7 @@ object StringsE {
     val pluginSectionInstalled: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已安装"
         AppLanguage.ENGLISH -> "Installed"
+        AppLanguage.VIETNAMESE -> "Đã cài đặt"
         AppLanguage.ARABIC -> "المثبّتة"
         AppLanguage.PORTUGUESE -> "Instalados"
         AppLanguage.SPANISH -> "Instalados"
@@ -15985,6 +17244,7 @@ object StringsE {
     val pluginSectionBuiltIn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "内置"
         AppLanguage.ENGLISH -> "Built-in"
+        AppLanguage.VIETNAMESE -> "Tích hợp sẵn"
         AppLanguage.ARABIC -> "مضمّنة"
         AppLanguage.PORTUGUESE -> "Integrados"
         AppLanguage.SPANISH -> "Integrados"
@@ -15998,6 +17258,7 @@ object StringsE {
     val pluginsEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "还没有插件"
         AppLanguage.ENGLISH -> "No plugins yet"
+        AppLanguage.VIETNAMESE -> "Chưa có plugin nào"
         AppLanguage.ARABIC -> "لا توجد إضافات بعد"
         AppLanguage.PORTUGUESE -> "Nenhum plugin ainda"
         AppLanguage.SPANISH -> "Aún no hay plugins"
@@ -16011,6 +17272,7 @@ object StringsE {
     val pluginsEmptyHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入 .hcj 包、.user.js 脚本或 Chrome 扩展，或新建一个插件"
         AppLanguage.ENGLISH -> "Import a .hcj package, a .user.js script or a Chrome extension — or create a new plugin"
+        AppLanguage.VIETNAMESE -> "Nhập gói .hcj, tập lệnh .user.js hoặc tiện ích mở rộng của Chrome — hoặc tạo plugin mới"
         AppLanguage.ARABIC -> "استورد حزمة .hcj أو نص .user.js أو إضافة Chrome — أو أنشئ إضافة جديدة"
         AppLanguage.PORTUGUESE -> "Importe um pacote .hcj, um script .user.js ou uma extensão do Chrome — ou crie um novo plugin"
         AppLanguage.SPANISH -> "Importa un paquete .hcj, un script .user.js o una extensión de Chrome — o crea un nuevo plugin"
@@ -16024,6 +17286,7 @@ object StringsE {
     val pluginImport: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导入插件"
         AppLanguage.ENGLISH -> "Import plugin"
+        AppLanguage.VIETNAMESE -> "Nhập plugin"
         AppLanguage.ARABIC -> "استيراد إضافة"
         AppLanguage.PORTUGUESE -> "Importar plugin"
         AppLanguage.SPANISH -> "Importar plugin"
@@ -16037,6 +17300,7 @@ object StringsE {
     val pluginNew: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "新建插件"
         AppLanguage.ENGLISH -> "New plugin"
+        AppLanguage.VIETNAMESE -> "Trình cắm mới"
         AppLanguage.ARABIC -> "إضافة جديدة"
         AppLanguage.PORTUGUESE -> "Novo plugin"
         AppLanguage.SPANISH -> "Nuevo plugin"
@@ -16050,6 +17314,7 @@ object StringsE {
     val pluginHostStyle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "入口与面板样式"
         AppLanguage.ENGLISH -> "Entry & panel style"
+        AppLanguage.VIETNAMESE -> "Phong cách nhập cảnh & bảng điều khiển"
         AppLanguage.ARABIC -> "نمط الدخول واللوحة"
         AppLanguage.PORTUGUESE -> "Estilo de entrada e painel"
         AppLanguage.SPANISH -> "Estilo de entrada y panel"
@@ -16063,6 +17328,7 @@ object StringsE {
     val pluginEntryStyle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插件入口"
         AppLanguage.ENGLISH -> "Plugin entry"
+        AppLanguage.VIETNAMESE -> "Mục nhập plugin"
         AppLanguage.ARABIC -> "مدخل الإضافات"
         AppLanguage.PORTUGUESE -> "Entrada de plugins"
         AppLanguage.SPANISH -> "Entrada de plugins"
@@ -16076,6 +17342,7 @@ object StringsE {
     val pluginPanelStyleLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "面板样式"
         AppLanguage.ENGLISH -> "Panel style"
+        AppLanguage.VIETNAMESE -> "Kiểu bảng điều khiển"
         AppLanguage.ARABIC -> "نمط اللوحة"
         AppLanguage.PORTUGUESE -> "Estilo do painel"
         AppLanguage.SPANISH -> "Estilo del panel"
@@ -16089,6 +17356,7 @@ object StringsE {
     val entryStyleToolbar: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "工具栏"
         AppLanguage.ENGLISH -> "Toolbar"
+        AppLanguage.VIETNAMESE -> "Thanh công cụ"
         AppLanguage.ARABIC -> "شريط الأدوات"
         AppLanguage.PORTUGUESE -> "Barra de ferramentas"
         AppLanguage.SPANISH -> "Barra de herramientas"
@@ -16102,6 +17370,7 @@ object StringsE {
     val entryStyleMenu: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "菜单"
         AppLanguage.ENGLISH -> "Menu"
+        AppLanguage.VIETNAMESE -> "Thực đơn"
         AppLanguage.ARABIC -> "القائمة"
         AppLanguage.PORTUGUESE -> "Menu"
         AppLanguage.SPANISH -> "Menú"
@@ -16115,6 +17384,7 @@ object StringsE {
     val entryStyleFloating: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮手柄"
         AppLanguage.ENGLISH -> "Floating handle"
+        AppLanguage.VIETNAMESE -> "Tay cầm nổi"
         AppLanguage.ARABIC -> "مقبض عائم"
         AppLanguage.PORTUGUESE -> "Alça flutuante"
         AppLanguage.SPANISH -> "Control flotante"
@@ -16128,6 +17398,7 @@ object StringsE {
     val panelStyleSheet: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "底部面板"
         AppLanguage.ENGLISH -> "Bottom sheet"
+        AppLanguage.VIETNAMESE -> "Tấm dưới cùng"
         AppLanguage.ARABIC -> "لوحة سفلية"
         AppLanguage.PORTUGUESE -> "Folha inferior"
         AppLanguage.SPANISH -> "Hoja inferior"
@@ -16141,6 +17412,7 @@ object StringsE {
     val panelStyleWindow: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "悬浮窗"
         AppLanguage.ENGLISH -> "Floating window"
+        AppLanguage.VIETNAMESE -> "Cửa sổ nổi"
         AppLanguage.ARABIC -> "نافذة عائمة"
         AppLanguage.PORTUGUESE -> "Janela flutuante"
         AppLanguage.SPANISH -> "Ventana flotante"
@@ -16154,6 +17426,7 @@ object StringsE {
     val panelStyleFullscreen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "全屏对话框"
         AppLanguage.ENGLISH -> "Fullscreen dialog"
+        AppLanguage.VIETNAMESE -> "Hộp thoại toàn màn hình"
         AppLanguage.ARABIC -> "حوار بملء الشاشة"
         AppLanguage.PORTUGUESE -> "Diálogo em tela cheia"
         AppLanguage.SPANISH -> "Diálogo a pantalla completa"
@@ -16169,6 +17442,7 @@ object StringsE {
     val pluginRestoreBuiltIns: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "恢复内置插件"
         AppLanguage.ENGLISH -> "Restore built-in plugins"
+        AppLanguage.VIETNAMESE -> "Khôi phục các plugin tích hợp"
         AppLanguage.ARABIC -> "استعادة الإضافات المدمجة"
         AppLanguage.PORTUGUESE -> "Restaurar plugins integrados"
         AppLanguage.SPANISH -> "Restaurar plugins integrados"
@@ -16182,6 +17456,7 @@ object StringsE {
     val pluginExportHcj: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "导出 .hcj 包"
         AppLanguage.ENGLISH -> "Export .hcj package"
+        AppLanguage.VIETNAMESE -> "Xuất gói .hcj"
         AppLanguage.ARABIC -> "تصدير حزمة .hcj"
         AppLanguage.PORTUGUESE -> "Exportar pacote .hcj"
         AppLanguage.SPANISH -> "Exportar paquete .hcj"
@@ -16195,6 +17470,7 @@ object StringsE {
     val pluginDeleteConfirmTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除插件？"
         AppLanguage.ENGLISH -> "Delete plugin?"
+        AppLanguage.VIETNAMESE -> "Xóa plugin?"
         AppLanguage.ARABIC -> "حذف الإضافة؟"
         AppLanguage.PORTUGUESE -> "Excluir plugin?"
         AppLanguage.SPANISH -> "¿Eliminar plugin?"
@@ -16208,6 +17484,7 @@ object StringsE {
     fun pluginImportSuccess(name: String): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已导入：$name"
         AppLanguage.ENGLISH -> "Imported: $name"
+        AppLanguage.VIETNAMESE -> "Đã nhập: $name"
         AppLanguage.ARABIC -> "تم الاستيراد: $name"
         AppLanguage.PORTUGUESE -> "Importado: $name"
         AppLanguage.SPANISH -> "Importado: $name"
@@ -16221,6 +17498,7 @@ object StringsE {
     val pluginEditorEdit: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "编辑插件"
         AppLanguage.ENGLISH -> "Edit plugin"
+        AppLanguage.VIETNAMESE -> "Chỉnh sửa plugin"
         AppLanguage.ARABIC -> "تحرير الإضافة"
         AppLanguage.PORTUGUESE -> "Editar plugin"
         AppLanguage.SPANISH -> "Editar plugin"
@@ -16234,6 +17512,7 @@ object StringsE {
     val pluginFieldName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "名称"
         AppLanguage.ENGLISH -> "Name"
+        AppLanguage.VIETNAMESE -> "Tên"
         AppLanguage.ARABIC -> "الاسم"
         AppLanguage.PORTUGUESE -> "Nome"
         AppLanguage.SPANISH -> "Nombre"
@@ -16247,6 +17526,7 @@ object StringsE {
     val pluginFieldId: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插件 ID"
         AppLanguage.ENGLISH -> "Plugin ID"
+        AppLanguage.VIETNAMESE -> "Mã plugin"
         AppLanguage.ARABIC -> "معرّف الإضافة"
         AppLanguage.PORTUGUESE -> "ID do plugin"
         AppLanguage.SPANISH -> "ID del plugin"
@@ -16260,6 +17540,7 @@ object StringsE {
     val pluginFieldVersion: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "版本"
         AppLanguage.ENGLISH -> "Version"
+        AppLanguage.VIETNAMESE -> "Phiên bản"
         AppLanguage.ARABIC -> "الإصدار"
         AppLanguage.PORTUGUESE -> "Versão"
         AppLanguage.SPANISH -> "Versión"
@@ -16273,6 +17554,7 @@ object StringsE {
     val pluginFieldRunAt: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "注入时机"
         AppLanguage.ENGLISH -> "Run at"
+        AppLanguage.VIETNAMESE -> "Chạy tại"
         AppLanguage.ARABIC -> "وقت التشغيل"
         AppLanguage.PORTUGUESE -> "Executar em"
         AppLanguage.SPANISH -> "Ejecutar en"
@@ -16286,6 +17568,7 @@ object StringsE {
     val runAtStart: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面加载前"
         AppLanguage.ENGLISH -> "Before page load"
+        AppLanguage.VIETNAMESE -> "Trước khi tải trang"
         AppLanguage.ARABIC -> "قبل تحميل الصفحة"
         AppLanguage.PORTUGUESE -> "Antes do carregamento"
         AppLanguage.SPANISH -> "Antes de cargar la página"
@@ -16299,6 +17582,7 @@ object StringsE {
     val runAtEnd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "DOM 就绪后"
         AppLanguage.ENGLISH -> "After DOM ready"
+        AppLanguage.VIETNAMESE -> "Sau khi DOM sẵn sàng"
         AppLanguage.ARABIC -> "بعد جاهزية DOM"
         AppLanguage.PORTUGUESE -> "Após o DOM pronto"
         AppLanguage.SPANISH -> "Tras el DOM listo"
@@ -16312,6 +17596,7 @@ object StringsE {
     val runAtIdle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "页面加载完成后"
         AppLanguage.ENGLISH -> "After page load"
+        AppLanguage.VIETNAMESE -> "Sau khi tải trang"
         AppLanguage.ARABIC -> "بعد تحميل الصفحة"
         AppLanguage.PORTUGUESE -> "Após o carregamento"
         AppLanguage.SPANISH -> "Tras cargar la página"
@@ -16325,6 +17610,7 @@ object StringsE {
     val pluginFieldPermissions: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "权限"
         AppLanguage.ENGLISH -> "Permissions"
+        AppLanguage.VIETNAMESE -> "Quyền"
         AppLanguage.ARABIC -> "الأذونات"
         AppLanguage.PORTUGUESE -> "Permissões"
         AppLanguage.SPANISH -> "Permisos"
@@ -16338,6 +17624,7 @@ object StringsE {
     val pluginPermStorage: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "存储（hcj.config)"
         AppLanguage.ENGLISH -> "Storage (hcj.config)"
+        AppLanguage.VIETNAMESE -> "Bộ nhớ (hcj.config)"
         AppLanguage.ARABIC -> "التخزين (hcj.config)"
         AppLanguage.PORTUGUESE -> "Armazenamento (hcj.config)"
         AppLanguage.SPANISH -> "Almacenamiento (hcj.config)"
@@ -16351,6 +17638,7 @@ object StringsE {
     val pluginPermFetch: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "跨域请求（hcj.fetch)"
         AppLanguage.ENGLISH -> "Cross-origin fetch (hcj.fetch)"
+        AppLanguage.VIETNAMESE -> "Tìm nạp nhiều nguồn gốc (hcj.fetch)"
         AppLanguage.ARABIC -> "طلبات عبر المصادر (hcj.fetch)"
         AppLanguage.PORTUGUESE -> "Requisições entre origens (hcj.fetch)"
         AppLanguage.SPANISH -> "Solicitudes entre orígenes (hcj.fetch)"
@@ -16364,6 +17652,7 @@ object StringsE {
     val pluginPermNotify: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通知（hcj.notify)"
         AppLanguage.ENGLISH -> "Notifications (hcj.notify)"
+        AppLanguage.VIETNAMESE -> "Thông báo (hcj.notify)"
         AppLanguage.ARABIC -> "الإشعارات (hcj.notify)"
         AppLanguage.PORTUGUESE -> "Notificações (hcj.notify)"
         AppLanguage.SPANISH -> "Notificaciones (hcj.notify)"
@@ -16377,6 +17666,7 @@ object StringsE {
     val pluginPermBadge: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "工具栏角标（hcj.badge)"
         AppLanguage.ENGLISH -> "Toolbar badge (hcj.badge)"
+        AppLanguage.VIETNAMESE -> "Huy hiệu thanh công cụ (hcj.badge)"
         AppLanguage.ARABIC -> "شارة شريط الأدوات (hcj.badge)"
         AppLanguage.PORTUGUESE -> "Emblema da barra (hcj.badge)"
         AppLanguage.SPANISH -> "Insignia de barra (hcj.badge)"
@@ -16390,6 +17680,7 @@ object StringsE {
     val pluginPermClipboard: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "剪贴板（hcj.clipboard)"
         AppLanguage.ENGLISH -> "Clipboard (hcj.clipboard)"
+        AppLanguage.VIETNAMESE -> "Bảng nhớ tạm (hcj.clipboard)"
         AppLanguage.ARABIC -> "الحافظة (hcj.clipboard)"
         AppLanguage.PORTUGUESE -> "Área de transferência (hcj.clipboard)"
         AppLanguage.SPANISH -> "Portapapeles (hcj.clipboard)"
@@ -16403,6 +17694,7 @@ object StringsE {
     val pluginPermDownload: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "下载（hcj.download)"
         AppLanguage.ENGLISH -> "Downloads (hcj.download)"
+        AppLanguage.VIETNAMESE -> "Tải xuống (hcj.download)"
         AppLanguage.ARABIC -> "التنزيلات (hcj.download)"
         AppLanguage.PORTUGUESE -> "Downloads (hcj.download)"
         AppLanguage.SPANISH -> "Descargas (hcj.download)"
@@ -16416,6 +17708,7 @@ object StringsE {
     val pluginShowEntry: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "在插件入口中显示"
         AppLanguage.ENGLISH -> "Show in plugin entry"
+        AppLanguage.VIETNAMESE -> "Hiển thị trong mục plugin"
         AppLanguage.ARABIC -> "إظهار في مدخل الإضافات"
         AppLanguage.PORTUGUESE -> "Mostrar na entrada de plugins"
         AppLanguage.SPANISH -> "Mostrar en la entrada de plugins"
@@ -16429,6 +17722,7 @@ object StringsE {
     val pluginNameRequired: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "名称必填"
         AppLanguage.ENGLISH -> "Name is required"
+        AppLanguage.VIETNAMESE -> "Tên là bắt buộc"
         AppLanguage.ARABIC -> "الاسم مطلوب"
         AppLanguage.PORTUGUESE -> "O nome é obrigatório"
         AppLanguage.SPANISH -> "El nombre es obligatorio"
@@ -16442,6 +17736,7 @@ object StringsE {
     val pluginAttachEmpty: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "未单独选择，使用已启用的插件"
         AppLanguage.ENGLISH -> "None picked; uses enabled plugins"
+        AppLanguage.VIETNAMESE -> "Không có ai được chọn; sử dụng các plugin đã kích hoạt"
         AppLanguage.ARABIC -> "لم يُحدَّد شيء؛ تُستخدم الإضافات المفعّلة"
         AppLanguage.PORTUGUESE -> "Nenhum escolhido; usa os plugins ativos"
         AppLanguage.SPANISH -> "Ninguno elegido; se usan los plugins activos"
@@ -16455,6 +17750,7 @@ object StringsE {
     val pluginAttachHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "不单独选择时，用「管理插件」里已启用的插件。单独选择后只运行这些。"
         AppLanguage.ENGLISH -> "With nothing picked, plugins enabled in Manage Plugins run here. A picked list runs only those."
+        AppLanguage.VIETNAMESE -> "Nếu không chọn gì, các plugin được kích hoạt trong Quản lý plugin sẽ chạy ở đây. Danh sách đã chọn chỉ chạy những danh sách đó."
         AppLanguage.ARABIC -> "عند عدم الاختيار، تعمل الإضافات المفعّلة في «إدارة الإضافات». وعند الاختيار تعمل هذه فقط."
         AppLanguage.PORTUGUESE -> "Sem uma escolha própria, entram os plugins ativos em Gerir plugins. Uma lista escolhida executa só esses."
         AppLanguage.SPANISH -> "Si no eliges ninguno, se usan los plugins activos en Gestionar plugins. Una lista elegida ejecuta solo esos."
@@ -16468,6 +17764,7 @@ object StringsE {
     val pluginGlobalEnable: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "启用插件"
         AppLanguage.ENGLISH -> "Enable plugin"
+        AppLanguage.VIETNAMESE -> "Kích hoạt plugin"
         AppLanguage.ARABIC -> "تفعيل الإضافة"
         AppLanguage.PORTUGUESE -> "Ativar plugin"
         AppLanguage.SPANISH -> "Activar plugin"
@@ -16481,6 +17778,7 @@ object StringsE {
     val pluginAdd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "添加插件"
         AppLanguage.ENGLISH -> "Add plugins"
+        AppLanguage.VIETNAMESE -> "Thêm plugin"
         AppLanguage.ARABIC -> "إضافة إضافات"
         AppLanguage.PORTUGUESE -> "Adicionar plugins"
         AppLanguage.SPANISH -> "Añadir plugins"
@@ -16494,6 +17792,7 @@ object StringsE {
     val pluginSelectTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "选择插件"
         AppLanguage.ENGLISH -> "Select plugins"
+        AppLanguage.VIETNAMESE -> "Chọn plugin"
         AppLanguage.ARABIC -> "اختيار الإضافات"
         AppLanguage.PORTUGUESE -> "Selecionar plugins"
         AppLanguage.SPANISH -> "Seleccionar plugins"
@@ -16507,6 +17806,7 @@ object StringsE {
     fun pluginSelectedCount(count: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "已选 $count 个插件"
         AppLanguage.ENGLISH -> "$count selected"
+        AppLanguage.VIETNAMESE -> "Đã chọn $count"
         AppLanguage.ARABIC -> "تم اختيار $count"
         AppLanguage.PORTUGUESE -> "$count selecionados"
         AppLanguage.SPANISH -> "$count seleccionados"
@@ -16521,6 +17821,7 @@ object StringsE {
     val adsMonetization: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告变现"
         AppLanguage.ENGLISH -> "Monetization"
+        AppLanguage.VIETNAMESE -> "Kiếm tiền"
         AppLanguage.ARABIC -> "تحقيق الربح"
         AppLanguage.PORTUGUESE -> "Monetização"
         AppLanguage.SPANISH -> "Monetización"
@@ -16534,6 +17835,7 @@ object StringsE {
     val adsMonetizationHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通过 AdMob 在导出的 APK 中展示广告。广告 SDK 仅在此开关打开时注入生成的应用，关闭时 APK 不携带广告代码。"
         AppLanguage.ENGLISH -> "Show AdMob ads in the exported APK. The ad SDK is injected into the generated app only while this is enabled; disabled exports carry no ad code."
+        AppLanguage.VIETNAMESE -> "Hiển thị quảng cáo AdMob trong APK đã xuất. SDK quảng cáo chỉ được đưa vào ứng dụng đã tạo khi tính năng này được bật; xuất khẩu bị vô hiệu hóa không mang mã quảng cáo."
         AppLanguage.ARABIC -> "اعرض إعلانات AdMob في ملف APK المُصدَّر. تُحقن حزمة SDK الإعلانية في التطبيق المُنشأ فقط عند تفعيل هذا الخيار؛ ولا تحمل النسخ المُصدَّرة المعطَّلة أي كود إعلاني."
         AppLanguage.PORTUGUESE -> "Exiba anúncios do AdMob no APK exportado. O SDK de anúncios é injetado no app gerado apenas quando isto está ativado; exportações desativadas não carregam código de anúncios."
         AppLanguage.SPANISH -> "Muestra anuncios de AdMob en el APK exportado. El SDK de anuncios solo se inyecta en la app generada cuando está activado; las exportaciones desactivadas no incluyen código de anuncios."
@@ -16547,6 +17849,7 @@ object StringsE {
     val adMobAppId: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "AdMob 应用 ID"
         AppLanguage.ENGLISH -> "AdMob App ID"
+        AppLanguage.VIETNAMESE -> "ID ứng dụng AdMob"
         AppLanguage.ARABIC -> "معرّف تطبيق AdMob"
         AppLanguage.PORTUGUESE -> "ID do app AdMob"
         AppLanguage.SPANISH -> "ID de app de AdMob"
@@ -16560,6 +17863,7 @@ object StringsE {
     val adMobAppIdHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "形如 ca-app-pub-xxx~yyy，在 AdMob 后台的应用设置中查看"
         AppLanguage.ENGLISH -> "Looks like ca-app-pub-xxx~yyy — find it in your AdMob app settings"
+        AppLanguage.VIETNAMESE -> "Có vẻ như ca-app-pub-xxx~yyy — hãy tìm nó trong cài đặt ứng dụng AdMob của bạn"
         AppLanguage.ARABIC -> "بالشكل ca-app-pub-xxx~yyy — تجده في إعدادات تطبيق AdMob"
         AppLanguage.PORTUGUESE -> "No formato ca-app-pub-xxx~yyy — encontre-o nas configurações do app no AdMob"
         AppLanguage.SPANISH -> "Con formato ca-app-pub-xxx~yyy — encuéntralo en la configuración de tu app en AdMob"
@@ -16573,6 +17877,7 @@ object StringsE {
     val adMobAppIdInvalid: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "已开启 AdMob，但应用 ID 为空或格式不对。必须是 ca-app-pub- 加 16 位数字、波浪号、再加 10 位数字。广告位 ID（中间是斜杠）不能填在这里，否则安装后的应用一打开就会闪退"
         AppLanguage.ENGLISH -> "AdMob is on, but the App ID is missing or malformed. It must look like ca-app-pub- followed by 16 digits, a tilde, and 10 digits. An ad unit ID (with a slash) does not belong here — the installed app crashes on launch without a valid App ID"
+        AppLanguage.VIETNAMESE -> "AdMob đang bật nhưng ID ứng dụng bị thiếu hoặc không đúng định dạng. Nó phải giống như ca-app-pub- theo sau là 16 chữ số, dấu ngã và 10 chữ số. ID đơn vị quảng cáo (có dấu gạch chéo) không thuộc về đây — ứng dụng đã cài đặt gặp sự cố khi khởi chạy mà không có ID ứng dụng hợp lệ"
         AppLanguage.ARABIC -> "AdMob مفعّل، لكن معرّف التطبيق فارغ أو بصيغة خاطئة. يجب أن يكون ca-app-pub- ثم 16 رقمًا ثم ~ ثم 10 أرقام. معرّف الوحدة الإعلانية (الذي يحتوي على /) لا يوضع هنا، وإلا يتعطل التطبيق عند الفتح"
         AppLanguage.PORTUGUESE -> "O AdMob está ativado, mas o ID do app está vazio ou incorreto. Tem de ser ca-app-pub- seguido de 16 dígitos, um til e 10 dígitos. O ID do bloco de anúncios (com uma barra) não entra aqui — a app instalada fecha ao abrir sem um ID válido"
         AppLanguage.SPANISH -> "AdMob está activado, pero el ID de la app falta o está mal. Debe ser ca-app-pub- seguido de 16 dígitos, una tilde y 10 dígitos. El ID del bloque (con una barra) no va aquí: la app instalada se cierra al abrirla sin un ID válido"
@@ -16586,6 +17891,7 @@ object StringsE {
     val adTestMode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "测试模式"
         AppLanguage.ENGLISH -> "Test mode"
+        AppLanguage.VIETNAMESE -> "Chế độ kiểm tra"
         AppLanguage.ARABIC -> "وضع الاختبار"
         AppLanguage.PORTUGUESE -> "Modo de teste"
         AppLanguage.SPANISH -> "Modo de prueba"
@@ -16599,6 +17905,7 @@ object StringsE {
     val adTestModeHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "使用 Google 演示广告单元（忽略下方 ID），并强制走欧洲经济区同意弹窗流程"
         AppLanguage.ENGLISH -> "Uses Google's demo ad units (IDs below are ignored) and forces the EEA consent form path"
+        AppLanguage.VIETNAMESE -> "Sử dụng đơn vị quảng cáo demo của Google (ID bên dưới bị bỏ qua) và bắt buộc phải có đường dẫn biểu mẫu đồng ý ở EEA"
         AppLanguage.ARABIC -> "يستخدم الوحدات الإعلانية التجريبية من Google (يتم تجاهل المعرّفات أدناه) ويفرض مسار نموذج موافقة المنطقة الاقتصادية الأوروبية"
         AppLanguage.PORTUGUESE -> "Usa as unidades de anúncio de demonstração do Google (IDs abaixo são ignorados) e força o fluxo de consentimento do EEE"
         AppLanguage.SPANISH -> "Usa las unidades de anuncio de demostración de Google (los IDs se ignoran) y fuerza el flujo de consentimiento del EEE"
@@ -16612,6 +17919,7 @@ object StringsE {
     val adBannerAd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "横幅广告"
         AppLanguage.ENGLISH -> "Banner ad"
+        AppLanguage.VIETNAMESE -> "Quảng cáo biểu ngữ"
         AppLanguage.ARABIC -> "إعلان بانر"
         AppLanguage.PORTUGUESE -> "Anúncio em banner"
         AppLanguage.SPANISH -> "Anuncio de banner"
@@ -16625,6 +17933,7 @@ object StringsE {
     val adInterstitialAd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "插页广告"
         AppLanguage.ENGLISH -> "Interstitial ad"
+        AppLanguage.VIETNAMESE -> "Quảng cáo xen kẽ"
         AppLanguage.ARABIC -> "إعلان بيني"
         AppLanguage.PORTUGUESE -> "Anúncio intersticial"
         AppLanguage.SPANISH -> "Anuncio intersticial"
@@ -16638,6 +17947,7 @@ object StringsE {
     val adSplashAd: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "开屏广告"
         AppLanguage.ENGLISH -> "App open ad"
+        AppLanguage.VIETNAMESE -> "Quảng cáo khi mở ứng dụng"
         AppLanguage.ARABIC -> "إعلان عند فتح التطبيق"
         AppLanguage.PORTUGUESE -> "Anúncio de abertura do app"
         AppLanguage.SPANISH -> "Anuncio de apertura de app"
@@ -16651,6 +17961,7 @@ object StringsE {
     val adUnitIdLabel: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "广告单元 ID"
         AppLanguage.ENGLISH -> "Ad unit ID"
+        AppLanguage.VIETNAMESE -> "ID đơn vị quảng cáo"
         AppLanguage.ARABIC -> "معرّف الوحدة الإعلانية"
         AppLanguage.PORTUGUESE -> "ID do bloco de anúncios"
         AppLanguage.SPANISH -> "ID del bloque de anuncios"
@@ -16677,6 +17988,7 @@ object StringsE {
     val buildHistoryTitle: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "构建历史"
         AppLanguage.ENGLISH -> "Build History"
+        AppLanguage.VIETNAMESE -> "Xây dựng lịch sử"
         AppLanguage.ARABIC -> "سجل البناء"
         AppLanguage.PORTUGUESE -> "Histórico de builds"
         AppLanguage.SPANISH -> "Historial de compilación"
@@ -16690,6 +18002,7 @@ object StringsE {
     val buildHistoryFileMissing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "文件已被清理"
         AppLanguage.ENGLISH -> "File removed"
+        AppLanguage.VIETNAMESE -> "Đã xóa tệp"
         AppLanguage.ARABIC -> "تمت إزالة الملف"
         AppLanguage.PORTUGUESE -> "Arquivo removido"
         AppLanguage.SPANISH -> "Archivo eliminado"
@@ -16703,6 +18016,7 @@ object StringsE {
     val buildHistoryDeleteConfirm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除此 APK 及其构建记录？"
         AppLanguage.ENGLISH -> "Delete this APK and its build record?"
+        AppLanguage.VIETNAMESE -> "Xóa APK này và bản ghi bản dựng của nó?"
         AppLanguage.ARABIC -> "حذف ملف APK هذا وسجل البناء؟"
         AppLanguage.PORTUGUESE -> "Excluir este APK e o registro de build?"
         AppLanguage.SPANISH -> "¿Eliminar este APK y su registro de compilación?"
@@ -16716,6 +18030,7 @@ object StringsE {
     val buildHistoryRecordOnly: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "删除此构建记录？"
         AppLanguage.ENGLISH -> "Delete this build record?"
+        AppLanguage.VIETNAMESE -> "Xóa bản ghi bản dựng này?"
         AppLanguage.ARABIC -> "حذف سجل البناء هذا؟"
         AppLanguage.PORTUGUESE -> "Excluir este registro de build?"
         AppLanguage.SPANISH -> "¿Eliminar este registro de compilación?"
@@ -16729,6 +18044,7 @@ object StringsE {
     val appListSort: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "排序"
         AppLanguage.ENGLISH -> "Sort"
+        AppLanguage.VIETNAMESE -> "Loại"
         AppLanguage.ARABIC -> "الترتيب"
         AppLanguage.PORTUGUESE -> "Ordenar"
         AppLanguage.SPANISH -> "Ordenar"
@@ -16742,6 +18058,7 @@ object StringsE {
     val appListSortUpdated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近更新"
         AppLanguage.ENGLISH -> "Recently updated"
+        AppLanguage.VIETNAMESE -> "Đã cập nhật gần đây"
         AppLanguage.ARABIC -> "الأحدث تحديثًا"
         AppLanguage.PORTUGUESE -> "Atualizados recentemente"
         AppLanguage.SPANISH -> "Actualizados recientemente"
@@ -16755,6 +18072,7 @@ object StringsE {
     val appListSortCreated: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "最近创建"
         AppLanguage.ENGLISH -> "Recently created"
+        AppLanguage.VIETNAMESE -> "Được tạo gần đây"
         AppLanguage.ARABIC -> "الأحدث إنشاءً"
         AppLanguage.PORTUGUESE -> "Criados recentemente"
         AppLanguage.SPANISH -> "Creados recientemente"
@@ -16768,6 +18086,7 @@ object StringsE {
     val appListSortName: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "按名称"
         AppLanguage.ENGLISH -> "By name"
+        AppLanguage.VIETNAMESE -> "Theo tên"
         AppLanguage.ARABIC -> "حسب الاسم"
         AppLanguage.PORTUGUESE -> "Por nome"
         AppLanguage.SPANISH -> "Por nombre"
@@ -16781,6 +18100,7 @@ object StringsE {
     val appListSortCustom: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "自定义"
         AppLanguage.ENGLISH -> "Custom"
+        AppLanguage.VIETNAMESE -> "Phong tục"
         AppLanguage.ARABIC -> "مخصص"
         AppLanguage.PORTUGUESE -> "Personalizado"
         AppLanguage.SPANISH -> "Personalizado"
@@ -16794,6 +18114,7 @@ object StringsE {
     val appListSortDragHint: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "长按卡片后上下拖动，即可调整顺序"
         AppLanguage.ENGLISH -> "Long-press a card, then drag it up or down to reorder"
+        AppLanguage.VIETNAMESE -> "Nhấn và giữ một thẻ rồi kéo lên hoặc xuống để sắp xếp lại"
         AppLanguage.ARABIC -> "اضغط مطولاً على البطاقة ثم اسحبها لأعلى أو لأسفل لإعادة الترتيب"
         AppLanguage.PORTUGUESE -> "Pressione e segure um cartão e arraste para reordenar"
         AppLanguage.SPANISH -> "Mantén pulsada una tarjeta y arrástrala para reordenar"
