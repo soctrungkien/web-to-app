@@ -1976,7 +1976,7 @@ object StringsD {
     val moduleMarketContributorsOverview: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%1\$d 位贡献者 · 共 %2\$d 个模块"
         AppLanguage.ENGLISH -> "%1\$d contributors · %2\$d modules"
-        AppLanguage.VIETNAMESE -> "%1\\$d người đóng góp · %2\\$d mô-đun"
+        AppLanguage.VIETNAMESE -> "%1\$d người đóng góp · %2\$d mô-đun"
         AppLanguage.ARABIC -> "%1\$d مساهم · %2\$d وحدة"
         AppLanguage.PORTUGUESE -> "%1\$d contribuidores · %2\$d módulos"
         AppLanguage.SPANISH -> "%1\$d colaboradores · %2\$d módulos"
@@ -2158,6 +2158,7 @@ object StringsD {
     val moduleMarketPrNumber: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PR #%d"
         AppLanguage.ENGLISH -> "PR #%d"
+        AppLanguage.VIETNAMESE -> "PR #%d"
         AppLanguage.ARABIC -> "PR رقم %d"
         AppLanguage.PORTUGUESE -> "PR #%d"
         AppLanguage.SPANISH -> "PR #%d"
@@ -3992,6 +3993,7 @@ object StringsD {
     val tagPiP: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "画中画"
         AppLanguage.ENGLISH -> "PiP"
+        AppLanguage.VIETNAMESE -> "PiP"
         AppLanguage.ARABIC -> "صورة داخل صورة"
         AppLanguage.PORTUGUESE -> "PiP"
         AppLanguage.SPANISH -> "PiP"
@@ -4707,6 +4709,7 @@ object StringsD {
     val tagCSS: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSS"
         AppLanguage.ENGLISH -> "CSS"
+        AppLanguage.VIETNAMESE -> "CSS"
         AppLanguage.ARABIC -> "CSS"
         AppLanguage.PORTUGUESE -> "CSS"
         AppLanguage.SPANISH -> "CSS"
@@ -5187,6 +5190,7 @@ object StringsD {
     val tagIndexedDB: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "IndexedDB"
         AppLanguage.ENGLISH -> "IndexedDB"
+        AppLanguage.VIETNAMESE -> "IndexedDB"
         AppLanguage.ARABIC -> "IndexedDB"
         AppLanguage.PORTUGUESE -> "IndexedDB"
         AppLanguage.SPANISH -> "IndexedDB"
@@ -5290,6 +5294,7 @@ object StringsD {
     val tagJSONP: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSONP"
         AppLanguage.ENGLISH -> "JSONP"
+        AppLanguage.VIETNAMESE -> "JSONP"
         AppLanguage.ARABIC -> "JSONP"
         AppLanguage.PORTUGUESE -> "JSONP"
         AppLanguage.SPANISH -> "JSONP"
@@ -5341,6 +5346,7 @@ object StringsD {
     val tagJSON: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSON"
         AppLanguage.ENGLISH -> "JSON"
+        AppLanguage.VIETNAMESE -> "JSON"
         AppLanguage.ARABIC -> "JSON"
         AppLanguage.PORTUGUESE -> "JSON"
         AppLanguage.SPANISH -> "JSON"
@@ -5353,6 +5359,7 @@ object StringsD {
     val tagCSV: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "CSV"
         AppLanguage.ENGLISH -> "CSV"
+        AppLanguage.VIETNAMESE -> "CSV"
         AppLanguage.ARABIC -> "CSV"
         AppLanguage.PORTUGUESE -> "CSV"
         AppLanguage.SPANISH -> "CSV"
@@ -5365,6 +5372,7 @@ object StringsD {
     val tagURL: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "URL"
         AppLanguage.ENGLISH -> "URL"
+        AppLanguage.VIETNAMESE -> "URL"
         AppLanguage.ARABIC -> "URL"
         AppLanguage.PORTUGUESE -> "URL"
         AppLanguage.SPANISH -> "URL"
@@ -6261,6 +6269,7 @@ object StringsD {
     val tagXHR: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "XHR"
         AppLanguage.ENGLISH -> "XHR"
+        AppLanguage.VIETNAMESE -> "XHR"
         AppLanguage.ARABIC -> "XHR"
         AppLanguage.PORTUGUESE -> "XHR"
         AppLanguage.SPANISH -> "XHR"
@@ -6273,6 +6282,7 @@ object StringsD {
     val tagWebSocket: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebSocket"
         AppLanguage.ENGLISH -> "WebSocket"
+        AppLanguage.VIETNAMESE -> "WebSocket"
         AppLanguage.ARABIC -> "WebSocket"
         AppLanguage.PORTUGUESE -> "WebSocket"
         AppLanguage.SPANISH -> "WebSocket"
@@ -6509,7 +6519,7 @@ object StringsD {
     val providerOpenAIPricing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "GPT 5.1 系列约 \$10/ 百万token"
         AppLanguage.ENGLISH -> "GPT 5.1 series ~\$10/million tokens"
-        AppLanguage.VIETNAMESE -> "Chuỗi GPT 5.1 ~\\$10/triệu token"
+        AppLanguage.VIETNAMESE -> "Chuỗi GPT 5.1 ~\$10/triệu token"
         AppLanguage.ARABIC -> "سلسلة GPT 5.1 حوالي \$10/مليون رمز"
         AppLanguage.PORTUGUESE -> "Série GPT 5.1 ~\$10/milhão de tokens"
         AppLanguage.SPANISH -> "Serie GPT 5.1 ~\$10/millón de tokens"
@@ -6565,7 +6575,7 @@ object StringsD {
     val providerAnthropicPricing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Claude 4.5 Sonnet 约 \$15/百万 token"
         AppLanguage.ENGLISH -> "Claude 4.5 Sonnet ~\$15/million tokens"
-        AppLanguage.VIETNAMESE -> "Claude 4.5 Sonnet ~\\$15/triệu token"
+        AppLanguage.VIETNAMESE -> "Claude 4.5 Sonnet ~\$15/triệu token"
         AppLanguage.ARABIC -> "Claude 4.5 Sonnet حوالي \$15/مليون رمز"
         AppLanguage.PORTUGUESE -> "Claude 4.5 Sonnet ~\$15/milhão de tokens"
         AppLanguage.SPANISH -> "Claude 4.5 Sonnet ~\$15/millón de tokens"
@@ -6636,6 +6646,7 @@ object StringsD {
     val providerGLM: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "智谱GLM"
         AppLanguage.ENGLISH -> "Zhipu GLM"
+        AppLanguage.VIETNAMESE -> "Zhipu GLM"
         AppLanguage.ARABIC -> "Zhipu GLM"
         AppLanguage.PORTUGUESE -> "Zhipu GLM"
         AppLanguage.SPANISH -> "Zhipu GLM"
@@ -6661,7 +6672,7 @@ object StringsD {
     val providerGLMPricing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "价格较低，约 \$2/百万 token"
         AppLanguage.ENGLISH -> "Low price, ~\$2/million tokens"
-        AppLanguage.VIETNAMESE -> "Giá thấp, ~\\$2/triệu token"
+        AppLanguage.VIETNAMESE -> "Giá thấp, ~\$2/triệu token"
         AppLanguage.ARABIC -> "سعر منخفض، حوالي \$2/مليون رمز"
         AppLanguage.PORTUGUESE -> "Preço baixo, ~\$2/milhão de tokens"
         AppLanguage.SPANISH -> "Precio bajo, ~\$2/millón de tokens"
@@ -6689,7 +6700,7 @@ object StringsD {
     val providerGrokPricing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "价格便宜，Grok-4.1-fast 约 \$0.5/百万 token"
         AppLanguage.ENGLISH -> "Cheap, Grok-4.1-fast ~\$0.5/million tokens"
-        AppLanguage.VIETNAMESE -> "Giá rẻ, Grok-4.1-nhanh ~\\$0,5/triệu token"
+        AppLanguage.VIETNAMESE -> "Giá rẻ, Grok-4.1-nhanh ~\$0,5/triệu token"
         AppLanguage.ARABIC -> "رخيص، Grok-4.1-fast حوالي \$0.5/مليون رمز"
         AppLanguage.PORTUGUESE -> "Barato, Grok-4.1-fast ~\$0.5/milhão de tokens"
         AppLanguage.SPANISH -> "Barato, Grok-4.1-fast ~\$0.5/millón de tokens"
@@ -6705,6 +6716,7 @@ object StringsD {
     val providerQwen: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "通义千问"
         AppLanguage.ENGLISH -> "Tongyi Qwen"
+        AppLanguage.VIETNAMESE -> "Tongyi Qwen"
         AppLanguage.ARABIC -> "Tongyi Qwen"
         AppLanguage.PORTUGUESE -> "Tongyi Qwen"
         AppLanguage.SPANISH -> "Tongyi Qwen"
@@ -6911,7 +6923,7 @@ object StringsD {
     val providerPerplexityPricing: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Sonar Pro 约 \$3/百万 token + 搜索费用"
         AppLanguage.ENGLISH -> "Sonar Pro ~\$3/M tokens + search costs"
-        AppLanguage.VIETNAMESE -> "Sonar Pro ~\\$3/M token + chi phí tìm kiếm"
+        AppLanguage.VIETNAMESE -> "Sonar Pro ~\$3/M token + chi phí tìm kiếm"
         AppLanguage.ARABIC -> "Sonar Pro حوالي \$3/مليون رمز + تكاليف البحث"
         AppLanguage.PORTUGUESE -> "Sonar Pro ~\$3/M tokens + custos de busca"
         AppLanguage.SPANISH -> "Sonar Pro ~\$3/M tokens + costos de búsqueda"
@@ -7413,6 +7425,7 @@ object StringsD {
     val bgmTagAnime: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "动漫"
         AppLanguage.ENGLISH -> "Anime"
+        AppLanguage.VIETNAMESE -> "Anime"
         AppLanguage.ARABIC -> "أنيمي"
         AppLanguage.PORTUGUESE -> "Anime"
         AppLanguage.SPANISH -> "Anime"
@@ -7621,6 +7634,7 @@ object StringsD {
     val engineGeckoView: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "GeckoView (Firefox)"
         AppLanguage.ENGLISH -> "GeckoView (Firefox)"
+        AppLanguage.VIETNAMESE -> "GeckoView (Firefox)"
         AppLanguage.ARABIC -> "GeckoView (Firefox)"
         AppLanguage.PORTUGUESE -> "GeckoView (Firefox)"
         AppLanguage.SPANISH -> "GeckoView (Firefox)"
@@ -8583,6 +8597,11 @@ object StringsD {
             "tornado" -> "Tornado: IOLoop is auto-configured, WebSocket support is available, and non-blocking mode is enabled."
             else -> null
         }
+        AppLanguage.VIETNAMESE -> when (framework?.lowercase()) {
+            "flask" -> "Flask: chế độ gỡ lỗi tự động tắt khi chạy thật. Tệp tĩnh được phục vụ từ thư mục static/."
+            "tornado" -> "Tornado: IOLoop được cấu hình tự động, hỗ trợ WebSocket và bật chế độ không chặn."
+            else -> null
+        }
         AppLanguage.ARABIC -> when (framework?.lowercase()) {
             "flask" -> "Flask: يتم تعطيل وضع التصحيح تلقائياً للإنتاج، وتُخدَّم الملفات الثابتة من مجلد static/."
             "tornado" -> "Tornado: تتم تهيئة IOLoop تلقائياً، ودعم WebSocket متاح، وتم تفعيل الوضع غير المتزامن."
@@ -8679,6 +8698,7 @@ object StringsD {
     val pyServerGunicorn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Gunicorn (WSGI)"
         AppLanguage.ENGLISH -> "Gunicorn (WSGI)"
+        AppLanguage.VIETNAMESE -> "Gunicorn (WSGI)"
         AppLanguage.ARABIC -> "Gunicorn (WSGI)"
         AppLanguage.PORTUGUESE -> "Gunicorn (WSGI)"
         AppLanguage.SPANISH -> "Gunicorn (WSGI)"
@@ -8704,6 +8724,7 @@ object StringsD {
     val pyServerUvicorn: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Uvicorn (ASGI)"
         AppLanguage.ENGLISH -> "Uvicorn (ASGI)"
+        AppLanguage.VIETNAMESE -> "Uvicorn (ASGI)"
         AppLanguage.ARABIC -> "Uvicorn (ASGI)"
         AppLanguage.PORTUGUESE -> "Uvicorn (ASGI)"
         AppLanguage.SPANISH -> "Uvicorn (ASGI)"
@@ -8833,6 +8854,7 @@ object StringsD {
     val pyDjangoSettingsModuleExample: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "myproject.settings"
         AppLanguage.ENGLISH -> "myproject.settings"
+        AppLanguage.VIETNAMESE -> "myproject.settings"
         AppLanguage.ARABIC -> "myproject.settings"
         AppLanguage.PORTUGUESE -> "myproject.settings"
         AppLanguage.SPANISH -> "myproject.settings"
@@ -8962,6 +8984,14 @@ object StringsD {
             "echo" -> "Echo: Logger and Recover middleware are auto-configured."
             "chi" -> "Chi: Lightweight stdlib-compatible router with middleware stack ready."
             "net_http" -> "net/http: Standard library server with graceful shutdown enabled."
+            else -> null
+        }
+        AppLanguage.VIETNAMESE -> when (framework?.lowercase()) {
+            "gin" -> "Gin: GIN_MODE tự động đặt thành release và router được tinh chỉnh cho production."
+            "fiber" -> "Fiber: Prefork bị tắt trên Android, engine Fasthttp vẫn hoạt động."
+            "echo" -> "Echo: middleware Logger và Recover được cấu hình tự động."
+            "chi" -> "Chi: router nhẹ tương thích stdlib với ngăn xếp middleware sẵn sàng."
+            "net_http" -> "net/http: máy chủ thư viện chuẩn với graceful shutdown được bật."
             else -> null
         }
         AppLanguage.ARABIC -> when (framework?.lowercase()) {
@@ -11126,6 +11156,7 @@ object StringsD {
     val sampleTagMvc: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "MVC"
         AppLanguage.ENGLISH -> "MVC"
+        AppLanguage.VIETNAMESE -> "MVC"
         AppLanguage.ARABIC -> "MVC"
         AppLanguage.PORTUGUESE -> "MVC"
         AppLanguage.SPANISH -> "MVC"
@@ -11269,6 +11300,7 @@ object StringsD {
     val sampleTagWsgi: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WSGI"
         AppLanguage.ENGLISH -> "WSGI"
+        AppLanguage.VIETNAMESE -> "WSGI"
         AppLanguage.ARABIC -> "WSGI"
         AppLanguage.PORTUGUESE -> "WSGI"
         AppLanguage.SPANISH -> "WSGI"
@@ -11281,6 +11313,7 @@ object StringsD {
     val sampleTagAsgi: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ASGI"
         AppLanguage.ENGLISH -> "ASGI"
+        AppLanguage.VIETNAMESE -> "ASGI"
         AppLanguage.ARABIC -> "ASGI"
         AppLanguage.PORTUGUESE -> "ASGI"
         AppLanguage.SPANISH -> "ASGI"
@@ -11306,6 +11339,7 @@ object StringsD {
     val sampleTagOrm: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "ORM"
         AppLanguage.ENGLISH -> "ORM"
+        AppLanguage.VIETNAMESE -> "ORM"
         AppLanguage.ARABIC -> "ORM"
         AppLanguage.PORTUGUESE -> "ORM"
         AppLanguage.SPANISH -> "ORM"
@@ -11646,6 +11680,7 @@ object StringsD {
     val sampleTagBlog: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "博客"
         AppLanguage.ENGLISH -> "Blog"
+        AppLanguage.VIETNAMESE -> "Blog"
         AppLanguage.ARABIC -> "مدونة"
         AppLanguage.PORTUGUESE -> "Blog"
         AppLanguage.SPANISH -> "Blog"
@@ -11697,6 +11732,7 @@ object StringsD {
     val sampleTagSqlite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SQLite"
         AppLanguage.ENGLISH -> "SQLite"
+        AppLanguage.VIETNAMESE -> "SQLite"
         AppLanguage.ARABIC -> "SQLite"
         AppLanguage.PORTUGUESE -> "SQLite"
         AppLanguage.SPANISH -> "SQLite"

@@ -634,6 +634,7 @@ object StringsA {
     val statsDurationHoursMinutes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%dh %dm"
         AppLanguage.ENGLISH -> "%dh %dm"
+        AppLanguage.VIETNAMESE -> "%dh %dm"
         AppLanguage.ARABIC -> "%dس %dد"
         AppLanguage.PORTUGUESE -> "%dh %dm"
         AppLanguage.SPANISH -> "%dh %dm"
@@ -646,6 +647,7 @@ object StringsA {
     val statsDurationMinutes: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%dm"
         AppLanguage.ENGLISH -> "%dm"
+        AppLanguage.VIETNAMESE -> "%dm"
         AppLanguage.ARABIC -> "%dد"
         AppLanguage.PORTUGUESE -> "%dm"
         AppLanguage.SPANISH -> "%dm"
@@ -658,6 +660,7 @@ object StringsA {
     val statsDurationUnderOneMinute: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "<1 分钟"
         AppLanguage.ENGLISH -> "<1m"
+        AppLanguage.VIETNAMESE -> "<1 phút"
         AppLanguage.ARABIC -> "<1د"
         AppLanguage.PORTUGUESE -> "<1m"
         AppLanguage.SPANISH -> "<1m"
@@ -1332,7 +1335,7 @@ object StringsA {
     val multiWebFeedStats: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "来自 %2\$d 个站点的 %1\$d 篇文章"
         AppLanguage.ENGLISH -> "%1\$d articles from %2\$d sites"
-        AppLanguage.VIETNAMESE -> "%1\\$d bài viết từ trang web %2\\$d"
+        AppLanguage.VIETNAMESE -> "%1\$d bài viết từ trang web %2\$d"
         AppLanguage.ARABIC -> "%1\$d مقالات من %2\$d مواقع"
         AppLanguage.PORTUGUESE -> "%1\$d artigos de %2\$d sites"
         AppLanguage.SPANISH -> "%1\$d artículos de %2\$d sitios"
@@ -1640,6 +1643,7 @@ object StringsA {
     val appTypeWeb: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网页"
         AppLanguage.ENGLISH -> "Web"
+        AppLanguage.VIETNAMESE -> "Web"
         AppLanguage.ARABIC -> "ويب"
         AppLanguage.PORTUGUESE -> "Web"
         AppLanguage.SPANISH -> "Web"
@@ -1681,6 +1685,7 @@ object StringsA {
     val appTypeHtml: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML"
         AppLanguage.ENGLISH -> "HTML"
+        AppLanguage.VIETNAMESE -> "HTML"
         AppLanguage.ARABIC -> "HTML"
         AppLanguage.PORTUGUESE -> "HTML"
         AppLanguage.SPANISH -> "HTML"
@@ -1722,6 +1727,7 @@ object StringsA {
     val appTypeWordPress: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WordPress"
         AppLanguage.ENGLISH -> "WordPress"
+        AppLanguage.VIETNAMESE -> "WordPress"
         AppLanguage.ARABIC -> "WordPress"
         AppLanguage.PORTUGUESE -> "WordPress"
         AppLanguage.SPANISH -> "WordPress"
@@ -1735,6 +1741,7 @@ object StringsA {
     val appTypeNodeJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js"
         AppLanguage.ENGLISH -> "Node.js"
+        AppLanguage.VIETNAMESE -> "Node.js"
         AppLanguage.ARABIC -> "Node.js"
         AppLanguage.PORTUGUESE -> "Node.js"
         AppLanguage.SPANISH -> "Node.js"
@@ -1748,6 +1755,7 @@ object StringsA {
     val appTypePhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP"
         AppLanguage.ENGLISH -> "PHP"
+        AppLanguage.VIETNAMESE -> "PHP"
         AppLanguage.ARABIC -> "PHP"
         AppLanguage.PORTUGUESE -> "PHP"
         AppLanguage.SPANISH -> "PHP"
@@ -1761,6 +1769,7 @@ object StringsA {
     val appTypePython: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python"
         AppLanguage.ENGLISH -> "Python"
+        AppLanguage.VIETNAMESE -> "Python"
         AppLanguage.ARABIC -> "Python"
         AppLanguage.PORTUGUESE -> "Python"
         AppLanguage.SPANISH -> "Python"
@@ -2903,6 +2912,7 @@ object StringsA {
     val wpDefaultSiteLanguageCode: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "zh_CN"
         AppLanguage.ENGLISH -> "en_US"
+        AppLanguage.VIETNAMESE -> "vi"
         AppLanguage.ARABIC -> "ar"
         AppLanguage.PORTUGUESE -> "pt_BR"
         AppLanguage.SPANISH -> "es_ES"
@@ -3389,6 +3399,49 @@ object StringsA {
                 "Ensure the server listens on 0.0.0.0 instead of 127.0.0.1",
                 "Use the PORT environment variable for the server port",
                 "Set NODE_ENV=production for production builds"
+            )
+        }
+
+        AppLanguage.VIETNAMESE -> when (framework) {
+            "Express" -> listOf(
+                "Đảm bảo app.listen() lắng nghe trên 0.0.0.0 thay vì localhost",
+                "Dùng express.static() để phục vụ tệp tĩnh",
+                "Đặt NODE_ENV=production khi chạy thật để tối ưu hiệu năng"
+            )
+            "Fastify" -> listOf(
+                "Dùng host: '0.0.0.0' cho địa chỉ lắng nghe",
+                "Fastify hỗ trợ kiểm tra JSON Schema gốc",
+                "Dùng @fastify/static để phục vụ tệp tĩnh"
+            )
+            "Koa" -> listOf(
+                "Koa thường cần middleware router riêng như koa-router",
+                "Dùng koa-static cho tài nguyên tĩnh",
+                "Mô hình middleware hành tây của Koa hợp với luồng xử lý phức tạp"
+            )
+            "NestJS" -> listOf(
+                "Đầu ra của NestJS thường là dist/main.js",
+                "Chạy nest build trước khi đóng gói để tạo thư mục dist",
+                "Đặt app.listen(port, '0.0.0.0') trong main.ts"
+            )
+            "Next.js" -> listOf(
+                "Dùng next start để chạy máy chủ production",
+                "Chạy next build trước để có thư mục .next",
+                "API route nằm trong pages/api hoặc app/api"
+            )
+            "Nuxt.js" -> listOf(
+                "Nuxt 3 dùng thư mục .output cho bản production",
+                "Chạy nuxi build để tạo gói máy chủ",
+                "Nitro tự động xử lý API route"
+            )
+            "Hapi" -> listOf(
+                "Khởi động máy chủ bằng server.start()",
+                "Đặt host: '0.0.0.0' để cho phép truy cập bên ngoài",
+                "Dùng @hapi/inert để phục vụ tệp tĩnh"
+            )
+            else -> listOf(
+                "Đảm bảo máy chủ lắng nghe trên 0.0.0.0 thay vì 127.0.0.1",
+                "Dùng biến môi trường PORT cho cổng máy chủ",
+                "Đặt NODE_ENV=production cho bản production"
             )
         }
 
@@ -3931,6 +3984,19 @@ object StringsA {
             - app/src/main/assets/www/ and assets/files/ hold local HTML, frontend, gallery, splash, and audio. node_modules and .git are omitted.
 
             Open this folder in Android Studio to sync and build it. The archive does not include the signing keystore or the full WebToApp shell runtime. It may include activation secrets and proxy credentials you configured.
+        """.trimIndent()
+        AppLanguage.VIETNAMESE -> """
+            # $name
+
+            Đây là dự án Android Studio bạn có thể mở và biên dịch.
+
+            - MainActivity trong app/src/main/java mở trang của ứng dụng này hoặc các tệp cục bộ trong WebView.
+            - app/src/main/AndroidManifest.xml chứa tên gói, quyền và biểu tượng.
+            - app/src/main/assets/app_config.json là cấu hình thời gian chạy mà WebToApp nhúng vào APK. Bản dựng mã hóa lưu tệp này dưới dạng bản mã; bản ở đây là văn bản thuần.
+            - app/src/main/res/xml/network_security_config.xml và res/raw/ là các cài đặt tin cậy mạng.
+            - app/src/main/assets/www/ và assets/files/ chứa HTML cục bộ, frontend, thư viện ảnh, màn hình khởi động và âm thanh. node_modules và .git được bỏ qua.
+
+            Mở thư mục này trong Android Studio để đồng bộ và biên dịch. Gói lưu trữ không bao gồm keystore ký hay toàn bộ runtime của shell WebToApp. Nó có thể chứa khóa kích hoạt và thông tin xác thực proxy bạn đã cấu hình.
         """.trimIndent()
         AppLanguage.ARABIC -> """
             # $name
@@ -5071,6 +5137,7 @@ object StringsA {
     val portManagerTypeNodeJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js"
         AppLanguage.ENGLISH -> "Node.js"
+        AppLanguage.VIETNAMESE -> "Node.js"
         AppLanguage.ARABIC -> "Node.js"
         AppLanguage.PORTUGUESE -> "Node.js"
         AppLanguage.SPANISH -> "Node.js"
@@ -5083,6 +5150,7 @@ object StringsA {
     val portManagerTypePhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP"
         AppLanguage.ENGLISH -> "PHP"
+        AppLanguage.VIETNAMESE -> "PHP"
         AppLanguage.ARABIC -> "PHP"
         AppLanguage.PORTUGUESE -> "PHP"
         AppLanguage.SPANISH -> "PHP"
@@ -5095,6 +5163,7 @@ object StringsA {
     val portManagerTypePython: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python"
         AppLanguage.ENGLISH -> "Python"
+        AppLanguage.VIETNAMESE -> "Python"
         AppLanguage.ARABIC -> "Python"
         AppLanguage.PORTUGUESE -> "Python"
         AppLanguage.SPANISH -> "Python"
@@ -5524,6 +5593,7 @@ object StringsA {
     fun depProjectCount(count: Int): String = when (Strings.lang) {
         AppLanguage.CHINESE -> "$count 个项目"
         AppLanguage.ENGLISH -> "$count project${if (count != 1) "s" else ""}"
+        AppLanguage.VIETNAMESE -> "$count dự án"
         AppLanguage.ARABIC -> "$count مشروع"
         AppLanguage.PORTUGUESE -> "$count projetos"
         AppLanguage.SPANISH -> "$count proyectos"
@@ -7680,6 +7750,7 @@ object StringsA {
         minutes >= 60 -> when (Strings.lang) {
             AppLanguage.CHINESE -> "${minutes / 60} 小时${if (minutes % 60 > 0) " ${minutes % 60} 分" else ""}"
             AppLanguage.ENGLISH -> "${minutes / 60}h${if (minutes % 60 > 0) " ${minutes % 60}m" else ""}"
+            AppLanguage.VIETNAMESE -> "${minutes / 60} giờ${if (minutes % 60 > 0) " ${minutes % 60} phút" else ""}"
             AppLanguage.ARABIC -> "${minutes / 60} ساعة${if (minutes % 60 > 0) " ${minutes % 60} دقيقة" else ""}"
             AppLanguage.PORTUGUESE -> "${minutes / 60}h${if (minutes % 60 > 0) " ${minutes % 60}min" else ""}"
             AppLanguage.SPANISH -> "${minutes / 60}h${if (minutes % 60 > 0) " ${minutes % 60}min" else ""}"
@@ -9093,6 +9164,7 @@ object StringsA {
     val runtimePhpSqlite: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP + SQLite"
         AppLanguage.ENGLISH -> "PHP + SQLite"
+        AppLanguage.VIETNAMESE -> "PHP + SQLite"
         AppLanguage.ARABIC -> "PHP + SQLite"
         AppLanguage.PORTUGUESE -> "PHP + SQLite"
         AppLanguage.SPANISH -> "PHP + SQLite"
@@ -12576,6 +12648,7 @@ object StringsA {
         when (Strings.lang) {
             AppLanguage.CHINESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "已启用 · %s", url) else "已启用"
             AppLanguage.ENGLISH -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Enabled · %s", url) else "Enabled"
+            AppLanguage.VIETNAMESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Đã bật · %s", url) else "Đã bật"
             AppLanguage.ARABIC -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "مفعّل · %s", url) else "مفعّل"
             AppLanguage.PORTUGUESE -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Ativado · %s", url) else "Ativado"
             AppLanguage.SPANISH -> if (url.isNotEmpty()) String.format(java.util.Locale.getDefault(), "Activado · %s", url) else "Activado"
@@ -12619,6 +12692,7 @@ object StringsA {
         when (Strings.lang) {
             AppLanguage.CHINESE -> String.format(java.util.Locale.getDefault(), "共 %d 个", count)
             AppLanguage.ENGLISH -> String.format(java.util.Locale.getDefault(), "%d total", count)
+            AppLanguage.VIETNAMESE -> String.format(java.util.Locale.getDefault(), "tổng %d", count)
             AppLanguage.ARABIC -> String.format(java.util.Locale.getDefault(), "%d الإجمالي", count)
             AppLanguage.PORTUGUESE -> String.format(java.util.Locale.getDefault(), "%d no total", count)
             AppLanguage.SPANISH -> String.format(java.util.Locale.getDefault(), "%d en total", count)

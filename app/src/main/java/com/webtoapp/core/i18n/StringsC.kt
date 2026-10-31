@@ -2493,6 +2493,7 @@ object StringsC {
     val permIndexedDb: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "IndexedDB"
         AppLanguage.ENGLISH -> "IndexedDB"
+        AppLanguage.VIETNAMESE -> "IndexedDB"
         AppLanguage.ARABIC -> "IndexedDB"
         AppLanguage.PORTUGUESE -> "IndexedDB"
         AppLanguage.SPANISH -> "IndexedDB"
@@ -2570,6 +2571,7 @@ object StringsC {
     val permWebsocket: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "WebSocket"
         AppLanguage.ENGLISH -> "WebSocket"
+        AppLanguage.VIETNAMESE -> "WebSocket"
         AppLanguage.ARABIC -> "WebSocket"
         AppLanguage.PORTUGUESE -> "WebSocket"
         AppLanguage.SPANISH -> "WebSocket"
@@ -3324,6 +3326,7 @@ object StringsC {
     val configTypeRadio: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "单选按钮"
         AppLanguage.ENGLISH -> "Radio"
+        AppLanguage.VIETNAMESE -> "Nút radio"
         AppLanguage.ARABIC -> "زر راديو"
         AppLanguage.PORTUGUESE -> "Rádio"
         AppLanguage.SPANISH -> "Radio"
@@ -3401,6 +3404,7 @@ object StringsC {
     val configTypeUrl: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "网址"
         AppLanguage.ENGLISH -> "URL"
+        AppLanguage.VIETNAMESE -> "URL"
         AppLanguage.ARABIC -> "رابط"
         AppLanguage.PORTUGUESE -> "URL"
         AppLanguage.SPANISH -> "URL"
@@ -3530,6 +3534,7 @@ object StringsC {
     val configTypeJavascript: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JavaScript"
         AppLanguage.ENGLISH -> "JavaScript"
+        AppLanguage.VIETNAMESE -> "JavaScript"
         AppLanguage.ARABIC -> "جافا سكريبت"
         AppLanguage.PORTUGUESE -> "JavaScript"
         AppLanguage.SPANISH -> "JavaScript"
@@ -3555,6 +3560,7 @@ object StringsC {
     val configTypeJson: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JSON"
         AppLanguage.ENGLISH -> "JSON"
+        AppLanguage.VIETNAMESE -> "JSON"
         AppLanguage.ARABIC -> "JSON"
         AppLanguage.PORTUGUESE -> "JSON"
         AppLanguage.SPANISH -> "JSON"
@@ -3750,6 +3756,7 @@ object StringsC {
     val lrcThemeKaraoke: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "卡拉OK"
         AppLanguage.ENGLISH -> "Karaoke"
+        AppLanguage.VIETNAMESE -> "Karaoke"
         AppLanguage.ARABIC -> "كاريوكي"
         AppLanguage.PORTUGUESE -> "Karaokê"
         AppLanguage.SPANISH -> "Karaoke"
@@ -6069,6 +6076,7 @@ object StringsC {
     val sha256Prefix: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "SHA-256"
         AppLanguage.ENGLISH -> "SHA-256"
+        AppLanguage.VIETNAMESE -> "SHA-256"
         AppLanguage.ARABIC -> "SHA-256"
         AppLanguage.PORTUGUESE -> "SHA-256"
         AppLanguage.SPANISH -> "SHA-256"
@@ -7172,6 +7180,7 @@ object StringsC {
     val aiCatalogContext: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 上下文"
         AppLanguage.ENGLISH -> "%d ctx"
+        AppLanguage.VIETNAMESE -> "%d ctx"
         AppLanguage.ARABIC -> "%d سياق"
         AppLanguage.PORTUGUESE -> "%d ctx"
         AppLanguage.SPANISH -> "%d ctx"
@@ -10810,6 +10819,7 @@ object StringsC {
     val notificationPollUrlPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "https://example.com/api/notifications"
         AppLanguage.ENGLISH -> "https://example.com/api/notifications"
+        AppLanguage.VIETNAMESE -> "https://example.com/api/notifications"
         AppLanguage.ARABIC -> "https://example.com/api/notifications"
         AppLanguage.PORTUGUESE -> "https://example.com/api/notifications"
         AppLanguage.SPANISH -> "https://example.com/api/notifications"
@@ -10849,6 +10859,7 @@ object StringsC {
     val notificationWsUrlPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "wss://example.com/ws/notifications"
         AppLanguage.ENGLISH -> "wss://example.com/ws/notifications"
+        AppLanguage.VIETNAMESE -> "wss://example.com/ws/notifications"
         AppLanguage.ARABIC -> "wss://example.com/ws/notifications"
         AppLanguage.PORTUGUESE -> "wss://example.com/ws/notifications"
         AppLanguage.SPANISH -> "wss://example.com/ws/notifications"
@@ -10900,6 +10911,7 @@ object StringsC {
     val notificationRegisterUrlPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "https://example.com/api/devices/register"
         AppLanguage.ENGLISH -> "https://example.com/api/devices/register"
+        AppLanguage.VIETNAMESE -> "https://example.com/api/devices/register"
         AppLanguage.ARABIC -> "https://example.com/api/devices/register"
         AppLanguage.PORTUGUESE -> "https://example.com/api/devices/register"
         AppLanguage.SPANISH -> "https://example.com/api/devices/register"
@@ -10925,7 +10937,7 @@ object StringsC {
     val notificationWsHeadersPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Authorization: Bearer xxx\\nX-Custom: value"
         AppLanguage.ENGLISH -> "Authorization: Bearer xxx\\nX-Custom: value"
-        AppLanguage.VIETNAMESE -> "Ủy quyền: Người ghi tên xxx\\\nX-Custom: giá trị"
+        AppLanguage.VIETNAMESE -> "Ủy quyền: Người ghi tên xxx\\nX-Custom: giá trị"
         AppLanguage.ARABIC -> "Authorization: Bearer xxx\\nX-Custom: value"
         AppLanguage.PORTUGUESE -> "Authorization: Bearer xxx\\nX-Custom: value"
         AppLanguage.SPANISH -> "Authorization: Bearer xxx\\nX-Custom: value"
@@ -10951,7 +10963,7 @@ object StringsC {
     val notificationRegisterHeadersPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Content-Type: application/json\\nAuthorization: Bearer xxx"
         AppLanguage.ENGLISH -> "Content-Type: application/json\\nAuthorization: Bearer xxx"
-        AppLanguage.VIETNAMESE -> "Loại nội dung: ứng dụng/json\\\nNgười ủy quyền: Người mang xxx"
+        AppLanguage.VIETNAMESE -> "Loại nội dung: ứng dụng/json\\nNgười ủy quyền: Người mang xxx"
         AppLanguage.ARABIC -> "Content-Type: application/json\\nAuthorization: Bearer xxx"
         AppLanguage.PORTUGUESE -> "Content-Type: application/json\\nAuthorization: Bearer xxx"
         AppLanguage.SPANISH -> "Content-Type: application/json\\nAuthorization: Bearer xxx"
@@ -11056,6 +11068,7 @@ object StringsC {
     val notificationFcmApplicationIdPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "1:1234567890:android:abcdef"
         AppLanguage.ENGLISH -> "1:1234567890:android:abcdef"
+        AppLanguage.VIETNAMESE -> "1:1234567890:android:abcdef"
         AppLanguage.ARABIC -> "1:1234567890:android:abcdef"
         AppLanguage.PORTUGUESE -> "1:1234567890:android:abcdef"
         AppLanguage.SPANISH -> "1:1234567890:android:abcdef"
@@ -11107,6 +11120,7 @@ object StringsC {
     val notificationFcmSenderIdPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "1234567890"
         AppLanguage.ENGLISH -> "1234567890"
+        AppLanguage.VIETNAMESE -> "1234567890"
         AppLanguage.ARABIC -> "1234567890"
         AppLanguage.PORTUGUESE -> "1234567890"
         AppLanguage.SPANISH -> "1234567890"
@@ -11161,6 +11175,7 @@ object StringsC {
     val notificationPollHeadersPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.ENGLISH -> """{"Authorization": "Bearer xxx"}"""
+        AppLanguage.VIETNAMESE -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.ARABIC -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.PORTUGUESE -> """{"Authorization": "Bearer xxx"}"""
         AppLanguage.SPANISH -> """{"Authorization": "Bearer xxx"}"""
@@ -11461,6 +11476,7 @@ object StringsC {
     val dnsCustomDohUrlPlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "https://dns.example.com/dns-query"
         AppLanguage.ENGLISH -> "https://dns.example.com/dns-query"
+        AppLanguage.VIETNAMESE -> "https://dns.example.com/dns-query"
         AppLanguage.ARABIC -> "https://dns.example.com/dns-query"
         AppLanguage.PORTUGUESE -> "https://dns.example.com/dns-query"
         AppLanguage.SPANISH -> "https://dns.example.com/dns-query"

@@ -278,6 +278,7 @@ fun FirstLaunchLanguageScreen(
                 text = when (selectedLanguage) {
                     AppLanguage.CHINESE -> "欢迎"
                     AppLanguage.ENGLISH -> "Welcome"
+                    AppLanguage.VIETNAMESE -> "Chào mừng"
                     AppLanguage.ARABIC -> "مرحبا"
                     AppLanguage.PORTUGUESE -> "Bem-vindo"
                     AppLanguage.SPANISH -> "Bienvenido"
@@ -299,6 +300,7 @@ fun FirstLaunchLanguageScreen(
                 text = when (selectedLanguage) {
                     AppLanguage.CHINESE -> "选择语言"
                     AppLanguage.ENGLISH -> "Select Language"
+                    AppLanguage.VIETNAMESE -> "Chọn ngôn ngữ"
                     AppLanguage.ARABIC -> "اختر اللغة"
                     AppLanguage.PORTUGUESE -> "Selecione o Idioma"
                     AppLanguage.SPANISH -> "Selecciona el Idioma"
@@ -353,6 +355,7 @@ fun FirstLaunchLanguageScreen(
                     text = when (selectedLanguage) {
                         AppLanguage.CHINESE -> "确认"
                         AppLanguage.ENGLISH -> "Confirm"
+                        AppLanguage.VIETNAMESE -> "Xác nhận"
                         AppLanguage.ARABIC -> "تأكيد"
                         AppLanguage.PORTUGUESE -> "Confirmar"
                         AppLanguage.SPANISH -> "Confirmar"

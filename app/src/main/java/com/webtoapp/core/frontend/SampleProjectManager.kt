@@ -15,6 +15,7 @@ object SampleProjectManager {
         return when (Strings.currentLanguage.value) {
             AppLanguage.CHINESE -> ""
             AppLanguage.ENGLISH -> "-en"
+            AppLanguage.VIETNAMESE -> "-en"
             AppLanguage.ARABIC -> "-ar"
             AppLanguage.PORTUGUESE -> "-en"
             AppLanguage.SPANISH -> "-en"

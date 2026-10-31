@@ -1651,6 +1651,7 @@ private fun Context.openUrl(url: String) {
 private fun aboutAuthorByLine(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "开发者 Shiaho"
     AppLanguage.ENGLISH -> "by Shiaho"
+    AppLanguage.VIETNAMESE -> "bởi Shiaho"
     AppLanguage.ARABIC -> "بواسطة Shiaho"
     AppLanguage.PORTUGUESE -> "by Shiaho"
     AppLanguage.SPANISH -> "by Shiaho"
@@ -1665,6 +1666,7 @@ private fun aboutAuthorByLine(): String = when (Strings.currentLanguage.value) {
 private fun contactSectionTitle(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "联系作者"
     AppLanguage.ENGLISH -> "Get in touch"
+    AppLanguage.VIETNAMESE -> "Liên hệ"
     AppLanguage.ARABIC -> "تواصل مع المؤلف"
     AppLanguage.PORTUGUESE -> "Get in touch"
     AppLanguage.SPANISH -> "Get in touch"
@@ -1679,6 +1681,7 @@ private fun contactSectionTitle(): String = when (Strings.currentLanguage.value)
 private fun docsLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "官方文档"
     AppLanguage.ENGLISH -> "Docs"
+    AppLanguage.VIETNAMESE -> "Tài liệu"
     AppLanguage.ARABIC -> "الوثائق"
     AppLanguage.PORTUGUESE -> "Docs"
     AppLanguage.SPANISH -> "Docs"
@@ -1693,6 +1696,7 @@ private fun docsLabel(): String = when (Strings.currentLanguage.value) {
 private fun authorLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "其他项目"
     AppLanguage.ENGLISH -> "More projects"
+    AppLanguage.VIETNAMESE -> "Dự án khác"
     AppLanguage.ARABIC -> "مشاريع أخرى"
     AppLanguage.PORTUGUESE -> "More projects"
     AppLanguage.SPANISH -> "More projects"
@@ -1707,6 +1711,7 @@ private fun authorLabel(): String = when (Strings.currentLanguage.value) {
 private fun groupWord(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "群"
     AppLanguage.ENGLISH -> "Group"
+    AppLanguage.VIETNAMESE -> "Nhóm"
     AppLanguage.ARABIC -> "مجموعة"
     AppLanguage.PORTUGUESE -> "Group"
     AppLanguage.SPANISH -> "Group"
@@ -1721,6 +1726,7 @@ private fun groupWord(): String = when (Strings.currentLanguage.value) {
 private fun qqCopiedToast(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "QQ 群号已复制"
     AppLanguage.ENGLISH -> "QQ group number copied"
+    AppLanguage.VIETNAMESE -> "Đã sao chép số nhóm QQ"
     AppLanguage.ARABIC -> "تم نسخ رقم مجموعة QQ"
     AppLanguage.PORTUGUESE -> "QQ group number copied"
     AppLanguage.SPANISH -> "QQ group number copied"
@@ -1735,6 +1741,7 @@ private fun qqCopiedToast(): String = when (Strings.currentLanguage.value) {
 private fun versionCopiedToast(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "版本号已复制"
     AppLanguage.ENGLISH -> "Version copied"
+    AppLanguage.VIETNAMESE -> "Đã sao chép phiên bản"
     AppLanguage.ARABIC -> "تم نسخ الإصدار"
     AppLanguage.PORTUGUESE -> "Version copied"
     AppLanguage.SPANISH -> "Version copied"
@@ -2212,6 +2219,7 @@ private fun languageColor(name: String): Color = when (name) {
 private fun otherProjectsTitle(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "作者的其他项目"
     AppLanguage.ENGLISH -> "More projects"
+    AppLanguage.VIETNAMESE -> "Dự án khác"
     AppLanguage.ARABIC -> "مشاريع أخرى"
     AppLanguage.PORTUGUESE -> "Mais projetos"
     AppLanguage.SPANISH -> "Más proyectos"
@@ -2226,6 +2234,7 @@ private fun otherProjectsTitle(): String = when (Strings.currentLanguage.value) 
 private fun sortByStarsLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "按星标"
     AppLanguage.ENGLISH -> "Stars"
+    AppLanguage.VIETNAMESE -> "Sao"
     AppLanguage.ARABIC -> "بالنجوم"
     AppLanguage.PORTUGUESE -> "Estrelas"
     AppLanguage.SPANISH -> "Estrellas"
@@ -2240,6 +2249,7 @@ private fun sortByStarsLabel(): String = when (Strings.currentLanguage.value) {
 private fun sortByUpdatedLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "按更新"
     AppLanguage.ENGLISH -> "Latest"
+    AppLanguage.VIETNAMESE -> "Mới nhất"
     AppLanguage.ARABIC -> "الأحدث"
     AppLanguage.PORTUGUESE -> "Recentes"
     AppLanguage.SPANISH -> "Recientes"
@@ -2254,6 +2264,7 @@ private fun sortByUpdatedLabel(): String = when (Strings.currentLanguage.value) 
 private fun otherProjectsLoading(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "正在加载项目…"
     AppLanguage.ENGLISH -> "Loading projects…"
+    AppLanguage.VIETNAMESE -> "Đang tải dự án…"
     AppLanguage.ARABIC -> "جارٍ تحميل المشاريع…"
     AppLanguage.PORTUGUESE -> "Carregando projetos…"
     AppLanguage.SPANISH -> "Cargando proyectos…"
@@ -2268,6 +2279,7 @@ private fun otherProjectsLoading(): String = when (Strings.currentLanguage.value
 private fun otherProjectsFailed(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "项目加载失败"
     AppLanguage.ENGLISH -> "Failed to load projects"
+    AppLanguage.VIETNAMESE -> "Không tải được dự án"
     AppLanguage.ARABIC -> "فشل تحميل المشاريع"
     AppLanguage.PORTUGUESE -> "Falha ao carregar projetos"
     AppLanguage.SPANISH -> "Error al cargar proyectos"
@@ -2282,6 +2294,7 @@ private fun otherProjectsFailed(): String = when (Strings.currentLanguage.value)
 private fun otherProjectsEmpty(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "暂无其他公开项目"
     AppLanguage.ENGLISH -> "No other public projects"
+    AppLanguage.VIETNAMESE -> "Không có dự án công khai khác"
     AppLanguage.ARABIC -> "لا توجد مشاريع عامة أخرى"
     AppLanguage.PORTUGUESE -> "Nenhum outro projeto público"
     AppLanguage.SPANISH -> "No hay otros proyectos públicos"
@@ -2296,6 +2309,7 @@ private fun otherProjectsEmpty(): String = when (Strings.currentLanguage.value) 
 private fun repoNoDescription(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "暂无简介"
     AppLanguage.ENGLISH -> "No description"
+    AppLanguage.VIETNAMESE -> "Không có mô tả"
     AppLanguage.ARABIC -> "بدون وصف"
     AppLanguage.PORTUGUESE -> "Sem descrição"
     AppLanguage.SPANISH -> "Sin descripción"
@@ -2310,6 +2324,7 @@ private fun repoNoDescription(): String = when (Strings.currentLanguage.value) {
 private fun viewAllOnGitHub(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "在 GitHub 查看全部"
     AppLanguage.ENGLISH -> "View all on GitHub"
+    AppLanguage.VIETNAMESE -> "Xem tất cả trên GitHub"
     AppLanguage.ARABIC -> "عرض الكل على GitHub"
     AppLanguage.PORTUGUESE -> "Ver tudo no GitHub"
     AppLanguage.SPANISH -> "Ver todo en GitHub"
@@ -2324,6 +2339,7 @@ private fun viewAllOnGitHub(): String = when (Strings.currentLanguage.value) {
 private fun showMoreProjectsLabel(count: Int): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "展开其余 $count 个项目"
     AppLanguage.ENGLISH -> "Show $count more"
+    AppLanguage.VIETNAMESE -> "Hiện thêm $count mục"
     AppLanguage.ARABIC -> "عرض $count إضافية"
     AppLanguage.PORTUGUESE -> "Mostrar mais $count"
     AppLanguage.SPANISH -> "Mostrar $count más"
@@ -2338,6 +2354,7 @@ private fun showMoreProjectsLabel(count: Int): String = when (Strings.currentLan
 private fun showLessProjectsLabel(): String = when (Strings.currentLanguage.value) {
     AppLanguage.CHINESE -> "收起"
     AppLanguage.ENGLISH -> "Show less"
+    AppLanguage.VIETNAMESE -> "Thu gọn"
     AppLanguage.ARABIC -> "عرض أقل"
     AppLanguage.PORTUGUESE -> "Mostrar menos"
     AppLanguage.SPANISH -> "Mostrar menos"

@@ -50,6 +50,7 @@ object StringsB {
     val buildSummaryJdk: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "JDK"
         AppLanguage.ENGLISH -> "JDK"
+        AppLanguage.VIETNAMESE -> "JDK"
         AppLanguage.ARABIC -> "JDK"
         AppLanguage.PORTUGUESE -> "JDK"
         AppLanguage.SPANISH -> "JDK"
@@ -1409,6 +1410,7 @@ object StringsB {
     val apkPackageNamePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "com.example.myapp"
         AppLanguage.ENGLISH -> "com.example.myapp"
+        AppLanguage.VIETNAMESE -> "com.example.myapp"
         AppLanguage.ARABIC -> "com.example.myapp"
         AppLanguage.PORTUGUESE -> "com.example.myapp"
         AppLanguage.SPANISH -> "com.example.myapp"
@@ -1436,6 +1438,7 @@ object StringsB {
     val apkVersionNamePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "1.0.0"
         AppLanguage.ENGLISH -> "1.0.0"
+        AppLanguage.VIETNAMESE -> "1.0.0"
         AppLanguage.ARABIC -> "1.0.0"
         AppLanguage.PORTUGUESE -> "1.0.0"
         AppLanguage.SPANISH -> "1.0.0"
@@ -1463,6 +1466,7 @@ object StringsB {
     val apkVersionCodePlaceholder: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "1"
         AppLanguage.ENGLISH -> "1"
+        AppLanguage.VIETNAMESE -> "1"
         AppLanguage.ARABIC -> "1"
         AppLanguage.PORTUGUESE -> "1"
         AppLanguage.SPANISH -> "1"
@@ -2022,6 +2026,7 @@ object StringsB {
         when (Strings.lang) {
             AppLanguage.CHINESE -> String.format(java.util.Locale.getDefault(), "%d 秒", seconds)
             AppLanguage.ENGLISH -> String.format(java.util.Locale.getDefault(), "%d s", seconds)
+            AppLanguage.VIETNAMESE -> String.format(java.util.Locale.getDefault(), "%d giây", seconds)
             AppLanguage.ARABIC -> String.format(java.util.Locale.getDefault(), "%d ث", seconds)
             AppLanguage.PORTUGUESE -> String.format(java.util.Locale.getDefault(), "%d s", seconds)
             AppLanguage.SPANISH -> String.format(java.util.Locale.getDefault(), "%d s", seconds)
@@ -2797,6 +2802,7 @@ object StringsB {
     val dependencyCountValue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "%d 个"
         AppLanguage.ENGLISH -> "%d"
+        AppLanguage.VIETNAMESE -> "%d"
         AppLanguage.ARABIC -> "%d"
         AppLanguage.PORTUGUESE -> "%d"
         AppLanguage.SPANISH -> "%d"
@@ -4085,6 +4091,7 @@ object StringsB {
     val themeNeonTokyo: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "东京霓虹"
         AppLanguage.ENGLISH -> "Tokyo Neon"
+        AppLanguage.VIETNAMESE -> "Tokyo Neon"
         AppLanguage.ARABIC -> "نيون طوكيو"
         AppLanguage.PORTUGUESE -> "Neon de Tóquio"
         AppLanguage.SPANISH -> "Neón de Tokio"
@@ -4434,6 +4441,7 @@ object StringsB {
     val accentMochaLatte: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "摩卡拿铁"
         AppLanguage.ENGLISH -> "Mocha latte"
+        AppLanguage.VIETNAMESE -> "Mocha latte"
         AppLanguage.ARABIC -> "موكا لاتيه"
         AppLanguage.PORTUGUESE -> "Mocha latte"
         AppLanguage.SPANISH -> "Moka latte"
@@ -7015,6 +7023,7 @@ object StringsB {
     val agentKindHtml: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "HTML"
         AppLanguage.ENGLISH -> "HTML"
+        AppLanguage.VIETNAMESE -> "HTML"
         AppLanguage.ARABIC -> "HTML"
         AppLanguage.PORTUGUESE -> "HTML"
         AppLanguage.SPANISH -> "HTML"
@@ -7040,6 +7049,7 @@ object StringsB {
     val agentKindVue: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Vue"
         AppLanguage.ENGLISH -> "Vue"
+        AppLanguage.VIETNAMESE -> "Vue"
         AppLanguage.ARABIC -> "Vue"
         AppLanguage.PORTUGUESE -> "Vue"
         AppLanguage.SPANISH -> "Vue"
@@ -7052,6 +7062,7 @@ object StringsB {
     val agentKindNodeJs: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Node.js"
         AppLanguage.ENGLISH -> "Node.js"
+        AppLanguage.VIETNAMESE -> "Node.js"
         AppLanguage.ARABIC -> "Node.js"
         AppLanguage.PORTUGUESE -> "Node.js"
         AppLanguage.SPANISH -> "Node.js"
@@ -7064,6 +7075,7 @@ object StringsB {
     val agentKindPhp: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "PHP"
         AppLanguage.ENGLISH -> "PHP"
+        AppLanguage.VIETNAMESE -> "PHP"
         AppLanguage.ARABIC -> "PHP"
         AppLanguage.PORTUGUESE -> "PHP"
         AppLanguage.SPANISH -> "PHP"
@@ -7076,6 +7088,7 @@ object StringsB {
     val agentKindPython: String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> "Python"
         AppLanguage.ENGLISH -> "Python"
+        AppLanguage.VIETNAMESE -> "Python"
         AppLanguage.ARABIC -> "Python"
         AppLanguage.PORTUGUESE -> "Python"
         AppLanguage.SPANISH -> "Python"
@@ -8856,6 +8869,7 @@ object StringsB {
     val agentRateLimitRetry: (Int, Int, Long) -> String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> { attempt, max, ms -> "请求被限流，${ms / 1000}秒后重试（第${attempt}/${max}次）…" }
         AppLanguage.ENGLISH -> { attempt, max, ms -> "Rate limited, retrying in ${ms / 1000}s (attempt ${attempt}/${max})…" }
+        AppLanguage.VIETNAMESE -> { attempt, max, ms -> "Bị giới hạn tốc độ, thử lại sau ${ms / 1000} giây (lần ${attempt}/${max})…" }
         AppLanguage.ARABIC -> { attempt, max, ms -> "تم تحديد الطلبات، إعادة المحاولة خلال ${ms / 1000}ث (المحاولة ${attempt}/${max})…" }
         AppLanguage.PORTUGUESE -> { attempt, max, ms -> "Limite de taxa, tentando novamente em ${ms / 1000}s (tentativa ${attempt}/${max})…" }
         AppLanguage.SPANISH -> { attempt, max, ms -> "Límite de tasa, reintentando en ${ms / 1000}s (intento ${attempt}/${max})…" }
@@ -8869,6 +8883,7 @@ object StringsB {
     val agentKeySwitched: (String) -> String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> { masked -> "这把密钥被限额了，已换到 $masked" }
         AppLanguage.ENGLISH -> { masked -> "That key is rate-limited. Switched to $masked" }
+        AppLanguage.VIETNAMESE -> { masked -> "Khóa này đã bị giới hạn tốc độ. Đã chuyển sang $masked" }
         AppLanguage.ARABIC -> { masked -> "وصل هذا المفتاح إلى الحد. تم التبديل إلى $masked" }
         AppLanguage.PORTUGUESE -> { masked -> "Essa chave atingiu o limite. Trocada para $masked" }
         AppLanguage.SPANISH -> { masked -> "Esa clave llegó al límite. Cambiada a $masked" }
@@ -8882,6 +8897,7 @@ object StringsB {
     val agentKeysCooling: (Long) -> String get() = when (Strings.lang) {
         AppLanguage.CHINESE -> { minutes -> "这组密钥都在冷却，大约 $minutes 分钟后可以再用" }
         AppLanguage.ENGLISH -> { minutes -> "Every key for this model is cooling down. The next one frees up in about $minutes min" }
+        AppLanguage.VIETNAMESE -> { minutes -> "Mọi khóa của mô hình này đang tạm nghỉ. Khóa tiếp theo khả dụng sau khoảng $minutes phút" }
         AppLanguage.ARABIC -> { minutes -> "كل المفاتيح لهذا النموذج في فترة تبريد. يتاح التالي بعد نحو $minutes د" }
         AppLanguage.PORTUGUESE -> { minutes -> "Todas as chaves deste modelo estão em pausa. A próxima libera em cerca de $minutes min" }
         AppLanguage.SPANISH -> { minutes -> "Todas las claves de este modelo están en pausa. La siguiente queda libre en unos $minutes min" }
